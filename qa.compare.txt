@@ -1,0 +1,30 @@
+RA : Validation Results
+=========================================
+
+err = 4, warn = 9, info = 0
+$--
+Generated $--. FHIR version $-- for smart.who.int.ra#$-- (canonical = http://smart.who.int/ra)
+ Build Errors : 6 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra : 4 / 5 / 2
+</table>
+== n/a ==
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 302, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 303, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 305, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 319, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 320, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 321, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json ==
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[9].uri: Canonical URL 'https://profiles.ihe.net/ITI/mCSD/ImplementationGuide/ihe.iti.svcm' does not resolve
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.3.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[7]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[9]: The packageId ihe.iti.svcm points to the canonical https://profiles.ihe.net/ITI/SVCM which is inconsistent with the stated canonical of https://profiles.ihe.net/ITI/mCSD/ImplementationGuide/ihe.iti.svcm
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[11]: The ImplementationGuide is based on FHIR version 4.0.1 but package smart.who.int.trust#current is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[12]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0)
