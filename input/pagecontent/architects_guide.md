@@ -70,6 +70,7 @@ The following people are contributing to the core architecture
 * José Costa Teixeira (Belgium)
 * Anusree Jayakrishnan (Centre for Digital Public Infrastructure)
 * Umer Nisar (CSIRO Australia)
+* Eric Ramirez (El Salvador)
 
 
 
