@@ -1,11 +1,10 @@
 ### DRAFT Architecture Scope
 
 <div style="display:block">
-  <img src="RAscope.JPG" alt="RA alignment image" width="700em"/>
+  <img src="../images/RAscope.JPG" alt="RA alignment image" width="700em"/>
 </div>
 
-
-The machine-readable DPI-H Reference Architecture aims to provide a modular, standards-based framework to guide the development and alignment of national digital health systems.
+The machine-readable DPI-H Reference Architecture (RA) aims to provide a modular, standards-based framework to guide the development and alignment of national digital health systems.
 
 #### DRAFT Guiding Principles
 
@@ -17,14 +16,13 @@ The machine-readable DPI-H Reference Architecture aims to provide a modular, sta
 
 1. Define requirements for interoperability across domains and services.  
 2. Define generic user personas, systems, functional roles, and processes across the health system to model user scenarios and system interactions that DPI-H components are expected to support.  
-3. Define how national foundational digital infrastructure (e.g., identity, consent, messaging) integrates with health-sector infrastructure components (e.g., shared health repositories, registries). *— at architectural level*  
-4. ~~Define mechanisms (e.g., APIs, inputs, outputs, triggers, workflows) to enable interoperability between digital public infrastructure components and applications supporting service delivery, data exchange, and decision-making. *— at operational level*~~  
+3. Define how national foundational digital infrastructure (e.g., identity, consent, messaging) integrates with health-sector infrastructure components (e.g., shared health repositories, registries). *— at architectural level_*  
+4. Define mechanisms and identify APIs to enable interoperability between digital public infrastructure components and applications supporting service delivery, data exchange, and decision-making. *— at operational level_* 
 5. Define trust services required for secure and ethical data exchange
 6. Define reusable architectural patterns to support country-level customization while ensuring alignment with global conformance requirements.
 
 #### Out of Scope
 
 - The design and internal architecture of Point of Service (PoS) applications, registries, and line-of-business systems.
-- National Core and Use Case–Specific FHIR Implementation Guides (e.g., for Immunisation, Maternal Health).
+- The developement of National and Use Case–Specific FHIR Implementation Guides (e.g., for Immunisation, Maternal Health). However, the RA will use or refernece use-case specific FHIR IGs where available.
 - Country-specific Enterprise Architectures or digital transformation strategies.
-- What else??
