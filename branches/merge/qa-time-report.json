@@ -1,0 +1,426 @@
+{
+  "date" : "Wed, 21 May, 2025 10:59:34 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json",
+      "size" : 13563,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 22
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 96,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 437
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 38988
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 136,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 105
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 96
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 174,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-ClientRegistry.json",
+      "size" : 842,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 13
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 96,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 135,
+          "length" : 461
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 33
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-FacilityRegistry.json",
+      "size" : 448,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 24
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-HealthManagementInformationSystem.json",
+      "size" : 488,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 96,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 96,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 17
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-HealthWorkerRegistry.json",
+      "size" : 887,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 27
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-InteroperabilityLayer.json",
+      "size" : 466,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 23
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-LogisticsManagementInformationSystem.json",
+      "size" : 507,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 29
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-PointOfServiceSystem.json",
+      "size" : 472,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 96,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 30
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-SharedHealthRecord.json",
+      "size" : 458,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 12
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 30
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ActorDefinition-TerminologyService.json",
+      "size" : 463,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 95,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 95,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 96,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 12
+        },
+        {
+          "activity" : "generate1",
+          "start" : 136,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 29
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 155,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}
