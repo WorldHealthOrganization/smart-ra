@@ -66,10 +66,10 @@ Usage: #definition
  - Service discovery and identification \n
  - Service identity management \n
  - Encryption of service to service communications \n
- - Authentication, Authorization and permissions at the service level (no application or user level) \n
+ - Authentication, authorization and permissions at the service level (no application or user level) \n
  - Service monitoring and transaction logging \n
  \n
-Depending on the governance requirements, this layer may also include tools to centralize service logic including Message routing, workflow and service orchestration, and message translation"
+Depending on the governance requirements, this layer may also include tools to centralize service logic including message routing, workflow and service orchestration, and message translation."
 * status = #active
 * experimental = false
 * publisher = "OpenHIE"
