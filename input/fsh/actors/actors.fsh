@@ -62,15 +62,15 @@ InstanceOf: ActorDefinition
 Usage: #definition
 * name = "Interoperability Layer"
 * title = "Interoperability Layer"
-* description = "A solution that enables communication of services across domains and organizations, including: \n
- - Service discovery and identification \n
- - Service identity life cycle management \n
- - Encryption of service to service communications \n
- - Authentication, authorization and permissions at the service level (not application or user level) \n
- - Service monitoring and transaction logging \n
- \n
-Depending on the governance requirements, this layer may also include tools to centralize service logic \n 
- including message routing, workflow and service orchestration, and message translation."
+* description = """A component that enables communication of services across domains and organizations, This MMAY include:  
+ - Service discovery and identification  
+ - Service identity life cycle management  
+ - Encryption of service to service communications  
+ - Authentication, authorization and permissions at the service level (not application or user level)  
+ - Service monitoring and transaction logging  
+  
+Depending on the governance requirements, this layer may also include tools to centralize service logic including message routing, workflow and service orchestration, and message translation.
+"""
 * status = #active
 * experimental = false
 * publisher = "smart-ra"
