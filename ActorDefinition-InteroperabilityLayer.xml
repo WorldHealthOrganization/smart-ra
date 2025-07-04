@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="InteroperabilityLayer"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ActorDefinition InteroperabilityLayer</b></p><a name="InteroperabilityLayer"> </a><a name="hcInteroperabilityLayer"> </a><table class="grid"><tr><td><b>Actor: Interoperability Layer </b></td><td>Interoperability Layer</td><td>Type: system </td></tr><tr><td colspan="3"/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url">
+    <valueUri value="http://smart.who.int/ra/ActorDefinition/InteroperabilityLayer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version">
+    <valueString value="0.2.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name">
+    <valueString value="Interoperability Layer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title">
+    <valueString value="Interoperability Layer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status">
+    <valueCode value="active"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.experimental">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date">
+    <valueDateTime value="2025-07-04T19:36:19+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher">
+    <valueString value="WHO"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact">
+    <valueContactDetail>
+      <name value="WHO"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://who.int"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description">
+    <valueMarkdown value="A component that enables communication of services across domains and organizations, This MMAY include:  &#xA; - Service discovery and identification  &#xA; - Service identity life cycle management  &#xA; - Encryption of service to service communications  &#xA; - Authentication, authorization and permissions at the service level (not application or user level)  &#xA; - Service monitoring and transaction logging  &#xA;&#xA;Depending on the governance requirements, this layer may also include tools to centralize service logic including message routing, workflow and service orchestration, and message translation."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="001"/>
+        <display value="World"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type">
+    <valueCode value="system"/>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="ActorDefinition"/>
+    </coding>
+  </code>
+</Basic>
