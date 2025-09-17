@@ -37,7 +37,7 @@ Some examples are provided for clarity.
 
 
 ### Business Function
-> A collection of business behavior based on a chosen set of criteria, closely aligned to an organization.
+> A collection of business processes based on a chosen set of criteria, closely aligned to an organization.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Examples:_  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- _"Managing Workforce Identity"_  
