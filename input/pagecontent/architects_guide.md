@@ -46,7 +46,7 @@ THe reference architecture adopts the normative words defined in [IETF Best Curr
 
 #### Use of Standards
 
-The Reference Architecture SHALL make us of open standards which are maintained by a Standards Development Organization (SDO) with an open partiicipation policy and whhich are unencumbered by license restrictions that would limit the implementation.  This use of standards SHALL apply to:
+The Reference Architecture SHALL make us of open standards which are maintained by a Standards Development Organization (SDO) with an open participation policy and which are unencumbered by license restrictions that would limit the implementation.  This use of standards SHALL apply to:
 * descriptions of API transactions between system actors; and
 * message semantics.
 
