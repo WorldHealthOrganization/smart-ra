@@ -46,7 +46,7 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: |
           ARCHI_VERSION="5.8.0"
-          ARCHI_URL="https://github.com/archimatetool/archi.io/releases/download/${ARCHI_VERSION}/Archi-Linux64-${ARCHI_VERSION}.tgz"
+          ARCHI_URL="https://www.archimatetool.com/downloads/archi/${ARCHI_VERSION}/Archi-Linux64-${ARCHI_VERSION}.tgz"
           echo "Downloading Archi ${ARCHI_VERSION}..."
           curl -fSL -o archi.tgz "${ARCHI_URL}"
           tar xzf archi.tgz
