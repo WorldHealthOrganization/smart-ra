@@ -20,19 +20,37 @@ jobs:
       - name: Build mapper
         run: |
           cd tools/ra-mapper
-          python3 build_ra_mapper.py \
-            ../../archimate/draft/WHOBaseFile.archimate \
-            ../../archimate/current/WHOBaseFile_prev.archimate \
-            -l "WHO RA (draft)" "WHO RA (previous)" \
-            -o SMART-RA-Mapper.html
+
+          # The current version (from archimate/current.txt) is listed first, so it
+          # becomes the mapper's default; the remaining version folders follow.
+          CURRENT=""
+          if [ -f ../../archimate/current.txt ]; then
+            CURRENT=$(head -n1 ../../archimate/current.txt | tr -d '[:space:]')
+            CURRENT="${CURRENT%/}"
+          fi
+
+          MODELS=(); LABELS=()
+          add() {
+            local m
+            m=$(find "$1" -maxdepth 1 -name '*.archimate' -type f | head -1)
+            if [ -n "$m" ]; then MODELS+=("$m"); LABELS+=("$2"); fi
+          }
+
+          [ -n "$CURRENT" ] && add "../../archimate/$CURRENT" "WHO RA ($CURRENT, current)"
+          for DIR in ../../archimate/*/; do
+            NAME=$(basename "$DIR")
+            [ "$NAME" = "$CURRENT" ] && continue
+            add "$DIR" "WHO RA ($NAME)"
+          done
+
+          echo "Building mapper with: ${LABELS[*]}"
+          python3 build_ra_mapper.py "${MODELS[@]}" -l "${LABELS[@]}" -o SMART-RA-Mapper.html
 
       - name: Prepare deploy layout
         run: |
-          BRANCH="${GITHUB_REF#refs/heads/}"
-          if [ "$BRANCH" = "main" ]; then BASE_DIR="."; else BASE_DIR="branches/$BRANCH"; fi
-          mkdir -p "deploy_output/$BASE_DIR/mapper"
-          cp tools/ra-mapper/SMART-RA-Mapper.html "deploy_output/$BASE_DIR/mapper/index.html"
-          cp tools/ra-mapper/SMART-RA-Mapper.html "deploy_output/$BASE_DIR/mapper/SMART-RA-Mapper.html"
+          mkdir -p deploy_output/mapper
+          cp tools/ra-mapper/SMART-RA-Mapper.html deploy_output/mapper/index.html
+          cp tools/ra-mapper/SMART-RA-Mapper.html deploy_output/mapper/SMART-RA-Mapper.html
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
