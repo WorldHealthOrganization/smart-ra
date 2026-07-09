@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "archimate/**"
-      - ".github/workflows/publish-html-report.yml"
+      - ".github/workflows/archimate.yml"
   workflow_dispatch: # manual trigger
 
 jobs:
@@ -45,8 +45,8 @@ jobs:
       - name: Download and extract Archi
         if: steps.check.outputs.skip != 'true'
         run: |
-          ARCHI_VERSION="5.8.0"
-          ARCHI_URL="https://github.com/archimatetool/archi.io/releases/download/${ARCHI_VERSION}/Archi-Linux64-${ARCHI_VERSION}.tgz"
+          ARCHI_VERSION="5.9.0"
+          ARCHI_URL="https://github.com/archimatetool/archi.io/releases/download/5.9.0/Archi-Linux64-5.9.0.tgz"
           echo "Downloading Archi ${ARCHI_VERSION}..."
           curl -fSL -o archi.tgz "${ARCHI_URL}"
           tar xzf archi.tgz
@@ -69,66 +69,64 @@ jobs:
           echo "DISPLAY=:99" >> "$GITHUB_ENV"
           sleep 2
 
-      - name: Determine deploy layout and generate reports
+      - name: Generate reports and lay out under /archimate
         if: steps.check.outputs.skip != 'true'
         run: |
-          BRANCH="${GITHUB_REF#refs/heads/}"
-          if [ "$BRANCH" = "main" ]; then
-            BASE_DIR="."
-          else
-            BASE_DIR="branches/$BRANCH"
+          # Which version is "current" is declared in archimate/current.txt — a one-line
+          # file containing the version folder name (e.g. "v2"). The current version's
+          # report is ALSO published at the /archimate root, so the .archimate file
+          # never has to be duplicated: it lives only in its own version folder.
+          CURRENT_VERSION=""
+          if [ -f archimate/current.txt ]; then
+            CURRENT_VERSION=$(head -n1 archimate/current.txt | tr -d '[:space:]')
+            CURRENT_VERSION="${CURRENT_VERSION%/}"
           fi
+          echo "Current version: ${CURRENT_VERSION:-<none declared in archimate/current.txt>}"
 
-          COUNT=${{ steps.check.outputs.count }}
           DEPLOY_DIR="deploy_output"
-          mkdir -p "$DEPLOY_DIR"
+          ARCHIMATE_ROOT="$DEPLOY_DIR/$BASE_DIR/archimate"
+          mkdir -p "$ARCHIMATE_ROOT"
 
-          # --- Root-level .archimate file (always goes to report/) ---
-          ROOT_MODEL=$(find archimate -maxdepth 1 -name "*.archimate" -type f | head -1)
-          if [ -n "$ROOT_MODEL" ]; then
-            echo "=== Generating report for root model: $ROOT_MODEL ==="
-            TMPDIR=$(mktemp -d)
-
-            "$ARCHI_BIN" \
-              -consoleLog -nosplash \
-              -application com.archimatetool.commandline.app \
-              --loadModel "$(pwd)/$ROOT_MODEL" \
-              --html.createReport "$TMPDIR"
-
-            DEST="$DEPLOY_DIR/$BASE_DIR/report"
-            mkdir -p "$DEST"
-            cp -r "$TMPDIR"/* "$DEST"/ 2>/dev/null || true
-            rm -rf "$TMPDIR"
-            echo "  Deployed to: $DEST"
-          fi
-
-          # --- Subfolder projects (each goes to report/{folder-name}/) ---
+          # Each subfolder of archimate/ is its own version and gets its own permalink:
+          #   archimate/v1/ -> /archimate/v1
+          #   archimate/v2/ -> /archimate/v2
+          # and whichever one CURRENT points at is also mirrored to /archimate.
           for DIR in archimate/*/; do
             [ -d "$DIR" ] || continue
             MODEL=$(find "$DIR" -maxdepth 1 -name "*.archimate" -type f | head -1)
             [ -z "$MODEL" ] && continue
 
             FOLDER_NAME=$(basename "$DIR")
-            echo "=== Generating report for $FOLDER_NAME ==="
+            echo "=== $FOLDER_NAME ($MODEL) ==="
 
             TMPDIR=$(mktemp -d)
-
             "$ARCHI_BIN" \
               -consoleLog -nosplash \
               -application com.archimatetool.commandline.app \
               --loadModel "$(pwd)/$MODEL" \
               --html.createReport "$TMPDIR"
 
-            DEST="$DEPLOY_DIR/$BASE_DIR/report/$FOLDER_NAME"
+            # Version permalink: /archimate/<name>
+            DEST="$ARCHIMATE_ROOT/$FOLDER_NAME"
             mkdir -p "$DEST"
             cp -r "$TMPDIR"/* "$DEST"/ 2>/dev/null || true
-            rm -rf "$TMPDIR"
+            echo "  -> $DEST"
 
-            echo "  Deployed to: $DEST"
+            # The current version is mirrored at the /archimate root (generated once, copied twice)
+            if [ -n "$CURRENT_VERSION" ] && [ "$FOLDER_NAME" = "$CURRENT_VERSION" ]; then
+              cp -r "$TMPDIR"/* "$ARCHIMATE_ROOT"/ 2>/dev/null || true
+              echo "  -> $ARCHIMATE_ROOT (current)"
+            fi
+
+            rm -rf "$TMPDIR"
           done
 
+          if [ -n "$CURRENT_VERSION" ] && [ ! -d "archimate/$CURRENT_VERSION" ]; then
+            echo "::warning::archimate/current.txt points at '$CURRENT_VERSION' but archimate/$CURRENT_VERSION/ does not exist — nothing mirrored to /archimate root."
+          fi
+
           echo "Final deploy structure:"
-          find "$DEPLOY_DIR" -type f | head -50
+          find "$DEPLOY_DIR" -type f | head -80
 
       - name: Deploy to gh-pages
         if: steps.check.outputs.skip != 'true'

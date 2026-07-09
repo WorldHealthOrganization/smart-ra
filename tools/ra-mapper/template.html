@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMART RA Mapper — ABB / SBB Conformance</title>
+<style>
+:root{
+  --blue:#0b5394; --blue-d:#083a68; --accent:#0093d5; --bg:#f4f7fa; --card:#ffffff;
+  --ink:#1c2733; --muted:#5c6b7a; --line:#dde5ec;
+  --st-unreviewed:#8e9aa6; --st-covered:#0b5394; --st-instantiated:#1a7f37; --st-partial:#b7791f; --st-gap:#c0392b; --st-na:#6b7280;
+  --abb:#5b3fa8; --sbb:#0d7a72;
+  --radius:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:14px;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{background:linear-gradient(90deg,var(--blue-d),var(--blue));color:#fff;padding:10px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+header h1{font-size:17px;font-weight:600;letter-spacing:.2px}
+header .sub{font-size:12px;opacity:.8}
+header .spacer{flex:1}
+.btn{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.12);color:#fff;padding:6px 12px;border-radius:7px;cursor:pointer;font-size:13px}
+.btn:hover{background:rgba(255,255,255,.24)}
+.btn.primary{background:#fff;color:var(--blue);border-color:#fff;font-weight:600}
+.btn.primary:hover{background:#e8f1fa}
+.tabs{display:flex;gap:2px;background:rgba(0,0,0,.18);border-radius:8px;padding:3px}
+.tabs button{border:0;background:transparent;color:#dbe7f3;padding:5px 14px;border-radius:6px;cursor:pointer;font-size:13px}
+.tabs button.active{background:#fff;color:var(--blue-d);font-weight:600}
+main{flex:1;display:flex;min-height:0}
+/* sidebar */
+#sidebar{width:270px;background:var(--card);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0}
+#sidebar .search{padding:10px}
+#sidebar input[type=search]{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px}
+#tree{flex:1;overflow:auto;padding:0 6px 12px}
+.tnode{margin:2px 0}
+.tnode>.hdr{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:7px;cursor:pointer;font-weight:600;font-size:13px;color:var(--blue-d)}
+.tnode>.hdr:hover{background:#eef4f9}
+.tnode .kids{margin-left:10px;display:none}
+.tnode.open>.kids{display:block}
+.tnode .caret{transition:transform .15s;font-size:10px;color:var(--muted)}
+.tnode.open>.hdr .caret{transform:rotate(90deg)}
+.tleaf{display:flex;align-items:center;justify-content:space-between;padding:5px 8px;border-radius:7px;cursor:pointer;font-size:13px;color:var(--ink)}
+.tleaf:hover{background:#eef4f9}
+.tleaf.sel{background:var(--blue);color:#fff}
+.tleaf .cnt{font-size:11px;color:var(--muted);background:#eef2f6;border-radius:10px;padding:1px 7px}
+.tleaf.sel .cnt{background:rgba(255,255,255,.25);color:#fff}
+.sideFoot{border-top:1px solid var(--line);padding:8px 12px;font-size:11px;color:var(--muted)}
+/* list */
+#listPane{flex:1;display:flex;flex-direction:column;min-width:0;min-height:0}
+.listBar{display:flex;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--card);flex-wrap:wrap}
+.listBar .title{font-weight:600;font-size:14px}
+.listBar select{padding:6px 8px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff}
+.listBar .n{color:var(--muted);font-size:12px}
+#list{flex:1;overflow:auto;padding:10px 14px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px;margin-bottom:8px;cursor:pointer;display:flex;gap:12px;align-items:center}
+.row:hover{border-color:var(--accent);box-shadow:0 1px 4px rgba(11,83,148,.12)}
+.row.sel{border-color:var(--blue);box-shadow:0 0 0 2px rgba(11,83,148,.18)}
+.row .nm{font-weight:600;font-size:13.5px}
+.row .meta{display:flex;gap:6px;margin-top:4px;flex-wrap:wrap;align-items:center}
+.row .grow{flex:1;min-width:0}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:10px;background:#e8eef5;color:var(--blue-d);white-space:nowrap}
+.badge.folder{background:#f0ebfa;color:#5b3fa8}
+.badge.abb{background:#efe9fb;color:var(--abb);font-weight:600}
+.badge.sbb{background:#e2f4f2;color:var(--sbb);font-weight:600}
+.chip{font-size:10.5px;font-weight:600;padding:2px 9px;border-radius:10px;color:#fff;white-space:nowrap}
+.mapinfo{font-size:11.5px;color:var(--muted)}
+/* detail */
+#detail{width:450px;background:var(--card);border-left:1px solid var(--line);overflow:auto;display:none;flex-direction:column}
+#detail.open{display:flex}
+#detail .dhead{padding:14px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--card);z-index:2}
+#detail .dhead .nm{font-size:15px;font-weight:700;color:var(--blue-d)}
+#detail .close{float:right;border:0;background:#eef2f6;border-radius:6px;width:26px;height:26px;cursor:pointer;font-size:13px}
+#detail .body{padding:14px 16px}
+.sec{margin-bottom:18px}
+.sec h3, h3.mini{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:8px}
+.doc{font-size:13px;line-height:1.55;color:#2b3a49;white-space:pre-wrap;background:#f7fafc;border:1px solid var(--line);border-radius:8px;padding:10px 12px;max-height:200px;overflow:auto}
+.relgrp{margin-bottom:8px}
+.relgrp .rt{font-size:11.5px;font-weight:600;color:var(--muted);margin-bottom:3px}
+.rel{font-size:12.5px;padding:3px 0;color:var(--blue);cursor:pointer;display:flex;gap:6px;align-items:center}
+.rel:hover{text-decoration:underline}
+.rel .chipmini{width:8px;height:8px;border-radius:50%;flex:none}
+/* mapping widgets */
+.statusRow{display:flex;gap:6px;flex-wrap:wrap}
+.stBtn{border:1.5px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;font-size:12px;font-weight:600}
+.stBtn.sel{border-color:currentColor;background:currentColor}
+.stBtn.sel span{color:#fff}
+.derivedNote{font-size:11.5px;color:var(--muted);margin-top:6px}
+.mapItem{display:flex;align-items:center;gap:8px;background:#f7fafc;border:1px solid var(--line);border-radius:8px;padding:7px 10px;margin-bottom:6px}
+.mapItem.abb{border-left:3px solid var(--abb)}
+.mapItem.sbb{border-left:3px solid var(--sbb)}
+.mapItem .li-nm{font-weight:600;font-size:12.5px}
+.mapItem .li-ty{font-size:10.5px;color:var(--muted)}
+.mapItem .rm{margin-left:auto;border:0;background:transparent;color:#c0392b;cursor:pointer;font-size:15px}
+.via{font-size:10px;color:var(--muted);background:#eef2f6;border-radius:8px;padding:1px 6px;margin-left:4px}
+.addGrid{display:grid;grid-template-columns:1fr 140px auto;gap:6px;margin-top:6px}
+.addGrid3{display:grid;grid-template-columns:1.2fr .8fr .5fr auto;gap:6px;margin-top:6px}
+.addGrid input,.addGrid select,.addGrid3 input,textarea.notes{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:12.5px;width:100%}
+.addGrid button,.addGrid3 button{border:0;background:var(--blue);color:#fff;border-radius:7px;padding:0 12px;cursor:pointer;font-size:16px}
+textarea.notes{min-height:56px;resize:vertical;font-family:inherit}
+.hint{font-size:11px;color:var(--muted);margin-top:4px}
+datalist{display:none}
+/* dashboard & arch */
+.page{flex:1;overflow:auto;padding:20px 26px;display:none}
+.page.open{display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:22px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.kpi .v{font-size:26px;font-weight:700;color:var(--blue-d)}
+.kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:18px}
+.panel h2{font-size:14px;color:var(--blue-d);margin-bottom:12px}
+.barRow{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:12.5px}
+.barRow .lbl{width:210px;flex:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.barRow .bar{flex:1;height:16px;background:#eef2f6;border-radius:8px;overflow:hidden;display:flex}
+.barRow .seg{height:100%}
+.barRow .pct{width:110px;flex:none;text-align:right;color:var(--muted);font-size:11.5px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-size:12px;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:5px}
+.legend i{width:11px;height:11px;border-radius:3px;display:inline-block}
+table.tbl{width:100%;border-collapse:collapse;font-size:12.5px}
+table.tbl th{text-align:left;padding:7px 8px;border-bottom:2px solid var(--line);color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+table.tbl td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+table.tbl tr.click:hover td{background:#f5f9fc;cursor:pointer}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:11px;background:#eef2f6;border-radius:9px;padding:2px 8px;margin:1px 3px 1px 0}
+.tag .x{cursor:pointer;color:#c0392b;font-weight:700}
+.tag.ref{background:#e8eef5;color:var(--blue-d)}
+.tag.abb{background:#efe9fb;color:var(--abb)}
+.iconbtn{border:0;background:transparent;cursor:pointer;color:#c0392b;font-size:14px}
+.metaGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.metaGrid label{font-size:11.5px;color:var(--muted);display:block;margin-bottom:3px}
+.metaGrid input{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:99}
+.toast.show{opacity:.95}
+.savepill{font-size:11px;color:#cfe3f5}
+.newBB{display:grid;grid-template-columns:1.2fr .9fr .6fr .5fr auto;gap:6px;margin-top:10px}
+.newBB input,.newBB select{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:12.5px;width:100%}
+.newBB button{border:0;background:var(--blue);color:#fff;border-radius:7px;padding:0 14px;cursor:pointer}
+/* explore tree */
+#explore{padding:0;flex-direction:column;min-height:0}
+#explore.open{display:flex}
+.xbar{display:flex;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--card);flex-wrap:wrap}
+.xbar select{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff}
+.xprog{font-size:12px;color:var(--muted)}
+#xtree{flex:1;overflow:auto;padding:16px 20px}
+.xn{margin:4px 0}
+.xcard{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:7px 12px;max-width:960px;flex-wrap:wrap}
+.xcard:hover{border-color:var(--accent)}
+.xcard .xdot{width:10px;height:10px;border-radius:50%;flex:none}
+.xcard .xname{font-weight:600;font-size:13px;cursor:pointer}
+.xcard .xname:hover{color:var(--blue);text-decoration:underline}
+.xcard .xmaps{font-size:11px;color:var(--muted);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.xexp{border:1px solid var(--line);background:#f2f6fa;border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11.5px;color:var(--blue-d)}
+.xexp:hover{background:#e2ecf5}
+.xnm{border:1px solid var(--line);background:#fff;border-radius:6px;font-size:11px;color:var(--muted);padding:2px 4px;max-width:170px}
+.xkids{margin-left:26px;border-left:2px solid var(--line);padding-left:14px;margin-top:4px}
+.xglabel{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:8px 0 2px}
+.xseen{font-size:11px;color:var(--muted);font-style:italic}
+.xstat{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;color:var(--muted);white-space:nowrap}
+.xbarmini{position:relative;width:64px;height:8px;background:#e6ebf1;border-radius:4px;overflow:hidden;display:inline-block}
+.xbarmini i{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+.xbarmini i.r{background:#b7791f55}
+.xbarmini i.c{background:var(--st-instantiated)}
+/* mapping chain */
+.chainBox{display:flex;align-items:center;gap:6px;flex-wrap:wrap;background:#f7fafc;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:6px;font-size:11.5px}
+.chainNode{border-radius:6px;padding:3px 8px;font-weight:600}
+.chainNode.sbb{background:#e2f4f2;color:var(--sbb)}
+.chainNode.abb{background:#efe9fb;color:var(--abb)}
+.chainNode.ref{background:#e8eef5;color:var(--blue-d)}
+.chainArrow{color:var(--muted)}
+/* import modal */
+#modal .ovl{position:fixed;inset:0;background:rgba(8,28,48,.45);z-index:50;display:flex;align-items:center;justify-content:center}
+#modal .box{background:#fff;border-radius:12px;width:780px;max-width:92vw;max-height:84vh;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+#modal .mh{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px}
+#modal .mb{flex:1;overflow:auto;padding:8px 18px;min-height:120px}
+#modal .mf{padding:12px 18px;border-top:1px solid var(--line);display:flex;gap:8px;align-items:center}
+#modal .mrow{display:flex;gap:8px;align-items:center;padding:6px 4px;border-bottom:1px solid #eef2f6;font-size:12.5px}
+#modal .mrow b{max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#modal input[type=search],#modal select{padding:6px 9px;border:1px solid var(--line);border-radius:7px;font-size:12.5px}
+.btn2{border:0;background:var(--blue);color:#fff;border-radius:7px;padding:8px 14px;cursor:pointer;font-size:12.5px}
+.btn2.ghost{background:#eef2f6;color:var(--ink)}
+.btn2.sbbc{background:var(--sbb)}
+.btn2.abbc{background:var(--abb)}
+@media (max-width:1100px){#detail{position:fixed;right:0;top:0;bottom:0;box-shadow:-4px 0 20px rgba(0,0,0,.15);z-index:10}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>SMART RA Mapper</h1>
+    <div class="sub" id="modelSub"></div>
+  </div>
+  <div class="tabs">
+    <button id="tabBrowse" class="active" onclick="showTab('browse')">Reference ABBs</button>
+    <button id="tabExplore" onclick="showTab('explore')">Perspectives</button>
+    <button id="tabArch" onclick="showTab('arch')">My Architecture (ABB / SBB)</button>
+    <button id="tabDash" onclick="showTab('dash')">Conformance Dashboard</button>
+  </div>
+  <div class="spacer"></div>
+  <span class="savepill" id="savePill"></span>
+  <select id="refVersion" title="Reference architecture version" style="padding:6px 10px;border-radius:7px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.12);color:#fff;font-size:13px;max-width:240px"></select>
+  <button class="btn" onclick="refFile.click()" title="Load another RA version from file (.archimate or exchange XML)">Load RA file…</button>
+  <button class="btn" onclick="importFile.click()">Import mapping…</button>
+  <button class="btn primary" onclick="exportXML()">Export mapping (ArchiMate XML)</button>
+  <input type="file" id="importFile" accept=".xml,.archimate" style="display:none">
+  <input type="file" id="archImportFile" accept=".xml,.archimate" style="display:none">
+  <input type="file" id="refFile" accept=".xml,.archimate" style="display:none">
+</header>
+<main>
+  <div id="sidebar">
+    <div class="search"><input type="search" id="q" placeholder="Search reference ABBs…"></div>
+    <div id="tree"></div>
+    <div class="sideFoot" id="sideFoot"></div>
+  </div>
+  <div id="listPane">
+    <div class="listBar">
+      <span class="title" id="listTitle">All elements</span>
+      <span class="n" id="listCount"></span>
+      <span style="flex:1"></span>
+      <select id="statusFilter">
+        <option value="">All statuses</option>
+        <option value="unreviewed">Unreviewed</option>
+        <option value="covered">Covered (ABB mapped)</option>
+        <option value="instantiated">Instantiated (SBB)</option>
+        <option value="partial">Partially covered</option>
+        <option value="gap">Gap</option>
+        <option value="na">Not applicable</option>
+      </select>
+    </div>
+    <div id="list"></div>
+  </div>
+  <div id="explore" class="page">
+    <div class="xbar">
+      <span style="font-weight:600">Perspective root:</span>
+      <select id="xType"></select>
+      <select id="xRoot" style="max-width:340px"></select>
+      <span style="flex:1"></span>
+      <span class="xprog" id="xProg"></span>
+    </div>
+    <div id="xtree"></div>
+  </div>
+  <div id="arch" class="page"></div>
+  <div id="dash" class="page"></div>
+  <div id="detail"></div>
+</main>
+<div id="modal"></div>
+<div class="toast" id="toast"></div>
+<datalist id="abbNames"></datalist>
+<datalist id="sbbNames"></datalist>
+<script id="model-data" type="application/json">__MODEL_JSON__</script>
+<script>
+"use strict";
+/* ================= reference model ================= */
+const EMBEDDED_CATALOG=(function(){
+  const j=JSON.parse(document.getElementById('model-data').textContent);
+  return j.versions ? j : {versions:[{key:'default',label:j.modelName||'Reference model',data:j}],defaultKey:'default'};
+})();
+const LS_MODEL='ra-mapper-refmodel-v1', LS_CHOICE='ra-mapper-refchoice-v1';
+let customModel=null, currentVersionKey=null;
+let MODEL=null, byId={}, relsBySource={}, relsByTarget={};
+function initModel(data){
+  MODEL=data; byId={}; relsBySource={}; relsByTarget={};
+  MODEL.elements.forEach(e=>byId[e.i]=e);
+  MODEL.relationships.forEach(r=>{
+    if(byId[r.s]&&byId[r.g]){
+      (relsBySource[r.s]=relsBySource[r.s]||[]).push(r);
+      (relsByTarget[r.g]=relsByTarget[r.g]||[]).push(r);
+    }
+  });
+}
+(function(){
+  try{ const s=localStorage.getItem(LS_MODEL); if(s){ const m=JSON.parse(s); if(m&&m.elements&&m.elements.length) customModel=m; } }catch(e){}
+  let choice=null; try{ choice=localStorage.getItem(LS_CHOICE); }catch(e){}
+  if(choice==='__custom'&&customModel){ currentVersionKey='__custom'; initModel(customModel); }
+  else{
+    const v=EMBEDDED_CATALOG.versions.find(x=>x.key===choice)||EMBEDDED_CATALOG.versions.find(x=>x.key===EMBEDDED_CATALOG.defaultKey)||EMBEDDED_CATALOG.versions[0];
+    currentVersionKey=v.key; initModel(v.data);
+  }
+})();
+const STATUSES = {
+  unreviewed:{label:'Unreviewed', c:'#8e9aa6', desc:'No mapping yet'},
+  covered:{label:'Covered', c:'#0b5394', desc:'A local ABB specialises this'},
+  instantiated:{label:'Instantiated', c:'#1a7f37', desc:'Realised by at least one SBB'},
+  partial:{label:'Partial', c:'#b7791f', desc:'Partly covered (manual)'},
+  gap:{label:'Gap', c:'#c0392b', desc:'Needed, not supported (manual)'},
+  na:{label:'N/A', c:'#6b7280', desc:'Not applicable (manual)'}
+};
+const OVERRIDES=['partial','gap','na'];
+/* reason → [label, default override status] */
+const REASONS={
+  'not-available':['Not available in our architecture','gap'],
+  'planned':['Planned / on roadmap','gap'],
+  'partial-support':['Partially supported','partial'],
+  'not-interested':['Not interested','na'],
+  'out-of-scope':['Out of scope in our context','na'],
+  'handled-differently':['Handled differently','na'],
+  'other':['Other (explain in notes)','na']
+};
+const ABB_TYPES = ['ApplicationComponent','ApplicationService','ApplicationFunction','BusinessProcess','BusinessFunction','BusinessService','Capability','DataObject','Node','TechnologyService'];
+const FOLDER_ORDER = ['Strategy','Business','Application','Motivation','Implementation & Migration','Other'];
+function topFolder(e){ return e.f.split('/')[0] || 'Other'; }
+function typeLabel(t){ return t.replace(/([a-z])([A-Z])/g,'$1 $2'); }
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+/* ================= state (v2) ================= */
+const LS_KEY='ra-mapper-state-v2', LS_KEY_V1='ra-mapper-state-v1';
+let state = { version:2, meta:{organisation:'',country:'',author:'',notes:''}, abbs:{}, sbbs:{}, overrides:{} };
+(function load(){
+  try{
+    const s=localStorage.getItem(LS_KEY);
+    if(s){ state=Object.assign(state,JSON.parse(s)); return; }
+    const v1=localStorage.getItem(LS_KEY_V1);
+    if(v1){ state=migrateV1(JSON.parse(v1)); persist(); toast('Previous mappings migrated to the ABB/SBB model.'); }
+  }catch(e){}
+})();
+function migrateV1(old){
+  const st={version:2,meta:old.meta||{organisation:'',country:'',author:'',notes:''},abbs:{},sbbs:{},overrides:{}};
+  const localRefs={};
+  for(const refId in (old.assertions||{})){
+    const a=old.assertions[refId];
+    (a.localIds||[]).forEach(lid=>{ (localRefs[lid]=localRefs[lid]||[]).push(refId); });
+    if(['partial','gap','na'].includes(a.status)||a.notes) st.overrides[refId]={status:['partial','gap','na'].includes(a.status)?a.status:null,notes:a.notes||''};
+  }
+  for(const lid in (old.locals||{})){
+    const l=old.locals[lid];
+    st.abbs[lid]={id:lid,name:l.name,type:l.type||'ApplicationComponent',desc:l.desc||'',refIds:localRefs[lid]||[]};
+  }
+  return st;
+}
+let saveTimer=null;
+function persist(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(()=>{
+    try{ localStorage.setItem(LS_KEY,JSON.stringify(state));
+      document.getElementById('savePill').textContent='Saved '+new Date().toLocaleTimeString();
+    }catch(e){}
+  },300);
+}
+function uid(p){ return 'id-'+p+'-'+Math.random().toString(16).slice(2,10)+Date.now().toString(16); }
+
+/* ================= derivation ================= */
+function abbsForRef(refId){ return Object.values(state.abbs).filter(a=>a.refIds.includes(refId)); }
+function sbbsForAbb(abbId){ return Object.values(state.sbbs).filter(s=>s.abbIds.includes(abbId)); }
+function sbbsForRef(refId){
+  const abbIds=abbsForRef(refId).map(a=>a.id);
+  const out=[];
+  Object.values(state.sbbs).forEach(s=>{
+    if(s.refIds.includes(refId)) out.push({sbb:s,via:null});
+    else{ const via=s.abbIds.find(i=>abbIds.includes(i)); if(via!==undefined) out.push({sbb:s,via:state.abbs[via]}); }
+  });
+  return out;
+}
+function refStatus(refId){
+  const ov=state.overrides[refId];
+  if(ov&&ov.status) return ov.status;
+  if(sbbsForRef(refId).length) return 'instantiated';
+  if(abbsForRef(refId).length) return 'covered';
+  return 'unreviewed';
+}
+function refNotes(refId){ return (state.overrides[refId]||{}).notes||''; }
+function setNotes(refId,notes){
+  const ov=state.overrides[refId]||{status:null,notes:''};
+  ov.notes=notes;
+  if(!ov.status&&!ov.notes&&!ov.reason) delete state.overrides[refId]; else state.overrides[refId]=ov;
+  persist();
+}
+function setOverride(refId,status){
+  const ov=state.overrides[refId]||{status:null,notes:''};
+  ov.status=status;
+  if(!status) delete ov.reason;
+  if(!ov.status&&!ov.notes&&!ov.reason) delete state.overrides[refId]; else state.overrides[refId]=ov;
+  persist();
+}
+function findByName(coll,name){ return Object.values(coll).find(x=>x.name.toLowerCase()===name.toLowerCase()); }
+
+/* ================= navigation ================= */
+let filter={folder:null,type:null}, query='', statusFilter='', selectedId=null, tab='browse';
+
+/* ================= sidebar ================= */
+function buildTree(){
+  const tree={};
+  MODEL.elements.forEach(e=>{
+    const f=topFolder(e);
+    (tree[f]=tree[f]||{}); (tree[f][e.t]=tree[f][e.t]||0); tree[f][e.t]++;
+  });
+  const cont=document.getElementById('tree'); cont.innerHTML='';
+  const allLeaf=document.createElement('div');
+  allLeaf.className='tleaf'+(filter.folder===null&&filter.type===null?' sel':'');
+  allLeaf.innerHTML='<span>All elements</span><span class="cnt">'+MODEL.elements.length+'</span>';
+  allLeaf.onclick=()=>{filter={folder:null,type:null};refresh();};
+  cont.appendChild(allLeaf);
+  const order=FOLDER_ORDER.filter(f=>tree[f]).concat(Object.keys(tree).filter(f=>!FOLDER_ORDER.includes(f)));
+  order.forEach(f=>{
+    const node=document.createElement('div'); node.className='tnode'+((filter.folder===f)||f==='Application'||f==='Strategy'?' open':'');
+    const total=Object.values(tree[f]).reduce((a,b)=>a+b,0);
+    const hdr=document.createElement('div'); hdr.className='hdr';
+    hdr.innerHTML='<span class="caret">▶</span><span style="flex:1">'+f+'</span><span class="cnt" style="font-weight:400">'+total+'</span>';
+    hdr.onclick=()=>node.classList.toggle('open');
+    node.appendChild(hdr);
+    const kids=document.createElement('div'); kids.className='kids';
+    Object.keys(tree[f]).sort((a,b)=>tree[f][b]-tree[f][a]).forEach(t=>{
+      const leaf=document.createElement('div');
+      leaf.className='tleaf'+(filter.folder===f&&filter.type===t?' sel':'');
+      leaf.innerHTML='<span>'+typeLabel(t)+'</span><span class="cnt">'+tree[f][t]+'</span>';
+      leaf.onclick=(ev)=>{ev.stopPropagation();filter={folder:f,type:t};refresh();};
+      kids.appendChild(leaf);
+    });
+    node.appendChild(kids); cont.appendChild(node);
+  });
+  document.getElementById('sideFoot').textContent='Reference: '+MODEL.modelName+' · '+MODEL.elements.length+' ABBs';
+}
+
+/* ================= list ================= */
+function currentElements(){
+  let els=MODEL.elements;
+  if(filter.folder) els=els.filter(e=>topFolder(e)===filter.folder&&(!filter.type||e.t===filter.type));
+  if(query){ const q=query.toLowerCase(); els=els.filter(e=>e.n.toLowerCase().includes(q)||(e.d&&e.d.toLowerCase().includes(q))); }
+  if(statusFilter) els=els.filter(e=>refStatus(e.i)===statusFilter);
+  return els;
+}
+function chipHTML(st){ const s=STATUSES[st]; return '<span class="chip" style="background:'+s.c+'">'+s.label+'</span>'; }
+function renderList(){
+  const els=currentElements();
+  document.getElementById('listTitle').textContent = filter.type?typeLabel(filter.type)+' — '+filter.folder : (filter.folder||'All elements');
+  document.getElementById('listCount').textContent = els.length+' element'+(els.length===1?'':'s');
+  const list=document.getElementById('list'); list.innerHTML='';
+  const frag=document.createDocumentFragment();
+  els.slice(0,600).forEach(e=>{
+    const st=refStatus(e.i);
+    const abbs=abbsForRef(e.i), sbbs=sbbsForRef(e.i);
+    const row=document.createElement('div'); row.className='row'+(selectedId===e.i?' sel':''); row.dataset.id=e.i;
+    let mi='';
+    if(abbs.length) mi+='<span class="mapinfo"><b style="color:var(--abb)">ABB</b> '+abbs.map(a=>esc(a.name)).join(', ')+'</span>';
+    if(sbbs.length) mi+='<span class="mapinfo"><b style="color:var(--sbb)">SBB</b> '+sbbs.map(x=>esc(x.sbb.name)).join(', ')+'</span>';
+    row.innerHTML='<div class="grow"><div class="nm">'+esc(e.n)+'</div><div class="meta"><span class="badge">'+typeLabel(e.t)+'</span><span class="badge folder">'+esc(e.f)+'</span>'+mi+'</div></div>'+chipHTML(st);
+    row.onclick=()=>openDetail(e.i);
+    frag.appendChild(row);
+  });
+  if(els.length>600){ const more=document.createElement('div'); more.className='hint'; more.style.padding='8px'; more.textContent='Showing first 600 — refine your search to see more.'; frag.appendChild(more); }
+  list.appendChild(frag);
+}
+
+/* ================= detail ================= */
+function openDetail(id){
+  selectedId=id; const e=byId[id]; if(!e) return;
+  const st=refStatus(id), ov=state.overrides[id]||{status:null,notes:''};
+  const abbs=abbsForRef(id), sbbs=sbbsForRef(id);
+  const d=document.getElementById('detail'); d.classList.add('open');
+  let html='<div class="dhead"><button class="close" onclick="closeDetail()">✕</button><div class="nm">'+esc(e.n)+'</div>'+
+    '<div class="meta" style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap"><span class="badge">Reference ABB</span><span class="badge">'+typeLabel(e.t)+'</span><span class="badge folder">'+esc(e.f)+'</span>'+chipHTML(st)+'</div></div><div class="body">';
+  if(e.d) html+='<div class="sec"><h3>Definition</h3><div class="doc">'+esc(e.d)+'</div></div>';
+  /* subtree progress */
+  const ss=subtreeStats(id);
+  if(ss.total>1){
+    html+='<div class="sec"><h3>Downward progress ('+ss.total+' elements in this perspective)</h3>'+xstatHTML(ss,true)+'</div>';
+  }
+  /* conformance */
+  const autoSt = sbbsForRef(id).length?'instantiated':(abbsForRef(id).length?'covered':'unreviewed');
+  html+='<div class="sec"><h3>Conformance</h3><div class="statusRow">';
+  html+='<button class="stBtn'+(!ov.status?' sel':'')+'" style="color:'+STATUSES[autoSt].c+'" onclick="setOv(null)"><span>Auto: '+STATUSES[autoSt].label+'</span></button>';
+  OVERRIDES.forEach(k=>{
+    html+='<button class="stBtn'+(ov.status===k?' sel':'')+'" style="color:'+STATUSES[k].c+'" onclick="setOv(\''+k+'\')"><span>'+STATUSES[k].label+'</span></button>';
+  });
+  html+='</div>';
+  if(ov.status){
+    html+='<div style="margin-top:8px;display:flex;gap:6px;align-items:center"><span class="hint" style="margin:0">Reason:</span><select onchange="setReason(this.value)" style="padding:5px 8px;border:1px solid var(--line);border-radius:6px;font-size:12px"><option value=""'+(!ov.reason?' selected':'')+'>—</option>'+
+      Object.entries(REASONS).map(([k,v])=>'<option value="'+k+'"'+(ov.reason===k?' selected':'')+'>'+v[0]+'</option>').join('')+'</select></div>';
+  }
+  html+='<div class="derivedNote">Auto: <i>covered</i> when a local ABB specialises this element; <i>instantiated</i> when an SBB realises it (directly or via an ABB). Override for partial / gap / N-A.</div></div>';
+  /* mapping chain visual */
+  const directSbbs=sbbs.filter(x=>!x.via).map(x=>x.sbb);
+  if(abbs.length||directSbbs.length){
+    html+='<div class="sec"><h3>Mapping chain</h3>';
+    abbs.forEach(a=>{
+      const sb=sbbsForAbb(a.id);
+      html+='<div class="chainBox">'+(sb.length?sb.map(s=>'<span class="chainNode sbb">'+esc(s.name)+(s.version?' '+esc(s.version):'')+'</span>').join('')+'<span class="chainArrow">─ realises →</span>':'<span class="hint" style="margin:0">(no SBB yet)</span><span class="chainArrow">→</span>')+
+        '<span class="chainNode abb">'+esc(a.name)+'</span><span class="chainArrow">─ specialises →</span><span class="chainNode ref">'+esc(e.n)+'</span></div>';
+    });
+    if(directSbbs.length){
+      html+='<div class="chainBox">'+directSbbs.map(s=>'<span class="chainNode sbb">'+esc(s.name)+(s.version?' '+esc(s.version):'')+'</span>').join('')+'<span class="chainArrow">─ realises (direct) →</span><span class="chainNode ref">'+esc(e.n)+'</span></div>';
+    }
+    html+='</div>';
+  }
+  /* local ABBs */
+  html+='<div class="sec"><h3>Local ABBs — <span style="color:var(--abb)">Specialization</span> ('+abbs.length+')</h3>';
+  abbs.forEach(a=>{
+    const sb=sbbsForAbb(a.id);
+    html+='<div class="mapItem abb"><div><div class="li-nm">'+esc(a.name)+'</div><div class="li-ty">'+typeLabel(a.type)+(sb.length?' · realised by '+sb.map(s=>esc(s.name)).join(', '):'')+'</div></div><button class="rm" title="Unmap" onclick="unmapAbb(\''+a.id+'\')">✕</button></div>';
+  });
+  html+='<div class="addGrid"><input id="newAbbName" list="abbNames" placeholder="Local ABB name (e.g. National Client Registry)"><select id="newAbbType">'+ABB_TYPES.map(t=>'<option'+(t===e.t?' selected':'')+'>'+t+'</option>').join('')+'</select><button onclick="addAbbHere()" title="Map local ABB">+</button></div>';
+  html+='<div class="hint">An existing name reuses that ABB; a new name creates one. Exported as ArchiMate <b>Specialization</b> (local ABB → reference ABB).</div></div>';
+  /* SBBs */
+  html+='<div class="sec"><h3>SBBs — <span style="color:var(--sbb)">Realization</span> ('+sbbs.length+')</h3>';
+  sbbs.forEach(x=>{
+    const s=x.sbb;
+    html+='<div class="mapItem sbb"><div><div class="li-nm">'+esc(s.name)+(s.product?' <span class="li-ty">('+esc(s.product)+(s.version?' '+esc(s.version):'')+')</span>':'')+
+      (x.via?'<span class="via">via ABB '+esc(x.via.name)+'</span>':'<span class="via">direct</span>')+'</div></div>'+
+      (x.via?'':'<button class="rm" title="Unmap" onclick="unmapSbbDirect(\''+s.id+'\')">✕</button>')+'</div>';
+  });
+  html+='<div class="addGrid3"><input id="newSbbName" list="sbbNames" placeholder="SBB name (e.g. OpenCR)"><input id="newSbbProduct" placeholder="Product"><input id="newSbbVersion" placeholder="Ver."><button onclick="addSbbHere()" title="Map SBB directly">+</button></div>';
+  html+='<div class="hint">Maps an SBB <b>directly</b> to this reference ABB (Realization). To instantiate via your own ABB, link the SBB to the ABB in <b>My Architecture</b>.</div></div>';
+  /* notes */
+  html+='<div class="sec"><h3>Notes / rationale</h3><textarea class="notes" id="noteBox" placeholder="e.g. Implements 3 of the 4 required queries…">'+esc(refNotes(id))+'</textarea></div>';
+  /* relationships */
+  html+=relSection('Downward — assessed with this element', downRels(id), true);
+  html+=relSection('Upward — context only (not counted)', upRels(id), false);
+  html+='</div>';
+  d.innerHTML=html;
+  document.getElementById('noteBox').addEventListener('input',ev=>setNotes(selectedId,ev.target.value));
+  if(tab==='explore') renderXTree(); else renderList();
+  refreshDatalists();
+}
+function setReason(r){
+  const ov=state.overrides[selectedId]; if(!ov) return;
+  if(r) ov.reason=r; else delete ov.reason;
+  persist();
+  if(tab==='explore') renderXTree();
+}
+function relSection(title,items,isDownSec){
+  if(!items||!items.length) return '';
+  const grouped={};
+  items.forEach(it=>{ const o=byId[it.o]; if(!o) return; (grouped[it.lbl]=grouped[it.lbl]||[]).push(o); });
+  if(!Object.keys(grouped).length) return '';
+  let h='<div class="sec"><h3>'+title+'</h3>';
+  for(const t in grouped){
+    h+='<div class="relgrp"><div class="rt">'+esc(t)+' ('+grouped[t].length+')</div>';
+    grouped[t].slice(0,40).forEach(o=>{
+      h+='<div class="rel" onclick="openDetail(\''+o.i+'\')"><span class="chipmini" style="background:'+STATUSES[refStatus(o.i)].c+'"></span>'+esc(o.n)+' <span style="color:var(--muted);font-size:10.5px">'+typeLabel(o.t)+'</span></div>';
+    });
+    h+='</div>';
+  }
+  return h+'</div>';
+}
+function closeDetail(){ document.getElementById('detail').classList.remove('open'); selectedId=null; if(tab==='browse') renderList(); }
+function setOv(st){ setOverride(selectedId,st); openDetail(selectedId); }
+function addAbbHere(){
+  const name=document.getElementById('newAbbName').value.trim();
+  const type=document.getElementById('newAbbType').value;
+  if(!name) return;
+  let a=findByName(state.abbs,name);
+  if(!a){ const id=uid('abb'); a=state.abbs[id]={id:id,name:name,type:type,desc:'',refIds:[]}; }
+  if(!a.refIds.includes(selectedId)) a.refIds.push(selectedId);
+  persist(); openDetail(selectedId);
+}
+function unmapAbb(abbId){
+  const a=state.abbs[abbId]; if(a) a.refIds=a.refIds.filter(x=>x!==selectedId);
+  persist(); openDetail(selectedId);
+}
+function addSbbHere(){
+  const name=document.getElementById('newSbbName').value.trim();
+  if(!name) return;
+  const product=document.getElementById('newSbbProduct').value.trim();
+  const version=document.getElementById('newSbbVersion').value.trim();
+  let s=findByName(state.sbbs,name);
+  if(!s){ const id=uid('sbb'); s=state.sbbs[id]={id:id,name:name,product:product,version:version,desc:'',abbIds:[],refIds:[]}; }
+  else{ if(product) s.product=product; if(version) s.version=version; }
+  if(!s.refIds.includes(selectedId)) s.refIds.push(selectedId);
+  persist(); openDetail(selectedId);
+}
+function unmapSbbDirect(sbbId){
+  const s=state.sbbs[sbbId]; if(s) s.refIds=s.refIds.filter(x=>x!==selectedId);
+  persist(); openDetail(selectedId);
+}
+function refreshDatalists(){
+  document.getElementById('abbNames').innerHTML=Object.values(state.abbs).map(a=>'<option value="'+esc(a.name)+'">').join('');
+  document.getElementById('sbbNames').innerHTML=Object.values(state.sbbs).map(s=>'<option value="'+esc(s.name)+'">').join('');
+}
+
+/* ================= oriented graph: "down" = towards more concrete =================
+   Rank by abstraction level; an edge counts DOWNWARD when the other endpoint ranks lower.
+   Same-rank ties are broken per relationship type. Flow is peer-to-peer: never down.   */
+const RANK={Stakeholder:0,Driver:0,Assessment:0,Value:1,Goal:1,Meaning:1,Outcome:2,Capability:3,ValueStream:3,CourseOfAction:3,Resource:3,Product:4,BusinessFunction:4,BusinessProcess:4,BusinessService:4,BusinessActor:4,BusinessRole:4,BusinessEvent:4,Contract:4,Representation:4,Grouping:5,ApplicationComponent:6,ApplicationCollaboration:6,ApplicationService:7,ApplicationFunction:7,ApplicationInterface:7,ApplicationProcess:7,ApplicationEvent:7,SystemSoftware:7,Node:7,TechnologyService:7,DataObject:8,Artifact:8,WorkPackage:8,Deliverable:8};
+function rank(t){ return RANK[t]!==undefined?RANK[t]:5; }
+const DOWN_LABELS={
+  'Composition-out':'composed of','Aggregation-out':'aggregates','Assignment-out':'assigned to',
+  'Realization-in':'realised by','Realization-out':'realises (down)','Access-out':'accesses data',
+  'Serving-in':'served by','Serving-out':'serves (down)','Specialization-in':'specialised by',
+  'Triggering-out':'triggers','Influence-out':'influences','Association-out':'associated with','Association-in':'associated with',
+  'Composition-in':'part of (down)','Aggregation-in':'aggregated (down)','Assignment-in':'assigned (down)','Access-in':'accessed by (down)','Influence-in':'influenced by (down)','Triggering-in':'triggered (down)','Specialization-out':'specialises (down)','Flow-out':'flow','Flow-in':'flow'
+};
+function isDownEdge(rt,meId,otherId,dir){
+  if(!byId[otherId]) return false;
+  if(rt==='Flow') return false;                      /* peer flows: never down */
+  if(rt==='Access') return dir==='out';              /* data always below its accessor */
+  const rm=rank(byId[meId].t), ro=rank(byId[otherId].t);
+  if(ro>rm) return true;                             /* other is more concrete → down */
+  if(ro<rm) return false;                            /* other is more abstract → up  */
+  /* same rank: structural containment goes down source→target; realisation/serving pull the realiser/server below */
+  if(rt==='Composition'||rt==='Aggregation'||rt==='Assignment'||rt==='Triggering'||rt==='Influence') return dir==='out';
+  if(rt==='Realization'||rt==='Serving'||rt==='Specialization') return dir==='in';
+  return false;                                      /* Association & others: ambiguous at same rank */
+}
+function edgeList(id){
+  const out=[];
+  (relsBySource[id]||[]).forEach(r=>out.push({t:r.t,o:r.g,dir:'out'}));
+  (relsByTarget[id]||[]).forEach(r=>out.push({t:r.t,o:r.s,dir:'in'}));
+  return out;
+}
+function downRels(id){
+  return edgeList(id).filter(e2=>isDownEdge(e2.t,id,e2.o,e2.dir)).map(e2=>({o:e2.o,lbl:'↓ '+(DOWN_LABELS[e2.t+'-'+e2.dir]||e2.t)}));
+}
+function upRels(id){
+  return edgeList(id).filter(e2=>!isDownEdge(e2.t,id,e2.o,e2.dir)).map(e2=>({o:e2.o,lbl:'↑ '+e2.t+(e2.dir==='in'?' (incoming)':' (outgoing)')}));
+}
+function downSet(id,cap){
+  cap=cap||400;
+  const seen=new Set([id]); const q=[id];
+  while(q.length&&seen.size<cap){
+    const cur=q.shift();
+    downRels(cur).forEach(nb=>{ if(!seen.has(nb.o)&&seen.size<cap){ seen.add(nb.o); q.push(nb.o); } });
+  }
+  return seen;
+}
+let statsMemo=null;
+function subtreeStats(id){
+  if(statsMemo&&statsMemo.has(id)) return statsMemo.get(id);
+  const s=downSet(id);
+  let reviewed=0,conf=0,partial=0;
+  s.forEach(i=>{
+    const st=refStatus(i);
+    if(st!=='unreviewed') reviewed++;
+    if(st==='covered'||st==='instantiated') conf++;
+    if(st==='partial') partial++;
+  });
+  const r={total:s.size,reviewed:reviewed,conf:conf,partial:partial};
+  if(statsMemo) statsMemo.set(id,r);
+  return r;
+}
+function xstatHTML(ss,wide){
+  const revPct=ss.total?Math.round(100*ss.reviewed/ss.total):0;
+  const confPct=ss.total?Math.round(100*(ss.conf+0.5*ss.partial)/ss.total):0;
+  return '<span class="xstat" title="'+ss.reviewed+' of '+ss.total+' reviewed · '+ss.conf+' conforming ('+ss.partial+' partial) — counted downwards only">'+
+    '<span class="xbarmini"'+(wide?' style="width:140px;height:10px"':'')+'><i class="r" style="width:'+revPct+'%"></i><i class="c" style="width:'+confPct+'%"></i></span>'+
+    ss.reviewed+'/'+ss.total+' · '+confPct+'%✓</span>';
+}
+
+/* ================= perspectives (rooted downward graph) ================= */
+let xRootId=null; const xExpanded=new Set(); let xInited=false;
+const X_START_TYPES=['Capability','Goal','Outcome','Grouping','ApplicationComponent','ApplicationService','BusinessFunction','BusinessProcess','ValueStream','Product','Stakeholder'];
+function xInit(){
+  if(xInited) return; xInited=true;
+  const tSel=document.getElementById('xType');
+  tSel.innerHTML=X_START_TYPES.filter(t=>MODEL.elements.some(e=>e.t===t)).map(t=>'<option value="'+t+'">'+typeLabel(t)+'</option>').join('');
+  tSel.addEventListener('change',xFillRoots);
+  document.getElementById('xRoot').addEventListener('change',ev=>{
+    xRootId=ev.target.value||null; xExpanded.clear();
+    if(xRootId) xExpanded.add(xRootId);
+    renderXTree();
+  });
+  xFillRoots();
+}
+function xFillRoots(){
+  const t=document.getElementById('xType').value;
+  const els=MODEL.elements.filter(e=>e.t===t).sort((a,b)=>a.n.localeCompare(b.n));
+  document.getElementById('xRoot').innerHTML='<option value="">— choose a '+typeLabel(t)+' ('+els.length+') —</option>'+els.map(e=>'<option value="'+e.i+'">'+esc(e.n)+'</option>').join('');
+  xRootId=null; renderXTree();
+}
+function renderExplore(){ xInit(); renderXTree(); }
+function renderXTree(){
+  const tree=document.getElementById('xtree'); if(!tree) return;
+  statsMemo=new Map();
+  if(!xRootId){
+    tree.innerHTML='<div class="hint" style="padding:20px;font-size:12.5px;line-height:1.7">Pick a perspective root above — e.g. a Capability or Goal. The graph unfolds <b>downwards only</b> (a component shows the services it exposes and the data it uses, not the component it is part of). Progress and conformance for every element are counted over its downward subtree.<br>For each element: click its <b>name</b> to map ABBs / SBBs, or use <b>not mapped…</b> to assert why it isn’t mapped. The dot shows its own status; the bar shows its subtree.</div>';
+    document.getElementById('xProg').textContent=''; return;
+  }
+  const ss=subtreeStats(xRootId);
+  document.getElementById('xProg').innerHTML='Perspective: '+xstatHTML(ss,true);
+  tree.innerHTML=xNodeHTML(xRootId,xRootId,new Set());
+}
+function xNodeHTML(id,path,ancestors){
+  const e=byId[id]; if(!e) return '';
+  const st=refStatus(id);
+  const abbs=abbsForRef(id), sbbs=sbbsForRef(id);
+  let maps='';
+  if(abbs.length||sbbs.length){
+    maps='<span class="xmaps" title="'+esc((abbs.length?'ABB: '+abbs.map(a=>a.name).join(', '):'')+(sbbs.length?' SBB: '+sbbs.map(x=>x.sbb.name).join(', '):''))+'">'+
+      (abbs.length?'<b style="color:var(--abb)">ABB</b> '+abbs.map(a=>esc(a.name)).join(', '):'')+
+      (abbs.length&&sbbs.length?' · ':'')+
+      (sbbs.length?'<b style="color:var(--sbb)">SBB</b> '+sbbs.map(x=>esc(x.sbb.name)).join(', '):'')+'</span>';
+  }
+  const ov=state.overrides[id]||{};
+  const kids=downRels(id);
+  const expanded=xExpanded.has(path);
+  const ss=subtreeStats(id);
+  let h='<div class="xn"><div class="xcard">'+
+    '<span class="xdot" style="background:'+STATUSES[st].c+'" title="Own status: '+STATUSES[st].label+'"></span>'+
+    '<span class="xname" onclick="openDetail(\''+id+'\')" title="Open details & map">'+esc(e.n)+'</span>'+
+    '<span class="badge">'+typeLabel(e.t)+'</span>'+
+    (ss.total>1?xstatHTML(ss,false):'')+
+    maps+
+    '<select class="xnm" onchange="xQuick(\''+id+'\',this.value);this.value=\'\'">'+
+      '<option value="">'+(ov.status?esc(STATUSES[ov.status].label+(ov.reason&&REASONS[ov.reason]?': '+REASONS[ov.reason][0]:'')):'mapped to / not mapped…')+'</option>'+
+      '<optgroup label="Mapped to — local ABB (specialises)">'+
+        Object.values(state.abbs).map(a=>'<option value="abb:'+a.id+'">'+esc(a.name)+'</option>').join('')+
+        '<option value="abb:__new">+ new local ABB…</option>'+
+      '</optgroup>'+
+      '<optgroup label="Mapped to — SBB (realises, direct)">'+
+        Object.values(state.sbbs).map(s=>'<option value="sbb:'+s.id+'">'+esc(s.name)+(s.product?' ('+esc(s.product)+')':'')+'</option>').join('')+
+        '<option value="sbb:__new">+ new SBB…</option>'+
+      '</optgroup>'+
+      '<optgroup label="Not mapped — reason">'+
+        Object.entries(REASONS).map(([k,v])=>'<option value="r:'+k+'">'+v[0]+'</option>').join('')+
+      '</optgroup>'+
+      (ov.status?'<option value="__clear">✕ clear assertion</option>':'')+
+    '</select>'+
+    (kids.length?'<button class="xexp" onclick="xToggle(\''+path.replace(/'/g,"\\'")+'\')">'+(expanded?'▾':'▸')+' '+kids.length+' below</button>':'')+
+    '</div>';
+  if(expanded&&kids.length){
+    const groups={};
+    kids.forEach(k2=>{ const g=(groups[k2.lbl]=groups[k2.lbl]||new Set()); g.add(k2.o); });
+    h+='<div class="xkids">';
+    Object.keys(groups).sort().forEach(g=>{
+      const ids=[...groups[g]];
+      h+='<div class="xglabel">'+esc(g)+' ('+ids.length+')</div>';
+      ids.forEach(cid=>{
+        if(ancestors.has(cid)||cid===id){ h+='<div class="xn"><span class="xseen">↻ '+esc(byId[cid]?byId[cid].n:'')+' — already on this branch</span></div>'; return; }
+        const na=new Set(ancestors); na.add(id);
+        h+=xNodeHTML(cid,path+'/'+cid,na);
+      });
+    });
+    h+='</div>';
+  }
+  h+='</div>';
+  return h;
+}
+function xToggle(path){ if(xExpanded.has(path)) xExpanded.delete(path); else xExpanded.add(path); renderXTree(); }
+function xQuick(id,val){
+  if(!val) return;
+  if(val==='__clear'||!val.includes(':')){ xNotMapped(id,val); return; }
+  if(val.startsWith('r:')){ xNotMapped(id,val.slice(2)); return; }
+  if(val.startsWith('abb:')){
+    let aid=val.slice(4);
+    if(aid==='__new'){
+      const name=(window.prompt('Name of the new local ABB (will specialise "'+(byId[id]?byId[id].n:'')+'"):')||'').trim();
+      if(!name) return;
+      const ex=findByName(state.abbs,name);
+      if(ex) aid=ex.id; else { aid=uid('abb'); state.abbs[aid]={id:aid,name:name,type:byId[id].t,desc:'',refIds:[]}; }
+    }
+    const a=state.abbs[aid]; if(!a) return;
+    if(!a.refIds.includes(id)) a.refIds.push(id);
+    persist(); renderXTree(); refreshDatalists(); return;
+  }
+  if(val.startsWith('sbb:')){
+    let sid=val.slice(4);
+    if(sid==='__new'){
+      const name=(window.prompt('Name of the new SBB (will realise "'+(byId[id]?byId[id].n:'')+'" directly):')||'').trim();
+      if(!name) return;
+      const ex=findByName(state.sbbs,name);
+      if(ex) sid=ex.id; else { sid=uid('sbb'); state.sbbs[sid]={id:sid,name:name,product:'',version:'',desc:'',abbIds:[],refIds:[]}; }
+    }
+    const s=state.sbbs[sid]; if(!s) return;
+    if(!s.refIds.includes(id)) s.refIds.push(id);
+    persist(); renderXTree(); refreshDatalists(); return;
+  }
+}
+function xNotMapped(id,reason){
+  if(!reason) return;
+  if(reason==='__clear'){
+    const ov=state.overrides[id];
+    if(ov){ ov.status=null; delete ov.reason; if(!ov.notes) delete state.overrides[id]; }
+    persist(); renderXTree(); return;
+  }
+  if(!REASONS[reason]) return;
+  setOverride(id,REASONS[reason][1]);
+  if(state.overrides[id]) state.overrides[id].reason=reason;
+  persist(); renderXTree();
+}
+
+/* ================= My Architecture ================= */
+function renderArch(){
+  const abbs=Object.values(state.abbs), sbbs=Object.values(state.sbbs);
+  let h='';
+  h+='<div style="display:flex;justify-content:flex-end;margin-bottom:12px"><button class="btn2" onclick="archImportFile.click()">⇪ Import my architecture from ArchiMate…</button></div>';
+  h+='<div class="panel"><h2>Architecture Building Blocks — your capability layer ('+abbs.length+')</h2>';
+  h+='<div class="hint" style="margin-bottom:10px">Each local ABB <b>specialises</b> one or more reference ABBs. SBBs <b>realise</b> your ABBs to instantiate the architecture (EIRA pattern).</div>';
+  if(abbs.length){
+    h+='<table class="tbl"><tr><th style="width:22%">Local ABB</th><th style="width:16%">Type</th><th>Specialises (reference ABBs)</th><th>Realised by (SBBs)</th><th></th></tr>';
+    abbs.forEach(a=>{
+      const sb=sbbsForAbb(a.id);
+      h+='<tr><td><b>'+esc(a.name)+'</b></td><td>'+typeLabel(a.type)+'</td><td>'+
+        a.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapAbbRef(\''+a.id+'\',\''+rid+'\')">✕</span></span>':'').join('')+
+        '</td><td>'+sb.map(s=>'<span class="tag">'+esc(s.name)+' <span class="x" onclick="archUnlinkSbbAbb(\''+s.id+'\',\''+a.id+'\')">✕</span></span>').join('')+
+        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb(this.value,\''+a.id+'\');this.value=\'\'"><option value="">+ link SBB…</option>'+
+        sbbs.filter(s=>!s.abbIds.includes(a.id)).map(s=>'<option value="'+s.id+'">'+esc(s.name)+'</option>').join('')+'</select>'+
+        '</td><td><button class="iconbtn" title="Delete ABB" onclick="archDeleteAbb(\''+a.id+'\')">🗑</button></td></tr>';
+    });
+    h+='</table>';
+  } else h+='<div class="hint">No local ABBs yet — create them below or map from the Reference ABBs view.</div>';
+  h+='<div class="newBB"><input id="archAbbName" placeholder="New ABB name"><select id="archAbbType">'+ABB_TYPES.map(t=>'<option>'+t+'</option>').join('')+'</select><span></span><span></span><button onclick="archAddAbb()">Add ABB</button></div>';
+  h+='</div>';
+  h+='<div class="panel"><h2>Solution Building Blocks — your solutions ('+sbbs.length+')</h2>';
+  if(sbbs.length){
+    h+='<table class="tbl"><tr><th style="width:18%">SBB</th><th style="width:14%">Product</th><th style="width:8%">Version</th><th>Realises ABBs</th><th>Realises reference ABBs (direct)</th><th></th></tr>';
+    sbbs.forEach(s=>{
+      h+='<tr><td><b>'+esc(s.name)+'</b></td>'+
+        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.product||'')+'" onchange="archEditSbb(\''+s.id+'\',\'product\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
+        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.version||'')+'" onchange="archEditSbb(\''+s.id+'\',\'version\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
+        '<td>'+s.abbIds.map(aid=>state.abbs[aid]?'<span class="tag abb">'+esc(state.abbs[aid].name)+' <span class="x" onclick="archUnlinkSbbAbb(\''+s.id+'\',\''+aid+'\')">✕</span></span>':'').join('')+
+        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb(\''+s.id+'\',this.value);this.value=\'\'"><option value="">+ ABB…</option>'+
+        Object.values(state.abbs).filter(a=>!s.abbIds.includes(a.id)).map(a=>'<option value="'+a.id+'">'+esc(a.name)+'</option>').join('')+'</select></td>'+
+        '<td>'+s.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapSbbRef(\''+s.id+'\',\''+rid+'\')">✕</span></span>':'').join('')+'</td>'+
+        '<td><button class="iconbtn" title="Delete SBB" onclick="archDeleteSbb(\''+s.id+'\')">🗑</button></td></tr>';
+    });
+    h+='</table>';
+  } else h+='<div class="hint">No SBBs yet — add your actual systems/products below.</div>';
+  h+='<div class="newBB"><input id="archSbbName" placeholder="New SBB name (e.g. OpenCR)"><input id="archSbbProduct" placeholder="Product"><input id="archSbbVersion" placeholder="Version"><span></span><button onclick="archAddSbb()">Add SBB</button></div>';
+  h+='</div>';
+  document.getElementById('arch').innerHTML=h;
+}
+function archAddAbb(){
+  const name=document.getElementById('archAbbName').value.trim(); if(!name) return;
+  if(!findByName(state.abbs,name)){ const id=uid('abb'); state.abbs[id]={id:id,name:name,type:document.getElementById('archAbbType').value,desc:'',refIds:[]}; persist(); }
+  renderArch();
+}
+function archAddSbb(){
+  const name=document.getElementById('archSbbName').value.trim(); if(!name) return;
+  if(!findByName(state.sbbs,name)){ const id=uid('sbb'); state.sbbs[id]={id:id,name:name,product:document.getElementById('archSbbProduct').value.trim(),version:document.getElementById('archSbbVersion').value.trim(),desc:'',abbIds:[],refIds:[]}; persist(); }
+  renderArch();
+}
+function archDeleteAbb(id){ delete state.abbs[id]; Object.values(state.sbbs).forEach(s=>s.abbIds=s.abbIds.filter(x=>x!==id)); persist(); renderArch(); }
+function archDeleteSbb(id){ delete state.sbbs[id]; persist(); renderArch(); }
+function archUnmapAbbRef(aid,rid){ const a=state.abbs[aid]; if(a) a.refIds=a.refIds.filter(x=>x!==rid); persist(); renderArch(); }
+function archUnmapSbbRef(sid,rid){ const s=state.sbbs[sid]; if(s) s.refIds=s.refIds.filter(x=>x!==rid); persist(); renderArch(); }
+function archLinkSbbAbb(sid,aid){ const s=state.sbbs[sid]; if(s&&aid&&!s.abbIds.includes(aid)) s.abbIds.push(aid); persist(); renderArch(); }
+function archUnlinkSbbAbb(sid,aid){ const s=state.sbbs[sid]; if(s) s.abbIds=s.abbIds.filter(x=>x!==aid); persist(); renderArch(); }
+function archEditSbb(sid,field,val){ const s=state.sbbs[sid]; if(s){ s[field]=val.trim(); persist(); } }
+
+/* ================= import my architecture from ArchiMate ================= */
+let impData=null, impChecked=new Set(); const impFilter={q:'',t:''};
+document.getElementById('archImportFile').addEventListener('change',ev=>{
+  const f=ev.target.files[0]; if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{
+      impData=parseArchiFile(rd.result); impChecked=new Set(); impFilter.q=''; impFilter.t='';
+      if(!impData.els.length){ toast('No ArchiMate elements found in that file.'); impData=null; }
+      renderImportModal();
+    }catch(err){ toast('Could not read model: '+err.message); }
+    ev.target.value=''; };
+  rd.readAsText(f);
+});
+function parseArchiFile(text){
+  const doc=new DOMParser().parseFromString(text,'application/xml');
+  if(doc.querySelector('parsererror')) throw new Error('not valid XML');
+  const XSI='http://www.w3.org/2001/XMLSchema-instance';
+  const getType=el=>((el.getAttribute('xsi:type')||el.getAttributeNS(XSI,'type')||'')+'').replace(/^archimate:/,'');
+  const els=[],rels=[];
+  if(doc.querySelector('folder')){ /* Archi native format */
+    const walk=(node,path)=>{
+      for(let i=0;i<node.children.length;i++){
+        const ch=node.children[i];
+        if(ch.tagName==='folder'){ const nm=ch.getAttribute('name')||''; walk(ch,path?path+'/'+nm:nm); continue; }
+        if(ch.tagName!=='element') continue;
+        const ty=getType(ch);
+        if(!ty||ty==='ArchimateDiagramModel'||ty==='SketchModel') continue;
+        if(ty.endsWith('Relationship')){ rels.push({t:ty.replace('Relationship',''),s:ch.getAttribute('source'),g:ch.getAttribute('target')}); continue; }
+        const d=ch.querySelector(':scope > documentation');
+        els.push({id:ch.getAttribute('id'),type:ty,name:(ch.getAttribute('name')||'').trim(),doc:d?d.textContent.trim():'',folder:path||''});
+      }
+    };
+    const mroot=doc.documentElement;
+    walk(mroot,'');
+    return {name:(mroot&&mroot.getAttribute('name'))||'imported model',els:els.filter(e=>e.name),rels:rels};
+  }
+  /* Open Group exchange format */
+  doc.querySelectorAll('elements > element').forEach(el=>{
+    const ty=getType(el); if(!ty) return;
+    const nm=el.querySelector('name'), d=el.querySelector('documentation');
+    els.push({id:el.getAttribute('identifier'),type:ty,name:nm?nm.textContent.trim():'',doc:d?d.textContent.trim():''});
+  });
+  doc.querySelectorAll('relationships > relationship').forEach(r=>{
+    rels.push({t:getType(r),s:r.getAttribute('source'),g:r.getAttribute('target')});
+  });
+  const nEl=doc.querySelector('model > name');
+  return {name:nEl?nEl.textContent:'imported model',els:els.filter(e=>e.name),rels:rels};
+}
+function renderImportModal(){
+  const m=document.getElementById('modal');
+  if(!impData){ m.innerHTML=''; return; }
+  const types=[...new Set(impData.els.map(e=>e.type))].sort();
+  const vis=impData.els.filter(e=>(!impFilter.t||e.type===impFilter.t)&&(!impFilter.q||e.name.toLowerCase().includes(impFilter.q)));
+  const already=id=>state.abbs[id]||state.abbs['id-imp-'+id]?'ABB':(state.sbbs[id]||state.sbbs['id-imp-'+id]?'SBB':null);
+  let h='<div class="ovl"><div class="box">';
+  h+='<div class="mh"><b>Import “'+esc(impData.name)+'”</b><span class="hint" style="margin:0">'+impData.els.length+' elements, '+impData.rels.length+' relationships</span><span style="flex:1"></span>'+
+     '<input type="search" placeholder="filter by name…" value="'+esc(impFilter.q)+'" oninput="impFilter.q=this.value.toLowerCase();renderImportModal()">'+
+     '<select onchange="impFilter.t=this.value;renderImportModal()"><option value="">all types</option>'+types.map(ty=>'<option'+(impFilter.t===ty?' selected':'')+'>'+ty+'</option>').join('')+'</select>'+
+     '<button class="btn2 ghost" onclick="impSelectVisible(true)">select visible</button><button class="btn2 ghost" onclick="impSelectVisible(false)">none</button></div>';
+  h+='<div class="mb">'+vis.slice(0,500).map(e=>{
+    const a=already(e.id);
+    return '<div class="mrow"><input type="checkbox"'+(a?' disabled':'')+(impChecked.has(e.id)?' checked':'')+' onchange="impToggle(\''+e.id+'\')"><b title="'+esc(e.doc||e.name)+'">'+esc(e.name)+'</b><span class="badge">'+typeLabel(e.type)+'</span>'+(a?'<span class="badge '+(a==='ABB'?'abb':'sbb')+'">already imported as '+a+'</span>':'')+'</div>';
+  }).join('')+(vis.length>500?'<div class="hint">first 500 shown — use the filter</div>':'')+(vis.length?'':'<div class="hint" style="padding:14px">nothing matches</div>')+'</div>';
+  h+='<div class="mf"><span class="hint" style="margin:0">'+impChecked.size+' selected · ABBs = your architecture building blocks (specialise reference ABBs) · SBBs = concrete solutions (realise ABBs)</span><span style="flex:1"></span>'+
+     '<button class="btn2 abbc" onclick="impDo(\'abb\')">Import as local ABBs</button>'+
+     '<button class="btn2 sbbc" onclick="impDo(\'sbb\')">Import as SBBs</button>'+
+     '<button class="btn2 ghost" onclick="impClose()">Close</button></div>';
+  h+='</div></div>';
+  m.innerHTML=h;
+}
+function impToggle(id){ if(impChecked.has(id)) impChecked.delete(id); else impChecked.add(id); renderImportModal(); }
+function impSelectVisible(sel){
+  const vis=impData.els.filter(e=>(!impFilter.t||e.type===impFilter.t)&&(!impFilter.q||e.name.toLowerCase().includes(impFilter.q)));
+  vis.forEach(e=>{ const a=state.abbs[e.id]||state.sbbs[e.id]||state.abbs['id-imp-'+e.id]||state.sbbs['id-imp-'+e.id]; if(a) return; if(sel) impChecked.add(e.id); else impChecked.delete(e.id); });
+  renderImportModal();
+}
+function impDo(kind){
+  if(!impChecked.size){ toast('Select some elements first.'); return; }
+  let n=0;
+  impChecked.forEach(id0=>{
+    const e=impData.els.find(x=>x.id===id0); if(!e) return;
+    let id=id0;
+    if(byId[id]) id='id-imp-'+id0; /* avoid clash with reference-model ids */
+    if(state.abbs[id]||state.sbbs[id]) return;
+    if(kind==='abb') state.abbs[id]={id:id,name:e.name,type:e.type,desc:e.doc||'',refIds:[]};
+    else state.sbbs[id]={id:id,name:e.name,product:'',version:'',desc:e.doc||'',abbIds:[],refIds:[]};
+    n++;
+  });
+  /* auto-link: Realization relationships from the imported model become SBB→ABB links */
+  let linked=0;
+  impData.rels.forEach(r=>{
+    if(r.t!=='Realization') return;
+    const s=state.sbbs[r.s]||state.sbbs['id-imp-'+r.s];
+    const g=state.abbs[r.g]||state.abbs['id-imp-'+r.g];
+    if(s&&g&&!s.abbIds.includes(g.id)){ s.abbIds.push(g.id); linked++; }
+  });
+  impChecked.clear(); persist(); renderImportModal(); renderArch(); refreshDatalists();
+  toast(n+' imported as '+(kind==='abb'?'local ABBs':'SBBs')+(linked?' · '+linked+' SBB→ABB realisation(s) auto-linked':'')+'.');
+}
+function impClose(){ impData=null; document.getElementById('modal').innerHTML=''; }
+
+/* ================= switch reference RA version ================= */
+function layerOf(ty){
+  if(/^(Capability|ValueStream|Resource|CourseOfAction)$/.test(ty)) return 'Strategy';
+  if(/^(Goal|Driver|Outcome|Value|Stakeholder|Principle|Requirement|Constraint|Assessment|Meaning)$/.test(ty)) return 'Motivation';
+  if(/^Business|^(Product|Contract|Representation)$/.test(ty)) return 'Business';
+  if(/^Application|^DataObject$/.test(ty)) return 'Application';
+  if(/^Technology|^(Node|SystemSoftware|Device|Artifact|CommunicationNetwork|Path)$/.test(ty)) return 'Technology';
+  if(/^(WorkPackage|Deliverable|Plateau|Gap)$/.test(ty)) return 'Implementation & Migration';
+  return 'Other';
+}
+function toModelData(parsed,src){
+  const els=parsed.els.map(e=>({i:e.id,t:e.type,n:e.name,f:e.folder||layerOf(e.type),d:e.doc||''}));
+  const ids=new Set(els.map(e=>e.i));
+  const rels=parsed.rels.filter(r=>r.t&&ids.has(r.s)&&ids.has(r.g)).map((r,k)=>({i:'id-rel-'+k,t:r.t,s:r.s,g:r.g}));
+  return {modelName:parsed.name,modelId:'id-loaded',source:src,custom:true,elements:els,relationships:rels};
+}
+document.getElementById('refFile').addEventListener('change',ev=>{
+  const f=ev.target.files[0]; if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{
+      const parsed=parseArchiFile(rd.result);
+      if(!parsed.els.length) throw new Error('no ArchiMate elements found');
+      const data=toModelData(parsed,f.name);
+      customModel=data;
+      try{ localStorage.setItem(LS_MODEL,JSON.stringify(data)); }catch(e){ toast('Note: model too large to persist — it will reset on reload.'); }
+      applyVersion('__custom');
+    }catch(err){ toast('Could not load model: '+err.message); }
+    ev.target.value=''; };
+  rd.readAsText(f);
+});
+function applyModel(data){
+  initModel(data);
+  let orphans=0;
+  Object.values(state.abbs).forEach(a=>a.refIds.forEach(r=>{ if(!byId[r]) orphans++; }));
+  Object.values(state.sbbs).forEach(s=>s.refIds.forEach(r=>{ if(!byId[r]) orphans++; }));
+  Object.keys(state.overrides).forEach(r=>{ if(!byId[r]) orphans++; });
+  filter={folder:null,type:null}; query=''; statusFilter='';
+  const q=document.getElementById('q'); if(q) q.value='';
+  const sf=document.getElementById('statusFilter'); if(sf) sf.value='';
+  xRootId=null; xExpanded.clear(); xInited=false; selectedId=null;
+  document.getElementById('detail').classList.remove('open');
+  updateModelSub(); refresh();
+  if(tab==='explore') renderExplore();
+  if(tab==='arch') renderArch();
+  if(tab==='dash') renderDash();
+  toast('Reference model: '+MODEL.modelName+' — '+MODEL.elements.length+' elements'+(orphans?' · '+orphans+' existing mapping target(s) not present in this version (kept, will reappear if you switch back)':''));
+}
+function renderVersionSelect(){
+  const sel=document.getElementById('refVersion'); if(!sel) return;
+  let h=EMBEDDED_CATALOG.versions.map(v=>'<option value="'+esc(v.key)+'"'+(currentVersionKey===v.key?' selected':'')+'>'+esc(v.label)+'</option>').join('');
+  if(customModel) h+='<option value="__custom"'+(currentVersionKey==='__custom'?' selected':'')+'>'+esc((customModel.modelName||'loaded file')+' (file)')+'</option>';
+  sel.innerHTML=h;
+}
+function applyVersion(key){
+  if(key==='__custom'&&customModel){ currentVersionKey='__custom'; try{localStorage.setItem(LS_CHOICE,'__custom');}catch(e){} applyModel(customModel); }
+  else{
+    const v=EMBEDDED_CATALOG.versions.find(x=>x.key===key)||EMBEDDED_CATALOG.versions[0];
+    currentVersionKey=v.key; try{localStorage.setItem(LS_CHOICE,v.key);}catch(e){}
+    applyModel(v.data);
+  }
+  renderVersionSelect();
+}
+document.getElementById('refVersion').addEventListener('change',ev=>applyVersion(ev.target.value));
+function updateModelSub(){
+  document.getElementById('modelSub').textContent=MODEL.modelName+' · '+MODEL.elements.length+' reference ABBs · '+MODEL.relationships.length+' relationships'+(MODEL.custom?' · loaded from '+(MODEL.source||'file'):'');
+}
+
+/* ================= dashboard ================= */
+function renderDash(){
+  statsMemo=new Map();
+  const els=MODEL.elements;
+  const counts={unreviewed:0,covered:0,instantiated:0,partial:0,gap:0,na:0};
+  els.forEach(e=>counts[refStatus(e.i)]++);
+  const assessed=els.length-counts.unreviewed;
+  const applicable=els.length-counts.na;
+  const conforming=counts.covered+counts.instantiated;
+  const covPct=applicable? Math.round(100*(conforming+0.5*counts.partial)/applicable):0;
+  let h='';
+  h+='<div class="panel"><h2>Mapping context</h2><div class="metaGrid">'+
+     mfield('Organisation / Ministry','organisation')+mfield('Country','country')+mfield('Author / contact','author')+mfield('General notes','notes')+
+     '</div></div>';
+  h+='<div class="cards">'+
+    kpi(els.length,'Reference ABBs')+
+    kpi(assessed+' <span style="font-size:13px;color:var(--muted)">('+Math.round(100*assessed/els.length)+'%)</span>','Assessed')+
+    kpi('<span style="color:var(--st-covered)">'+counts.covered+'</span>','Covered (ABB only)')+
+    kpi('<span style="color:var(--st-instantiated)">'+counts.instantiated+'</span>','Instantiated (SBB)')+
+    kpi('<span style="color:var(--st-gap)">'+counts.gap+'</span>','Gaps')+
+    kpi('<span style="color:'+(covPct>=70?'#1a7f37':covPct>=40?'#b7791f':'#c0392b')+'">'+covPct+'%</span>','Conformance (of applicable)')+
+    '</div>';
+  h+='<div class="legend">'+Object.entries(STATUSES).map(([k,s])=>'<span><i style="background:'+s.c+'"></i>'+s.label+'</span>').join('')+'</div>';
+  /* capability perspectives — downward progress per capability */
+  const caps=els.filter(e=>e.t==='Capability').map(e=>({e:e,ss:subtreeStats(e.i)})).sort((a,b)=>b.ss.total-a.ss.total).slice(0,30);
+  h+='<div class="panel"><h2>Capability perspectives — downward progress &amp; conformance</h2><div class="hint" style="margin-bottom:10px">Each capability assessed over its downward subtree only (services it needs, components exposing them, data — never its parents).</div>';
+  caps.forEach(c=>{
+    const revPct=c.ss.total?Math.round(100*c.ss.reviewed/c.ss.total):0;
+    const confPct=c.ss.total?Math.round(100*(c.ss.conf+0.5*c.ss.partial)/c.ss.total):0;
+    h+='<div class="barRow click" onclick="jumpToPerspective(\''+c.e.i+'\')" style="cursor:pointer"><div class="lbl" title="'+esc(c.e.n)+'">'+esc(c.e.n)+'</div><div class="bar"><div class="seg" style="width:'+confPct+'%;background:var(--st-instantiated)"></div><div class="seg" style="width:'+Math.max(0,revPct-confPct)+'%;background:var(--st-partial)"></div></div><div class="pct">'+c.ss.reviewed+'/'+c.ss.total+' · '+confPct+'%✓</div></div>';
+  });
+  h+='</div>';
+  const byType={};
+  els.forEach(e=>{ (byType[e.t]=byType[e.t]||[]).push(e); });
+  h+='<div class="panel"><h2>Coverage by element type</h2>';
+  Object.keys(byType).sort((a,b)=>byType[b].length-byType[a].length).forEach(t=>{ h+=barRow(typeLabel(t),byType[t]); });
+  h+='</div>';
+  const byF={};
+  els.forEach(e=>{ const f=topFolder(e); (byF[f]=byF[f]||[]).push(e); });
+  h+='<div class="panel"><h2>Coverage by layer</h2>';
+  FOLDER_ORDER.filter(f=>byF[f]).forEach(f=>{ h+=barRow(f,byF[f]); });
+  h+='</div>';
+  const attention=els.filter(e=>['gap','partial'].includes(refStatus(e.i)));
+  h+='<div class="panel"><h2>Needs attention — gaps &amp; partial ('+attention.length+')</h2>';
+  if(attention.length){
+    h+='<table class="tbl"><tr><th>Reference ABB</th><th>Type</th><th>Status</th><th>Reason</th><th>Local ABBs</th><th>Notes</th></tr>';
+    attention.forEach(e=>{
+      const ovr=(state.overrides[e.i]||{}).reason;
+      h+='<tr class="click" onclick="jumpTo(\''+e.i+'\')"><td><b>'+esc(e.n)+'</b></td><td>'+typeLabel(e.t)+'</td><td>'+chipHTML(refStatus(e.i))+'</td><td>'+(ovr&&REASONS[ovr]?REASONS[ovr][0]:'')+'</td><td>'+abbsForRef(e.i).map(a=>esc(a.name)).join(', ')+'</td><td style="max-width:300px">'+esc(refNotes(e.i))+'</td></tr>';
+    });
+    h+='</table>';
+  } else h+='<div class="hint">Nothing flagged yet.</div>';
+  h+='</div>';
+  /* instantiation chain */
+  const abbs=Object.values(state.abbs), sbbs=Object.values(state.sbbs);
+  const orphanAbbs=abbs.filter(a=>!sbbsForAbb(a.id).length);
+  const orphanSbbs=sbbs.filter(s=>!s.abbIds.length&&!s.refIds.length);
+  h+='<div class="panel"><h2>Your architecture instantiation</h2>';
+  h+='<div class="cards" style="margin-bottom:10px">'+kpi(abbs.length,'Local ABBs')+kpi(sbbs.length,'SBBs')+kpi(orphanAbbs.length,'ABBs without an SBB')+kpi(orphanSbbs.length,'Unlinked SBBs')+'</div>';
+  if(orphanAbbs.length) h+='<div class="hint" style="margin-bottom:6px"><b>ABBs not yet realised by any SBB:</b> '+orphanAbbs.map(a=>esc(a.name)).join(', ')+'</div>';
+  if(orphanSbbs.length) h+='<div class="hint"><b>SBBs not linked to anything:</b> '+orphanSbbs.map(s=>esc(s.name)).join(', ')+'</div>';
+  if(!orphanAbbs.length&&!orphanSbbs.length&&(abbs.length||sbbs.length)) h+='<div class="hint">Every ABB is realised and every SBB is linked. ✔</div>';
+  h+='</div>';
+  document.getElementById('dash').innerHTML=h;
+  ['organisation','country','author','notes'].forEach(k=>{
+    const inp=document.getElementById('meta-'+k);
+    if(inp) inp.addEventListener('input',ev=>{ state.meta[k]=ev.target.value; persist(); });
+  });
+}
+function mfield(label,key){ return '<div><label>'+label+'</label><input id="meta-'+key+'" value="'+esc(state.meta[key]||'')+'"></div>'; }
+function kpi(v,l){ return '<div class="kpi"><div class="v">'+v+'</div><div class="l">'+l+'</div></div>'; }
+function barRow(label,els){
+  const c={unreviewed:0,covered:0,instantiated:0,partial:0,gap:0,na:0};
+  els.forEach(e=>c[refStatus(e.i)]++);
+  const n=els.length;
+  let segs='';
+  ['instantiated','covered','partial','gap','na','unreviewed'].forEach(k=>{
+    if(c[k]) segs+='<div class="seg" style="width:'+(100*c[k]/n)+'%;background:'+STATUSES[k].c+'" title="'+STATUSES[k].label+': '+c[k]+'"></div>';
+  });
+  const done=n-c.unreviewed;
+  return '<div class="barRow"><div class="lbl" title="'+esc(label)+'">'+esc(label)+'</div><div class="bar">'+segs+'</div><div class="pct">'+done+'/'+n+' assessed</div></div>';
+}
+function jumpTo(id){ showTab('browse'); filter={folder:null,type:null}; query=''; document.getElementById('q').value=''; statusFilter=''; document.getElementById('statusFilter').value=''; refresh(); openDetail(id); const row=document.querySelector('.row[data-id="'+id+'"]'); if(row) row.scrollIntoView({block:'center'}); }
+function jumpToPerspective(id){
+  showTab('explore'); xInit();
+  const e=byId[id]; if(!e) return;
+  const tSel=document.getElementById('xType');
+  if([...tSel.options].some(o=>o.value===e.t)) tSel.value=e.t; xFillRoots();
+  document.getElementById('xRoot').value=id;
+  xRootId=id; xExpanded.clear(); xExpanded.add(id);
+  renderXTree();
+}
+
+/* ================= tabs ================= */
+function showTab(t){
+  tab=t;
+  document.getElementById('tabBrowse').classList.toggle('active',t==='browse');
+  document.getElementById('tabExplore').classList.toggle('active',t==='explore');
+  document.getElementById('tabArch').classList.toggle('active',t==='arch');
+  document.getElementById('tabDash').classList.toggle('active',t==='dash');
+  document.getElementById('sidebar').style.display=t==='browse'?'flex':'none';
+  document.getElementById('listPane').style.display=t==='browse'?'flex':'none';
+  document.getElementById('explore').classList.toggle('open',t==='explore');
+  document.getElementById('arch').classList.toggle('open',t==='arch');
+  document.getElementById('dash').classList.toggle('open',t==='dash');
+  if(t!=='browse'&&t!=='explore') document.getElementById('detail').classList.remove('open');
+  if(t==='explore') renderExplore();
+  if(t==='arch') renderArch();
+  if(t==='dash') renderDash();
+}
+
+/* ================= export (ArchiMate Model Exchange Format 3.1) ================= */
+function xesc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function exportXML(){
+  const NS='http://www.opengroup.org/xsd/archimate/3.0/';
+  const abbs=Object.values(state.abbs), sbbs=Object.values(state.sbbs);
+  const refIds=new Set();
+  abbs.forEach(a=>a.refIds.forEach(r=>refIds.add(r)));
+  sbbs.forEach(s=>s.refIds.forEach(r=>refIds.add(r)));
+  Object.keys(state.overrides).forEach(r=>refIds.add(r));
+  const usedWho=[...refIds].filter(id=>byId[id]);
+  const today=new Date().toISOString().slice(0,10);
+  const org=state.meta.organisation||state.meta.country||'Local architecture';
+  let x='<?xml version="1.0" encoding="UTF-8"?>\n';
+  x+='<model xmlns="'+NS+'" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="'+NS+' http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-mapping-'+today.replace(/-/g,'')+'">\n';
+  x+='  <name xml:lang="en">'+xesc(org)+' — ABB/SBB mapping to '+xesc(MODEL.modelName)+'</name>\n';
+  x+='  <documentation xml:lang="en">EIRA-style conformance mapping produced with SMART RA Mapper on '+today+'. Reference model: '+xesc(MODEL.modelName)+' ('+xesc(MODEL.source)+'). Local ABBs specialise reference ABBs (Specialization); SBBs realise ABBs or reference ABBs (Realization). Statuses, reasons and notes are element properties; full tool state is in model property "ra-mapper-state" for lossless re-import.</documentation>\n';
+  x+='  <properties>\n    <property propertyDefinitionRef="pd-state"><value xml:lang="en">'+xesc(JSON.stringify(state))+'</value></property>\n  </properties>\n';
+  x+='  <elements>\n';
+  usedWho.forEach(id=>{
+    const e=byId[id];
+    const ov=state.overrides[id]||{};
+    x+='    <element identifier="'+xesc(id)+'" xsi:type="'+e.t+'">\n      <name xml:lang="en">'+xesc(e.n)+'</name>\n      <properties>\n';
+    x+='        <property propertyDefinitionRef="pd-origin"><value xml:lang="en">reference-abb</value></property>\n';
+    x+='        <property propertyDefinitionRef="pd-status"><value xml:lang="en">'+refStatus(id)+'</value></property>\n';
+    if(ov.status) x+='        <property propertyDefinitionRef="pd-override"><value xml:lang="en">'+ov.status+'</value></property>\n';
+    if(ov.reason) x+='        <property propertyDefinitionRef="pd-reason"><value xml:lang="en">'+xesc(ov.reason)+'</value></property>\n';
+    if(ov.notes) x+='        <property propertyDefinitionRef="pd-notes"><value xml:lang="en">'+xesc(ov.notes)+'</value></property>\n';
+    x+='      </properties>\n    </element>\n';
+  });
+  abbs.forEach(a=>{
+    x+='    <element identifier="'+xesc(a.id)+'" xsi:type="'+a.type+'">\n      <name xml:lang="en">'+xesc(a.name)+'</name>\n';
+    if(a.desc) x+='      <documentation xml:lang="en">'+xesc(a.desc)+'</documentation>\n';
+    x+='      <properties>\n        <property propertyDefinitionRef="pd-origin"><value xml:lang="en">local-abb</value></property>\n      </properties>\n    </element>\n';
+  });
+  sbbs.forEach(s=>{
+    x+='    <element identifier="'+xesc(s.id)+'" xsi:type="ApplicationComponent">\n      <name xml:lang="en">'+xesc(s.name)+'</name>\n';
+    if(s.desc) x+='      <documentation xml:lang="en">'+xesc(s.desc)+'</documentation>\n';
+    x+='      <properties>\n        <property propertyDefinitionRef="pd-origin"><value xml:lang="en">sbb</value></property>\n';
+    if(s.product) x+='        <property propertyDefinitionRef="pd-product"><value xml:lang="en">'+xesc(s.product)+'</value></property>\n';
+    if(s.version) x+='        <property propertyDefinitionRef="pd-version"><value xml:lang="en">'+xesc(s.version)+'</value></property>\n';
+    x+='      </properties>\n    </element>\n';
+  });
+  x+='  </elements>\n  <relationships>\n';
+  let ri=0;
+  abbs.forEach(a=>{
+    a.refIds.forEach(rid=>{
+      if(!byId[rid]) return;
+      const relType=(a.type===byId[rid].t)?'Specialization':'Realization';
+      x+='    <relationship identifier="id-map-'+(++ri)+'" source="'+xesc(a.id)+'" target="'+xesc(rid)+'" xsi:type="'+relType+'">\n      <name xml:lang="en">'+(relType==='Specialization'?'specialises':'realises')+' reference ABB</name>\n    </relationship>\n';
+    });
+  });
+  sbbs.forEach(s=>{
+    s.abbIds.forEach(aid=>{
+      if(!state.abbs[aid]) return;
+      x+='    <relationship identifier="id-map-'+(++ri)+'" source="'+xesc(s.id)+'" target="'+xesc(aid)+'" xsi:type="Realization">\n      <name xml:lang="en">realises ABB</name>\n    </relationship>\n';
+    });
+    s.refIds.forEach(rid=>{
+      if(!byId[rid]) return;
+      x+='    <relationship identifier="id-map-'+(++ri)+'" source="'+xesc(s.id)+'" target="'+xesc(rid)+'" xsi:type="Realization">\n      <name xml:lang="en">realises reference ABB (direct)</name>\n    </relationship>\n';
+    });
+  });
+  x+='  </relationships>\n  <propertyDefinitions>\n';
+  [['pd-state','ra-mapper-state'],['pd-origin','origin'],['pd-status','conformance-status'],['pd-override','manual-override'],['pd-reason','not-mapped-reason'],['pd-notes','assertion-notes'],['pd-product','product'],['pd-version','version']].forEach(([id,nm])=>{
+    x+='    <propertyDefinition identifier="'+id+'" type="string"><name>'+nm+'</name></propertyDefinition>\n';
+  });
+  x+='  </propertyDefinitions>\n</model>\n';
+  const blob=new Blob([x],{type:'application/xml'});
+  const aEl=document.createElement('a');
+  aEl.href=URL.createObjectURL(blob);
+  aEl.download='ra-mapping-'+(org.replace(/[^A-Za-z0-9]+/g,'-').toLowerCase()||'local')+'-'+today+'.xml';
+  aEl.click(); URL.revokeObjectURL(aEl.href);
+  toast('Exported: '+usedWho.length+' reference ABBs, '+abbs.length+' local ABBs, '+sbbs.length+' SBBs.');
+}
+
+/* ================= import ================= */
+document.getElementById('importFile').addEventListener('change',ev=>{
+  const f=ev.target.files[0]; if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{ importXML(rd.result); }catch(err){ toast('Import failed: '+err.message); } ev.target.value=''; };
+  rd.readAsText(f);
+});
+function importXML(text){
+  const doc=new DOMParser().parseFromString(text,'application/xml');
+  if(doc.querySelector('parsererror')) throw new Error('not valid XML');
+  const defs={};
+  doc.querySelectorAll('propertyDefinition').forEach(pd=>{ defs[pd.getAttribute('identifier')]=(pd.querySelector('name')||{}).textContent; });
+  let restored=null;
+  doc.querySelectorAll('model > properties > property').forEach(p=>{
+    if(defs[p.getAttribute('propertyDefinitionRef')]==='ra-mapper-state'){
+      const v=p.querySelector('value'); if(v) restored=JSON.parse(v.textContent);
+    }
+  });
+  if(restored){
+    state = restored.version===2 ? restored : migrateV1(restored);
+  } else {
+    const st={version:2,meta:{organisation:'',country:'',author:'',notes:''},abbs:{},sbbs:{},overrides:{}};
+    const props=el=>{ const o={}; el.querySelectorAll(':scope > properties > property').forEach(p=>{ const n=defs[p.getAttribute('propertyDefinitionRef')]; const v=p.querySelector('value'); if(n&&v) o[n]=v.textContent; }); return o; };
+    doc.querySelectorAll('elements > element').forEach(el=>{
+      const id=el.getAttribute('identifier'); const pr=props(el);
+      const nm=(el.querySelector('name')||{}).textContent||'';
+      const ty=el.getAttribute('xsi:type')||el.getAttributeNS('http://www.w3.org/2001/XMLSchema-instance','type')||'ApplicationComponent';
+      if(pr.origin==='local-abb') st.abbs[id]={id:id,name:nm,type:ty,desc:'',refIds:[]};
+      else if(pr.origin==='sbb') st.sbbs[id]={id:id,name:nm,product:pr.product||'',version:pr.version||'',desc:'',abbIds:[],refIds:[]};
+      else if(pr.origin==='local'&&!byId[id]) st.abbs[id]={id:id,name:nm,type:ty,desc:'',refIds:[]};
+      if(byId[id]&&(pr['manual-override']||pr['assertion-notes']||pr['not-mapped-reason'])){
+        st.overrides[id]={status:pr['manual-override']||null,notes:pr['assertion-notes']||''};
+        if(pr['not-mapped-reason']) st.overrides[id].reason=pr['not-mapped-reason'];
+      }
+    });
+    doc.querySelectorAll('relationships > relationship').forEach(r=>{
+      const s=r.getAttribute('source'), g=r.getAttribute('target');
+      if(st.abbs[s]&&byId[g]){ if(!st.abbs[s].refIds.includes(g)) st.abbs[s].refIds.push(g); }
+      else if(st.sbbs[s]&&st.abbs[g]){ if(!st.sbbs[s].abbIds.includes(g)) st.sbbs[s].abbIds.push(g); }
+      else if(st.sbbs[s]&&byId[g]){ if(!st.sbbs[s].refIds.includes(g)) st.sbbs[s].refIds.push(g); }
+    });
+    state=st;
+  }
+  persist(); refresh(); refreshDatalists();
+  if(tab==='explore') renderXTree();
+  if(tab==='arch') renderArch();
+  if(tab==='dash') renderDash();
+  toast('Imported: '+Object.keys(state.abbs).length+' ABBs, '+Object.keys(state.sbbs).length+' SBBs, '+Object.keys(state.overrides).length+' overrides/notes.');
+}
+
+/* ================= misc ================= */
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2600); }
+document.getElementById('q').addEventListener('input',ev=>{ query=ev.target.value; renderList(); });
+document.getElementById('statusFilter').addEventListener('change',ev=>{ statusFilter=ev.target.value; renderList(); });
+function refresh(){ statsMemo=new Map(); buildTree(); renderList(); }
+updateModelSub(); renderVersionSelect();
+refresh(); refreshDatalists();
+</script>
+</body>
+</html>

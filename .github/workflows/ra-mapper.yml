@@ -1,0 +1,43 @@
+name: Build & Deploy RA Mapper
+
+on:
+  push:
+    paths:
+      - "archimate/**"
+      - "tools/ra-mapper/**"
+      - ".github/workflows/ra-mapper.yml"
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Build mapper
+        run: |
+          cd tools/ra-mapper
+          python3 build_ra_mapper.py \
+            ../../archimate/draft/WHOBaseFile.archimate \
+            ../../archimate/current/WHOBaseFile_prev.archimate \
+            -l "WHO RA (draft)" "WHO RA (previous)" \
+            -o SMART-RA-Mapper.html
+
+      - name: Prepare deploy layout
+        run: |
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          if [ "$BRANCH" = "main" ]; then BASE_DIR="."; else BASE_DIR="branches/$BRANCH"; fi
+          mkdir -p "deploy_output/$BASE_DIR/mapper"
+          cp tools/ra-mapper/SMART-RA-Mapper.html "deploy_output/$BASE_DIR/mapper/index.html"
+          cp tools/ra-mapper/SMART-RA-Mapper.html "deploy_output/$BASE_DIR/mapper/SMART-RA-Mapper.html"
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy_output
+          publish_branch: gh-pages
+          keep_files: true
