@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>PMF Sub-Goal #3 Implementation</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>PMF Sub-Goal #3 Implementation</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-36ced9d26de543e798abb111c9914a94.html" target="element"> Health finance infromation system/ Data warehouse &amp; analytics platform </a> </td>
+											    <td> <a href="../elements/id-36ced9d26de543e798abb111c9914a94.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e6703e080ba54f2ca0238fa7ed59b3f4.html" target="element"> Analytics and AI Platform </a> </td>
+											    <td> <a href="../elements/id-e6703e080ba54f2ca0238fa7ed59b3f4.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7c2ac96f6ac842b7ae82d33e73af166f.html" target="element"> Payment adapter / reconciliation service </a> </td>
+											    <td> <a href="../elements/id-7c2ac96f6ac842b7ae82d33e73af166f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+											    <td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f37c80ae4a4a471b901659d5ab70baf7.html" target="element"> Data aggregation and consolidation </a> </td>
+													    <td> <a href="../elements/id-f37c80ae4a4a471b901659d5ab70baf7.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-eb9756bbca154363bdc7b3c316c1686e.html" target="element"> Contribution Performance Analytics </a> </td>
+													    <td> <a href="../elements/id-eb9756bbca154363bdc7b3c316c1686e.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-51a978909afc4394bcb7480e20d92652.html" target="element"> Payment flow monitoring and reconciliation </a> </td>
+													    <td> <a href="../elements/id-51a978909afc4394bcb7480e20d92652.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-81e60f63df33463ebc6491c92dad8191.html" target="element"> Compliance and leakage analysis </a> </td>
+													    <td> <a href="../elements/id-81e60f63df33463ebc6491c92dad8191.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-f22d25a334ea464da5be0ee8511034a4.html" target="element"> Contribution / tax policy &amp; rate-setting (ability to stratify/differentiate contribution setting based on policy rules).  </a> </td>
+											    <td> <a href="../elements/id-f22d25a334ea464da5be0ee8511034a4.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-88bb1fb405b04529ac330bb9b7c90b9d.html" target="element"> Revenue collection &amp; enforcement (ability to bill, collect, track, and manage arrears).  </a> </td>
+											    <td> <a href="../elements/id-88bb1fb405b04529ac330bb9b7c90b9d.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-56e9dfb023c14b5093fe8f198608231a.html" target="element"> Revenue performance analytics (ability to monitor yield, leakage, and compliance). </a> </td>
+											    <td> <a href="../elements/id-56e9dfb023c14b5093fe8f198608231a.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b9dbeab284654c56a3b4612848f1db72.html" target="element"> Facility Registry  </a> </td>
+											    <td> <a href="../elements/id-b9dbeab284654c56a3b4612848f1db72.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-16095b7463e24566ba8b80a1d529f190.html" target="element"> Product Catalogue </a> </td>
+											    <td> <a href="../elements/id-16095b7463e24566ba8b80a1d529f190.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-c017ec35a8ba4d31b792eb048c1f552d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c017ec35a8ba4d31b792eb048c1f552d.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36ced9d26de543e798abb111c9914a94.html" target="element"> Health finance infromation system/ Data warehouse &amp; analytics platform </a> </td>
+																		<td> <a href="../elements/id-f37c80ae4a4a471b901659d5ab70baf7.html" target="element"> Data aggregation and consolidation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d3225536cc0a4195bdb270d1e992ac61.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d3225536cc0a4195bdb270d1e992ac61.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-36ced9d26de543e798abb111c9914a94.html" target="element"> Health finance infromation system/ Data warehouse &amp; analytics platform </a> </td>
+																		<td> <a href="../elements/id-81e60f63df33463ebc6491c92dad8191.html" target="element"> Compliance and leakage analysis </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-db8bf960ccc7481e856592309f9b6689.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-db8bf960ccc7481e856592309f9b6689.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e6703e080ba54f2ca0238fa7ed59b3f4.html" target="element"> Analytics and AI Platform </a> </td>
+																		<td> <a href="../elements/id-eb9756bbca154363bdc7b3c316c1686e.html" target="element"> Contribution Performance Analytics </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-313d6b8cde1142a8b286f5287369a2c1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-313d6b8cde1142a8b286f5287369a2c1.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7c2ac96f6ac842b7ae82d33e73af166f.html" target="element"> Payment adapter / reconciliation service </a> </td>
+																		<td> <a href="../elements/id-51a978909afc4394bcb7480e20d92652.html" target="element"> Payment flow monitoring and reconciliation </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3a36216bd08747c696733609b0532925.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a36216bd08747c696733609b0532925.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-81e60f63df33463ebc6491c92dad8191.html" target="element"> Compliance and leakage analysis </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-595af652d0dd48c4b1787e59c0226680.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-595af652d0dd48c4b1787e59c0226680.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-51a978909afc4394bcb7480e20d92652.html" target="element"> Payment flow monitoring and reconciliation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b71265a721884f9099e3ad4d08e023b0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b71265a721884f9099e3ad4d08e023b0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-88bb1fb405b04529ac330bb9b7c90b9d.html" target="element"> Revenue collection &amp; enforcement (ability to bill, collect, track, and manage arrears).  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c5a7fb899d824fad8b1ebad98df82261.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c5a7fb899d824fad8b1ebad98df82261.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-eb9756bbca154363bdc7b3c316c1686e.html" target="element"> Contribution Performance Analytics </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-eb11cd31c9c94f53b1f77d8dd2af4bd8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-eb11cd31c9c94f53b1f77d8dd2af4bd8.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-56e9dfb023c14b5093fe8f198608231a.html" target="element"> Revenue performance analytics (ability to monitor yield, leakage, and compliance). </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-89a9877e1c6e46ccaf557358000a0334.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-89a9877e1c6e46ccaf557358000a0334.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-f22d25a334ea464da5be0ee8511034a4.html" target="element"> Contribution / tax policy &amp; rate-setting (ability to stratify/differentiate contribution setting based on policy rules).  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a1045a6a96104b438465f36a4026c3dd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a1045a6a96104b438465f36a4026c3dd.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services </a> </td>
+																		<td> <a href="../elements/id-f37c80ae4a4a471b901659d5ab70baf7.html" target="element"> Data aggregation and consolidation </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-34c239e37cad4a96ad174b76b99da437.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-34c239e37cad4a96ad174b76b99da437.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f22d25a334ea464da5be0ee8511034a4.html" target="element"> Contribution / tax policy &amp; rate-setting (ability to stratify/differentiate contribution setting based on policy rules).  </a> </td>
+																		<td> <a href="../elements/id-0ab8ea420c9d45ce8d01aacfd71c36fc.html" target="element"> PMF Sub-Goal #3 Outcomes </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b3c18eeeb95e40198a04d07fcac668f2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b3c18eeeb95e40198a04d07fcac668f2.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-88bb1fb405b04529ac330bb9b7c90b9d.html" target="element"> Revenue collection &amp; enforcement (ability to bill, collect, track, and manage arrears).  </a> </td>
+																		<td> <a href="../elements/id-0ab8ea420c9d45ce8d01aacfd71c36fc.html" target="element"> PMF Sub-Goal #3 Outcomes </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f9bd56f1ffdd43e9b1e54c7693b86d97.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f9bd56f1ffdd43e9b1e54c7693b86d97.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-56e9dfb023c14b5093fe8f198608231a.html" target="element"> Revenue performance analytics (ability to monitor yield, leakage, and compliance). </a> </td>
+																		<td> <a href="../elements/id-0ab8ea420c9d45ce8d01aacfd71c36fc.html" target="element"> PMF Sub-Goal #3 Outcomes </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
