@@ -72,13 +72,6 @@ jobs:
       - name: Generate reports and lay out under /archimate
         if: steps.check.outputs.skip != 'true'
         run: |
-          BRANCH="${GITHUB_REF#refs/heads/}"
-          if [ "$BRANCH" = "main" ]; then
-            BASE_DIR="."
-          else
-            BASE_DIR="branches/$BRANCH"
-          fi
-
           # Which version is "current" is declared in archimate/current.txt — a one-line
           # file containing the version folder name (e.g. "v2"). The current version's
           # report is ALSO published at the /archimate root, so the .archimate file
