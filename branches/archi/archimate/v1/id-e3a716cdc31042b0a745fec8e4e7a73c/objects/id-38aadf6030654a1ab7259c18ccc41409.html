@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Q&CC Sub-goal #3 Implementation</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Q&amp;CC Sub-goal #3 Implementation</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-c58ba35e4ad746669f63de131797aee4.html" target="element"> Care Transition Coordination </a> </td>
+											    <td> <a href="../elements/id-c58ba35e4ad746669f63de131797aee4.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+											    <td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element"> Referal Management System Service </a> </td>
+											    <td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c6aab67b5ac2412ab20f7eda3574d9df.html" target="element"> Interoperability &amp; Exchange Service </a> </td>
+											    <td> <a href="../elements/id-c6aab67b5ac2412ab20f7eda3574d9df.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0cb37ebe7e8c4a839f7cb7f67bda3121.html" target="element"> Medication Reconciliation Service </a> </td>
+											    <td> <a href="../elements/id-0cb37ebe7e8c4a839f7cb7f67bda3121.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-229b469d56ac4481b9d272d8a4a1b564.html" target="element"> Follow-up &amp; Task Tracking Service </a> </td>
+											    <td> <a href="../elements/id-229b469d56ac4481b9d272d8a4a1b564.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-a8ef8bc223f549e59220d08300328ceb.html" target="element"> Community Health Info System Service  </a> </td>
+											    <td> <a href="../elements/id-a8ef8bc223f549e59220d08300328ceb.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b36a52825f2e4a9597e1db3d8e3552ef.html" target="element"> Client Registry </a> </td>
+											    <td> <a href="../elements/id-b36a52825f2e4a9597e1db3d8e3552ef.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-da73c1714caf494c982f0734bddf87d4.html" target="element"> Shared Health Record </a> </td>
+											    <td> <a href="../elements/id-da73c1714caf494c982f0734bddf87d4.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-133e097e8eee407097fd4b770c2d846c.html" target="element"> Electronic Medical Record </a> </td>
+											    <td> <a href="../elements/id-133e097e8eee407097fd4b770c2d846c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-24782a510a2d4871a1eee5d67c43d06c.html" target="element"> Community Health Info System </a> </td>
+											    <td> <a href="../elements/id-24782a510a2d4871a1eee5d67c43d06c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9037cf36f41144d1aca690b891202b4f.html" target="element"> Health MGMT Information Service System </a> </td>
+											    <td> <a href="../elements/id-9037cf36f41144d1aca690b891202b4f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2b723e2816b340c18a2c61c713df93c8.html" target="element"> Care Transition Workflow Engine </a> </td>
+											    <td> <a href="../elements/id-2b723e2816b340c18a2c61c713df93c8.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-28ca436ee4ae47bc80e4f2d640744a83.html" target="element"> Medication Reconciliation Module </a> </td>
+											    <td> <a href="../elements/id-28ca436ee4ae47bc80e4f2d640744a83.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+											    <td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-155546edf11e437993e4b3336fd1151a.html" target="element"> Client Registry  </a> </td>
+													    <td> <a href="../elements/id-155546edf11e437993e4b3336fd1151a.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a1d3aa2e458c4163bba9f53edbfc34a0.html" target="element"> Health Worker Registry  </a> </td>
+													    <td> <a href="../elements/id-a1d3aa2e458c4163bba9f53edbfc34a0.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-daf585bf159243f88c02fe45e8f34b76.html" target="element"> Facility Registry </a> </td>
+													    <td> <a href="../elements/id-daf585bf159243f88c02fe45e8f34b76.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9d18b666fc5e4fe2965cea0cc45986cb.html" target="element"> Terminology Server </a> </td>
+													    <td> <a href="../elements/id-9d18b666fc5e4fe2965cea0cc45986cb.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-346505b309ec4d128b46bb65a91f15be.html" target="element"> Product Catalogue </a> </td>
+													    <td> <a href="../elements/id-346505b309ec4d128b46bb65a91f15be.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-f73376b11cf54fed98549de79594875f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f73376b11cf54fed98549de79594875f.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c58ba35e4ad746669f63de131797aee4.html" target="element"> Care Transition Coordination </a> </td>
+																		<td> <a href="../elements/id-81b27284bea146d9a479001eda1223da.html" target="element"> Complete Continuity of Care Bundle delivered at every transition and reduced readmissions and adverse events </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4ce7ba095c81438ebeec287d1c4aa086.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4ce7ba095c81438ebeec287d1c4aa086.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																		<td> <a href="../elements/id-c58ba35e4ad746669f63de131797aee4.html" target="element"> Care Transition Coordination </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-95e1c619161a448c98820ac1e16f21d6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-95e1c619161a448c98820ac1e16f21d6.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element"> Referal Management System Service </a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1e7841ff45f147e185564f80f4d87e7b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1e7841ff45f147e185564f80f4d87e7b.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c6aab67b5ac2412ab20f7eda3574d9df.html" target="element"> Interoperability &amp; Exchange Service </a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d3ad6ab854074843bc21f2f1c0bdfe7c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d3ad6ab854074843bc21f2f1c0bdfe7c.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0cb37ebe7e8c4a839f7cb7f67bda3121.html" target="element"> Medication Reconciliation Service </a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-36dc47b725dd413ea8959b8e5be9de5b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-36dc47b725dd413ea8959b8e5be9de5b.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-229b469d56ac4481b9d272d8a4a1b564.html" target="element"> Follow-up &amp; Task Tracking Service </a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1d304744e428425ba098700d03361831.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1d304744e428425ba098700d03361831.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a8ef8bc223f549e59220d08300328ceb.html" target="element"> Community Health Info System Service  </a> </td>
+																		<td> <a href="../elements/id-3a0bab0cc8584ebcb8dc2fe149d1b63c.html" target="element"> Continuity of Care Bundle </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0993a80ae2ce42968b6645a3aaf1949f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0993a80ae2ce42968b6645a3aaf1949f.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b36a52825f2e4a9597e1db3d8e3552ef.html" target="element"> Client Registry </a> </td>
+																		<td> <a href="../elements/id-c6aab67b5ac2412ab20f7eda3574d9df.html" target="element"> Interoperability &amp; Exchange Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-db96eb179ee54f568eabf2a2dcbc2e35.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-db96eb179ee54f568eabf2a2dcbc2e35.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b36a52825f2e4a9597e1db3d8e3552ef.html" target="element"> Client Registry </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-73e837e8713e424fa9051804238e3d37.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-73e837e8713e424fa9051804238e3d37.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b36a52825f2e4a9597e1db3d8e3552ef.html" target="element"> Client Registry </a> </td>
+																		<td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element"> Referal Management System Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c086c3501af745458b8479e18d9cdce0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c086c3501af745458b8479e18d9cdce0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-da73c1714caf494c982f0734bddf87d4.html" target="element"> Shared Health Record </a> </td>
+																		<td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element"> Referal Management System Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3a586c065ffe428bbe08e97d41099800.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a586c065ffe428bbe08e97d41099800.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-da73c1714caf494c982f0734bddf87d4.html" target="element"> Shared Health Record </a> </td>
+																		<td> <a href="../elements/id-c6aab67b5ac2412ab20f7eda3574d9df.html" target="element"> Interoperability &amp; Exchange Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4c1760f6a327447eafcdbbe7ddfd5185.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4c1760f6a327447eafcdbbe7ddfd5185.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-da73c1714caf494c982f0734bddf87d4.html" target="element"> Shared Health Record </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0d4a8777522b48a1b9cfd6ae700cd01a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d4a8777522b48a1b9cfd6ae700cd01a.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-133e097e8eee407097fd4b770c2d846c.html" target="element"> Electronic Medical Record </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2e9ca6a3c3c9433a831e2c9c211bda14.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2e9ca6a3c3c9433a831e2c9c211bda14.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-133e097e8eee407097fd4b770c2d846c.html" target="element"> Electronic Medical Record </a> </td>
+																		<td> <a href="../elements/id-229b469d56ac4481b9d272d8a4a1b564.html" target="element"> Follow-up &amp; Task Tracking Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-25fbabd67ac3487bb6a0a65d0ac9a765.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-25fbabd67ac3487bb6a0a65d0ac9a765.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-133e097e8eee407097fd4b770c2d846c.html" target="element"> Electronic Medical Record </a> </td>
+																		<td> <a href="../elements/id-dc6a28428d774ffda406d60569a7205c.html" target="element"> Referal Management System Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-35533f6f64e24ff1af5385c445aab02d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-35533f6f64e24ff1af5385c445aab02d.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-24782a510a2d4871a1eee5d67c43d06c.html" target="element"> Community Health Info System </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bc96e5e0c1d44e3faadc6c3b36969942.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bc96e5e0c1d44e3faadc6c3b36969942.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-24782a510a2d4871a1eee5d67c43d06c.html" target="element"> Community Health Info System </a> </td>
+																		<td> <a href="../elements/id-a8ef8bc223f549e59220d08300328ceb.html" target="element"> Community Health Info System Service  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-28f8a1d1c9d441d9bb8b2911461f1151.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-28f8a1d1c9d441d9bb8b2911461f1151.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9037cf36f41144d1aca690b891202b4f.html" target="element"> Health MGMT Information Service System </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0999754bbb2b44eb9db6e5ab23b2b272.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0999754bbb2b44eb9db6e5ab23b2b272.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2b723e2816b340c18a2c61c713df93c8.html" target="element"> Care Transition Workflow Engine </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-235ffb692afa4240b8792de0bef66c05.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-235ffb692afa4240b8792de0bef66c05.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2b723e2816b340c18a2c61c713df93c8.html" target="element"> Care Transition Workflow Engine </a> </td>
+																		<td> <a href="../elements/id-229b469d56ac4481b9d272d8a4a1b564.html" target="element"> Follow-up &amp; Task Tracking Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f56f1994a51443068db85bec4ec92ba4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f56f1994a51443068db85bec4ec92ba4.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-28ca436ee4ae47bc80e4f2d640744a83.html" target="element"> Medication Reconciliation Module </a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-be3e7a76ec394309a1c533e542bf12cf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-be3e7a76ec394309a1c533e542bf12cf.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-28ca436ee4ae47bc80e4f2d640744a83.html" target="element"> Medication Reconciliation Module </a> </td>
+																		<td> <a href="../elements/id-0cb37ebe7e8c4a839f7cb7f67bda3121.html" target="element"> Medication Reconciliation Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1fedb5ed81304714b85a5b58a9fcca73.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1fedb5ed81304714b85a5b58a9fcca73.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																		<td> <a href="../elements/id-155546edf11e437993e4b3336fd1151a.html" target="element"> Client Registry  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-39775fef6742492a829de6ab18efea47.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-39775fef6742492a829de6ab18efea47.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																		<td> <a href="../elements/id-daf585bf159243f88c02fe45e8f34b76.html" target="element"> Facility Registry </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-66350091794241aa8f6f49fc8d6f57f6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-66350091794241aa8f6f49fc8d6f57f6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																		<td> <a href="../elements/id-a1d3aa2e458c4163bba9f53edbfc34a0.html" target="element"> Health Worker Registry  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bf389723a0ea4306aaed2b7149a55721.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bf389723a0ea4306aaed2b7149a55721.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																		<td> <a href="../elements/id-346505b309ec4d128b46bb65a91f15be.html" target="element"> Product Catalogue </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6e8382e4d9914e87a0713b1df38a1bbf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6e8382e4d9914e87a0713b1df38a1bbf.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a53e959bcca941cc9a9e32882009ccbf.html" target="element"> Grouping </a> </td>
+																		<td> <a href="../elements/id-9d18b666fc5e4fe2965cea0cc45986cb.html" target="element"> Terminology Server </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

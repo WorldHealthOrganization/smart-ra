@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Application Services</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Application Services</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Grouping"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Grouping" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-6b744cd1d750425d87726d21b602e92e">
+																	<td><a href="../views/id-6b744cd1d750425d87726d21b602e92e.html" target="view" title="PMF Sub-goal #3 Layered View"> PMF Sub-goal #3 Layered View </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-b71265a721884f9099e3ad4d08e023b0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-88bb1fb405b04529ac330bb9b7c90b9d.html" target="element"> Revenue collection &amp; enforcement (ability to bill, collect, track, and manage arrears). </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c5a7fb899d824fad8b1ebad98df82261.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-eb9756bbca154363bdc7b3c316c1686e.html" target="element"> Contribution Performance Analytics</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-89a9877e1c6e46ccaf557358000a0334.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-f22d25a334ea464da5be0ee8511034a4.html" target="element"> Contribution / tax policy &amp; rate-setting (ability to stratify/differentiate contribution setting based on policy rules). </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-eb11cd31c9c94f53b1f77d8dd2af4bd8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-56e9dfb023c14b5093fe8f198608231a.html" target="element"> Revenue performance analytics (ability to monitor yield, leakage, and compliance).</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a1045a6a96104b438465f36a4026c3dd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-f37c80ae4a4a471b901659d5ab70baf7.html" target="element"> Data aggregation and consolidation</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3a36216bd08747c696733609b0532925.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-81e60f63df33463ebc6491c92dad8191.html" target="element"> Compliance and leakage analysis</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-361a462f547745f59addb1229ac0d6b1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-336deac3e2a14b248882610cdc90ac21.html" target="element"> Application Services</a></td>
+											<td><a href="../elements/id-4b65bc3ce9c0416d86a7bdd9d66cff0e.html" target="element"> Payment flow monitoring and reconciliation</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
