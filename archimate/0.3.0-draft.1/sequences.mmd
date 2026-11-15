@@ -1,0 +1,100 @@
+sequenceDiagram
+  %% Semantic Governance Infrastructure (Fig. 3.4.1) (id-69a9d2fa4a075b6485c75cdb8b1a664b): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_620f8efa30e85046b0da9f05ce83cf75 as Governance TMS
+  participant id_7ed447d199de5153af38aa2d72b410df as Runtime TS
+  participant id_9f2b802d64b05ac58e5a725b8c335157 as Global content sources
+  id_620f8efa30e85046b0da9f05ce83cf75->>id_7ed447d199de5153af38aa2d72b410df: flows to Runtime TS
+  id_7ed447d199de5153af38aa2d72b410df->>id_620f8efa30e85046b0da9f05ce83cf75: flows to Governance TMS
+  id_9f2b802d64b05ac58e5a725b8c335157->>id_620f8efa30e85046b0da9f05ce83cf75: Content syndication
+
+sequenceDiagram
+  %% 1. Central Health Workforce Registry (id-007936f8c2424b96ad1893ef0ff66059): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_350840520ae44f658b6ad3b3762e382e as Health Workforce Registry
+  participant id_3c5d846710034c4595e206e748d65e36 as DPI-F Information Mediator
+  participant id_d79aa0eec0584b0792b44bca408afeb6 as DPI-F Security & Consent Module
+  participant id_4e0767822dcf46409554156a133fbc67 as Health Facility Registry
+  participant id_bbd18f65be45490fbbaf02346511ae5e as Reporting Module
+  participant id_702c24bbd73341be9afc11c7e11e9810 as Health worker record
+  participant id_301912f3fcaf4648b0ebc3cbbfc3b447 as Terminology
+  participant id_ad969289cb774307aa678037c56fdd3f as Facility
+  id_350840520ae44f658b6ad3b3762e382e->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_d79aa0eec0584b0792b44bca408afeb6->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_3c5d846710034c4595e206e748d65e36->>id_4e0767822dcf46409554156a133fbc67: flows to Health Facility Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_350840520ae44f658b6ad3b3762e382e: flows to Health Workforce Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_bbd18f65be45490fbbaf02346511ae5e: flows to Reporting Module
+  id_3c5d846710034c4595e206e748d65e36->>id_d79aa0eec0584b0792b44bca408afeb6: flows to DPI-F Security & Consent Module
+  id_4e0767822dcf46409554156a133fbc67->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_350840520ae44f658b6ad3b3762e382e->>id_702c24bbd73341be9afc11c7e11e9810: writes Health worker record
+  id_350840520ae44f658b6ad3b3762e382e->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_4e0767822dcf46409554156a133fbc67->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_4e0767822dcf46409554156a133fbc67->>id_ad969289cb774307aa678037c56fdd3f: writes Facility
+
+sequenceDiagram
+  %% SUB-GOAL 1. Central Health Workforce Registry (id-6702871f89b641d4823ad05fbd2a4bdb): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_350840520ae44f658b6ad3b3762e382e as Health Workforce Registry
+  participant id_3c5d846710034c4595e206e748d65e36 as DPI-F Information Mediator
+  participant id_d79aa0eec0584b0792b44bca408afeb6 as DPI-F Security & Consent Module
+  participant id_bbd18f65be45490fbbaf02346511ae5e as Reporting Module
+  participant id_301912f3fcaf4648b0ebc3cbbfc3b447 as Terminology
+  participant id_702c24bbd73341be9afc11c7e11e9810 as Health worker record
+  id_350840520ae44f658b6ad3b3762e382e->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_d79aa0eec0584b0792b44bca408afeb6->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_3c5d846710034c4595e206e748d65e36->>id_350840520ae44f658b6ad3b3762e382e: flows to Health Workforce Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_bbd18f65be45490fbbaf02346511ae5e: flows to Reporting Module
+  id_3c5d846710034c4595e206e748d65e36->>id_d79aa0eec0584b0792b44bca408afeb6: flows to DPI-F Security & Consent Module
+  id_350840520ae44f658b6ad3b3762e382e->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_350840520ae44f658b6ad3b3762e382e->>id_702c24bbd73341be9afc11c7e11e9810: writes Health worker record
+
+sequenceDiagram
+  %% Track and Trace through DHSC Components (DTH SC Fig. 24) (id-bea56e01c8345fbc803dee47a17ccfd3): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_f8c43d85b20e5671b613d723483217a8 as Manufacturer Systems
+  participant id_80856538cbd44167a37b276e38c994c3 as Interoperability Component
+  participant id_a5808a3c23e755509c26c634b21cda83 as Data Repositories
+  participant id_e3c4f0ec36f35eccb0d4c50f887316e5 as Global Platforms
+  participant id_35d0806bcb5c46fab5102d75de09558f as Warehouse Management System
+  participant id_ba1ec21bae4641378c56f714f72042d7 as Transportation Management System
+  participant id_67637a829ea744cb930ac67459bc9894 as Health Facility Logistics Management System
+  participant id_370b6bdcb29449c9be74644ffacc94aa as Dispensing System
+  participant id_2158ff0de2f95b2cbe005c3bf6fc9c01 as Data Warehouse
+  participant id_5dc77dae1bce5d11b288830795b31bdf as Traceability Event
+  participant id_975c5567001151299672c0341a733111 as Product Verification
+  actor id_03e28af10b8f5b099e271461c8a99f21 as Individual
+  actor id_8e67c8e9e1195cdc857b03a2c640e7fe as National Regulatory Authority
+  participant id_bc68171ed2615dad80e6f7d8199f4057 as Track and Trace
+  id_f8c43d85b20e5671b613d723483217a8->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_a5808a3c23e755509c26c634b21cda83->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_e3c4f0ec36f35eccb0d4c50f887316e5->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_35d0806bcb5c46fab5102d75de09558f->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_ba1ec21bae4641378c56f714f72042d7->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_67637a829ea744cb930ac67459bc9894->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_370b6bdcb29449c9be74644ffacc94aa->>id_80856538cbd44167a37b276e38c994c3: flows to Interoperability Component
+  id_80856538cbd44167a37b276e38c994c3->>id_2158ff0de2f95b2cbe005c3bf6fc9c01: flows to Data Warehouse
+  id_2158ff0de2f95b2cbe005c3bf6fc9c01->>id_5dc77dae1bce5d11b288830795b31bdf: reads/writes Traceability Event
+  id_975c5567001151299672c0341a733111->>id_5dc77dae1bce5d11b288830795b31bdf: reads Traceability Event
+  id_975c5567001151299672c0341a733111-->>id_03e28af10b8f5b099e271461c8a99f21: serves Individual
+  id_975c5567001151299672c0341a733111-->>id_8e67c8e9e1195cdc857b03a2c640e7fe: serves National Regulatory Authority
+  id_bc68171ed2615dad80e6f7d8199f4057->>id_5dc77dae1bce5d11b288830795b31bdf: reads Traceability Event
+  id_bc68171ed2615dad80e6f7d8199f4057-->>id_03e28af10b8f5b099e271461c8a99f21: serves Individual
+
+sequenceDiagram
+  %% CDS (id-4c98f10e0a244315acddaf5257c7822e): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_8104985f0f0e4f4cbe3bdf032ea20759 as Clinical Guideline package
+  participant id_539b04ae45f147258d8253ae5cb87402 as Computable Decision Support Engine
+  id_8104985f0f0e4f4cbe3bdf032ea20759->>id_539b04ae45f147258d8253ae5cb87402: flows to Computable Decision Support Engine
+
+sequenceDiagram
+  %% B (id-d7e3215f6d3d4e5e8b39ee521f8248c2): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_4269b5141b6347698b67225759884a71 as Document Source
+  participant id_85d7590270dc483cb500963dbe5a4fc8 as Document Repository
+  id_4269b5141b6347698b67225759884a71->>id_85d7590270dc483cb500963dbe5a4fc8: Provide and Register Document Set [ITI-41]
+  id_85d7590270dc483cb500963dbe5a4fc8-->>id_4269b5141b6347698b67225759884a71: Register Document Set
+
+sequenceDiagram
+  %% D (id-ba6aa15d5d84416dab9fbd8a9f9fea14): sequence diagram, derived by archimate-diagrams. Do not edit.
+  actor id_abd2da4297944a5ca707a28a400dfb8f as Test Operator
+  participant id_e9e37f6657324db7a972a974186b61b5 as Create and submit document
+  participant id_4269b5141b6347698b67225759884a71 as Document Source
+  participant id_85d7590270dc483cb500963dbe5a4fc8 as Document Repository
+  id_abd2da4297944a5ca707a28a400dfb8f->>id_e9e37f6657324db7a972a974186b61b5: Create and submit document
+  id_e9e37f6657324db7a972a974186b61b5->>id_4269b5141b6347698b67225759884a71: triggers Provide and Register Document Set [ITI-41]
+  id_4269b5141b6347698b67225759884a71->>id_85d7590270dc483cb500963dbe5a4fc8: Provide and Register Document Set [ITI-41]

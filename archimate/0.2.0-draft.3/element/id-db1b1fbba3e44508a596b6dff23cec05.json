@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-db1b1fbba3e44508a596b6dff23cec05",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-db1b1fbba3e44508a596b6dff23cec05",
+  "schema:name": "Analytics platform",
+  "schema:description": "The analytics platform consists of the computational tools and software used to process raw health data into meaningful insights. It performs statistical analysis, pattern recognition, and data mining to support evidence-based decision-making.\r\n\r\nIts purpose is to identify cost-drivers and evaluate the efficiency of health programs through rigorous data analysis. It enables managers to move beyond simple reporting toward understanding the root causes of financial and clinical performance issues.\r\n\r\nExample: A software suite used to analyze which regions are experiencing the highest growth in pharmaceutical spending.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

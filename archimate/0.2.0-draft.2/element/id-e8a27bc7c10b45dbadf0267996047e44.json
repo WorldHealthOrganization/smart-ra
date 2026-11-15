@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-e8a27bc7c10b45dbadf0267996047e44",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-e8a27bc7c10b45dbadf0267996047e44",
+  "schema:name": "Data Privacy",
+  "schema:description": "This capability encompasses the technical and administrative controls used to protect sensitive data from unauthorized disclosure or breach. It includes encryption, data masking, and secure storage protocols.\r\n\r\nThe purpose is to protect the privacy of individuals and safeguard health information against cyber threats. It is a fundamental requirement for maintaining public confidence in digital health initiatives.\r\n\r\nExample: Implementing end-to-end encryption for all patient data stored in the national PHR repository.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

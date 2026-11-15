@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f3fdd6a6340942f4962ed4c248dd6a8a",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-f3fdd6a6340942f4962ed4c248dd6a8a",
+  "schema:name": "PKI / CA  + digital signature & timestamping service",
+  "schema:description": "An advanced technical component that provides the underlying cryptographic infrastructure required to secure digital identities and validate critical transactions across the healthcare network. This component combines a Public Key Infrastructure (PKI) and Certificate Authority (CA) to issue, manage, and revoke digital certificates, alongside a dedicated digital signature and timestamping engine that binds those certificates to specific financial and administrative events.\r\n\r\nIts primary purpose is to establish absolute cryptographic trust, authenticity, and legal non-repudiation for all health sector operations. By assigning unique, unforgeable digital identities to personnel and systems, it ensures that every approval, fund disbursement, or contract modification is sealed with a signature that proves exactly who authorized it, while an independent timestamp verifies precisely when it happened—rendering the record completely tamper-evident.\r\n\r\nExample: When a hospital administrator signs off on a bulk purchase of specialized medical hardware, the system's PKI/CA + digital signature and timestamping service processes the transaction; it validates the administrator's digital certificate against the internal CA, generates a unique cryptographic signature for the procurement document, and links it to an atomic time server, guaranteeing the contract cannot be altered, forged, or backdated.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

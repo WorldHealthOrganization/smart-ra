@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/mehl-2023-full-stac-oqad018",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+  "contains": [
+    "library/mehl-2023-full-stac-oqad018/sections/sec-front-matter",
+    "library/mehl-2023-full-stac-oqad018/sections/sec-000",
+    "library/mehl-2023-full-stac-oqad018/sections/sec-001",
+    "library/mehl-2023-full-stac-oqad018/sections/sec-002",
+    "library/mehl-2023-full-stac-oqad018/sections/sec-003"
+  ],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/dpi-h-ra/directory/library",
+  "license": "CC-BY-4.0",
+  "licenceRecord": {
+    "status": "stated",
+    "id": "CC-BY-4.0",
+    "basis": "The PDF's first page: '© The Author(s) 2023. Published by Oxford University Press. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.', read 2026-10-31"
+  },
+  "meta": {
+    "doc_id": "mehl-2023-full-stac-oqad018",
+    "title_source": "pdf-info",
+    "title_from": "structure.json metadata.docinfo.Title",
+    "source_file": "mehl-2023-full-stac-oqad018.pdf",
+    "source_sha256": "d155556b5ef4d5f6229be7f369d22d22d0bec106ce3b49acd85b9d0387b71077",
+    "pages": 5,
+    "arxiv": null,
+    "doi": "10.1093/oodh/oqad018",
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

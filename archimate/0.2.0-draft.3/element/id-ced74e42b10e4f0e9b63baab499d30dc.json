@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ced74e42b10e4f0e9b63baab499d30dc",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ced74e42b10e4f0e9b63baab499d30dc",
+  "schema:name": "Notification & Alert Service",
+  "schema:description": "This service delivers real-time, event-driven notifications to care team members based on clinical triggers such as critical lab results, task deadlines, or urgent patient updates. It ensures that alerts reach the right person through the appropriate channel at the right time.\r\n\r\nThe purpose of this service is to ensure that time-sensitive information prompts immediate action without overwhelming providers with irrelevant notifications. It also supports patient safety by automating the detection and communication of critical clinical events.\r\n\r\nExample: A critical potassium level is flagged by the laboratory system and an automated alert is immediately sent to the responsible physician and ward nurse through the care platform.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

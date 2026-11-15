@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-529522cd954d48b98d70efe073c32ec0",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-529522cd954d48b98d70efe073c32ec0",
+  "schema:name": "Risk assessment (ability to assess population-level health and cost risk).",
+  "schema:description": "An advanced business capability that leverages epidemiological data, demographic trends, and historical spending patterns to calculate the future healthcare burdens and financial liabilities of specific populations or geographic regions.\r\n\r\nIts primary purpose is to transform raw public health data into precise financial risk profiles, allowing budget planners to anticipate high-cost medical trends, price coverage plans accurately, and proactively allocate funding before health crises drain regional resources.\r\n\r\nExample: Using this risk assessment capability, the health ministry analyzes regional spikes in obesity and an aging demographic curve in a northern province, predicting a 22% surge in cardiovascular treatment costs over the next three years and prompting an immediate, preventive budget shift to that region's primary care clinics.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-90e82e26fd714316a1da668f35f8251b",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-90e82e26fd714316a1da668f35f8251b",
+  "schema:name": "Monitoring of claims expenditure against pooled resources. ",
+  "schema:description": "This involves the continuous comparison of the total cost of all processed claims against the actual resources available in the insurance pool. It acts as a real-time check on the rate of fund consumption compared to the original budget.\r\n\r\nThe objective is to identify spending trends early and prevent the health fund from becoming over-leveraged or insolvent. It provides the data needed to adjust purchasing strategies or implement cost-containment measures before financial issues become critical.\r\n\r\nExample: A real-time alert showing that claims for a specific high-cost drug are rising significantly faster than the budget can sustain.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-b94b990a600a4b2793bc6347f7647ae5",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-b94b990a600a4b2793bc6347f7647ae5",
+  "schema:name": "Incident Detection & Response",
+  "schema:description": "This capability ensures that personal health services and records are accessible to all citizens through multiple channels, including web portals and mobile devices. It focuses on inclusivity and reducing barriers to health information access.\r\n\r\nThe purpose is to drive widespread adoption and ensure that all individuals, regardless of their location or device, can benefit from their health data. This supports the goal of equitable access to modern health services.\r\n\r\nExample: A multi-channel PHR portal that works on both high-end smartphones and basic feature phones via USSD.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

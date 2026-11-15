@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-3a33b96c0e6a4fdeb1a961f9fe16cb01",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-3a33b96c0e6a4fdeb1a961f9fe16cb01",
+  "schema:name": "Real-time eligibility and entitlement decisions at point of service.",
+  "schema:description": "This refers to the ability of the health system to provide instant verification of a patient's coverage and benefits at the point of care. It utilizes high-speed digital queries to check the current status of an individual within the insurance registry.\r\n\r\nThe objective is to provide a seamless and dignified experience for patients while reducing administrative uncertainty for providers. It ensures that clinical services can begin without delay and that financial liability is understood immediately.\r\n\r\nExample: A hospital receptionist receiving an instant \"Authorized\" status and benefit summary upon scanning a patient’s digital health ID.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

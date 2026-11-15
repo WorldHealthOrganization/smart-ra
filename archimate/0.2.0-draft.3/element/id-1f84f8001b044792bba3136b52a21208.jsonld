@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-1f84f8001b044792bba3136b52a21208",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-1f84f8001b044792bba3136b52a21208",
+  "schema:name": "Update patient records with continuous health interventions",
+  "schema:description": "This process handles the real-time or periodic addition of new medical events, treatments, and interventions to an individual's longitudinal health profile. It ensures that the patient's health journey is documented as a continuous, up-to-date sequence of care.\r\n\r\nThe purpose is to provide a comprehensive and current view of the patient's health status across all providers and facilities. This enables better care coordination and ensures that clinicians always work with the most recent information.\r\n\r\nExample: Automatically appending a new immunization record to a child's digital health folder immediately after a vaccination is administered.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

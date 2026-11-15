@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-3f21d6ec56b14ca184ce62d38112dab0",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-3f21d6ec56b14ca184ce62d38112dab0",
+  "schema:name": "Secure Messaging Service",
+  "schema:description": "This service provides encrypted, role-based messaging between care team members within a clinical environment. It ensures that patient-related communications are delivered securely and linked to the appropriate clinical context.\r\n\r\nThe purpose of this service is to replace informal or unsecured communication channels with a reliable, auditable messaging infrastructure. It also ensures that sensitive patient information is protected throughout all exchanges.\r\n\r\nExample: A nurse sends a secure message to an on-call physician regarding a change in a patient's condition, with the message automatically tagged to the patient's active encounter.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

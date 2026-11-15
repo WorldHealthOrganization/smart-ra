@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7c3b717fd7b04cb186ea4f8973919852",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7c3b717fd7b04cb186ea4f8973919852",
+  "schema:name": "Consent management engine/ service",
+  "schema:description": "This component manages the digital artifacts that record a patient’s permission for their clinical data to be used for specific financial purposes. It checks every data request against the patient's current consent settings to ensure compliance.\r\n\r\nIts purpose is to operationalize patient privacy and ensure that health financing activities respect the individual's data rights. It builds public trust by providing a verifiable mechanism that proves clinical data is only used when the patient allows it.\r\n\r\nExample: A service that checks for a patient's digital consent before allowing an insurance auditor to view their surgery notes.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

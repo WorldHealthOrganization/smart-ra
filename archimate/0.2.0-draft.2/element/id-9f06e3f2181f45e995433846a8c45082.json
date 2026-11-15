@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-9f06e3f2181f45e995433846a8c45082",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-9f06e3f2181f45e995433846a8c45082",
+  "schema:name": "Budget execution management (ability to allocate, release, commit, and track spending)",
+  "schema:description": "A comprehensive financial control capability achieved by integrating the entire spending lifecycle—from initial fund allocation and cash release to legal commitment and final expenditure tracking—into a unified digital workflow. This end-to-end management infrastructure provides real-time visibility into every stage of a transaction, ensuring that health funds cannot be overspent or diverted from their approved pathways.\r\n\r\nIts primary purpose is to enforce strict fiscal discipline and operational transparency across all levels of the public health system. By providing administrators with absolute control over the flow of money, it prevents unauthorized commitments, reduces bureaucratic processing delays, and ensures that allocated resources are actively driving health programs on the ground.\r\n\r\nExample: When a regional hospital needs to purchase new diagnostic equipment, the budget management system instantly verifies that funds are allocated, locks the required cash during the commitment phase with the vendor, and tracks the final payment delivery to ensure the transaction complies perfectly with the approved fiscal plan.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

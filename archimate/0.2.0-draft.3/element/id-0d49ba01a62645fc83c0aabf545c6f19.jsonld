@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0d49ba01a62645fc83c0aabf545c6f19",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-0d49ba01a62645fc83c0aabf545c6f19",
+  "schema:name": "Expenditure forecasting algorithms/ tools",
+  "schema:description": "This service uses historical spending patterns and economic indicators to project future health sector costs over a medium-term horizon. It models how changes in population demographics or medical technology will impact the national budget.\r\n\r\nThe purpose is to enable sustainable financial planning and prevent sudden budgetary shocks that could disrupt care. It allows policymakers to prepare for future requirements by identifying emerging cost drivers years in advance.\r\n\r\nExample: A tool that predicts a 12% rise in the national drug budget over the next three years due to an aging population.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

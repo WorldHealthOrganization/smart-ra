@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="827" viewBox="0 0 1800 827" font-family='system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif' role="img" aria-label="DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)">
+<rect width="1800" height="827" fill="#f8f9fb"/>
+<rect width="1800" height="72" fill="#14213d"/>
+<text x="36" y="42" font-size="26" font-weight="800" fill="#ffffff">DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)</text>
+<text x="36" y="61" font-size="11" fill="#c9d6e6" font-style="italic">Drawn from the ArchiMate model “WHO_RA”, view “DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)”</text>
+<rect x="36.0" y="82.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 90 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="100.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">POINT-OF-SERVICE &amp; FUNCTIONAL APPLICATIONS</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/provider-systems/" target="_top">
+<rect x="48.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Provider Systems</text>
+<text x="57.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· EMR / EHR · HIS ·</text>
+<text x="57.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  LIMS · PACS</text>
+<text x="57.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· RIS</text>
+<text x="57.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· e-Prescribing (EPMA)</text>
+<text x="57.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Telemedicine clients</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/case-management/" target="_top">
+<rect x="206.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="215.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Case Management</text>
+<text x="215.7" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Electronic</text>
+<text x="215.7" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  Immunization Reg.</text>
+<text x="215.7" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HIV / TB / MNCH</text>
+<text x="215.7" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  registries</text>
+<text x="215.7" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Disease-specific</text>
+<text x="215.7" y="203.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  tooling</text>
+<text x="215.7" y="215.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Patient follow-up</text>
+<text x="215.7" y="227.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  workflows</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/dispensing-system/" target="_top">
+<rect x="365.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="374.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Dispensing System</text>
+<text x="374.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Pharmacy mgmt system</text>
+<text x="374.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dispensing apps</text>
+<text x="374.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Pharmacovigilance</text>
+<text x="374.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  entry</text>
+<text x="374.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Inventory at POS</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/chw-community/" target="_top">
+<rect x="524.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CHW &amp; Community</text>
+<text x="533.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CHW field apps</text>
+<text x="533.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outreach / campaigns</text>
+<text x="533.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Offline-first tooling</text>
+<text x="533.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Household</text>
+<text x="533.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  registration</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/citizen-patient-apps/" target="_top">
+<rect x="682.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="691.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Citizen / Patient</text>
+<text x="691.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Apps</text>
+<text x="691.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PHR / Digital Health</text>
+<text x="691.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  Wallet</text>
+<text x="691.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Self-service booking</text>
+<text x="691.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Citizen alerting</text>
+<text x="691.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  client</text>
+<text x="691.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consent dashboard UI</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/supply-chain-functional/" target="_top">
+<rect x="841.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="850.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Supply Chain</text>
+<text x="850.3" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Functional</text>
+<text x="850.3" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· WMS / LMIS</text>
+<text x="850.3" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Transport mgmt (TMS)</text>
+<text x="850.3" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Procurement /</text>
+<text x="850.3" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  e-tender</text>
+<text x="850.3" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Cold-chain monitoring</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/health-coverage-claims/" target="_top">
+<rect x="1000.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Health Coverage &amp;</text>
+<text x="1009.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Claims</text>
+<text x="1009.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Claims authoring</text>
+<text x="1009.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Beneficiary Registry</text>
+<text x="1009.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Member / provider</text>
+<text x="1009.0" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  portals</text>
+<text x="1009.0" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Contracts &amp; Benefit</text>
+<text x="1009.0" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  Mgmt</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/financing-workforce-ops/" target="_top">
+<rect x="1158.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1167.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Financing &amp;</text>
+<text x="1167.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Workforce Ops</text>
+<text x="1167.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IFMIS / Treasury</text>
+<text x="1167.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HFIS / Budget</text>
+<text x="1167.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  planning · HRIS</text>
+<text x="1167.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Payroll</text>
+<text x="1167.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LMS / training</text>
+<text x="1167.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Audit &amp; disclosure</text>
+<text x="1167.7" y="230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  tools</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/public-health-apps/" target="_top">
+<rect x="1317.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1326.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Public Health Apps</text>
+<text x="1326.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Contact tracing</text>
+<text x="1326.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outbreak management</text>
+<text x="1326.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Disease surveillance</text>
+<text x="1326.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  dashboards</text>
+<text x="1326.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outbreak alerting</text>
+</a>
+<rect x="36.0" y="270.0" width="1442.0" height="204.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 278 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="288.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">DPI-H REUSABLE COMPONENTS</text>
+<rect x="48.0" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="58.0" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Clinical Services</text>
+<text x="58.0" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Components that consume LHR &amp;</text>
+<text x="58.0" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">knowledge at the point of care</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/computable-decision-support-engine/" target="_top">
+<rect x="56.0" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="65.0" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Computable Decision</text>
+<text x="65.0" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Support Engine</text>
+<text x="65.0" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CDS Hooks · SMART on FHIR</text>
+<text x="65.0" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consumes LHR +</text>
+<text x="65.0" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  standards-based computable</text>
+<text x="65.0" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  guidelines</text>
+</a>
+<rect x="254.9" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="264.9" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Supply Chain</text>
+<text x="264.9" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Shared services for supplier and</text>
+<text x="264.9" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">traceability data across logistics</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/supplier-registry/" target="_top">
+<rect x="262.9" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="271.9" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Supplier Registry</text>
+<text x="271.9" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Vetted manufacturers, 3PLs</text>
+<text x="271.9" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Cross-domain reuse for</text>
+<text x="271.9" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  procurement &amp; traceability</text>
+</a>
+<rect x="461.7" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="471.7" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Health Financing</text>
+<text x="471.7" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Reference data defining coverage and</text>
+<text x="471.7" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">entitlements for purchasing</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/benefits-package-registry/" target="_top">
+<rect x="469.7" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="478.7" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Benefits Package</text>
+<text x="478.7" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registry</text>
+<text x="478.7" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Authoritative spec of</text>
+<text x="478.7" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  covered services, tariffs</text>
+<text x="478.7" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  &amp; rules</text>
+<text x="478.7" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consumed by claims &amp; PFM</text>
+</a>
+<rect x="668.6" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="678.6" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Public Health &amp; Analytics</text>
+<text x="678.6" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Platforms for secondary use, intelligence, response</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/ph-surveillance-platform/" target="_top">
+<rect x="676.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="685.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">PH Surveillance Platform</text>
+<text x="685.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Event / case detection</text>
+<text x="685.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outbreak workflows</text>
+<text x="685.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHR / IPS cross-border</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/health-management-information-system/" target="_top">
+<rect x="871.9" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="880.9" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Health Management</text>
+<text x="880.9" y="374.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Information System</text>
+<text x="880.9" y="390.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Aggregated indicators · M&amp;E</text>
+<text x="880.9" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· dashboards</text>
+<text x="880.9" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Performance &amp; equity</text>
+</a>
+<rect x="1077.3" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="1087.3" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Cross-cutting</text>
+<text x="1087.3" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Cross-cutting</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/ai-enabled-intelligence/" target="_top">
+<rect x="1085.3" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1094.3" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">AI-Enabled Intelligence</text>
+<text x="1094.3" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Sovereign, reusable models</text>
+<text x="1094.3" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Risk stratification</text>
+<text x="1094.3" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Climate-health forecasting</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/secondary-use/" target="_top">
+<rect x="1280.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1289.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Secondary use</text>
+<text x="1289.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Curated, consented,</text>
+<text x="1289.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  de-identified extracts flow</text>
+<text x="1289.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  into AI / ML training,</text>
+<text x="1289.6" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  public-good analytics,</text>
+<text x="1289.6" y="423.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  performance &amp; equity, IHR /</text>
+<text x="1289.6" y="435.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS reporting</text>
+</a>
+<rect x="36.0" y="486.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 494 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="504.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">DPI-H SHARED DATA LAYER</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/client-registry-for-health/" target="_top">
+<rect x="48.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Client Registry for Health</text>
+<text x="57.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Person Identity</text>
+<text x="57.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Health-sector master patient</text>
+<text x="57.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  index</text>
+<text x="57.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Unique health ID</text>
+<text x="57.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Identity reconciliation</text>
+<text x="57.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Record linkage</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/lifelong-health-record/" target="_top">
+<rect x="252.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="261.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Lifelong Health Record</text>
+<text x="261.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Health Record</text>
+<text x="261.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Longitudinal record</text>
+<text x="261.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· FHIR-based store</text>
+<text x="261.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Provenance, versioning</text>
+<text x="261.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consent-scoped views</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/health-workforce-registry/" target="_top">
+<rect x="456.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="465.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Health Workforce Registry</text>
+<text x="465.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Workforce</text>
+<text x="465.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Verified providers,</text>
+<text x="465.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  credentials, licensing</text>
+<text x="465.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consumed by EMR, claims,</text>
+<text x="465.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  surveillance</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/health-facility-registry/" target="_top">
+<rect x="660.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="669.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Health Facility Registry</text>
+<text x="669.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Location</text>
+<text x="669.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· List of all health</text>
+<text x="669.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  facilities (public +</text>
+<text x="669.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  private)</text>
+<text x="669.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Geocoded, services offered</text>
+<text x="669.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· catchments</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/product-registry/" target="_top">
+<rect x="864.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="873.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Product Registry</text>
+<text x="873.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Health Products</text>
+<text x="873.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Health products, devices and</text>
+<text x="873.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  commodities</text>
+<text x="873.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· GTIN · IDMP · UDI · GS1</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/terminology-service/" target="_top">
+<rect x="1068.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1077.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Terminology Service</text>
+<text x="1077.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Semantics – Meaning</text>
+<text x="1077.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Code systems, value sets &amp;</text>
+<text x="1077.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  concept maps</text>
+<text x="1077.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· SNOMED · ICD · LOINC</text>
+<text x="1077.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Local code systems</text>
+<text x="1077.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Reference value sets</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/logical-information-model-repository/" target="_top">
+<rect x="1272.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1281.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Logical Information Model</text>
+<text x="1281.0" y="546.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Repository</text>
+<text x="1281.0" y="562.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Syntax – Structure</text>
+<text x="1281.0" y="574.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Structural artefacts and</text>
+<text x="1281.0" y="586.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  national datasets</text>
+<text x="1281.0" y="598.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· FHIR profiles · eObjects ·</text>
+<text x="1281.0" y="610.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS</text>
+<text x="1281.0" y="622.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· datasets</text>
+<text x="1281.0" y="634.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Versioning &amp; stewardship</text>
+</a>
+<rect x="36.0" y="674.0" width="1442.0" height="125.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 682 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="692.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">FOUNDATIONAL DPI (DPI-F)</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/foundational-identity/" target="_top">
+<rect x="48.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Foundational Identity</text>
+<text x="57.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· eKYC · MFA · biometrics</text>
+<text x="57.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· National / federated ID</text>
+<text x="57.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Population register</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/national-trust-services/" target="_top">
+<rect x="286.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="295.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">National Trust Services</text>
+<text x="295.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PKI</text>
+<text x="295.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· digital signatures</text>
+<text x="295.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Verifiable credentials</text>
+<text x="295.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Certificate authority · GDHCN</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/payment-rails/" target="_top">
+<rect x="524.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Payment Rails</text>
+<text x="533.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Treasury · fast payments</text>
+<text x="533.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Provider disbursement</text>
+<text x="533.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Workforce payroll</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/data-exchange-fabric/" target="_top">
+<rect x="762.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="771.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Data Exchange Fabric</text>
+<text x="771.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Cross-sectoral</text>
+<text x="771.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Scalable arch.</text>
+<text x="771.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Brokered API access</text>
+<text x="771.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Audit, throttling, SLA</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/crvs-other-sector/" target="_top">
+<rect x="1000.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CRVS &amp; Other-Sector</text>
+<text x="1009.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Whole-of-government</text>
+<text x="1009.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Birth, death (cause: ICD)</text>
+<text x="1009.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Social protection, education</text>
+</a>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/geo-location-notification/" target="_top">
+<rect x="1238.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1247.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Geo-location · Notification</text>
+<text x="1247.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Cross-sectoral data + channels</text>
+<text x="1247.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Common Geo Reg. · address · SMS</text>
+<text x="1247.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· email · push</text>
+</a>
+<rect x="1494.0" y="82.0" width="270.0" height="717.0" rx="10" fill="#d3ffff" stroke="#4c6b6b" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M1494 92 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v26 h-270 z" fill="#4c6b6b"/>
+<text x="1629.0" y="106.0" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">INTEROPERABILITY (CROSS-CUTTING)</text>
+<a href="../../../en/dpi-h-ra/archimate/0.3.0-draft.1/element/dpi-f-information-mediator/" target="_top">
+<rect x="1506.0" y="122.0" width="246.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1515.0" y="139.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">DPI-F Information Mediator</text>
+<text x="1515.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· API gateway · HIE</text>
+<text x="1515.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Authenticates, authorises, routes,</text>
+<text x="1515.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  transforms, audits every transaction</text>
+<text x="1515.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Reuses DPI-F fabric where available</text>
+</a>
+<text x="1506.0" y="223.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">OPEN STANDARDS</text>
+<rect x="1506.0" y="231.0" width="62.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1537.4" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">HL7 FHIR</text>
+<rect x="1574.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1592.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IHE</text>
+<rect x="1615.6" y="231.0" width="57.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1644.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">openEHR</text>
+<rect x="1678.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1696.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IPS</text>
+<rect x="1506.0" y="255.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1540.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SNOMED CT</text>
+<rect x="1580.4" y="255.0" width="51.6" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1606.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">ICD-11</text>
+<rect x="1638.0" y="255.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1661.0" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">LOINC</text>
+<rect x="1506.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1543.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">GS1 / GTIN</text>
+<rect x="1586.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1623.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IDMP / UDI</text>
+<rect x="1666.0" y="279.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1700.2" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">CDS Hooks</text>
+<rect x="1506.0" y="303.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1551.4" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SMART on FHIR</text>
+<rect x="1602.8" y="303.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1653.8" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">OpenID / OAuth2</text>
+<rect x="1506.0" y="327.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1529.0" y="340.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">DICOM</text>
+<text x="1506.0" y="365.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">INTEGRATION PATTERNS</text>
+<rect x="1506.0" y="373.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">REST APIs (FHIR R4)</text>
+<rect x="1636.4" y="373.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1681.8" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Event streams</text>
+<rect x="1506.0" y="397.0" width="96.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1554.2" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Document (IHE)</text>
+<rect x="1608.4" y="397.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1659.4" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Federated query</text>
+<rect x="1506.0" y="421.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="434.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Bulk data ($export)</text>
+<rect x="1506.0" y="445.0" width="141.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1576.6" y="458.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Cross-border (IHR/IPS)</text>
+</svg>

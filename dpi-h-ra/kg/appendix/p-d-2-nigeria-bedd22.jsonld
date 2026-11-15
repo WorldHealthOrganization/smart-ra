@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-nigeria-bedd22",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-nigeria-bedd22",
+  "kind": "prose",
+  "text": "p-d-2-nigeria-bedd22.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1039,
+      "page": 244,
+      "printedPage": "233",
+      "lineStart": 136,
+      "lineEnd": 141,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

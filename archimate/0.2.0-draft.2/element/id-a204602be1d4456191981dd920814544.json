@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a204602be1d4456191981dd920814544",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-a204602be1d4456191981dd920814544",
+  "schema:name": "Health budget planning & forecasting (ability to produce rolling forecasts and budget scenarios)",
+  "schema:description": "An advanced financial modeling capability achieved by utilizing predictive algorithms and historical expenditure data to generate continuous, rolling financial projections and diverse budget alternatives. This dynamic planning infrastructure allows health agencies to model simulated fiscal environments based on changing economic conditions, shifting policy priorities, or emerging public health emergencies.\r\n\r\nIts primary purpose is to move health organizations away from rigid, once-a-year budgeting and toward a model of continuous financial agility. By simulating best-case, worst-case, and expected fiscal scenarios, it ensures that leadership can proactively safeguard essential health services against sudden funding cuts or rapidly scaling crisis expenses.\r\n\r\nExample: Anticipating a potential winter influenza surge alongside a 5% inflation hike in medical supplies, a ministry of health uses its forecasting software to generate a three-year rolling budget scenario that automatically identifies which non-essential administrative expenditures can be frozen to absorb the increased operational costs.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

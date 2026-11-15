@@ -1,0 +1,101 @@
+digraph "WHO Models — metamodel in use" {
+  graph [rankdir=TB, newrank=true, fontname="Helvetica", fontsize=11, nodesep=0.6, ranksep=1.3];
+  node [shape=box, style="filled", fontname="Helvetica", fontsize=11, margin="0.14,0.08"];
+  edge [fontname="Helvetica", fontsize=9, color="#555555", fontcolor="#333333"];
+  subgraph cluster_0 {
+    label="Motivation"; class="mm-layer-motivation"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    rank=same;
+    "Driver" [label="Driver
+8 element(s)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Driver", target="_top", tooltip="Driver: its elements"];
+    "Goal" [label="Goal
+67 element(s)
+(to itself: composed of ×29, influences ×3, aggregates ×1)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Goal", target="_top", tooltip="Goal: its elements"];
+    "Outcome" [label="Outcome
+59 element(s)
+(to itself: aggregates ×3, composed of ×1, influences ×1)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Outcome", target="_top", tooltip="Outcome: its elements"];
+    "Stakeholder" [label="Stakeholder
+75 element(s)
+(to itself: composed of ×6, influences ×1)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Stakeholder", target="_top", tooltip="Stakeholder: its elements"];
+    "Value" [label="Value
+79 element(s)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Value", target="_top", tooltip="Value: its elements"];
+  }
+  subgraph cluster_1 {
+    label="Strategy"; class="mm-layer-strategy"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    rank=same;
+    "Capability" [label="Capability
+39 element(s)
+(to itself: composed of ×4, serves ×3)", class="mm-layer-strategy", fillcolor="#f5deaa", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Capability", target="_top", tooltip="Capability: its elements"];
+    "ValueStream" [label="Value Stream
+21 element(s)
+(to itself: triggers ×13, composed of ×2)", class="mm-layer-strategy", fillcolor="#f5deaa", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-ValueStream", target="_top", tooltip="Value Stream: its elements"];
+  }
+  subgraph cluster_2 {
+    label="Business"; class="mm-layer-business"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    rank=same;
+    "BusinessActor" [label="Business Actor
+1 element(s)", class="mm-layer-business", fillcolor="#ffffb5", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-BusinessActor", target="_top", tooltip="Business Actor: its elements"];
+    "BusinessFunction" [label="Business Function
+58 element(s)", class="mm-layer-business", fillcolor="#ffffb5", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-BusinessFunction", target="_top", tooltip="Business Function: its elements"];
+    "BusinessProcess" [label="Business Process
+78 element(s)", class="mm-layer-business", fillcolor="#ffffb5", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-BusinessProcess", target="_top", tooltip="Business Process: its elements"];
+    "Product" [label="Product
+1 element(s)", class="mm-layer-business", fillcolor="#ffffb5", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-Product", target="_top", tooltip="Product: its elements"];
+  }
+  subgraph cluster_3 {
+    label="Application"; class="mm-layer-application"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    rank=same;
+    "ApplicationComponent" [label="Application Component
+48 element(s)
+(to itself: flows to ×42, serves ×2)", class="mm-layer-application", fillcolor="#b5ffff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-ApplicationComponent", target="_top", tooltip="Application Component: its elements"];
+    "ApplicationFunction" [label="Application Function
+15 element(s)", class="mm-layer-application", fillcolor="#b5ffff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-ApplicationFunction", target="_top", tooltip="Application Function: its elements"];
+    "ApplicationService" [label="Application Service
+41 element(s)
+(to itself: flows to ×2)", class="mm-layer-application", fillcolor="#b5ffff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-ApplicationService", target="_top", tooltip="Application Service: its elements"];
+    "DataObject" [label="Data Object
+8 element(s)", class="mm-layer-application", fillcolor="#b5ffff", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-DataObject", target="_top", tooltip="Data Object: its elements"];
+  }
+  subgraph cluster_4 {
+    label="Implementation & Migration"; class="mm-layer-implementation-migration"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    rank=same;
+    "WorkPackage" [label="Work Package
+4 element(s)", class="mm-layer-implementation-migration", fillcolor="#ffe0e0", URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#type-WorkPackage", target="_top", tooltip="Work Package: its elements"];
+  }
+  "Driver" -> "Capability" [style=invis, constraint=true, weight=10];
+  "Capability" -> "BusinessActor" [style=invis, constraint=true, weight=10];
+  "BusinessActor" -> "ApplicationComponent" [style=invis, constraint=true, weight=10];
+  "ApplicationComponent" -> "WorkPackage" [style=invis, constraint=true, weight=10];
+  "Value" -> "Outcome" [label="influences ×92", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Value-Outcome", target="_top", tooltip="Value → Outcome: its relationships"];
+  "Outcome" -> "Goal" [label="realises ×64", class="mm-cat-structural mm-from-motivation mm-to-motivation", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Outcome-Goal", target="_top", tooltip="Outcome → Goal: its relationships"];
+  "BusinessFunction" -> "BusinessProcess" [label="composed of ×62", class="mm-cat-structural mm-from-business mm-to-business", dir=both, arrowtail=diamond, arrowhead=none, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessFunction-BusinessProcess", target="_top", tooltip="Business Function → Business Process: its relationships"];
+  "ApplicationService" -> "Capability" [label="realises ×30", class="mm-cat-structural mm-from-application mm-to-strategy", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationService-Capability", target="_top", tooltip="Application Service → Capability: its relationships"];
+  "ApplicationComponent" -> "ApplicationService" [label="realises ×22
+flows to ×5", class="mm-cat-structural mm-cat-dynamic mm-from-application mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationComponent-ApplicationService", target="_top", tooltip="Application Component → Application Service: its relationships"];
+  "Capability" -> "Outcome" [label="realises ×21", class="mm-cat-structural mm-from-strategy mm-to-motivation", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Capability-Outcome", target="_top", tooltip="Capability → Outcome: its relationships"];
+  "ApplicationService" -> "ApplicationComponent" [label="flows to ×17
+serves ×2", class="mm-cat-dynamic mm-cat-dependency mm-from-application mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationService-ApplicationComponent", target="_top", tooltip="Application Service → Application Component: its relationships"];
+  "ApplicationService" -> "ApplicationFunction" [label="serves ×12", class="mm-cat-dependency mm-from-application mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationService-ApplicationFunction", target="_top", tooltip="Application Service → Application Function: its relationships"];
+  "ValueStream" -> "Goal" [label="realises ×9", class="mm-cat-structural mm-from-strategy mm-to-motivation", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ValueStream-Goal", target="_top", tooltip="Value Stream → Goal: its relationships"];
+  "Driver" -> "Goal" [label="influences ×8", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Driver-Goal", target="_top", tooltip="Driver → Goal: its relationships"];
+  "Goal" -> "Value" [label="influences ×8", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Goal-Value", target="_top", tooltip="Goal → Value: its relationships"];
+  "WorkPackage" -> "Goal" [label="realises ×8", class="mm-cat-structural mm-from-implementation-migration mm-to-motivation", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-WorkPackage-Goal", target="_top", tooltip="Work Package → Goal: its relationships"];
+  "ApplicationFunction" -> "ApplicationComponent" [label="serves ×6
+flows to ×2", class="mm-cat-dependency mm-cat-dynamic mm-from-application mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationFunction-ApplicationComponent", target="_top", tooltip="Application Function → Application Component: its relationships"];
+  "BusinessFunction" -> "Capability" [label="realises ×6", class="mm-cat-structural mm-from-business mm-to-strategy", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessFunction-Capability", target="_top", tooltip="Business Function → Capability: its relationships"];
+  "BusinessFunction" -> "ApplicationService" [label="serves ×6", class="mm-cat-dependency mm-from-business mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessFunction-ApplicationService", target="_top", tooltip="Business Function → Application Service: its relationships"];
+  "ApplicationComponent" -> "DataObject" [label="accesses ×5", class="mm-cat-dependency mm-from-application mm-to-application", style=dotted, arrowhead=vee, arrowsize=0.6, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationComponent-DataObject", target="_top", tooltip="Application Component → Data Object: its relationships"];
+  "ApplicationComponent" -> "ApplicationFunction" [label="assigned to ×5
+realises ×4
+flows to ×2", class="mm-cat-structural mm-cat-dynamic mm-from-application mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationComponent-ApplicationFunction", target="_top", tooltip="Application Component → Application Function: its relationships"];
+  "ApplicationFunction" -> "ApplicationService" [label="realises ×3", class="mm-cat-structural mm-from-application mm-to-application", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationFunction-ApplicationService", target="_top", tooltip="Application Function → Application Service: its relationships"];
+  "ApplicationService" -> "Product" [label="serves ×3", class="mm-cat-dependency mm-from-application mm-to-business", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationService-Product", target="_top", tooltip="Application Service → Product: its relationships"];
+  "Capability" -> "Goal" [label="influences ×3", class="mm-cat-dependency mm-from-strategy mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Capability-Goal", target="_top", tooltip="Capability → Goal: its relationships"];
+  "Product" -> "Capability" [label="realises ×3", class="mm-cat-structural mm-from-business mm-to-strategy", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Product-Capability", target="_top", tooltip="Product → Capability: its relationships"];
+  "Stakeholder" -> "Driver" [label="influences ×2", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Stakeholder-Driver", target="_top", tooltip="Stakeholder → Driver: its relationships"];
+  "ApplicationFunction" -> "Capability" [label="realises ×1", class="mm-cat-structural mm-from-application mm-to-strategy", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-ApplicationFunction-Capability", target="_top", tooltip="Application Function → Capability: its relationships"];
+  "BusinessActor" -> "Stakeholder" [label="assigned to ×1", class="mm-cat-structural mm-from-business mm-to-motivation", dir=both, arrowtail=dot, arrowhead=normal, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessActor-Stakeholder", target="_top", tooltip="Business Actor → Stakeholder: its relationships"];
+  "BusinessProcess" -> "Capability" [label="realises ×1", class="mm-cat-structural mm-from-business mm-to-strategy", style=dashed, arrowhead=empty, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessProcess-Capability", target="_top", tooltip="Business Process → Capability: its relationships"];
+  "BusinessProcess" -> "ApplicationService" [label="serves ×1", class="mm-cat-dependency mm-from-business mm-to-application", arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-BusinessProcess-ApplicationService", target="_top", tooltip="Business Process → Application Service: its relationships"];
+  "Stakeholder" -> "Goal" [label="influences ×1", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Stakeholder-Goal", target="_top", tooltip="Stakeholder → Goal: its relationships"];
+  "Value" -> "Stakeholder" [label="influences ×1", class="mm-cat-dependency mm-from-motivation mm-to-motivation", style=dashed, arrowhead=vee, URL="../../en/dpi-h-ra/archimate/0.2.0-draft.1/metamodel/#pattern-Value-Stakeholder", target="_top", tooltip="Value → Stakeholder: its relationships"];
+}

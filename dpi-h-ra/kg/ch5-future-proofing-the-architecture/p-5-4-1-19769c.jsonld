@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-5-4-1-19769c",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:5-4-1-19769c",
+  "kind": "prose",
+  "cites": [
+    "references/coe-cets-225-ai-convention",
+    "references/korea-2025-ai-basic-act",
+    "references/peru-2023-ley-31814"
+  ],
+  "text": "p-5-4-1-19769c.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 583,
+      "page": 119,
+      "printedPage": "108",
+      "lineStart": 148,
+      "lineEnd": 153,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ab3f23683a6444ee9c8f96ac0e0b9b65",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-ab3f23683a6444ee9c8f96ac0e0b9b65",
+  "schema:name": "CDS Engine",
+  "schema:description": "A clinical decision support engine processes patient information against predefined clinical rules and evidence-based logic. It generates alerts, recommendations, and decision support outputs in real time.\r\n\r\nThe purpose of this engine is to provide healthcare providers with timely and accurate clinical insights during patient care. It also powers automated decision support capabilities within digital health systems.\r\n\r\nExample: The CDS engine generates sepsis alerts based on abnormal vital signs and laboratory trends.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

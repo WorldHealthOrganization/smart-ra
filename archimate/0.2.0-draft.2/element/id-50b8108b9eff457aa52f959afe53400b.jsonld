@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-50b8108b9eff457aa52f959afe53400b",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-50b8108b9eff457aa52f959afe53400b",
+  "schema:name": "Client Registry",
+  "schema:description": "The Client Registry metadata component manages the descriptive data about patients, including unique identifiers and relationships between records. It stores the attributes needed to link merged or linked identities across disparate health sources.\r\n\r\nIts purpose is to provide a verifiable patient identity that enables consistent tracking of a person's health journey. It ensures that metadata is standardized across the country to prevent identity fragmentation.\r\n\r\nExample: A metadata record that links a patient’s passport number and local health card ID to a single master patient profile.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

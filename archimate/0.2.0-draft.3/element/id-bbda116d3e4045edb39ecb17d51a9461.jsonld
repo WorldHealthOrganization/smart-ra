@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bbda116d3e4045edb39ecb17d51a9461",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-bbda116d3e4045edb39ecb17d51a9461",
+  "schema:name": "Purchasing (including contracting, provider payments, claims management, benefits specification): Ensure affordable, efficient purchasing with timely payments, cost control, transparency.",
+  "schema:description": "Purchasing is the active process of buying health services through contracting with providers, managing clinical claims, and specifying benefit packages. It encompasses the technical workflows used to transfer pooled funds to healthcare facilities for services rendered.\r\n\r\nThe purpose is to ensure affordable and efficient healthcare delivery with timely payments and strict cost control measures. It promotes transparency in financial transactions and encourages providers to maintain high standards of clinical performance.\r\n\r\nExample: An automated claims exchange platform that verifies medical services against contract terms before authorizing reimbursement to a hospital.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a317b965f6ae4c6981a8776ca271b210",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-a317b965f6ae4c6981a8776ca271b210",
+  "schema:name": "Allocation and risk equalisation calculations",
+  "schema:description": "This service executes the mathematical formulas needed to redistribute health funds between different insurance pools based on member risk profiles. It calculates the necessary transfer payments to balance the financial load across the system.\r\n\r\nThe intent is to promote equity by ensuring that no insurance scheme is unfairly penalized for covering a sicker or older population. It maintains the financial viability of all schemes within a multi-payer health system.\r\n\r\nExample: A calculation that shifts $2 million from a low-risk urban health fund to a high-risk rural fund to balance expenditure.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-d122aa689c0e42aab61cd00f750ed161",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-d122aa689c0e42aab61cd00f750ed161",
+  "schema:name": "Task Delegation & Escalation Service",
+  "schema:description": "This service supports the assignment, tracking, and escalation of care-related tasks among team members across disciplines and roles. It ensures that responsibilities are clearly communicated, acknowledged, and followed through within defined timeframes.\r\n\r\nThe purpose of this service is to reduce care gaps caused by unclear ownership of clinical actions and to ensure that urgent tasks are escalated appropriately when not addressed in time. It also improves team coordination by making task status visible to all relevant members.\r\n\r\nExample: A physician assigns a post-discharge follow-up call to a community health worker through the platform. If the task is not acknowledged within a set period, it is automatically escalated to the supervising nurse.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

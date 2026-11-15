@@ -1,0 +1,362 @@
+{
+  "$schema": "archimate-sequences/v1",
+  "model": "0.2.0",
+  "name": "WHO_RA",
+  "sequences": [
+    {
+      "id": "id-007936f8c2424b96ad1893ef0ff66059",
+      "title": "1. Central Health Workforce Registry",
+      "source": "view",
+      "viewId": "id-007936f8c2424b96ad1893ef0ff66059",
+      "participants": [
+        {
+          "id": "id-350840520ae44f658b6ad3b3762e382e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-350840520ae44f658b6ad3b3762e382e"
+        },
+        {
+          "id": "id-3c5d846710034c4595e206e748d65e36",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-3c5d846710034c4595e206e748d65e36"
+        },
+        {
+          "id": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d79aa0eec0584b0792b44bca408afeb6"
+        },
+        {
+          "id": "id-4e0767822dcf46409554156a133fbc67",
+          "name": "DPI-H: Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-4e0767822dcf46409554156a133fbc67"
+        },
+        {
+          "id": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bbd18f65be45490fbbaf02346511ae5e"
+        },
+        {
+          "id": "id-702c24bbd73341be9afc11c7e11e9810",
+          "name": "Health Worker",
+          "type": "DataObject",
+          "elementId": "id-702c24bbd73341be9afc11c7e11e9810"
+        },
+        {
+          "id": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "name": "Terminology",
+          "type": "DataObject",
+          "elementId": "id-301912f3fcaf4648b0ebc3cbbfc3b447"
+        },
+        {
+          "id": "id-ad969289cb774307aa678037c56fdd3f",
+          "name": "Facility",
+          "type": "DataObject",
+          "elementId": "id-ad969289cb774307aa678037c56fdd3f"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-48e997e7f08e45babaadd7c552057a22"
+        },
+        {
+          "from": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-7f2ce188187f4d8a8691bf5ff2f9f667"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-4e0767822dcf46409554156a133fbc67",
+          "label": "flows to DPI-H: Facility Registry",
+          "kind": "flow",
+          "relationshipId": "id-50329fe8597d46f6a4d491ff05452bd4"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-350840520ae44f658b6ad3b3762e382e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-ddd4756be0a340b892e9b2b436fbe5be"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-b486315e0923437cb776b4234739136e"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-477600ecd7224ee5ac009dbca111e5b0"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-702c24bbd73341be9afc11c7e11e9810",
+          "label": "writes Health Worker",
+          "kind": "access",
+          "relationshipId": "id-ba37954c9c86400a8b71c5cdb1058441"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1a95e061e76a4a16a6b921d503b281d6"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1ac9ba1451ae4d41a98f0e024640c5ee"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-ad969289cb774307aa678037c56fdd3f",
+          "label": "writes Facility",
+          "kind": "access",
+          "relationshipId": "id-c4a4adb63b16424ea40b2762a0598b0b"
+        }
+      ]
+    },
+    {
+      "id": "id-6702871f89b641d4823ad05fbd2a4bdb",
+      "title": "SUB-GOAL 1. Central Health Workforce Registry",
+      "source": "view",
+      "viewId": "id-6702871f89b641d4823ad05fbd2a4bdb",
+      "participants": [
+        {
+          "id": "id-350840520ae44f658b6ad3b3762e382e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-350840520ae44f658b6ad3b3762e382e"
+        },
+        {
+          "id": "id-3c5d846710034c4595e206e748d65e36",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-3c5d846710034c4595e206e748d65e36"
+        },
+        {
+          "id": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d79aa0eec0584b0792b44bca408afeb6"
+        },
+        {
+          "id": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bbd18f65be45490fbbaf02346511ae5e"
+        },
+        {
+          "id": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "name": "Terminology",
+          "type": "DataObject",
+          "elementId": "id-301912f3fcaf4648b0ebc3cbbfc3b447"
+        },
+        {
+          "id": "id-702c24bbd73341be9afc11c7e11e9810",
+          "name": "Health Worker",
+          "type": "DataObject",
+          "elementId": "id-702c24bbd73341be9afc11c7e11e9810"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-48e997e7f08e45babaadd7c552057a22"
+        },
+        {
+          "from": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-7f2ce188187f4d8a8691bf5ff2f9f667"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-350840520ae44f658b6ad3b3762e382e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-ddd4756be0a340b892e9b2b436fbe5be"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-b486315e0923437cb776b4234739136e"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1a95e061e76a4a16a6b921d503b281d6"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-702c24bbd73341be9afc11c7e11e9810",
+          "label": "writes Health Worker",
+          "kind": "access",
+          "relationshipId": "id-ba37954c9c86400a8b71c5cdb1058441"
+        }
+      ]
+    },
+    {
+      "id": "id-4c98f10e0a244315acddaf5257c7822e",
+      "title": "CDS",
+      "source": "view",
+      "viewId": "id-4c98f10e0a244315acddaf5257c7822e",
+      "participants": [
+        {
+          "id": "id-8104985f0f0e4f4cbe3bdf032ea20759",
+          "name": "Clinical Guideline package",
+          "type": "Product",
+          "elementId": "id-8104985f0f0e4f4cbe3bdf032ea20759"
+        },
+        {
+          "id": "id-539b04ae45f147258d8253ae5cb87402",
+          "name": "Decision Support Engine",
+          "type": "ApplicationComponent",
+          "elementId": "id-539b04ae45f147258d8253ae5cb87402"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-8104985f0f0e4f4cbe3bdf032ea20759",
+          "to": "id-539b04ae45f147258d8253ae5cb87402",
+          "label": "flows to Decision Support Engine",
+          "kind": "flow",
+          "relationshipId": "id-faf6be2646934a6ca29255888b25aeda"
+        }
+      ]
+    },
+    {
+      "id": "id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "title": "B",
+      "source": "interaction",
+      "viewId": "id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "participants": [
+        {
+          "id": "id-4269b5141b6347698b67225759884a71",
+          "name": "Document Source",
+          "type": "ApplicationComponent",
+          "elementId": "id-4269b5141b6347698b67225759884a71"
+        },
+        {
+          "id": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "name": "Document Repository",
+          "type": "ApplicationComponent",
+          "elementId": "id-85d7590270dc483cb500963dbe5a4fc8"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-4269b5141b6347698b67225759884a71",
+          "to": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "label": "Provide and Register Document Set [ITI-41]",
+          "kind": "interaction",
+          "relationshipId": "id-239d5a9ad49548eab9ff2340277cf821",
+          "interactionId": "id-1f0e8f5dc301487fb998c18711e49ebf"
+        },
+        {
+          "from": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "to": "id-4269b5141b6347698b67225759884a71",
+          "label": "Register Document Set",
+          "kind": "serving",
+          "relationshipId": "id-9254fc1e37d8441c8815ce28a34d3ce3",
+          "interactionId": "id-1f0e8f5dc301487fb998c18711e49ebf"
+        }
+      ]
+    },
+    {
+      "id": "id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "title": "D",
+      "source": "interaction",
+      "viewId": "id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "participants": [
+        {
+          "id": "id-abd2da4297944a5ca707a28a400dfb8f",
+          "name": "Test Operator",
+          "type": "BusinessRole",
+          "elementId": "id-abd2da4297944a5ca707a28a400dfb8f"
+        },
+        {
+          "id": "id-e9e37f6657324db7a972a974186b61b5",
+          "name": "Create and submit document",
+          "type": "BusinessProcess",
+          "elementId": "id-e9e37f6657324db7a972a974186b61b5"
+        },
+        {
+          "id": "id-4269b5141b6347698b67225759884a71",
+          "name": "Document Source",
+          "type": "ApplicationComponent",
+          "elementId": "id-4269b5141b6347698b67225759884a71"
+        },
+        {
+          "id": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "name": "Document Repository",
+          "type": "ApplicationComponent",
+          "elementId": "id-85d7590270dc483cb500963dbe5a4fc8"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-abd2da4297944a5ca707a28a400dfb8f",
+          "to": "id-e9e37f6657324db7a972a974186b61b5",
+          "label": "Create and submit document",
+          "kind": "triggering",
+          "relationshipId": "id-236ef2c463ca406a98363a220d506b34",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        },
+        {
+          "from": "id-e9e37f6657324db7a972a974186b61b5",
+          "to": "id-4269b5141b6347698b67225759884a71",
+          "label": "triggers Provide and Register Document Set [ITI-41]",
+          "kind": "triggering",
+          "relationshipId": "id-964d6ccd155744a6ac33713ac5d31c46",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        },
+        {
+          "from": "id-4269b5141b6347698b67225759884a71",
+          "to": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "label": "Provide and Register Document Set [ITI-41]",
+          "kind": "interaction",
+          "relationshipId": "id-93fb920872e84dc79246c068d354c193",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        }
+      ]
+    }
+  ]
+}

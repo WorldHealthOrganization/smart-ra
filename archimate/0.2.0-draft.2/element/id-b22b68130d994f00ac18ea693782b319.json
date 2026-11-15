@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-b22b68130d994f00ac18ea693782b319",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-b22b68130d994f00ac18ea693782b319",
+  "schema:name": "Provider Workflow Integration Component",
+  "schema:description": "A provider workflow integration component embeds clinical decision support recommendations directly into healthcare provider workflows and digital interfaces. It delivers guidance at appropriate points during patient care activities.\r\n\r\nThe purpose of this application component is to improve the usability and adoption of clinical decision support systems. It also minimizes workflow disruption and increases operational efficiency.\r\n\r\nExample: Treatment recommendations automatically appear while physicians review patient charts in the electronic medical record system.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

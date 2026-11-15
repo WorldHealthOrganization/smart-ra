@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-e03b3aefe0e249c0a475acab64ec6e2f",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-e03b3aefe0e249c0a475acab64ec6e2f",
+  "schema:name": "Claims reimbursed within SLA with reduced turnaround time. ",
+  "schema:description": "This represents the successful processing and payment of medical claims within the timeframes established in formal service-level agreements. It focuses on accelerating the \"claims turnaround time\" through the use of automated gateways and efficient digital workflows.\r\n\r\nThe goal is to reduce the administrative and financial burden on healthcare providers who would otherwise wait for reimbursement. Faster payments encourage providers to remain in the insurance network and continue accepting insured patients.\r\n\r\nExample: An insurance scheme reducing its average claim processing time from 60 days to 15 days after adopting an automated exchange.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

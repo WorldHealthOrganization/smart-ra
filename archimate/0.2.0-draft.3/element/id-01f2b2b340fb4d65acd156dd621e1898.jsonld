@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-01f2b2b340fb4d65acd156dd621e1898",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-01f2b2b340fb4d65acd156dd621e1898",
+  "schema:name": "Interoperability & Health Information Exchange",
+  "schema:description": "This capability provides the technical infrastructure and standards required for different health IT systems to talk to each other and share data. It involves the use of common APIs, messaging standards, and exchange protocols.\r\n\r\nThe purpose is to enable a unified patient view by connecting fragmented health data sources across the entire health system. This is the primary driver for clinical coordination and longitudinal record creation.\r\nExample: A national HIE hub that routes clinical \r\nsummaries between public clinics and private specialist centers.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

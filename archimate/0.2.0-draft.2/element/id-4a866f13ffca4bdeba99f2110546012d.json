@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4a866f13ffca4bdeba99f2110546012d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4a866f13ffca4bdeba99f2110546012d",
+  "schema:name": "Patient-Reported Outcome Module",
+  "schema:description": "This component manages the design, delivery, and collection of patient-reported outcome and experience surveys using FHIR Questionnaire and Questionnaire/Response resources. It integrates responses into the clinical record and triggers follow-up workflows where thresholds are met.\r\n\r\nThe purpose of this component is to provide the technical foundation for continuous, structured collection of patient perspectives between clinical encounters. It ensures that reported data is standardized, computable, and actionable within the broader care system.\r\n\r\nExample: The module delivers a validated quality-of-life questionnaire to a post-operative patient at scheduled intervals. Responses indicating significant pain are flagged and linked to a follow-up task in the care team platform.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

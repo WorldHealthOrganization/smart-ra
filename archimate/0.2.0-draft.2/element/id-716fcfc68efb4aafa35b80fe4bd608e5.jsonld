@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-716fcfc68efb4aafa35b80fe4bd608e5",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-716fcfc68efb4aafa35b80fe4bd608e5",
+  "schema:name": "Product Registry",
+  "schema:description": "The product registry is a standardized catalog of all medical goods, supplies, and services that can be billed within the health system. it assigns unique codes and names to everything from essential medicines to complex laboratory tests.\r\n\r\nIts purpose is to ensure consistent data representation across all financial and clinical systems for accurate tracking and analysis. It enables precise spend analysis and helps prevent billing confusion by standardizing what is being purchased.\r\n\r\nExample: A national medical product catalog that assigns a single code to a specific antibiotic used by every hospital in the country.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

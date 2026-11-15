@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a3b7a1d2792c400ba0398eb82affaf2d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+  "schema:name": "DPI-H: Facility Registry",
+  "schema:description": "The self-contained software component within the national architecture that serves as the single, authoritative source of truth for identifying and authenticating all healthcare facilities. It maintains a secure, real-time database of unique facility IDs, geographic locations, operational statuses, and ownership details.\r\n\r\nIt eliminates data duplication and confusion across disconnected government and hospital systems by providing a standardized registry interface. This consistent identification ensures that labor costs, resource distributions, and payroll allocations are mapped accurately to the exact facility where the work took place.\r\n\r\nExample: \"The DPI-H Facility Registry module that validates a clinic's unique national identifier before authorizing local staff payroll distributions and regional budget allocations.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

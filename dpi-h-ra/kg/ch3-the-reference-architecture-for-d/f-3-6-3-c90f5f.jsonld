@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/fig-3-6-3-c90f5f",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "label": "fig:3-6-3-c90f5f",
+  "kind": "figure",
+  "text": "f-3-6-3-c90f5f.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 373,
+      "page": 87,
+      "printedPage": "76",
+      "method": "inherited-page",
+      "file": "media/image27.png",
+      "generated": {
+        "tool": "draw_patterns",
+        "data": "tools/figures/exchange-patterns.json"
+      }
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d99db90ffd9b4c76980ee802747fc14a",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-d99db90ffd9b4c76980ee802747fc14a",
+  "schema:name": "Health Workers",
+  "schema:description": "Health workers are clinical professionals who provide care and interact directly with patient records at various health facilities. They are the primary users of patient data for diagnosis, treatment, and follow-up care.\r\n\r\nThe purpose is to provide them with verified, complete patient records at the point of care, reducing data duplication and errors. This allows for better-informed clinical decisions and more efficient workflows.\r\n\r\nExample: A physician reviewing a patient's medication history from multiple clinics to avoid harmful drug interactions.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

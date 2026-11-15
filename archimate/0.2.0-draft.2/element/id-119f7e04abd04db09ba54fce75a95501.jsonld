@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-119f7e04abd04db09ba54fce75a95501",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-119f7e04abd04db09ba54fce75a95501",
+  "schema:name": "Contract / benefit / tariff management system",
+  "schema:description": "This system manages the digital versions of legal agreements, benefit packages, and standardized price lists (tariffs). It provides a central repository for the rules and prices that govern the financial relationship between payers and providers.\r\n\r\nIts purpose is to ensure that all participants in the health network work with the same up-to-date information for billing and payments. It reduces disputes and administrative errors by providing a transparent and auditable source for contract terms and prices.\r\n\r\nExample: A version-controlled system that ensures a hospital is paid the 2026 standardized rate for a cardiac procedure.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

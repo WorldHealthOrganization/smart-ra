@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-kenya-de109b",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-kenya-de109b",
+  "kind": "prose",
+  "text": "p-d-2-kenya-de109b.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1036,
+      "page": 243,
+      "pageEnd": 244,
+      "printedPage": "232",
+      "lineStart": 129,
+      "lineEnd": 133,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

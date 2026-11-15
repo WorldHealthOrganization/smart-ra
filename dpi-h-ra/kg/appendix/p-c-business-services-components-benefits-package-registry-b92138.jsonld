@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-business-services-components-benefits-package-registry-b92138",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-business-services-components-benefits-package-registry-b92138",
+  "kind": "prose",
+  "cites": [
+    "references/openhie-fis",
+    "references/karippacheril-2024-social-protection-playbook"
+  ],
+  "text": "p-c-business-services-components-benefits-package-registry-b92138.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 926,
+      "page": 238,
+      "printedPage": "227",
+      "method": "unaligned"
+    }
+  },
+  "provenance": "authored"
+}

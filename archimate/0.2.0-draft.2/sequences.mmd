@@ -1,0 +1,87 @@
+sequenceDiagram
+  %% Sub-goal #1 Layered View (id-33696a5526e842909db344363d6d4586): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_961cfe0f56b54c5ea4f48c3f34109e0e as DPI-H National Health Workforce Directory/Registry
+  participant id_7862a8939c5a458c9ad1674062700688 as DPI-F Information Mediator
+  participant id_d27a9f9d388544deb73618aaf145251c as DPI-F Security & Consent Module
+  participant id_a3b7a1d2792c400ba0398eb82affaf2d as DPI-H - Facility Registry
+  participant id_bed24fc6e59048c595b7bde7a22b63f9 as Reporting Module
+  participant id_e23a136ac7904c02a15f46010f655099 as Terminology Service
+  id_961cfe0f56b54c5ea4f48c3f34109e0e->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_d27a9f9d388544deb73618aaf145251c->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_a3b7a1d2792c400ba0398eb82affaf2d: flows to DPI-H - Facility Registry
+  id_7862a8939c5a458c9ad1674062700688->>id_bed24fc6e59048c595b7bde7a22b63f9: flows to Reporting Module
+  id_7862a8939c5a458c9ad1674062700688->>id_d27a9f9d388544deb73618aaf145251c: flows to DPI-F Security & Consent Module
+  id_7862a8939c5a458c9ad1674062700688->>id_e23a136ac7904c02a15f46010f655099: flows to Terminology Service
+  id_7862a8939c5a458c9ad1674062700688->>id_961cfe0f56b54c5ea4f48c3f34109e0e: flows to DPI-H National Health Workforce Directory/Registry
+  id_a3b7a1d2792c400ba0398eb82affaf2d->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_e23a136ac7904c02a15f46010f655099->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+
+sequenceDiagram
+  %% Sub-goal #2 Layered View (id-742bf0b1880949c883216fe33e10c50f): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_e23a136ac7904c02a15f46010f655099 as Terminology Service
+  participant id_7862a8939c5a458c9ad1674062700688 as DPI-F Information Mediator
+  participant id_961cfe0f56b54c5ea4f48c3f34109e0e as DPI-H National Health Workforce Directory/Registry
+  participant id_a3b7a1d2792c400ba0398eb82affaf2d as DPI-H - Facility Registry
+  participant id_938d268924bc4a6b8ddd9f24e525c878 as DPI-F Payments
+  participant id_bed24fc6e59048c595b7bde7a22b63f9 as Reporting Module
+  id_e23a136ac7904c02a15f46010f655099->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_961cfe0f56b54c5ea4f48c3f34109e0e->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_a3b7a1d2792c400ba0398eb82affaf2d->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_961cfe0f56b54c5ea4f48c3f34109e0e: flows to DPI-H National Health Workforce Directory/Registry
+  id_7862a8939c5a458c9ad1674062700688->>id_a3b7a1d2792c400ba0398eb82affaf2d: flows to DPI-H - Facility Registry
+  id_7862a8939c5a458c9ad1674062700688->>id_e23a136ac7904c02a15f46010f655099: flows to Terminology Service
+  id_7862a8939c5a458c9ad1674062700688->>id_938d268924bc4a6b8ddd9f24e525c878: flows to DPI-F Payments
+  id_7862a8939c5a458c9ad1674062700688->>id_bed24fc6e59048c595b7bde7a22b63f9: flows to Reporting Module
+  id_938d268924bc4a6b8ddd9f24e525c878->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+
+sequenceDiagram
+  %% Sub-goal #3 Layered View (id-360f87ddd163420ea6b011a7f2a2a883): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_e23a136ac7904c02a15f46010f655099 as Terminology Service
+  participant id_7862a8939c5a458c9ad1674062700688 as DPI-F Information Mediator
+  participant id_961cfe0f56b54c5ea4f48c3f34109e0e as DPI-H National Health Workforce Directory/Registry
+  participant id_d27a9f9d388544deb73618aaf145251c as DPI-F Security & Consent Module
+  participant id_bed24fc6e59048c595b7bde7a22b63f9 as Reporting Module
+  participant id_a3b7a1d2792c400ba0398eb82affaf2d as DPI-H - Facility Registry
+  id_e23a136ac7904c02a15f46010f655099->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_961cfe0f56b54c5ea4f48c3f34109e0e->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_d27a9f9d388544deb73618aaf145251c->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_d27a9f9d388544deb73618aaf145251c: flows to DPI-F Security & Consent Module
+  id_7862a8939c5a458c9ad1674062700688->>id_e23a136ac7904c02a15f46010f655099: flows to Terminology Service
+  id_7862a8939c5a458c9ad1674062700688->>id_bed24fc6e59048c595b7bde7a22b63f9: flows to Reporting Module
+  id_7862a8939c5a458c9ad1674062700688->>id_961cfe0f56b54c5ea4f48c3f34109e0e: flows to DPI-H National Health Workforce Directory/Registry
+  id_7862a8939c5a458c9ad1674062700688->>id_a3b7a1d2792c400ba0398eb82affaf2d: flows to DPI-H - Facility Registry
+  id_a3b7a1d2792c400ba0398eb82affaf2d->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+
+sequenceDiagram
+  %% Sub-goal #4 Layered View (id-1c59b7b8fc87499cb6ccefaf2a5180a7): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_961cfe0f56b54c5ea4f48c3f34109e0e as DPI-H National Health Workforce Directory/Registry
+  participant id_7862a8939c5a458c9ad1674062700688 as DPI-F Information Mediator
+  participant id_524dea71aa26495883e2ab4efbca3075 as Learning Management & Training Tracking Systems
+  id_961cfe0f56b54c5ea4f48c3f34109e0e->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_961cfe0f56b54c5ea4f48c3f34109e0e: flows to DPI-H National Health Workforce Directory/Registry
+  id_7862a8939c5a458c9ad1674062700688->>id_524dea71aa26495883e2ab4efbca3075: flows to Learning Management & Training Tracking Systems
+  id_524dea71aa26495883e2ab4efbca3075->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+
+sequenceDiagram
+  %% WHO Reference Architecture — Cross-Component Flows (0.2.0-draft.2-flows): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_961cfe0f56b54c5ea4f48c3f34109e0e as DPI-H National Health Workforce Directory/Registry
+  participant id_bed24fc6e59048c595b7bde7a22b63f9 as Reporting Module
+  participant id_a3b7a1d2792c400ba0398eb82affaf2d as DPI-H - Facility Registry
+  participant id_138d88d8ce424d15b7ea3db0aec010e9 as Digital Payroll Services
+  participant id_7862a8939c5a458c9ad1674062700688 as DPI-F Information Mediator
+  participant id_8481f5d95240477e9fb462fdab759878 as Profile Management Service
+  participant id_61f9036cfc264e5ea18d7538e3f84e64 as Verification & Validation Service
+  participant id_b01d1fd318e343b4a85c5c5f73b81fbb as Identity Management Service
+  participant id_237fa14306eb4c27911ba45307cdf26c as Registry Management Service
+  id_961cfe0f56b54c5ea4f48c3f34109e0e->>id_bed24fc6e59048c595b7bde7a22b63f9: flows to Reporting Module
+  id_a3b7a1d2792c400ba0398eb82affaf2d->>id_bed24fc6e59048c595b7bde7a22b63f9: flows to Reporting Module
+  id_138d88d8ce424d15b7ea3db0aec010e9->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_138d88d8ce424d15b7ea3db0aec010e9: flows to Digital Payroll Services
+  id_8481f5d95240477e9fb462fdab759878->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_8481f5d95240477e9fb462fdab759878: flows to Profile Management Service
+  id_61f9036cfc264e5ea18d7538e3f84e64->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_61f9036cfc264e5ea18d7538e3f84e64: flows to Verification & Validation Service
+  id_b01d1fd318e343b4a85c5c5f73b81fbb->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_237fa14306eb4c27911ba45307cdf26c->>id_7862a8939c5a458c9ad1674062700688: flows to DPI-F Information Mediator
+  id_7862a8939c5a458c9ad1674062700688->>id_237fa14306eb4c27911ba45307cdf26c: flows to Registry Management Service
+  id_7862a8939c5a458c9ad1674062700688->>id_b01d1fd318e343b4a85c5c5f73b81fbb: flows to Identity Management Service

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-5599f3ad0c15406490926c6c7d6aa5bc",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-5599f3ad0c15406490926c6c7d6aa5bc",
+  "schema:name": "Compliance monitoring & regulatory reporting (ability to produce mandated reports on schedule)",
+  "schema:description": "An advanced organizational capability that ensures all statutory financial disclosures, donor expenditure reviews, and healthcare-specific compliance filings are automatically compiled, validated, and submitted on time. This capability integrates regulatory rulesets directly into the data architecture, using automated workflows to monitor ongoing financial transactions against legal benchmarks and generate fully structured, compliant outputs without requiring manual, last-minute intervention.\r\n\r\nIts primary purpose is to de-risk the health sector's financial operations by eliminating administrative compliance friction. By transforming regulatory reporting from a chaotic, manual exercise into a predictable, scheduled utility, it guarantees uninterrupted capital flows from ministries of finance and international donors, maintains legal standing with state oversight bodies, and ensures that institutional focus stays on healthcare delivery rather than administrative fire-fighting.\r\n\r\nExample: A national department of health leverages its compliance monitoring capability to seamlessly meet strict quarterly reporting mandates set by the World Bank; throughout the quarter, the system continuously tracks project funds against specific healthcare indicators, automatically running validation checks to ensure no rules are breached, and publishes the final, audited performance report on the precise scheduled deadline to trigger the next funding release.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

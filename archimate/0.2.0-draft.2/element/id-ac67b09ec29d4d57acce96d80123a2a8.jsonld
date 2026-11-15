@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ac67b09ec29d4d57acce96d80123a2a8",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-ac67b09ec29d4d57acce96d80123a2a8",
+  "schema:name": "WORM/ append only audit log repository",
+  "schema:description": "Stores system-wide financial events, configuration changes, and access logs on Write-Once-Read-Many (WORM) storage media or within an append-only database architecture. This service acts as a digital vault, allowing the system to continuously write new log entries but programmatically and physically blocking any mechanism to update, overwrite, or delete historical data once it has been committed to disk.\r\n\r\nIts primary purpose is to establish an unassailable foundation of trust and absolute integrity for forensic investigations and institutional audits. By hardcoding a strict \"insert-only\" rule at the storage or ledger level, it ensures that even if an attacker or a corrupt insider gains full root-level administrative access to the network, they are mathematically and structurally incapable of wiping away their digital footprints or altering historical financial records to conceal malpractice.\r\n\r\nExample: A state health authority routes all transaction logs from its medical billing platform into a dedicated WORM/append-only audit log repository; during an internal probe into a ghost-vender scheme, a compromised database administrator attempts to erase the electronic record of the fraudulent payouts, but the repository completely rejects the delete commands, preserving a pristine, chronological roadmap of the illicit transfers for the external auditing team.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

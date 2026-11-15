@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ed64a4255c424383965ba73359b5829b",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-ed64a4255c424383965ba73359b5829b",
+  "schema:name": "Regulatory and audit reports delivered on schedule",
+  "schema:description": "An essential compliance outcome achieved when mandatory financial statements, statutory health funding audits, and donor-required expenditure reports are automatically generated, verified, and submitted within their legally mandated timeframes. This operational state relies on tightly synchronized data architectures and pre-configured reporting templates that eliminate manual data gathering, consolidation bottlenecks, and last-minute human errors.\r\n\r\nIts primary purpose is to maintain institutional legitimacy, secure continuous funding flows, and avoid costly legal or financial penalties. By ensuring that oversight bodies, ministries of finance, and international health donors receive accurate, fully-compliant financial disclosures precisely when they are due, it preserves public trust and guarantees that critical health programs are never suspended due to administrative reporting delays.\r\n\r\nExample: A national health authority utilizes a synchronized compliance pipeline to guarantee that its annual Global Fund expenditure report is finalized and delivered on schedule by October 1st; the system auto-aggregates sub-national clinic expenses, runs built-in validation checks against donor guidelines, and compiles the audited packet two weeks before the deadline, preventing any freeze on upcoming malaria and tuberculosis grants.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-08cf2a2986f84f63814d5ca6f62f54d3",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-08cf2a2986f84f63814d5ca6f62f54d3",
+  "schema:name": "reconciliation service",
+  "schema:description": "This service is a software component that automatically compares financial records from different sources to ensure they match perfectly. it identifies discrepancies between submitted claims, authorized payments, and actual bank disbursements.\r\n\r\nIts purpose is to provide financial closure and detect errors or potential fraud in the payment cycle. It ensures that every cent of the health budget is accounted for and that all accounts are balanced at the end of each period.\r\n\r\nExample: An automated service that flags a 5-cent difference between an insurance fund's payment record and a hospital's bank statement.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

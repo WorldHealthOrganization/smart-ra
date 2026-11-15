@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-dc2148ad8835489f8caca4b1e9497f2d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-dc2148ad8835489f8caca4b1e9497f2d",
+  "schema:name": "PKI Infrastructure",
+  "schema:description": "PKI Infrastructure provides the foundational cryptographic services required to manage the lifecycle of digital certificates and keys. It includes the Certificate Authority and registration processes needed to issue trusted digital identities.\r\n\r\nThe purpose is to support secure communication and data protection across the health information exchange. it provides the underlying security protocols that make digital trust services possible in a distributed environment.\r\n\r\nExample: A national certificate authority that issues digital credentials to all licensed physicians in the country.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

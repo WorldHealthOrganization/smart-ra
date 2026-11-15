@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-1531d5dd272947bb9fb1afda43fb8640",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-1531d5dd272947bb9fb1afda43fb8640",
+  "schema:name": "Preventive Care & Risk Stratification Module",
+  "schema:description": "A preventive care and risk stratification module categorizes patients based on health risks and preventive care requirements. It uses patient data to prioritize screenings, interventions, and follow-up services.\r\n\r\nThe purpose of this application component is to support proactive healthcare delivery and improves early disease detection. It also strengthens population health management and preventive care planning.\r\n\r\nExample: High-risk diabetic patients are automatically scheduled for annual kidney and eye screening reminders.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

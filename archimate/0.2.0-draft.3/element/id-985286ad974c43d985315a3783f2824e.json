@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-985286ad974c43d985315a3783f2824e",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-985286ad974c43d985315a3783f2824e",
+  "schema:name": "Patient-Reported Outcome Service",
+  "schema:description": "This application service captures and manages patient feedback regarding health outcomes, treatment experiences, and quality of life measures. It integrates patient perspectives into healthcare quality monitoring and evaluation processes.\r\n\r\nThe purpose is to strengthen patient-centered care and improves understanding of healthcare outcomes from the patient perspective. It also supports more responsive and equitable healthcare services.\r\n\r\nExample: Cancer patients submit post-treatment quality-of-life surveys through a digital patient engagement platform.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

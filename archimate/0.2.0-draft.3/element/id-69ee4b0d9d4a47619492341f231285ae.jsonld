@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-69ee4b0d9d4a47619492341f231285ae",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-69ee4b0d9d4a47619492341f231285ae",
+  "schema:name": "Guideline Repository Service",
+  "schema:description": "A guideline repository service centrally stores, manages, and distributes approved clinical protocols and treatment standards. It ensures that healthcare providers can access updated guidance across facilities and systems.\r\n\r\nThe purpose of this service is to ensure that healthcare systems consistently use the latest approved clinical guidance. It also supports standardization and governance of clinical protocols across facilities and platforms.\r\n\r\nExample: A national health platform publishes updated maternal and child health protocols that are automatically accessible within hospital electronic medical record systems.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

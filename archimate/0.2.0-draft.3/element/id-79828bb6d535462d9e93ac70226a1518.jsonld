@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-79828bb6d535462d9e93ac70226a1518",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-79828bb6d535462d9e93ac70226a1518",
+  "schema:name": "Scheme discovery and guided enrolment",
+  "schema:description": "This service provides a digital interface for citizens to find the health coverage options they are eligible for based on their profile. It uses built-in logic to assist users through the registration process for insurance or social protection programs.\r\n\r\nThe objective is to lower the barriers to health coverage and ensure that citizens can easily secure their legal entitlements. It drives universal health coverage by making the enrollment journey simple and accessible for all segments of the population.\r\n\r\nExample: A mobile app that prompts a user to upload their ID and then automatically enrolls them in the government-subsidized \"Vulnerable Families\" plan.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-07d1ce0233304a4d89362d852f5ae6f5",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-07d1ce0233304a4d89362d852f5ae6f5",
+  "schema:name": "Consent Management Platform (DEPA-style)",
+  "schema:description": "The Consent Management Platform is a specialized system that handles consent artifacts and granular data access permissions based on user preferences. It follows the Data Empowerment and Protection Architecture (DEPA) to give individuals agency over their information.\r\n\r\nIts purpose is to enable patient control by allowing users to grant, manage, or revoke access to their health data. It operationalizes the ethical and legal requirements for informed consent in a digital environment.\r\n\r\nExample: A mobile dashboard where a patient chooses to allow a specific specialist to view their cardiology records for only 24 hours.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

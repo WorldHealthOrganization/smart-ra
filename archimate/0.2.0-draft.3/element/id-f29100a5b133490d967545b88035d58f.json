@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f29100a5b133490d967545b88035d58f",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-f29100a5b133490d967545b88035d58f",
+  "schema:name": "Contribution performance analytics",
+  "schema:description": "This service processes data regarding taxes and insurance premiums to evaluate the effectiveness of revenue collection efforts. It identifies trends in compliance, coverage, and financial gaps across different demographic and geographic groups.\r\n\r\nThe intent is to provide actionable insights into the fiscal health of the national insurance fund. It allows authorities to identify areas of low compliance and adjust their collection strategies to ensure fund sustainability.\r\n\r\nExample: A dashboard showing the percentage of successfully collected premiums versus the original revenue targets for the current fiscal quarter.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

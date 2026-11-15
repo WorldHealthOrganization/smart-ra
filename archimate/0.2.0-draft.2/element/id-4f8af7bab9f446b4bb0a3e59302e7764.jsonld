@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4f8af7bab9f446b4bb0a3e59302e7764",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-4f8af7bab9f446b4bb0a3e59302e7764",
+  "schema:name": "Open reporting & disclosure (ability to publish appropriate public views)",
+  "schema:description": "An advanced organizational capability that enables a health system to automatically sanitize, format, and securely publish appropriate subsets of financial and operational data for public consumption. This capability relies on automated data aggregation and redacting engines that strip away legally protected patient information and confidential vendor data, transforming complex internal ledgers into open-source, machine-readable formats and intuitive visual representations optimized for external stakeholders.\r\n\r\nIts primary purpose is to operationalize public accountability and foster civic trust without compromising data privacy or state security. By establishing a systematic pipeline for open reporting, it satisfies national freedom of information mandates, empowers civil society organizations to conduct independent spending reviews, and demonstrates to taxpayers and international partners that health sector funds are being managed ethically and equitably.\r\n\r\nExample: A municipal health authority leverages its open reporting and disclosure capability to launch an interactive public portal during a localized health crisis; the system pulls raw expenditure logs, automatically scrubs individual patient and provider identities to maintain strict privacy laws, and publishes a real-time visualization showing exactly how emergency medical funds are being spent on diagnostic kits and protective gear across different neighborhoods.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

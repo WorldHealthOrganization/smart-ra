@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0e3b006e5f26415b9d20b2205f387716",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-0e3b006e5f26415b9d20b2205f387716",
+  "schema:name": "Health revenue collection monitoring reports (where relevant to PFM oversight)",
+  "schema:description": "A specialized financial monitoring outcome achieved by tracking and analyzing the generation, collection, and deposition of healthcare-related revenues against established fiscal targets. This systematic reporting integrates diverse funding streams—such as patient co-pays, insurance reimbursements, and service fees—into a centralized oversight framework that captures real-time cash flows across the entire health system.\r\n\r\nIts primary purpose is to safeguard public financial management (PFM) integrity by identifying revenue leakages, collection bottlenecks, or unexpected funding shortfalls early. By providing a transparent audit trail, it allows oversight bodies to ensure that locally generated health revenues are efficiently collected, properly accounted for, and reinvested back into facility operations as intended.\r\n\r\nExample: A quarterly revenue collection report reveals that a district hospital is capturing only 60% of its projected insurance reimbursements due to a backlog in billing paperwork, prompting the treasury to deploy an administrative support team to clear the bottleneck and recover the missing operational funds.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

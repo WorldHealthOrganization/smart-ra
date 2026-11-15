@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-cc1117db358d5b76a77f473069620a2d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-cc1117db358d5b76a77f473069620a2d",
+  "schema:name": "Audit & Compliance Engine",
+  "schema:description": "The Audit & Compliance Engine is a component that records and monitors all activities and transactions within the health information network for security and regulatory compliance. It generates non-repudiable logs of who accessed which data and when to ensure full accountability across the ecosystem.\r\n\r\nIts purpose is to ensure the security and integrity of health data by providing a traceable record of system usage and data access events. It supports governance by identifying potential breaches or unauthorized access through continuous oversight of the technical environment.\r\n\r\nExample: A backend service that logs every instance of a clinician viewing a patient's sensitive medical history or personal data.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

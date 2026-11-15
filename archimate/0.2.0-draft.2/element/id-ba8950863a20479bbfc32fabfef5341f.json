@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ba8950863a20479bbfc32fabfef5341f",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ba8950863a20479bbfc32fabfef5341f",
+  "schema:name": "Case and Event Reporting Service",
+  "schema:description": "A Case and Event Reporting Service is a centralized public health intelligence system that collects, validates, and processes data regarding specific disease diagnoses and unusual health incidents from healthcare providers\r\n\r\nIts primary purpose is to provide public health authorities with early warnings and real-time situational awareness to detect potential outbreaks and coordinate rapid responses\r\n\r\nExample: Multiple hospitals suddenly report an unusual cluster of severe respiratory illness via the service, state epidemiologists are immediately alerted to investigate a potential new viral outbreak",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

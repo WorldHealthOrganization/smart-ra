@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-9bca46d3d9a045f7affb684bd0f6e1c0",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-9bca46d3d9a045f7affb684bd0f6e1c0",
+  "schema:name": "Consent & Delegation Manager",
+  "schema:description": "This component manages the recording, storage, and enforcement of patient consents and caregiver delegation permissions using FHIR Consent resources linked to the Master Patient Index and role management systems. It ensures access rights are always aligned with the patient's current preferences.\r\n\r\nThe purpose of this component is to provide the governance layer that controls who can access and act on a patient's health information and on what basis. It ensures that consent is applied consistently across all platform services and that changes take effect immediately.\r\n\r\nExample: When a patient revokes caregiver access through the portal, the component immediately updates permissions across all connected services, preventing further access by the previously delegated family member.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

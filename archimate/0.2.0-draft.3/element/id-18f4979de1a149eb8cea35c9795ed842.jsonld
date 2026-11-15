@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-18f4979de1a149eb8cea35c9795ed842",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-18f4979de1a149eb8cea35c9795ed842",
+  "schema:name": "Order / Prescription Validation Service",
+  "schema:description": "This application service evaluates medication orders and clinical requests against safety rules, formularies, and prescribing standards. It validates prescriptions for allergies, contraindications, dosage limits, duplications, and potential interactions before processing.\r\n\r\nThe purpose of this application service is to improve medication safety and reduces preventable prescribing and ordering errors. It also supports compliance with standardized clinical and pharmaceutical policies.\r\n\r\nExample: A prescribing system prevents submission of a medication order because the prescribed dosage exceeds the approved pediatric limit.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

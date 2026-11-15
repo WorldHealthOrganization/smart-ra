@@ -1,0 +1,603 @@
+{
+  "$schema": "archimate-sequences/v1",
+  "model": "0.3.0-draft.1",
+  "name": "WHO_RA",
+  "sequences": [
+    {
+      "id": "id-69a9d2fa4a075b6485c75cdb8b1a664b",
+      "title": "Semantic Governance Infrastructure (Fig. 3.4.1)",
+      "source": "view",
+      "viewId": "id-69a9d2fa4a075b6485c75cdb8b1a664b",
+      "participants": [
+        {
+          "id": "id-620f8efa30e85046b0da9f05ce83cf75",
+          "name": "Governance TMS",
+          "type": "ApplicationComponent",
+          "elementId": "id-620f8efa30e85046b0da9f05ce83cf75"
+        },
+        {
+          "id": "id-7ed447d199de5153af38aa2d72b410df",
+          "name": "Runtime TS",
+          "type": "ApplicationComponent",
+          "elementId": "id-7ed447d199de5153af38aa2d72b410df"
+        },
+        {
+          "id": "id-9f2b802d64b05ac58e5a725b8c335157",
+          "name": "Global content sources",
+          "type": "ApplicationComponent",
+          "elementId": "id-9f2b802d64b05ac58e5a725b8c335157"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-620f8efa30e85046b0da9f05ce83cf75",
+          "to": "id-7ed447d199de5153af38aa2d72b410df",
+          "label": "flows to Runtime TS",
+          "kind": "flow",
+          "relationshipId": "id-4e5baed957555ce5952eb78f1069c743"
+        },
+        {
+          "from": "id-7ed447d199de5153af38aa2d72b410df",
+          "to": "id-620f8efa30e85046b0da9f05ce83cf75",
+          "label": "flows to Governance TMS",
+          "kind": "flow",
+          "relationshipId": "id-2b4950b5f7cf5256a7fb52696e5c90e2"
+        },
+        {
+          "from": "id-9f2b802d64b05ac58e5a725b8c335157",
+          "to": "id-620f8efa30e85046b0da9f05ce83cf75",
+          "label": "Content syndication",
+          "kind": "flow",
+          "relationshipId": "id-06b696e72f0b5ab4940f3ba56b046260"
+        }
+      ]
+    },
+    {
+      "id": "id-007936f8c2424b96ad1893ef0ff66059",
+      "title": "1. Central Health Workforce Registry",
+      "source": "view",
+      "viewId": "id-007936f8c2424b96ad1893ef0ff66059",
+      "participants": [
+        {
+          "id": "id-350840520ae44f658b6ad3b3762e382e",
+          "name": "Health Workforce Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-350840520ae44f658b6ad3b3762e382e"
+        },
+        {
+          "id": "id-3c5d846710034c4595e206e748d65e36",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-3c5d846710034c4595e206e748d65e36"
+        },
+        {
+          "id": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d79aa0eec0584b0792b44bca408afeb6"
+        },
+        {
+          "id": "id-4e0767822dcf46409554156a133fbc67",
+          "name": "Health Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-4e0767822dcf46409554156a133fbc67"
+        },
+        {
+          "id": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bbd18f65be45490fbbaf02346511ae5e"
+        },
+        {
+          "id": "id-702c24bbd73341be9afc11c7e11e9810",
+          "name": "Health worker record",
+          "type": "DataObject",
+          "elementId": "id-702c24bbd73341be9afc11c7e11e9810"
+        },
+        {
+          "id": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "name": "Terminology",
+          "type": "DataObject",
+          "elementId": "id-301912f3fcaf4648b0ebc3cbbfc3b447"
+        },
+        {
+          "id": "id-ad969289cb774307aa678037c56fdd3f",
+          "name": "Facility",
+          "type": "DataObject",
+          "elementId": "id-ad969289cb774307aa678037c56fdd3f"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-48e997e7f08e45babaadd7c552057a22"
+        },
+        {
+          "from": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-7f2ce188187f4d8a8691bf5ff2f9f667"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-4e0767822dcf46409554156a133fbc67",
+          "label": "flows to Health Facility Registry",
+          "kind": "flow",
+          "relationshipId": "id-50329fe8597d46f6a4d491ff05452bd4"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-350840520ae44f658b6ad3b3762e382e",
+          "label": "flows to Health Workforce Registry",
+          "kind": "flow",
+          "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-ddd4756be0a340b892e9b2b436fbe5be"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-b486315e0923437cb776b4234739136e"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-477600ecd7224ee5ac009dbca111e5b0"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-702c24bbd73341be9afc11c7e11e9810",
+          "label": "writes Health worker record",
+          "kind": "access",
+          "relationshipId": "id-ba37954c9c86400a8b71c5cdb1058441"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1a95e061e76a4a16a6b921d503b281d6"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1ac9ba1451ae4d41a98f0e024640c5ee"
+        },
+        {
+          "from": "id-4e0767822dcf46409554156a133fbc67",
+          "to": "id-ad969289cb774307aa678037c56fdd3f",
+          "label": "writes Facility",
+          "kind": "access",
+          "relationshipId": "id-c4a4adb63b16424ea40b2762a0598b0b"
+        }
+      ]
+    },
+    {
+      "id": "id-6702871f89b641d4823ad05fbd2a4bdb",
+      "title": "SUB-GOAL 1. Central Health Workforce Registry",
+      "source": "view",
+      "viewId": "id-6702871f89b641d4823ad05fbd2a4bdb",
+      "participants": [
+        {
+          "id": "id-350840520ae44f658b6ad3b3762e382e",
+          "name": "Health Workforce Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-350840520ae44f658b6ad3b3762e382e"
+        },
+        {
+          "id": "id-3c5d846710034c4595e206e748d65e36",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-3c5d846710034c4595e206e748d65e36"
+        },
+        {
+          "id": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d79aa0eec0584b0792b44bca408afeb6"
+        },
+        {
+          "id": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bbd18f65be45490fbbaf02346511ae5e"
+        },
+        {
+          "id": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "name": "Terminology",
+          "type": "DataObject",
+          "elementId": "id-301912f3fcaf4648b0ebc3cbbfc3b447"
+        },
+        {
+          "id": "id-702c24bbd73341be9afc11c7e11e9810",
+          "name": "Health worker record",
+          "type": "DataObject",
+          "elementId": "id-702c24bbd73341be9afc11c7e11e9810"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-48e997e7f08e45babaadd7c552057a22"
+        },
+        {
+          "from": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "to": "id-3c5d846710034c4595e206e748d65e36",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-7f2ce188187f4d8a8691bf5ff2f9f667"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-350840520ae44f658b6ad3b3762e382e",
+          "label": "flows to Health Workforce Registry",
+          "kind": "flow",
+          "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-bbd18f65be45490fbbaf02346511ae5e",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-ddd4756be0a340b892e9b2b436fbe5be"
+        },
+        {
+          "from": "id-3c5d846710034c4595e206e748d65e36",
+          "to": "id-d79aa0eec0584b0792b44bca408afeb6",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-b486315e0923437cb776b4234739136e"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-301912f3fcaf4648b0ebc3cbbfc3b447",
+          "label": "writes Terminology",
+          "kind": "access",
+          "relationshipId": "id-1a95e061e76a4a16a6b921d503b281d6"
+        },
+        {
+          "from": "id-350840520ae44f658b6ad3b3762e382e",
+          "to": "id-702c24bbd73341be9afc11c7e11e9810",
+          "label": "writes Health worker record",
+          "kind": "access",
+          "relationshipId": "id-ba37954c9c86400a8b71c5cdb1058441"
+        }
+      ]
+    },
+    {
+      "id": "id-bea56e01c8345fbc803dee47a17ccfd3",
+      "title": "Track and Trace through DHSC Components (DTH SC Fig. 24)",
+      "source": "view",
+      "viewId": "id-bea56e01c8345fbc803dee47a17ccfd3",
+      "participants": [
+        {
+          "id": "id-f8c43d85b20e5671b613d723483217a8",
+          "name": "Manufacturer Systems",
+          "type": "ApplicationComponent",
+          "elementId": "id-f8c43d85b20e5671b613d723483217a8"
+        },
+        {
+          "id": "id-80856538cbd44167a37b276e38c994c3",
+          "name": "Interoperability Component",
+          "type": "ApplicationComponent",
+          "elementId": "id-80856538cbd44167a37b276e38c994c3"
+        },
+        {
+          "id": "id-a5808a3c23e755509c26c634b21cda83",
+          "name": "Data Repositories",
+          "type": "ApplicationComponent",
+          "elementId": "id-a5808a3c23e755509c26c634b21cda83"
+        },
+        {
+          "id": "id-e3c4f0ec36f35eccb0d4c50f887316e5",
+          "name": "Global Platforms",
+          "type": "ApplicationComponent",
+          "elementId": "id-e3c4f0ec36f35eccb0d4c50f887316e5"
+        },
+        {
+          "id": "id-35d0806bcb5c46fab5102d75de09558f",
+          "name": "Warehouse Management System",
+          "type": "ApplicationComponent",
+          "elementId": "id-35d0806bcb5c46fab5102d75de09558f"
+        },
+        {
+          "id": "id-ba1ec21bae4641378c56f714f72042d7",
+          "name": "Transportation Management System",
+          "type": "ApplicationComponent",
+          "elementId": "id-ba1ec21bae4641378c56f714f72042d7"
+        },
+        {
+          "id": "id-67637a829ea744cb930ac67459bc9894",
+          "name": "Health Facility Logistics Management System",
+          "type": "ApplicationComponent",
+          "elementId": "id-67637a829ea744cb930ac67459bc9894"
+        },
+        {
+          "id": "id-370b6bdcb29449c9be74644ffacc94aa",
+          "name": "Dispensing System",
+          "type": "ApplicationComponent",
+          "elementId": "id-370b6bdcb29449c9be74644ffacc94aa"
+        },
+        {
+          "id": "id-2158ff0de2f95b2cbe005c3bf6fc9c01",
+          "name": "Data Warehouse",
+          "type": "ApplicationComponent",
+          "elementId": "id-2158ff0de2f95b2cbe005c3bf6fc9c01"
+        },
+        {
+          "id": "id-5dc77dae1bce5d11b288830795b31bdf",
+          "name": "Traceability Event",
+          "type": "DataObject",
+          "elementId": "id-5dc77dae1bce5d11b288830795b31bdf"
+        },
+        {
+          "id": "id-975c5567001151299672c0341a733111",
+          "name": "Product Verification",
+          "type": "ApplicationService",
+          "elementId": "id-975c5567001151299672c0341a733111"
+        },
+        {
+          "id": "id-03e28af10b8f5b099e271461c8a99f21",
+          "name": "Individual",
+          "type": "BusinessRole",
+          "elementId": "id-03e28af10b8f5b099e271461c8a99f21"
+        },
+        {
+          "id": "id-8e67c8e9e1195cdc857b03a2c640e7fe",
+          "name": "National Regulatory Authority",
+          "type": "BusinessRole",
+          "elementId": "id-8e67c8e9e1195cdc857b03a2c640e7fe"
+        },
+        {
+          "id": "id-bc68171ed2615dad80e6f7d8199f4057",
+          "name": "Track and Trace",
+          "type": "ApplicationService",
+          "elementId": "id-bc68171ed2615dad80e6f7d8199f4057"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-f8c43d85b20e5671b613d723483217a8",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-5020ac56f2c251158c6c8bb503f919ec"
+        },
+        {
+          "from": "id-a5808a3c23e755509c26c634b21cda83",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-cadfb5c569be52fe8cfa92ec25a29601"
+        },
+        {
+          "from": "id-e3c4f0ec36f35eccb0d4c50f887316e5",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-efb0687f5df95180acf2e7fe33b48c1c"
+        },
+        {
+          "from": "id-35d0806bcb5c46fab5102d75de09558f",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-48c4ebaa067e55058b648adb4fc9a066"
+        },
+        {
+          "from": "id-ba1ec21bae4641378c56f714f72042d7",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-62e98e363f005228803f60435478fede"
+        },
+        {
+          "from": "id-67637a829ea744cb930ac67459bc9894",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-3198916b3bd75338bd9fe029417afe0c"
+        },
+        {
+          "from": "id-370b6bdcb29449c9be74644ffacc94aa",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-178a93a0dcf35015bdad9671d3e33eb0"
+        },
+        {
+          "from": "id-80856538cbd44167a37b276e38c994c3",
+          "to": "id-2158ff0de2f95b2cbe005c3bf6fc9c01",
+          "label": "flows to Data Warehouse",
+          "kind": "flow",
+          "relationshipId": "id-b9ba74976a6b5e77894116b8bb1fbff0"
+        },
+        {
+          "from": "id-2158ff0de2f95b2cbe005c3bf6fc9c01",
+          "to": "id-5dc77dae1bce5d11b288830795b31bdf",
+          "label": "reads/writes Traceability Event",
+          "kind": "access",
+          "relationshipId": "id-c76d74e5a98e55a3b48727eac34bcf81"
+        },
+        {
+          "from": "id-975c5567001151299672c0341a733111",
+          "to": "id-5dc77dae1bce5d11b288830795b31bdf",
+          "label": "reads Traceability Event",
+          "kind": "access",
+          "relationshipId": "id-25d00334b7355e66b67722087d9a16fe"
+        },
+        {
+          "from": "id-975c5567001151299672c0341a733111",
+          "to": "id-03e28af10b8f5b099e271461c8a99f21",
+          "label": "serves Individual",
+          "kind": "serving",
+          "relationshipId": "id-2d8c6442fd065035bb8b8fc75dfac7d9"
+        },
+        {
+          "from": "id-975c5567001151299672c0341a733111",
+          "to": "id-8e67c8e9e1195cdc857b03a2c640e7fe",
+          "label": "serves National Regulatory Authority",
+          "kind": "serving",
+          "relationshipId": "id-5965c2951caf5848840ba9c82648b6a6"
+        },
+        {
+          "from": "id-bc68171ed2615dad80e6f7d8199f4057",
+          "to": "id-5dc77dae1bce5d11b288830795b31bdf",
+          "label": "reads Traceability Event",
+          "kind": "access",
+          "relationshipId": "id-0dcaab2f1e405f0bb9d97fd50e4da579"
+        },
+        {
+          "from": "id-bc68171ed2615dad80e6f7d8199f4057",
+          "to": "id-03e28af10b8f5b099e271461c8a99f21",
+          "label": "serves Individual",
+          "kind": "serving",
+          "relationshipId": "id-f6683353dc6a545f820b9d769b5aa44e"
+        }
+      ]
+    },
+    {
+      "id": "id-4c98f10e0a244315acddaf5257c7822e",
+      "title": "CDS",
+      "source": "view",
+      "viewId": "id-4c98f10e0a244315acddaf5257c7822e",
+      "participants": [
+        {
+          "id": "id-8104985f0f0e4f4cbe3bdf032ea20759",
+          "name": "Clinical Guideline package",
+          "type": "Product",
+          "elementId": "id-8104985f0f0e4f4cbe3bdf032ea20759"
+        },
+        {
+          "id": "id-539b04ae45f147258d8253ae5cb87402",
+          "name": "Computable Decision Support Engine",
+          "type": "ApplicationComponent",
+          "elementId": "id-539b04ae45f147258d8253ae5cb87402"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-8104985f0f0e4f4cbe3bdf032ea20759",
+          "to": "id-539b04ae45f147258d8253ae5cb87402",
+          "label": "flows to Computable Decision Support Engine",
+          "kind": "flow",
+          "relationshipId": "id-faf6be2646934a6ca29255888b25aeda"
+        }
+      ]
+    },
+    {
+      "id": "id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "title": "B",
+      "source": "interaction",
+      "viewId": "id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "participants": [
+        {
+          "id": "id-4269b5141b6347698b67225759884a71",
+          "name": "Document Source",
+          "type": "ApplicationComponent",
+          "elementId": "id-4269b5141b6347698b67225759884a71"
+        },
+        {
+          "id": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "name": "Document Repository",
+          "type": "ApplicationComponent",
+          "elementId": "id-85d7590270dc483cb500963dbe5a4fc8"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-4269b5141b6347698b67225759884a71",
+          "to": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "label": "Provide and Register Document Set [ITI-41]",
+          "kind": "interaction",
+          "relationshipId": "id-239d5a9ad49548eab9ff2340277cf821",
+          "interactionId": "id-1f0e8f5dc301487fb998c18711e49ebf"
+        },
+        {
+          "from": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "to": "id-4269b5141b6347698b67225759884a71",
+          "label": "Register Document Set",
+          "kind": "serving",
+          "relationshipId": "id-9254fc1e37d8441c8815ce28a34d3ce3",
+          "interactionId": "id-1f0e8f5dc301487fb998c18711e49ebf"
+        }
+      ]
+    },
+    {
+      "id": "id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "title": "D",
+      "source": "interaction",
+      "viewId": "id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "participants": [
+        {
+          "id": "id-abd2da4297944a5ca707a28a400dfb8f",
+          "name": "Test Operator",
+          "type": "BusinessRole",
+          "elementId": "id-abd2da4297944a5ca707a28a400dfb8f"
+        },
+        {
+          "id": "id-e9e37f6657324db7a972a974186b61b5",
+          "name": "Create and submit document",
+          "type": "BusinessProcess",
+          "elementId": "id-e9e37f6657324db7a972a974186b61b5"
+        },
+        {
+          "id": "id-4269b5141b6347698b67225759884a71",
+          "name": "Document Source",
+          "type": "ApplicationComponent",
+          "elementId": "id-4269b5141b6347698b67225759884a71"
+        },
+        {
+          "id": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "name": "Document Repository",
+          "type": "ApplicationComponent",
+          "elementId": "id-85d7590270dc483cb500963dbe5a4fc8"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-abd2da4297944a5ca707a28a400dfb8f",
+          "to": "id-e9e37f6657324db7a972a974186b61b5",
+          "label": "Create and submit document",
+          "kind": "triggering",
+          "relationshipId": "id-236ef2c463ca406a98363a220d506b34",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        },
+        {
+          "from": "id-e9e37f6657324db7a972a974186b61b5",
+          "to": "id-4269b5141b6347698b67225759884a71",
+          "label": "triggers Provide and Register Document Set [ITI-41]",
+          "kind": "triggering",
+          "relationshipId": "id-964d6ccd155744a6ac33713ac5d31c46",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        },
+        {
+          "from": "id-4269b5141b6347698b67225759884a71",
+          "to": "id-85d7590270dc483cb500963dbe5a4fc8",
+          "label": "Provide and Register Document Set [ITI-41]",
+          "kind": "interaction",
+          "relationshipId": "id-93fb920872e84dc79246c068d354c193",
+          "interactionId": "id-d41ef8d7c9fe46b880f9104f0f33e907"
+        }
+      ]
+    }
+  ]
+}

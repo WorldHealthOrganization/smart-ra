@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-34de5c406fe3462b9e3c47b99f774e7d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-34de5c406fe3462b9e3c47b99f774e7d",
+  "schema:name": "SIEM",
+  "schema:description": "SIEM (Security Information & Event Management) is a component that aggregates and analyzes log data from across the health IT infrastructure to detect security threats. It provides real-time monitoring and alerting for suspicious activities or potential data breaches.\r\n\r\nIts purpose is to provide proactive defense against cyberattacks by identifying security patterns, anomalies, and potential system vulnerabilities. It helps health authorities maintain a secure posture by providing visibility into the security health of the entire network.\r\n\r\nExample: A security monitoring platform that alerts administrators if there is a sudden spike in unauthorized login attempts from a foreign IP address.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

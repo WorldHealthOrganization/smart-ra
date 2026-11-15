@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-17660d63e614413d8ea5e4076ea32a07",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-17660d63e614413d8ea5e4076ea32a07",
+  "schema:name": "Record Verification Service",
+  "schema:description": "This service handles the management of digital certificates, keys, and the verification of cryptographic signatures. It provides the technical proof required for trust in digital transactions.\r\n\r\nThe purpose is to ensure that any document or exchange in the system is authentic and has not been tampered with. This supports non-repudiation and legal validity of digital health records.\r\n\r\nExample: A service that verifies the digital signature on a lab result before it is automatically added to a patient’s PHR.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

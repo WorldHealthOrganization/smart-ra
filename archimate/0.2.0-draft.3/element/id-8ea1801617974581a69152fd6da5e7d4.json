@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-8ea1801617974581a69152fd6da5e7d4",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-8ea1801617974581a69152fd6da5e7d4",
+  "schema:name": "Role-based Guidance Module",
+  "schema:description": "A role-based guidance module provides customized clinical recommendations based on the responsibilities of different healthcare professionals. It ensures that information and alerts are relevant to each user’s role and workflow.\r\n\r\nThe purpose of this application component is to improve usability and reduce unnecessary information overload for healthcare providers. It also enhances the relevance and effectiveness of decision support interventions.\r\n\r\nExample: Pharmacists receive medication verification alerts while nurses receive medication administration reminders.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

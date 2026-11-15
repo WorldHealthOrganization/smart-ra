@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-5c749fa855de472086e763f2af457244",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-5c749fa855de472086e763f2af457244",
+  "schema:name": "Verify patient identity and eligibility",
+  "schema:description": "This process confirms an individual's physical identity and their current status within a health insurance or social protection scheme. It cross-references user credentials against national registries and payer databases to ensure an accurate match.\r\n\r\nIt ensures medical records are linked to the correct individual while confirming their entitlement to specific health benefits. This prevents identity mismatching and provides financial certainty for both patients and providers.\r\n\r\nA clinic clerk scanning a national ID to confirm active insurance status before a consultation.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

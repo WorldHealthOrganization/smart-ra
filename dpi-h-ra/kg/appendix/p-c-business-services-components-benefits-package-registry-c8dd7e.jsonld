@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-business-services-components-benefits-package-registry-c8dd7e",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-business-services-components-benefits-package-registry-c8dd7e",
+  "kind": "prose",
+  "text": "p-c-business-services-components-benefits-package-registry-c8dd7e.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 924,
+      "page": 212,
+      "printedPage": "201",
+      "lineStart": 105,
+      "lineEnd": 129,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Position the Workforce Registry within an NHWA-aligned information system — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-1kifa0lmx1h.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-1kifa0lmx1h","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-153/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Position the Workforce Registry within an NHWA-aligned information system</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-153.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0725/">PC-0725</a></td><td class="s">received</td><td class="t">Broad feedback: Align the approach more closely with the NHWA framework rather than focusing solely on registries. Heal…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1637/">PC-1637</a></td><td class="s">received</td><td class="t">The distinction among the Health Workforce Registry, HRIS, and Learning Management System is useful. However, the regis…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1638/">PC-1638</a></td><td class="s">received</td><td class="t">The boundary with HRIS is not complete. Deployment, employment, facility affiliation, payroll eligibility, and employme…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1642/">PC-1642</a></td><td class="s">received</td><td class="t">Identity and credentials are presented as two interlocking categories, but the component later includes employment, dep…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1644/">PC-1644</a></td><td class="s">received</td><td class="t">The statement that the registry is a data source for 12 of 29 NHWA indicators should identify the exact indicators and …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1663/">PC-1663</a></td><td class="s">received</td><td class="t">Supporting standard NHWA analytics directly within the registry may turn an authoritative reference component into an a…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1669/">PC-1669</a></td><td class="s">received</td><td class="t">LMS platforms are described as updating qualification records. Training completion does not automatically become a reco…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1688/">PC-1688</a></td><td class="s">received</td><td class="t">Generating NHWA reports directly within the registry may mix master-data stewardship with analytical reporting. [draft-…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1689/">PC-1689</a></td><td class="s">received</td><td class="t">The requirement says the registry supports NHWA “core indicators” but does not identify which indicators can be produce…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1691/">PC-1691</a></td><td class="s">received</td><td class="t">Staffing ratios require denominators such as population, service volume, facility capacity, or full-time equivalents. T…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1713/">PC-1713</a></td><td class="s">received</td><td class="t">A single occupation code may not capture multiple roles, specialties, employment functions, scopes of practice, or conc…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1719/">PC-1719</a></td><td class="s">received</td><td class="t">Employment status and type are Mandatory although these are dynamic HR attributes and may not be authoritative in the r…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1720/">PC-1720</a></td><td class="s">received</td><td class="t">Full-time or part-time classification alone is insufficient for FTE calculations. Contracted hours, standard full-time …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1721/">PC-1721</a></td><td class="s">received</td><td class="t">“Practising,” “professionally active,” and “licensed to practise” are layered stock concepts rather than simply one act…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1725/">PC-1725</a></td><td class="s">received</td><td class="t">The element includes activities, accrued credits, and compliance status, potentially duplicating detailed LMS or regula…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2554/">PC-2554</a></td><td class="s">received</td><td class="t">When you say LMS, I think of the traditional institution-based LMS that contains a name wise list of all students, thei…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2555/">PC-2555</a></td><td class="s">received</td><td class="t">You have presented this as two systems but in reality the situation is much more complex.HRIS - may be a single system …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2557/">PC-2557</a></td><td class="s">received</td><td class="t">We need to also list what the Regsitry is NOT. Either here or elsewhere. Building on my earlier comments that the HWF r…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2558/">PC-2558</a></td><td class="s">received</td><td class="t">Worth mentioning here that a national HRHIS is a system of systems - it includes HWF registry, HRIS, LMS (covering the …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2559/">PC-2559</a></td><td class="s">received</td><td class="t">can also provide information for certain indicators in Module 3 (finance and expenditure), if linked with payroll syste…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2578/">PC-2578</a></td><td class="s">received</td><td class="t">can also support analytics on inflows and outflows of health workers.if linked with payroll, can also support analytics…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2579/">PC-2579</a></td><td class="s">received</td><td class="t">Note that reporting on NHWA is a byproduct, the original purpose is that quality HWF is generated that can be used to i…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2594/">PC-2594</a></td><td class="s">received</td><td class="t">Suggestion to include: Data elements needed for HWF planning are based on different data elements some that are obtaine…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2619/">PC-2619</a></td><td class="s">received</td><td class="t">Maybe we can also mention &quot;type of entry&quot; somewhere. This would be the number of new health workers entering the countr…</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-153</dd>
+<dt>title</dt><dd>Position the Workforce Registry within an NHWA-aligned information system</dd>
+<dt>requirements</dt><dd>- Say what the registry is not: employment, payroll, HR actions and detailed learning records
+- Lead with workforce planning and policy use; present NHWA reporting as a by-product
+- Describe the national HRHIS as a system of systems, with the registry as one source alongside HRIS, payroll, education and surveys
+- Support multiple occupation classifications
+- Acknowledge multiple HRIS and federated arrangements
+- Map registry elements to specific NHWA indicators and other required sources
+- Map NHWA indicators to their data sources and state external denominator dependencies
+- Treat employment attributes as sourced, effective-dated links</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0725&quot;,
+  &quot;PC-1637&quot;,
+  &quot;PC-1638&quot;,
+  &quot;PC-1642&quot;,
+  &quot;PC-1644&quot;,
+  &quot;PC-1663&quot;,
+  &quot;PC-1669&quot;,
+  &quot;PC-1688&quot;,
+  &quot;PC-1689&quot;,
+  &quot;PC-1691&quot;,
+  &quot;PC-1713&quot;,
+  &quot;PC-1719&quot;,
+  &quot;PC-1720&quot;,
+  &quot;PC-1721&quot;,
+  &quot;PC-1725&quot;,
+  &quot;PC-2554&quot;,
+  &quot;PC-2555&quot;,
+  &quot;PC-2557&quot;,
+  &quot;PC-2558&quot;,
+  &quot;PC-2559&quot;,
+  &quot;PC-2578&quot;,
+  &quot;PC-2579&quot;,
+  &quot;PC-2594&quot;,
+  &quot;PC-2619&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 24 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

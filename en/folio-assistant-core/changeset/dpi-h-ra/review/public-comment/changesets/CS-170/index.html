@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Define the LHR as governed longitudinal access, not a store — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-61l737th2h.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-61l737th2h","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-170/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Define the LHR as governed longitudinal access, not a store</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-170.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0118/">PC-0118</a></td><td class="s">received</td><td class="t">The Lifelong Health Record entry breaks the &quot;authoritative [noun] of/for&quot; pattern used by the preceding four registries…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0361/">PC-0361</a></td><td class="s">received</td><td class="t">Why are we choosing the term Lifelong Health Record vs. Shared Health Record, which is more commonly used and understoo…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0464/">PC-0464</a></td><td class="s">received</td><td class="t">The Lifelong Health Record is presented as a component. In federated systems it is not a component but a governed view …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0554/">PC-0554</a></td><td class="s">received</td><td class="t">The Ministry supports the position that centralised, federated, hybrid and virtual records are all valid expressions of…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0962/">PC-0962</a></td><td class="s">received</td><td class="t">The LHR is described as maintaining a longitudinal record while allowing centralised, federated, or hybrid implementati…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0963/">PC-0963</a></td><td class="s">received</td><td class="t">Treating the LHR as foundational may be unrealistic where facilities still depend on paper records, basic registers, or…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1520/">PC-1520</a></td><td class="s">received</td><td class="t">The requirement refers to Shared Health Record ID synchronisation, while the document adopts Lifelong Health Record as …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1823/">PC-1823</a></td><td class="s">received</td><td class="t">The LHR is placed in the foundational shared data layer alongside authoritative registries. Unlike the registries, howe…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1824/">PC-1824</a></td><td class="s">received</td><td class="t">The component name may imply that one national system stores every person’s complete health record throughout life. Thi…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1825/">PC-1825</a></td><td class="s">received</td><td class="t">The relationship among Lifelong Health Record, Shared Health Record, longitudinal health record, electronic health reco…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1826/">PC-1826</a></td><td class="s">received</td><td class="t">The distinction between the LHR and facility-level EMR or EHR systems is directionally clear but insufficient for platf…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1827/">PC-1827</a></td><td class="s">received</td><td class="t">The component aims to provide access to health information across a person’s lifetime, but the scope of information con…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1829/">PC-1829</a></td><td class="s">received</td><td class="t">The description may imply that the LHR is the authoritative source of all clinical data. In many implementations, sourc…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1830/">PC-1830</a></td><td class="s">received</td><td class="t">The component appears to cover record storage, exchange, patient access, aggregation, consent enforcement, and possibly…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1831/">PC-1831</a></td><td class="s">received</td><td class="t">A lifelong record can increase the consequences of unauthorised access by making sensitive information from many provid…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1837/">PC-1837</a></td><td class="s">received</td><td class="t">Person-centred longitudinal organisation is fundamental, but the record may also need episode, condition, programme, fa…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1852/">PC-1852</a></td><td class="s">received</td><td class="t">The LHR’s relationship with facility EHRs and EMRs may imply that all local records should be replicated nationally. Th…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1853/">PC-1853</a></td><td class="s">received</td><td class="t">The Client Registry is a necessary dependency, but the LHR also depends on facility, workforce, terminology, model, tru…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1860/">PC-1860</a></td><td class="s">received</td><td class="t">Centralised, federated, and hybrid models are recognised, but their relative prerequisites, risks, and operational resp…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1861/">PC-1861</a></td><td class="s">received</td><td class="t">Federated retrieval is sometimes presented as reducing centralisation risk, but it requires source systems to remain av…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1862/">PC-1862</a></td><td class="s">received</td><td class="t">Centralised storage can simplify enforcement and availability but increases concentration risk. The specification does …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1863/">PC-1863</a></td><td class="s">received</td><td class="t">Hybrid architectures can become operationally unclear if the same information exists in source, shared, cached, and sum…</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-170</dd>
+<dt>title</dt><dd>Define the LHR as governed longitudinal access, not a store</dd>
+<dt>requirements</dt><dd>- Justify the LHR&#39;s place in the foundational layer and distinguish it visually from registries
+- Add a decision table comparing centralised, federated and hybrid models
+- Define the LHR at governance level (authoritative longitudinal view) and at implementation level (assembled from source systems, consolidated or federated)
+- Explain the choice of &#39;Lifelong Health Record&#39; over &#39;Shared Health Record&#39;
+- Define it as longitudinal access via consolidated, federated or hybrid means, not one national store
+- State that federation increases dependence on a governed information model
+- Replace &#39;maintains&#39; with wording that does not imply a persisted national record
+- Add a comparison of LHR, SHR, EHR and patient summary</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0118&quot;,
+  &quot;PC-0361&quot;,
+  &quot;PC-0464&quot;,
+  &quot;PC-0554&quot;,
+  &quot;PC-0962&quot;,
+  &quot;PC-0963&quot;,
+  &quot;PC-1520&quot;,
+  &quot;PC-1823&quot;,
+  &quot;PC-1824&quot;,
+  &quot;PC-1825&quot;,
+  &quot;PC-1826&quot;,
+  &quot;PC-1827&quot;,
+  &quot;PC-1829&quot;,
+  &quot;PC-1830&quot;,
+  &quot;PC-1831&quot;,
+  &quot;PC-1837&quot;,
+  &quot;PC-1852&quot;,
+  &quot;PC-1853&quot;,
+  &quot;PC-1860&quot;,
+  &quot;PC-1861&quot;,
+  &quot;PC-1862&quot;,
+  &quot;PC-1863&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 22 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

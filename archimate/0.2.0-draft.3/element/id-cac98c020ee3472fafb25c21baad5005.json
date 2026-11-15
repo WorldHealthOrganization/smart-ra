@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-cac98c020ee3472fafb25c21baad5005",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-cac98c020ee3472fafb25c21baad5005",
+  "schema:name": "Provider statements and remittance advice",
+  "schema:description": "This service generates digital reports for healthcare facilities explaining the details of their processed claims and subsequent payments. It provides a clear breakdown of which claims were paid, denied, or modified by the payer.\r\n\r\nThe objective is to provide financial transparency and help providers manage their own cash flow and internal accounts. It reduces administrative inquiries by providing a clear and detailed explanation for every payment decision.\r\n\r\nExample: A monthly statement sent to a hospital manager detailing the status of 500 recently submitted insurance claims.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

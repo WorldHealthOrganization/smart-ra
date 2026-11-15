@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Review sheet script</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:52rem;margin:2rem auto;padding:0 1rem}code{font-size:.9em}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3rem .5rem;text-align:left}</style>
+<script type="application/ld+json">{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "spdx": "http://spdx.org/rdf/terms#"
+  },
+  "@graph": [
+    {
+      "@id": "Code.gs",
+      "@type": "schema:SoftwareSourceCode",
+      "schema:name": "Review sheet Apps Script (generic)",
+      "schema:programmingLanguage": "Google Apps Script",
+      "schema:codeRepository": "https://github.com/litlfred/folio-assistant-core/tree/main/tools/review-sheet-sync",
+      "schema:version": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
+      "spdx:checksum": {
+        "spdx:algorithm": "SHA-256",
+        "spdx:checksumValue": "a9abfc7a3440c7d8fe0df6933ecb99d2d72c427fea882974be91842682836ce2"
+      },
+      "schema:permissions": [
+        "https://www.googleapis.com/auth/spreadsheets.currentonly",
+        "https://www.googleapis.com/auth/script.scriptapp",
+        "https://www.googleapis.com/auth/script.container.ui"
+      ],
+      "prov:wasGeneratedBy": {
+        "@id": "https://github.com/litlfred/folio-assistant-core/tree/main/tools/review-sheet-sync#review-sheet-sync"
+      }
+    },
+    {
+      "@id": "public-comment.config-rows.json",
+      "@type": "schema:Dataset",
+      "schema:name": "Review sheet settings (public-comment)",
+      "dcterms:source": "review/public-comment/sheet-sync.json",
+      "dcterms:conformsTo": {
+        "@id": "Code.gs"
+      },
+      "prov:wasGeneratedBy": {
+        "@id": "https://github.com/litlfred/folio-assistant-core/tree/main/tools/review-sheet-sync#review-sheet-sync"
+      }
+    }
+  ]
+}</script>
+<link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-1nr7jo2rxsc.js" defer></script><script src="../assets/js/navbar.js" defer></script><script src="../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../assets/css/navbar-row.css"><script src="../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../assets/js/vendor/lunr.min.js" defer></script><script src="../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout><script src="../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../assets/css/docs-ui.css" data-fa-platform-ui><script src="../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content=".."></head><body><script type="application/json" id="fa-navbar-row" data-fa-root=".." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-1nr7jo2rxsc","here":"/review-sheet/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1>Review sheet script</h1>
+<p>One Google Apps Script runs every review sheet of this document. What is particular to the document is in the sheet's <b>Config</b> tab, which the agent writes and only the sheet's owner can edit.</p>
+<h2>Files</h2>
+<ul>
+<li><a href="Code.gs">Code.gs</a>: the script. SHA-256 <code>a9abfc7a3440c7d8fe0df6933ecb99d2d72c427fea882974be91842682836ce2</code>, built from folio-assistant-core at <code>5c8105126a0d440cad4856f3ff292bec1c61bee3</code>. It reads and writes only the sheet it is installed in.</li>
+<li><a href="review-sheet.jsonld">review-sheet.jsonld</a>: these files as linked data.</li>
+</ul>
+<h2>Settings for this document</h2>
+<table><tr><th>mode</th><th>from</th><th>Config rows</th><th>sheet</th></tr>
+<tr><td>public-comment</td><td><code>review/public-comment/sheet-sync.json</code></td><td><a href="public-comment.config-rows.json">public-comment.config-rows.json</a></td><td>not named in the config</td></tr>
+</table>
+<h2>Set up a sheet</h2>
+<ol>
+<li>Copy the template for the mode, name it, and share it with the contributors as Editor.</li>
+<li>Give the agent the copy's URL; it writes the Config tab.</li>
+<li>Data &gt; Protect sheets and ranges &gt; "Ready columns: editors" &gt; Change permissions &gt; Custom: add each editor.</li>
+<li>Extensions &gt; Apps Script: paste <a href="Code.gs">Code.gs</a> (the only file to paste); save; run <b>installTriggers</b>. Google asks for three permissions: this spreadsheet, the script's own triggers, and its menu.</li>
+<li>Drafting only: on the Sections column, tick "Allow multiple selections" in its data validation.</li>
+</ol>
+<p>To check a pasted copy: compute the SHA-256 of its text and compare it with the one above. The full steps are in the <a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/review-sheet-script.md">review-sheet-script skill</a>.</p>
+</body></html>

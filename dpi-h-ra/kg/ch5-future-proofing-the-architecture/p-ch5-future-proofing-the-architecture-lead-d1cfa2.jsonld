@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-ch5-future-proofing-the-architecture-lead-d1cfa2",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch5-future-proofing-the-architecture-lead-d1cfa2",
+  "kind": "prose",
+  "text": "p-ch5-future-proofing-the-architecture-lead-d1cfa2.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 560,
+      "page": 115,
+      "printedPage": "104",
+      "lineStart": 3,
+      "lineEnd": 10,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

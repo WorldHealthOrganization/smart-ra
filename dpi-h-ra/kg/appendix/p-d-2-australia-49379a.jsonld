@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-australia-49379a",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-australia-49379a",
+  "kind": "prose",
+  "cites": [
+    "references/au-my-health-record"
+  ],
+  "text": "p-d-2-australia-49379a.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1024,
+      "page": 242,
+      "pageEnd": 243,
+      "printedPage": "231",
+      "lineStart": 94,
+      "lineEnd": 102,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-87cd360d539346de8f55f2673e0d08c6",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-87cd360d539346de8f55f2673e0d08c6",
+  "schema:name": "Preventive and Risk Prediction Service",
+  "schema:description": "This application service analyzes patient information and health indicators to identify potential health risks, preventive care needs, and high-risk populations. It uses predictive models and clinical rules to support early intervention and population health management.\r\n\r\nThe purpose of this application service is to enable proactive healthcare delivery and supports early detection of diseases and adverse health events. It also assists healthcare organizations in prioritizing preventive interventions and care management activities.\r\n\r\nExample: A patient is automatically flagged as high risk for cardiovascular disease based on age, laboratory results, and lifestyle indicators.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

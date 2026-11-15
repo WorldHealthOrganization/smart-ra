@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f56a26001ca64b38a69e6799d2f9e666",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-f56a26001ca64b38a69e6799d2f9e666",
+  "schema:name": "Decision Support Service",
+  "schema:description": "A decision support service evaluates patient information against clinical rules and evidence-based guidelines. It generates patient-specific recommendations, reminders, and alerts for healthcare providers.\r\n\r\nThe purpose of this application service is to support healthcare providers in making accurate, timely, and evidence-based clinical decisions. It also improves care quality and reduces the likelihood of clinical errors and omissions.\r\n\r\nExample: A physician receives an automated alert recommending additional laboratory tests based on abnormal patient results entered into the electronic medical record system.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

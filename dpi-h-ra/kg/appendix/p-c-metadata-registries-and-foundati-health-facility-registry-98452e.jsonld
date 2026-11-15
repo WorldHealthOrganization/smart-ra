@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-metadata-registries-and-foundati-health-facility-registry-98452e",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-metadata-registries-and-foundati-health-facility-registry-98452e",
+  "kind": "prose",
+  "text": "p-c-metadata-registries-and-foundati-health-facility-registry-98452e.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 666,
+      "page": 138,
+      "printedPage": "127",
+      "lineStart": 135,
+      "lineEnd": 144,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

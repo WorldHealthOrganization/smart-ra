@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-17f0263db79549a89f7d7a27a35c2150",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-17f0263db79549a89f7d7a27a35c2150",
+  "schema:name": "Risk equalization / allocation formulas defined and applied. ",
+  "schema:description": "These are mathematical algorithms used to redistribute funds among different health insurance pools based on the specific risk profiles of their members. They account for variables like age, gender, and chronic conditions to ensure fair resource distribution across the system.\r\n\r\nThe goal is to prevent insurers from only selecting healthy individuals and ensure that schemes with sicker populations remain financially viable. It promotes health equity by leveling the financial playing field between different insurance schemes or regions.\r\n\r\nExample: A national formula that transfers funds from a younger, urban insurance pool to a rural pool with a higher percentage of elderly residents.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

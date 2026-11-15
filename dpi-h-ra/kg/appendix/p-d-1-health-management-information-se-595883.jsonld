@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-1-health-management-information-se-595883",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-1-health-management-information-se-595883",
+  "kind": "prose",
+  "cites": [
+    "references/dhis2"
+  ],
+  "text": "p-d-1-health-management-information-se-595883.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1016,
+      "page": 241,
+      "printedPage": "230",
+      "lineStart": 58,
+      "lineEnd": 61,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

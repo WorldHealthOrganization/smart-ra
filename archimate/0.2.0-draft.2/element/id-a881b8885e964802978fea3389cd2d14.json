@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a881b8885e964802978fea3389cd2d14",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-a881b8885e964802978fea3389cd2d14",
+  "schema:name": "Identity confirmation",
+  "schema:description": "This capability provides the technical means to uniquely identify a person and verify that they are the legitimate owner of a health identity. It utilizes the national Client Registry to match individuals with their medical and financial records.\r\n\r\nThe purpose is to prevent identity theft and ensure that health benefits are correctly attributed to the right individual. It acts as the foundational security layer for all personalized health and financing transactions.\r\n\r\nExample: Using a fingerprint scan to confirm a patient's identity before verifying their insurance eligibility.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

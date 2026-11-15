@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4d9d4fbf0f174c969fc6a000597bf84c",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4d9d4fbf0f174c969fc6a000597bf84c",
+  "schema:name": "Audit & Monitoring Component",
+  "schema:description": "This component captures, stores, and organizes logs of all system activity, communications, and access events within the care team platform. It supports log retrieval, compliance reporting, and real-time monitoring of platform usage.\r\n\r\nThe purpose of this component is to provide the technical infrastructure for auditability and governance across all platform interactions. It ensures that activity records are complete, tamper-resistant, and accessible for review when needed.\r\n\r\nExample: The component generates a timestamped log of all messages, task updates, and document accesses during a patient's care episode, which can be exported for compliance review or incident investigation.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

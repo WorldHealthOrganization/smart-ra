@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-9adc674b22094bd4a65a1117e240665b",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-9adc674b22094bd4a65a1117e240665b",
+  "schema:name": "Digital signing and verification",
+  "schema:description": "This service provides the technical tools to apply and check cryptographic signatures on clinical and financial documents. It ensures that the source of a document can be proven and that it has not been modified since it was signed.\r\n\r\nThe goal is to provide non-repudiable trust for all digital transactions within the health network. It ensures that clinical evidence and payment authorizations are legally binding and completely tamper-proof.\r\n\r\nExample: A service that checks the digital signature on a lab report before it is used as evidence to authorize a provider's claim.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

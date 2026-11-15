@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4b65bc3ce9c0416d86a7bdd9d66cff0e",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-4b65bc3ce9c0416d86a7bdd9d66cff0e",
+  "schema:name": "Payment flow monitoring and reconciliation",
+  "schema:description": "This service tracks the movement of funds from payers to providers and matches them against the batch of approved claims. It verifies that every financial transfer reaches its intended destination and balances perfectly against the internal ledger.\r\n\r\nThe goal is to ensure the integrity of the payment cycle and detect discrepancies in fund transfers immediately. It provides financial closure by ensuring that providers receive exactly what was authorized in the adjudication process.\r\n\r\nExample: An automated system that flags a bank transfer if it does not match the total of the approved claims batch for a specific hospital.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

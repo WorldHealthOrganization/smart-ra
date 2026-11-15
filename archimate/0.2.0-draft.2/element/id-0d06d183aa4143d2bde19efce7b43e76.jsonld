@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0d06d183aa4143d2bde19efce7b43e76",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0d06d183aa4143d2bde19efce7b43e76",
+  "schema:name": "Financial data exchange",
+  "schema:description": "This capability provides the technical standards and infrastructure for the secure movement of financial information between disparate health and finance systems. It enables the interoperable exchange of invoices, payment claims, and reconciliation statements.\r\n\r\nThe intent is to reduce administrative friction and enable automated workflows across the health financing lifecycle. It ensures that clinical and financial systems can talk to each other to facilitate accurate and real-time transactions.\r\n\r\nExample: An API gateway that allows a hospital's billing software to send claims directly to an insurance agency's adjudication engine.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/fig-3-3-5aba0f",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "label": "fig:3-3-5aba0f",
+  "kind": "figure",
+  "text": "f-3-3-5aba0f.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 252,
+      "page": 60,
+      "printedPage": "49",
+      "method": "inherited-page",
+      "file": "media/image20.png",
+      "generated": {
+        "tool": "archimate-blocks",
+        "model": "0.2.0-draft.3",
+        "view": "id-7da6c80d57a84f39a22fba722473e84b"
+      }
+    },
+    "figureViews": [
+      {
+        "model": "0.2.0-draft.3",
+        "view": "id-7da6c80d57a84f39a22fba722473e84b"
+      }
+    ]
+  },
+  "provenance": "authored"
+}

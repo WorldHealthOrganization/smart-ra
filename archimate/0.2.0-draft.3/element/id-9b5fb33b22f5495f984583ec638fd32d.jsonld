@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-9b5fb33b22f5495f984583ec638fd32d",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-9b5fb33b22f5495f984583ec638fd32d",
+  "schema:name": "Payers",
+  "schema:description": "This group includes the social health insurance agencies and finance departments that pool risk and manage the disbursement of health funds. They are responsible for the financial integrity and efficiency of the health insurance system.\r\n\r\nThe purpose is to achieve cost control and value-based spending through active contract management and fraud prevention. They value reliable data that allows them to pay the right amount for the right services at the right time.\r\n\r\nExample: An insurance manager identifying and blocking a fraudulent claim where a clinic billed for services that were never provided.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

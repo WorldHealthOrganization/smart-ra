@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-553a7afe81e6436ebc1c87e1ad048521",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-553a7afe81e6436ebc1c87e1ad048521",
+  "schema:name": "Risk allocation / risk equalization (ability to define and apply allocation formulas). ",
+  "schema:description": "An advanced business capability that enables financial engineers and policymakers to design, test, and programmatically deploy mathematical formulas that redistribute pooled funds based on the objective health risk profile of a given population.\r\n\r\nIts primary purpose is to decouple a region's or fund's budget from its actual collection revenue, ensuring that areas burdened with sicker, older, or lower-income residents receive a disproportionately higher share of resources to match their true financial liabilities.\r\n\r\nExample: Using this risk allocation / risk equalization capability, the health board adjusts its funding matrix to include a \"chronic disease multiplier\"; when the system processes the annual budget, it automatically transfers $14 million out of a low-risk, youthful tech-hub district and injects it directly into a neighboring retirement community's fund to cover its disproportionately high cardiac care expenses.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

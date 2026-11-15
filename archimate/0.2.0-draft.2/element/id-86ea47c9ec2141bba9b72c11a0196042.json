@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-86ea47c9ec2141bba9b72c11a0196042",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-86ea47c9ec2141bba9b72c11a0196042",
+  "schema:name": "Automated Data Collection Service",
+  "schema:description": "This application service gathers quality-related data from healthcare applications, devices, and operational systems with minimal manual intervention. It supports real-time and scheduled collection of clinical and operational performance data.\r\n\r\nThe purpose is to improve the accuracy, timeliness, and efficiency of quality data collection processes. It also reduces administrative burden and manual reporting errors.\r\n\r\nExample: A hospital quality management system automatically extracts patient safety indicators from electronic medical records each day.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,175 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2",
+  "@type": "archimate:Model",
+  "schema:identifier": "0.2.0-draft.2",
+  "schema:name": "WHO Reference Architecture 0.2.0-draft.2",
+  "dcterms:identifier": "id-e3a716cdc31042b0a745fec8e4e7a73c",
+  "schema:contentUrl": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/WHOBaseFile_prev.archimate",
+  "schema:hasPart": [
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-33696a5526e842909db344363d6d4586",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-742bf0b1880949c883216fe33e10c50f",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #2 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-360f87ddd163420ea6b011a7f2a2a883",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #3 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-1c59b7b8fc87499cb6ccefaf2a5180a7",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #4 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-1a06fb51565141ec82ff50babfc77eb4",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level View - Health Workforce"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-5bcff55b2d5f4705b4503cb3edc47a15",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level View - Health Financing"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-d04327b6c3d1429aafcd52fc84a274b7",
+      "@type": "archimate:Diagram",
+      "schema:name": "HF Sub-goal #1 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-027bbd5f4ff14078b5b8e7c887f738ca",
+      "@type": "archimate:Diagram",
+      "schema:name": "HF Sub-goal #2 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-67b96ff4808249779b6bb9b7be984fcb",
+      "@type": "archimate:Diagram",
+      "schema:name": "HF Sub-goal #3 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-797bdfbf16f04123918e3288741e9226",
+      "@type": "archimate:Diagram",
+      "schema:name": "HF Sub-goal #4 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-9826d1674eeb441fae7b6e65f6f5f0d1",
+      "@type": "archimate:Diagram",
+      "schema:name": "HF Sub-goal #6 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-52b843a619e24553af84ab967d108c36",
+      "@type": "archimate:Diagram",
+      "schema:name": "PMF Sub-goal #1 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-65d27c103b484650a3ffb7ed3943ae18",
+      "@type": "archimate:Diagram",
+      "schema:name": "PMF Sub-goal #2 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-6b744cd1d750425d87726d21b602e92e",
+      "@type": "archimate:Diagram",
+      "schema:name": "PMF Sub-goal #3 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-8892637529ab49259a0f0de0d3300bb7",
+      "@type": "archimate:Diagram",
+      "schema:name": "PMF Sub-goal #4 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-7da6c80d57a84f39a22fba722473e84b",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level - Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-522bfc7592cc4079b50d84f9b002ef5d",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL High Level - PHR"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-793b6a7849184ec8a26e8d9e96c8276a",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-4aca894037d64198a54258a1e7618d6f",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal  #2 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-493ca2075afb4ab4a2171fa268a1cfdd",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #3 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-6944e0fc36f34a71858701f99c6fcb10",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #4 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-7c4a1df0420646d79e37c2e62955f62a",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level - Surveillance"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-973ae9891df24dcb9cdc4a29999a7001",
+      "@type": "archimate:Diagram",
+      "schema:name": "Layered Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-59e382b5312d4f19b621b42285747717",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal  #5 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-8504848e6a4b4c5fbd8c3c94798d0edb",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #8 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-6e68a1ca92194c4b91c3e1420e689f08",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #6 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-f92ee9d8e31e4c019c066b8d2b5cb84a",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #7 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-5c86a1b619f64fdab1bc08d0e01fa60b",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-9e755dc055f8423c9c5559d1eeababde",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #2 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-2eb682809550417286312c97e6df6591",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #3 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-3c57a6110f844281b72a5a94a8b7a9c2",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #4 Layered View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/view/id-69648e3a19484a68b845baf3e440b791",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level View - Q&CC"
+    }
+  ]
+}

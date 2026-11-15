@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-cc8e28ab398f4bf3822cd9003703722f",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-cc8e28ab398f4bf3822cd9003703722f",
+  "schema:name": "Fraud, risk scoring, and anomaly detection",
+  "schema:description": "This service uses analytics to assign a risk score to every claim based on patterns of past behavior and clinical plausibility. It flags unusual activities, such as duplicate billing or service inflation, for proactive investigation by auditors.\r\n\r\nThe purpose is to protect health funds from being lost to fraud by identifying high-risk transactions before they are paid. It preserves resources for actual patient care and discourages systemic abuse of the health insurance system.\r\n\r\nExample: A system flagging a clinic that bills for 100 patient visits on a day when the facility was officially closed.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

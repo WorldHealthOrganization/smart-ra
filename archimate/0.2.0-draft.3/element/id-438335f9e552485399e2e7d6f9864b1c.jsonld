@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-438335f9e552485399e2e7d6f9864b1c",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-438335f9e552485399e2e7d6f9864b1c",
+  "schema:name": "Client Identity Management",
+  "schema:description": "The core operational ability to capture, store, update, and authenticate the unique digital profiles of individual patients or service recipients across a healthcare ecosystem. This capability ensures that a client's demographic data, consent preferences, and system identifiers are managed securely and consistently at every point of care.\r\n\r\nPossessing this capability eliminates the risks of duplicate medical records, misidentification, and unauthorized data exposure, directly protecting patient safety. For administrative and clinical workflows, it provides a trusted foundation for matching the right treatment, billing records, and clinical history to the correct individual, regardless of which facility they visit.\r\n\r\nExample: \"The enterprise Client Identity Management capability that enables a regional hospital network to instantly resolve cross-facility patient records and securely verify a patient's identity using a national health card.\"",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

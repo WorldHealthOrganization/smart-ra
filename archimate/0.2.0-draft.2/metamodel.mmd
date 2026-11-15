@@ -1,0 +1,73 @@
+classDiagram
+  %% WHO Reference Architecture: metamodel in use, derived by archimate-metamodel. Do not edit.
+  class ApplicationComponent["Application Component"]
+  <<Application>> ApplicationComponent
+  class ApplicationService["Application Service"]
+  <<Application>> ApplicationService
+  class Capability["Capability"]
+  <<Strategy>> Capability
+  class Outcome["Outcome"]
+  <<Motivation>> Outcome
+  class Grouping["Grouping"]
+  <<Other>> Grouping
+  class Goal["Goal"]
+  <<Motivation>> Goal
+  class ValueStream["Value Stream"]
+  <<Strategy>> ValueStream
+  class Product["Product"]
+  <<Business>> Product
+  class DataObject["Data Object"]
+  <<Application>> DataObject
+  class Value["Value"]
+  <<Motivation>> Value
+  class Stakeholder["Stakeholder"]
+  <<Motivation>> Stakeholder
+  ApplicationComponent ..|> ApplicationService : realises ×127
+  Grouping *-- Outcome : composed of ×61
+  Capability ..|> Grouping : realises ×60
+  Grouping *-- ApplicationService : composed of ×57
+  Grouping *-- DataObject : composed of ×53
+  ApplicationComponent ..> Grouping : accesses ×45
+  Capability ..|> Outcome : realises ×42
+  Grouping ..|> Capability : realises ×42
+  ApplicationService ..|> Capability : realises ×30
+  ApplicationService --> Product : serves ×30
+  Goal *-- Goal : composed of ×22
+  Outcome ..|> Goal : realises ×22
+  Grouping -- ApplicationComponent : associated with ×19
+  Grouping *-- Goal : composed of ×19
+  Product ..|> Capability : realises ×19
+  ApplicationComponent ..> ApplicationComponent : flows to ×15
+  Grouping ..|> Goal : realises ×13
+  ValueStream --> ValueStream : triggers ×13
+  ApplicationComponent -- Grouping : associated with ×12
+  ApplicationComponent --> ApplicationService : serves ×11
+  ApplicationService --> Grouping : serves ×6
+  Capability -- ValueStream : associated with ×6
+  Value ..> Outcome : influences ×6
+  ApplicationComponent ..> ApplicationService : flows to ×5
+  ApplicationService ..> ApplicationComponent : flows to ×5
+  ValueStream ..|> Goal : realises ×5
+  ApplicationComponent ..|> Grouping : realises ×4
+  Capability *-- Capability : composed of ×4
+  Grouping o-- Product : aggregates ×4
+  Grouping --> Product : serves ×4
+  Outcome -- Outcome : associated with ×4
+  Stakeholder -- Value : associated with ×4
+  Capability --> Capability : serves ×3
+  Outcome o-- Outcome : aggregates ×3
+  Outcome ..|> Grouping : realises ×3
+  ApplicationComponent --> ApplicationComponent : serves ×2
+  Goal *-- Grouping : composed of ×2
+  ValueStream *-- ValueStream : composed of ×2
+  ApplicationComponent ..|> Capability : realises ×1
+  ApplicationService --> ApplicationComponent : serves ×1
+  Goal ..> Value : influences ×1
+  Grouping o-- Outcome : aggregates ×1
+  Grouping ..> Grouping : influences ×1
+  Grouping ..|> Grouping : realises ×1
+  Outcome o-- Grouping : aggregates ×1
+  Outcome -- Capability : associated with ×1
+  Outcome *-- Outcome : composed of ×1
+  Outcome ..> Outcome : influences ×1
+  Value -- Outcome : associated with ×1

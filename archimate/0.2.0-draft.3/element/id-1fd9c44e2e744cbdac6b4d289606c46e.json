@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-1fd9c44e2e744cbdac6b4d289606c46e",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-1fd9c44e2e744cbdac6b4d289606c46e",
+  "schema:name": "Terminology Server",
+  "schema:description": "A terminology server manages standardized clinical codes, terminologies, and classifications used across healthcare systems. It ensures that systems interpret and exchange healthcare data consistently.\r\n\r\nThe purpose of this data object is to enable semantic interoperability and improves the accuracy of healthcare reporting and analytics. It also supports standardized clinical documentation and decision support processes.\r\n\r\nExample: Different hospital systems use standardized SNOMED CT and ICD-10 codes through a shared terminology server.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6a4af7d6c4b84485bb44510e7f1c312d",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-6a4af7d6c4b84485bb44510e7f1c312d",
+  "schema:name": "Product Catalogue",
+  "schema:description": "An advanced metadata component that serves as the single, authoritative source of truth for defining and standardizing every eligible product, service, and medical commodity across the entire healthcare ecosystem. This component structures and categorizes item registries—such as pharmaceuticals, medical devices, laboratory supplies, and clinical procedures—assigning unique global identifiers, standardized nomenclatures, unit-of-measure rules, and baseline pricing frameworks.\r\n\r\nIts primary purpose is to eliminate semantic fragmentation and establish absolute consistency across disparate financial, procurement, and clinical systems. By enforcing a unified data language, it ensures that a specific medication or surgical kit is identified identically whether it is being ordered by a rural clinic, tracked within a central warehouse, reimbursed by a health insurance platform, or analyzed by an audit team, thereby preventing procurement errors and streamlining supply chain oversight.\r\n\r\nExample: A country's unified health network implements a centralized product catalogue component linked to its e-procurement system; when a local hospital requests a shipment of \"Amoxicillin 250mg capsules,\" the platform automatically cross-references the item's unique catalogue ID to enforce standard pricing caps and verify the supplier's certification, preventing regional clinics from accidentally buying counterfeit alternatives or paying inflated, non-contracted prices.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

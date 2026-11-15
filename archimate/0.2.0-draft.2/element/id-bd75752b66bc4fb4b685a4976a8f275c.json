@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-bd75752b66bc4fb4b685a4976a8f275c",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-bd75752b66bc4fb4b685a4976a8f275c",
+  "schema:name": "Contribution / tax policy & rate-setting",
+  "schema:description": "This capability involves the systematic design of contribution models and the calculation of premium or tax rates for health coverage. It determines the financial requirements for different population segments based on actuarial and economic data.\r\n\r\nThe intent is to ensure the health fund is sufficiently financed to cover all promised benefits while remaining affordable for citizens. It provides a structured approach to maintaining the long-term fiscal balance of the health insurance system.\r\n\r\nExample: Setting a specific payroll tax percentage for formal employees while defining flat-rate premiums for informal workers.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

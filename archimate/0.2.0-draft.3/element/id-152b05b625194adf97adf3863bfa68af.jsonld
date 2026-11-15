@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-152b05b625194adf97adf3863bfa68af",
+  "@type": "archimate:BusinessFunction",
+  "schema:identifier": "id-152b05b625194adf97adf3863bfa68af",
+  "schema:name": "Patient Data Collection",
+  "schema:description": "This function involves the systematic gathering of demographic and clinical information from citizens and healthcare providers. It ensures that all relevant health data is captured accurately at the point of origin to populate the shared record.\r\n\r\nThe goal is to build a high-quality, comprehensive dataset that serves as the foundation for the personal health record. It ensures the digital profile contains sufficient detail to support clinical decision-making and person-centric care.\r\n\r\nExample: A clinic intake process where patient history and vitals are recorded and linked to a unique digital health ID.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

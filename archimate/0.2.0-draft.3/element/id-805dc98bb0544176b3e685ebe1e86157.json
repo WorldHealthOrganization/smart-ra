@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-805dc98bb0544176b3e685ebe1e86157",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-805dc98bb0544176b3e685ebe1e86157",
+  "schema:name": "Shared Health Record",
+  "schema:description": "This component manages the storage, access, and exchange of clinical documents, diagnostic reports, and structured health data shared among care team members. It conforms to FHIR-based standards to ensure interoperability and consistent data representation.\r\n\r\nThe purpose of this component is to provide a common, standards-based repository of patient information that all authorized care team members can access and contribute to. It supports continuity and completeness of the shared clinical picture.\r\n\r\nExample: Lab results, imaging reports, and care plans uploaded by different providers are consolidated within the shared health record and made accessible to the full care team through the collaboration platform.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

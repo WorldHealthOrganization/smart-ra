@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-5543a0bfb38d4c91b6fa0ac64b24941f",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-5543a0bfb38d4c91b6fa0ac64b24941f",
+  "schema:name": "Auditability & non-repudiation (ability to trace financial events end-to-end)",
+  "schema:description": "An advanced organizational capability that ensures every financial event, budget allocation, and fund disbursement within the health sector can be completely traced throughout its entire lifecycle, with definitive proof of origin and authorship. This capability combines system-wide tracking mechanisms with cryptographic controls, ensuring that every digital action is bound to a verified user identity, preventing any party from later denying their involvement in a transaction or modification.\r\n\r\nIts primary purpose is to establish absolute accountability and transparency in the management of public health funds. By enabling internal investigators, independent oversight bodies, and international donors to follow the precise path of money from national commitment down to frontline hospital expenditures, it completely eliminates tracking blind spots, deters malicious manipulation, and simplifies the reconstruction of complex financial activities during statutory reviews.\r\n\r\nExample: A federal anti-corruption unit investigates an alleged procurement fraud scheme; utilizing the system's end-to-end auditability and non-repudiation capabilities, investigators extract a flawless digital chain of custody showing that a specific $5 million equipment contract was initiated by a purchasing officer, approved by a regional director, and modified by a vendor—with each action sealed by an unforgeable digital signature that prevents any of the involved parties from denying their actions.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

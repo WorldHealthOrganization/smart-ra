@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-fbf5ce0df19a4942bfa13d6898866c8b",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-fbf5ce0df19a4942bfa13d6898866c8b",
+  "schema:name": "Evidence-based Care Guidance",
+  "schema:description": "This capability provides structured clinical recommendations derived from validated research and approved healthcare standards. It supports healthcare providers in making informed decisions for diagnosis, treatment, and patient management.\r\n\r\nThe purpose of this capability is to ensure that clinical decisions align with current best practices and scientific evidence. It also improves patient safety and consistency in healthcare delivery.\r\n\r\nExample: COVID-19 treatment protocols are updated regularly based on the latest recommendations from the World Health Organization.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

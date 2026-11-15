@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-4ae413338ff74ec6ac2c6938d091011f",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4ae413338ff74ec6ac2c6938d091011f",
+  "schema:name": "Application Component (MS)",
+  "schema:description": "The deployed IT system that provides the functionality. \n\n\n\nComponents encapsulate logic and data, and expose their behavior through services. They are modular, replaceable, and reusable. \n\n\n\nFor example, the Client Registry, Interoperability Middleware, or Terminology Serviceer are application components within DPI-H.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-da2412e35e644d36ae6f289c35c7a2de",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-da2412e35e644d36ae6f289c35c7a2de",
+  "schema:name": "High match-rate of payments to rendered services.",
+  "schema:description": "This outcome is achieved when the majority of financial disbursements are accurately and automatically linked to verified clinical events. It uses cross-system validation to prove that every unit of currency paid corresponds to a specific, documented medical intervention.\r\n\r\nIt protects the integrity of health funds by ensuring that payments are not made for phantom services or unauthorized procedures. This high level of precision reduces financial leakage and supports the transition toward value-based purchasing models.\r\n\r\nExample: A reconciliation report showing that 99% of all insurance payments match a corresponding verified encounter in the Shared Health Record.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

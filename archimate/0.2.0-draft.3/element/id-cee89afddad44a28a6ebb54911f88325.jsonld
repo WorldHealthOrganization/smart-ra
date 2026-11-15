@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-cee89afddad44a28a6ebb54911f88325",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-cee89afddad44a28a6ebb54911f88325",
+  "schema:name": "Notification & Alerting Engine ",
+  "schema:description": "This component processes clinical and system events to generate, prioritize, and deliver notifications to the appropriate care team members. It applies routing rules, urgency filters, and delivery preferences to ensure alerts are timely and relevant.\r\n\r\nThe purpose of this component is to provide the event-driven intelligence layer that transforms raw system signals into actionable, targeted notifications. It reduces alert fatigue by ensuring only relevant notifications reach each provider.\r\n\r\nExample: The engine receives a critical lab value from the laboratory system, applies routing rules to identify the responsible physician and nurse, and delivers a prioritized alert to both through their preferred notification channel.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restructure Appendix D as evidenced, dated illustrative cases — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-ycyeffwf4x.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-ycyeffwf4x","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-200/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Restructure Appendix D as evidenced, dated illustrative cases</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-200.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0582/">PC-0582</a></td><td class="s">received</td><td class="t">The examples are very important and illustrate the key messages very well, but they are grouped at the very end of the …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0615/">PC-0615</a></td><td class="s">received</td><td class="t">Country / regional examples: Cannot validate here; current examples are too thin and overstate transferability. Strengt…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0622/">PC-0622</a></td><td class="s">received</td><td class="t">Country / regional examples: Overall, the country and regional examples are valuable, but I do not think all of them ar…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0623/">PC-0623</a></td><td class="s">received</td><td class="t">The examples are valuable and mostly directionally accurate, but some describe national strategies, partial rollouts or…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0625/">PC-0625</a></td><td class="s">received</td><td class="t">The draft does not provide sources establishing that Ethiopia, the Philippines and Uganda have each deployed L3 computa…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2069/">PC-2069</a></td><td class="s">received</td><td class="t">The appendix combines software tools, country implementations, regional infrastructures, and pilot programmes. These re…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2101/">PC-2101</a></td><td class="s">received</td><td class="t">The country entries vary in length, specificity, evidence, scope, and analytical depth. Some describe national architec…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2102/">PC-2102</a></td><td class="s">received</td><td class="t">It is not always clear whether an example represents current production operation, partial rollout, pilot implementatio…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2103/">PC-2103</a></td><td class="s">received</td><td class="t">The examples may be read as country endorsements of the reference architecture even though most systems were designed b…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2110/">PC-2110</a></td><td class="s">received</td><td class="t">References should support each specific factual claim, not merely link to a programme home page or general national str…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2112/">PC-2112</a></td><td class="s">received</td><td class="t">The examples rarely identify standards versions, national profiles, conformance mechanisms, certification, or operation…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2114/">PC-2114</a></td><td class="s">received</td><td class="t">Several country descriptions are too brief to support meaningful comparison, yet the appendix implicitly invites cross-…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2179/">PC-2179</a></td><td class="s">received</td><td class="t">Appendix D is valuable, but it currently functions mainly as an inventory. It does not consistently provide enough evid…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2180/">PC-2180</a></td><td class="s">received</td><td class="t">Cases should distinguish evidence of existence, implementation, adoption, interoperability, benefit, sustainability, an…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2187/">PC-2187</a></td><td class="s">received</td><td class="t">The examples seldom describe architecture mapping, profile conformance, certification, or end-to-end testing.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2188/">PC-2188</a></td><td class="s">received</td><td class="t">Readers may interpret concise positive descriptions as WHO or ITU validation of the technologies or national programmes.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2189/">PC-2189</a></td><td class="s">received</td><td class="t">Rapidly evolving programmes and software make the appendix vulnerable to becoming outdated shortly after publication.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2190/">PC-2190</a></td><td class="s">received</td><td class="t">The examples do not consistently identify their authorship or whether the country authorities reviewed the descriptions.</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-200</dd>
+<dt>title</dt><dd>Restructure Appendix D as evidenced, dated illustrative cases</dd>
+<dt>requirements</dt><dd>- Use one case template for every example
+- Consider placing one or two case studies within each chapter rather than only at the end
+- For Ethiopia, the Philippines and Uganda, give domain, stage, scale, date and source, or qualify the claims
+- State implementation status and an &#39;information current as of&#39; date
+- Grade each claim on a common evidence scale and cite specific primary sources
+- Separate tools, national examples, regional infrastructures and pilots
+- State that inclusion is illustrative, not endorsement or compliance; invite authority verification
+- Consider a maintained online catalogue for detail</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0582&quot;,
+  &quot;PC-0615&quot;,
+  &quot;PC-0622&quot;,
+  &quot;PC-0623&quot;,
+  &quot;PC-0625&quot;,
+  &quot;PC-2069&quot;,
+  &quot;PC-2101&quot;,
+  &quot;PC-2102&quot;,
+  &quot;PC-2103&quot;,
+  &quot;PC-2110&quot;,
+  &quot;PC-2112&quot;,
+  &quot;PC-2114&quot;,
+  &quot;PC-2179&quot;,
+  &quot;PC-2180&quot;,
+  &quot;PC-2187&quot;,
+  &quot;PC-2188&quot;,
+  &quot;PC-2189&quot;,
+  &quot;PC-2190&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 18 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0aeb8ff270284909a23d83676db70ada",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-0aeb8ff270284909a23d83676db70ada",
+  "schema:name": "Shared Health Record",
+  "schema:description": "A Shared Health Record is a national or federated platform that aggregates clinical data from various providers into a single longitudinal view. It functions as a central repository or a decentralized network linked via health information exchange standards.\r\n\r\nThe purpose is to provide a complete medical history at the point of care to reduce clinical errors and administrative fragmentation. It ensures that health data follows the patient across different facilities and jurisdictions.\r\n\r\nExample: A centralized national database where a patient’s lab results from a private clinic and prescriptions from a public hospital are stored together.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

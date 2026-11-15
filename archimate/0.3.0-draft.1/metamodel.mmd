@@ -1,0 +1,155 @@
+classDiagram
+  %% WHO_RA: metamodel in use, derived by archimate-metamodel. Do not edit.
+  class ApplicationComponent["Application Component"]
+  <<Application>> ApplicationComponent
+  class Capability["Capability"]
+  <<Strategy>> Capability
+  class Grouping["Grouping"]
+  <<Other>> Grouping
+  class Goal["Goal"]
+  <<Motivation>> Goal
+  class ApplicationService["Application Service"]
+  <<Application>> ApplicationService
+  class BusinessRole["Business Role"]
+  <<Business>> BusinessRole
+  class DataObject["Data Object"]
+  <<Application>> DataObject
+  class Principle["Principle"]
+  <<Motivation>> Principle
+  class BusinessFunction["Business Function"]
+  <<Business>> BusinessFunction
+  class BusinessObject["Business Object"]
+  <<Business>> BusinessObject
+  class Stakeholder["Stakeholder"]
+  <<Motivation>> Stakeholder
+  class Value["Value"]
+  <<Motivation>> Value
+  class ApplicationFunction["Application Function"]
+  <<Application>> ApplicationFunction
+  class BusinessProcess["Business Process"]
+  <<Business>> BusinessProcess
+  class Artifact["Artifact"]
+  <<Technology>> Artifact
+  class Outcome["Outcome"]
+  <<Motivation>> Outcome
+  class BusinessService["Business Service"]
+  <<Business>> BusinessService
+  class ApplicationProcess["Application Process"]
+  <<Application>> ApplicationProcess
+  class Node["Node"]
+  <<Technology>> Node
+  class ApplicationInteraction["Application Interaction"]
+  <<Application>> ApplicationInteraction
+  class Product["Product"]
+  <<Business>> Product
+  class ValueStream["Value Stream"]
+  <<Strategy>> ValueStream
+  class ApplicationInterface["Application Interface"]
+  <<Application>> ApplicationInterface
+  class BusinessCollaboration["Business Collaboration"]
+  <<Business>> BusinessCollaboration
+  Grouping o-- ApplicationComponent : aggregates ×66
+  Grouping o-- Capability : aggregates ×27
+  Capability ..> Goal : influences ×21
+  Grouping o-- BusinessRole : aggregates ×21
+  ApplicationComponent ..|> ApplicationService : realises ×20
+  ApplicationComponent ..> ApplicationComponent : flows to ×18
+  Grouping o-- Principle : aggregates ×17
+  ApplicationComponent ..|> Capability : realises ×16
+  ApplicationService ..|> Capability : realises ×16
+  Capability ..|> Outcome : realises ×14
+  Grouping o-- Grouping : aggregates ×14
+  Capability ..|> Grouping : realises ×13
+  Goal o-- Goal : aggregates ×13
+  ApplicationComponent ..> DataObject : accesses ×11
+  Capability --> Capability : serves ×11
+  Grouping o-- Stakeholder : aggregates ×11
+  ApplicationComponent --> ApplicationComponent : serves ×10
+  Stakeholder -- Value : associated with ×10
+  ApplicationComponent ..> Grouping : accesses ×9
+  BusinessFunction *-- BusinessProcess : composed of ×9
+  Goal *-- Goal : composed of ×8
+  Product ..|> Capability : realises ×8
+  ApplicationService --> Product : serves ×7
+  Grouping o-- Goal : aggregates ×7
+  BusinessFunction ..|> Capability : realises ×6
+  BusinessFunction --> ApplicationService : serves ×6
+  Grouping o-- ApplicationFunction : aggregates ×6
+  Value -- Stakeholder : associated with ×6
+  ApplicationComponent ..|> ApplicationComponent : realises ×5
+  ApplicationFunction ..|> ApplicationService : realises ×5
+  ApplicationProcess ..|> Capability : realises ×5
+  Grouping o-- DataObject : aggregates ×5
+  Grouping o-- Node : aggregates ×5
+  Grouping *-- Goal : composed of ×5
+  Value ..> Outcome : influences ×5
+  ApplicationComponent --> ApplicationFunction : assigned to ×4
+  ApplicationComponent --> ApplicationInteraction : assigned to ×4
+  Artifact ..|> DataObject : realises ×4
+  BusinessObject -- BusinessObject : associated with ×4
+  BusinessObject *-- BusinessObject : composed of ×4
+  BusinessRole -- BusinessObject : associated with ×4
+  DataObject ..|> BusinessObject : realises ×4
+  Outcome -- Outcome : associated with ×4
+  ApplicationComponent --> ApplicationService : serves ×3
+  ApplicationService --> BusinessRole : serves ×3
+  BusinessObject -- Capability : associated with ×3
+  BusinessRole --|> BusinessRole : specialises ×3
+  Capability -- BusinessObject : associated with ×3
+  DataObject -- ApplicationComponent : associated with ×3
+  Grouping o-- ApplicationService : aggregates ×3
+  Grouping o-- Artifact : aggregates ×3
+  ApplicationComponent --> Capability : ✗ serves ×2
+  ApplicationService ..> DataObject : accesses ×2
+  ApplicationService o-- ApplicationService : aggregates ×2
+  ApplicationService --> ApplicationComponent : serves ×2
+  ApplicationService --|> ApplicationService : specialises ×2
+  Artifact ..|> Artifact : realises ×2
+  Artifact --|> Artifact : specialises ×2
+  BusinessObject --|> BusinessObject : specialises ×2
+  BusinessRole -- ApplicationProcess : associated with ×2
+  BusinessRole -- Capability : associated with ×2
+  DataObject --|> DataObject : specialises ×2
+  Outcome ..|> Goal : realises ×2
+  ApplicationComponent ..> BusinessObject : accesses ×1
+  ApplicationComponent -- ApplicationComponent : associated with ×1
+  ApplicationComponent -- ApplicationService : associated with ×1
+  ApplicationComponent -- Artifact : associated with ×1
+  ApplicationComponent -- BusinessObject : associated with ×1
+  ApplicationComponent -- DataObject : associated with ×1
+  ApplicationComponent *-- ApplicationComponent : composed of ×1
+  ApplicationComponent *-- ApplicationInterface : composed of ×1
+  ApplicationComponent ..|> ApplicationFunction : realises ×1
+  ApplicationComponent --> BusinessRole : serves ×1
+  ApplicationInterface --> BusinessRole : serves ×1
+  ApplicationProcess ..> DataObject : accesses ×1
+  ApplicationProcess o-- ApplicationProcess : aggregates ×1
+  ApplicationProcess *-- ApplicationProcess : composed of ×1
+  Artifact -- DataObject : associated with ×1
+  BusinessCollaboration -- BusinessObject : associated with ×1
+  BusinessFunction --> ApplicationFunction : serves ×1
+  BusinessObject -- BusinessRole : associated with ×1
+  BusinessObject -- Product : associated with ×1
+  BusinessProcess --> ApplicationInteraction : triggers ×1
+  BusinessRole --> BusinessProcess : assigned to ×1
+  BusinessRole -- ApplicationComponent : associated with ×1
+  Capability -- ApplicationComponent : associated with ×1
+  Capability -- BusinessRole : associated with ×1
+  Capability -- Capability : associated with ×1
+  Capability -- DataObject : associated with ×1
+  Capability -- Product : associated with ×1
+  Capability ..> Capability : flows to ×1
+  DataObject o-- DataObject : aggregates ×1
+  Grouping o-- BusinessCollaboration : aggregates ×1
+  Grouping o-- Outcome : aggregates ×1
+  Grouping ..|> Grouping : realises ×1
+  Outcome o-- Grouping : aggregates ×1
+  Outcome -- Capability : associated with ×1
+  Outcome *-- Outcome : composed of ×1
+  Outcome ..> Outcome : influences ×1
+  Product o-- Artifact : aggregates ×1
+  Product o-- BusinessObject : aggregates ×1
+  Product o-- DataObject : aggregates ×1
+  Product -- BusinessRole : associated with ×1
+  Product ..> ApplicationComponent : flows to ×1
+  ValueStream --> ValueStream : triggers ×1

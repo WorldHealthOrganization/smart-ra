@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-3f8d0409de9c4f5091ca7c0e4bf17832",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-3f8d0409de9c4f5091ca7c0e4bf17832",
+  "schema:name": "Consent and Data Governance Service",
+  "schema:description": "A Consent and Data Governance Service is a secure regulatory framework within health infrastructure that manages patient privacy preferences, data access permissions, and legal compliance policies.\r\n\r\nIts primary purpose is to protect patient autonomy and data integrity by ensuring that health information is only accessed, shared, or analyzed in strict accordance with individual consent and data protection laws.\r\n\r\nExample: If a patient opts out of sharing their medical records for research, the service automatically blocks academic institutions from pulling their lab data while still allowing treating emergency room physicians to view it.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

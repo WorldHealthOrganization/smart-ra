@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-executive-summary-lead-53b9aa",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:executive-summary-lead-53b9aa",
+  "kind": "prose",
+  "text": "p-executive-summary-lead-53b9aa.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 12,
+      "page": 11,
+      "lineStart": 20,
+      "lineEnd": 24,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

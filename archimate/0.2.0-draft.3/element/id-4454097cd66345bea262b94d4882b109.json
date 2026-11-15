@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4454097cd66345bea262b94d4882b109",
+  "@type": "archimate:BusinessFunction",
+  "schema:identifier": "id-4454097cd66345bea262b94d4882b109",
+  "schema:name": "Data Protection & Encryption Governance",
+  "schema:description": "This function provides the high-level oversight and policy management for technical safeguards like encryption standards and cryptographic key management. It sets the mandatory security requirements that all participating systems in the TPHR network must follow.\r\n\r\nThe goal is to ensure the absolute confidentiality and integrity of health data across the entire ecosystem. It provides the governance framework necessary to protect the system against sophisticated cyber threats and unauthorized data tampering.\r\n\r\nExample: A security committee mandating that all health data at rest must be encrypted using a specific national AES standard.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

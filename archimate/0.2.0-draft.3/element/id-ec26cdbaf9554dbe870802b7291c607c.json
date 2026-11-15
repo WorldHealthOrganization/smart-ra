@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ec26cdbaf9554dbe870802b7291c607c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ec26cdbaf9554dbe870802b7291c607c",
+  "schema:name": "Data Reporting & Visualization Service",
+  "schema:description": "The specific application service that extracts raw data from various systems and transforms it into visual charts, graphs, and dashboards. It provides a standardized interface for users to generate reports and interact with operational metrics in real time.\r\n\r\nIt allows non-technical administrators and managers to quickly interpret complex payroll and workforce trends without querying databases manually. This visual access speeds up decision-making and makes it easier to share performance insights across different hospital departments.\r\n\r\nExample: \"The business intelligence reporting service that automatically generates monthly labor cost charts and displays overtime spikes on the HR management dashboard.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

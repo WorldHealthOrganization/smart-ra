@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State that components are logical capabilities, not products — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-25ztz99btni.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-25ztz99btni","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-270/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">State that components are logical capabilities, not products</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-270.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0377/">PC-0377</a></td><td class="s">received</td><td class="t">The component criteria can be interpreted as a one-component/one-product procurement blueprint. This misrepresents plat…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0776/">PC-0776</a></td><td class="s">received</td><td class="t">The introduction appropriately describes the architecture as adaptive and non-prescriptive. However, “engage with at th…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0781/">PC-0781</a></td><td class="s">received</td><td class="t">The statement that a component should not be interpreted as a prescription to procure a specific system is important, b…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0930/">PC-0930</a></td><td class="s">received</td><td class="t">The section introduces DPI-H application components as digital resources established once and reused by many programmes…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0990/">PC-0990</a></td><td class="s">received</td><td class="t">The component catalogue may be interpreted as a universal target architecture even where countries already provide func…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1107/">PC-1107</a></td><td class="s">received</td><td class="t">A single national system may realise several reference components. The document does not require logical separation, in…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1452/">PC-1452</a></td><td class="s">received</td><td class="t">Appendix C does not begin with a clear statement that these are logical architecture components rather than one-to-one …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1453/">PC-1453</a></td><td class="s">received</td><td class="t">The Client Registry is called the “single authoritative source” of health-specific identity. In federated arrangements,…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1455/">PC-1455</a></td><td class="s">received</td><td class="t">The component combines identity records, health-identifier assignment, identifier cross-referencing, matching, and dedu…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1553/">PC-1553</a></td><td class="s">received</td><td class="t">Maintaining one centrally governed record for every public, private, faith-based, and NGO facility may not be instituti…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1641/">PC-1641</a></td><td class="s">received</td><td class="t">The component is described as maintaining one standardised record for every worker. In federal or profession-regulated …</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-270</dd>
+<dt>title</dt><dd>State that components are logical capabilities, not products</dd>
+<dt>requirements</dt><dd>- Add a note that one platform may realise several components and one component may span systems
+- Say prominently that a component is a logical capability, not a procurement or deployment unit
+- Note that components may be procured together while preserving logical boundaries and interfaces
+- Where one system realises several reference components, require separable services, data ownership and conformance scope
+- Allow centralised, federated or hybrid authoritative arrangements with assigned stewardship and reconciliation
+- Replace &#39;established once&#39; with wording compatible with federated realisation
+- State the permissible forms of national adaptation (adopt, combine, federate, defer) and emphasise capability coverage over name conformity</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0377&quot;,
+  &quot;PC-0776&quot;,
+  &quot;PC-0781&quot;,
+  &quot;PC-0930&quot;,
+  &quot;PC-0990&quot;,
+  &quot;PC-1107&quot;,
+  &quot;PC-1452&quot;,
+  &quot;PC-1453&quot;,
+  &quot;PC-1455&quot;,
+  &quot;PC-1553&quot;,
+  &quot;PC-1641&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 11 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

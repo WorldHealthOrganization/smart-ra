@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d00b94489c8343bbbf455e45fd8e2d95",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-d00b94489c8343bbbf455e45fd8e2d95",
+  "schema:name": "Ensure trust, security, and privacy in all transactions",
+  "schema:description": "This subgoal involves implementing robust cybersecurity measures, privacy safeguards, and cryptographic trust services across all digital health interactions. It ensures that every exchange of sensitive medical information is protected against unauthorized access and tampering.\r\n\r\nThe intent is to mitigate cybersecurity risks and ensure regulatory compliance with international privacy standards. It fosters a secure environment that gives stakeholders the confidence to participate in the digital health ecosystem.\r\n\r\nDeploying a national Public Key Infrastructure (PKI) to digitally sign and encrypt every health record exchange.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

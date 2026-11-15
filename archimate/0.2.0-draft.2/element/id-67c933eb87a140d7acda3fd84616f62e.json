@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-67c933eb87a140d7acda3fd84616f62e",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-67c933eb87a140d7acda3fd84616f62e",
+  "schema:name": "Interoperability Management",
+  "schema:description": "The core operational capability to design, enforce, and maintain secure data exchanges and seamless communication between disparate digital systems across an enterprise or national infrastructure. This capability relies on the strict adoption of global data standards (such as FHIR for health data or ISO standards for finance) and structured API architectures to ensure that different software platforms can read, interpret, and act upon shared information without human intervention.\r\n\r\nPossessing this capability eliminates the fragmentation of data silos, manual double-entry of records, and the high maintenance costs of building custom, brittle point-to-point connections. For leadership, it provides a highly flexible and scalable digital ecosystem where new software modules, regional databases, and third-party tools can be integrated quickly and cost-effectively, maintaining an uncompromised flow of truth across the entire network.\r\n\r\nExample: \"The Interoperability Management capability that allows a regional clinic's open-source record system to instantly pull and understand a doctor's credential status from the National Health Workforce Registry via standard RESTful APIs.\"",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

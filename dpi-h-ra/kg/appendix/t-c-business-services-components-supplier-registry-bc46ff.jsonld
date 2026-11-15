@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-c-business-services-components-supplier-registry-bc46ff",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:c-business-services-components-supplier-registry-bc46ff",
+  "kind": "table",
+  "text": "t-c-business-services-components-supplier-registry-bc46ff.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 904,
+      "page": 184,
+      "printedPage": "173",
+      "lineStart": 72,
+      "method": "numbered-start"
+    }
+  },
+  "provenance": "authored"
+}

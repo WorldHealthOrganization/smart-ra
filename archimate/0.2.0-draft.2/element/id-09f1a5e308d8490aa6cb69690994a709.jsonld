@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-09f1a5e308d8490aa6cb69690994a709",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-09f1a5e308d8490aa6cb69690994a709",
+  "schema:name": "Master data and code system management",
+  "schema:description": "An essential application service layer achieved by establishing, updating, and enforcing a single, standardized repository of core financial, clinical, and administrative identifiers across the entire health network. This structural governance service centralizes the maintenance of master records—such as facility registries, health workforce IDs, and disease classifications—ensuring that all interconnected applications pull from a single source of truth.\r\n\r\nIts primary purpose is to eliminate data fragmentation and guarantee semantic interoperability across disparate health information systems. By preventing conflicting entries and maintaining rigid version control over standardized codes, it ensures that data shared between departments remains completely accurate, auditable, and mathematically coherent during cross-system reporting.\r\n\r\nExample: A ministry of health’s master data service updates a country's official facility registry with a newly constructed regional hospital, instantly propagating this new unique ID to the procurement, payroll, and epidemiological systems so that medical supplies, doctor salaries, and disease outbreaks are all tracked under the exact same identifier nationwide.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

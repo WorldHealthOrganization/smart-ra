@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-081ba2c346bc4ac0b34e12617116ca0a",
+  "@type": "archimate:BusinessFunction",
+  "schema:identifier": "id-081ba2c346bc4ac0b34e12617116ca0a",
+  "schema:name": "Records Retention Management",
+  "schema:description": "This function establishes the organizational policies and workflows for how long health records are kept in active, archival, and final storage. It defines the specific triggers for moving or destroying data based on its age or clinical relevance.\r\n\r\nThe intent is to comply with legal record-keeping mandates while minimizing the security risks associated with storing unnecessary legacy data. It ensures that the system manages data volumes efficiently and adheres to national data protection principles.\r\n\r\nExample: A policy engine that automatically moves a patient's record to long-term cold storage ten years after their last clinical interaction.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

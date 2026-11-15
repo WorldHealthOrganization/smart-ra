@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d30d654c82744cb189faf5e6b14f040b",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d30d654c82744cb189faf5e6b14f040b",
+  "schema:name": "Interoperability Middleware (FHIR server, IHE adapters)",
+  "schema:description": "Interoperability Middleware is the software layer that enables different health IT systems to exchange data using standardized protocols. it typically includes FHIR servers and adapters that translate proprietary data into common interoperability formats.\r\n\r\nThe purpose is to eliminate data silos and enable seamless information flow across providers, facilities, and jurisdictions. It allows diverse systems to communicate effectively, ensuring that the health record is truly portable.\r\n\r\nExample: A middleware hub that translates a local clinic’s legacy patient data into a modern FHIR resource for the national health exchange.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

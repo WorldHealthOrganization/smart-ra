@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-b01d1fd318e343b4a85c5c5f73b81fbb",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-b01d1fd318e343b4a85c5c5f73b81fbb",
+  "schema:name": "Identity Management Service",
+  "schema:description": "The self-contained software component within the enterprise application layer that manages the lifecycle of digital identities, including provisioning user accounts, assigning roles, and orchestrating authentication and authorization protocols across the network. This service acts as the gatekeeper for the digital ecosystem, handling secure credential storage, single sign-on (SSO) workflows, and the issuance of cryptographic tokens for secure system access.\r\n\r\nIt eliminates the security risk of unauthorized access, weak password practices, and fragmented user accounts spread across multiple isolated software systems. For IT administrators and security teams, it provides a centralized dashboard to instantly grant, revoke, or audit user access rights across the entire health network, ensuring strict compliance with security policies.\r\n\r\nExample: \"The Identity Management Service component that allowed a newly hired clinician to log into five separate hospital applications using a single set of secure national credentials.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

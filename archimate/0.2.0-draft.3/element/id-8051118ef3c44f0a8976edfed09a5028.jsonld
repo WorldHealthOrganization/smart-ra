@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-8051118ef3c44f0a8976edfed09a5028",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-8051118ef3c44f0a8976edfed09a5028",
+  "schema:name": "Interoperability and Integration Service",
+  "schema:description": "This application service enables secure and standardized data exchange between healthcare applications, registries, devices, and external systems. It facilitates communication and coordination across heterogeneous digital health platforms using interoperability standards and APIs.\r\n\r\nThe purpose of this application service is to support seamless information sharing and continuity of care across healthcare organizations and systems. It also reduces data silos and improves interoperability between clinical and administrative platforms.\r\n\r\nExample: A laboratory information system automatically transmits diagnostic results to the hospital electronic medical record and clinical decision support systems.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

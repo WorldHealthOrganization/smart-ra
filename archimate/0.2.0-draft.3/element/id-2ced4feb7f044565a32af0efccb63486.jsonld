@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-2ced4feb7f044565a32af0efccb63486",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-2ced4feb7f044565a32af0efccb63486",
+  "schema:name": "Payment adapter",
+  "schema:description": "The payment adapter is a technical connector that bridges the gap between health information systems and banking or mobile money platforms. It handles the translation of internal payment requests into the specific formats required by external financial institutions.\r\n\r\nIts purpose is to facilitate the secure and automated transfer of funds from health schemes to providers or beneficiaries. It eliminates manual banking entries and speeds up the reimbursement cycle by enabling direct electronic settlements.\r\n\r\nExample: A middleware component that converts a hospital’s approved payment file into an ISO 20022 message for a central bank transfer.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

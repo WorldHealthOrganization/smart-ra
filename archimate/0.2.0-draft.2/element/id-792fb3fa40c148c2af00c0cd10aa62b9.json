@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-792fb3fa40c148c2af00c0cd10aa62b9",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-792fb3fa40c148c2af00c0cd10aa62b9",
+  "schema:name": "Health Worker Registry",
+  "schema:description": "The Health Worker Registry metadata component stores information about health professionals, including their licensing status, qualifications, and roles. It maintains the identifiers used to link specific clinical entries to the provider who created them.\r\n\r\nThe purpose is to verify the credentials of health workers requesting access to patient data or submitting records. it ensures accountability by providing verified professional identities for all accountable record updates.\r\n\r\nExample: A metadata entry for a physician that includes their medical license number and their specialty certification in pediatrics.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

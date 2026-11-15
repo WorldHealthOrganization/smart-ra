@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-1-1-3-a447f2",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:1-1-3-a447f2",
+  "kind": "prose",
+  "cites": [
+    "references/fetter-2025-state-of-dpi",
+    "references/exemplars-cowin-india",
+    "references/metsallik-2018-estonia-ehealth"
+  ],
+  "text": "p-1-1-3-a447f2.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 51,
+      "page": 22,
+      "printedPage": "11",
+      "lineStart": 102,
+      "lineEnd": 120,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

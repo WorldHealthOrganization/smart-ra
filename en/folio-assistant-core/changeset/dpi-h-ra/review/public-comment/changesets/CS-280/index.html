@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support or qualify outcome and benefit claims — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-2bqajjezj59.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-2bqajjezj59","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-280/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Support or qualify outcome and benefit claims</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-280.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0333/">PC-0333</a></td><td class="s">received</td><td class="t">The outcomes these goals describe are not automatic. The extent to which they are realised depends on the quality of im…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0877/">PC-0877</a></td><td class="s">received</td><td class="t">The statement that countries beginning with authoritative registries and agreed decision rights “tend to progress,” whi…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0891/">PC-0891</a></td><td class="s">received</td><td class="t">The statement that inadequate funding, inequity, and overuse are the ways shared public infrastructure “most characteri…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0908/">PC-0908</a></td><td class="s">received</td><td class="t">The distinction between SGI and runtime services is valuable. However, the document presents cross-registry semantic go…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1130/">PC-1130</a></td><td class="s">received</td><td class="t">The statement that countries skipping assessment “tend to build on unstable foundations” is plausible but broad.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1167/">PC-1167</a></td><td class="s">received</td><td class="t">The statement that Phase 1 investment is modest and returns are disproportionately large may not hold where national as…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1197/">PC-1197</a></td><td class="s">received</td><td class="t">The assertion that implementation fails mainly for lack of architectural accountability rather than technology may be d…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1461/">PC-1461</a></td><td class="s">received</td><td class="t">The section links identity uncertainty to clinical risk, inflated public-health indicators, and unreliable programme me…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1464/">PC-1464</a></td><td class="s">received</td><td class="t">The section says every connected system gains the ability to produce a longitudinal view when a Client Registry is avai…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1560/">PC-1560</a></td><td class="s">received</td><td class="t">The examples of divergent facility identifiers and outdated operational status are credible, but several sentences are …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1562/">PC-1562</a></td><td class="s">received</td><td class="t">The section cites COVID-19 as demonstrating geolocated-facility-data gaps. The claim is relevant, but the source should…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1631/">PC-1631</a></td><td class="s">received</td><td class="t">The claim that faith-based or private facilities provide more than 30% of services in some countries needs a precise so…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1646/">PC-1646</a></td><td class="s">received</td><td class="t">The discussion identifies fragmented council, employer, facility, and paper records as a common problem. The claims are…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1647/">PC-1647</a></td><td class="s">received</td><td class="t">The paragraph contains long sentences combining patient assurance, fraud prevention, workforce planning, and pandemic d…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1649/">PC-1649</a></td><td class="s">received</td><td class="t">The component is suggested as a means of detecting payroll and claims fraud. Identity and credential verification can s…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1650/">PC-1650</a></td><td class="s">received</td><td class="t">The WHO statement about workforce shortages causing essential-service disruptions should cite the exact NHWA or emergen…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1651/">PC-1651</a></td><td class="s">received</td><td class="t">The registry is said to provide the enabling conditions for a safe and accountable workforce at scale. It is one enabli…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1747/">PC-1747</a></td><td class="s">received</td><td class="t">The description of fragmented local product lists and inconsistent codes is credible, but the causal claims about forec…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1748/">PC-1748</a></td><td class="s">received</td><td class="t">The text says all supply-chain systems draw from the same product master once the registry exists. Adoption, synchronis…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1833/">PC-1833</a></td><td class="s">received</td><td class="t">The section associates longitudinal records with better continuity, reduced duplication, safer care, and stronger patie…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1835/">PC-1835</a></td><td class="s">received</td><td class="t">Reducing repeated diagnostic tests is presented as an expected benefit. Clinicians may still repeat tests because infor…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1836/">PC-1836</a></td><td class="s">received</td><td class="t">The component may be described as enabling a “complete” patient history. No national longitudinal record is likely to b…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1952/">PC-1952</a></td><td class="s">received</td><td class="t">Expected improvements in quality and adherence should not be assumed without evidence of usability, workflow fit, alert…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1992/">PC-1992</a></td><td class="s">received</td><td class="t">Improved transparency and reduced claims disputes are plausible but depend on comprehensible rules, operational alignme…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2013/">PC-2013</a></td><td class="s">received</td><td class="t">Claims that shared HMIS reduces reporting burden depend on indicator harmonisation, workflow redesign, data reuse, and …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2033/">PC-2033</a></td><td class="s">received</td><td class="t">Faster detection and response are plausible benefits but depend on reporting coverage, laboratory capacity, workforce, …</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-280</dd>
+<dt>title</dt><dd>Support or qualify outcome and benefit claims</dd>
+<dt>requirements</dt><dd>- Cite evidence or label claims as recognised risks or expected benefits
+- Qualify claimed benefits (adherence, transparency, reduced burden, faster detection) and name the non-digital conditions they depend on
+- Qualify or evidence generalisations presented as findings (entry-point trajectories, characteristic failure modes, Phase 1 returns, causes of implementation failure)
+- State that outcomes are not automatic and depend on quality and extent of implementation and context
+- Cite the source or use general wording
+- Replace absolute claims (complete history, all systems draw from one master) with measured wording
+- Where claims are retained, require measurement or evaluation in context
+- Present SGI&#39;s contribution as integration of existing practice, not a new discipline</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0333&quot;,
+  &quot;PC-0877&quot;,
+  &quot;PC-0891&quot;,
+  &quot;PC-0908&quot;,
+  &quot;PC-1130&quot;,
+  &quot;PC-1167&quot;,
+  &quot;PC-1197&quot;,
+  &quot;PC-1461&quot;,
+  &quot;PC-1464&quot;,
+  &quot;PC-1560&quot;,
+  &quot;PC-1562&quot;,
+  &quot;PC-1631&quot;,
+  &quot;PC-1646&quot;,
+  &quot;PC-1647&quot;,
+  &quot;PC-1649&quot;,
+  &quot;PC-1650&quot;,
+  &quot;PC-1651&quot;,
+  &quot;PC-1747&quot;,
+  &quot;PC-1748&quot;,
+  &quot;PC-1833&quot;,
+  &quot;PC-1835&quot;,
+  &quot;PC-1836&quot;,
+  &quot;PC-1952&quot;,
+  &quot;PC-1992&quot;,
+  &quot;PC-2013&quot;,
+  &quot;PC-2033&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 26 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

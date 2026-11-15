@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e23a136ac7904c02a15f46010f655099",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-e23a136ac7904c02a15f46010f655099",
+  "schema:name": "Terminology Service",
+  "schema:description": "The dedicated software component within the hospital's architecture that stores, manages, and translates standardized health and administrative vocabularies. It acts as a central repository that maps different codes, terms, and definitions across various internal and external systems to ensure everyone is speaking the same digital language.\r\n\r\nIt eliminates data confusion and errors caused by different departments using inconsistent naming conventions for jobs, shifts, or medical roles. This precise translation ensures that personnel roles are classified correctly, which directly leads to accurate shift-differential calculations and compliant payroll processing.\r\n\r\nExample: \"The Enterprise Terminology Service module that automatically maps internal nursing department codes to standardized national health workforce registry definitions to ensure accurate role-based pay.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

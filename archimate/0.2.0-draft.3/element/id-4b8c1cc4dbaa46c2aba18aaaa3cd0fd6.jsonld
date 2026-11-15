@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4b8c1cc4dbaa46c2aba18aaaa3cd0fd6",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4b8c1cc4dbaa46c2aba18aaaa3cd0fd6",
+  "schema:name": "Open data portal",
+  "schema:description": "An advanced application component that provides the underlying technical architecture, API gateways, and storage layers necessary to host and distribute public-facing health data. This component acts as the secure bridge between internal financial and clinical databases and the external internet, taking raw data, automatically scrubbing restricted information, and converting it into standardized, machine-readable formats (such as JSON, CSV, and XML) that can be easily downloaded or integrated into external applications.\r\n\r\nIts primary purpose is to operationalize the public distribution of health data at scale while ensuring system security and performance. By decoupling public access from core operational databases, it allows journalists, researchers, and civil society organizations to perform intensive data queries, build independent applications, and conduct deep-dive analyses without putting any processing strain on the network’s primary healthcare and financial software.\r\n\r\nExample: A national health network deploys a centralized open data portal to share long-term pharmaceutical procurement trends; independent data scientists tap into the portal’s open APIs to download five years of anonymous purchase data, building a third-party app that visualizes how the network has successfully negotiated lower costs for essential vaccines over time.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

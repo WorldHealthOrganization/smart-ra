@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-abb133e470654aa384d6b646525d7681",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-abb133e470654aa384d6b646525d7681",
+  "schema:name": "Enable patient control and consent-based sharing of health information",
+  "schema:description": "This sub-goal focuses on empowering patients to manage who can access their health data through explicit consent mechanisms. It moves the health system toward a model where the individual is the primary governor of their sensitive information.\r\n\r\nThe purpose is to ensure ethical data use and comply with legal requirements for informed consent. It builds trust by providing patients with agency and digital empowerment over their personal health journey.\r\n\r\nExample: Implementing an opt-in dashboard where citizens can grant or revoke doctor access to their lab results.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

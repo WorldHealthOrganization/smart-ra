@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a566420e84f2429c922aee8dcc1fd021",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a566420e84f2429c922aee8dcc1fd021",
+  "schema:name": "PKI/Trust Infrastructure",
+  "schema:description": "PKI or Trust Infrastructure is a system of digital certificates and cryptographic keys used to secure health transactions. It provides the technical framework for applying digital signatures to clinical documents and verifying their origin.\r\n\r\nThe purpose is to establish trust in the authenticity and integrity of digital health records. It ensures that medical data has not been tampered with and is issued by a verified, authorized source.\r\n\r\nExample: A trust service that allows a doctor to \"digitally stamp\" an electronic prescription so a pharmacist can verify its legitimacy.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

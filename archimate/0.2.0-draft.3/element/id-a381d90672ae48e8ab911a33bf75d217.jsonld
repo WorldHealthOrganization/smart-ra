@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a381d90672ae48e8ab911a33bf75d217",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a381d90672ae48e8ab911a33bf75d217",
+  "schema:name": "Facility Registry",
+  "schema:description": "The Facility Registry is an application component that maintains a master list of all healthcare delivery sites, including their locations and service offerings. It acts as the \"source of truth\" for the identification of hospitals, labs, and pharmacies.\r\n\r\nThe purpose is to support data provenance and facility authentication within the health information exchange. It ensures that every piece of medical data can be traced back to a verified and authorized healthcare facility.\r\n\r\nExample: A digital directory that confirms a specific diagnostic laboratory is an accredited facility before allowing it to upload test results to a patient’s PHR.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

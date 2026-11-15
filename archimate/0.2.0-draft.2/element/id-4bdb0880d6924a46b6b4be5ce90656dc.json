@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4bdb0880d6924a46b6b4be5ce90656dc",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4bdb0880d6924a46b6b4be5ce90656dc",
+  "schema:name": "IAM service",
+  "schema:description": "The Identity and Access Management (IAM) service manages the digital identities and permissions of every user and system in the health network. It controls \"who has access to what\" based on verified roles and legal authorizations.\r\n\r\nIts purpose is to ensure the security and privacy of health funds by enforcing strict access control policies. It provides the governance framework necessary to manage the identities of thousands of users across a distributed national system.\r\n\r\nExample: A service that grants a \"Claims Reviewer\" access to see clinical summaries but blocks them from seeing the hospital’s bank account details.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

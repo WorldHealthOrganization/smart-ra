@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0877b694f2b14ed6bd3797ae9d7abe36",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-0877b694f2b14ed6bd3797ae9d7abe36",
+  "schema:name": "IAM/Access Control System",
+  "schema:description": "The IAM/Access Control System handles the authentication and authorization of all users and systems in the health network. It utilizes identity federation and token-based mechanisms to grant appropriate access rights based on specific user roles and permissions.\r\n\r\nIts purpose is to ensure that only authorized personnel can access sensitive patient information according to established security and privacy policies. It protects the system from unauthorized entry while providing a seamless login experience for legitimate users.\r\n\r\nExample: A system that uses multi-factor authentication to verify a physician's identity before allowing them to access or edit a clinical care plan.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

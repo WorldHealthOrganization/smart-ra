@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-64d4ce834c4d4e14a1c1e4ba95294ff2",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-64d4ce834c4d4e14a1c1e4ba95294ff2",
+  "schema:name": "Health Record Management",
+  "schema:description": "This capability involves the lifecycle management of longitudinal patient records, ensuring they are verifiable, accurate, and accessible over time. It encompasses the capture, storage, and retrieval of clinical data in a standardized format.\r\n\r\nThe purpose is to maintain a continuous and trustworthy medical history for every individual throughout their life. It provides the foundational data layer required for integrated care and patient empowerment.\r\n\r\nExample: A system capability to link a patient’s childhood immunization record with their current health status 20 years later.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

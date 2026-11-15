@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7862a8939c5a458c9ad1674062700688",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7862a8939c5a458c9ad1674062700688",
+  "schema:name": "DPI-F Information Mediator",
+  "schema:description": "The self-contained software component within the digital financial infrastructure that securely manages, routes, and logs data exchanges between disconnected financial applications and registries. It acts as a secure data pipeline that handles authentication, protocol translation, and access control to ensure that sensitive financial data is shared safely.\r\n\r\nIt eliminates the security risks of direct, unmonitored connections between the hospital’s internal payroll systems and external financial institutions. By acting as a secure buffer, it ensures that all data exchanges comply with privacy laws and that financial information is transmitted accurately without exposure to unauthorized parties.\r\n\r\nExample: \"The DPI-F Information Mediator component that intercept payroll data requests, verifies the hospital's digital certificate, and securely routes the encrypted staff bank details to the central clearing network.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

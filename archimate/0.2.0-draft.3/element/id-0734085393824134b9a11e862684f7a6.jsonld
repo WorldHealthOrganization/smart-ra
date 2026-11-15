@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0734085393824134b9a11e862684f7a6",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0734085393824134b9a11e862684f7a6",
+  "schema:name": "Risk assessment",
+  "schema:description": "This capability uses epidemiological and demographic data to evaluate the potential financial risks within the health system. It identifies high-cost population segments and predicts the likelihood of expensive health events that could impact fund stability.\r\n\r\nThe intent is to provide the data-driven foundation for fair resource allocation and premium setting. It allows health authorities to anticipate financial pressures and implement proactive cost-containment or risk-mitigation strategies.\r\n\r\nExample: Analyzing the rising rates of diabetes in a province to estimate the future financial impact on the regional health budget.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

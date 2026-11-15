@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d3f22b70ad124679be033a799dee0f34",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-d3f22b70ad124679be033a799dee0f34",
+  "schema:name": "Financial data exchange",
+  "schema:description": "This sub-goal strives for the seamless matching of financial payments with the clinical services actually rendered. It focuses on interoperability between clinical records and financial systems to ensure accurate billing and reimbursement.\r\n\r\nThe purpose is to reduce errors and fraud by ensuring that every payment is backed by a verified clinical event. This streamlines the reconciliation process and improves the overall integrity of the health financing system.\r\n\r\nExample: Automatically linking a surgeon's post-operative note to the insurance claim submitted by the hospital.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

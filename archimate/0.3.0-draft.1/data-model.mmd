@@ -1,0 +1,49 @@
+classDiagram
+  %% WHO_RA (0.3.0-draft.1): data class diagram, derived by archimate-diagrams. Do not edit.
+  class id_b03a09f1177a4bf6bfd1f22c6cea1c94["Adapted SMART Guidelines L1"]
+  <<BusinessObject>> id_b03a09f1177a4bf6bfd1f22c6cea1c94
+  class id_2f415a2e0d4245c19663f5821ed02a16["Adapted SMART Guidelines L2 (DAK)"]
+  <<DataObject>> id_2f415a2e0d4245c19663f5821ed02a16
+  class id_c41368c8e91646cf96381ca301ac003d["Approved Terminology Content"]
+  <<DataObject>> id_c41368c8e91646cf96381ca301ac003d
+  class id_e4de2256c7644b7cbd7222ac49625b3d["Clinical Guidelines"]
+  <<BusinessObject>> id_e4de2256c7644b7cbd7222ac49625b3d
+  class id_48ca7ae8d2ed5a5a992fbdd0528f9fe8["Generic Product"]
+  <<BusinessObject>> id_48ca7ae8d2ed5a5a992fbdd0528f9fe8
+  class id_71b2e11df2e348a2b9f8eee36c8e5292["Patient-level Data"]
+  <<DataObject>> id_71b2e11df2e348a2b9f8eee36c8e5292
+  class id_1aa66395ee2651d5aec70dc678326440["Product Classification"]
+  <<BusinessObject>> id_1aa66395ee2651d5aec70dc678326440
+  class id_815bef20a55f5f59b409a76a9a6545f8["Product Master Data"]
+  <<BusinessObject>> id_815bef20a55f5f59b409a76a9a6545f8
+  class id_85cd033bc1bd4bec9bb4a2f316f357da["Reference data models"]
+  <<DataObject>> id_85cd033bc1bd4bec9bb4a2f316f357da
+  class id_b99b159bb8d558ef8477825142fe4700["Regulated Trade Item"]
+  <<BusinessObject>> id_b99b159bb8d558ef8477825142fe4700
+  class id_f180ad44b2e94e2a9ee8523ffc900264["Shared Health Record"]
+  <<BusinessObject>> id_f180ad44b2e94e2a9ee8523ffc900264
+  class id_5b55a8ca67864a1a91910347db193e79["SMART Guidelines L1"]
+  <<BusinessObject>> id_5b55a8ca67864a1a91910347db193e79
+  class id_066e40fefc9e48e4b23e51d9f9bd14d2["SMART Guidelines L2 (DAK)"]
+  <<DataObject>> id_066e40fefc9e48e4b23e51d9f9bd14d2
+  class id_22a44179b1b34a74984de87cd5a702b7["Structured Guidelines content"]
+  <<DataObject>> id_22a44179b1b34a74984de87cd5a702b7
+  class id_60e7d1d9e64c5011a1efe8becac406d0["Trade Item"]
+  <<BusinessObject>> id_60e7d1d9e64c5011a1efe8becac406d0
+  id_066e40fefc9e48e4b23e51d9f9bd14d2 --|> id_22a44179b1b34a74984de87cd5a702b7 : specialises
+  id_066e40fefc9e48e4b23e51d9f9bd14d2 ..|> id_5b55a8ca67864a1a91910347db193e79 : realises
+  id_22a44179b1b34a74984de87cd5a702b7 ..|> id_e4de2256c7644b7cbd7222ac49625b3d : realises
+  id_2f415a2e0d4245c19663f5821ed02a16 --|> id_066e40fefc9e48e4b23e51d9f9bd14d2 : specialises
+  id_2f415a2e0d4245c19663f5821ed02a16 ..|> id_b03a09f1177a4bf6bfd1f22c6cea1c94 : realises
+  id_48ca7ae8d2ed5a5a992fbdd0528f9fe8 --> "0..*" id_1aa66395ee2651d5aec70dc678326440 : classification
+  id_5b55a8ca67864a1a91910347db193e79 --|> id_e4de2256c7644b7cbd7222ac49625b3d : specialises
+  id_60e7d1d9e64c5011a1efe8becac406d0 --> "0..*" id_48ca7ae8d2ed5a5a992fbdd0528f9fe8 : associatedGenericProduct
+  id_60e7d1d9e64c5011a1efe8becac406d0 --> "0..*" id_60e7d1d9e64c5011a1efe8becac406d0 : contains (packaging hierarchy)
+  id_71b2e11df2e348a2b9f8eee36c8e5292 ..|> id_f180ad44b2e94e2a9ee8523ffc900264 : realises
+  id_815bef20a55f5f59b409a76a9a6545f8 *-- id_1aa66395ee2651d5aec70dc678326440 : composed of
+  id_815bef20a55f5f59b409a76a9a6545f8 *-- id_48ca7ae8d2ed5a5a992fbdd0528f9fe8 : composed of
+  id_815bef20a55f5f59b409a76a9a6545f8 *-- id_60e7d1d9e64c5011a1efe8becac406d0 : composed of
+  id_815bef20a55f5f59b409a76a9a6545f8 *-- id_b99b159bb8d558ef8477825142fe4700 : composed of
+  id_85cd033bc1bd4bec9bb4a2f316f357da o-- id_c41368c8e91646cf96381ca301ac003d : aggregates
+  id_b03a09f1177a4bf6bfd1f22c6cea1c94 --|> id_5b55a8ca67864a1a91910347db193e79 : specialises
+  id_b99b159bb8d558ef8477825142fe4700 --> "1..1" id_60e7d1d9e64c5011a1efe8becac406d0 : authorisedTradeItem

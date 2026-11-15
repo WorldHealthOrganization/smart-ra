@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a0d56a2f36fa4212b9bab68d72b2e6e2",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a0d56a2f36fa4212b9bab68d72b2e6e2",
+  "schema:name": "Forecasting & scenario modelling engine",
+  "schema:description": "This engine uses predictive analytics and historical data to simulate future health expenditures and the financial impact of policy changes. It allows planners to test \"what-if\" scenarios regarding medical inflation, disease outbreaks, or benefit expansions.\r\n\r\nIts purpose is to support sustainable and proactive budgeting by identifying future financial requirements years in advance. It helps health authorities avoid sudden budgetary shortfalls and plan for long-term health system resilience.\r\n\r\nExample: A modeling tool that predicts the three-year cost impact of expanding the national health benefit package to include specialized cancer care.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

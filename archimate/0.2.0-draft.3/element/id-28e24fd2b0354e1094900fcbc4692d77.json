@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-28e24fd2b0354e1094900fcbc4692d77",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-28e24fd2b0354e1094900fcbc4692d77",
+  "schema:name": "Interoperability Service",
+  "schema:description": "This application service enables secure and standardized exchange of healthcare quality data between systems, organizations, and external platforms. It facilitates integration using interoperability standards, APIs, and shared data models.\r\n\r\nThe purpose is to support coordinated quality monitoring and seamless information sharing across healthcare ecosystems. It also reduces data fragmentation and duplication in quality reporting processes.\r\n\r\nExample: A hospital quality monitoring platform exchanges patient safety data with a national health reporting system.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-60e7d1d9e64c5011a1efe8becac406d0",
+  "@type": "archimate:BusinessObject",
+  "schema:identifier": "id-60e7d1d9e64c5011a1efe8becac406d0",
+  "schema:name": "Trade Item",
+  "schema:description": "Manufacturer-specific branded health products. (PDF 28) Narrower than the GS1 trade item (broadMatch, litlfred/smart-ra#142).",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a8e32b4b976e46d0b03314eedd26cda8",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-a8e32b4b976e46d0b03314eedd26cda8",
+  "schema:name": "Consent Management Service (grant/revoke)",
+  "schema:description": "This service manages the storage, retrieval, and enforcement of patient consent artifacts. It ensures that any request for health data is checked against the patient's current permission settings.\r\n\r\nThe purpose is to automate the enforcement of privacy policies and ensure that data is only shared according to the patient’s wishes. This provides a scalable way to manage complex privacy requirements across the network.\r\n\r\nExample: An API that returns \"Authorized\" or \"Denied\" when a doctor attempts to open a patient's surgical history.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

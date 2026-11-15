@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-fea74b958c7548e183c92a72bc3d0a8c",
+  "@type": "archimate:Product",
+  "schema:identifier": "id-fea74b958c7548e183c92a72bc3d0a8c",
+  "schema:name": "Digital Trust Services (certificates, signatures)",
+  "schema:description": "This product represents the suite of cryptographic tools, such as digital certificates and electronic signatures, used to secure health transactions. It provides the technical foundation for the \"verifiable\" aspect of health records.\r\n\r\nThe purpose is to establish a non-repudiable and tamper-proof environment for health information exchange. This ensures that any clinical document can be treated as an authentic and legal record by any participant in the network.\r\n\r\nExample: A national certificate authority that issues digital \"stamps\" to accredited laboratories for signing test results.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0f622195848545779fca090afff04aee",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-0f622195848545779fca090afff04aee",
+  "schema:name": "Citizens",
+  "schema:description": "The citizen or patient is the individual subject of care and the primary owner of the personal health data within the system. They are the ultimate beneficiaries of health services and the governors of their own data privacy.\r\n\r\nThe purpose is to provide individuals with control over their data, easy access to their history, and the ability to share information securely. This empowers them to take an active role in their health and builds trust in digital services.\r\n\r\nExample: A patient accessing their mobile PHR app to share recent discharge papers with a new family doctor.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

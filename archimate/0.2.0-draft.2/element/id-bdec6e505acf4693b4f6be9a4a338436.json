@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-bdec6e505acf4693b4f6be9a4a338436",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-bdec6e505acf4693b4f6be9a4a338436",
+  "schema:name": "Feedback & Engagement Analytics Service",
+  "schema:description": "This service tracks patient and family engagement patterns across the platform, including portal usage, survey completion, message response rates, and satisfaction scores. It generates insights that support quality improvement and help identify gaps in participation.\r\n\r\nThe purpose of this service is to make patient engagement measurable and actionable, enabling health system managers to identify where engagement is low and intervene with targeted improvements.\r\n\r\nExample: A health facility manager reviews an engagement dashboard and finds that elderly patients have significantly lower portal login rates than other groups. This prompts a targeted digital literacy support initiative for that population.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-09436d24a1ad45f892d7e55733f2db5d",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-09436d24a1ad45f892d7e55733f2db5d",
+  "schema:name": "Safer care: reduction in adverse drug events, missed diagnoses, inappropriate interventions",
+  "schema:description": "Safer care mechanisms use automated checks and evidence-based safeguards within clinical workflows. These mechanisms help identify medication risks, diagnostic gaps, and inappropriate interventions before harm occurs.\r\n\r\nThe purpose of this outcome is to protect patients from preventable adverse events and strengthens the accuracy of clinical care. It also reduces complications associated with unsafe prescribing and delayed diagnoses.\r\n\r\nExample: A prescribing system automatically blocks duplicate antibiotic orders that may lead to overdose or antimicrobial resistance.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

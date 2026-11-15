@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-42f09f65de18487cb9224121334247fe",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-42f09f65de18487cb9224121334247fe",
+  "schema:name": "Health Mgmt Info Service",
+  "schema:description": "This component tracks and analyzes patient engagement data across the platform, including portal usage, survey completion rates, communication activity, and satisfaction scores. It generates reports and dashboards to support quality monitoring and equity analysis.\r\n\r\nThe purpose of this component is to provide health system managers with the data infrastructure needed to measure and improve patient engagement at both individual and population levels. \r\n\r\nExample: The component generates a monthly engagement report showing that patients over 65 have lower survey completion rates, prompting the facility to introduce assisted digital access support for that group.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f22d25a334ea464da5be0ee8511034a4",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-f22d25a334ea464da5be0ee8511034a4",
+  "schema:name": "Contribution / tax policy & rate-setting (ability to stratify/differentiate contribution setting based on policy rules). ",
+  "schema:description": "An advanced fiscal policy capability that enables a government to design, simulate, and implement flexible, rule-based pricing brackets for health taxes and insurance contributions.\r\n\r\nIts primary purpose is to move away from rigid, one-size-fits-all fees by giving policymakers the digital tools to dynamically adjust contribution rates based on income levels, business size, or risk factors to ensure the system stays fair and fully funded.\r\n\r\nExample: Using a unified rate-setting capability, the health ministry quickly plugs in a new policy rule that lowers health premiums by 20% for low-income agricultural workers while introducing a luxury tax bracket for high-earning corporations, instantly rolling out the changes across national payroll networks without disrupting the budget.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

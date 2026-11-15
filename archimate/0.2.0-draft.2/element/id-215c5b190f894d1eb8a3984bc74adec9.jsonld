@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-215c5b190f894d1eb8a3984bc74adec9",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-215c5b190f894d1eb8a3984bc74adec9",
+  "schema:name": "Audit and Feedback Service",
+  "schema:description": "This application service captures system usage, clinical actions, and compliance data to support monitoring, reporting, and quality improvement activities. It generates performance insights, audit logs, and feedback reports for healthcare providers and administrators.\r\n\r\nThe purpose of this application service is to promote accountability, governance, and continuous improvement in healthcare delivery and system usage. It also helps organizations monitor adherence to clinical guidelines and operational standards.\r\n\r\nExample: Hospital administrators receive monthly reports showing departments with low compliance to antibiotic stewardship protocols.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f3a489f5a5ad40a6b9ec47430ab84fa8",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-f3a489f5a5ad40a6b9ec47430ab84fa8",
+  "schema:name": "Eligibility algorithm",
+  "schema:description": "The eligibility algorithm is a set of logical rules used to instantly determine if a person is covered for a specific medical service. it analyzes patient data, policy rules, and current fund status to provide a \"Yes/No\" decision at the point of care.\r\n\r\nIts purpose is to provide real-time financial certainty for both patients and healthcare providers. It ensures that clinical services are only provided to eligible members and that the correct co-pays or subsidies are applied.\r\n\r\nExample: A logic engine that confirms a patient is currently active in the national fund and eligible for free maternity care.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

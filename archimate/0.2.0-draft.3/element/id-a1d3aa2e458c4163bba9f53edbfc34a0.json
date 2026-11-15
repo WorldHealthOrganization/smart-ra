@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a1d3aa2e458c4163bba9f53edbfc34a0",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-a1d3aa2e458c4163bba9f53edbfc34a0",
+  "schema:name": "Health Worker Registry ",
+  "schema:description": "Health Worker Registry (licensing, verification system): Stores metadata about health professionals, licensing status, qualifications, roles, and identifiers. Links data entries to verified providers\r\n\r\nHealth Worker Registry (Licensing and Verification System)\r\n2.2 Person-centred health records (2.2.1 to 2.2.4) clinician identity on documentation\r\n2.3 Healthcare provider decision support (2.3.1 to 2.3.3)\r\n2.4 Telemedicine (2.4.1 to 2.4.4) verified provider identity\r\n2.5 Healthcare provider communication (2.5.1 to 2.5.6) verified sender or recipient\r\n2.6 Referral coordination (2.6.1 to 2.6.3) ensures referral between authorized providers\r\n2.7 Scheduling and activity planning (2.7.1 to 2.7.2) depends on verified workforce metadata\r\n2.8 Healthcare provider training (2.8.1 to 2.8.2) linked to licensed provider records\r\n2.9 Prescription and medication management (2.9.1 to 2.9.3) only licensed prescribers\r\n2.10 Laboratory and diagnostics (2.10.2 to 2.10.3) identifies responsible provider\r\n3.8.1 to 3.8.3 Health certificate registration, validation, and revocation linked to professional credentials",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

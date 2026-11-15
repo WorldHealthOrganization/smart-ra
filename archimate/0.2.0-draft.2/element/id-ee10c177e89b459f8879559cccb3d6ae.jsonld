@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ee10c177e89b459f8879559cccb3d6ae",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ee10c177e89b459f8879559cccb3d6ae",
+  "schema:name": "Eligibility verification and prior authorisation",
+  "schema:description": "This service provides real-time confirmation of a patient's insurance status and evaluates requests for high-cost services before they are provided. It checks if a specific procedure is covered under the patient's plan and requires a specific clinical approval.\r\n\r\nThe objective is to provide financial certainty to healthcare providers and prevent patients from incurring unexpected medical costs. It acts as a cost-control mechanism by ensuring that expensive interventions are medically necessary and appropriately covered.\r\n\r\nExample: A hospital system sending an automated request to an insurer to confirm that an MRI scan is authorized for a specific patient.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

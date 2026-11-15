@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-43d71c6c14884a3994735ab1693854a8",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-43d71c6c14884a3994735ab1693854a8",
+  "schema:name": "Risk assessment and stratification algorithms",
+  "schema:description": "An advanced application service that runs incoming population health and demographic data through statistical models to categorize individuals or regional cohorts into distinct tiers of financial and clinical risk.\r\n\r\nIts primary purpose is to automate the processing of massive datasets to identify high-risk, high-cost populations before they develop catastrophic health conditions, enabling preventative medical care and highly accurate actuarial budgeting.\r\n\r\nExample: The risk assessment and stratification algorithms service scans thousands of regional electronic health profiles each month, flagging a specific group of 1,200 individuals with co-occurring hypertension and pre-diabetes as \"Tier 1 High Risk\" so that care management teams can intervene with preventative coaching before they require expensive hospitalization.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

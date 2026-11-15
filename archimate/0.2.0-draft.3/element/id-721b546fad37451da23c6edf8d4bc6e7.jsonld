@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-721b546fad37451da23c6edf8d4bc6e7",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-721b546fad37451da23c6edf8d4bc6e7",
+  "schema:name": "Secure Data Storage",
+  "schema:description": "Secure Data Storage is a specialized infrastructure component designed to store sensitive health and identity data using advanced encryption and data protection protocols. It includes features for high availability and data redundancy to prevent information loss or unauthorized disclosure.\r\n\r\nIts purpose is to safeguard personal health information against cyber threats and physical storage failure. It ensures that digital \"data at rest\" remains confidential and intact through industry-standard encryption and strict access controls.\r\n\r\nExample: An encrypted cloud database that stores digitized historical medical records and longitudinal health data for long-term archival.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

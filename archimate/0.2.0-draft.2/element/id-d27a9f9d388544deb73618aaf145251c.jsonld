@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-d27a9f9d388544deb73618aaf145251c",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d27a9f9d388544deb73618aaf145251c",
+  "schema:name": "DPI-F Security & Consent Module",
+  "schema:description": "The foundational, reusable software block designed to run natively within a Digital Public Infrastructure for Finance (DPI-F) ecosystem to enforce end-to-end data security, granular user-consent management, and strict privacy controls. This module sits directly within the transactional layer, managing the cryptographic signing of consent directives, executing zero-knowledge validation proofs, and dynamically encrypting sensitive payloads as they move between financial institutions, health registries, and payment gateways.\r\n\r\nIt eliminates the risk of systemic data breaches, unauthorized financial tracing, and non-compliance with rigorous data privacy regulations like GDPR or local digital trust acts. For software developers and network architects, it provides a pre-built, standardized security blueprint that can be embedded into any financial or administrative application, guaranteeing that every cross-system transaction is legally compliant and fully approved by the user.\r\n\r\nExample: \"The DPI-F Security & Consent Module embedded within the national health payment gateway that securely captured a nurse's biometric consent before allowing the payroll system to query her verified credential status.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

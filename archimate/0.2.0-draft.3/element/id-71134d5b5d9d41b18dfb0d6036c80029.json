@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-71134d5b5d9d41b18dfb0d6036c80029",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-71134d5b5d9d41b18dfb0d6036c80029",
+  "schema:name": "Validate accuracy of new health data entries",
+  "schema:description": "This process involves checking newly submitted health data against predefined clinical standards and structural rules. It ensures that the information received from various providers is clinically plausible and correctly formatted.\r\n\r\nThe intent is to maintain the reliability of the longitudinal record by filtering out errors at the point of entry. This prevents the inclusion of inaccurate data that could compromise future clinical decisions or patient safety.\r\n\r\nExample: An automated check verifying that a recorded blood pressure value falls within a realistic physiological range before it is saved.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

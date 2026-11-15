@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-9223353515404717babcdc113ed42c8d",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-9223353515404717babcdc113ed42c8d",
+  "schema:name": "Context-Aware Communication Service",
+  "schema:description": "This service links all communications to relevant clinical objects such as patient records, encounters, care plans, or assigned tasks. It ensures that messages and interactions are organized and retrievable within the appropriate clinical context.\r\n\r\nThe purpose of this service is to prevent miscommunication caused by missing or unclear context and to ensure that all exchanges are meaningful and actionable. It also reduces the time providers spend searching for background information when receiving a message.\r\n\r\nExample: A physician receives a message about a medication concern that is automatically linked to the patient's current prescription list and recent lab results, allowing immediate review without navigating separate systems.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

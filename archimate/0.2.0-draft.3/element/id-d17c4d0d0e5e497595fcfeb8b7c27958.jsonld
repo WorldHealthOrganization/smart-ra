@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d17c4d0d0e5e497595fcfeb8b7c27958",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d17c4d0d0e5e497595fcfeb8b7c27958",
+  "schema:name": "Terminology Server",
+  "schema:description": "A Terminology Server is a specialized system used to manage, distribute, and map medical vocabularies and code systems. It hosts international standards such as SNOMED CT, ICD, and LOINC to ensure clinical data is machine-readable.\r\n\r\nIts purpose is to provide a central source for medical coding, ensuring that clinical data has the same meaning across different systems. It enables semantic interoperability, which is essential for accurate clinical decision support and data aggregation.\r\n\r\nExample: A server that maps a local hospital's \"chest pain\" code to the international standard ICD-10 code for Angina.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

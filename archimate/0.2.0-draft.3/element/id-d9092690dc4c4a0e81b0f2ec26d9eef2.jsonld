@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d9092690dc4c4a0e81b0f2ec26d9eef2",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-d9092690dc4c4a0e81b0f2ec26d9eef2",
+  "schema:name": "Grievances resolved within SLA.",
+  "schema:description": "This represents the timely resolution of complaints submitted by patients or providers regarding coverage, payments, or clinical services. It tracks the effectiveness of the formal grievance mechanism against pre-defined response and resolution timelines.\r\n\r\nIt ensures that system users have a voice and that their concerns are addressed fairly and promptly by the relevant authorities. Successful grievance management builds trust in the health financing system and identifies recurring operational issues that need correction.\r\n\r\nExample: An insurance ombudsman resolving 95% of all patient billing complaints within the mandated 30-day target window.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

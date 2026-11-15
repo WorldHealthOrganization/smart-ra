@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-906608b6f1d44531b3824a4adcd89313",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-906608b6f1d44531b3824a4adcd89313",
+  "schema:name": "Data warehouse",
+  "schema:description": "A data warehouse is a large, centralized repository that stores historical data aggregated from multiple clinical and financial sources. It is designed for complex querying and analysis rather than day-to-day transactional processing.\r\n\r\nIts purpose is to provide a \"single source of truth\" for long-term health sector analytics and reporting. By consolidating disparate data, it allows for deep analysis of spending trends, service utilization, and epidemiological shifts over time.\r\n\r\nExample: A centralized server that stores ten years of patient claims data and hospital expenditure records for national research.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

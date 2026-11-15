@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-2edda45a164842968a0402bb8305d664",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-2edda45a164842968a0402bb8305d664",
+  "schema:name": "Client Registry ",
+  "schema:description": "A client registry maintains unique patient identities and demographic records across healthcare systems. It supports accurate patient identification and record matching between facilities and applications.\r\n\r\nThe purpose of this data object is to prevent duplicate patient records and improves continuity of care across healthcare settings. It also enables integrated and coordinated healthcare service delivery.\r\n\r\nExample: A patient visiting multiple hospitals can be identified through a single national health identification number.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

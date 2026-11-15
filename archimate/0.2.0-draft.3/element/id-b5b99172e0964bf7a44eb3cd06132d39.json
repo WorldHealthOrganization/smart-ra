@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-b5b99172e0964bf7a44eb3cd06132d39",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-b5b99172e0964bf7a44eb3cd06132d39",
+  "schema:name": "Interoperability Layer",
+  "schema:description": "Interoperability Layer: This component uses interoperability standards (e.g., HL7, FHIR) to connect to various Electronic Health Records (EHRs) and other health information systems to gather patient data.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

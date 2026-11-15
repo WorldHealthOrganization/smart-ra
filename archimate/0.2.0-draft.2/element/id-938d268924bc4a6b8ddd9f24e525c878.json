@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-938d268924bc4a6b8ddd9f24e525c878",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-938d268924bc4a6b8ddd9f24e525c878",
+  "schema:name": "DPI-F Payments",
+  "schema:description": "The specific, self-contained software module responsible for communicating with national financial networks to execute electronic fund transfers. It runs within the hospital's enterprise application environment as a dedicated system component that handles the encryption, formatting, and transmission of financial messages.\r\n\r\nIt isolates the complex security and connectivity logic required for financial network integration away from the main payroll software. This modular design ensures that high-volume salary transactions are processed reliably, securely, and in strict compliance with digital banking standards.\r\n\r\nExample: \"The DPI-F Payment Gateway Connector module embedded within the hospital's ERP system that bundles employee salary files into compliant digital tokens and transmits them securely to the central bank clearinghouse.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

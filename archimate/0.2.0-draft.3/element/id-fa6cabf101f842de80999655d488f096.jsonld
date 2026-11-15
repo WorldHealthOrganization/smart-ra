@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-fa6cabf101f842de80999655d488f096",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-fa6cabf101f842de80999655d488f096",
+  "schema:name": "IAM / Access Control System",
+  "schema:description": "The Identity and Access Management (IAM) system is a security component that manages the roles and permissions of all users in the health network. It ensures that individuals and systems are authenticated before they are granted access to specific data objects.\r\n\r\nThe purpose is to prevent unauthorized access and protect the privacy of sensitive medical information. it enforces role-based access policies to ensure that clinicians only see data relevant to the care they are providing.\r\n\r\nExample: A system that requires two-factor authentication for a nurse to view a patient’s medication history while blocking them from viewing unrelated psychiatric notes.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

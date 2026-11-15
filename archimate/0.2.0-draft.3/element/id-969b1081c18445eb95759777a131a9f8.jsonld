@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-969b1081c18445eb95759777a131a9f8",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-969b1081c18445eb95759777a131a9f8",
+  "schema:name": "Analytics & Benchmarking Service",
+  "schema:description": "This application service processes healthcare quality data to generate insights, trends, comparisons, and performance benchmarks across providers and facilities. It supports advanced analysis of quality indicators and operational metrics.\r\n\r\nThe purpose is to enable healthcare organizations to evaluate performance against standards and peer institutions. It also supports evidence-based quality improvement and strategic planning activities.\r\n\r\nExample: Healthcare facilities compare infection control performance against national benchmark averages through an analytics platform.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

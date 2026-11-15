@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-138d88d8ce424d15b7ea3db0aec010e9",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-138d88d8ce424d15b7ea3db0aec010e9",
+  "schema:name": "Digital Payroll Services",
+  "schema:description": "The end-to-end software functionality delivered over a network that automates the calculation, processing, and distribution of employee compensation. This software-driven service exposes payroll features to users and other applications without them needing to manage the underlying infrastructure.\r\n\r\nIt provides a reliable, secure interface that automates the translation of timesheet data into bank deposits, reducing manual processing effort. This automated delivery ensures that payroll calculations are consistent, compliant, and completed on a strict schedule.\r\n\r\nExample: \"The cloud-hosted Payroll Calculation Service that ingests validated shift data, computes net pay with deductions, and triggers the direct deposit routine for the hospital's banking portal.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-8fabfb3155374c728027ef0782a88460",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-8fabfb3155374c728027ef0782a88460",
+  "schema:name": "Analytics & visualisation platform",
+  "schema:description": "A specialized foundational application component that aggregates complex financial, demographic, and clinical datasets from across the health system and transforms them into interactive dashboards, maps, and reporting visuals.\r\n\r\nIts primary purpose is to democratize data-driven insights for health system executives and policymakers, turning raw rows of actuarial data and risk calculations into scannable, intuitive graphics that reveal spending inefficiencies, funding inequities, and emerging cost trends at a glance.\r\n\r\nExample: The analytics & visualization platform sits on top of the national health data warehouse, generating a real-time geographic heatmap that allows the health minister to instantly see that while per-capita spending is in the green across urban centers, three adjacent rural districts are flashing red due to a severe under-allocation of primary care funding relative to their high chronic-disease rates.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

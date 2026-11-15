@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-8cfc606b6b934ec593958f3481b65525",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-8cfc606b6b934ec593958f3481b65525",
+  "schema:name": "Collaboration Hub",
+  "schema:description": "This component provides the technical environment for voice, video, and live chat interactions among care team members. It manages session initiation, participant access, recording where applicable, and integration with patient context.\r\n\r\nThe purpose of this component is to deliver the real-time collaboration infrastructure that underpins virtual consultations and team meetings. It ensures stable, secure, and context-linked communication sessions across devices and locations.\r\n\r\nExample: The hub hosts a virtual multidisciplinary team meeting where participants join from different facilities, with the session automatically linked to the relevant patient case and accessible through the care platform interface.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-75007bbed9e84e3490bf9e91a48a04b3",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-75007bbed9e84e3490bf9e91a48a04b3",
+  "schema:name": "Forecasting & optimisation engine",
+  "schema:description": "An advanced application component that leverages predictive algorithms, statistical libraries, and machine learning models to project future healthcare expenditures and optimize resource distribution. This computational engine ingests historical financial records, epidemiological data, and demographic trends to simulate complex fiscal scenarios, dynamically calculating the most efficient allocation of funds across competing health programs.\r\n\r\nIts primary purpose is to transform healthcare budgeting from a reactive, historical guesswork exercise into a proactive, mathematically optimized strategy. By identifying upcoming funding shortfalls, testing the financial impact of policy interventions, and determining the optimal mix of resources under strict budget caps, it enables health authorities to maximize health outcomes per dollar spent and build long-term fiscal resilience.\r\n\r\nExample: A provincial health department embeds a specialized optimization engine component into its planning portal; by analyzing local population growth and aging trends, the engine projects a 15% spike in diabetic treatments over the next three years and automatically calculates the exact shift in preventative funding required today to minimize future hospital-bed liabilities.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

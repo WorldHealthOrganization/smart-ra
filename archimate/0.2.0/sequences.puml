@@ -1,0 +1,75 @@
+@startuml
+' 1. Central Health Workforce Registry (id-007936f8c2424b96ad1893ef0ff66059): sequence diagram, derived by archimate-diagrams. Do not edit.
+title 1. Central Health Workforce Registry
+hide footbox
+participant "DPI-H National Health Workforce Directory/Registry" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_3c5d846710034c4595e206e748d65e36 <<ApplicationComponent>>
+participant "DPI-F Security & Consent Module" as id_d79aa0eec0584b0792b44bca408afeb6 <<ApplicationComponent>>
+participant "DPI-H: Facility Registry" as id_4e0767822dcf46409554156a133fbc67 <<ApplicationComponent>>
+participant "Reporting Module" as id_bbd18f65be45490fbbaf02346511ae5e <<ApplicationComponent>>
+database "Health Worker" as id_702c24bbd73341be9afc11c7e11e9810 <<DataObject>>
+database "Terminology" as id_301912f3fcaf4648b0ebc3cbbfc3b447 <<DataObject>>
+database "Facility" as id_ad969289cb774307aa678037c56fdd3f <<DataObject>>
+id_350840520ae44f658b6ad3b3762e382e ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
+id_d79aa0eec0584b0792b44bca408afeb6 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
+id_3c5d846710034c4595e206e748d65e36 ->> id_4e0767822dcf46409554156a133fbc67 : flows to DPI-H: Facility Registry
+id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to DPI-H National Health Workforce Directory/Registry
+id_3c5d846710034c4595e206e748d65e36 ->> id_bbd18f65be45490fbbaf02346511ae5e : flows to Reporting Module
+id_3c5d846710034c4595e206e748d65e36 ->> id_d79aa0eec0584b0792b44bca408afeb6 : flows to DPI-F Security & Consent Module
+id_4e0767822dcf46409554156a133fbc67 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
+id_350840520ae44f658b6ad3b3762e382e -> id_702c24bbd73341be9afc11c7e11e9810 : writes Health Worker
+id_350840520ae44f658b6ad3b3762e382e -> id_301912f3fcaf4648b0ebc3cbbfc3b447 : writes Terminology
+id_4e0767822dcf46409554156a133fbc67 -> id_301912f3fcaf4648b0ebc3cbbfc3b447 : writes Terminology
+id_4e0767822dcf46409554156a133fbc67 -> id_ad969289cb774307aa678037c56fdd3f : writes Facility
+@enduml
+
+@startuml
+' SUB-GOAL 1. Central Health Workforce Registry (id-6702871f89b641d4823ad05fbd2a4bdb): sequence diagram, derived by archimate-diagrams. Do not edit.
+title SUB-GOAL 1. Central Health Workforce Registry
+hide footbox
+participant "DPI-H National Health Workforce Directory/Registry" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_3c5d846710034c4595e206e748d65e36 <<ApplicationComponent>>
+participant "DPI-F Security & Consent Module" as id_d79aa0eec0584b0792b44bca408afeb6 <<ApplicationComponent>>
+participant "Reporting Module" as id_bbd18f65be45490fbbaf02346511ae5e <<ApplicationComponent>>
+database "Terminology" as id_301912f3fcaf4648b0ebc3cbbfc3b447 <<DataObject>>
+database "Health Worker" as id_702c24bbd73341be9afc11c7e11e9810 <<DataObject>>
+id_350840520ae44f658b6ad3b3762e382e ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
+id_d79aa0eec0584b0792b44bca408afeb6 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
+id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to DPI-H National Health Workforce Directory/Registry
+id_3c5d846710034c4595e206e748d65e36 ->> id_bbd18f65be45490fbbaf02346511ae5e : flows to Reporting Module
+id_3c5d846710034c4595e206e748d65e36 ->> id_d79aa0eec0584b0792b44bca408afeb6 : flows to DPI-F Security & Consent Module
+id_350840520ae44f658b6ad3b3762e382e -> id_301912f3fcaf4648b0ebc3cbbfc3b447 : writes Terminology
+id_350840520ae44f658b6ad3b3762e382e -> id_702c24bbd73341be9afc11c7e11e9810 : writes Health Worker
+@enduml
+
+@startuml
+' CDS (id-4c98f10e0a244315acddaf5257c7822e): sequence diagram, derived by archimate-diagrams. Do not edit.
+title CDS
+hide footbox
+participant "Clinical Guideline package" as id_8104985f0f0e4f4cbe3bdf032ea20759 <<Product>>
+participant "Decision Support Engine" as id_539b04ae45f147258d8253ae5cb87402 <<ApplicationComponent>>
+id_8104985f0f0e4f4cbe3bdf032ea20759 ->> id_539b04ae45f147258d8253ae5cb87402 : flows to Decision Support Engine
+@enduml
+
+@startuml
+' B (id-d7e3215f6d3d4e5e8b39ee521f8248c2): sequence diagram, derived by archimate-diagrams. Do not edit.
+title B
+hide footbox
+participant "Document Source" as id_4269b5141b6347698b67225759884a71 <<ApplicationComponent>>
+participant "Document Repository" as id_85d7590270dc483cb500963dbe5a4fc8 <<ApplicationComponent>>
+id_4269b5141b6347698b67225759884a71 -> id_85d7590270dc483cb500963dbe5a4fc8 : Provide and Register Document Set [ITI-41]
+id_85d7590270dc483cb500963dbe5a4fc8 --> id_4269b5141b6347698b67225759884a71 : Register Document Set
+@enduml
+
+@startuml
+' D (id-ba6aa15d5d84416dab9fbd8a9f9fea14): sequence diagram, derived by archimate-diagrams. Do not edit.
+title D
+hide footbox
+actor "Test Operator" as id_abd2da4297944a5ca707a28a400dfb8f <<BusinessRole>>
+participant "Create and submit document" as id_e9e37f6657324db7a972a974186b61b5 <<BusinessProcess>>
+participant "Document Source" as id_4269b5141b6347698b67225759884a71 <<ApplicationComponent>>
+participant "Document Repository" as id_85d7590270dc483cb500963dbe5a4fc8 <<ApplicationComponent>>
+id_abd2da4297944a5ca707a28a400dfb8f -> id_e9e37f6657324db7a972a974186b61b5 : Create and submit document
+id_e9e37f6657324db7a972a974186b61b5 -> id_4269b5141b6347698b67225759884a71 : triggers Provide and Register Document Set [ITI-41]
+id_4269b5141b6347698b67225759884a71 -> id_85d7590270dc483cb500963dbe5a4fc8 : Provide and Register Document Set [ITI-41]
+@enduml

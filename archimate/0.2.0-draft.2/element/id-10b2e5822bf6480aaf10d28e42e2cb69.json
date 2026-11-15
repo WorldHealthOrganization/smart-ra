@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-10b2e5822bf6480aaf10d28e42e2cb69",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-10b2e5822bf6480aaf10d28e42e2cb69",
+  "schema:name": "Privacy / Consent/ Trust",
+  "schema:description": "The core operational capability to enforce data confidentiality, capture and respect individual data-sharing preferences, and maintain absolute security across all digital interactions. This capability ensures that a user's personal information—whether patient medical records or employee financial data—is processed strictly in accordance with legal mandates and explicit permissions.\r\n\r\nPossessing this capability eliminates the risk of unauthorized data leaks, regulatory non-compliance fines, and systemic breaches that damage institutional reputation. For leadership, it creates a secure foundation that encourages widespread user adoption, ensuring that citizens and staff confidently trust digital platforms with their most sensitive personal and professional data.\r\n\r\nExample: \"The Privacy, Consent, and Trust capability that automatically applies a patient's digital consent directives across the network, instantly blocking unauthorized clinics from accessing their medical history without explicit, time-bound permission.\"",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

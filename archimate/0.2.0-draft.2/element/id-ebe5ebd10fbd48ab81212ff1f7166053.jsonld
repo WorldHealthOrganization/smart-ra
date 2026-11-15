@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ebe5ebd10fbd48ab81212ff1f7166053",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ebe5ebd10fbd48ab81212ff1f7166053",
+  "schema:name": "Contract, benefit, and tariff authoring & versioning",
+  "schema:description": "This service provides the tools to create and manage the digital versions of provider contracts, benefit packages, and price lists. It maintains an auditable history of all changes to the rules that govern payments within the system.\r\n\r\nThe goal is to provide a single, authoritative source of truth for the rules that drive the claims adjudication process. It ensures that all stakeholders work with the same, up-to-date information, which significantly reduces disputes and errors.\r\n\r\nExample: A versioning service that ensures a hospital is billed using the 2026 tariff list rather than an outdated version.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-1-computable-decision-support-engi-39fe47",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-1-computable-decision-support-engi-39fe47",
+  "kind": "prose",
+  "cites": [
+    "references/cds-hooks",
+    "references/hl7-cql",
+    "references/opencds",
+    "references/who-smart-guidelines",
+    "references/openmrs",
+    "references/firely",
+    "references/openehr"
+  ],
+  "text": "p-d-1-computable-decision-support-engi-39fe47.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1014,
+      "page": 241,
+      "printedPage": "230",
+      "lineStart": 39,
+      "lineEnd": 56,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-c8e759f5393c46b2913ed89685da2aa3",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-c8e759f5393c46b2913ed89685da2aa3",
+  "schema:name": "Benefits specification & rules management",
+  "schema:description": "This capability involves the definition and management of the specific health services, medications, and access conditions covered by a health scheme. It maintains the \"rules engine\" that determines what is paid for and under what circumstances.\r\n\r\nThe purpose is to align the available health budget with the most critical needs of the population. It provides a transparent and machine-readable framework that ensures consistent benefit application across all healthcare facilities.\r\n\r\nExample: Updating the national insurance rules to include a newly approved high-value medication for heart disease.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

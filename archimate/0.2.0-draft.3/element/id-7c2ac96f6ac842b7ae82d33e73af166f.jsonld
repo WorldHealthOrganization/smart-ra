@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7c2ac96f6ac842b7ae82d33e73af166f",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7c2ac96f6ac842b7ae82d33e73af166f",
+  "schema:name": "Payment adapter / reconciliation service",
+  "schema:description": "Sits between the core health finance system and external banking networks to translate, route, and automatically match incoming digital transactions against open invoices.\r\n\r\nIts primary purpose is to automate the labor-intensive process of clearing payments, ensuring that bank transfers, mobile money deposits, and card transactions are instantly recognized, verified, and closed out on the master ledger without human intervention.\r\n\r\nExample: When an employer pays their monthly health insurance premium via an external commercial bank portal, the payment adapter / reconciliation service ingests the raw bank transaction file, translates its proprietary layout into the health system's standard format, and matches the cash directly to the employer's account balance within seconds.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

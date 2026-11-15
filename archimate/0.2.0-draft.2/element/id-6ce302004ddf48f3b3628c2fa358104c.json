@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-6ce302004ddf48f3b3628c2fa358104c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-6ce302004ddf48f3b3628c2fa358104c",
+  "schema:name": "Secure Messaging & Telehealth Service",
+  "schema:description": "This service enables secure, direct communication between patients, families, and care team members through messaging, voice, and video channels. It supports both asynchronous messaging and real-time virtual consultations within a governed, patient-safe environment.\r\n\r\nThe purpose of this service is to extend access to care and provider communication beyond the physical clinic, reducing barriers related to distance, mobility, and availability. \r\n\r\nExample: A patient in a remote area uses the telehealth service to attend a follow-up consultation with their physician via video call, avoiding a four-hour journey to the nearest facility.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

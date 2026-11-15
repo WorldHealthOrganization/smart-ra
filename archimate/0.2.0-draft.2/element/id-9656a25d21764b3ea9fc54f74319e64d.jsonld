@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-9656a25d21764b3ea9fc54f74319e64d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-9656a25d21764b3ea9fc54f74319e64d",
+  "schema:name": "Rules engine",
+  "schema:description": "A rules engine is a specialized software component that executes complex \"If-Then\" logic to automate decisions, primarily in claims adjudication. It compares incoming medical claims against policy rules, contracts, and clinical guidelines to determine payment.\r\n\r\nIts purpose is to provide efficient and consistent decision-making while reducing the need for manual claim review. It ensures that health funds are protected by automatically flagging any transaction that does not meet established criteria.\r\n\r\nExample: A logic engine that automatically approves a standard consultation claim but flags a high-cost MRI if no prior authorization was recorded.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

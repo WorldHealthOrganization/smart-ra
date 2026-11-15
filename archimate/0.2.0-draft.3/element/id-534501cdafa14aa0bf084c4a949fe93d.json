@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-534501cdafa14aa0bf084c4a949fe93d",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-534501cdafa14aa0bf084c4a949fe93d",
+  "schema:name": "Data protection & privacy enforcement",
+  "schema:description": "This capability involves the technical and administrative controls used to enforce privacy policies and protect sensitive data from unauthorized disclosure. It includes encryption, data masking, and the automated enforcement of patient consent settings.\r\n\r\nThe purpose is to ensure that the health system remains compliant with national and international data protection laws. It builds citizen trust by providing tangible proof that their sensitive financial and medical data is being handled ethically and securely.\r\n\r\nExample: A privacy service that automatically encrypts a patient's diagnosis and prescription data whenever it is shared with an insurance auditor.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

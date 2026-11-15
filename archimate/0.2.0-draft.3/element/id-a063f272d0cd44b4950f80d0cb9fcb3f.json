@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a063f272d0cd44b4950f80d0cb9fcb3f",
+  "@type": "archimate:Product",
+  "schema:identifier": "id-a063f272d0cd44b4950f80d0cb9fcb3f",
+  "schema:name": "Consent Management Dashboard",
+  "schema:description": "This product is a user-facing interface that allows patients to manage their data sharing preferences and review who has accessed their records. It provides a transparent view of the consent lifecycle.\r\n\r\nThe purpose is to give patients tangible control over their privacy and ensure they are informed about their data usage. It is a key tool for driving patient engagement and agency in the digital health system.\r\n\r\nExample: A web-based \"Privacy Manager\" where patients can revoke a specific hospital’s access to their past prescriptions.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4aa0243ada294cb5844631bca19f54d4",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4aa0243ada294cb5844631bca19f54d4",
+  "schema:name": "Workflow / BPM engine",
+  "schema:description": "An essential application component that orchestrates, automates, and monitors the execution of multi-step healthcare financial and administrative processes. This Business Process Management (BPM) engine coordinates the flow of tasks between human users and interconnected software systems, executing pre-configured business rules, tracking the lifecycle of digital documents, and automatically advancing tasks to the next logical step based on current data states.\r\n\r\nIts primary purpose is to enforce institutional compliance, eliminate operational bottlenecks, and establish absolute accountability across complex administrative processes. By formalizing ad-hoc workflows into rigid digital tracks, it prevents critical steps from being bypassed, accelerates processing speeds, and automatically logs a tamper-evident audit trail for every single touchpoint, amendment, or approval.\r\n\r\nExample: A ministry of health utilizes a centralized Workflow/BPM engine component to handle medical procurement requests; when a hospital submits an emergency order for surgical supplies, the engine automatically routes the file to the compliance team for review, checks it against the available budget limit, triggers a digital sign-off request to the regional director, and releases the purchase order—escalating the task to a senior supervisor if any bottleneck occurs for more than 24 hours.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

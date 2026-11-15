@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-united-states-f02f9f",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-united-states-f02f9f",
+  "kind": "prose",
+  "cites": [
+    "references/cdc-cdsi",
+    "references/cdc-nssp"
+  ],
+  "text": "p-d-2-united-states-f02f9f.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1060,
+      "page": 245,
+      "printedPage": "234",
+      "lineStart": 197,
+      "lineEnd": 202,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

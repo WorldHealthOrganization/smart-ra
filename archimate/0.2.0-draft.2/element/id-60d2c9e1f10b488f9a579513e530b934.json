@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-60d2c9e1f10b488f9a579513e530b934",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-60d2c9e1f10b488f9a579513e530b934",
+  "schema:name": "Facility Registry",
+  "schema:description": "The Facility Registry metadata component maintains structured information about health facilities, such as ownership, location, operational status, and identifiers. It provides the metadata necessary to authenticate a facility’s role in the ecosystem.\r\n\r\nIts purpose is to supply the context needed for data provenance and verification of health services. It ensures that every clinical event is attributed to a specific, verified healthcare delivery site.\r\n\r\nExample: Metadata describing a facility as a \"Level 3 General Hospital\" with a specific geographic coordinate and license number.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

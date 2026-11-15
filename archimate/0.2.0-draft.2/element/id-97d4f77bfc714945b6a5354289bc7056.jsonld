@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-97d4f77bfc714945b6a5354289bc7056",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-97d4f77bfc714945b6a5354289bc7056",
+  "schema:name": "Feedback & Alerting Component",
+  "schema:description": "This application component delivers automated notifications, warnings, reminders, and performance feedback related to healthcare quality and patient safety events. It supports real-time communication of quality concerns and corrective actions.\r\n\r\nThe purpose is to enable timely awareness and response to quality issues and operational risks. It also improves coordination and accountability in quality management processes.\r\n\r\nExample: Healthcare providers receive automated alerts when patient safety incidents exceed predefined thresholds.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

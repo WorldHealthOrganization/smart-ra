@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0b566915f86f43cdbed99825a3dcc8a9",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-0b566915f86f43cdbed99825a3dcc8a9",
+  "schema:name": "Multi-factor Authentication (MFA)",
+  "schema:description": "MFA is a security component that requires users to provide two or more forms of verification to access a health financing system. It typically combines something the user knows (password) with something they have (a code on their phone).\r\n\r\nIts purpose is to provide a robust defense against unauthorized access and account takeovers by cybercriminals. It is a critical safeguard for protecting sensitive financial data and the integrity of national health budgets.\r\n\r\nExample: A budget officer being required to provide a fingerprint scan and a mobile app code to authorize a large fund transfer.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

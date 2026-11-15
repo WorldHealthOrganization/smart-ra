@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-aca744c82f504bd1b825e022d1f802fa",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-aca744c82f504bd1b825e022d1f802fa",
+  "schema:name": "1.0 Event Detection and Case Notification",
+  "schema:description": "Ad-hoc ingestion, triage, and filtering of unstructured or semi-structured information regarding potential, unverified public health risks\r\n\r\nExample: Tracking and triage of data across multiple hospitals and identification of patterns which may lead to a public health risk",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

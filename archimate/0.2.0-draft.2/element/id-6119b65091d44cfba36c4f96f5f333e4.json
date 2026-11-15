@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-6119b65091d44cfba36c4f96f5f333e4",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-6119b65091d44cfba36c4f96f5f333e4",
+  "schema:name": "Secure audit logging",
+  "schema:description": "An advanced technical capability that ensures every system transaction, administrative access request, data modification, and financial event within the health network is permanently recorded inside a fortified, highly protected logging architecture. This capability isolates the logging mechanism from the primary database or application environment, applying strict access controls, immediate off-site replication, and cryptographic sealing to prevent any user—including system administrators or malicious intruders—from altering, deleting, or disabling the recorded history.\r\n\r\nIts primary purpose is to preserve the integrity of the system's digital footprint as an absolute source of forensic truth. By creating an impenetrable perimeter around system logs, it guarantees that if a financial breach, data leak, or unauthorized configuration change occurs, the historical record remains completely intact and uncorrupted, allowing security teams and external auditors to determine precisely what happened, when it occurred, and who was responsible.\r\n\r\nExample: A cyberattacker gains administrative credentials to a state health insurance database and attempts to manipulate reimbursement logs to cover up a fraudulent payout; however, because the infrastructure utilizes a secure audit logging capability, the logs are instantly streamed and cryptographically locked in a read-only, off-site repository. The attacker's attempts to clear the local server logs fail to erase the off-site evidence, alerting security operations and providing a pristine audit trail of the breach.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

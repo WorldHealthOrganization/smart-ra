@@ -1,0 +1,108 @@
+classDiagram
+  %% WHO Models: metamodel in use, derived by archimate-metamodel. Do not edit.
+  class Value["Value"]
+  <<Motivation>> Value
+  class BusinessProcess["Business Process"]
+  <<Business>> BusinessProcess
+  class Stakeholder["Stakeholder"]
+  <<Motivation>> Stakeholder
+  class Goal["Goal"]
+  <<Motivation>> Goal
+  class Outcome["Outcome"]
+  <<Motivation>> Outcome
+  class BusinessFunction["Business Function"]
+  <<Business>> BusinessFunction
+  class ApplicationComponent["Application Component"]
+  <<Application>> ApplicationComponent
+  class ApplicationService["Application Service"]
+  <<Application>> ApplicationService
+  class Capability["Capability"]
+  <<Strategy>> Capability
+  class ValueStream["Value Stream"]
+  <<Strategy>> ValueStream
+  class ApplicationFunction["Application Function"]
+  <<Application>> ApplicationFunction
+  class DataObject["Data Object"]
+  <<Application>> DataObject
+  class Driver["Driver"]
+  <<Motivation>> Driver
+  class Grouping["Grouping"]
+  <<Other>> Grouping
+  class WorkPackage["Work Package"]
+  <<Implementation & Migration>> WorkPackage
+  class BusinessActor["Business Actor"]
+  <<Business>> BusinessActor
+  class Product["Product"]
+  <<Business>> Product
+  Stakeholder -- Value : associated with ×99
+  Value ..> Outcome : influences ×92
+  Outcome ..|> Goal : realises ×64
+  BusinessFunction *-- BusinessProcess : composed of ×62
+  ApplicationComponent ..> ApplicationComponent : flows to ×42
+  ApplicationService ..|> Capability : realises ×30
+  Goal *-- Goal : composed of ×29
+  ApplicationComponent ..|> ApplicationService : realises ×22
+  Capability ..|> Outcome : realises ×21
+  Grouping *-- Goal : composed of ×20
+  ApplicationService ..> ApplicationComponent : flows to ×17
+  Capability ..|> Grouping : realises ×13
+  ValueStream --> ValueStream : triggers ×13
+  ApplicationService --> ApplicationFunction : serves ×12
+  BusinessFunction -- BusinessFunction : associated with ×9
+  ValueStream ..|> Goal : realises ×9
+  BusinessFunction -- Capability : associated with ×8
+  Driver ..> Goal : influences ×8
+  Goal ..> Value : influences ×8
+  Value -- Stakeholder : associated with ×8
+  ValueStream -- BusinessFunction : associated with ×8
+  WorkPackage ..|> Goal : realises ×8
+  ApplicationFunction --> ApplicationComponent : serves ×6
+  BusinessFunction ..|> Capability : realises ×6
+  BusinessFunction --> ApplicationService : serves ×6
+  Capability -- ValueStream : associated with ×6
+  Stakeholder *-- Stakeholder : composed of ×6
+  Value -- Grouping : associated with ×6
+  ApplicationComponent ..> DataObject : accesses ×5
+  ApplicationComponent --> ApplicationFunction : assigned to ×5
+  ApplicationComponent ..> ApplicationService : flows to ×5
+  Capability -- BusinessFunction : associated with ×5
+  ApplicationComponent ..|> ApplicationFunction : realises ×4
+  Capability *-- Capability : composed of ×4
+  Grouping o-- Driver : aggregates ×4
+  Outcome -- Outcome : associated with ×4
+  Value -- Driver : associated with ×4
+  ApplicationComponent ..> Grouping : accesses ×3
+  ApplicationFunction ..|> ApplicationService : realises ×3
+  ApplicationService --> Product : serves ×3
+  Capability ..> Goal : influences ×3
+  Capability --> Capability : serves ×3
+  Goal ..> Goal : influences ×3
+  Outcome o-- Outcome : aggregates ×3
+  Product ..|> Capability : realises ×3
+  Value -- Outcome : associated with ×3
+  ApplicationComponent ..> ApplicationFunction : flows to ×2
+  ApplicationComponent --> ApplicationComponent : serves ×2
+  ApplicationFunction ..> ApplicationComponent : flows to ×2
+  ApplicationService ..> ApplicationService : flows to ×2
+  ApplicationService --> ApplicationComponent : serves ×2
+  Goal *-- Grouping : composed of ×2
+  Stakeholder ..> Driver : influences ×2
+  ValueStream *-- ValueStream : composed of ×2
+  ApplicationFunction ..|> Capability : realises ×1
+  BusinessActor --> Stakeholder : assigned to ×1
+  BusinessProcess -- BusinessFunction : associated with ×1
+  BusinessProcess ..|> Capability : realises ×1
+  BusinessProcess --> ApplicationService : serves ×1
+  Goal o-- Goal : aggregates ×1
+  Grouping o-- Outcome : aggregates ×1
+  Grouping ..> Grouping : influences ×1
+  Grouping ..|> Grouping : realises ×1
+  Outcome o-- Grouping : aggregates ×1
+  Outcome -- Capability : associated with ×1
+  Outcome *-- Outcome : composed of ×1
+  Outcome ..> Outcome : influences ×1
+  Stakeholder -- BusinessActor : associated with ×1
+  Stakeholder ..> Goal : influences ×1
+  Stakeholder ..> Stakeholder : influences ×1
+  Value ..> Stakeholder : influences ×1
+  ValueStream -- BusinessProcess : associated with ×1

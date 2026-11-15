@@ -1,0 +1,394 @@
+{
+  "$schema": "folio-library-document/v1",
+  "id": "mehl-2023-full-stac-oqad018",
+  "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+  "variant": "pdf",
+  "pages": 5,
+  "tocSource": "outline",
+  "tocMethod": null,
+  "toc": [
+    {
+      "level": 1,
+      "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "number": null,
+      "page": 1,
+      "pageLabel": "1",
+      "confidence": null,
+      "evidence": null,
+      "source": "outline",
+      "section": "sec-000-a-full-stac-remedy-for-global-digital-health-tra"
+    },
+    {
+      "level": 2,
+      "title": "CONFLICT OF INTEREST",
+      "number": null,
+      "page": 4,
+      "pageLabel": "4",
+      "confidence": null,
+      "evidence": null,
+      "source": "outline",
+      "section": "sec-001-conflict-of-interest"
+    },
+    {
+      "level": 2,
+      "title": "AUTHOR'S CONTRIBUTIONS",
+      "number": null,
+      "page": 4,
+      "pageLabel": "4",
+      "confidence": null,
+      "evidence": null,
+      "source": "outline",
+      "section": "sec-002-authors-contributions"
+    },
+    {
+      "level": 2,
+      "title": "DATA AVAILABILITY",
+      "number": null,
+      "page": 4,
+      "pageLabel": "4",
+      "confidence": null,
+      "evidence": null,
+      "source": "outline",
+      "section": "sec-003-data-availability"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-front-matter",
+      "number": null,
+      "title": "Front matter",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "labelStart": "1",
+      "labelEnd": "1",
+      "words": 72,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "oxford",
+          "heading": false
+        },
+        {
+          "term": "creative",
+          "heading": false
+        },
+        {
+          "term": "accepted",
+          "heading": false
+        }
+      ],
+      "extract": "Received: August 8, 2023. Revised: October 2, 2023. Accepted: November 7, 2023 © The Author(s) 2023. Published by Oxford University Press. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "extractCut": true,
+      "blocks": [
+        "library/mehl-2023-full-stac-oqad018/blocks/prose-sec-front-matter"
+      ]
+    },
+    {
+      "id": "sec-000-a-full-stac-remedy-for-global-digital-health-tra",
+      "number": null,
+      "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 4,
+      "labelStart": "1",
+      "labelEnd": "4",
+      "words": 2554,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "open technologies",
+          "heading": true
+        },
+        {
+          "term": "full-stac remedy",
+          "heading": true
+        },
+        {
+          "term": "open content",
+          "heading": true
+        },
+        {
+          "term": "open architectures",
+          "heading": true
+        },
+        {
+          "term": "open standards",
+          "heading": true
+        },
+        {
+          "term": "full-stac approach",
+          "heading": false
+        },
+        {
+          "term": "software developers",
+          "heading": false
+        },
+        {
+          "term": "global strategy",
+          "heading": false
+        }
+      ],
+      "extract": "transformation: open standards, technologies, architectures and content Garrett L Mehl 1, *,†, Martin G Seneviratne2,†, Matt L Berg3, Suhel Bidani4, Rebecca L Distler5, Marelize Gorgens6, Karin E Kallander7, Alain B Labrique1, Mark S Landry8, Carl Leitner1, Peter B Lubell-Doughtie3, Alvin B Marcelo 9, Yossi Matias10, Jennifer Nelson11, Von Nguyen12, Jean Philbert Nsengimana13, Maeghan Orton14, Daniel R Otzoy",
+      "extractCut": true
+    },
+    {
+      "id": "sec-001-conflict-of-interest",
+      "number": null,
+      "title": "CONFLICT OF INTEREST",
+      "level": 2,
+      "pageStart": 4,
+      "pageEnd": 4,
+      "labelStart": "4",
+      "labelEnd": "4",
+      "words": 55,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "authors",
+          "heading": false
+        },
+        {
+          "term": "views",
+          "heading": false
+        },
+        {
+          "term": "interest",
+          "heading": true
+        }
+      ],
+      "extract": "The authors declare that they have no conflicts of interest regard- ing the research, authorship and/or publication of this article. Authors are participating in their personal capacity and the views expressed in this publication are those of the authors and do not necessarily represent the views of the funding agencies, the companies, or institutions mentioned.",
+      "extractCut": false
+    },
+    {
+      "id": "sec-002-authors-contributions",
+      "number": null,
+      "title": "AUTHOR'S CONTRIBUTIONS",
+      "level": 2,
+      "pageStart": 4,
+      "pageEnd": 4,
+      "labelStart": "4",
+      "labelEnd": "4",
+      "words": 65,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "contributed",
+          "heading": false
+        },
+        {
+          "term": "review",
+          "heading": false
+        },
+        {
+          "term": "original",
+          "heading": false
+        }
+      ],
+      "extract": "G.M., M.S., F.H. and C.L. wrote the original draft and contributed to the conceptualization, review and editing of the manuscript. M.B., K.K., M.L., J.P.N., M.S., D.S., N.R. contributed to the conceptualiza- tion,review and editing of the manuscript. S.B.,R.D.,A.M.,Y.M.,J.N., V.N., M.O., D.R.O.G., D.R.O., S.R., J.T., B.T., S.W., A.L., M.G. contributed to the review and editing of the manuscript. P.L. contributed to",
+      "extractCut": true
+    },
+    {
+      "id": "sec-003-data-availability",
+      "number": null,
+      "title": "DATA AVAILABILITY",
+      "level": 2,
+      "pageStart": 4,
+      "pageEnd": 5,
+      "labelStart": "4",
+      "labelEnd": "5",
+      "words": 1234,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "united nations",
+          "heading": false
+        },
+        {
+          "term": "keyword google",
+          "heading": false
+        },
+        {
+          "term": "world bank",
+          "heading": false
+        },
+        {
+          "term": "strategy overview",
+          "heading": false
+        },
+        {
+          "term": "smart guidelines",
+          "heading": false
+        },
+        {
+          "term": "african union",
+          "heading": false
+        },
+        {
+          "term": "fhir api",
+          "heading": false
+        },
+        {
+          "term": "pdf",
+          "heading": false
+        }
+      ],
+      "extract": "No new data were generated or analyzed in support of this research. REFERENCES 1. African Union. African Union Health Information Exchange Guidelines and Standards. Addis Ababa: African Union, 2023. https://africacdc.org/download/african-union-health- information-exchange-guidelines-and-standards/. 2. Argentina Ministry of Health . “Argentina FHIR Core profile.” 2021.",
+      "extractCut": true
+    }
+  ],
+  "checks": {
+    "figureSequenceGaps": [],
+    "pageLabelConflicts": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "withheld": false,
+  "keywords": [
+    {
+      "term": "oxford open",
+      "heading": false
+    },
+    {
+      "term": "world bank",
+      "heading": false
+    },
+    {
+      "term": "keyword google",
+      "heading": false
+    },
+    {
+      "term": "open technologies",
+      "heading": true
+    },
+    {
+      "term": "oxford university",
+      "heading": false
+    },
+    {
+      "term": "open standards",
+      "heading": true
+    },
+    {
+      "term": "open content",
+      "heading": true
+    },
+    {
+      "term": "global strategy",
+      "heading": false
+    },
+    {
+      "term": "open architectures",
+      "heading": true
+    },
+    {
+      "term": "open access",
+      "heading": false
+    },
+    {
+      "term": "smart guidelines",
+      "heading": false
+    },
+    {
+      "term": "open source",
+      "heading": false
+    }
+  ],
+  "pageLabels": [
+    {
+      "physical": 1,
+      "label": "1",
+      "source": "pdf-labels",
+      "confidence": 0.7
+    },
+    {
+      "physical": 2,
+      "label": "2",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 3,
+      "label": "3",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 4,
+      "label": "4",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 5,
+      "label": "5",
+      "source": "printed",
+      "confidence": 0.85
+    }
+  ],
+  "figures": [
+    {
+      "kind": "figure",
+      "number": "1",
+      "title": "A ‘full-STAC’ remedy for global digital health transformation comprising open standards, technologies, architectures and content [ 8, 11, 20, 28, 36]",
+      "page": 2,
+      "pageLabel": "2",
+      "confidence": 0.9,
+      "evidence": [
+        "referenced",
+        "in-sequence",
+        "graphic"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "found",
+      "count": 4,
+      "note": "outline"
+    },
+    {
+      "kind": "sections",
+      "state": "found",
+      "count": 5,
+      "note": "2 levels"
+    },
+    {
+      "kind": "figures",
+      "state": "partial",
+      "count": 0,
+      "note": "1 captioned in the text, none kept"
+    },
+    {
+      "kind": "tables",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "a references section is in the text (p4); its entries are not extracted"
+    },
+    {
+      "kind": "glossary",
+      "state": "none",
+      "note": "no such heading in the text"
+    },
+    {
+      "kind": "footnotes",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "summaries",
+      "state": "not-extracted",
+      "count": 0,
+      "note": "0 of 5 sections"
+    }
+  ],
+  "links": {
+    "repo": "litlfred/smart-ra",
+    "branch": "main",
+    "dir": "library/mehl-2023-full-stac-oqad018"
+  }
+}

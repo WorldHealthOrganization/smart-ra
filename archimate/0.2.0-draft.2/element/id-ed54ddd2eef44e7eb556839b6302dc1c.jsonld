@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ed54ddd2eef44e7eb556839b6302dc1c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ed54ddd2eef44e7eb556839b6302dc1c",
+  "schema:name": "Interoperability Gateway Service",
+  "schema:description": "An Interoperability Gateway Service is a secure data-translation hub designed to connect disparate healthcare systems by standardizing and formatting medical data into mutually understood languages like HL7 or FHIR.\r\n\r\nIts primary purpose is to eliminate data silos in public health infrastructure, ensuring that patient records, lab results, and surveillance data can flow instantly and securely between private clinics, hospital networks, and government agencies.\r\n\r\nExample: When a private hospital logs a positive tuberculosis lab result using its proprietary software, the gateway instantly translates that record into a compliant public health format and transmits it directly to the state's infectious disease database without manual entry.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

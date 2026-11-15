@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f49ca46488854076b5e481f93de34601",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-f49ca46488854076b5e481f93de34601",
+  "schema:name": "Consent Management and Data Protection Infrastructure",
+  "schema:description": "Automated process of capturing, tracking, and honoring a patient's preferences regarding how their Protected Health Information (PHI) and Personally Identifiable Information (PII) is handled.\r\n\r\nExample: Patients are classified in system databases according to their preference on the handling of their information; each classification having a set of business rules encoded to handle data accordingly",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

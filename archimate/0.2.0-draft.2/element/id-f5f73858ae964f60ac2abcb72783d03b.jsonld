@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f5f73858ae964f60ac2abcb72783d03b",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-f5f73858ae964f60ac2abcb72783d03b",
+  "schema:name": "Demonstrable privacy compliance through evidence logs and reports.",
+  "schema:description": "This outcome is the production of tangible evidence, such as logs and summaries, that prove the health system is following its established privacy policies. It moves beyond \"having rules\" to providing data-driven proof that those rules are consistently followed.\r\n\r\nIt provides the legal and technical assurance needed to satisfy regulators, patients, and donors that their data is being handled ethically. These reports act as the primary evidence during privacy litigation or for obtaining international regulatory certifications.\r\n\r\nExample: An automated weekly report that confirms all data access requests from the past seven days matched a valid patient consent record.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

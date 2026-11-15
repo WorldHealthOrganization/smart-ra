@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-6f3358eb379144f3826b2c51ff66493a",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-6f3358eb379144f3826b2c51ff66493a",
+  "schema:name": "Code & master-data management (ability to standardize and manage financial classifications)",
+  "schema:description": "An essential data governance capability achieved by establishing, updating, and enforcing a single, standardized set of financial codes and classifications across the entire healthcare ecosystem. This centralized management framework unifies disparate accounting systems by creating a shared vocabulary for line items, program categories, facility types, and geographic locations.\r\n\r\nIts primary purpose is to ensure absolute data consistency and comparability across all financial reporting and oversight bodies. By eliminating fragmented or custom coding practices, it prevents data siloes, simplifies the consolidation of national health accounts, and enables seamless automated auditing.\r\n\r\nExample: When a ministry of health introduces a new telemedicine program, the master-data management system instantly distributes a unified budget code to every regional clinic, ensuring that all remote-care expenses are classified identically nationwide rather than being buried under mismatched local administrative categories.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

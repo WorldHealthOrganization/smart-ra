@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-5042de9f2a5d44e9a8e7b94af886a9c2",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-5042de9f2a5d44e9a8e7b94af886a9c2",
+  "schema:name": "Terminology Service",
+  "schema:description": "The Terminology Service is a server that manages standardized clinical codes, value sets, and concept mappings such as SNOMED CT, ICD, or LOINC. It provides a central source for the medical vocabularies used to represent health data consistently across all systems.\r\n\r\nIts purpose is to ensure consistent and interoperable representation of clinical information across all patient records and health systems. It enables semantic interoperability, allowing different systems to understand medical data regardless of the originating software.\r\n\r\nExample: A service that maps a local hospital's internal \"chest pain\" code to the international standard ICD-10 or SNOMED CT code.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

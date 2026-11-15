@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clarify SGI as an institutional capability with an operating model — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-1942ojf7xau.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-1942ojf7xau","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-055/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Clarify SGI as an institutional capability with an operating model</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-055.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0084/">PC-0084</a></td><td class="s">received</td><td class="t">SGI addresses a critical interoperability challenge but implementation arrangements need clarification.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0111/">PC-0111</a></td><td class="s">received</td><td class="t">The document never explicitly resolves where the Semantic Governance Infrastructure (SGI) sits in the governance hierar…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0113/">PC-0113</a></td><td class="s">received</td><td class="t">The governance/runtime/content three-layer model introduced here is not cross-referenced to the strategic/operational g…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0114/">PC-0114</a></td><td class="s">received</td><td class="t">The three-layer model (governance layer, runtime layer, content/application layer) introduced in lines 419–431 is edito…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0115/">PC-0115</a></td><td class="s">received</td><td class="t">The term &quot;layered&quot; is reused here for regional-vs-national governance (&quot;Layered governance,&quot; 511) after 3.4.5 already e…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0170/">PC-0170</a></td><td class="s">received</td><td class="t">SGI presupposes sustained institutional capacity (committees, curation, release management) that is scarcest in the LMI…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0486/">PC-0486</a></td><td class="s">received</td><td class="t">Semantic governance is described in institutional terms without addressing who staffs it. Standards and terminology com…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0670/">PC-0670</a></td><td class="s">received</td><td class="t">The topic requires considerable tougth, and is some what simplified in text and figure. We recommend to include and bui…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0708/">PC-0708</a></td><td class="s">received</td><td class="t">SGI presupposes sustained institutional capacity (committees, curation, release management) that is scarcest in the LMI…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0904/">PC-0904</a></td><td class="s">received</td><td class="t">The section provides a strong rationale for semantic governance, but SGI is described both as an “infrastructure” and a…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0910/">PC-0910</a></td><td class="s">received</td><td class="t">The three-layer model uses “content and application layer” for clinical systems, analytics platforms, and applications.…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2329/">PC-2329</a></td><td class="s">received</td><td class="t">Appendix F provides useful detail on semantic-governance capabilities, but it does not restate clearly that SGI is an i…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2330/">PC-2330</a></td><td class="s">received</td><td class="t">The appendix does not sufficiently explain how ministries, architecture teams, terminology centres, standards bodies, p…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2331/">PC-2331</a></td><td class="s">received</td><td class="t">The five categories provide a helpful lifecycle, but they may be interpreted as a fixed sequential process. Monitoring,…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2332/">PC-2332</a></td><td class="s">received</td><td class="t">Terms such as intake, authoring, publication, monitoring, distribution, and consumption may be clear to semantic specia…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2339/">PC-2339</a></td><td class="s">received</td><td class="t">The appendix does not address the recurrent financing and staffing needed to maintain semantic assets after initial pub…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2341/">PC-2341</a></td><td class="s">received</td><td class="t">The capability descriptions do not consistently distinguish policy, process, service, technology, and artefact.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2417/">PC-2417</a></td><td class="s">received</td><td class="t">Distribution services require accountable ownership, monitoring, backup, recovery, support, and recurrent funding.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2442/">PC-2442</a></td><td class="s">received</td><td class="t">No financial or workforce model accompanies the capability catalogue.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2445/">PC-2445</a></td><td class="s">received</td><td class="t">“Content,” “artefact,” “model,” “standard,” and “semantic asset” may be used interchangeably.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2457/">PC-2457</a></td><td class="s">received</td><td class="t">Dependence on one software platform, supplier, terminology licence, or small specialist team could undermine semantic-g…</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-055</dd>
+<dt>title</dt><dd>Clarify SGI as an institutional capability with an operating model</dd>
+<dt>requirements</dt><dd>- State at the start of Appendix F that SGI is an institutional and operational framework supported by tools, not a single software platform
+- Describe the recurrent staffing, tooling, licensing and translation costs of maintaining semantic assets after first publication
+- State where SGI decisions sit relative to strategic and operational governance and the 3.4.4 escalation path
+- Give governance models and responsibilities, drawing on WHO-FIC and HL7 experience
+- State prominently that SGI is a governance capability supported by tools, or consider a name without &#39;infrastructure&#39;
+- Explain how ministries, architecture teams, terminology centres and procurement teams use the catalogue (assessment, target design, role assignment)
+- Give indicative minimum staffing patterns and options for regional pooling of semantic governance
+- Relate the governance/runtime/content layers to the architecture framework used elsewhere in the document</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0084&quot;,
+  &quot;PC-0111&quot;,
+  &quot;PC-0113&quot;,
+  &quot;PC-0114&quot;,
+  &quot;PC-0115&quot;,
+  &quot;PC-0170&quot;,
+  &quot;PC-0486&quot;,
+  &quot;PC-0670&quot;,
+  &quot;PC-0708&quot;,
+  &quot;PC-0904&quot;,
+  &quot;PC-0910&quot;,
+  &quot;PC-2329&quot;,
+  &quot;PC-2330&quot;,
+  &quot;PC-2331&quot;,
+  &quot;PC-2332&quot;,
+  &quot;PC-2339&quot;,
+  &quot;PC-2341&quot;,
+  &quot;PC-2417&quot;,
+  &quot;PC-2442&quot;,
+  &quot;PC-2445&quot;,
+  &quot;PC-2457&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 21 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

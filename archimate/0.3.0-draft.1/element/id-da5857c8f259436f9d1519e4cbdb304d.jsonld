@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-da5857c8f259436f9d1519e4cbdb304d",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-da5857c8f259436f9d1519e4cbdb304d",
+  "schema:name": "Application Service",
+  "schema:description": "An explicitly defined application behavior. An application service exposes the functionality of components to their environment. \n\n\nIt is the IT functionality that fulfills the business outcome. Application services are expressed as useful units of behavior. They link business capabilities to the application that enables them.\n\nFor example, “Consent Management Service” or “FHIR API Service”. \n\nThis functionality is accessed through one or more application interfaces and is realized by one or more application functions that are performed by the component. It may require, use, and produce data objects. An application service should be meaningful from the point of view of the environment; it should provide a unit of behavior that is, in itself, useful to its users. It has a purpose that states this utility to the environment in terms of the value it delivers, modeled as a value element associated with the service. This means that if this environment includes business processes, application services should have business relevance. An application service may serve business, application, and technology behavior or active structure elements. An application function or process may realize an application service. An application interface may be assigned to an application service. An application service may access data objects. The name of an application service should preferably be a verb ending with “-ing”; e.g., “transaction processing”. Also, a name explicitly containing the word “service” may be used.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

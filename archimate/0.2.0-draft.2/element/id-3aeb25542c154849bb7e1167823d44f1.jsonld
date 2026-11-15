@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-3aeb25542c154849bb7e1167823d44f1",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-3aeb25542c154849bb7e1167823d44f1",
+  "schema:name": "Patient History Integration",
+  "schema:description": "The ability to aggregate and present a patient's longitudinal health record from various sources.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

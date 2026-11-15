@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-482568219aef4e43923117c96515e74b",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-482568219aef4e43923117c96515e74b",
+  "schema:name": "Client Registry ",
+  "schema:description": "Client Registry (Master Patient Index, Identity Provider). Manages metadata about patients or clients, demographic details, unique identifiers, and relationships among records (e.g., merged or linked identities). Provides unique, verifiable patient identity to link records across sources.\r\n\r\n \r\n \t\r\nClient Registry (Master Patient Index, Identity Provider)\r\n2.1 Identification and registration of persons (2.1.1 to 2.1.2)\r\n2.2 Person-centred health records (2.2.1 to 2.2.4)\r\n2.4 Telemedicine (2.4.1 to 2.4.4) patient identity required for linking with provider\r\n2.9 Prescription and medication management (2.9.1 to 2.9.3) identifies correct patient record\r\n2.10 Laboratory and diagnostics imaging (2.10.1 to 2.10.4) associates test results to correct patient\r\n3.8.1 Register and store current health certificate\r\n3.8.2 Retrieve and validate current health certificate\r\n3.8.3 Revoke and update health certificate",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

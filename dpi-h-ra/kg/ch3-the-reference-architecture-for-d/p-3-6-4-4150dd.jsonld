@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-3-6-4-4150dd",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:3-6-4-4150dd",
+  "kind": "prose",
+  "cites": [
+    "references/ec-cross-border-health-services",
+    "references/ehn-guidelines-eprescriptions",
+    "references/ehn-guidelines-patient-summary",
+    "references/eu-2025-327-ehds"
+  ],
+  "text": "p-3-6-4-4150dd.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 378,
+      "page": 88,
+      "printedPage": "77",
+      "lineStart": 914,
+      "lineEnd": 924,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

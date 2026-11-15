@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-27dfaa36a3ad48c0a7d3c7407129f4e9",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-27dfaa36a3ad48c0a7d3c7407129f4e9",
+  "schema:name": " Budget execution reports with actionable insights (by program, geography, facility)",
+  "schema:description": "A detailed financial reporting outcome achieved by combining raw expenditure data with descriptive programmatic, geographic, and facility-level context. This structured approach moves beyond basic balance sheets by automatically highlighting spending variances, trends, and anomalies across different operational sectors.\r\n\r\nIts primary purpose is to transform dense accounting numbers into clear, operational intelligence for healthcare administrators. By pinpointing exactly where funds are being underutilized or overspent, it enables managers to make swift, targeted operational adjustments rather than broad, unguided budget cuts.\r\n\r\nExample: A monthly budget execution report flags that a specific rural clinic has spent 140% of its maternal health allocation due to an unexpected influx of patients, allowing regional directors to instantly redirect surplus funds from an underutilized urban facility to cover the shortfall.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

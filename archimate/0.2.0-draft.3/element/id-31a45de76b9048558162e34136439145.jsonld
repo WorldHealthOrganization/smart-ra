@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-31a45de76b9048558162e34136439145",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-31a45de76b9048558162e34136439145",
+  "schema:name": "Beneficiary registry",
+  "schema:description": "The beneficiary registry is a master database containing the identities and profiles of individuals enrolled in health insurance or social protection schemes. It tracks each member’s unique health identifier and their current enrollment status.\r\n\r\nIts purpose is to provide an authoritative source for identifying who is entitled to receive health benefits. It is critical for managing population coverage and ensuring that health subsidies reach the intended recipients accurately.\r\n\r\nExample: A national health insurance database that lists all 5 million citizens eligible for the universal health coverage program.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

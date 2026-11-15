@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-3f2316ec107d46a89f2871d2d4ba8d21",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-3f2316ec107d46a89f2871d2d4ba8d21",
+  "schema:name": "Interoperability Middleware",
+  "schema:description": "A specialized software layer that connects disparate, otherwise incompatible computer applications, databases, and devices. It extracts data from a source system, translates it into a standardized format, and routes it to a destination system without requiring the core architecture of either system to be modified\r\n\r\nExample: Ensuring all applications used are intergrated with one another, having a centralized database",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

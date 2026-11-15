@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0fb6f3e59345460787c033758caaab09",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-0fb6f3e59345460787c033758caaab09",
+  "schema:name": "Verified privacy controls and audit-ready posture. ",
+  "schema:description": "This signifies that all technical and administrative safeguards for protecting data privacy are fully operational and can be proven at any time. It means the health system is designed to be \"always ready\" for a rigorous external or regulatory audit.\r\n\r\nIt ensures that the health system remains compliant with national and international data protection regulations such as GDPR or HIPAA. An audit-ready posture reduces the time and cost of regulatory reviews and demonstrates a commitment to patient privacy.\r\n\r\nExample: A system that can generate a complete data-access report for any specific patient within minutes during a surprise regulatory audit.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

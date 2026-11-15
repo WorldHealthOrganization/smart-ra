@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-77485854b8854e85bbec13dd0fbca02e",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-77485854b8854e85bbec13dd0fbca02e",
+  "schema:name": "Master Data Management (MDM) service",
+  "schema:description": "An essential application component that serves as the single, authoritative data hub for creating, maintaining, and distributing core reference entities across the entire healthcare ecosystem. This component operates as a centralized master registry—managing foundational data assets such as the official health facility registry, the healthcare provider index, and standardized medical/financial codes—while leveraging automated synchronization mechanisms to push updates to all interconnected systems.\r\n\r\nIts primary purpose is to eliminate data silos and guarantee complete semantic consistency across disparate software applications. By enforcing strict data stewardship rules, resolving duplicate entries, and tracking version history, it ensures that every department—from payroll and procurement to epidemiology—identifies the exact same clinic, worker, or budget line item using an identical, uncorrupted master key.\r\n\r\nExample: A ministry of health implements a centralized MDM component that issues a single, permanent unique ID to a newly licensed physician; this component automatically propagates the provider's credentials to the national health insurance system for billing, the payroll system for salary, and the clinical portal for electronic signatures, preventing the creation of mismatched, redundant profiles.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e988d4d01b004d10b9af4bc234039272",
+  "@type": "archimate:ValueStream",
+  "schema:identifier": "id-e988d4d01b004d10b9af4bc234039272",
+  "schema:name": "Health Record Management & Maintenance",
+  "schema:description": "This value stream manages the ongoing updates, versioning, and consolidation of a patient's clinical and demographic data. It ensures that fragmented information from different sources is correctly matched and integrated into the primary record.\r\n\r\nThe aim is to maintain the accuracy and clinical integrity of the health record throughout an individual's lifetime. Regular maintenance prevents data duplication and ensures that providers have access to the most current and reliable information.\r\n\r\nExample: The system automatically merging lab results from two different clinics into a single chronological timeline for the patient.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

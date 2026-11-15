@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-798d57278ff44e6b90dd5b9ad2c4e486",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-798d57278ff44e6b90dd5b9ad2c4e486",
+  "schema:name": "Course and Training Catalogue Service",
+  "schema:description": "The self-contained software component within the enterprise application layer that manages the creation, publication, and structured retrieval of all officially recognized educational programs, clinical training modules, and continuing professional development courses.\r\n\r\nThe purpose of this service is to provide a single, standardized repository where educational institutions can publish accredited courses and health workers can discover verified learning opportunities tailored to their career paths.\r\n\r\nExample: \"The Course and Training Catalogue Service enabled a regional hospital's intranet to dynamically pull the latest list of accredited neonatal resuscitation courses directly from the medical school's master schedule.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

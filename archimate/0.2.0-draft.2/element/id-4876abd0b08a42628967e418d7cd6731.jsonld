@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4876abd0b08a42628967e418d7cd6731",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4876abd0b08a42628967e418d7cd6731",
+  "schema:name": "Interoperability Middleware",
+  "schema:description": "Interoperability Middleware is a software layer that facilitates the secure exchange of health information between disparate systems using standardized protocols like FHIR or IHE. It acts as a communication bridge to ensure that different electronic health record systems can talk to each other seamlessly.\r\n\r\nIts purpose is to bridge technical gaps between legacy and modern health IT systems, enabling a unified data flow across the healthcare ecosystem. It ensures that clinical data can be shared across institutional boundaries without requiring a single monolithic system.\r\n\r\nExample: An API gateway that converts a local clinic's proprietary data format into a standard FHIR resource for the national health record.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

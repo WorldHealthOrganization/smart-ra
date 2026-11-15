@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-c986f2c62f214190bf46fbf458752c0c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-c986f2c62f214190bf46fbf458752c0c",
+  "schema:name": "Data aggregation and consolidation",
+  "schema:description": "This service collects clinical and financial data from disparate healthcare facilities and organizes it into a centralized system. It normalizes varying data formats to provide a single, unified view of sector-wide health spending.\r\n\r\nThe objective is to eliminate data silos and provide a consistent foundation for national health reporting. It ensures that decision-makers have access to a comprehensive and accurate dataset for high-level financial oversight.\r\n\r\nExample: A service that merges monthly expenditure reports from 50 regional hospitals into a single national health ledger.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

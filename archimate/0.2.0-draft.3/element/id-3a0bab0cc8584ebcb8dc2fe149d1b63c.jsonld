@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-3a0bab0cc8584ebcb8dc2fe149d1b63c",
+  "@type": "archimate:Product",
+  "schema:identifier": "id-3a0bab0cc8584ebcb8dc2fe149d1b63c",
+  "schema:name": "Continuity of Care Bundle",
+  "schema:description": "Continuity of Care Bundle:\r\nA structured, interoperable digital package (e.g., FHIR-based) including discharge summary, medication list, pending results, and follow-up plan.\r\nReduced readmission rates, duplicated tests and adverse events due to missed information.\r\nImproved provider accountability across care episodes.\r\nPatient-facing discharge/transition plan (simplified language, reminders).\r\nPopulation-level monitoring of transition-of-care quality indicators (e.g., % timely discharge summaries sent, 30-day readmissions).",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

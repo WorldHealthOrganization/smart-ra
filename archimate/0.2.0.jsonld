@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0",
+  "@type": "archimate:Model",
+  "schema:identifier": "0.2.0",
+  "schema:name": "WHO Reference Architecture 0.2.0",
+  "schema:description": "The current ArchiMate model of the DPI-H reference architecture, for the IG's version 0.2.0 (sushi-config.yaml).",
+  "dcterms:identifier": "id-9153c9dfd2314fc79ca46e015fd59169",
+  "schema:contentUrl": "https://litlfred.github.io/smart-ra/archimate/0.2.0/WHOBaseFile.archimate",
+  "schema:hasPart": [
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-2aa7a2e239e8406988adff73e76dcd88",
+      "@type": "archimate:Diagram",
+      "schema:name": "Default View"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-84f16b3860924939af7b99e625a96e5a",
+      "@type": "archimate:Diagram",
+      "schema:name": "Metamodel"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-f6a9d019b02a4865a75ae76a8282fa1d",
+      "@type": "archimate:Diagram",
+      "schema:name": "Metamodel vs EIRA"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-19be800d18a34a618d6e1955cf58e956",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL High Level - Health Workforce"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-007936f8c2424b96ad1893ef0ff66059",
+      "@type": "archimate:Diagram",
+      "schema:name": "1. Central Health Workforce Registry"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-47ad69becbb84be59434bf289bd24a20",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL HRH Conceptual View - Stakeholder"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-6702871f89b641d4823ad05fbd2a4bdb",
+      "@type": "archimate:Diagram",
+      "schema:name": "SUB-GOAL 1. Central Health Workforce Registry "
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-9528f400d14d4ad6b5273a8db4b83a44",
+      "@type": "archimate:Diagram",
+      "schema:name": "Components draft"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-455051f03d504b2e8e6e430bb9719792",
+      "@type": "archimate:Diagram",
+      "schema:name": "Business (draft)"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-4e6e25746e8d4398add06fcbc4fb5a4e",
+      "@type": "archimate:Diagram",
+      "schema:name": "Capabilities-Goals"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-3ad41900b17d47f78129e16d32ed2f38",
+      "@type": "archimate:Diagram",
+      "schema:name": "Components"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-dbcfb8e417294161ac0b1614c2e18cc5",
+      "@type": "archimate:Diagram",
+      "schema:name": "LMIR Overview"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-f7a5524bbac84f1a9cf424754750819d",
+      "@type": "archimate:Diagram",
+      "schema:name": "Metadata Registry Governance"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-cefde7ed0dcd47d3bb214657ac3e5725",
+      "@type": "archimate:Diagram",
+      "schema:name": "SHR"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-4c98f10e0a244315acddaf5257c7822e",
+      "@type": "archimate:Diagram",
+      "schema:name": "CDS"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-8c5dd12b8d4e425184f6003d0513d569",
+      "@type": "archimate:Diagram",
+      "schema:name": "Interoperability Layer"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-0e97a3f6a8f545f5bd90e123c11a2545",
+      "@type": "archimate:Diagram",
+      "schema:name": "Testing"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-b44f768c54ea493c8b33499e5d2e2d33",
+      "@type": "archimate:Diagram",
+      "schema:name": "Conformance"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "@type": "archimate:Diagram",
+      "schema:name": "B"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0/view/id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "@type": "archimate:Diagram",
+      "schema:name": "D"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+@startuml
+' Sub-goal #1 Layered View (id-33696a5526e842909db344363d6d4586): sequence diagram, derived by archimate-diagrams. Do not edit.
+title Sub-goal #1 Layered View
+hide footbox
+participant "DPI-H National Health Workforce Directory/Registry" as id_961cfe0f56b54c5ea4f48c3f34109e0e <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_7862a8939c5a458c9ad1674062700688 <<ApplicationComponent>>
+participant "DPI-F Security & Consent Module" as id_d27a9f9d388544deb73618aaf145251c <<ApplicationComponent>>
+participant "DPI-H: Facility Registry" as id_a3b7a1d2792c400ba0398eb82affaf2d <<ApplicationComponent>>
+participant "Reporting Module" as id_bed24fc6e59048c595b7bde7a22b63f9 <<ApplicationComponent>>
+participant "Terminology Service" as id_e23a136ac7904c02a15f46010f655099 <<ApplicationComponent>>
+id_961cfe0f56b54c5ea4f48c3f34109e0e ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_d27a9f9d388544deb73618aaf145251c ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_a3b7a1d2792c400ba0398eb82affaf2d : flows to DPI-H: Facility Registry
+id_7862a8939c5a458c9ad1674062700688 ->> id_bed24fc6e59048c595b7bde7a22b63f9 : flows to Reporting Module
+id_7862a8939c5a458c9ad1674062700688 ->> id_d27a9f9d388544deb73618aaf145251c : flows to DPI-F Security & Consent Module
+id_7862a8939c5a458c9ad1674062700688 ->> id_e23a136ac7904c02a15f46010f655099 : flows to Terminology Service
+id_7862a8939c5a458c9ad1674062700688 ->> id_961cfe0f56b54c5ea4f48c3f34109e0e : flows to DPI-H National Health Workforce Directory/Registry
+id_a3b7a1d2792c400ba0398eb82affaf2d ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_e23a136ac7904c02a15f46010f655099 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+@enduml
+
+@startuml
+' Sub-goal #2 Layered View (id-742bf0b1880949c883216fe33e10c50f): sequence diagram, derived by archimate-diagrams. Do not edit.
+title Sub-goal #2 Layered View
+hide footbox
+participant "Terminology Service" as id_e23a136ac7904c02a15f46010f655099 <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_7862a8939c5a458c9ad1674062700688 <<ApplicationComponent>>
+participant "DPI-H National Health Workforce Directory/Registry" as id_961cfe0f56b54c5ea4f48c3f34109e0e <<ApplicationComponent>>
+participant "DPI-H: Facility Registry" as id_a3b7a1d2792c400ba0398eb82affaf2d <<ApplicationComponent>>
+participant "DPI-F Payments" as id_938d268924bc4a6b8ddd9f24e525c878 <<ApplicationComponent>>
+participant "Reporting Module" as id_bed24fc6e59048c595b7bde7a22b63f9 <<ApplicationComponent>>
+id_e23a136ac7904c02a15f46010f655099 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_961cfe0f56b54c5ea4f48c3f34109e0e ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_a3b7a1d2792c400ba0398eb82affaf2d ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_961cfe0f56b54c5ea4f48c3f34109e0e : flows to DPI-H National Health Workforce Directory/Registry
+id_7862a8939c5a458c9ad1674062700688 ->> id_a3b7a1d2792c400ba0398eb82affaf2d : flows to DPI-H: Facility Registry
+id_7862a8939c5a458c9ad1674062700688 ->> id_e23a136ac7904c02a15f46010f655099 : flows to Terminology Service
+id_7862a8939c5a458c9ad1674062700688 ->> id_938d268924bc4a6b8ddd9f24e525c878 : flows to DPI-F Payments
+id_7862a8939c5a458c9ad1674062700688 ->> id_bed24fc6e59048c595b7bde7a22b63f9 : flows to Reporting Module
+id_938d268924bc4a6b8ddd9f24e525c878 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+@enduml
+
+@startuml
+' Sub-goal #3 Layered View (id-360f87ddd163420ea6b011a7f2a2a883): sequence diagram, derived by archimate-diagrams. Do not edit.
+title Sub-goal #3 Layered View
+hide footbox
+participant "Terminology Service" as id_e23a136ac7904c02a15f46010f655099 <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_7862a8939c5a458c9ad1674062700688 <<ApplicationComponent>>
+participant "DPI-H National Health Workforce Directory/Registry" as id_961cfe0f56b54c5ea4f48c3f34109e0e <<ApplicationComponent>>
+participant "DPI-F Security & Consent Module" as id_d27a9f9d388544deb73618aaf145251c <<ApplicationComponent>>
+participant "Reporting Module" as id_bed24fc6e59048c595b7bde7a22b63f9 <<ApplicationComponent>>
+participant "DPI-H: Facility Registry" as id_a3b7a1d2792c400ba0398eb82affaf2d <<ApplicationComponent>>
+id_e23a136ac7904c02a15f46010f655099 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_961cfe0f56b54c5ea4f48c3f34109e0e ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_d27a9f9d388544deb73618aaf145251c ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_d27a9f9d388544deb73618aaf145251c : flows to DPI-F Security & Consent Module
+id_7862a8939c5a458c9ad1674062700688 ->> id_e23a136ac7904c02a15f46010f655099 : flows to Terminology Service
+id_7862a8939c5a458c9ad1674062700688 ->> id_bed24fc6e59048c595b7bde7a22b63f9 : flows to Reporting Module
+id_7862a8939c5a458c9ad1674062700688 ->> id_961cfe0f56b54c5ea4f48c3f34109e0e : flows to DPI-H National Health Workforce Directory/Registry
+id_7862a8939c5a458c9ad1674062700688 ->> id_a3b7a1d2792c400ba0398eb82affaf2d : flows to DPI-H: Facility Registry
+id_a3b7a1d2792c400ba0398eb82affaf2d ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+@enduml
+
+@startuml
+' Sub-goal #4 Layered View (id-1c59b7b8fc87499cb6ccefaf2a5180a7): sequence diagram, derived by archimate-diagrams. Do not edit.
+title Sub-goal #4 Layered View
+hide footbox
+participant "DPI-H National Health Workforce Directory/Registry" as id_961cfe0f56b54c5ea4f48c3f34109e0e <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_7862a8939c5a458c9ad1674062700688 <<ApplicationComponent>>
+participant "Learning Management & Training Tracking Systems" as id_524dea71aa26495883e2ab4efbca3075 <<ApplicationComponent>>
+id_961cfe0f56b54c5ea4f48c3f34109e0e ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_961cfe0f56b54c5ea4f48c3f34109e0e : flows to DPI-H National Health Workforce Directory/Registry
+id_7862a8939c5a458c9ad1674062700688 ->> id_524dea71aa26495883e2ab4efbca3075 : flows to Learning Management & Training Tracking Systems
+id_524dea71aa26495883e2ab4efbca3075 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+@enduml
+
+@startuml
+' WHO Models — Cross-Component Flows (0.2.0-draft.3-flows): sequence diagram, derived by archimate-diagrams. Do not edit.
+title WHO Models — Cross-Component Flows
+hide footbox
+participant "DPI-H National Health Workforce Directory/Registry" as id_961cfe0f56b54c5ea4f48c3f34109e0e <<ApplicationComponent>>
+participant "Reporting Module" as id_bed24fc6e59048c595b7bde7a22b63f9 <<ApplicationComponent>>
+participant "DPI-H: Facility Registry" as id_a3b7a1d2792c400ba0398eb82affaf2d <<ApplicationComponent>>
+participant "Financial Analytics & BI" as id_0bb487f76a814e0ca738870107b29dc9 <<ApplicationComponent>>
+participant "DPI-F Information Mediator" as id_7862a8939c5a458c9ad1674062700688 <<ApplicationComponent>>
+participant "Provider Registry & Payment System" as id_dcc7c73aa6fd415facde0da5ecae044b <<ApplicationComponent>>
+participant "Claims & Reimbursement System" as id_f7ffac27f018417c8ddb46a8c98c3b28 <<ApplicationComponent>>
+participant "Health Facility Portal" as id_95de5ab980944de8922cc630296992ec <<ApplicationComponent>>
+participant "Health Worker Self Service Portal" as id_24e3b3ea32b5424c89a8748329a6209d <<ApplicationComponent>>
+participant "DPI-F: Security & Consent" as id_1dc836590e8a4c4796d0ca941ce01d2b <<ApplicationComponent>>
+participant "Payroll Scheduling & Execution" as id_96eb04965bdd47f1b60e7ced750c5ceb <<ApplicationFunction>>
+participant "Digital Payroll Services" as id_138d88d8ce424d15b7ea3db0aec010e9 <<ApplicationService>>
+participant "Validating Credentials" as id_9c20c360c2e04a56a28c6ef28ae48ca6 <<ApplicationFunction>>
+participant "Profile Management Service" as id_8481f5d95240477e9fb462fdab759878 <<ApplicationService>>
+participant "Verification & Validation Service" as id_61f9036cfc264e5ea18d7538e3f84e64 <<ApplicationService>>
+participant "Identity Management Service" as id_b01d1fd318e343b4a85c5c5f73b81fbb <<ApplicationService>>
+participant "Registry Management Service" as id_237fa14306eb4c27911ba45307cdf26c <<ApplicationService>>
+participant "Master Data / Registries" as id_7e9bcaab8a4c46d0ae061e5f7ebb3928 <<ApplicationComponent>>
+participant "Provider Payments & Claims Management" as id_59cb2c23858b4a61b14582ae8f85faf3 <<ApplicationService>>
+participant "Insurance & Eligibility Management" as id_bad54d1098c849299bd4388bbee79d39 <<ApplicationService>>
+participant "Policy & Eligibility Management" as id_af7b2ee2498d4b48b7d2ce3e50a56daa <<ApplicationComponent>>
+participant "Audit, Compliance & Reporting" as id_43e3adf526e94af7b14e5d852fea3fc4 <<ApplicationService>>
+participant "Financial Data Exchange" as id_f430e1f58989457293c0da000f982d81 <<ApplicationService>>
+participant "Identity & Security Management" as id_956d542c4c8743c9a7bac9920b057b12 <<ApplicationService>>
+participant "Workflow & Operational Automation" as id_828e719cbfc84d66aa4996dc72682812 <<ApplicationService>>
+participant "API Gateway & Messaging Adapters" as id_911fc9530aad4f97853be48fa61e2ae7 <<ApplicationComponent>>
+participant "Matching / Settlement Engine" as id_5b661f394fb3480b9cf1d715bfb33be5 <<ApplicationComponent>>
+participant "Fraud & Security Monitoring" as id_d1a3993a9bd04046913a4a071a4cb25e <<ApplicationComponent>>
+participant "Authentication & Authorization System" as id_ff19ad1682b04f15b6d95f475f46a174 <<ApplicationComponent>>
+participant "Workflow / RPA Engine" as id_dd8945b7bb08414ba485971994aa4f1c <<ApplicationComponent>>
+participant "Data Ingestion & Analytics" as id_b7654186506645128e0736f2fff36baa <<ApplicationService>>
+participant "Audit & Open Data System" as id_d9935dad6b5f4b5c8e0081a5209ab3f3 <<ApplicationComponent>>
+participant "Workflow / RPA Engine" as id_a3659551e9684671a470c094360c920b <<ApplicationService>>
+participant "Financial Data Exchange" as id_3b3780920a824a5680e3087d023ae7d6 <<ApplicationComponent>>
+participant "Financial Analytics & BI" as id_ffd225bc15064833a8b443b292a98d2e <<ApplicationService>>
+id_961cfe0f56b54c5ea4f48c3f34109e0e ->> id_bed24fc6e59048c595b7bde7a22b63f9 : flows to Reporting Module
+id_a3b7a1d2792c400ba0398eb82affaf2d ->> id_bed24fc6e59048c595b7bde7a22b63f9 : flows to Reporting Module
+id_0bb487f76a814e0ca738870107b29dc9 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_dcc7c73aa6fd415facde0da5ecae044b ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_f7ffac27f018417c8ddb46a8c98c3b28 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_95de5ab980944de8922cc630296992ec ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_24e3b3ea32b5424c89a8748329a6209d ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_1dc836590e8a4c4796d0ca941ce01d2b : flows to DPI-F: Security & Consent
+id_7862a8939c5a458c9ad1674062700688 ->> id_dcc7c73aa6fd415facde0da5ecae044b : flows to Provider Registry & Payment System
+id_7862a8939c5a458c9ad1674062700688 ->> id_0bb487f76a814e0ca738870107b29dc9 : flows to Financial Analytics & BI
+id_1dc836590e8a4c4796d0ca941ce01d2b ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_95de5ab980944de8922cc630296992ec : flows to Health Facility Portal
+id_7862a8939c5a458c9ad1674062700688 ->> id_24e3b3ea32b5424c89a8748329a6209d : flows to Health Worker Self Service Portal
+id_7862a8939c5a458c9ad1674062700688 ->> id_96eb04965bdd47f1b60e7ced750c5ceb : flows to Payroll Scheduling & Execution
+id_96eb04965bdd47f1b60e7ced750c5ceb ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_138d88d8ce424d15b7ea3db0aec010e9 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_138d88d8ce424d15b7ea3db0aec010e9 : flows to Digital Payroll Services
+id_9c20c360c2e04a56a28c6ef28ae48ca6 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_9c20c360c2e04a56a28c6ef28ae48ca6 : flows to Validating Credentials
+id_8481f5d95240477e9fb462fdab759878 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_8481f5d95240477e9fb462fdab759878 : flows to Profile Management Service
+id_61f9036cfc264e5ea18d7538e3f84e64 ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_61f9036cfc264e5ea18d7538e3f84e64 : flows to Verification & Validation Service
+id_b01d1fd318e343b4a85c5c5f73b81fbb ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_237fa14306eb4c27911ba45307cdf26c ->> id_7862a8939c5a458c9ad1674062700688 : flows to DPI-F Information Mediator
+id_7862a8939c5a458c9ad1674062700688 ->> id_237fa14306eb4c27911ba45307cdf26c : flows to Registry Management Service
+id_7862a8939c5a458c9ad1674062700688 ->> id_b01d1fd318e343b4a85c5c5f73b81fbb : flows to Identity Management Service
+id_0bb487f76a814e0ca738870107b29dc9 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_59cb2c23858b4a61b14582ae8f85faf3 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_bad54d1098c849299bd4388bbee79d39 ->> id_af7b2ee2498d4b48b7d2ce3e50a56daa : flows to Policy & Eligibility Management
+id_43e3adf526e94af7b14e5d852fea3fc4 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_f430e1f58989457293c0da000f982d81 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_956d542c4c8743c9a7bac9920b057b12 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_828e719cbfc84d66aa4996dc72682812 ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_7e9bcaab8a4c46d0ae061e5f7ebb3928 ->> id_911fc9530aad4f97853be48fa61e2ae7 : flows to API Gateway & Messaging Adapters
+id_7e9bcaab8a4c46d0ae061e5f7ebb3928 ->> id_5b661f394fb3480b9cf1d715bfb33be5 : flows to Matching / Settlement Engine
+id_7e9bcaab8a4c46d0ae061e5f7ebb3928 ->> id_d1a3993a9bd04046913a4a071a4cb25e : flows to Fraud & Security Monitoring
+id_af7b2ee2498d4b48b7d2ce3e50a56daa ->> id_911fc9530aad4f97853be48fa61e2ae7 : flows to API Gateway & Messaging Adapters
+id_af7b2ee2498d4b48b7d2ce3e50a56daa ->> id_5b661f394fb3480b9cf1d715bfb33be5 : flows to Matching / Settlement Engine
+id_911fc9530aad4f97853be48fa61e2ae7 ->> id_dcc7c73aa6fd415facde0da5ecae044b : flows to Provider Registry & Payment System
+id_911fc9530aad4f97853be48fa61e2ae7 ->> id_f7ffac27f018417c8ddb46a8c98c3b28 : flows to Claims & Reimbursement System
+id_5b661f394fb3480b9cf1d715bfb33be5 ->> id_dcc7c73aa6fd415facde0da5ecae044b : flows to Provider Registry & Payment System
+id_5b661f394fb3480b9cf1d715bfb33be5 ->> id_f7ffac27f018417c8ddb46a8c98c3b28 : flows to Claims & Reimbursement System
+id_d1a3993a9bd04046913a4a071a4cb25e ->> id_dcc7c73aa6fd415facde0da5ecae044b : flows to Provider Registry & Payment System
+id_d1a3993a9bd04046913a4a071a4cb25e ->> id_ff19ad1682b04f15b6d95f475f46a174 : flows to Authentication & Authorization System
+id_828e719cbfc84d66aa4996dc72682812 ->> id_dd8945b7bb08414ba485971994aa4f1c : flows to Workflow / RPA Engine
+id_b7654186506645128e0736f2fff36baa ->> id_0bb487f76a814e0ca738870107b29dc9 : flows to Financial Analytics & BI
+id_43e3adf526e94af7b14e5d852fea3fc4 ->> id_d9935dad6b5f4b5c8e0081a5209ab3f3 : flows to Audit & Open Data System
+id_7e9bcaab8a4c46d0ae061e5f7ebb3928 ->> id_ff19ad1682b04f15b6d95f475f46a174 : flows to Authentication & Authorization System
+id_828e719cbfc84d66aa4996dc72682812 ->> id_dd8945b7bb08414ba485971994aa4f1c : flows to Workflow / RPA Engine
+id_dd8945b7bb08414ba485971994aa4f1c ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_828e719cbfc84d66aa4996dc72682812 ->> id_a3659551e9684671a470c094360c920b : flows to Workflow / RPA Engine
+id_a3659551e9684671a470c094360c920b ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+id_7e9bcaab8a4c46d0ae061e5f7ebb3928 ->> id_3b3780920a824a5680e3087d023ae7d6 : flows to Financial Data Exchange
+id_3b3780920a824a5680e3087d023ae7d6 ->> id_d9935dad6b5f4b5c8e0081a5209ab3f3 : flows to Audit & Open Data System
+id_b7654186506645128e0736f2fff36baa ->> id_ffd225bc15064833a8b443b292a98d2e : flows to Financial Analytics & BI
+id_ffd225bc15064833a8b443b292a98d2e ->> id_7e9bcaab8a4c46d0ae061e5f7ebb3928 : flows to Master Data / Registries
+@enduml

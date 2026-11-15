@@ -1,0 +1,31 @@
+classDiagram
+  %% WHO_RA (0.2.0): data class diagram, derived by archimate-diagrams. Do not edit.
+  class id_b03a09f1177a4bf6bfd1f22c6cea1c94["Adapted SMART Guidelines L1"]
+  <<BusinessObject>> id_b03a09f1177a4bf6bfd1f22c6cea1c94
+  class id_2f415a2e0d4245c19663f5821ed02a16["Adapted SMART Guidelines L2 (DAK)"]
+  <<DataObject>> id_2f415a2e0d4245c19663f5821ed02a16
+  class id_c41368c8e91646cf96381ca301ac003d["Approved Terminology Content"]
+  <<DataObject>> id_c41368c8e91646cf96381ca301ac003d
+  class id_e4de2256c7644b7cbd7222ac49625b3d["Clinical Guidelines"]
+  <<BusinessObject>> id_e4de2256c7644b7cbd7222ac49625b3d
+  class id_71b2e11df2e348a2b9f8eee36c8e5292["Patient-level Data"]
+  <<DataObject>> id_71b2e11df2e348a2b9f8eee36c8e5292
+  class id_85cd033bc1bd4bec9bb4a2f316f357da["Reference data models"]
+  <<DataObject>> id_85cd033bc1bd4bec9bb4a2f316f357da
+  class id_f180ad44b2e94e2a9ee8523ffc900264["Shared Health Record"]
+  <<BusinessObject>> id_f180ad44b2e94e2a9ee8523ffc900264
+  class id_5b55a8ca67864a1a91910347db193e79["SMART Guidelines L1"]
+  <<BusinessObject>> id_5b55a8ca67864a1a91910347db193e79
+  class id_066e40fefc9e48e4b23e51d9f9bd14d2["SMART Guidelines L2 (DAK)"]
+  <<DataObject>> id_066e40fefc9e48e4b23e51d9f9bd14d2
+  class id_22a44179b1b34a74984de87cd5a702b7["Structured Guidelines content"]
+  <<DataObject>> id_22a44179b1b34a74984de87cd5a702b7
+  id_066e40fefc9e48e4b23e51d9f9bd14d2 --|> id_22a44179b1b34a74984de87cd5a702b7 : specialises
+  id_066e40fefc9e48e4b23e51d9f9bd14d2 ..|> id_5b55a8ca67864a1a91910347db193e79 : realises
+  id_22a44179b1b34a74984de87cd5a702b7 ..|> id_e4de2256c7644b7cbd7222ac49625b3d : realises
+  id_2f415a2e0d4245c19663f5821ed02a16 --|> id_066e40fefc9e48e4b23e51d9f9bd14d2 : specialises
+  id_2f415a2e0d4245c19663f5821ed02a16 ..|> id_b03a09f1177a4bf6bfd1f22c6cea1c94 : realises
+  id_5b55a8ca67864a1a91910347db193e79 --|> id_e4de2256c7644b7cbd7222ac49625b3d : specialises
+  id_71b2e11df2e348a2b9f8eee36c8e5292 ..|> id_f180ad44b2e94e2a9ee8523ffc900264 : realises
+  id_85cd033bc1bd4bec9bb4a2f316f357da o-- id_c41368c8e91646cf96381ca301ac003d : aggregates
+  id_b03a09f1177a4bf6bfd1f22c6cea1c94 --|> id_5b55a8ca67864a1a91910347db193e79 : specialises

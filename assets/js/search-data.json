@@ -1,0 +1,261 @@
+{"0": {
+    "doc": "folio — who-iris",
+    "title": "folio — who-iris",
+    "content": "Every node the folio graph holds: what it anchors to, the theme it claims, where it was declared, and the links it carries. The folio's content renders as the landing board; this is a view of the graph behind it. This page is who-iris's folio graph alone; the full view is cat-harness's. loading… . var DATA_HREF = \"../../../../assets/folio/who-iris/index.json\"; var INSTANCE = \"who-iris\"; /* The reader's folio, the store docs-ui's glass reads and writes (R30 j2if). */ var FOLIO_KEY = \"fa-folio-assets\"; var mergeFolio = function mergeFolio(published, local, instance) { const CONTENT = { title: 1, summary: 1, href: 1, links: 1, anchor: 1, theme: 1, declaredIn: 1, chars: 1, file: 1, id: 1 }, DESCRIBE = { kind: 1, nodeKind: 1, avatar: 1, source: 1, shown: 1, geom: 1 }, pub = Array.isArray(published) ? published.filter(function(n) { return n && typeof n.id === \"string\" && n.id; }) : [], loc = local && typeof local === \"object\" && !Array.isArray(local) ? local : {}, str = function(v) { return v == null ? \"\" : String(v); }, bare = function(k) { return k.replace(/^(pin|bookmark):/, \"\"); }, byId = {}; for (let i = 0;i /g,\"&gt;\").replace(/\"/g,\"&quot;\"); } /* BOTH SOURCES, LOADED DYNAMICALLY (owner, 2026-11-13). The published projection and the reader's folio in this browser are read on every load and merged by mergeFolio (scripts/folio-merge.ts): a union keyed by id, the published copy wins for content, the local copy for the reader's own state, and a local-only item is kept and marked unsynced. The projection is fetched with no-store and a stamp, so a cached copy cannot hide what was published since; it is fetched again when the tab comes back, and the merge is redrawn whenever the reader's folio changes (this tab or another). */ var published = null, publishedError = null, publishedText = null; function readLocalFolio() { try { var raw = localStorage.getItem(FOLIO_KEY); var parsed = raw ? JSON.parse(raw) : {}; return parsed && typeof parsed === \"object\" && !Array.isArray(parsed) ? parsed : {}; } catch (_e) { return {}; } } function stamped(h) { return h + (h.indexOf(\"?\") published, in this browser', published: 'published', unsynced: 'this browser only, unsynced' }; var head = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-title",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-title"
+  },"1": {
+    "doc": "folio — who-iris",
+    "title": "Folio: published and in this browser",
+    "content": "' + '' + (published ? \"\" + c.published + \" published\" : publishedError ? 'published copy could not be read' : \"published copy loading…\") + \" · \" + c.local + \" in this browser\" + \" · \" + c.unsynced + \" unsynced. Your own items stay in this browser; \" + \"the site cannot see them. \"; if (M.rows.length === 0) { $(\"merged\").innerHTML = head + 'Nothing published and nothing in this browser’s folio. '; return; } $(\"merged\").innerHTML = head + '' + \"Folio: published and in this browser\" + \" | item | source | on your glass | from | . | \" + M.rows.map(function(r){ /* A published link is site-rooted (linkHref resolves it); a local one is the address docs-ui stored after its own safeHref, used as it is when it is http(s), rooted or relative, and text otherwise. */ var h = r.hrefFrom === \"published\" ? linkHref(r.href) : (/^https?:[/][/]|^[/.#]/.test(r.href) ? r.href : \"\"); var name = h ? '' + esc(r.title) + \"\" : esc(r.title); return '' + \" | \" + name + '' + esc(r.id) + \" | \" + \" | \" + STATUS[r.status] + \" | \" + \" | \" + (r.shown === null ? 'not in your folio' : r.shown ? \"on the glass\" : 'shelved') + \" | \" + ' | ' + esc(r.source || r.declaredIn || \"\") + \" | . \"; }).join(\"\") + \"\"; } function loadPublished() { return fetch(stamped(DATA_HREF), { cache: \"no-store\" }) .then(function(r){ if(!r.ok) throw new Error(r.status + \" \" + r.statusText); return r.text(); }) .then(function(t){ publishedError = null; if (t === publishedText) return; var G = JSON.parse(t); publishedText = t; published = G; renderPublished(G); }) .catch(function(e){ publishedError = e; if (published) return; /* COULD NOT LOAD IS NOT EMPTY, and the page says which. */ $(\"nodes\").innerHTML = 'The projection at ' + esc(DATA_HREF) + \" could not be read: \" + esc(e.message) + \". That is not an empty folio — it is a folio that could not be loaded. \"; }) .then(renderMerged); } renderMerged(); loadPublished(); window.addEventListener(\"storage\", function(ev){ if (ev.key === null || ev.key === FOLIO_KEY) renderMerged(); }); document.addEventListener(\"fa:folio-changed\", renderMerged); document.addEventListener(\"visibilitychange\", function(){ if (document.visibilityState === \"visible\") loadPublished(); }); window.addEventListener(\"pageshow\", function(ev){ if (ev.persisted) loadPublished(); }); function renderPublished(G){ $(\"badges\").innerHTML = '' + G.nodes.length + \" stick\" + (G.nodes.length===1?\"y\":\"ies\") + \"\" + '' + G.directories.length + \" declared director\" + (G.directories.length===1?\"y\":\"ies\") + \"\"; /* A DECLARED-BUT-ABSENT DIRECTORY GETS A ROW. Omitting it is the dh4f shape: a consumer scans nothing and reports a clean run over it. */ $(\"dirs\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-merged-head",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-merged-head"
+  },"2": {
+    "doc": "folio — who-iris",
+    "title": "Declared folio directories",
+    "content": "' + '' + 'Declared folio directories' + ' | declared directory | state | stickies | . | ' + G.directories.map(function(d){ return \" | \" + esc(d.dir) + \" | \" + (d.present ? \"present\" : 'declared, absent') + \" | \" + d.nodes + \" | . \"; }).join(\"\") + \"\"; /* THE 'LIST' VIEW (bean ohx6): the folio as the files it holds, the same list the harness's own page (folio/index.md) renders. Drawn before the node table so it shows even when the folio has no stickies. */ $(\"files\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-dirs-head",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-dirs-head"
+  },"3": {
+    "doc": "folio — who-iris",
+    "title": "List view: files",
+    "content": "' + G.directories.map(function(d){ var files = d.files || []; if (!d.present) return '' + esc(d.dir) + \" is declared but absent, so it holds no files. \"; if (files.length === 0) return '' + esc(d.dir) + \" holds no files. \"; return '' + \"Files in \" + esc(d.dir) + \"\" + \" | file | size | . | \" + files.map(function(f){ return \" | \" + esc(f.path) + ' | ' + esc(f.size) + \" | . \"; }).join(\"\") + \"\"; }).join(\"\"); if (G.nodes.length === 0) { $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-files-head",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-files-head"
+  },"4": {
+    "doc": "folio — who-iris",
+    "title": "Folio nodes",
+    "content": "' + 'No stickies. That is a folio graph with no nodes, ' + \"not a graph that could not be read \\u2014 the directories above say which were found. \"; return; } $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-nodes-head"
+  },"5": {
+    "doc": "folio — who-iris",
+    "title": "Folio nodes",
+    "content": "' + '' + 'Folio nodes' + ' | id | summary | anchor | ' + \" | theme | declared in | links | prose | . | \" + G.nodes.map(function(n){ return \"\" + \" | \" + esc(n.id) + \" | \" + \" | \" + esc(n.summary) + \" | \" + \" | \" + (n.anchor ? \"\" + esc(n.anchor) + \"\" : 'none') + \" | \" + \" | \" + (n.theme ? esc(n.theme) : 'none') + \" | \" + ' | ' + esc(n.declaredIn || \"\\u2014\") + \" | \" + \" | \" + (n.links.length ? '' + n.links.map(function(l){ var h = linkHref(l.href); return h ? '' + esc(l.label) + \"\" : '' + esc(l.label) + \"\"; }).join(\"\") + \"\" : 'none') + \" | \" + ' | ' + n.chars.toLocaleString() + \" chars | \" + \" . \"; }).join(\"\") + \"\"; } ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/#fo-nodes-head"
+  },"6": {
+    "doc": "folio — who-iris",
+    "title": "folio — who-iris",
+    "content": " ",
+    "url": "/smart-ra/en/cat-harness/folio/who-iris/",
+    
+    "relUrl": "/en/cat-harness/folio/who-iris/"
+  },"7": {
+    "doc": "folio — dpi-h-ra",
+    "title": "folio — dpi-h-ra",
+    "content": "Every node the folio graph holds: what it anchors to, the theme it claims, where it was declared, and the links it carries. The folio's content renders as the landing board; this is a view of the graph behind it. This page is dpi-h-ra's folio graph alone; the full view is cat-harness's. loading… . var DATA_HREF = \"../../../../assets/folio/dpi-h-ra/index.json\"; var INSTANCE = \"dpi-h-ra\"; /* The reader's folio, the store docs-ui's glass reads and writes (R30 j2if). */ var FOLIO_KEY = \"fa-folio-assets\"; var mergeFolio = function mergeFolio(published, local, instance) { const CONTENT = { title: 1, summary: 1, href: 1, links: 1, anchor: 1, theme: 1, declaredIn: 1, chars: 1, file: 1, id: 1 }, DESCRIBE = { kind: 1, nodeKind: 1, avatar: 1, source: 1, shown: 1, geom: 1 }, pub = Array.isArray(published) ? published.filter(function(n) { return n && typeof n.id === \"string\" && n.id; }) : [], loc = local && typeof local === \"object\" && !Array.isArray(local) ? local : {}, str = function(v) { return v == null ? \"\" : String(v); }, bare = function(k) { return k.replace(/^(pin|bookmark):/, \"\"); }, byId = {}; for (let i = 0;i /g,\"&gt;\").replace(/\"/g,\"&quot;\"); } /* BOTH SOURCES, LOADED DYNAMICALLY (owner, 2026-11-13). The published projection and the reader's folio in this browser are read on every load and merged by mergeFolio (scripts/folio-merge.ts): a union keyed by id, the published copy wins for content, the local copy for the reader's own state, and a local-only item is kept and marked unsynced. The projection is fetched with no-store and a stamp, so a cached copy cannot hide what was published since; it is fetched again when the tab comes back, and the merge is redrawn whenever the reader's folio changes (this tab or another). */ var published = null, publishedError = null, publishedText = null; function readLocalFolio() { try { var raw = localStorage.getItem(FOLIO_KEY); var parsed = raw ? JSON.parse(raw) : {}; return parsed && typeof parsed === \"object\" && !Array.isArray(parsed) ? parsed : {}; } catch (_e) { return {}; } } function stamped(h) { return h + (h.indexOf(\"?\") published, in this browser', published: 'published', unsynced: 'this browser only, unsynced' }; var head = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-title",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-title"
+  },"8": {
+    "doc": "folio — dpi-h-ra",
+    "title": "Folio: published and in this browser",
+    "content": "' + '' + (published ? \"\" + c.published + \" published\" : publishedError ? 'published copy could not be read' : \"published copy loading…\") + \" · \" + c.local + \" in this browser\" + \" · \" + c.unsynced + \" unsynced. Your own items stay in this browser; \" + \"the site cannot see them. \"; if (M.rows.length === 0) { $(\"merged\").innerHTML = head + 'Nothing published and nothing in this browser’s folio. '; return; } $(\"merged\").innerHTML = head + '' + \"Folio: published and in this browser\" + \" | item | source | on your glass | from | . | \" + M.rows.map(function(r){ /* A published link is site-rooted (linkHref resolves it); a local one is the address docs-ui stored after its own safeHref, used as it is when it is http(s), rooted or relative, and text otherwise. */ var h = r.hrefFrom === \"published\" ? linkHref(r.href) : (/^https?:[/][/]|^[/.#]/.test(r.href) ? r.href : \"\"); var name = h ? '' + esc(r.title) + \"\" : esc(r.title); return '' + \" | \" + name + '' + esc(r.id) + \" | \" + \" | \" + STATUS[r.status] + \" | \" + \" | \" + (r.shown === null ? 'not in your folio' : r.shown ? \"on the glass\" : 'shelved') + \" | \" + ' | ' + esc(r.source || r.declaredIn || \"\") + \" | . \"; }).join(\"\") + \"\"; } function loadPublished() { return fetch(stamped(DATA_HREF), { cache: \"no-store\" }) .then(function(r){ if(!r.ok) throw new Error(r.status + \" \" + r.statusText); return r.text(); }) .then(function(t){ publishedError = null; if (t === publishedText) return; var G = JSON.parse(t); publishedText = t; published = G; renderPublished(G); }) .catch(function(e){ publishedError = e; if (published) return; /* COULD NOT LOAD IS NOT EMPTY, and the page says which. */ $(\"nodes\").innerHTML = 'The projection at ' + esc(DATA_HREF) + \" could not be read: \" + esc(e.message) + \". That is not an empty folio — it is a folio that could not be loaded. \"; }) .then(renderMerged); } renderMerged(); loadPublished(); window.addEventListener(\"storage\", function(ev){ if (ev.key === null || ev.key === FOLIO_KEY) renderMerged(); }); document.addEventListener(\"fa:folio-changed\", renderMerged); document.addEventListener(\"visibilitychange\", function(){ if (document.visibilityState === \"visible\") loadPublished(); }); window.addEventListener(\"pageshow\", function(ev){ if (ev.persisted) loadPublished(); }); function renderPublished(G){ $(\"badges\").innerHTML = '' + G.nodes.length + \" stick\" + (G.nodes.length===1?\"y\":\"ies\") + \"\" + '' + G.directories.length + \" declared director\" + (G.directories.length===1?\"y\":\"ies\") + \"\"; /* A DECLARED-BUT-ABSENT DIRECTORY GETS A ROW. Omitting it is the dh4f shape: a consumer scans nothing and reports a clean run over it. */ $(\"dirs\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-merged-head",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-merged-head"
+  },"9": {
+    "doc": "folio — dpi-h-ra",
+    "title": "Declared folio directories",
+    "content": "' + '' + 'Declared folio directories' + ' | declared directory | state | stickies | . | ' + G.directories.map(function(d){ return \" | \" + esc(d.dir) + \" | \" + (d.present ? \"present\" : 'declared, absent') + \" | \" + d.nodes + \" | . \"; }).join(\"\") + \"\"; /* THE 'LIST' VIEW (bean ohx6): the folio as the files it holds, the same list the harness's own page (folio/index.md) renders. Drawn before the node table so it shows even when the folio has no stickies. */ $(\"files\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-dirs-head",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-dirs-head"
+  },"10": {
+    "doc": "folio — dpi-h-ra",
+    "title": "List view: files",
+    "content": "' + G.directories.map(function(d){ var files = d.files || []; if (!d.present) return '' + esc(d.dir) + \" is declared but absent, so it holds no files. \"; if (files.length === 0) return '' + esc(d.dir) + \" holds no files. \"; return '' + \"Files in \" + esc(d.dir) + \"\" + \" | file | size | . | \" + files.map(function(f){ return \" | \" + esc(f.path) + ' | ' + esc(f.size) + \" | . \"; }).join(\"\") + \"\"; }).join(\"\"); if (G.nodes.length === 0) { $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-files-head",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-files-head"
+  },"11": {
+    "doc": "folio — dpi-h-ra",
+    "title": "Folio nodes",
+    "content": "' + 'No stickies. That is a folio graph with no nodes, ' + \"not a graph that could not be read \\u2014 the directories above say which were found. \"; return; } $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-nodes-head"
+  },"12": {
+    "doc": "folio — dpi-h-ra",
+    "title": "Folio nodes",
+    "content": "' + '' + 'Folio nodes' + ' | id | summary | anchor | ' + \" | theme | declared in | links | prose | . | \" + G.nodes.map(function(n){ return \"\" + \" | \" + esc(n.id) + \" | \" + \" | \" + esc(n.summary) + \" | \" + \" | \" + (n.anchor ? \"\" + esc(n.anchor) + \"\" : 'none') + \" | \" + \" | \" + (n.theme ? esc(n.theme) : 'none') + \" | \" + ' | ' + esc(n.declaredIn || \"\\u2014\") + \" | \" + \" | \" + (n.links.length ? '' + n.links.map(function(l){ var h = linkHref(l.href); return h ? '' + esc(l.label) + \"\" : '' + esc(l.label) + \"\"; }).join(\"\") + \"\" : 'none') + \" | \" + ' | ' + n.chars.toLocaleString() + \" chars | \" + \" . \"; }).join(\"\") + \"\"; } ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/#fo-nodes-head"
+  },"13": {
+    "doc": "folio — dpi-h-ra",
+    "title": "folio — dpi-h-ra",
+    "content": " ",
+    "url": "/smart-ra/en/cat-harness/folio/dpi-h-ra/",
+    
+    "relUrl": "/en/cat-harness/folio/dpi-h-ra/"
+  },"14": {
+    "doc": "folio — folio-assistant-core",
+    "title": "folio — folio-assistant-core",
+    "content": "Every node the folio graph holds: what it anchors to, the theme it claims, where it was declared, and the links it carries. The folio's content renders as the landing board; this is a view of the graph behind it. This page is folio-assistant-core's folio graph alone; the full view is cat-harness's. loading… . var DATA_HREF = \"../../../../assets/folio/folio-assistant-core/index.json\"; var INSTANCE = \"folio-assistant-core\"; /* The reader's folio, the store docs-ui's glass reads and writes (R30 j2if). */ var FOLIO_KEY = \"fa-folio-assets\"; var mergeFolio = function mergeFolio(published, local, instance) { const CONTENT = { title: 1, summary: 1, href: 1, links: 1, anchor: 1, theme: 1, declaredIn: 1, chars: 1, file: 1, id: 1 }, DESCRIBE = { kind: 1, nodeKind: 1, avatar: 1, source: 1, shown: 1, geom: 1 }, pub = Array.isArray(published) ? published.filter(function(n) { return n && typeof n.id === \"string\" && n.id; }) : [], loc = local && typeof local === \"object\" && !Array.isArray(local) ? local : {}, str = function(v) { return v == null ? \"\" : String(v); }, bare = function(k) { return k.replace(/^(pin|bookmark):/, \"\"); }, byId = {}; for (let i = 0;i /g,\"&gt;\").replace(/\"/g,\"&quot;\"); } /* BOTH SOURCES, LOADED DYNAMICALLY (owner, 2026-11-13). The published projection and the reader's folio in this browser are read on every load and merged by mergeFolio (scripts/folio-merge.ts): a union keyed by id, the published copy wins for content, the local copy for the reader's own state, and a local-only item is kept and marked unsynced. The projection is fetched with no-store and a stamp, so a cached copy cannot hide what was published since; it is fetched again when the tab comes back, and the merge is redrawn whenever the reader's folio changes (this tab or another). */ var published = null, publishedError = null, publishedText = null; function readLocalFolio() { try { var raw = localStorage.getItem(FOLIO_KEY); var parsed = raw ? JSON.parse(raw) : {}; return parsed && typeof parsed === \"object\" && !Array.isArray(parsed) ? parsed : {}; } catch (_e) { return {}; } } function stamped(h) { return h + (h.indexOf(\"?\") published, in this browser', published: 'published', unsynced: 'this browser only, unsynced' }; var head = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-title",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-title"
+  },"15": {
+    "doc": "folio — folio-assistant-core",
+    "title": "Folio: published and in this browser",
+    "content": "' + '' + (published ? \"\" + c.published + \" published\" : publishedError ? 'published copy could not be read' : \"published copy loading…\") + \" · \" + c.local + \" in this browser\" + \" · \" + c.unsynced + \" unsynced. Your own items stay in this browser; \" + \"the site cannot see them. \"; if (M.rows.length === 0) { $(\"merged\").innerHTML = head + 'Nothing published and nothing in this browser’s folio. '; return; } $(\"merged\").innerHTML = head + '' + \"Folio: published and in this browser\" + \" | item | source | on your glass | from | . | \" + M.rows.map(function(r){ /* A published link is site-rooted (linkHref resolves it); a local one is the address docs-ui stored after its own safeHref, used as it is when it is http(s), rooted or relative, and text otherwise. */ var h = r.hrefFrom === \"published\" ? linkHref(r.href) : (/^https?:[/][/]|^[/.#]/.test(r.href) ? r.href : \"\"); var name = h ? '' + esc(r.title) + \"\" : esc(r.title); return '' + \" | \" + name + '' + esc(r.id) + \" | \" + \" | \" + STATUS[r.status] + \" | \" + \" | \" + (r.shown === null ? 'not in your folio' : r.shown ? \"on the glass\" : 'shelved') + \" | \" + ' | ' + esc(r.source || r.declaredIn || \"\") + \" | . \"; }).join(\"\") + \"\"; } function loadPublished() { return fetch(stamped(DATA_HREF), { cache: \"no-store\" }) .then(function(r){ if(!r.ok) throw new Error(r.status + \" \" + r.statusText); return r.text(); }) .then(function(t){ publishedError = null; if (t === publishedText) return; var G = JSON.parse(t); publishedText = t; published = G; renderPublished(G); }) .catch(function(e){ publishedError = e; if (published) return; /* COULD NOT LOAD IS NOT EMPTY, and the page says which. */ $(\"nodes\").innerHTML = 'The projection at ' + esc(DATA_HREF) + \" could not be read: \" + esc(e.message) + \". That is not an empty folio — it is a folio that could not be loaded. \"; }) .then(renderMerged); } renderMerged(); loadPublished(); window.addEventListener(\"storage\", function(ev){ if (ev.key === null || ev.key === FOLIO_KEY) renderMerged(); }); document.addEventListener(\"fa:folio-changed\", renderMerged); document.addEventListener(\"visibilitychange\", function(){ if (document.visibilityState === \"visible\") loadPublished(); }); window.addEventListener(\"pageshow\", function(ev){ if (ev.persisted) loadPublished(); }); function renderPublished(G){ $(\"badges\").innerHTML = '' + G.nodes.length + \" stick\" + (G.nodes.length===1?\"y\":\"ies\") + \"\" + '' + G.directories.length + \" declared director\" + (G.directories.length===1?\"y\":\"ies\") + \"\"; /* A DECLARED-BUT-ABSENT DIRECTORY GETS A ROW. Omitting it is the dh4f shape: a consumer scans nothing and reports a clean run over it. */ $(\"dirs\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-merged-head",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-merged-head"
+  },"16": {
+    "doc": "folio — folio-assistant-core",
+    "title": "Declared folio directories",
+    "content": "' + '' + 'Declared folio directories' + ' | declared directory | state | stickies | . | ' + G.directories.map(function(d){ return \" | \" + esc(d.dir) + \" | \" + (d.present ? \"present\" : 'declared, absent') + \" | \" + d.nodes + \" | . \"; }).join(\"\") + \"\"; /* THE 'LIST' VIEW (bean ohx6): the folio as the files it holds, the same list the harness's own page (folio/index.md) renders. Drawn before the node table so it shows even when the folio has no stickies. */ $(\"files\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-dirs-head",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-dirs-head"
+  },"17": {
+    "doc": "folio — folio-assistant-core",
+    "title": "List view: files",
+    "content": "' + G.directories.map(function(d){ var files = d.files || []; if (!d.present) return '' + esc(d.dir) + \" is declared but absent, so it holds no files. \"; if (files.length === 0) return '' + esc(d.dir) + \" holds no files. \"; return '' + \"Files in \" + esc(d.dir) + \"\" + \" | file | size | . | \" + files.map(function(f){ return \" | \" + esc(f.path) + ' | ' + esc(f.size) + \" | . \"; }).join(\"\") + \"\"; }).join(\"\"); if (G.nodes.length === 0) { $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-files-head",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-files-head"
+  },"18": {
+    "doc": "folio — folio-assistant-core",
+    "title": "Folio nodes",
+    "content": "' + 'No stickies. That is a folio graph with no nodes, ' + \"not a graph that could not be read \\u2014 the directories above say which were found. \"; return; } $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-nodes-head"
+  },"19": {
+    "doc": "folio — folio-assistant-core",
+    "title": "Folio nodes",
+    "content": "' + '' + 'Folio nodes' + ' | id | summary | anchor | ' + \" | theme | declared in | links | prose | . | \" + G.nodes.map(function(n){ return \"\" + \" | \" + esc(n.id) + \" | \" + \" | \" + esc(n.summary) + \" | \" + \" | \" + (n.anchor ? \"\" + esc(n.anchor) + \"\" : 'none') + \" | \" + \" | \" + (n.theme ? esc(n.theme) : 'none') + \" | \" + ' | ' + esc(n.declaredIn || \"\\u2014\") + \" | \" + \" | \" + (n.links.length ? '' + n.links.map(function(l){ var h = linkHref(l.href); return h ? '' + esc(l.label) + \"\" : '' + esc(l.label) + \"\"; }).join(\"\") + \"\" : 'none') + \" | \" + ' | ' + n.chars.toLocaleString() + \" chars | \" + \" . \"; }).join(\"\") + \"\"; } ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/#fo-nodes-head"
+  },"20": {
+    "doc": "folio — folio-assistant-core",
+    "title": "folio — folio-assistant-core",
+    "content": " ",
+    "url": "/smart-ra/en/cat-harness/folio/folio-assistant-core/",
+    
+    "relUrl": "/en/cat-harness/folio/folio-assistant-core/"
+  },"21": {
+    "doc": "folio — the graph",
+    "title": "folio — the graph",
+    "content": "Every node the folio graph holds: what it anchors to, the theme it claims, where it was declared, and the links it carries. The folio's content renders as the landing board; this is a view of the graph behind it. loading… . var DATA_HREF = \"../../../assets/folio/index.json\"; var INSTANCE = \"\"; /* The reader's folio, the store docs-ui's glass reads and writes (R30 j2if). */ var FOLIO_KEY = \"fa-folio-assets\"; var mergeFolio = function mergeFolio(published, local, instance) { const CONTENT = { title: 1, summary: 1, href: 1, links: 1, anchor: 1, theme: 1, declaredIn: 1, chars: 1, file: 1, id: 1 }, DESCRIBE = { kind: 1, nodeKind: 1, avatar: 1, source: 1, shown: 1, geom: 1 }, pub = Array.isArray(published) ? published.filter(function(n) { return n && typeof n.id === \"string\" && n.id; }) : [], loc = local && typeof local === \"object\" && !Array.isArray(local) ? local : {}, str = function(v) { return v == null ? \"\" : String(v); }, bare = function(k) { return k.replace(/^(pin|bookmark):/, \"\"); }, byId = {}; for (let i = 0;i /g,\"&gt;\").replace(/\"/g,\"&quot;\"); } /* BOTH SOURCES, LOADED DYNAMICALLY (owner, 2026-11-13). The published projection and the reader's folio in this browser are read on every load and merged by mergeFolio (scripts/folio-merge.ts): a union keyed by id, the published copy wins for content, the local copy for the reader's own state, and a local-only item is kept and marked unsynced. The projection is fetched with no-store and a stamp, so a cached copy cannot hide what was published since; it is fetched again when the tab comes back, and the merge is redrawn whenever the reader's folio changes (this tab or another). */ var published = null, publishedError = null, publishedText = null; function readLocalFolio() { try { var raw = localStorage.getItem(FOLIO_KEY); var parsed = raw ? JSON.parse(raw) : {}; return parsed && typeof parsed === \"object\" && !Array.isArray(parsed) ? parsed : {}; } catch (_e) { return {}; } } function stamped(h) { return h + (h.indexOf(\"?\") published, in this browser', published: 'published', unsynced: 'this browser only, unsynced' }; var head = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-title",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-title"
+  },"22": {
+    "doc": "folio — the graph",
+    "title": "Folio: published and in this browser",
+    "content": "' + '' + (published ? \"\" + c.published + \" published\" : publishedError ? 'published copy could not be read' : \"published copy loading…\") + \" · \" + c.local + \" in this browser\" + \" · \" + c.unsynced + \" unsynced. Your own items stay in this browser; \" + \"the site cannot see them. \"; if (M.rows.length === 0) { $(\"merged\").innerHTML = head + 'Nothing published and nothing in this browser’s folio. '; return; } $(\"merged\").innerHTML = head + '' + \"Folio: published and in this browser\" + \" | item | source | on your glass | from | . | \" + M.rows.map(function(r){ /* A published link is site-rooted (linkHref resolves it); a local one is the address docs-ui stored after its own safeHref, used as it is when it is http(s), rooted or relative, and text otherwise. */ var h = r.hrefFrom === \"published\" ? linkHref(r.href) : (/^https?:[/][/]|^[/.#]/.test(r.href) ? r.href : \"\"); var name = h ? '' + esc(r.title) + \"\" : esc(r.title); return '' + \" | \" + name + '' + esc(r.id) + \" | \" + \" | \" + STATUS[r.status] + \" | \" + \" | \" + (r.shown === null ? 'not in your folio' : r.shown ? \"on the glass\" : 'shelved') + \" | \" + ' | ' + esc(r.source || r.declaredIn || \"\") + \" | . \"; }).join(\"\") + \"\"; } function loadPublished() { return fetch(stamped(DATA_HREF), { cache: \"no-store\" }) .then(function(r){ if(!r.ok) throw new Error(r.status + \" \" + r.statusText); return r.text(); }) .then(function(t){ publishedError = null; if (t === publishedText) return; var G = JSON.parse(t); publishedText = t; published = G; renderPublished(G); }) .catch(function(e){ publishedError = e; if (published) return; /* COULD NOT LOAD IS NOT EMPTY, and the page says which. */ $(\"nodes\").innerHTML = 'The projection at ' + esc(DATA_HREF) + \" could not be read: \" + esc(e.message) + \". That is not an empty folio — it is a folio that could not be loaded. \"; }) .then(renderMerged); } renderMerged(); loadPublished(); window.addEventListener(\"storage\", function(ev){ if (ev.key === null || ev.key === FOLIO_KEY) renderMerged(); }); document.addEventListener(\"fa:folio-changed\", renderMerged); document.addEventListener(\"visibilitychange\", function(){ if (document.visibilityState === \"visible\") loadPublished(); }); window.addEventListener(\"pageshow\", function(ev){ if (ev.persisted) loadPublished(); }); function renderPublished(G){ $(\"badges\").innerHTML = '' + G.nodes.length + \" stick\" + (G.nodes.length===1?\"y\":\"ies\") + \"\" + '' + G.directories.length + \" declared director\" + (G.directories.length===1?\"y\":\"ies\") + \"\"; /* A DECLARED-BUT-ABSENT DIRECTORY GETS A ROW. Omitting it is the dh4f shape: a consumer scans nothing and reports a clean run over it. */ $(\"dirs\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-merged-head",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-merged-head"
+  },"23": {
+    "doc": "folio — the graph",
+    "title": "Declared folio directories",
+    "content": "' + '' + 'Declared folio directories' + ' | declared directory | state | stickies | . | ' + G.directories.map(function(d){ return \" | \" + esc(d.dir) + \" | \" + (d.present ? \"present\" : 'declared, absent') + \" | \" + d.nodes + \" | . \"; }).join(\"\") + \"\"; /* THE 'LIST' VIEW (bean ohx6): the folio as the files it holds, the same list the harness's own page (folio/index.md) renders. Drawn before the node table so it shows even when the folio has no stickies. */ $(\"files\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-dirs-head",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-dirs-head"
+  },"24": {
+    "doc": "folio — the graph",
+    "title": "List view: files",
+    "content": "' + G.directories.map(function(d){ var files = d.files || []; if (!d.present) return '' + esc(d.dir) + \" is declared but absent, so it holds no files. \"; if (files.length === 0) return '' + esc(d.dir) + \" holds no files. \"; return '' + \"Files in \" + esc(d.dir) + \"\" + \" | file | size | . | \" + files.map(function(f){ return \" | \" + esc(f.path) + ' | ' + esc(f.size) + \" | . \"; }).join(\"\") + \"\"; }).join(\"\"); if (G.nodes.length === 0) { $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-files-head",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-files-head"
+  },"25": {
+    "doc": "folio — the graph",
+    "title": "Folio nodes",
+    "content": "' + 'No stickies. That is a folio graph with no nodes, ' + \"not a graph that could not be read \\u2014 the directories above say which were found. \"; return; } $(\"nodes\").innerHTML = ' ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-nodes-head"
+  },"26": {
+    "doc": "folio — the graph",
+    "title": "Folio nodes",
+    "content": "' + '' + 'Folio nodes' + ' | id | summary | anchor | ' + \" | theme | declared in | links | prose | . | \" + G.nodes.map(function(n){ return \"\" + \" | \" + esc(n.id) + \" | \" + \" | \" + esc(n.summary) + \" | \" + \" | \" + (n.anchor ? \"\" + esc(n.anchor) + \"\" : 'none') + \" | \" + \" | \" + (n.theme ? esc(n.theme) : 'none') + \" | \" + ' | ' + esc(n.declaredIn || \"\\u2014\") + \" | \" + \" | \" + (n.links.length ? '' + n.links.map(function(l){ var h = linkHref(l.href); return h ? '' + esc(l.label) + \"\" : '' + esc(l.label) + \"\"; }).join(\"\") + \"\" : 'none') + \" | \" + ' | ' + n.chars.toLocaleString() + \" chars | \" + \" . \"; }).join(\"\") + \"\"; } ",
+    "url": "/smart-ra/en/cat-harness/folio/#fo-nodes-head",
+    
+    "relUrl": "/en/cat-harness/folio/#fo-nodes-head"
+  },"27": {
+    "doc": "folio — the graph",
+    "title": "folio — the graph",
+    "content": " ",
+    "url": "/smart-ra/en/cat-harness/folio/",
+    
+    "relUrl": "/en/cat-harness/folio/"
+  },"28": {
+    "doc": "dpi-h-ra — library",
+    "title": "Library",
+    "content": "loading… . Listing Desktop ",
+    "url": "/smart-ra/en/cat-harness/library/dpi-h-ra/#lib-title",
+    
+    "relUrl": "/en/cat-harness/library/dpi-h-ra/#lib-title"
+  },"29": {
+    "doc": "dpi-h-ra — library",
+    "title": "Source JSON-LD and assets",
+    "content": "The published files this page is a rendering of. | index.json library projection (JSON) | source/crdm-walkthrough-2026-10-06.jsonld entry JSON-LD | source/mehl-2023-full-stac-oqad018.jsonld entry JSON-LD | source/who-dpi-h-reference-architecture-draft-v1.jsonld entry JSON-LD | . This page loads its entries from the library projection; it needs JavaScript to draw them. ",
+    "url": "/smart-ra/en/cat-harness/library/dpi-h-ra/",
+    
+    "relUrl": "/en/cat-harness/library/dpi-h-ra/"
+  },"30": {
+    "doc": "dpi-h-ra — library",
+    "title": "dpi-h-ra — library",
+    "content": "| ",
+    "url": "/smart-ra/en/cat-harness/library/dpi-h-ra/",
+    
+    "relUrl": "/en/cat-harness/library/dpi-h-ra/"
+  },"31": {
+    "doc": "Library",
+    "title": "Library",
+    "content": "loading… . Listing Desktop ",
+    "url": "/smart-ra/en/cat-harness/library/#lib-title",
+    
+    "relUrl": "/en/cat-harness/library/#lib-title"
+  },"32": {
+    "doc": "Library",
+    "title": "Source JSON-LD and assets",
+    "content": "The published files this page is a rendering of. | index.json library projection (JSON) | . Library subgraphs in this checkout . | Instance | Entries | Library page | Subgraph JSON-LD | . | cat-harness | 0 | — | not published | . | dpi-h-ra | 3 | dpi-h-ra | not published | . | fhir-harness | 0 | — | not published | . | smart-base | 0 | — | not published | . | who-iris | 0 | — | not published | . This page loads its entries from the library projection; it needs JavaScript to draw them. ",
+    "url": "/smart-ra/en/cat-harness/library/",
+    
+    "relUrl": "/en/cat-harness/library/"
+  },"33": {
+    "doc": "Library",
+    "title": "Library",
+    "content": "| ",
+    "url": "/smart-ra/en/cat-harness/library/",
+    
+    "relUrl": "/en/cat-harness/library/"
+  },"34": {
+    "doc": "Documents",
+    "title": "Documents",
+    "content": "What changed from main . | Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector | . ",
+    "url": "/smart-ra/",
+    
+    "relUrl": "/"
+  },"35": {
+    "doc": "Documents",
+    "title": "Also on this site",
+    "content": ". | Library | ArchiMate models | Public comments | . ",
+    "url": "/smart-ra/",
+    
+    "relUrl": "/"
+  },"36": {
+    "doc": "Documents",
+    "title": "Documents",
+    "content": " ",
+    "url": "/smart-ra/",
+    
+    "relUrl": "/"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-1d536a595d8c4251855ccfa9324cfa38",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-1d536a595d8c4251855ccfa9324cfa38",
+  "schema:name": "Health Worker Credentials and Compliance Verification",
+  "schema:description": "The core operational workflow that automates the cross-referencing, auditing, and real-time monitoring of a healthcare professional's active licenses and regulatory standing against mandatory institutional and legal benchmarks. This business logic layer continuously runs background audits across the workforce, cross-checking central catalogs to flag upcoming credential expirations, detect scope-of-practice violations, and enforce mandatory continuing education quotas.\r\n\r\nPossessing this capability eliminates the administrative burden of manual compliance checks, reduces institutional liability, and prevents the catastrophic oversight of uncertified or suspended staff delivering patient care. For hospital executives and human resource directors, it offers an automated, real-time risk mitigation engine that ensures the entire facility remains fully compliant with national health regulations and malpractice insurance mandates.\r\n\r\nExample: \"The automated implementation of Health Worker Credentials and Compliance Verification, which instantly flagged a surgeon's expiring trauma certification and temporarily locked them out of the operating room scheduling system until their renewal was logged.\"",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e8d9b68e24b04a25a27f025567a6e67b",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-e8d9b68e24b04a25a27f025567a6e67b",
+  "schema:name": "Task Management Component ",
+  "schema:description": "This component handles the creation, assignment, tracking, and escalation of tasks within the care team platform. It manages task state transitions, ownership, deadlines, and notifications throughout the task lifecycle.\r\n\r\nThe purpose of this component is to provide the operational backbone for coordinated care activity by ensuring that every task has a clear owner, status, and escalation path. It supports both clinical and administrative task workflows.\r\n\r\nExample: A care coordinator creates a series of post-discharge tasks, assigns them to specific team members, and monitors completion status through the component's task tracking interface.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

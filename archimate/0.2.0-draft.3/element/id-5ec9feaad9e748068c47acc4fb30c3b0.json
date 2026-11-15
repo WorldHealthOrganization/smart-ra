@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-5ec9feaad9e748068c47acc4fb30c3b0",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-5ec9feaad9e748068c47acc4fb30c3b0",
+  "schema:name": "Security Monitoring / Audit Service",
+  "schema:description": "This specific service focuses on applying and checking digital signatures on clinical and financial records. It ensures that the \"seal\" on a record can be verified by any participant in the network.\r\n\r\nThe purpose is to provide an immutable proof of origin and integrity for every data exchange. This is critical for medical-legal documentation and preventing the falsification of health records.\r\n\r\nExample: A physician using their digital ID to \"sign\" a patient’s discharge summary, making it a legally binding record.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7974ee3a15ed427a97e83c571cac346b",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-7974ee3a15ed427a97e83c571cac346b",
+  "schema:name": "Population-level insights into communication efficiency and bottlenecks.",
+  "schema:description": "This outcome aggregates anonymized data from care team communication patterns to generate insights into where delays, gaps, or overloads occur across facilities, departments, or care pathways. \r\n\r\nThe purpose of this outcome is to enable evidence-based decisions about workforce, workflow, and technology investments at a system level. It also supports facility accountability by making communication performance measurable.\r\n\r\nExample: A regional health authority analyzes communication data across ten district hospitals and finds that handover delays between shifts consistently occur in facilities without structured task delegation tools. This finding informs a targeted rollout of the task management module across those sites.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

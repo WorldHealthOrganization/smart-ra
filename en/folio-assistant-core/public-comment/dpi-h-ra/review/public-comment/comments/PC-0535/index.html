@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence … — public-comment</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-jsjdl6royo.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-jsjdl6royo","here":"/en/folio-assistant-core/public-comment/dpi-h-ra/review/public-comment/comments/PC-0535/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence …</h1>
+<p class="m">A <a href="../../../../../">public-comment</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/comments/PC-0535.json</code>.</p>
+<h2 id="change-sets">Change-sets</h2>
+<ul><li><a href="../../../../../../changeset/dpi-h-ra/review/public-comment/changesets/CS-264/">CS-264</a> — Treat the clinical-data persistence layer and openEHR explicitly <span class="m">(proposed)</span></li></ul>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>id</dt><dd>pc-0535</dd>
+<dt>summary</dt><dd>This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence …</dd>
+<dt>comment</dt><dd>This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence of clinical data or the information-model layer, so that the individual comments that follow are read as a set rather than separately. We have set them out this way because a reader encountering these passages in isolation will reasonably draw different conclusions from each, which is the opposite of what guidance of this kind is for.
+
+WHERE THE GUIDANCE ALREADY ACCEPTS AN OPEN INFORMATION-MODEL FORMALISM FOR CLINICAL DATA
+1. Annex D.1, page 230, lines 36–37 — EHRbase is listed under Lifelong Health Record as &quot;an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates&quot;, alongside HAPI FHIR Server at page 229 lines 33–35.
+2. Appendix C, page 175, functional requirement 2, status REQUIRED — the LIMR &quot;shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates&quot;.
+3. Appendix C, page 174, lines 81–85 — multi-formalism support is a core attribute; a national LIMR &quot;should bridge between them rather than mandate one&quot;.
+4. Appendix C, page 172, architecture placement box — the LIMR &quot;is anchored in internationally recognised standards including HL7 FHIR StructureDefinitions, openEHR archetypes, and WHO SMART Guidelines data dictionaries&quot;.
+5. Appendix C, page 156, line 43 — ISO 18308:2011 is cited as characterising an EHR architecture.
+
+WHERE THE GUIDANCE NAMES ONLY FHIR, OR PRESCRIBES IT FOR PERSISTENCE
+6. Section 2.2.2, page 28, lines 148–151 — the Open Standards enabling condition names HL7 FHIR, ICD, LOINC and SNOMED CT. No information-model formalism.
+7. Figure 2.2, page 30 — the full-STAC &quot;S&quot; grouping lists HL7 FHIR, ICD, SNOMED CT, LOINC, CQL. No information-model formalism.
+8. Section 2.3, principle II, page 32, lines 233–234 — &quot;The architecture points to FHIR-based approaches as the direction of travel.&quot;
+9. Figure 3.2, page 48, Shared Data Layer — the Lifelong Health Record element is annotated &quot;FHIR-based store&quot;. It is the only element in the figure carrying a storage technology.
+10. Figure 3.5, page 66 — the same Shared Data Layer is repeated with the identical &quot;FHIR-based store&quot; annotation.
+11. Figures 3.2 and 3.5 — the Logical Info Model Repo element lists its artefacts as &quot;FHIR profiles · eObjects · IPS · datasets&quot;. openEHR archetypes and templates are absent, contrary to item 2 above.
+12. Figures 3.2 and 3.5, Interoperability column — openEHR is listed under &quot;Open standards — Exchange &amp; content&quot;. It is an information-model formalism, not an exchange standard.
+13. Section 3.6.2, page 74, lines 811–820 — the paragraph naming the standards the architecture references lists nine, across exchange, terminology, identifiers, imaging and content. None for structure, although lines 805–807 state that the LIMR governs structure.
+
+WHERE THE INFORMATION-MODEL COMPONENT IS OMITTED OR DEFERRED
+14. Section 2.2.1, page 28, capability table — the LIMR is asterisked as &quot;an enabler that can be built up as maturity grows, rather than part of the minimum foundation&quot;.
+15. Appendix C, page 172, architecture placement box — &quot;Countries should approach the LIMR as a progressive enabler, not an immediate prerequisite.&quot;
+16. Figure 3.4, page 51 — the Metadata Components group lists the four registries and the Terminology Service; the LIMR is absent.
+17. Appendix E, Goal 1, page 236, lines 238–240 — the foundational component list omits the LIMR.
+
+WHERE THE GUIDANCE ARGUES THE MINISTRY&#39;S CASE ITSELF
+18. Section 3.6.2, page 74, lines 822–830 — &quot;Standards designed primarily for data in motion are highly extensible, and uncoordinated extension produces what are sometimes described as interoperable silos.&quot;
+19. Section 4.3.3, page 96, lines 319–321 — &quot;A FHIR profile is a representation of that logical model, not a replacement for it.&quot;
+20. Appendix C, page 173, lines 35–42 — two systems can exchange in HL7 FHIR &quot;and still fail to interoperate meaningfully&quot;.
+21. Appendix C, page 157, lines 107–110 — the LHR core attribute requires &quot;storage of health data in accordance with the logical information structures published through the LIMR&quot;.
+22. Section 2.3, principle VIII, page 35, lines 381–389 — the architecture should deliver &quot;clear separation between the data a country owns and the systems that process it&quot;, with no mechanism named.
+
+Items 6 to 17 are inconsistent with items 1 to 5 and with items 18 to 22. The Ministry&#39;s recommendation is that items 6 to 13 be amended to name an open information-model formalism for persisted clinical data alongside HL7 FHIR, and that items 14 to 17 be amended so that a governed minimum information model is treated as foundational.</dd>
+<dt>createdAt</dt><dd>2026-10-05T10:22:19.026Z</dd>
+<dt>targetLabel</dt><dd>prose:d-1-lifelong-health-record-3ef48b</dd>
+<dt>tags</dt><dd><pre>{
+  &quot;roles&quot;: [
+    &quot;feedback-provider&quot;
+  ],
+  &quot;processes&quot;: [
+    &quot;Process_PublicComment&quot;
+  ],
+  &quot;tasks&quot;: [
+    {
+      &quot;process&quot;: &quot;Process_PublicComment&quot;,
+      &quot;task&quot;: &quot;Task_Ingest&quot;
+    }
+  ],
+  &quot;identities&quot;: [],
+  &quot;references&quot;: [],
+  &quot;artefacts&quot;: []
+}</pre></dd>
+<dt>status</dt><dd>received</dd>
+<dt>priority</dt><dd>medium</dd>
+<dt>origin</dt><dd>human</dd>
+<dt>$schema</dt><dd>public-comment/1.0.0</dd>
+<dt>public</dt><dd><pre>{
+  &quot;ref&quot;: &quot;PC-0535&quot;,
+  &quot;source&quot;: {
+    &quot;channel&quot;: &quot;comment-matrix&quot;,
+    &quot;batch&quot;: &quot;dpi-h-master-log--Master-log&quot;,
+    &quot;sha256&quot;: &quot;1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1&quot;,
+    &quot;sheet&quot;: &quot;Master log&quot;,
+    &quot;row&quot;: 535,
+    &quot;entry&quot;: &quot;534&quot;,
+    &quot;series&quot;: &quot;dpi-h-master-log&quot;,
+    &quot;receivedAt&quot;: &quot;2026-10-05T10:22:19.026Z&quot;
+  },
+  &quot;reviewer&quot;: {
+    &quot;id&quot;: &quot;r-ba4e5cebbc&quot;,
+    &quot;name&quot;: &quot;Katarina Kralj&quot;,
+    &quot;organisation&quot;: &quot;Ministry of Health&quot;,
+    &quot;country&quot;: &quot;Slovenia&quot;,
+    &quot;acknowledge&quot;: true
+  },
+  &quot;citation&quot;: {
+    &quot;section&quot;: &quot;General — register of inconsistencies in the treatment of the persistence and information-model layer&quot;,
+    &quot;page&quot;: &quot;Whole document&quot;,
+    &quot;lines&quot;: &quot;see list&quot;,
+    &quot;raw&quot;: &quot;§General — register of inconsistencies in the treatment of the persistence and information-model layer p.Whole document l.see list&quot;
+  },
+  &quot;anchor&quot;: {
+    &quot;targetLabel&quot;: &quot;prose:d-1-lifelong-health-record-3ef48b&quot;,
+    &quot;method&quot;: &quot;quote&quot;,
+    &quot;confidence&quot;: &quot;medium&quot;,
+    &quot;candidates&quot;: [],
+    &quot;note&quot;: &quot;quotation found in the text&quot;
+  },
+  &quot;type&quot;: &quot;general&quot;,
+  &quot;text&quot;: &quot;This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence of clinical data or the information-model layer, so that the individual comments that follow are read as a set rather than separately. We have set them out this way because a reader encountering these passages in isolation will reasonably draw different conclusions from each, which is the opposite of what guidance of this kind is for.\n\nWHERE THE GUIDANCE ALREADY ACCEPTS AN OPEN INFORMATION-MODEL FORMALISM FOR CLINICAL DATA\n1. Annex D.1, page 230, lines 36–37 — EHRbase is listed under Lifelong Health Record as \&quot;an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\&quot;, alongside HAPI FHIR Server at page 229 lines 33–35.\n2. Appendix C, page 175, functional requirement 2, status REQUIRED — the LIMR \&quot;shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates\&quot;.\n3. Appendix C, page 174, lines 81–85 — multi-formalism support is a core attribute; a national LIMR \&quot;should bridge between them rather than mandate one\&quot;.\n4. Appendix C, page 172, architecture placement box — the LIMR \&quot;is anchored in internationally recognised standards including HL7 FHIR StructureDefinitions, openEHR archetypes, and WHO SMART Guidelines data dictionaries\&quot;.\n5. Appendix C, page 156, line 43 — ISO 18308:2011 is cited as characterising an EHR architecture.\n\nWHERE THE GUIDANCE NAMES ONLY FHIR, OR PRESCRIBES IT FOR PERSISTENCE\n6. Section 2.2.2, page 28, lines 148–151 — the Open Standards enabling condition names HL7 FHIR, ICD, LOINC and SNOMED CT. No information-model formalism.\n7. Figure 2.2, page 30 — the full-STAC \&quot;S\&quot; grouping lists HL7 FHIR, ICD, SNOMED CT, LOINC, CQL. No information-model formalism.\n8. Section 2.3, principle II, page 32, lines 233–234 — \&quot;The architecture points to FHIR-based approaches as the direction of travel.\&quot;\n9. Figure 3.2, page 48, Shared Data Layer — the Lifelong Health Record element is annotated \&quot;FHIR-based store\&quot;. It is the only element in the figure carrying a storage technology.\n10. Figure 3.5, page 66 — the same Shared Data Layer is repeated with the identical \&quot;FHIR-based store\&quot; annotation.\n11. Figures 3.2 and 3.5 — the Logical Info Model Repo element lists its artefacts as \&quot;FHIR profiles · eObjects · IPS · datasets\&quot;. openEHR archetypes and templates are absent, contrary to item 2 above.\n12. Figures 3.2 and 3.5, Interoperability column — openEHR is listed under \&quot;Open standards — Exchange &amp; content\&quot;. It is an information-model formalism, not an exchange standard.\n13. Section 3.6.2, page 74, lines 811–820 — the paragraph naming the standards the architecture references lists nine, across exchange, terminology, identifiers, imaging and content. None for structure, although lines 805–807 state that the LIMR governs structure.\n\nWHERE THE INFORMATION-MODEL COMPONENT IS OMITTED OR DEFERRED\n14. Section 2.2.1, page 28, capability table — the LIMR is asterisked as \&quot;an enabler that can be built up as maturity grows, rather than part of the minimum foundation\&quot;.\n15. Appendix C, page 172, architecture placement box — \&quot;Countries should approach the LIMR as a progressive enabler, not an immediate prerequisite.\&quot;\n16. Figure 3.4, page 51 — the Metadata Components group lists the four registries and the Terminology Service; the LIMR is absent.\n17. Appendix E, Goal 1, page 236, lines 238–240 — the foundational component list omits the LIMR.\n\nWHERE THE GUIDANCE ARGUES THE MINISTRY&#39;S CASE ITSELF\n18. Section 3.6.2, page 74, lines 822–830 — \&quot;Standards designed primarily for data in motion are highly extensible, and uncoordinated extension produces what are sometimes described as interoperable silos.\&quot;\n19. Section 4.3.3, page 96, lines 319–321 — \&quot;A FHIR profile is a representation of that logical model, not a replacement for it.\&quot;\n20. Appendix C, page 173, lines 35–42 — two systems can exchange in HL7 FHIR \&quot;and still fail to interoperate meaningfully\&quot;.\n21. Appendix C, page 157, lines 107–110 — the LHR core attribute requires \&quot;storage of health data in accordance with the logical information structures published through the LIMR\&quot;.\n22. Section 2.3, principle VIII, page 35, lines 381–389 — the architecture should deliver \&quot;clear separation between the data a country owns and the systems that process it\&quot;, with no mechanism named.\n\nItems 6 to 17 are inconsistent with items 1 to 5 and with items 18 to 22. The Ministry&#39;s recommendation is that items 6 to 13 be amended to name an open information-model formalism for persisted clinical data alongside HL7 FHIR, and that items 14 to 17 be amended so that a governed minimum information model is treated as foundational.&quot;,
+  &quot;suggestedRevision&quot;: &quot;Each item in the comment section has its own comment in this xls matrix with proposed wording. The changes are consistent with one another and can be made as a set. If only one change is made, it should be Comment No. 8 in this excel — design principle II — because that is the sentence procurement teams will cite.&quot;,
+  &quot;labels&quot;: {
+    &quot;TWG consideration? AI categorisation&quot;: &quot;Metadata registries&quot;
+  },
+  &quot;assignees&quot;: [],
+  &quot;recommendations&quot;: [],
+  &quot;history&quot;: [
+    {
+      &quot;at&quot;: &quot;2026-10-05T10:22:19.026Z&quot;,
+      &quot;transition&quot;: &quot;ingest&quot;,
+      &quot;by&quot;: &quot;intake&quot;,
+      &quot;task&quot;: &quot;Process_PublicComment#Task_Ingest&quot;,
+      &quot;note&quot;: &quot;dpi-h-master-log--Master-log row 535&quot;
+    }
+  ]
+}</pre></dd>
+</dl>
+</main>
+</body>
+</html>

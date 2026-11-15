@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bbbd6acdac81407db06b706bdb34aca5",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-bbbd6acdac81407db06b706bdb34aca5",
+  "schema:name": "Safeguards",
+  "schema:description": "This sub-goal focuses on implementing strong authentication, fraud detection, and access management for all health financing transactions. It ensures that only authorized parties can handle health funds and that financial data remains private.\r\n\r\nThe purpose is to reduce fraud loss and protect the ecosystem against security incidents and privacy breaches. It provides the necessary risk control for large-scale digital payment and insurance operations.\r\n\r\nExample: Using multi-factor authentication (MFA) for every official authorized to approve hospital payment schedules.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

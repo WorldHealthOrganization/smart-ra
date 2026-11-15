@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-5dc77dae1bce5d11b288830795b31bdf",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-5dc77dae1bce5d11b288830795b31bdf",
+  "schema:name": "Traceability Event",
+  "schema:description": "Traceability data. What: product identifier, batch no., serial no. When: date and time of the event. Where: location of the event. Why: details of the transaction (e.g., receiving, shipping, dispensing, discarding). (Fig. 24, PDF 55)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

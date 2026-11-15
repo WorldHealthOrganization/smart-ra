@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-c659991e313a41d6a4f1a6686e6ed7f7",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-c659991e313a41d6a4f1a6686e6ed7f7",
+  "schema:name": "Interoperability Service",
+  "schema:description": "This service enables the care team communication platform to exchange data with external systems such as electronic health records, clinical decision support tools, and health information exchanges. It ensures that communication flows are integrated into broader health information infrastructure.\r\n\r\nThe purpose of this service is to prevent the platform from operating as an isolated silo and to ensure that clinical communications are informed by and contribute to a unified patient record. It also supports consistent data standards across connected systems.\r\n\r\nExample: A care team message referencing a medication change is automatically synchronized with the patient's electronic health record, ensuring that the updated prescription is reflected across all connected systems.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

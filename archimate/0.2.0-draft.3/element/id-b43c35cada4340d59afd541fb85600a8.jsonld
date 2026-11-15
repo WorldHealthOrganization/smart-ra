@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-b43c35cada4340d59afd541fb85600a8",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-b43c35cada4340d59afd541fb85600a8",
+  "schema:name": "Health Record Management Service",
+  "schema:description": "This service provides the core functionality for creating, updating, and querying longitudinal patient records. It supports the PHR apps, clinical portals, and third-party APIs that interact with health data.\r\n\r\nThe purpose is to provide a standardized way to manage clinical data throughout its lifecycle. It ensures that health information is stored in a structured format that supports both care and analytics.\r\n\r\nExample: A FHIR-based service that allows a mobile app to retrieve a list of a patient’s active medications.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-81e60f63df33463ebc6491c92dad8191",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-81e60f63df33463ebc6491c92dad8191",
+  "schema:name": "Compliance and leakage analysis",
+  "schema:description": "An advanced application service that continuously scans aggregated transaction records, payroll files, and health fund databases to flag deviations from policy rules, calculate underpayments, and pinpoint where financial resources are being lost.\r\n\r\nIts primary purpose is to automate fiscal oversight by using specialized algorithms to cross-reference multiple data sources, allowing auditors to immediately catch non-compliant businesses and stop revenue leakage before it damages the health sector's budget.\r\n\r\nExample: The compliance and leakage analysis service automatically cross-checks an employer's declared health insurance contributions against their official corporate tax filings, instantly flagging a manufacturing company that underreported its headcount to evade $45,000 in mandatory health fees.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

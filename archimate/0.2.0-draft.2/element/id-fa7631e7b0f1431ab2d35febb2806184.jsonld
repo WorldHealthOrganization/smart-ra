@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-fa7631e7b0f1431ab2d35febb2806184",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-fa7631e7b0f1431ab2d35febb2806184",
+  "schema:name": "Immutable audit trails for financial events",
+  "schema:description": "An essential operational outcome achieved when every financial transaction, budget amendment, and system configuration change within the health network is permanently recorded in a tamper-evident, chronologically ordered ledger. This technical state ensures that once a financial event is captured, its historical data, timestamps, user identities, and approval paths can never be deleted, overwritten, or retroactively altered by any user, including system administrators.\r\n\r\nIts primary purpose is to establish absolute historical truth and non-repudiation for fiscal oversight. By stripping away the ability to modify past financial entries, it eliminates the risk of insider fraud cover-ups, dramatically lowers the cost and duration of statutory audits, and provides forensic investigators with an uncompromised, pixel-perfect roadmap of exactly how public health funds were handled.\r\n\r\nExample: During a retrospective federal investigation into emergency pharmaceutical procurement, the system’s immutable audit trail proves that a $2 million contract was modified post-approval; the ledger shows the exact millisecond the line item was altered, the specific administrative terminal used, and the cryptographic identity of the user who made the unauthorized change, making the evidence legally airtight.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

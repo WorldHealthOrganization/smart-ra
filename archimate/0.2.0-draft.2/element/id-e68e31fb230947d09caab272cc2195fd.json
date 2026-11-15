@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-e68e31fb230947d09caab272cc2195fd",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-e68e31fb230947d09caab272cc2195fd",
+  "schema:name": "Data Warehouse",
+  "schema:description": "A foundational data object that serves as the centralized repository, consolidating historical financial, clinical, demographic, and claims data from disparate systems across the entire health enterprise.\r\n\r\nPrimary Purpose: To provide a single, cleaned, and optimized source of truth that analytical tools and forecasting engines can query to run complex reporting, long-term trend analysis, and policy simulations.\r\n\r\nExample: The Data Warehouse ingests and transforms over 50 million historical provider claims and premium collection records from the past decade, allowing planners to reliably model how changing economic conditions might impact future health expenditures.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

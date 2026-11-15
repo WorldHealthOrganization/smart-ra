@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0baf33f8ff1a4e6fa384a8ca19c655e2",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0baf33f8ff1a4e6fa384a8ca19c655e2",
+  "schema:name": "Eligibility & entitlement determination",
+  "schema:description": "This capability involves the real-time verification of an individual's insurance status and the specific health benefits they are entitled to receive. It cross-references patient data with scheme rules to decide which services are covered at the point of care.\r\n\r\nThe objective is to provide instant financial certainty for both patients and healthcare providers during clinical encounters. It ensures that the system correctly applies subsidies and prevents the unauthorized utilization of pooled resources.\r\n\r\nExample: A clinic system confirming that a pregnant patient is entitled to free prenatal vitamins under her current insurance plan.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

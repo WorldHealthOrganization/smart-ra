@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-26af465ba86946158ae19ada621774e0",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-26af465ba86946158ae19ada621774e0",
+  "schema:name": "Provider registry",
+  "schema:description": "The provider registry is an authoritative database of all healthcare facilities and professionals authorized to provide services and receive payments. It stores metadata about provider credentials, service locations, and payment details.\r\n\r\nIts purpose is to ensure that only legitimate and accredited providers participate in the national health network. It supports data provenance and provides the necessary verification for accurate claims adjudication and fund disbursement.\r\n\r\nExample: A digital directory used to verify that a clinic has a valid medical license before an insurance claim is paid.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

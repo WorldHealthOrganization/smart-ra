@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6ea9310195a14d27937f219802f378de",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-6ea9310195a14d27937f219802f378de",
+  "schema:name": "Adverse Event Reporting Service",
+  "schema:description": "An Adverse Event Reporting Service is a post-market safety surveillance system designed to collect, aggregate, and analyze reports of unexpected or harmful medical occurrences resulting from the use of drugs, vaccines, or medical devices.\r\n\r\nIts primary purpose is to continuously monitor medical products after approval to identify rare side effects, detect safety trends, and ensure patient safety on a population scale.\r\n\r\nExample: A newly authorized influenza vaccine causes an unusual rate of severe allergic reactions, the service flags the spike in reports, prompting regulatory agencies to update the product warning label or issue a safety recall",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

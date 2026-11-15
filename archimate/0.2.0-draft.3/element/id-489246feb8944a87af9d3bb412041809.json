@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-489246feb8944a87af9d3bb412041809",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-489246feb8944a87af9d3bb412041809",
+  "schema:name": "Audit & Compliance Service",
+  "schema:description": "This service maintains secure, tamper-proof logs of all communications, task assignments, and system interactions within the care team platform. It ensures that all activity is traceable, reviewable, and compliant with applicable regulatory and institutional standards.\r\n\r\nThe purpose of this service is to support accountability, incident investigation, and quality improvement by providing a reliable record of who communicated what and when. It also ensures that the platform meets national and organizational data governance requirements.\r\n\r\nExample: Following a patient safety incident, a hospital administrator retrieves the full communication log for a care episode to reconstruct the sequence of events and identify where the breakdown in coordination occurred.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

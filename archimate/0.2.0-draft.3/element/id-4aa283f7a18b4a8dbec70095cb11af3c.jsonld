@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4aa283f7a18b4a8dbec70095cb11af3c",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4aa283f7a18b4a8dbec70095cb11af3c",
+  "schema:name": "Shared Health Record",
+  "schema:description": "Shared Health Record:\r\nfor Care Plan Management (e.g. FHIR CarePlan/Goal/Task resources)\r\nfor Discharge Summary (FHIR Composition/DocumentReference/Bundle)\r\nfor Referral & Transfer Module (FHIR ServiceRequest, Encounter, CarePlan)\r\nFHIR-based: Encounter, Observation, Condition, CarePlan, Goal, Task, EpisodeOfCare)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f52f11958250457caa547e6e7b5ccf50",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-f52f11958250457caa547e6e7b5ccf50",
+  "schema:name": "Population Registry",
+  "schema:description": "Aggregates the authoritative identity, demographic profile, and administrative residency records of all individuals eligible for health coverage within the system.\r\n\r\nPrimary Purpose: To serve as the master data denominator for the entire health financing ecosystem, enabling accurate capitation, risk assessment, and population-level health planning.\r\n\r\nExample: The Population Registry provides the consolidated database of all 2.4 million citizens in the Northern Territory, allowing the risk allocation engine to pull the exact age and location baselines needed to calculate next quarter's regional budget.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

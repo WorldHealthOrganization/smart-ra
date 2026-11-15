@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-1b2fa4f62e334b9d918412bbc2d4e83a",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-1b2fa4f62e334b9d918412bbc2d4e83a",
+  "schema:name": "Allocation and risk equalisation calculations",
+  "schema:description": "An advanced application service that automates complex mathematical formulas to calculate exactly how much money should be shifted between different health programs, regions, or insurance pools based on their population profiles.\r\n\r\nIts primary purpose is to remove human bias and manual spreadsheet errors from the budgeting process, programmatically ensuring that sicker, older, or lower-income populations are instantly paired with the higher levels of funding required to sustain their care.\r\n\r\nExample: Every quarter, the allocation and risk equalization calculations service ingests updated census and chronic disease registry data, processes it through the national funding matrix, and outputs a revised budget distribution that automatically channels an extra $4.2 million to an economically depressed district experiencing a spike in respiratory illnesses.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

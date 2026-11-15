@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-a87a8b0e8387443393ea5b87c39971aa",
+  "@type": "archimate:ValueStream",
+  "schema:identifier": "id-a87a8b0e8387443393ea5b87c39971aa",
+  "schema:name": "Personal Health Records Access and Sharing",
+  "schema:description": "This value stream focuses on the technical and procedural mechanisms that allow patients and providers to retrieve and exchange health information. It leverages portals and interoperability gateways to facilitate the secure movement of data across the health network.\r\n\r\nThe intent is to enable seamless care coordination and empower patients to govern their own health information. It ensures that medical data is portable and available at the point of care, regardless of where the information was originally generated.\r\n\r\nExample: A citizen granting a pharmacist temporary access to their current medication list through a secure consent-based dashboard.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

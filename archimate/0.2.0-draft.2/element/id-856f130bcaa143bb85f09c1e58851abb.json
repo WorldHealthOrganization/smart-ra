@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-856f130bcaa143bb85f09c1e58851abb",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-856f130bcaa143bb85f09c1e58851abb",
+  "schema:name": "Patient-Context Communication Component",
+  "schema:description": "This component manages the association between communications and clinical objects such as patient records, encounters, care plans, and tasks. It ensures that all messages, calls, and shared documents are tagged and retrievable within the correct clinical context.\r\n\r\nThe purpose of this component is to provide the contextual linking layer that makes communications meaningful and organized. It prevents messages from existing in isolation by anchoring them to the clinical activities they relate to.\r\n\r\nExample: When a nurse initiates a message about a patient, the component automatically associates the communication thread with the patient's active encounter and surfaces relevant clinical data for the recipient.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

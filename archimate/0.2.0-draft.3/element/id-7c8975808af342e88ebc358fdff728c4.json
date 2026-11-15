@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7c8975808af342e88ebc358fdff728c4",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-7c8975808af342e88ebc358fdff728c4",
+  "schema:name": "Perform data integrity checks",
+  "schema:description": "This process consists of routine technical evaluations to ensure that stored health data remains unaltered and uncorrupted over time. It utilizes cryptographic hashes or digital signatures to verify that the information has not been tampered with during storage or exchange.\r\n\r\nThe objective is to preserve the \"verifiable\" nature of the TPHR and ensure that health information remains a trusted source of truth. It protects the record against unauthorized changes or technical failures that could lead to data loss.\r\n\r\nExample: A background service that periodically verifies the digital signatures on a patient's historical lab reports to detect any data corruption.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

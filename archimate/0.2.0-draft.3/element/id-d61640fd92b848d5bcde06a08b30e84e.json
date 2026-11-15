@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d61640fd92b848d5bcde06a08b30e84e",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d61640fd92b848d5bcde06a08b30e84e",
+  "schema:name": "Forecasting & scenario modelling engine",
+  "schema:description": "A specialized core application component that runs predictive statistical algorithms, machine learning models, and complex financial simulations to generate long-term health expenditure trends and evaluate the impact of hypothetical policy shifts.\r\n\r\nIts primary purpose is to serve as the system’s predictive sandbox, allowing decision-makers to stress-test financial choices, anticipate future cost spikes, and visually compare the outcomes of different funding strategies before codifying them into law.\r\n\r\nExample: The forecasting & scenario modeling engine processes ten years of historical claims data against projected population aging trends; when a planner runs a simulation for \"Expanding free prescription coverage to citizens over 60,\" the engine calculates the future drug utilization spike and flags that the policy will trigger a $22 million annual deficit by year four unless the base premium is raised by 1.5%.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

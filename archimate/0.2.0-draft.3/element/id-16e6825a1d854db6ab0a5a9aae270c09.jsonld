@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-16e6825a1d854db6ab0a5a9aae270c09",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-16e6825a1d854db6ab0a5a9aae270c09",
+  "schema:name": "Interoperability Layer",
+  "schema:description": "This component manages data translation, protocol mediation, and integration with external systems such as electronic health records, health information exchanges, and clinical decision support platforms. It supports standards including FHIR, CDS Hooks, and SMART on FHIR.\r\n\r\nThe purpose of this component is to ensure that the care team platform does not operate in isolation but functions as a connected node within the broader health information ecosystem. It enables bidirectional data flow between the platform and external clinical systems.\r\n\r\nExample: The layer translates a task update from the care team platform into a FHIR-compliant resource and pushes it to the facility's electronic health record, ensuring the patient's record reflects the latest care team activity.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

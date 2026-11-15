@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7d11210d5ac74007a0fac917362b784e",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-7d11210d5ac74007a0fac917362b784e",
+  "schema:name": "Policy administration and entitlement management",
+  "schema:description": "This service manages the digital lifecycle of insurance policies and the specific benefit rules associated with them. It maintains the authoritative database of what services, medications, and treatments each specific member is entitled to receive.\r\n\r\nThe intent is to ensure that benefit rules are applied consistently and accurately across the entire healthcare network. It allows for the rapid update of coverage policies as national health priorities or budgets change over time.\r\n\r\nExample: A service that automatically updates the coverage rules for 1 million members to include a newly approved high-priority vaccine.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

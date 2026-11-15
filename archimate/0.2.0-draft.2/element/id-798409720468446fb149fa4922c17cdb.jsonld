@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-798409720468446fb149fa4922c17cdb",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-798409720468446fb149fa4922c17cdb",
+  "schema:name": "Operational systems serving transactions",
+  "schema:description": "An essential application service layer achieved by executing and recording day-to-day healthcare and administrative transactions in real time at the point of service. This mission-critical infrastructure serves as the primary data-capture engine across the health network, processing high-volume, routine events—such as patient admissions, pharmacy dispensations, procurement orders, and invoice entries—and instantly updating the system's ledger.\r\n\r\nIts primary purpose is to maintain operational continuity and data integrity at the frontlines of care. By processing transactions immediately and enforcing embedded business rules, it prevents operational delays, reduces human data-entry errors, and ensures that the raw financial and clinical data needed for higher-level budgeting, tracking, and oversight is captured accurately at the exact moment it occurs.\r\n\r\nExample: A district hospital's electronic health record and billing system acts as the operational transaction engine, processing an outpatient's diagnostic lab order, deducting the used reagents from pharmacy inventory, and generating a validated insurance claim simultaneously at the moment of care.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

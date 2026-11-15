@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-5ce8a3b06b034499bfff57e230bf7ca5",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-5ce8a3b06b034499bfff57e230bf7ca5",
+  "schema:name": "Care team communication",
+  "schema:description": "This sub-goal enables healthcare systems to support real-time, secure, and coordinated communication among all members of a care team (including physicians, nurses, pharmacists, and community health workers) directly within clinical workflows and digital platforms. It allows care team members to exchange information, delegate tasks, and respond to urgent alerts while actively delivering patient care.\r\n\r\nThe purpose of this sub-goal is to improve the speed, accuracy, and accountability of information sharing across care teams and healthcare facilities. It also reduces miscommunication, delayed responses, and care gaps that arise when providers work in fragmented or disconnected systems.\r\n\r\nExample: A nurse notices a critical lab result for a patient overnight and sends a secure, urgent message to the attending physician through the hospital's care platform. The message is automatically linked to the patient's record and flagged as requiring a response. The physician reviews the result, issues a medication adjustment, and delegates follow-up monitoring to the pharmacist -- all within the same communication thread, with a full audit trail maintained for accountability.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

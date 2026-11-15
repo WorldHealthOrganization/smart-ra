@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-c792a60edbf34953a0fce87ac6ede5e5",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-c792a60edbf34953a0fce87ac6ede5e5",
+  "schema:name": "Data Protection & Privacy Safeguards",
+  "schema:description": "This capability provides the technical means to uniquely identify citizens and verify their identity before allowing access to records. It often links a health-specific ID to a national registry or digital identity provider.\r\n\r\nThe purpose is to ensure that health records are linked to the correct person and that unauthorized access is prevented. This is a critical security layer for protecting patient privacy and ensuring data integrity.\r\n\r\nExample: A biometric-based login service that authenticates a patient before displaying their medical results.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

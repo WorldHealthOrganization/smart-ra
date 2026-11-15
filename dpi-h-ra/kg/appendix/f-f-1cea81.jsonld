@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/fig-f-1cea81",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "label": "fig:f-1cea81",
+  "kind": "figure",
+  "text": "f-f-1cea81.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1106,
+      "page": 253,
+      "printedPage": "242",
+      "method": "inherited-page",
+      "file": "media/image30.png",
+      "generated": {
+        "tool": "archimate-blocks",
+        "model": "0.3.0-draft.1",
+        "view": "id-54fbf81cb8595ec784c6d87d566a05e9"
+      }
+    },
+    "figureViews": [
+      {
+        "model": "0.3.0-draft.1",
+        "view": "id-54fbf81cb8595ec784c6d87d566a05e9"
+      }
+    ]
+  },
+  "provenance": "authored"
+}

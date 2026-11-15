@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-20dbcbe1c86a4bfb81c58aa6b5c676bf",
+  "@type": "archimate:ValueStream",
+  "schema:identifier": "id-20dbcbe1c86a4bfb81c58aa6b5c676bf",
+  "schema:name": "Personal Health Records Archiving and Disposal",
+  "schema:description": "This value stream governs the long-term storage and eventual permanent destruction of health records according to established retention policies. It manages the transition of data from active use to secure archival or final disposal once it is no longer required.\r\n\r\nThe purpose is to meet legal record-keeping mandates while protecting patient privacy by securely removing data that has reached the end of its lifecycle. It optimizes system performance and security by ensuring that only relevant and necessary information is maintained in active databases.\r\n\r\nExample: Securely deleting a patient's clinical records twenty years after their death in accordance with national data protection laws.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

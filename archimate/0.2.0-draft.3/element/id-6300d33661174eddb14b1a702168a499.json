@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6300d33661174eddb14b1a702168a499",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-6300d33661174eddb14b1a702168a499",
+  "schema:name": "Data Protection Services",
+  "schema:description": "Data Protection Services are modular IT units that provide encryption, tokenization, and masking capabilities for personal health information. These services are called by other applications to ensure that data remains private throughout its lifecycle.\r\n\r\nTheir purpose is to mitigate privacy risks by ensuring that sensitive data is only readable by authorized systems and users. They provide the technical safeguards required to comply with international regulations like GDPR or HIPAA.\r\n\r\nExample: A service that automatically masks a patient's national ID number in a clinical research report to preserve anonymity.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

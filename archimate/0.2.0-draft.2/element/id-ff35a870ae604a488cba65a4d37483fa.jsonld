@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ff35a870ae604a488cba65a4d37483fa",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-ff35a870ae604a488cba65a4d37483fa",
+  "schema:name": "Benchmarking & Comparison Module",
+  "schema:description": "This application component compares healthcare performance indicators across providers, facilities, regions, and national standards. It identifies performance gaps, trends, and areas requiring improvement.\r\n\r\nThe purpose is to support comparative analysis and encourages continuous quality improvement through peer benchmarking. It also promotes transparency and evidence-based performance management.\r\n\r\nExample: Regional hospitals compare maternal mortality rates against national averages and peer institutions.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

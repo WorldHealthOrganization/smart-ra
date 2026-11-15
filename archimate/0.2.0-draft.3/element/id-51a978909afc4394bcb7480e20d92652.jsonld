@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-51a978909afc4394bcb7480e20d92652",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-51a978909afc4394bcb7480e20d92652",
+  "schema:name": "Payment flow monitoring and reconciliation",
+  "schema:description": "An advanced application service that automatically tracks financial transfers from the moment a taxpayer initiates a transaction until the money settles in the national health fund, continuously cross-referencing bank records against internal ledger invoices to ensure perfect alignment.\r\n\r\nIts primary purpose is to eliminate manual bookkeeping bottlenecks and prevent financial discrepancies by instantly highlighting un-reconciled deposits, failed bank transfers, or accounting errors.\r\n\r\nExample: The payment flow monitoring and reconciliation service reviews thousands of digital health insurance deposits every midnight, instantly matching 99.8% of the cash drops to specific employer invoices and flagging the remaining handful of unmatched bank transfers for immediate human review.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-2db3a2a56e0d4f13bd4cacd13c5cfe1f",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-2db3a2a56e0d4f13bd4cacd13c5cfe1f",
+  "schema:name": "Learning & Development Planning Service",
+  "schema:description": "The self-contained software component within the enterprise application layer that enables healthcare managers and individual practitioners to design, schedule, and track personalized multi-year educational pathways and institutional upskilling roadmaps.\r\n\r\nThe purpose of this service is to align long-term workforce capability development with systemic healthcare goals by projecting future skill requirements and automatically recommending targeted training trajectories for health workers.\r\n\r\nExample: \"The Learning & Development Planning Service analyzed a hospital's upcoming transition to electronic health records and automatically built a six-month training roadmap for the entire nursing staff to ensure smooth adoption.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

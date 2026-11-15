@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Define one lifecycle, versioning and impact process for semantic artefacts — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-1c8svkgaaxr.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-1c8svkgaaxr","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-274/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Define one lifecycle, versioning and impact process for semantic artefacts</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-274.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0003/">PC-0003</a></td><td class="s">received</td><td class="t">The draft is deliberate about versioning at the source. Requirement 3 requires the Terminology Service to &quot;maintain ful…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0007/">PC-0007</a></td><td class="s">triaged</td><td class="t">The progress dimensions are well chosen, but the standards-conformance dimension measures a property of deployment rath…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0163/">PC-0163</a></td><td class="s">received</td><td class="t">The draft rightly notes SNOMED CT licensing, and SGI covers release management. However, it nowhere states as a require…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0204/">PC-0204</a></td><td class="s">received</td><td class="t">LOINC&#39;s own conventions for panels and standardized answer lists (LOINC Answer List / LL codes) are not mentioned, even…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-0701/">PC-0701</a></td><td class="s">received</td><td class="t">The draft rightly notes SNOMED CT licensing, and SGI covers release management. However, it nowhere states as a require…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1905/">PC-1905</a></td><td class="s">received</td><td class="t">The scope should distinguish code systems, value sets, concept maps, naming systems, identifier systems, classification…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1911/">PC-1911</a></td><td class="s">received</td><td class="t">Runtime validation is described, but no behaviour is defined for inactive codes, retired value-set members, unknown sys…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1912/">PC-1912</a></td><td class="s">received</td><td class="t">Dependency and impact analysis are not sufficiently explicit, although terminology changes can affect profiles, data mo…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1913/">PC-1913</a></td><td class="s">received</td><td class="t">The relationship with the LIMR is described as bidirectional, but release coordination and responsibility for broken bi…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1917/">PC-1917</a></td><td class="s">received</td><td class="t">Importing external terminology content without validation can introduce invalid versions, licence violations, duplicate…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1918/">PC-1918</a></td><td class="s">received</td><td class="t">Versioning is required but does not distinguish code-system version, value-set version, expansion parameters, mapping v…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1921/">PC-1921</a></td><td class="s">received</td><td class="t">Notification of terminology updates is only Recommended, although dependent systems need timely awareness of critical c…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1923/">PC-1923</a></td><td class="s">received</td><td class="t">Minimum metadata should include more than title, identifier, version, and publisher.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1931/">PC-1931</a></td><td class="s">received</td><td class="t">Model authoring, review, publication, validation, transformation, distribution, and runtime use are combined without es…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1932/">PC-1932</a></td><td class="s">received</td><td class="t">Model dependency, specialisation, inheritance, constraint, replacement, and deprecation relationships require formal re…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1939/">PC-1939</a></td><td class="s">received</td><td class="t">The specification may not define backward compatibility, semantic versioning, migration, or support periods.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1940/">PC-1940</a></td><td class="s">received</td><td class="t">Structural validation alone does not establish clinical validity, usability, implementability, or semantic appropriaten…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1943/">PC-1943</a></td><td class="s">received</td><td class="t">Impact analysis may be Recommended although model changes can affect clinical systems, analytics, decision support, and…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-1945/">PC-1945</a></td><td class="s">received</td><td class="t">“Minimum dataset” is not the appropriate term for model-repository metadata and may be confused with clinical minimum d…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2062/">PC-2062</a></td><td class="s">received</td><td class="t">Terminology, model, mapping, profile, and implementation-guide governance are distributed across several sections witho…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2342/">PC-2342</a></td><td class="s">received</td><td class="t">Semantic governance must address dependencies among terminologies, information models, implementation guides, decision …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2355/">PC-2355</a></td><td class="s">received</td><td class="t">Impact assessment may occur too late if it begins only after content has been authored.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2356/">PC-2356</a></td><td class="s">received</td><td class="t">Impact analysis should cover linked artefacts, deployed systems, analytics, decision support, historical data, procurem…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2377/">PC-2377</a></td><td class="s">received</td><td class="t">A single approval status may not cover draft, trial use, normative, informative, experimental, deprecated, and retired …</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2378/">PC-2378</a></td><td class="s">received</td><td class="t">Versioning requirements should distinguish content version, package version, implementation-guide version, model versio…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2379/">PC-2379</a></td><td class="s">received</td><td class="t">A new version may be syntactically compatible but semantically breaking.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2382/">PC-2382</a></td><td class="s">received</td><td class="t">Publication does not ensure that consumers can safely adopt the release.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2383/">PC-2383</a></td><td class="s">received</td><td class="t">Deprecation may be treated as simple status change without consumer migration or preservation of historic interpretatio…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2396/">PC-2396</a></td><td class="s">received</td><td class="t">External terminologies, classifications, standards, and implementation guides can change independently of national rele…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2397/">PC-2397</a></td><td class="s">received</td><td class="t">Impact analysis must occur before and after change to verify predicted and actual effects.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2400/">PC-2400</a></td><td class="s">received</td><td class="t">Fixed review intervals may be inappropriate across artefacts with different risk and update frequency.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2407/">PC-2407</a></td><td class="s">received</td><td class="t">Consumers need to discover supported, current, deprecated, and future versions and their compatibility.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2412/">PC-2412</a></td><td class="s">received</td><td class="t">Consumers need targeted notifications rather than undifferentiated alerts for every release.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2413/">PC-2413</a></td><td class="s">received</td><td class="t">Passive publication is insufficient for safety-critical corrections or deprecations.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2416/">PC-2416</a></td><td class="s">received</td><td class="t">Historical versions are necessary to interpret old records, reproduce reports, evaluate past decisions, and support leg…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2432/">PC-2432</a></td><td class="s">received</td><td class="t">Consumer migration between semantic versions is not sufficiently explicit.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2433/">PC-2433</a></td><td class="s">received</td><td class="t">The governance body cannot assume that every consumer will migrate following a notice.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2437/">PC-2437</a></td><td class="s">received</td><td class="t">Dependency management is distributed across several capabilities rather than visible as a core architectural function.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2456/">PC-2456</a></td><td class="s">received</td><td class="t">Retiring semantic artefacts can affect the interpretation of historical health records and reports for decades.</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+<dt>id</dt><dd>CS-274</dd>
+<dt>title</dt><dd>Define one lifecycle, versioning and impact process for semantic artefacts</dd>
+<dt>requirements</dt><dd>- Establish controlled publication statuses (draft, trial use, normative, deprecated, retired) with permitted uses
+- Add a common lifecycle from authoring to retirement for models, terminologies and mappings
+- Add a taxonomy of terminology artefacts and their services
+- Add dependency, impact and compatibility management as an explicit cross-cutting capability
+- State version alignment of terminologies and value sets across consuming systems as a conformance expectation
+- Rename &#39;minimum dataset&#39; to minimum metadata for governed artefacts
+- Define version semantics per artefact type, compatibility classification, and version alignment across participating systems
+- Make dependency tracking and impact analysis mandatory for production-used artefacts</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-0003&quot;,
+  &quot;PC-0007&quot;,
+  &quot;PC-0163&quot;,
+  &quot;PC-0204&quot;,
+  &quot;PC-0701&quot;,
+  &quot;PC-1905&quot;,
+  &quot;PC-1911&quot;,
+  &quot;PC-1912&quot;,
+  &quot;PC-1913&quot;,
+  &quot;PC-1917&quot;,
+  &quot;PC-1918&quot;,
+  &quot;PC-1921&quot;,
+  &quot;PC-1923&quot;,
+  &quot;PC-1931&quot;,
+  &quot;PC-1932&quot;,
+  &quot;PC-1939&quot;,
+  &quot;PC-1940&quot;,
+  &quot;PC-1943&quot;,
+  &quot;PC-1945&quot;,
+  &quot;PC-2062&quot;,
+  &quot;PC-2342&quot;,
+  &quot;PC-2355&quot;,
+  &quot;PC-2356&quot;,
+  &quot;PC-2377&quot;,
+  &quot;PC-2378&quot;,
+  &quot;PC-2379&quot;,
+  &quot;PC-2382&quot;,
+  &quot;PC-2383&quot;,
+  &quot;PC-2396&quot;,
+  &quot;PC-2397&quot;,
+  &quot;PC-2400&quot;,
+  &quot;PC-2407&quot;,
+  &quot;PC-2412&quot;,
+  &quot;PC-2413&quot;,
+  &quot;PC-2416&quot;,
+  &quot;PC-2432&quot;,
+  &quot;PC-2433&quot;,
+  &quot;PC-2437&quot;,
+  &quot;PC-2456&quot;
+]</pre></dd>
+<dt>status</dt><dd>proposed</dd>
+<dt>issues</dt><dd><pre>[]</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 39 comment(s)&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+</body>
+</html>

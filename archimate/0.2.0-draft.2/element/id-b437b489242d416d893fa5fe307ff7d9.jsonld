@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-b437b489242d416d893fa5fe307ff7d9",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-b437b489242d416d893fa5fe307ff7d9",
+  "schema:name": "Patient Education Service",
+  "schema:description": "This service delivers personalized, culturally adapted educational content to patients and families in multiple formats including text, video, and audio. It tailors content to the patient's condition, care plan, language, and literacy level.\r\n\r\nThe purpose of this service is to improve health literacy and self-management by ensuring patients and families have the knowledge they need to understand their condition and follow their care plan. \r\n\r\nExample: Following a diabetes diagnosis, a patient receives a series of short educational videos in their native language covering diet, medication adherence, and blood sugar monitoring, automatically triggered by their care plan.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

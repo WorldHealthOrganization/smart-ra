@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6d9ebd1007604db99fef46e9fd35e5a7",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-6d9ebd1007604db99fef46e9fd35e5a7",
+  "schema:name": "Product Catalogue",
+  "schema:description": "This data object contains structured and standardized information about healthcare products, medicines, medical supplies, equipment, and related items used within healthcare systems. It typically includes product identifiers, classifications, specifications, availability details, pricing references, and regulatory information.\r\n\r\nThe purpose is to support consistent identification, management, and exchange of product information across healthcare applications and supply chain processes. It also enables interoperability, procurement standardization, inventory management, and accurate reporting within healthcare ecosystems.\r\n\r\nExample: A national health supply chain platform maintains a product catalogue containing standardized medicine codes, descriptions, dosage forms, packaging information, and approved suppliers for all public healthcare facilities.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

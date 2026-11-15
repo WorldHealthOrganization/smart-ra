@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ff8a651ec88942ff88909be2442f9205",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ff8a651ec88942ff88909be2442f9205",
+  "schema:name": "Patient History Aggregation Service",
+  "schema:description": "Patient History Aggregation Service: This service consolidates patient records from various sources (e.g., labs, clinics, hospitals) into a single, unified view.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

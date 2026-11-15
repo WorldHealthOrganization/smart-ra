@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-13e616851947432a870730e24088aeda",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-13e616851947432a870730e24088aeda",
+  "schema:name": "Encryption & Key Management Service",
+  "schema:description": "This service manages the cryptographic keys used for data encryption and decryption across the ecosystem. It ensures that the keys are stored securely and only accessible to authorized processes.\r\n\r\nThe purpose is to provide the underlying security mechanism for protecting data privacy. Effective key management is essential for the long-term safety of encrypted health information.\r\n\r\nExample: A service that rotates the database encryption keys every 90 days to maintain high security standards.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

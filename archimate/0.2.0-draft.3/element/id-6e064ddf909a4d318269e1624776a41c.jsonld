@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6e064ddf909a4d318269e1624776a41c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-6e064ddf909a4d318269e1624776a41c",
+  "schema:name": "Event signing and trusted timestamping",
+  "schema:description": "The self-contained software component within the enterprise application layer that applies cryptographic signatures and cryptographically secure time-markers to transactional logs, credential changes, and system activities.\r\n\r\nThe purpose of this service is to establish non-repudiation and proof of existence for critical operational data, ensuring that an event's data integrity and the exact moment it occurred cannot be retroactively altered, falsified, or contested.\r\n\r\nExample: \"The Event Signing and Trusted Timestamping service automatically sealed a surgeon's digital signature on a blood transfusion authorization, creating a permanent, tamper-proof record that legally verified exactly when the procedure was approved.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

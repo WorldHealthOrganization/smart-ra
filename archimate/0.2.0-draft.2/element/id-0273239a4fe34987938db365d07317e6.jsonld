@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0273239a4fe34987938db365d07317e6",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-0273239a4fe34987938db365d07317e6",
+  "schema:name": "Risk equalisation / allocation engine (rule-based or ML-assisted, depending on maturity)",
+  "schema:description": "A specialized core application component that dynamically executes the health system's funding formulas—using either explicit business rules or machine learning models—to continuously calculate and rebalance financial resources across regional budgets and insurance pools based on population risk profiles.\r\n\r\nIts primary purpose is to serve as the high-performance computation engine for health financing equity, translating complex statutory allocation laws and actuarial models into definitive, un-biased financial transfers that match funding to true clinical and demographic need.\r\n\r\nExample: The risk equalization / allocation engine sits at the center of the national health insurance architecture; when processing the mid-year budget adjustment, it processes data for 15 million citizens across 24 geographic sectors, programmatically routing an additional $38 million to the western sector after detecting a statistical uptick in age-weighted chronic disease indicators.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

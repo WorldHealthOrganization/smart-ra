@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-b9e8b31f5d9d432fa79bac0e63c1bed4",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-b9e8b31f5d9d432fa79bac0e63c1bed4",
+  "schema:name": "Collect patient demographic and health information",
+  "schema:description": "This process involves the systematic recording of a person's basic identifiers and baseline clinical data such as allergies or chronic conditions. It serves as the primary intake step for establishing or updating a comprehensive digital health profile.\r\n\r\nIt creates an accurate foundational dataset that supports lifelong care coordination across different facilities. This ensures clinicians have the necessary context to provide safe and evidence-based treatment during every encounter.\r\n\r\nA nurse entering a patient’s current medications and contact details into a digital tablet during an intake interview.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

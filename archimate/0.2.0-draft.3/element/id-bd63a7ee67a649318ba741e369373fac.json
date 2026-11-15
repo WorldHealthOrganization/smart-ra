@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bd63a7ee67a649318ba741e369373fac",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-bd63a7ee67a649318ba741e369373fac",
+  "schema:name": "Health finance infromation system/ Data lake / warehouse with ETL/ELT pipelines",
+  "schema:description": "An essential application component that functions as a centralized, high-performance repository designed specifically to ingest, store, and process massive volumes of structured and unstructured health finance data. This component combines a flexible data lake (for raw, multi-format data storage) and a structured data warehouse (for optimized query performance), all orchestrated by automated ETL/ELT data pipelines that extract information from disparate operational systems, transform it into standardized formats, and load it for analysis.\r\n\r\nIts primary purpose is to serve as the unified physical data foundation for the entire healthcare financial ecosystem. By automating the continuous movement and consolidation of data, it eliminates manual reporting lag, strips out duplicate records, and provides the massive computing power required to run complex financial models, cross-system audits, and longitudinal cost analyses without slowing down production environments.\r\n\r\nExample: A ministry of health deploys a cloud-based Data Lakehouse component that runs nightly ELT pipelines to extract raw billing data from 200 independent hospital servers, loads it into a secure storage bucket, and transforms it into structured tables, allowing executive dashboards to display an updated breakdown of national healthcare expenditures by 6:00 AM every morning.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

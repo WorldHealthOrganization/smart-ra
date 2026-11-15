@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-61f9036cfc264e5ea18d7538e3f84e64",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-61f9036cfc264e5ea18d7538e3f84e64",
+  "schema:name": "Verification & Validation Service",
+  "schema:description": "The self-contained software component within the enterprise application layer that automatically evaluates submitted data, credentials, and identity claims against authoritative rules and source registries to confirm their authenticity and correctness. This service executes real-time validation checks, cryptographic signature verifications, and compliance rule evaluations to ensure that any data entering or moving through the ecosystem is legitimate, accurate, and uncorrupted.\r\n\r\nIt eliminates the risk of human error, manual verification bottlenecks, and the accidental or fraudulent entry of invalid credentials into critical operational workflows. For system integrations and compliance officers, it provides a highly reliable, automated gateway that instantly flags non-compliant records and blocks unverified transactions before they can impact downstream processes like payroll or clinical scheduling.\r\n\r\nExample: \"The Verification & Validation Service component that instantly verified a doctor's active medical license status against the regulatory board's master database before permitting them to issue a digital prescription.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

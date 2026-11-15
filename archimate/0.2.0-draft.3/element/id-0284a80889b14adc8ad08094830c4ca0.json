@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0284a80889b14adc8ad08094830c4ca0",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0284a80889b14adc8ad08094830c4ca0",
+  "schema:name": "Data Sharing & Authorization",
+  "schema:description": "This capability handles the technical processes of exchanging data between systems based on authorized requests and valid consent. It ensures that data flows securely and only to parties who have the legal right to see it.\r\n\r\nThe purpose is to enable seamless interoperability while strictly enforcing access control policies. This allows for clinical data to follow the patient across different levels of care without compromising privacy.\r\n\r\nExample: An authorization server issuing temporary tokens to allow a lab system to push results to a patient’s PHR.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

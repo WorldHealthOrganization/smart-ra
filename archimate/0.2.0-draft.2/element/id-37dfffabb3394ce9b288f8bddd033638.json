@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-37dfffabb3394ce9b288f8bddd033638",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-37dfffabb3394ce9b288f8bddd033638",
+  "schema:name": "Health expenditure forecasting (ability to model expected costs and service use at system level).",
+  "schema:description": "An advanced business capability that combines macroeconomic indicators, population aging trends, and historical healthcare utilization rates to build predictive models of future health system spending and service demand.\r\n\r\nIts primary purpose is to protect the health system from sudden financial shortfalls and structural deficits by giving fiscal planners a reliable, data-driven window into long-term cost drivers—such as rising pharmaceutical prices, chronic disease spikes, or increased hospital admissions.\r\n\r\nExample: Armed with this health expenditure forecasting capability, the treasury builds a five-year fiscal model showing that the rapid adoption of a new class of specialized oncology drugs, combined with a 4% increase in the over-65 demographic, will drive a $45 million spike in tertiary care costs, allowing the government to adjust premium rates well before a deficit occurs.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

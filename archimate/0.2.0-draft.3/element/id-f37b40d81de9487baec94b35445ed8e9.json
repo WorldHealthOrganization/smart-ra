@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f37b40d81de9487baec94b35445ed8e9",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-f37b40d81de9487baec94b35445ed8e9",
+  "schema:name": "Provider & Facility Verification",
+  "schema:description": "This capability involves the management and verification of the credentials, licenses, and operational status of health workers and facilities. It ensures that only legitimate and qualified parties participate in the network.\r\n\r\nThe purpose is to establish trust in the identities of the parties providing and accessing health information. This prevents unauthorized practice and ensures that patient data is only handled by verified professionals.\r\n\r\nExample: An automated check against the national health worker registry before a doctor is allowed to sign a medical report.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

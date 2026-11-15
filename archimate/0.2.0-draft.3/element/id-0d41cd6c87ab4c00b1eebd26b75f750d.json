@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0d41cd6c87ab4c00b1eebd26b75f750d",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-0d41cd6c87ab4c00b1eebd26b75f750d",
+  "schema:name": "Terminology Service (SNOMED, ICD, LOINC)",
+  "schema:description": "This service provides a centralized source for standardized clinical codes and vocabularies. It supports the translation and mapping between different medical coding systems.\r\n\r\nThe purpose is to ensure that clinical data retains its meaning as it moves between different healthcare systems. This is the technical enabler for semantic interoperability and meaningful analytics.\r\n\r\nExample: A service that tells a reporting system that the local code \"C-19\" should be mapped to the ICD-10 code \"U07.1\".",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

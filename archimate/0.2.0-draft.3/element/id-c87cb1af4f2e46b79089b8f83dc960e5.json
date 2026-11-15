@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-c87cb1af4f2e46b79089b8f83dc960e5",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-c87cb1af4f2e46b79089b8f83dc960e5",
+  "schema:name": "Terminology Server",
+  "schema:description": "Terminology Server (SNOMED/ICD/LOINC server). Manages metadata describing code systems, value sets, and concept mappings used to standardize health data semantics. Ensures standard clinical terminology, enabling consistent and verifiable record content.\r\n\r\nTerminology Server (SNOMED, ICD, LOINC, or Local Metadata Server)\r\n2.2 Person-centred health records (2.2.1 to 2.2.4) coded diagnoses and observations\r\n2.3 Decision support (2.3.1 to 2.3.3) protocol and rule definitions use coded data\r\n2.4 Telemedicine (2.4.3) standardized data exchange formats\r\n2.5 Communication (2.5.3 to 2.5.6) use of consistent terminology in reports\r\n2.9 Prescription and medication management (2.9.1 to 2.9.3) coded medicines and adverse events\r\n2.10 Laboratory and diagnostics (2.10.1 to 2.10.4) LOINC or SNOMED codes for tests\r\n2.11 Financial transactions (2.11.1 to 2.11.2) standardized service and billing codes\r\n3.8.1 to 3.8.3 Health certificate types and validation statuses standardized by terminology codes",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

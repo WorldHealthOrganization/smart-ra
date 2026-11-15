@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-16f44f890004438e9f0a05a6b05811f3",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-16f44f890004438e9f0a05a6b05811f3",
+  "schema:name": "Early warning indicators for fund depletion or over-utilisation.",
+  "schema:description": "These are automated alerts and threshold-based metrics that signal when a health fund is at risk of running out of capital. They analyze current spending velocity and revenue trends to predict potential insolvency months in advance.\r\n\r\nThey allow for rapid intervention by policy-makers to either secure additional funding or adjust the benefits package. This \"early warning\" system protects the stability of the health sector by preventing sudden payment freezes to providers.\r\n\r\nExample: An automated system flagging a \"Red Alert\" when current spending trends project fund depletion within the next three months.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

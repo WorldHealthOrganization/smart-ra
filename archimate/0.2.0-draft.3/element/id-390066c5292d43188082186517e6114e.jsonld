@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-390066c5292d43188082186517e6114e",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-390066c5292d43188082186517e6114e",
+  "schema:name": "Manage corrections and amendments in records",
+  "schema:description": "This process provides a formal and auditable mechanism for correcting factual errors or adding supplementary information to existing health records. It ensures that all changes are documented with the specific reason, timestamp, and identity of the person making the amendment.\r\n\r\nThe intent is to maintain the accuracy of the medical history while preserving a complete audit trail of all record modifications. This allows for the rectification of mistakes without compromising the legal or clinical integrity of the original entries.\r\n\r\nExample: A physician adding a signed amendment to a previous discharge summary to correct a typographical error in a prescribed dosage.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

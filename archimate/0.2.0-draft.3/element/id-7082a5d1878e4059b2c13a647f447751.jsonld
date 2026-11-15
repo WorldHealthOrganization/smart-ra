@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7082a5d1878e4059b2c13a647f447751",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-7082a5d1878e4059b2c13a647f447751",
+  "schema:name": "Reduced delays, miscommunication, and errors in patient care.",
+  "schema:description": "This outcome ensures that care team members receive and act on accurate, timely information by replacing informal or unreliable communication methods with structured, verified exchanges. It minimizes the risk of critical information being lost, misunderstood, or delivered to the wrong person.\r\n\r\nThe purpose of this outcome is to directly improve patient safety by addressing communication failure. It also builds trust among care team members by establishing reliable, consistent channels for sharing clinical information.\r\n\r\nExample: A ward pharmacist receives a structured medication order update from the prescribing physician through the care platform, with automatic flagging of any discrepancies against the patient's current prescription list. This prevents a potential dosing error during shift handover.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

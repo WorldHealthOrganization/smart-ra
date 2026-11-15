@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-6326cf09774c4d59a44488867268e743",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-6326cf09774c4d59a44488867268e743",
+  "schema:name": "Risk allocation / risk equalization",
+  "schema:description": "This capability involves the mathematical redistribution of funds between different health insurance pools based on the risk profiles of their members. It uses standardized formulas to move resources from lower-risk pools to those covering sicker or older populations.\r\n\r\nThe purpose is to ensure a fair \"level playing field\" among different insurance schemes and prevent the exclusion of high-risk individuals. It promotes social equity by ensuring that every scheme remains financially viable regardless of its members' health status.\r\n\r\nExample: Transferring a portion of a young, healthy urban fund's surplus to a rural fund with a high percentage of elderly patients.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

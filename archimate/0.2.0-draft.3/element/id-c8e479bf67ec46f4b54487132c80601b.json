@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-c8e479bf67ec46f4b54487132c80601b",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-c8e479bf67ec46f4b54487132c80601b",
+  "schema:name": "Clinical decision support integration",
+  "schema:description": "This sub-goal enables healthcare systems to embed evidence-based recommendations directly into clinical workflows and digital platforms. It allows healthcare providers to receive real-time guidance and alerts while delivering patient care.\r\n\r\nThe purpose of this sub-goal is to imprve the consistency, quality, and safety of clinical decisions across healthcare facilities. It also reduces errors, delays, and unnecessary variations in diagnoses and treatment.\r\n\r\nExample: A hospital electronic medical record system automatically alerts physicians when a prescribed medication may conflict with a patient’s allergy history.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

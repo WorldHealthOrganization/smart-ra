@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a60633226af3467982a3ecb59e0a523f",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-a60633226af3467982a3ecb59e0a523f",
+  "schema:name": "Faster anomaly detection supported by monitoring outputs",
+  "schema:description": "An essential operational outcome achieved when financial irregularities, compliance deviations, and potential fraud patterns within the health network are automatically flagged for review immediately after they occur. This accelerated capability shifts oversight from traditional, slow-moving post-payment audits to near-real-time intervention, utilizing automated monitoring routines that constantly scan transactional streams against pre-configured risk profiles, statistical baselines, and business rules.\r\n\r\nIts primary purpose is to stop the leakage of public health funds before losses multiply. By radically compressing the time between a fraudulent or erroneous event and its discovery, it enables internal auditors to freeze suspicious disbursements, investigate operational bottlenecks, and correct systemic invoicing errors immediately, minimizing financial waste and preserving critical resources for direct patient care.\r\n\r\nExample: A national health insurance platform processes a sudden spike in high-cost orthopedic claims from a rural clinic; within minutes, the system's monitoring engine detects the anomaly—noticing the volume exceeds the historic regional baseline by 300%—and automatically pauses the payouts, alerting the forensic audit team to investigate a potential billing scam before the funds leave the agency's accounts.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

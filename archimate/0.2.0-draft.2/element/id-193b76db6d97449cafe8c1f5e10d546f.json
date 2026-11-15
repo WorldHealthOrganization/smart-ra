@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-193b76db6d97449cafe8c1f5e10d546f",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-193b76db6d97449cafe8c1f5e10d546f",
+  "schema:name": "Shared Decision-Making Module",
+  "schema:description": "This component delivers interactive decision aids, structured questionnaires, and preference capture forms to support informed patient choices during care planning. It records patient responses and integrates them into the clinical record for provider review.\r\n\r\nThe purpose of this component is to provide the technical infrastructure for evidence-based, preference-sensitive decision support at the point of patient engagement.\r\n\r\nExample: A patient considering elective knee surgery completes an interactive decision aid through the module, comparing recovery timelines and outcomes for surgical versus physiotherapy options. Their recorded preference is shared with the orthopedic surgeon ahead of the consultation.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

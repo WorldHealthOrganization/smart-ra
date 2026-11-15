@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e07cd236229e4052a959bcc9d535d416",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-e07cd236229e4052a959bcc9d535d416",
+  "schema:name": "Budget approval, workflow routing and controls",
+  "schema:description": "An essential application service layer achieved by embedding institutional authorization rules, compliance checks, and automated routing paths directly into the financial decision-making process. This governance service systematically directs proposed health budgets through predefined hierarchies for review, verification, and sign-off while enforcing strict internal controls to prevent unauthorized or unbalanced financial plans.\r\n\r\nIts primary purpose is to ensure that budget formulation and amendments strictly comply with legal, regulatory, and policy frameworks before any funds can be legally committed. By automating the tracking of review stages and restricting approval privileges to verified personnel, it eliminates manual routing bottlenecks, establishes a clear audit trail, and prevents fiscal over-commitments.\r\n\r\nExample: When a regional health director submits a request to reallocate surplus funds to emergency medical supplies, the workflow service automatically routes the proposal to the compliance officer for policy verification and then to the treasury head for final digital signature, blocking the transaction if it exceeds established transfer thresholds.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

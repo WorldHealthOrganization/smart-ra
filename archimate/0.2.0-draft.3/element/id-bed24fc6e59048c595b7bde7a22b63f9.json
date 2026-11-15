@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bed24fc6e59048c595b7bde7a22b63f9",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-bed24fc6e59048c595b7bde7a22b63f9",
+  "schema:name": "Reporting Module",
+  "schema:description": "The self-contained software component within the enterprise application layer that is responsible for gathering, compiling, and formatting raw workforce and financial data into structured summaries. It acts as an internal processing engine that queries the central database, applies business logic, and prepares data payloads for presentation or export.\r\n\r\nIt isolates complex data aggregation tasks from the main payroll calculation engine, ensuring that heavy reporting queries do not slow down core system operations. This separation of duties guarantees that administrators can generate on-demand compliance audits and payroll summaries efficiently and reliably.\r\n\r\nExample: \"The Reporting Module component within the HR system that compiles monthly overtime logs and structures them into a standardized file for the executive dashboard to read.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

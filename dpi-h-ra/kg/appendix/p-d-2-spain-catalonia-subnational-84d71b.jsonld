@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-spain-catalonia-subnational-84d71b",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-spain-catalonia-subnational-84d71b",
+  "kind": "prose",
+  "cites": [
+    "references/jmir-2024-e58933",
+    "references/salut-publica-catalunya"
+  ],
+  "text": "p-d-2-spain-catalonia-subnational-84d71b.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1048,
+      "page": 244,
+      "pageEnd": 245,
+      "printedPage": "233",
+      "lineStart": 163,
+      "lineEnd": 169,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

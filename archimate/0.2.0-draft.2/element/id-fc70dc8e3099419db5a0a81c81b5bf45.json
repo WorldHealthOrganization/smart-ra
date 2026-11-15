@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-fc70dc8e3099419db5a0a81c81b5bf45",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-fc70dc8e3099419db5a0a81c81b5bf45",
+  "schema:name": "Quality Analytics Engine",
+  "schema:description": "This application component processes healthcare quality and operational data to generate insights, predictive analyses, trends, and performance evaluations. It supports advanced analytics for healthcare quality management and decision-making.\r\n\r\nThe purpose is to enable evidence-based quality improvement and supports proactive identification of healthcare risks and performance gaps. It also enhances reporting and strategic healthcare planning.\r\n\r\nExample: The analytics engine identifies hospitals with increasing readmission trends and predicts facilities at risk of performance decline.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

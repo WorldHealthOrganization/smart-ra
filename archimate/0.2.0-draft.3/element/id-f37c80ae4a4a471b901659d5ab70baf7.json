@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f37c80ae4a4a471b901659d5ab70baf7",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-f37c80ae4a4a471b901659d5ab70baf7",
+  "schema:name": "Data aggregation and consolidation",
+  "schema:description": "An advanced application service that connects to disparate databases across banks, clinics, and government offices to automatically fetch, standardize, and merge fragmented financial records into a single, unified data store.\r\n\r\nIts primary purpose is to programmaticly dismantle data silos by continuously resolving formatting mismatches, removing duplicate entries, and providing other core applications with a reliable, real-time stream of consolidated health and revenue data.\r\n\r\nExample: The data aggregation and consolidation service runs a nightly background routine that pulls tax payment files from commercial bank APIs, scrubs out formatting differences, and merges them into the central health fund database so the billing app can accurately update millions of user balances by morning.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

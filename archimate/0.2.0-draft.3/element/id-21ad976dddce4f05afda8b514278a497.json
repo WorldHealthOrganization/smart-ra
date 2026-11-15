@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-21ad976dddce4f05afda8b514278a497",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-21ad976dddce4f05afda8b514278a497",
+  "schema:name": "Provider onboarding and credentialing",
+  "schema:description": "This service handles the digital registration of healthcare providers and the verification of their professional licenses and facility accreditations. It manages the lifecycle of a provider's eligibility to participate in the national health network.\r\n\r\nThe objective is to ensure that only legitimate and qualified healthcare facilities and professionals are allowed to provide care and submit claims. It builds the foundational trust required for a secure and accountable health information exchange.\r\n\r\nExample: A service that automatically cross-checks a new clinic’s license with the national health facility registry during its enrollment.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

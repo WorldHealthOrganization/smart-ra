@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-17056ffcc80c4f1a9cb9813faccba55a",
+  "@type": "archimate:Product",
+  "schema:identifier": "id-17056ffcc80c4f1a9cb9813faccba55a",
+  "schema:name": "Product",
+  "schema:description": "The concrete offering, which is made available to stakeholders. \n\nIt bundles together services, data, and rules into a package that delivers value. Products make capabilities consumable by users. \n\nFor example, the Trusted Personal Health Record or the National Surveillance Dashboard are products delivered in the DPI-H context.\n\n\n\nA product represents a coherent collection of services and/or passive structure elements, accompanied by a contract, which is offered as a whole to (internal or external) customers. \n\n\n\nThis definition covers both intangible, services-based, or information products that are common in information-intensive organizations, as well as tangible, physical products. A financial or information product consists of a collection of services along with a contract that specifies the characteristics, rights, and requirements associated with the product. “Buying” a product gives the customer the right to use the associated services. Generally, the product element is used to specify a product type. The number of product types in an organization is typically relatively stable compared to the processes that realize or support the products. “Buying” is usually one of the services associated with a product which results in a new instance of that product (belonging to a specific customer). Similarly, there may be services to modify or destroy a product. A product may aggregate or compose business services, application services, technology services, business objects, data objects, and technology passive structure elements (artifacts and material), as well as a contract. Hence a product may aggregate or compose elements from other layers than the Business Layer. A value may be associated with a product. The name of a product is usually the name used in the communication with customers, or possibly a more generic noun (e.g., “travel insurance”).",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

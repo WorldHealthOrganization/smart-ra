@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-85244140da8f4d27b66e2b3a785444b5",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-85244140da8f4d27b66e2b3a785444b5",
+  "schema:name": "Scheme-level fund management (ability to manage pooled resources within coverage schemes).",
+  "schema:description": "An advanced business capability that enables health authorities to isolate, track, and optimize distinct pools of financial resources earmarked for specific universal health coverage schemes, populations, or benefit packages.\r\n\r\nIts primary purpose is to maintain strict fiscal governance across a multi-tier health system, ensuring that funds designated for specific programs—such as low-income subsidies, formal sector payroll contributions, or maternal health initiatives—are ring-fenced, monitored for sustainability, and never cross-subsidized inappropriately.\r\n\r\nExample: Using this scheme-level fund management capability, the national health insurance authority can manage the \"Vulnerable Citizens Scheme\" as a distinct financial pool, tracking its specific burn rate and intake from government grants separately from the \"Formal Sector Scheme\" to ensure that the subsidized fund remains liquid enough to cover low-income families all year round.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

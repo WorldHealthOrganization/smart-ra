@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-metadata-registries-and-foundati-lifelong-health-record-5d5f9a",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-metadata-registries-and-foundati-lifelong-health-record-5d5f9a",
+  "kind": "prose",
+  "cites": [
+    "references/cms-ehealth-records"
+  ],
+  "text": "p-c-metadata-registries-and-foundati-lifelong-health-record-5d5f9a.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 757,
+      "page": 167,
+      "printedPage": "156",
+      "lineStart": 42,
+      "lineEnd": 47,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

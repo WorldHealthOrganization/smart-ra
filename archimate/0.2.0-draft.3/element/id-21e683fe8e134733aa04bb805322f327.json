@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-21e683fe8e134733aa04bb805322f327",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-21e683fe8e134733aa04bb805322f327",
+  "schema:name": "Termininology & Data Management",
+  "schema:description": "This capability focuses on the standardization of clinical languages and data formats, such as SNOMED CT, ICD-11, and LOINC. It ensures that the meaning of health data is preserved during exchange.\r\n\r\nThe purpose is to achieve semantic interoperability, where systems can accurately interpret and act upon the data they receive. This is essential for clinical decision support, analytics, and reporting.\r\n\r\nExample: A central terminology server that maps local hospital \"chest pain\" codes to the international ICD-11 standard.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

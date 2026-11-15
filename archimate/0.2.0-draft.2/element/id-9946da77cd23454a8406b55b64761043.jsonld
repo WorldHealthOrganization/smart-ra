@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-9946da77cd23454a8406b55b64761043",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-9946da77cd23454a8406b55b64761043",
+  "schema:name": "Security monitoring, alerting, and incident response",
+  "schema:description": "This service continuously scans the health financing infrastructure for signs of cyberattacks, unauthorized access, or system misuse. It provides real-time alerts and manages the execution of response plans to neutralize threats as they occur.\r\nThe objective is to maintain the continuous availability and security of the national payment and finance network. It ensures that any breach of sensitive data is detected immediately and its impact is minimized through a rapid response.\r\nExample: An automated alert that blocks a user’s access after detecting multiple failed login attempts from a suspicious location.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

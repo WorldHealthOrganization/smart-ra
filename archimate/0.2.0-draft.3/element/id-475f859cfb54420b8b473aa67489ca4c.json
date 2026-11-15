@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-475f859cfb54420b8b473aa67489ca4c",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-475f859cfb54420b8b473aa67489ca4c",
+  "schema:name": "Trust & Verification",
+  "schema:description": "This capability uses cryptographic services to verify the source, authenticity, and integrity of digital health records and transactions. It often involves the use of digital certificates and signatures.\r\n\r\nThe purpose is to establish technical trust in the \r\nabsence of a central authority for every transaction. It ensures that any recipient can prove a record is authentic and has not been tampered with.\r\n\r\nExample: A verification service that checks the digital signature on an e-prescription before it is filled by a pharmacy.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ac52d76c43be40998ccb4bb7cdad526e",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-ac52d76c43be40998ccb4bb7cdad526e",
+  "schema:name": "Payers",
+  "schema:description": "Payers and insurers are the entities responsible for financing healthcare services and reimbursing providers based on claims. They utilize health data to verify services and manage insurance coverage for their members.\r\n\r\nThe purpose is to access reliable, verifiable data for efficient claims processing and the prevention of fraudulent billing. This ensures that health funds are used accurately and that members receive their entitled benefits.\r\n\r\nExample: An insurance agency using digitally signed clinical records to instantly validate and pay a provider's claim.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

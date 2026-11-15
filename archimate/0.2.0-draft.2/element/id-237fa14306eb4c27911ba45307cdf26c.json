@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-237fa14306eb4c27911ba45307cdf26c",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-237fa14306eb4c27911ba45307cdf26c",
+  "schema:name": "Registry Management Service",
+  "schema:description": "The self-contained software component within the enterprise application layer that provides the administrative interfaces, business logic, and automated workflows required to create, update, curate, and maintain master data records within a central repository. This service governs the lifecycle of directory entries, handling complex tasks like record de-duplication, history tracking, data quality validation, and bulk data importing or exporting.\r\n\r\nIt eliminates the risk of corrupted, outdated, or fragmented data by forcing all system changes to pass through a single, strictly controlled administrative layer. For system administrators and data stewards, it provides a secure, intuitive environment to manage system entries, execute audits, and guarantee that the central directory remains a reliable source of truth for all integrated platforms.\r\n\r\nExample: \"The Registry Management Service component that allowed database administrators to flag and merge duplicate doctor profiles in the central index after a regional hospital migration.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0de7cbe62fd8410cbf3c5b9a76fb1e10",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-0de7cbe62fd8410cbf3c5b9a76fb1e10",
+  "schema:name": "Facility Registry ",
+  "schema:description": "A facility registry maintains standardized information about healthcare facilities, service locations, and operational characteristics. It supports accurate identification and classification of healthcare institutions.\r\n\r\nThe purpose of this data object is to improve coordination, referrals, and reporting across the healthcare system. It also supports interoperability and healthcare network management.\r\n\r\nExample: A referral platform identifies the nearest accredited dialysis center using facility registry information.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

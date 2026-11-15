@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-12ec898bd2bc4f74b4014055c90cf7a4",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-12ec898bd2bc4f74b4014055c90cf7a4",
+  "schema:name": "Authorization & Access Control Service",
+  "schema:description": "This service is a technical component that manages and enforces the rules and permissions for accessing health data within the TPHR ecosystem. it works in conjunction with identity services to ensure that only verified users with the correct privileges can interact with sensitive medical records.\r\n\r\nThe purpose is to provide robust security and privacy by validating that every data request aligns with the patient’s explicit consent and the provider’s specific clinical role. This prevents the unauthorized exposure of personal information and ensures the integrity of the information exchange network.\r\n\r\nExample: A service that grants a physician \"read-only\" access to a patient's surgical history while automatically blocking access to their confidential counseling notes.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-d5dd7e1f8ea44d27b33466bbba8240fc",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d5dd7e1f8ea44d27b33466bbba8240fc",
+  "schema:name": "Audit & Compliance Engine",
+  "schema:description": "The Audit & Compliance Engine is a component that records, stores, and evaluates all access requests and system activities within the TPHR network. It maintains a permanent, immutable log of every transaction for regulatory and forensic purposes.\r\n\r\nIts purpose is to ensure accountability and monitor the ecosystem for compliance with data protection laws. It allows regulators to detect and investigate potential privacy breaches or misuse of health data.\r\n\r\nExample: An automated engine that flags an alert if a provider attempts to access records for a patient they do not have an active clinical relationship with.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

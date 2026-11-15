@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-40dba44e3b16421b9b2aff511b1a4598",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-40dba44e3b16421b9b2aff511b1a4598",
+  "schema:name": "Audit & Compliance Monitoring",
+  "schema:description": "This capability involves the continuous tracking and recording of all data access and system activities for oversight and accountability. It provides the audit trails necessary to verify that all transactions comply with established policies.\r\n\r\nThe purpose is to provide transparency and ensure that any unauthorized or improper use of data is detected and addressed. This supports regulatory compliance and reinforces stakeholder trust in system integrity.\r\n\r\nExample: A monitoring service that alerts administrators if a patient record is accessed without a corresponding consent record.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

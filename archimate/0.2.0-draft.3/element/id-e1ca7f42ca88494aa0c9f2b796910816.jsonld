@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e1ca7f42ca88494aa0c9f2b796910816",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-e1ca7f42ca88494aa0c9f2b796910816",
+  "schema:name": "Providers",
+  "schema:description": "Providers are the clinical professionals and organizations that deliver medical care and expect reimbursement from payers or the government. They act as the primary interface where financial value is exchanged for health services.\r\n\r\nThe purpose is to receive predictable, on-time payments for the services they provide to the population. They value clear reimbursement rules and a low administrative burden for submitting claims and receiving funds.\r\n\r\nExample: A private practice doctor receiving an automated payment from the social insurance fund within 10 days of a patient visit.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

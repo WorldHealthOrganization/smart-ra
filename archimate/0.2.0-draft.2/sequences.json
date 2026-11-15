@@ -1,0 +1,537 @@
+{
+  "$schema": "archimate-sequences/v1",
+  "model": "0.2.0-draft.2",
+  "name": "WHO Reference Architecture",
+  "sequences": [
+    {
+      "id": "id-33696a5526e842909db344363d6d4586",
+      "title": "Sub-goal #1 Layered View",
+      "source": "view",
+      "viewId": "id-33696a5526e842909db344363d6d4586",
+      "participants": [
+        {
+          "id": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-961cfe0f56b54c5ea4f48c3f34109e0e"
+        },
+        {
+          "id": "id-7862a8939c5a458c9ad1674062700688",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-7862a8939c5a458c9ad1674062700688"
+        },
+        {
+          "id": "id-d27a9f9d388544deb73618aaf145251c",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d27a9f9d388544deb73618aaf145251c"
+        },
+        {
+          "id": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "name": "DPI-H: Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-a3b7a1d2792c400ba0398eb82affaf2d"
+        },
+        {
+          "id": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bed24fc6e59048c595b7bde7a22b63f9"
+        },
+        {
+          "id": "id-e23a136ac7904c02a15f46010f655099",
+          "name": "Terminology Service",
+          "type": "ApplicationComponent",
+          "elementId": "id-e23a136ac7904c02a15f46010f655099"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-fb7f0277b41346d5879bb83277f26733"
+        },
+        {
+          "from": "id-d27a9f9d388544deb73618aaf145251c",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-b5054aceb8394f51af96091d22b98b6d"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "label": "flows to DPI-H: Facility Registry",
+          "kind": "flow",
+          "relationshipId": "id-9540ab8bdf4945278fdd25eb3e37b7f3"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-9aef44a6f9bb4910802896bc2fe65497"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-d27a9f9d388544deb73618aaf145251c",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-ac9d54a038e14c82999b13d9390525b4"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-e23a136ac7904c02a15f46010f655099",
+          "label": "flows to Terminology Service",
+          "kind": "flow",
+          "relationshipId": "id-7a3903baac4141b0878bfd4bf0d1c2c7"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-ace822c5be96420a980993dcb3184ce4"
+        },
+        {
+          "from": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-e601aa19b7d5495384703b338a8b48e5"
+        },
+        {
+          "from": "id-e23a136ac7904c02a15f46010f655099",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-3138db23398c4190b70f27e6117b95dc"
+        }
+      ]
+    },
+    {
+      "id": "id-742bf0b1880949c883216fe33e10c50f",
+      "title": "Sub-goal #2 Layered View",
+      "source": "view",
+      "viewId": "id-742bf0b1880949c883216fe33e10c50f",
+      "participants": [
+        {
+          "id": "id-e23a136ac7904c02a15f46010f655099",
+          "name": "Terminology Service",
+          "type": "ApplicationComponent",
+          "elementId": "id-e23a136ac7904c02a15f46010f655099"
+        },
+        {
+          "id": "id-7862a8939c5a458c9ad1674062700688",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-7862a8939c5a458c9ad1674062700688"
+        },
+        {
+          "id": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-961cfe0f56b54c5ea4f48c3f34109e0e"
+        },
+        {
+          "id": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "name": "DPI-H: Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-a3b7a1d2792c400ba0398eb82affaf2d"
+        },
+        {
+          "id": "id-938d268924bc4a6b8ddd9f24e525c878",
+          "name": "DPI-F Payments",
+          "type": "ApplicationComponent",
+          "elementId": "id-938d268924bc4a6b8ddd9f24e525c878"
+        },
+        {
+          "id": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bed24fc6e59048c595b7bde7a22b63f9"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-e23a136ac7904c02a15f46010f655099",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-3138db23398c4190b70f27e6117b95dc"
+        },
+        {
+          "from": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-fb7f0277b41346d5879bb83277f26733"
+        },
+        {
+          "from": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-e601aa19b7d5495384703b338a8b48e5"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-ace822c5be96420a980993dcb3184ce4"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "label": "flows to DPI-H: Facility Registry",
+          "kind": "flow",
+          "relationshipId": "id-9540ab8bdf4945278fdd25eb3e37b7f3"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-e23a136ac7904c02a15f46010f655099",
+          "label": "flows to Terminology Service",
+          "kind": "flow",
+          "relationshipId": "id-7a3903baac4141b0878bfd4bf0d1c2c7"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-938d268924bc4a6b8ddd9f24e525c878",
+          "label": "flows to DPI-F Payments",
+          "kind": "flow",
+          "relationshipId": "id-fe302859edb84f9bb1e4751a3bcc120d"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-9aef44a6f9bb4910802896bc2fe65497"
+        },
+        {
+          "from": "id-938d268924bc4a6b8ddd9f24e525c878",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-7123c172dd074e75baf17f1b78c1187f"
+        }
+      ]
+    },
+    {
+      "id": "id-360f87ddd163420ea6b011a7f2a2a883",
+      "title": "Sub-goal #3 Layered View",
+      "source": "view",
+      "viewId": "id-360f87ddd163420ea6b011a7f2a2a883",
+      "participants": [
+        {
+          "id": "id-e23a136ac7904c02a15f46010f655099",
+          "name": "Terminology Service",
+          "type": "ApplicationComponent",
+          "elementId": "id-e23a136ac7904c02a15f46010f655099"
+        },
+        {
+          "id": "id-7862a8939c5a458c9ad1674062700688",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-7862a8939c5a458c9ad1674062700688"
+        },
+        {
+          "id": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-961cfe0f56b54c5ea4f48c3f34109e0e"
+        },
+        {
+          "id": "id-d27a9f9d388544deb73618aaf145251c",
+          "name": "DPI-F Security & Consent Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-d27a9f9d388544deb73618aaf145251c"
+        },
+        {
+          "id": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bed24fc6e59048c595b7bde7a22b63f9"
+        },
+        {
+          "id": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "name": "DPI-H: Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-a3b7a1d2792c400ba0398eb82affaf2d"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-e23a136ac7904c02a15f46010f655099",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-3138db23398c4190b70f27e6117b95dc"
+        },
+        {
+          "from": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-fb7f0277b41346d5879bb83277f26733"
+        },
+        {
+          "from": "id-d27a9f9d388544deb73618aaf145251c",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-b5054aceb8394f51af96091d22b98b6d"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-d27a9f9d388544deb73618aaf145251c",
+          "label": "flows to DPI-F Security & Consent Module",
+          "kind": "flow",
+          "relationshipId": "id-ac9d54a038e14c82999b13d9390525b4"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-e23a136ac7904c02a15f46010f655099",
+          "label": "flows to Terminology Service",
+          "kind": "flow",
+          "relationshipId": "id-7a3903baac4141b0878bfd4bf0d1c2c7"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-9aef44a6f9bb4910802896bc2fe65497"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-ace822c5be96420a980993dcb3184ce4"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "label": "flows to DPI-H: Facility Registry",
+          "kind": "flow",
+          "relationshipId": "id-9540ab8bdf4945278fdd25eb3e37b7f3"
+        },
+        {
+          "from": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-e601aa19b7d5495384703b338a8b48e5"
+        }
+      ]
+    },
+    {
+      "id": "id-1c59b7b8fc87499cb6ccefaf2a5180a7",
+      "title": "Sub-goal #4 Layered View",
+      "source": "view",
+      "viewId": "id-1c59b7b8fc87499cb6ccefaf2a5180a7",
+      "participants": [
+        {
+          "id": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-961cfe0f56b54c5ea4f48c3f34109e0e"
+        },
+        {
+          "id": "id-7862a8939c5a458c9ad1674062700688",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-7862a8939c5a458c9ad1674062700688"
+        },
+        {
+          "id": "id-524dea71aa26495883e2ab4efbca3075",
+          "name": "Learning Management & Training Tracking Systems",
+          "type": "ApplicationComponent",
+          "elementId": "id-524dea71aa26495883e2ab4efbca3075"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-fb7f0277b41346d5879bb83277f26733"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "label": "flows to DPI-H National Health Workforce Directory/Registry",
+          "kind": "flow",
+          "relationshipId": "id-ace822c5be96420a980993dcb3184ce4"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-524dea71aa26495883e2ab4efbca3075",
+          "label": "flows to Learning Management & Training Tracking Systems",
+          "kind": "flow",
+          "relationshipId": "id-9c4002debe71452bbc9a178249f24535"
+        },
+        {
+          "from": "id-524dea71aa26495883e2ab4efbca3075",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-220b38207c5249029f7ac7d1dff5bf35"
+        }
+      ]
+    },
+    {
+      "id": "0.2.0-draft.2-flows",
+      "title": "WHO Reference Architecture — Cross-Component Flows",
+      "source": "flow",
+      "participants": [
+        {
+          "id": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "name": "DPI-H National Health Workforce Directory/Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-961cfe0f56b54c5ea4f48c3f34109e0e"
+        },
+        {
+          "id": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "name": "Reporting Module",
+          "type": "ApplicationComponent",
+          "elementId": "id-bed24fc6e59048c595b7bde7a22b63f9"
+        },
+        {
+          "id": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "name": "DPI-H: Facility Registry",
+          "type": "ApplicationComponent",
+          "elementId": "id-a3b7a1d2792c400ba0398eb82affaf2d"
+        },
+        {
+          "id": "id-138d88d8ce424d15b7ea3db0aec010e9",
+          "name": "Digital Payroll Services",
+          "type": "ApplicationService",
+          "elementId": "id-138d88d8ce424d15b7ea3db0aec010e9"
+        },
+        {
+          "id": "id-7862a8939c5a458c9ad1674062700688",
+          "name": "DPI-F Information Mediator",
+          "type": "ApplicationComponent",
+          "elementId": "id-7862a8939c5a458c9ad1674062700688"
+        },
+        {
+          "id": "id-8481f5d95240477e9fb462fdab759878",
+          "name": "Profile Management Service",
+          "type": "ApplicationService",
+          "elementId": "id-8481f5d95240477e9fb462fdab759878"
+        },
+        {
+          "id": "id-61f9036cfc264e5ea18d7538e3f84e64",
+          "name": "Verification & Validation Service",
+          "type": "ApplicationService",
+          "elementId": "id-61f9036cfc264e5ea18d7538e3f84e64"
+        },
+        {
+          "id": "id-b01d1fd318e343b4a85c5c5f73b81fbb",
+          "name": "Identity Management Service",
+          "type": "ApplicationService",
+          "elementId": "id-b01d1fd318e343b4a85c5c5f73b81fbb"
+        },
+        {
+          "id": "id-237fa14306eb4c27911ba45307cdf26c",
+          "name": "Registry Management Service",
+          "type": "ApplicationService",
+          "elementId": "id-237fa14306eb4c27911ba45307cdf26c"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+          "to": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-536e6ce23cc04f90b3b523510b6f5d28"
+        },
+        {
+          "from": "id-a3b7a1d2792c400ba0398eb82affaf2d",
+          "to": "id-bed24fc6e59048c595b7bde7a22b63f9",
+          "label": "flows to Reporting Module",
+          "kind": "flow",
+          "relationshipId": "id-e4fe78e2c519469a89916a5fc81d9395"
+        },
+        {
+          "from": "id-138d88d8ce424d15b7ea3db0aec010e9",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-9aadaf071700425cb10fd522096b95f8"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-138d88d8ce424d15b7ea3db0aec010e9",
+          "label": "flows to Digital Payroll Services",
+          "kind": "flow",
+          "relationshipId": "id-2129831181494665a187feeba05cbf26"
+        },
+        {
+          "from": "id-8481f5d95240477e9fb462fdab759878",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-5e34172e1548458db393607c1386093b"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-8481f5d95240477e9fb462fdab759878",
+          "label": "flows to Profile Management Service",
+          "kind": "flow",
+          "relationshipId": "id-bcb26af6ef6c45139959d026163fc01d"
+        },
+        {
+          "from": "id-61f9036cfc264e5ea18d7538e3f84e64",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-6e5db7ba4f4f44679787bd8a1f653403"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-61f9036cfc264e5ea18d7538e3f84e64",
+          "label": "flows to Verification & Validation Service",
+          "kind": "flow",
+          "relationshipId": "id-5bfbeed8eee54b9ba650e228e6c5df90"
+        },
+        {
+          "from": "id-b01d1fd318e343b4a85c5c5f73b81fbb",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-f5aed5d99c684082a1325c35ae1fdb42"
+        },
+        {
+          "from": "id-237fa14306eb4c27911ba45307cdf26c",
+          "to": "id-7862a8939c5a458c9ad1674062700688",
+          "label": "flows to DPI-F Information Mediator",
+          "kind": "flow",
+          "relationshipId": "id-32625db1d97740a58c807ec0b698a4a8"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-237fa14306eb4c27911ba45307cdf26c",
+          "label": "flows to Registry Management Service",
+          "kind": "flow",
+          "relationshipId": "id-b9e22d5a22844b5680f546ceeeb0f436"
+        },
+        {
+          "from": "id-7862a8939c5a458c9ad1674062700688",
+          "to": "id-b01d1fd318e343b4a85c5c5f73b81fbb",
+          "label": "flows to Identity Management Service",
+          "kind": "flow",
+          "relationshipId": "id-a571733fdcaf4011835f3457adbb5ccc"
+        }
+      ]
+    }
+  ]
+}

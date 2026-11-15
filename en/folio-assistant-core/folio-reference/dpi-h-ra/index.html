@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>folio-reference — dpi-h-ra</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-1z69iqkimdo.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../.." data-fa-to-root="../../../..">{"data":"rail-1z69iqkimdo","here":"/en/folio-assistant-core/folio-reference/dpi-h-ra/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">folio-reference — dpi-h-ra</h1>
+<p class="m">Node kind <code>folio-reference</code>, declared by <b>folio-assistant-core</b>. 94 node(s).</p>
+
+<p class="m">Held by <b>dpi-h-ra</b>. <a href="../">Every harness</a></p>
+<h2 id="by-provenance">By provenance</h2><ul class="tiles"><li><b>94</b>authored</li></ul>
+
+<h2 id="nodes">Nodes</h2>
+<p><span class="m"><span id="shown">94</span> of 94 shown</span></p>
+<div class="clip"><table>
+<thead><tr><th>Node</th><th>id</th><th>title</th><th>type</th><th>container-title</th><th>publisher</th></tr></thead>
+<tbody>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/9789240010567-eng/">references/9789240010567-eng</a></td><td class="s">9789240010567-eng</td><td class="t">Digital implementation investment guide (DIIG): integrating digital interventions into health programmes</td><td class="t">book</td><td class="t"></td><td class="t">World Health Organization</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/9789240013728-eng/">references/9789240013728-eng</a></td><td class="s">9789240013728-eng</td><td class="t">Digital health platform handbook: building a digital information infrastructure (infostructure) for health</td><td class="t">book</td><td class="t"></td><td class="t">World Health Organization</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/9789240084759-eng/">references/9789240084759-eng</a></td><td class="s">9789240084759-eng</td><td class="t">Ethics and governance of artificial intelligence for health: guidance on large multi-modal models</td><td class="t">book</td><td class="t"></td><td class="t">World Health Organization</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/9789241548960-eng/">references/9789241548960-eng</a></td><td class="s">9789241548960-eng</td><td class="t">Handbook for guideline development</td><td class="t">book</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/9789241580496-eng/">references/9789241580496-eng</a></td><td class="s">9789241580496-eng</td><td class="t">International Health Regulations (2005)</td><td class="t">book</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/abdm/">references/abdm</a></td><td class="s">abdm</td><td class="t">Ayushman Bharat Digital Mission</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ahrq-electronic-medical-record-systems/">references/ahrq-electronic-medical-record-systems</a></td><td class="s">ahrq-electronic-medical-record-systems</td><td class="t">Electronic medical record systems</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/archimate-3-2/">references/archimate-3-2</a></td><td class="s">archimate-3-2</td><td class="t">ArchiMate® 3.2 Specification</td><td class="t">standard</td><td class="t"></td><td class="t">The Open Group</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/au-my-health-record/">references/au-my-health-record</a></td><td class="s">au-my-health-record</td><td class="t">My Health Record</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/bahmni/">references/bahmni</a></td><td class="s">bahmni</td><td class="t">Bahmni</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cdc-cdsi/">references/cdc-cdsi</a></td><td class="s">cdc-cdsi</td><td class="t">Clinical Decision Support for Immunization (CDSi)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cdc-epi-info/">references/cdc-epi-info</a></td><td class="s">cdc-epi-info</td><td class="t">Epi Info</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cdc-nssp/">references/cdc-nssp</a></td><td class="s">cdc-nssp</td><td class="t">National Syndromic Surveillance Program (NSSP)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cds-hooks/">references/cds-hooks</a></td><td class="s">cds-hooks</td><td class="t">CDS Hooks</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cgdev-supply-chain-traceability/">references/cgdev-supply-chain-traceability</a></td><td class="s">cgdev-supply-chain-traceability</td><td class="t">Improving global health supply chains through traceability</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/clark-2025-dpi-and-development/">references/clark-2025-dpi-and-development</a></td><td class="s">clark-2025-dpi-and-development</td><td class="t">Digital Public Infrastructure and Development</td><td class="t">report</td><td class="t"></td><td class="t">World Bank</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/cms-ehealth-records/">references/cms-ehealth-records</a></td><td class="s">cms-ehealth-records</td><td class="t">E-health records</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/coe-cets-225-ai-convention/">references/coe-cets-225-ai-convention</a></td><td class="s">coe-cets-225-ai-convention</td><td class="t">Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)</td><td class="t">treaty</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/dhis2/">references/dhis2</a></td><td class="s">dhis2</td><td class="t">DHIS2</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ec-cross-border-health-services/">references/ec-cross-border-health-services</a></td><td class="s">ec-cross-border-health-services</td><td class="t">Electronic cross-border health services</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ec-interoperability-test-bed/">references/ec-interoperability-test-bed</a></td><td class="s">ec-interoperability-test-bed</td><td class="t">Interoperability Test Bed</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ecdc/">references/ecdc</a></td><td class="s">ecdc</td><td class="t">European Centre for Disease Prevention and Control</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ehn-guidelines-eprescriptions/">references/ehn-guidelines-eprescriptions</a></td><td class="s">ehn-guidelines-eprescriptions</td><td class="t">eHealth Network guidelines on ePrescriptions</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ehn-guidelines-patient-summary/">references/ehn-guidelines-patient-summary</a></td><td class="s">ehn-guidelines-patient-summary</td><td class="t">eHealth Network guidelines on the Patient Summary</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ehrbase/">references/ehrbase</a></td><td class="s">ehrbase</td><td class="t">EHRbase</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/es-ministerio-sanidad/">references/es-ministerio-sanidad</a></td><td class="s">es-ministerio-sanidad</td><td class="t">Ministerio de Sanidad</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/eu-2024-1689-ai-act/">references/eu-2024-1689-ai-act</a></td><td class="s">eu-2024-1689-ai-act</td><td class="t">Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intellig…</td><td class="t">legislation</td><td class="t">Official Journal of the European Union, L series</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/eu-2025-327-ehds/">references/eu-2025-327-ehds</a></td><td class="s">eu-2025-327-ehds</td><td class="t">Regulation (EU) 2025/327 of the European Parliament and of the Council of 11 February 2025 on the European Health Data Space and amending D…</td><td class="t">legislation</td><td class="t">Official Journal of the European Union</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/exemplars-cowin-india/">references/exemplars-cowin-india</a></td><td class="s">exemplars-cowin-india</td><td class="t">CoWIN in India</td><td class="t">webpage</td><td class="t"></td><td class="t">Gates Ventures / Exemplars in Global Health</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/fetter-2025-state-of-dpi/">references/fetter-2025-state-of-dpi</a></td><td class="s">fetter-2025-state-of-dpi</td><td class="t">2025 State of Digital Public Infrastructure Report</td><td class="t">report</td><td class="t"></td><td class="t">UCL Institute for Innovation and Public Purpose</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/firely/">references/firely</a></td><td class="s">firely</td><td class="t">Firely</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/full-stac-2023/">references/full-stac-2023</a></td><td class="s">full-stac-2023</td><td class="t">A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content</td><td class="t">article-journal</td><td class="t">Oxford Open Digital Health</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/g20-2023-digital-economy-ministers/">references/g20-2023-digital-economy-ministers</a></td><td class="s">g20-2023-digital-economy-ministers</td><td class="t">G20 Digital Economy Ministers&#39; Meeting Outcome Document and Chair&#39;s Summary, Bengaluru, India, 19 August 2023</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/greenhalgh-2017-beyond-adoption/">references/greenhalgh-2017-beyond-adoption</a></td><td class="s">greenhalgh-2017-beyond-adoption</td><td class="t">Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustai…</td><td class="t">article-journal</td><td class="t">Journal of Medical Internet Research</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/gs1-traceability-medicines/">references/gs1-traceability-medicines</a></td><td class="s">gs1-traceability-medicines</td><td class="t">Implementation of GS1 standards for traceability of medicines in the healthcare supply chain</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/hapi-fhir/">references/hapi-fhir</a></td><td class="s">hapi-fhir</td><td class="t">HAPI FHIR</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/hardin-1968-tragedy-commons/">references/hardin-1968-tragedy-commons</a></td><td class="s">hardin-1968-tragedy-commons</td><td class="t">The Tragedy of the Commons</td><td class="t">article-journal</td><td class="t">Science</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/healthgeolab-common-geo-registry/">references/healthgeolab-common-geo-registry</a></td><td class="s">healthgeolab-common-geo-registry</td><td class="t">Guidance on the Common Geo-registry</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/hl7-cql/">references/hl7-cql</a></td><td class="s">hl7-cql</td><td class="t">Clinical Quality Language (CQL)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/hl7-fhir-r5/">references/hl7-fhir-r5</a></td><td class="s">hl7-fhir-r5</td><td class="t">HL7 FHIR Release 5</td><td class="t">standard</td><td class="t"></td><td class="t">Health Level Seven International</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/huang-2017-beyond-pilotitis/">references/huang-2017-beyond-pilotitis</a></td><td class="s">huang-2017-beyond-pilotitis</td><td class="t">Beyond pilotitis: taking digital health interventions to the national level in China and Uganda</td><td class="t">article-journal</td><td class="t">Globalization and Health</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ibm-interoperability-healthcare/">references/ibm-interoperability-healthcare</a></td><td class="s">ibm-interoperability-healthcare</td><td class="t">What is interoperability in healthcare?</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ihip/">references/ihip</a></td><td class="s">ihip</td><td class="t">Integrated Health Information Platform</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/inglis-humphrey-2022-nhs-digital-academy/">references/inglis-humphrey-2022-nhs-digital-academy</a></td><td class="s">inglis-humphrey-2022-nhs-digital-academy</td><td class="t">The NHS Digital Academy Digital Health Leadership Programme</td><td class="t">paper-conference</td><td class="t">Digital Professionalism in Health and Care: Developing the Workforce, Building the Future — Proceedings of the EFMI Special Topic Conferenc…</td><td class="t">IOS Press</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/jmir-2024-e58933/">references/jmir-2024-e58933</a></td><td class="s">jmir-2024-e58933</td><td class="t"></td><td class="t">article-journal</td><td class="t">Journal of Medical Internet Research</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/karippacheril-2024-social-protection-playbook/">references/karippacheril-2024-social-protection-playbook</a></td><td class="s">karippacheril-2024-social-protection-playbook</td><td class="t">Playbook on Digital Social Protection Delivery Systems: Towards Dynamic Inclusion and Interoperability</td><td class="t">book</td><td class="t"></td><td class="t">World Bank</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/korea-2025-ai-basic-act/">references/korea-2025-ai-basic-act</a></td><td class="s">korea-2025-ai-basic-act</td><td class="t">Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act), Act No. 20676</td><td class="t">legislation</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/labrique-2018-best-practices-scaling/">references/labrique-2018-best-practices-scaling</a></td><td class="s">labrique-2018-best-practices-scaling</td><td class="t">Best practices in scaling digital health in low and middle income countries</td><td class="t">article-journal</td><td class="t">Globalization and Health</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/lefevre-2021-road-to-nowhere/">references/lefevre-2021-road-to-nowhere</a></td><td class="s">lefevre-2021-road-to-nowhere</td><td class="t">Avoiding the road to nowhere: policy insights on scaling up and sustaining digital health</td><td class="t">article-journal</td><td class="t">Global Policy</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/magoba-2025-sierra-leone-surveillance/">references/magoba-2025-sierra-leone-surveillance</a></td><td class="s">magoba-2025-sierra-leone-surveillance</td><td class="t">Digitalizing disease surveillance: experience from Sierra Leone</td><td class="t">article-journal</td><td class="t">Health Policy and Planning</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/metsallik-2018-estonia-ehealth/">references/metsallik-2018-estonia-ehealth</a></td><td class="s">metsallik-2018-estonia-ehealth</td><td class="t">Ten Years of the e-Health System in Estonia</td><td class="t">paper-conference</td><td class="t">CEUR Workshop Proceedings</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/mugasha-2025-uganda-eidsr/">references/mugasha-2025-uganda-eidsr</a></td><td class="s">mugasha-2025-uganda-eidsr</td><td class="t">Scaling Up and Enhancing the Functionality of the Electronic Integrated Diseases Surveillance and Response System in Uganda, 2020-2022: Des…</td><td class="t">article-journal</td><td class="t">JMIR Public Health and Surveillance</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/nist-sp-500-292/">references/nist-sp-500-292</a></td><td class="s">nist-sp-500-292</td><td class="t">NIST Cloud Computing Reference Architecture</td><td class="t">report</td><td class="t"></td><td class="t">National Institute of Standards and Technology</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ocl-2024-nhdd-framework/">references/ocl-2024-nhdd-framework</a></td><td class="s">ocl-2024-nhdd-framework</td><td class="t">NHDD conceptual framework and NHDD use cases</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ontoserver/">references/ontoserver</a></td><td class="s">ontoserver</td><td class="t">Ontoserver</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/opencds/">references/opencds</a></td><td class="s">opencds</td><td class="t">OpenCDS</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/opencr/">references/opencr</a></td><td class="s">opencr</td><td class="t">Open Client Registry (OpenCR)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openehr/">references/openehr</a></td><td class="s">openehr</td><td class="t">openEHR</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openehr-ckm/">references/openehr-ckm</a></td><td class="s">openehr-ckm</td><td class="t">openEHR Clinical Knowledge Manager</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openelis-global/">references/openelis-global</a></td><td class="s">openelis-global</td><td class="t">OpenELIS Global</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openhie-architecture-specification/">references/openhie-architecture-specification</a></td><td class="s">openhie-architecture-specification</td><td class="t">Open Health Information Exchange (OpenHIE) Specification and Architecture</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openhie-fis/">references/openhie-fis</a></td><td class="s">openhie-fis</td><td class="t">OpenHIE Finance and Insurance Service (FIS) component specification</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openhie-iol/">references/openhie-iol</a></td><td class="s">openhie-iol</td><td class="t">OpenHIE Interoperability Layer (IOL) component specification</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openhie-terminology-maturity-model-2018/">references/openhie-terminology-maturity-model-2018</a></td><td class="s">openhie-terminology-maturity-model-2018</td><td class="t">OpenHIE terminology management maturity model</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/openmrs/">references/openmrs</a></td><td class="s">openmrs</td><td class="t">OpenMRS</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/ostrom-1990-governing-commons/">references/ostrom-1990-governing-commons</a></td><td class="s">ostrom-1990-governing-commons</td><td class="t">Governing the Commons: The Evolution of Institutions for Collective Action</td><td class="t">book</td><td class="t"></td><td class="t">Cambridge University Press</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/peru-2023-ley-31814/">references/peru-2023-ley-31814</a></td><td class="s">peru-2023-ley-31814</td><td class="t">Ley N.º 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país</td><td class="t">legislation</td><td class="t">Diario Oficial El Peruano</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/rhie/">references/rhie</a></td><td class="s">rhie</td><td class="t">Rwanda Health Information Exchange</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/salut-publica-catalunya/">references/salut-publica-catalunya</a></td><td class="s">salut-publica-catalunya</td><td class="t">Salut Pública</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/smart-ig-starter-kit-references/">references/smart-ig-starter-kit-references</a></td><td class="s">smart-ig-starter-kit-references</td><td class="t">References section of the SMART IG starter kit</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/snowstorm/">references/snowstorm</a></td><td class="s">snowstorm</td><td class="t">Snowstorm</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/somsns/">references/somsns</a></td><td class="s">somsns</td><td class="t">SOMSNS</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/sormas/">references/sormas</a></td><td class="s">sormas</td><td class="t">SORMAS</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/tehik/">references/tehik</a></td><td class="s">tehik</td><td class="t">TEHIK — Health and Welfare Information Systems Centre</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/togaf-10/">references/togaf-10</a></td><td class="s">togaf-10</td><td class="t">The TOGAF® Standard, 10th Edition</td><td class="t">standard</td><td class="t"></td><td class="t">The Open Group</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/togaf-9-2/">references/togaf-9-2</a></td><td class="s">togaf-9-2</td><td class="t">The TOGAF® Standard, Version 9.2</td><td class="t">standard</td><td class="t"></td><td class="t">The Open Group</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/tx-fhir-org/">references/tx-fhir-org</a></td><td class="s">tx-fhir-org</td><td class="t">tx.fhir.org</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/usaid-2020-ghsc-psm-pmdm/">references/usaid-2020-ghsc-psm-pmdm</a></td><td class="s">usaid-2020-ghsc-psm-pmdm</td><td class="t">Product Master Data Management Reference Guide</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-2019-mfl-resource-package/">references/who-2019-mfl-resource-package</a></td><td class="s">who-2019-mfl-resource-package</td><td class="t">Master Facility List Resource Package</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-2021-ai-ethics-governance/">references/who-2021-ai-ethics-governance</a></td><td class="s">who-2021-ai-ethics-governance</td><td class="t">Ethics and governance of artificial intelligence for health: WHO guidance</td><td class="t">book</td><td class="t"></td><td class="t">World Health Organization</td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-2025-wha-gdhs-extension/">references/who-2025-wha-gdhs-extension</a></td><td class="s">who-2025-wha-gdhs-extension</td><td class="t">World Health Assembly endorses extension of the Global Digital Health Strategy to 2027</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-afro-2019-idsr-guidelines/">references/who-afro-2019-idsr-guidelines</a></td><td class="s">who-afro-2019-idsr-guidelines</td><td class="t">Integrated Disease Surveillance and Response (IDSR) technical guidelines</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-classifying-health-workers/">references/who-classifying-health-workers</a></td><td class="s">who-classifying-health-workers</td><td class="t">Classifying health workers</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-data-platforms/">references/who-data-platforms</a></td><td class="s">who-data-platforms</td><td class="t">WHO data platforms</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-eis-operational-standards/">references/who-eis-operational-standards</a></td><td class="s">who-eis-operational-standards</td><td class="t">WHO Event Information System (EIS) operational standards</td><td class="t">document</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-gdhcn/">references/who-gdhcn</a></td><td class="s">who-gdhcn</td><td class="t">Global Digital Health Certification Network (GDHCN)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-global-health-facilities-database/">references/who-global-health-facilities-database</a></td><td class="s">who-global-health-facilities-database</td><td class="t">Global health facilities database (questions and answers)</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-global-strategy-digital-health/">references/who-global-strategy-digital-health</a></td><td class="s">who-global-strategy-digital-health</td><td class="t">Global Strategy on Digital Health 2020-2027</td><td class="t">report</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-go-data/">references/who-go-data</a></td><td class="s">who-go-data</td><td class="t">Go.Data</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-harnessing-ai-for-health/">references/who-harnessing-ai-for-health</a></td><td class="s">who-harnessing-ai-for-health</td><td class="t">Harnessing artificial intelligence for health</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-integrated-data-platform/">references/who-integrated-data-platform</a></td><td class="s">who-integrated-data-platform</td><td class="t">WHO Integrated Data Platform</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-smart-guidelines/">references/who-smart-guidelines</a></td><td class="s">who-smart-guidelines</td><td class="t">SMART Guidelines</td><td class="t">webpage</td><td class="t"></td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/who-smart-guidelines-lancet-2021/">references/who-smart-guidelines-lancet-2021</a></td><td class="s">who-smart-guidelines-lancet-2021</td><td class="t">WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age</td><td class="t">article-journal</td><td class="t">The Lancet Digital Health</td><td class="t"></td></tr>
+<tr data-kind="folio-reference" data-harness="dpi-h-ra"><td class="p"><a href="references/wilton-park-2026-dpi-health/">references/wilton-park-2026-dpi-health</a></td><td class="s">wilton-park-2026-dpi-health</td><td class="t">Leveraging digital public infrastructure for sustainable health system transformation</td><td class="t">report</td><td class="t"></td><td class="t">Wilton Park</td></tr>
+</tbody></table></div>
+</main>
+<script>
+(function(){
+  var sels=document.querySelectorAll('select[data-filter]'), rows=document.querySelectorAll('tbody tr[data-kind]');
+  var out=document.getElementById('shown');
+  function apply(){ var n=0; rows.forEach(function(r){ var ok=true;
+    sels.forEach(function(s){ if(s.value && r.getAttribute('data-'+s.getAttribute('data-filter'))!==s.value) ok=false; });
+    r.hidden=!ok; if(ok) n++; }); if(out) out.textContent=String(n); }
+  sels.forEach(function(s){ s.addEventListener('change',apply); });
+})();
+</script>
+</body>
+</html>

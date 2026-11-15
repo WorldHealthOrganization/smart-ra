@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-cadcf07294e74375bb159639895c92e0",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-cadcf07294e74375bb159639895c92e0",
+  "schema:name": "Real-time Collaboration Service",
+  "schema:description": "This service enables synchronous communication among care team members through voice, video, and live chat capabilities. It supports virtual consultations, case conferences, and multidisciplinary team meetings across locations.\r\n\r\nThe purpose of this service is to reduce the need for physical co-location while maintaining the quality and immediacy of clinical collaboration. It also supports timely decision-making when team members are distributed across facilities or shifts.\r\n\r\nExample: A specialist at a regional hospital joins a virtual case review with a rural health team to provide guidance on a complex patient diagnosis without requiring patient transfer.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

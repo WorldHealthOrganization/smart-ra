@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-3622161229c94ebeae71a6e7fe35cada",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-3622161229c94ebeae71a6e7fe35cada",
+  "schema:name": "BI / reporting module",
+  "schema:description": "An essential application component that aggregates, formats, and visualizes complex healthcare financial and operational data into interactive dashboards, structured summaries, and automated reports. This business intelligence (BI) module interfaces directly with data warehouses or transactional databases, utilizing analytical engines to compile multi-dimensional data into highly intuitive charts, graphs, and tabular views tailored to different user personas.\r\n\r\nIts primary purpose is to democratize data access and drive empirical decision-making across all levels of health governance. By transforming massive, technical datasets into clear, visual performance metrics, it enables executives, hospital CEOs, and program managers to monitor financial health in real time, rapidly identify operational inefficiencies, and generate compliant regulatory reports with minimal technical expertise.\r\n\r\nExample: A regional health board integrates a dedicated BI/reporting module into its management portal; the module automatically tracks local hospital expenditures against allocated budgets, instantly highlighting any clinic running a deficit with an automated red flag on the executive dashboard and allowing directors to drill down into specific transaction rows to investigate the cause.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

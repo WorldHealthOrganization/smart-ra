@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bbc6407b4f05402b8863781dd93a7002",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-bbc6407b4f05402b8863781dd93a7002",
+  "schema:name": "FHIR API Service",
+  "schema:description": "This service provides a standardized, resource-based API for interacting with health data using the HL7 FHIR specification. It is the modern standard for exchanging health information between web and mobile applications.\r\n\r\nThe purpose is to enable modern developers and vendors to easily integrate with the national health infrastructure. It promotes innovation and the rapid deployment of patient-facing health apps.\r\n\r\nExample: An API that allows a third-party fitness app to securely pull a patient’s recent heart rate data with their consent.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

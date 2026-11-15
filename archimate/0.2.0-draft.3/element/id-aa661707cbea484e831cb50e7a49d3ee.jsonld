@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-aa661707cbea484e831cb50e7a49d3ee",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-aa661707cbea484e831cb50e7a49d3ee",
+  "schema:name": "Policy administration",
+  "schema:description": "This component manages the digital lifecycle of health insurance policies, including the definition of terms, coverage periods, and premium settings. It handles the backend logic for maintaining different insurance products and membership tiers.\r\n\r\nIts purpose is to ensure that insurance schemes are managed according to established legal and financial rules. It allows health authorities to rapidly adjust coverage parameters or introduce new insurance products in response to policy changes.\r\n\r\nExample: A software module used to track the effective dates and renewal cycles for a subsidized health insurance plan for informal workers.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

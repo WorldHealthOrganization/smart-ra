@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-eb6f3947df3049cd99dbaaa7719247b1",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-eb6f3947df3049cd99dbaaa7719247b1",
+  "schema:name": "Risk assessment and stratification algorithms",
+  "schema:description": "This service uses clinical and demographic data to categorize the population into different levels of health and financial risk. It predicts the likelihood of future expensive health events for specific groups based on their medical history.\r\n\r\nThe goal is to support proactive resource allocation and the design of targeted health interventions for high-need patients. It allows health authorities to identify patients who require intensive management to prevent costly hospitalizations and improve outcomes.\r\n\r\nExample: An algorithm that flags patients with multiple chronic conditions as \"High Risk\" for specialized care coordination services.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-7e541da215c448838a36cffcf5b39b2d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7e541da215c448838a36cffcf5b39b2d",
+  "schema:name": "CDS Integration Layer",
+  "schema:description": "A CDS integration layer connects clinical decision support components with electronic medical records, registries, and external healthcare systems. It facilitates secure and standardized data exchange between platforms.\r\n\r\nThe purpose of this integration layer is to ensure seamless interoperability and workflow integration for decision support services. It also enables consistent access to patient information across systems.\r\n\r\nExample: A pharmacy management system receives medication safety alerts from the CDS engine through the integration layer.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

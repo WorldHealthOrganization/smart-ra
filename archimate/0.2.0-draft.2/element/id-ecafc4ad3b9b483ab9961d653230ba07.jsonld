@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-ecafc4ad3b9b483ab9961d653230ba07",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-ecafc4ad3b9b483ab9961d653230ba07",
+  "schema:name": "Medication Safety Module",
+  "schema:description": "A medication safety module focuses on identifying and preventing medication-related risks during prescribing and administration processes. It monitors for drug interactions, contraindications, and dosage issues.\r\n\r\nThe purpose of this application component is to reduce adverse drug events and improves patient safety in medication management. It also supports safe and evidence-based prescribing practices.\r\n\r\nExample: The system warns providers when two prescribed medications may cause a harmful interaction.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

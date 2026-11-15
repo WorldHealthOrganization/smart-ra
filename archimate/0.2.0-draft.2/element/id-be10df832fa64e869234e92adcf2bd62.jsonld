@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-be10df832fa64e869234e92adcf2bd62",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-be10df832fa64e869234e92adcf2bd62",
+  "schema:name": "Strong authentication",
+  "schema:description": "This capability involves the use of multi-factor authentication (MFA) or biometric verification to prove a user's identity before granting access to sensitive systems. It adds a layer of security beyond simple passwords to prevent account takeovers.\r\n\r\nThe intent is to safeguard critical financial and clinical infrastructure from cyberattacks and unauthorized entry. It ensures that even if credentials are stolen, the health system remains protected by a second, physical verification step.\r\n\r\nExample: Requiring a budget officer to provide both a password and a fingerprint scan to authorize an emergency fund transfer.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

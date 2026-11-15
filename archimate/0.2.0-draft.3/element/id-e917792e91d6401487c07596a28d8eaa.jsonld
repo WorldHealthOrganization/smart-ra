@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-e917792e91d6401487c07596a28d8eaa",
+  "@type": "archimate:BusinessFunction",
+  "schema:identifier": "id-e917792e91d6401487c07596a28d8eaa",
+  "schema:name": "Access Control and Privacy Management",
+  "schema:description": "This function manages the policies and technical rules that govern who can view or modify specific segments of a personal health record. It operates based on the patient's explicit consent settings and the verified credentials of the requesting party.\r\n\r\nThe objective is to protect sensitive medical information from unauthorized access while enabling secure sharing for legitimate care. It ensures that the system respects individual privacy rights and complies with national data protection regulations.\r\n\r\nExample: A privacy gateway that blocks a healthcare provider from viewing a patient's records if the patient has not granted them specific consent.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

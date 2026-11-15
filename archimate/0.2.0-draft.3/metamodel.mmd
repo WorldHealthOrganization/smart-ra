@@ -1,0 +1,123 @@
+classDiagram
+  %% WHO Models: metamodel in use, derived by archimate-metamodel. Do not edit.
+  class ApplicationComponent["Application Component"]
+  <<Application>> ApplicationComponent
+  class ApplicationService["Application Service"]
+  <<Application>> ApplicationService
+  class Outcome["Outcome"]
+  <<Motivation>> Outcome
+  class Capability["Capability"]
+  <<Strategy>> Capability
+  class Goal["Goal"]
+  <<Motivation>> Goal
+  class Value["Value"]
+  <<Motivation>> Value
+  class BusinessProcess["Business Process"]
+  <<Business>> BusinessProcess
+  class Stakeholder["Stakeholder"]
+  <<Motivation>> Stakeholder
+  class DataObject["Data Object"]
+  <<Application>> DataObject
+  class BusinessFunction["Business Function"]
+  <<Business>> BusinessFunction
+  class Grouping["Grouping"]
+  <<Other>> Grouping
+  class ValueStream["Value Stream"]
+  <<Strategy>> ValueStream
+  class ApplicationFunction["Application Function"]
+  <<Application>> ApplicationFunction
+  class Product["Product"]
+  <<Business>> Product
+  class Driver["Driver"]
+  <<Motivation>> Driver
+  class WorkPackage["Work Package"]
+  <<Implementation & Migration>> WorkPackage
+  class BusinessActor["Business Actor"]
+  <<Business>> BusinessActor
+  ApplicationComponent ..|> ApplicationService : realises ×140
+  Stakeholder -- Value : associated with ×99
+  Value ..> Outcome : influences ×92
+  Outcome ..|> Goal : realises ×70
+  BusinessFunction *-- BusinessProcess : composed of ×62
+  Capability ..|> Grouping : realises ×60
+  Grouping *-- Outcome : composed of ×60
+  Grouping *-- ApplicationService : composed of ×55
+  Goal *-- Goal : composed of ×49
+  ApplicationComponent ..> Grouping : accesses ×46
+  ApplicationComponent ..> ApplicationComponent : flows to ×42
+  Capability ..|> Outcome : realises ×42
+  Grouping ..|> Capability : realises ×42
+  ApplicationService --> Product : serves ×33
+  ApplicationService ..|> Capability : realises ×30
+  Grouping o-- DataObject : aggregates ×24
+  Grouping *-- Goal : composed of ×23
+  Product ..|> Capability : realises ×22
+  ApplicationService ..> ApplicationComponent : flows to ×17
+  Grouping -- ApplicationComponent : associated with ×17
+  ApplicationComponent -- Grouping : associated with ×14
+  Grouping ..|> Goal : realises ×13
+  ValueStream --> ValueStream : triggers ×13
+  ApplicationService --> ApplicationFunction : serves ×12
+  ApplicationComponent --> ApplicationService : serves ×10
+  Grouping *-- DataObject : composed of ×10
+  BusinessFunction -- BusinessFunction : associated with ×9
+  ValueStream ..|> Goal : realises ×9
+  BusinessFunction -- Capability : associated with ×8
+  Driver ..> Goal : influences ×8
+  Goal ..> Value : influences ×8
+  Value -- Stakeholder : associated with ×8
+  ValueStream -- BusinessFunction : associated with ×8
+  WorkPackage ..|> Goal : realises ×8
+  ApplicationFunction --> ApplicationComponent : serves ×6
+  ApplicationService --> Grouping : serves ×6
+  BusinessFunction ..|> Capability : realises ×6
+  BusinessFunction --> ApplicationService : serves ×6
+  Capability -- ValueStream : associated with ×6
+  Stakeholder *-- Stakeholder : composed of ×6
+  Value -- Grouping : associated with ×6
+  ApplicationComponent ..> DataObject : accesses ×5
+  ApplicationComponent --> ApplicationFunction : assigned to ×5
+  ApplicationComponent ..> ApplicationService : flows to ×5
+  Capability -- BusinessFunction : associated with ×5
+  ApplicationComponent ..|> ApplicationFunction : realises ×4
+  ApplicationComponent ..|> Grouping : realises ×4
+  Capability *-- Capability : composed of ×4
+  Grouping o-- Driver : aggregates ×4
+  Grouping o-- Product : aggregates ×4
+  Grouping --> Product : serves ×4
+  Outcome -- Outcome : associated with ×4
+  Value -- Driver : associated with ×4
+  ApplicationFunction ..|> ApplicationService : realises ×3
+  Capability ..> Goal : influences ×3
+  Capability --> Capability : serves ×3
+  Goal ..> Goal : influences ×3
+  Outcome o-- Outcome : aggregates ×3
+  Outcome ..|> Grouping : realises ×3
+  Value -- Outcome : associated with ×3
+  ApplicationComponent ..> ApplicationFunction : flows to ×2
+  ApplicationComponent --> ApplicationComponent : serves ×2
+  ApplicationFunction ..> ApplicationComponent : flows to ×2
+  ApplicationService ..> ApplicationService : flows to ×2
+  ApplicationService --> ApplicationComponent : serves ×2
+  Goal *-- Grouping : composed of ×2
+  Stakeholder ..> Driver : influences ×2
+  ValueStream *-- ValueStream : composed of ×2
+  ApplicationComponent ..|> Capability : realises ×1
+  ApplicationFunction ..|> Capability : realises ×1
+  BusinessActor --> Stakeholder : assigned to ×1
+  BusinessProcess -- BusinessFunction : associated with ×1
+  BusinessProcess ..|> Capability : realises ×1
+  BusinessProcess --> ApplicationService : serves ×1
+  Goal o-- Goal : aggregates ×1
+  Grouping o-- Outcome : aggregates ×1
+  Grouping ..> Grouping : influences ×1
+  Grouping ..|> Grouping : realises ×1
+  Outcome o-- Grouping : aggregates ×1
+  Outcome -- Capability : associated with ×1
+  Outcome *-- Outcome : composed of ×1
+  Outcome ..> Outcome : influences ×1
+  Stakeholder -- BusinessActor : associated with ×1
+  Stakeholder ..> Goal : influences ×1
+  Stakeholder ..> Stakeholder : influences ×1
+  Value ..> Stakeholder : influences ×1
+  ValueStream -- BusinessProcess : associated with ×1

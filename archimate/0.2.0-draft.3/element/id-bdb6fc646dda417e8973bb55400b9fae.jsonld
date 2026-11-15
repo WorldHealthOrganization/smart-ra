@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bdb6fc646dda417e8973bb55400b9fae",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-bdb6fc646dda417e8973bb55400b9fae",
+  "schema:name": "Provider/Facility Registry Service",
+  "schema:description": "This service maintains a verified database of health workers, including their credentials, licenses, and roles. It provides an API for other systems to verify the identity of a clinician.\r\n\r\nThe purpose is to ensure that all clinical actions can be attributed to a verified professional. This is essential for accountability, patient safety, and the security of the health network.\r\n\r\nExample: A service that confirms a user is a licensed surgeon before they are allowed to upload a post-operative summary.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

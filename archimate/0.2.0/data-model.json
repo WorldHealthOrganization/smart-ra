@@ -1,0 +1,157 @@
+{
+  "$schema": "archimate-data-model/v1",
+  "model": "0.2.0",
+  "name": "WHO_RA",
+  "classes": [
+    {
+      "id": "id-b03a09f1177a4bf6bfd1f22c6cea1c94",
+      "name": "Adapted SMART Guidelines L1",
+      "type": "BusinessObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-2f415a2e0d4245c19663f5821ed02a16",
+      "name": "Adapted SMART Guidelines L2 (DAK)",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-c41368c8e91646cf96381ca301ac003d",
+      "name": "Approved Terminology Content",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-e4de2256c7644b7cbd7222ac49625b3d",
+      "name": "Clinical Guidelines",
+      "type": "BusinessObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-71b2e11df2e348a2b9f8eee36c8e5292",
+      "name": "Patient-level Data",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": [
+        {
+          "elementId": "id-0e6d89398fff4f20994a31b4de58e7d7",
+          "name": "SHR Repository",
+          "type": "ApplicationComponent",
+          "relationshipId": "id-36c426f94fdb4cacbcf583f6896d4232",
+          "kind": "readwrite"
+        }
+      ]
+    },
+    {
+      "id": "id-85cd033bc1bd4bec9bb4a2f316f357da",
+      "name": "Reference data models",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": [
+        {
+          "elementId": "id-612bf72448f94ac1859470fb76566a8a",
+          "name": "Harmonize and reconcile models for national context",
+          "type": "ApplicationProcess",
+          "relationshipId": "id-ebbef93edbb44c1e858dde7c299ec2f7",
+          "kind": "read"
+        },
+        {
+          "elementId": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
+          "name": "Logical Information Model Registry",
+          "type": "ApplicationComponent",
+          "relationshipId": "id-93d197f1da8b4fad940330387ea9a797",
+          "kind": "readwrite"
+        }
+      ]
+    },
+    {
+      "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+      "name": "Shared Health Record",
+      "type": "BusinessObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-5b55a8ca67864a1a91910347db193e79",
+      "name": "SMART Guidelines L1",
+      "type": "BusinessObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+      "name": "SMART Guidelines L2 (DAK)",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": []
+    },
+    {
+      "id": "id-22a44179b1b34a74984de87cd5a702b7",
+      "name": "Structured Guidelines content",
+      "type": "DataObject",
+      "attributes": [],
+      "accessedBy": []
+    }
+  ],
+  "relationships": [
+    {
+      "id": "id-e93395c64641412bad72ebc665991736",
+      "source": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+      "target": "id-22a44179b1b34a74984de87cd5a702b7",
+      "type": "Specialization"
+    },
+    {
+      "id": "id-6aba5c08f6c44aea87ca1579ebf4b583",
+      "source": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+      "target": "id-5b55a8ca67864a1a91910347db193e79",
+      "type": "Realization"
+    },
+    {
+      "id": "id-f33f460c46cf4a7d9178dd6911c9718e",
+      "source": "id-22a44179b1b34a74984de87cd5a702b7",
+      "target": "id-e4de2256c7644b7cbd7222ac49625b3d",
+      "type": "Realization"
+    },
+    {
+      "id": "id-71ca461498b6470bb95e05415a52a498",
+      "source": "id-2f415a2e0d4245c19663f5821ed02a16",
+      "target": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+      "type": "Specialization"
+    },
+    {
+      "id": "id-d424f9d56d814a21babf5a1cd4aa0bff",
+      "source": "id-2f415a2e0d4245c19663f5821ed02a16",
+      "target": "id-b03a09f1177a4bf6bfd1f22c6cea1c94",
+      "type": "Realization"
+    },
+    {
+      "id": "id-a1f31108507b4aa38667aef1c7ef40fd",
+      "source": "id-5b55a8ca67864a1a91910347db193e79",
+      "target": "id-e4de2256c7644b7cbd7222ac49625b3d",
+      "type": "Specialization"
+    },
+    {
+      "id": "id-55a406f19194493581dcdeabec43826a",
+      "source": "id-71b2e11df2e348a2b9f8eee36c8e5292",
+      "target": "id-f180ad44b2e94e2a9ee8523ffc900264",
+      "type": "Realization"
+    },
+    {
+      "id": "id-804f3a8fab754b55b254d7da6fc1ae0c",
+      "source": "id-85cd033bc1bd4bec9bb4a2f316f357da",
+      "target": "id-c41368c8e91646cf96381ca301ac003d",
+      "type": "Aggregation"
+    },
+    {
+      "id": "id-596dbb8e031e44c0b54c2c31b7362c89",
+      "source": "id-b03a09f1177a4bf6bfd1f22c6cea1c94",
+      "target": "id-5b55a8ca67864a1a91910347db193e79",
+      "type": "Specialization"
+    }
+  ],
+  "problems": []
+}

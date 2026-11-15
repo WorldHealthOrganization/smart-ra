@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ed96f6b41afd408184afd86034b10cc5",
+  "@type": "archimate:ValueStream",
+  "schema:identifier": "id-ed96f6b41afd408184afd86034b10cc5",
+  "schema:name": "Security & Compliance",
+  "schema:description": "This value stream provides the overarching security framework and technical controls used to protect health data and ensure regulatory adherence. It includes the enforcement of privacy policies, encryption of sensitive information, and continuous auditing of all system interactions.\r\n\r\nThe objective is to safeguard the privacy of individuals and maintain high levels of trust within the digital health ecosystem. It ensures that the system remains resilient against cyber threats and compliant with international data protection standards such as GDPR.\r\n\r\nExample: An automated security service that monitors for unauthorized access attempts and logs all successful clinical record retrievals for audit purposes.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

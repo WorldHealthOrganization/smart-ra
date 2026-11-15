@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-41319b730b804a8391b887e17d826638",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-41319b730b804a8391b887e17d826638",
+  "schema:name": " Payment calculation, disbursement, and reconciliation",
+  "schema:description": "This service calculates the final amount to be paid after accounting for deductibles and initiates the electronic transfer of funds. It matches the final bank records against the approved claims to ensure the financial ledger is perfectly balanced.\r\n\r\nThe intent is to ensure the absolute financial accuracy and efficiency of the final fund disbursement process. It provides financial closure by verifying that every authorized payment successfully reached the provider’s bank account.\r\n\r\nExample: A service that subtracts a 10% tax withholding from an approved claim and then initiates a bank transfer for the balance.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

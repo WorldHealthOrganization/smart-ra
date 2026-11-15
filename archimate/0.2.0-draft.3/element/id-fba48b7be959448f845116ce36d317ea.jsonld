@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-fba48b7be959448f845116ce36d317ea",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-fba48b7be959448f845116ce36d317ea",
+  "schema:name": "Health expenditure forecasting",
+  "schema:description": "This capability uses historical expenditure data and predictive modeling to estimate the future costs of the health sector over the medium and long term. It accounts for factors like population growth, medical inflation, and emerging health threats.\r\n\r\nThe goal is to support proactive and sustainable financial planning by identifying future funding requirements well in advance. It helps prevent sudden budgetary shocks and provides a strategic roadmap for health sector investment.\r\n\r\nExample: A five-year projection showing that the national health budget will need to increase by 15% to sustain a new oncology program.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

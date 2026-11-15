@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-a225ba4f0c4641d59af9359a2797f250",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a225ba4f0c4641d59af9359a2797f250",
+  "schema:name": "Quality Measure Repository",
+  "schema:description": "This application component centrally stores standardized quality measures, indicator definitions, metadata, and calculation methodologies used across healthcare systems. It provides a controlled and authoritative source for healthcare quality metrics.\r\n\r\nThe purpose is to ensure consistency, governance, and traceability in healthcare quality measurement processes. It also simplifies the maintenance and distribution of approved quality indicators.\r\n\r\nExample: Healthcare facilities retrieve standardized infection control metrics from a national quality measure repository.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

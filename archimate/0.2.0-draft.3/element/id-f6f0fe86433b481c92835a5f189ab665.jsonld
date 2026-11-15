@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f6f0fe86433b481c92835a5f189ab665",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-f6f0fe86433b481c92835a5f189ab665",
+  "schema:name": "Health Worker Registry",
+  "schema:description": "A health worker registry stores verified information about healthcare professionals, including credentials, roles, and affiliations. It supports workforce management and provider authentication processes.\r\n\r\nThe purpose of this data object is to ensure that only authorized and qualified healthcare workers access clinical systems and services. It also supports workforce planning and regulatory compliance.\r\n\r\nExample: A physician’s professional license is automatically verified before access to the electronic medical record system is granted.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

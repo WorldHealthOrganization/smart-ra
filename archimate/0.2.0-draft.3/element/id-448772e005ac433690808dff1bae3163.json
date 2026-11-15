@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-448772e005ac433690808dff1bae3163",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-448772e005ac433690808dff1bae3163",
+  "schema:name": "Facility Registry",
+  "schema:description": "Facility Registry (health facilities metadata system): Maintains metadata about health facilities such as name, type, ownership, location, services offered, operational status, identifiers, and contact details. Supplies metadata on source facilities contributing data; supports data provenance and verification.\r\n\r\nFacility Registry (Health Facilities Metadata System)\r\n2.1.2 Enrolment of persons in facility-based clinical plans\r\n2.2.1 to 2.2.3 Facility-linked clinical record storage\r\n2.4 Telemedicine (2.4.1 to 2.4.4) facility location and infrastructure metadata\r\n2.5 Healthcare provider communication (2.5.1 to 2.5.4) facility-based coordination\r\n2.6 Referral coordination (2.6.1 to 2.6.3) inter-facility referral tracking\r\n2.7 Scheduling and activity planning (2.7.1 to 2.7.2) service availability at facilities\r\n2.10 Laboratory and diagnostics imaging (2.10.1 to 2.10.4) identifies testing and reporting facilities\r\n2.11 Healthcare provider financial transactions (2.11.1 to 2.11.2) facility-based reimbursements and payments\r\n3.7.1 List health facilities and related information\r\n3.7.2 Assess health facilities",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

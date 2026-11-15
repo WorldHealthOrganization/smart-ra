@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-222e1a2ec8934efd9cba4fea4092efa3",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-222e1a2ec8934efd9cba4fea4092efa3",
+  "schema:name": "Patient-Reported Outcome Service",
+  "schema:description": "This service collects structured data on patient symptoms, well-being, and care experiences through digital surveys and questionnaires. It integrates responses into the clinical record to inform care decisions and quality improvement.\r\n\r\nThe purpose of this service is to ensure that the patient's perspective on their health and care experience is systematically captured and used alongside clinical data. \r\n\r\nExample: A patient undergoing chemotherapy completes a weekly symptom survey through the health portal. A significant increase in reported fatigue automatically triggers a follow-up task for the oncology nurse to contact the patient.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

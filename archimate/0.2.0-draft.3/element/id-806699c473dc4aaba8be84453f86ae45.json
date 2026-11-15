@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-806699c473dc4aaba8be84453f86ae45",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-806699c473dc4aaba8be84453f86ae45",
+  "schema:name": "Claims adjudication & reimbursement management ",
+  "schema:description": "This capability encompasses the process of reviewing medical claims against policy rules and authorizing payments to healthcare providers. It uses automated rules engines to decide if a claim is valid and calculate the correct reimbursement amount.\r\n\r\nThe goal is to ensure affordable and efficient purchasing through timely payments and strict cost control. It minimizes manual errors and administrative waste, allowing funds to reach providers faster while preventing fraudulent billing.\r\n\r\nExample: A system automatically approving a standard consultation claim while flagging an unusual high-cost lab test for human review.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

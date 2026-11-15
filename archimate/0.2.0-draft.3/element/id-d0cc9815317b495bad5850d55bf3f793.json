@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d0cc9815317b495bad5850d55bf3f793",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-d0cc9815317b495bad5850d55bf3f793",
+  "schema:name": "Strategic purchasing and provider payments",
+  "schema:description": "This subgoal entails implementing digital transaction systems and contracting mechanisms to manage the procurement of healthcare services. It defines benefit packages, access conditions, and tariffs to standardize how providers are compensated.\r\n\r\nThe purpose is to ensure efficient and transparent purchasing through timely payments and robust cost control measures. It aims to improve clinical-financial data matching and reduce the time required to reimburse providers for services.\r\n\r\nExample: An insurance fund using an automated system to adjudicate claims based on standardized clinical slab rates.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

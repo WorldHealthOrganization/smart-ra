@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-3e10f981525e4abe99cf6f7d2e6166be",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-3e10f981525e4abe99cf6f7d2e6166be",
+  "schema:name": "Secure Messaging Module",
+  "schema:description": "This component implements the technical functions required for encrypted, role-based messaging within the care team platform. It manages message creation, delivery, storage, and retrieval in alignment with security and access control policies.\r\n\r\nThe purpose of this component is to provide the underlying messaging infrastructure that supports the Secure Messaging Service. It ensures that all messages are encrypted in transit and at rest and that access is restricted to authorized users.\r\n\r\nExample: The module enforces end-to-end encryption for all messages exchanged between providers and applies role-based filters to ensure that only members of the relevant care team can view patient-specific communications.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

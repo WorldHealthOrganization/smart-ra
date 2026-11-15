@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ac57b41bd4b14e10b21d15da76915d48",
+  "@type": "archimate:BusinessFunction",
+  "schema:identifier": "id-ac57b41bd4b14e10b21d15da76915d48",
+  "schema:name": "Health Data Validation and Quality Assurance",
+  "schema:description": "This function focuses on verifying the accuracy, completeness, and clinical consistency of health data before it is committed to the shared record. It checks that incoming clinical information adheres to required terminology standards and structural schemas.\r\n\r\nThe intent is to maintain the clinical integrity of the health ecosystem and prevent the propagation of erroneous medical information. It ensures that data remains reliable for both immediate clinical treatment and secondary population health analysis.\r\n\r\nExample: An automated system check that flags a diagnostic entry if it uses an invalid or non-standard medical code.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ba1d88c3c31646c6ac3c9ed667d39c40",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-ba1d88c3c31646c6ac3c9ed667d39c40",
+  "schema:name": "Allocation scenario modelling tools",
+  "schema:description": "An advanced application service that allows fiscal planners to create, simulate, and compare multiple hypothetical funding formulas side-by-side to see how changes in budget variables impact regional distribution and program equity before any money actually moves.\r\n\r\nIts primary purpose is to provide a risk-free digital sandbox for policy experimentation, ensuring that decision-makers can thoroughly stress-test the real-world financial consequences of new allocation policies, population migrations, or economic shocks without disrupting current health operations.\r\n\r\nExample: Using the allocation scenario modeling tools, the health ministry runs a simulation titled \"10% Universal Premium Subsidy Increase\"; the service instantly models the nationwide impact, visually demonstrating that while the policy will close the health equity gap in three historically underserved provinces by 14%, it will create a $5 million deficit in the tertiary care fund by year two if not matched by a concurrent tobacco tax hike.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

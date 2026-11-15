@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-0ada4609f1274bacb660d9068f4977cf",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0ada4609f1274bacb660d9068f4977cf",
+  "schema:name": "Tariff management",
+  "schema:description": "This capability involve the authoring, versioning, and management of the standardized price lists (tariffs) for all healthcare services and products. It ensures that all participants in the health network use the same prices for billing and reimbursement.\r\n\r\nThe purpose is to control health costs and ensure transparency and fairness in the payment process. It provides the foundational data needed for accurate claims adjudication and helps prevent price gouging by providers.\r\n\r\nExample: Updating the national tariff list to reflect a standardized 5% increase in the cost of all diagnostic imaging services.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-c-business-services-components-health-management-information-sy-7dc659",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:c-business-services-components-health-management-information-sy-7dc659",
+  "kind": "table",
+  "text": "t-c-business-services-components-health-management-information-sy-7dc659.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 967,
+      "page": 131,
+      "printedPage": "120",
+      "lineStart": 16,
+      "method": "numbered-start"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-88bb1fb405b04529ac330bb9b7c90b9d",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-88bb1fb405b04529ac330bb9b7c90b9d",
+  "schema:name": "Revenue collection & enforcement (ability to bill, collect, track, and manage arrears). ",
+  "schema:description": "An advanced operational capability that gives the state the necessary tools to issue accurate invoices, process incoming payments, monitor balances, and aggressively claw back unpaid health taxes or contributions.\r\n\r\nIts primary purpose is to secure a steady cash flow for the health sector by automating the entire billing cycle and ensuring that individuals and corporations who skip payments are systematically identified and held accountable.\r\n\r\nExample: Using this automated collection and enforcement capability, the health fund's system automatically issues monthly digital bills to private employers, flags a mid-sized logistics company the moment a payment deadline passes, calculates interest on the overdue balance, and locks in a legally mandated repayment plan to recover the outstanding arrears.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-80a2d37d2f8947c6b0b30ec7858fd3aa",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-80a2d37d2f8947c6b0b30ec7858fd3aa",
+  "schema:name": "Alerting and Notification Service",
+  "schema:description": "An Alerting and Notification Service is a real-time public health communication mechanism designed to rapidly broadcast critical updates, safety warnings, and actionable instructions to healthcare providers and the public.\r\n\r\nIts primary purpose is to ensure that essential safety information reaches the right stakeholders instantly during health emergencies to minimize exposure and guide immediate clinical or personal action.\r\n\r\nExample: Upon detecting a highly contagious waterborne pathogen in a municipal water supply, the service automatically blasts urgent \"boil water\" advisories to local residents' smartphones while simultaneously sending clinical treatment guidelines to nearby emergency rooms.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-da7a3d4681b24ebc866989dd95a03b08",
+  "@type": "archimate:ValueStream",
+  "schema:identifier": "id-da7a3d4681b24ebc866989dd95a03b08",
+  "schema:name": "Personal Health Records Creation",
+  "schema:description": "This value stream encompasses the initial registration of an individual and the setup of their foundational digital profile. It involves capturing baseline demographics and linking them to a unique, verifiable health identifier.\r\n\r\nThe purpose is to provide every person with a trusted entry point into the digital health ecosystem. It establishes the necessary structure for building a lifelong, longitudinal record that follows the patient across all healthcare facilities.\r\n\r\nExample: A community health worker registering a citizen and issuing a digital health ID that links to the central Client Registry.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

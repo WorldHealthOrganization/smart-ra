@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4b280347111642d187e4f01d0c1d9969",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4b280347111642d187e4f01d0c1d9969",
+  "schema:name": "Risk equalisation / allocation engine",
+  "schema:description": "This engine is a specialized mathematical tool that calculates fund transfers between different insurance pools based on their members' health risks. It uses actuarial formulas to redistribute resources from lower-risk groups to those with sicker or older populations.\r\n\r\nIts purpose is to promote financial equity and prevent \"cherry-picking\" where insurers only target healthy people. It ensures that all health funds remain solvent and capable of providing care regardless of the risk profile of their specific members.\r\nE\r\nxample: A calculation engine that determines how much money an urban health fund must transfer to a rural fund with high chronic disease rates.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

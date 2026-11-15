@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-9ce21c13bd5946a88a5a947df361afca",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-9ce21c13bd5946a88a5a947df361afca",
+  "schema:name": "PKI / certificate authority",
+  "schema:description": "The PKI or Certificate Authority is the component that issues and manages digital certificates used to establish trust and security in electronic communications. It provides the \"digital stamps\" needed for encryption and non-repudiable digital signatures.\r\n\r\nIts purpose is to establish technical trust across the health network, ensuring that documents and identities are authentic and tamper-proof. It allows recipients to verify that a payment authorization or medical report came from a legitimate source.\r\n\r\nExample: A central authority that issues digital certificates to every licensed doctor to sign their electronic prescriptions.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

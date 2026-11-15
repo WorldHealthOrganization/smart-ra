@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-bdf46380a80540eab0191ad8807644cb",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-bdf46380a80540eab0191ad8807644cb",
+  "schema:name": "Fraud and anomaly detection",
+  "schema:description": "This capability uses advanced analytics and machine learning to scan large volumes of financial data for patterns indicative of deceptive behavior or errors. It flags suspicious activities, such as phantom billing or duplicate claims, for investigation.\r\n\r\nThe objective is to minimize financial leakage and protect health funds from being lost to fraud or waste. It ensures that resources are preserved for legitimate patient care and maintains public trust in the financial integrity of the system.\r\n\r\nExample: An AI system flagging a clinic that is billing for more hours of service in a day than its registered staff could possibly provide.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

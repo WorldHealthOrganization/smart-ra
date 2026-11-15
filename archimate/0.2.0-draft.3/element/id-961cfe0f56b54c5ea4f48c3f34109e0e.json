@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-961cfe0f56b54c5ea4f48c3f34109e0e",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-961cfe0f56b54c5ea4f48c3f34109e0e",
+  "schema:name": "DPI-H National Health Workforce Directory/Registry",
+  "schema:description": "The self-contained software component within the national digital health infrastructure that serves as the single, authoritative source of truth for authenticating health worker identities, credentials, and professional statuses. It maintains a secure, real-time database of unique practitioner identifiers, active licenses, and current employment deployments across both public and private sectors.\r\n\r\nIt eliminates fraud, credential misrepresentation, and data silos by providing a standardized, centralized interface for verifying a clinician's right to practice. This trustworthy verification ensures that payroll systems can automatically cross-reference active license statuses before authorizing professional wage tiers and role-based shift differentials.\r\n\r\nExample: \"The National Health Workforce Registry module that validates a physician's active medical license and unique practitioner ID before the hospital's payroll system approves their specialized clinical salary rate.\"",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

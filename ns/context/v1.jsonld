@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "cat-harness": "https://litlfred.github.io/cat-harness/v0/ns/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doco": "http://purl.org/spar/doco/",
+    "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "cites": {
+      "@id": "cito:cites",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "contains": {
+      "@id": "dcterms:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "derivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "file": {
+      "@id": "cat-harness:file"
+    },
+    "inSubgraph": {
+      "@id": "cat-harness:inSubgraph",
+      "@type": "@id"
+    },
+    "kind": "cat-harness:kind",
+    "label": "cat-harness:label",
+    "licenceRecord": {
+      "@id": "cat-harness:licenceRecord",
+      "@type": "@json"
+    },
+    "license": {
+      "@id": "dcterms:license"
+    },
+    "meta": {
+      "@id": "cat-harness:blockMeta",
+      "@type": "@json"
+    },
+    "narrative": {
+      "@id": "cat-harness:narrative",
+      "@type": "@json"
+    },
+    "pageEnd": "cat-harness:pageEnd",
+    "pageStart": "cat-harness:pageStart",
+    "provenance": "cat-harness:provenance",
+    "sourceDocument": {
+      "@id": "cat-harness:sourceDocument",
+      "@type": "@id"
+    },
+    "text": {
+      "@id": "cat-harness:text"
+    },
+    "title": "dcterms:title"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1",
+  "@type": "archimate:Model",
+  "schema:identifier": "0.2.0-draft.1",
+  "schema:name": "WHO Reference Architecture 0.2.0-draft.1",
+  "dcterms:identifier": "id-e3a716cdc31042b0a745fec8e4e7a73c",
+  "schema:contentUrl": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/WHO%20Base%20File.archimate",
+  "schema:hasPart": [
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-bd7d3fde3f12405dab3860e5a3a8769c",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL HRH Conceptual View - Stakeholder"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-044cf0cb68c4434c8749f0cf5856ed7a",
+      "@type": "archimate:Diagram",
+      "schema:name": "HRH Application Communication Diagram (horizontal)"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-2d6e2c6ba089428881aa5a0ba647d192",
+      "@type": "archimate:Diagram",
+      "schema:name": "SUB-GOAL 1. Central Health Workforce Registry "
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-83e844f751b04ae88b1cde672b73d1d8",
+      "@type": "archimate:Diagram",
+      "schema:name": "0.1 ALL High Level - Health Workforce"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-c5c8c5f574c848cdace811ddf3d4fbb9",
+      "@type": "archimate:Diagram",
+      "schema:name": "0.2 Application Structure Viewpoint (All Sub-goals)"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-0edcde5335e7453aaa0aec2711366846",
+      "@type": "archimate:Diagram",
+      "schema:name": "0.2 Business Process to Capability Mapping"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-5e2b450d66d74535b3287bcc7bcb3660",
+      "@type": "archimate:Diagram",
+      "schema:name": "1.1 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-8370caaf087349b1b6c66a7eba6e9a81",
+      "@type": "archimate:Diagram",
+      "schema:name": "1.2 Application Structure Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-33696a5526e842909db344363d6d4586",
+      "@type": "archimate:Diagram",
+      "schema:name": "1.3 Layered Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-058083d522d846f78e67259a3295ea5f",
+      "@type": "archimate:Diagram",
+      "schema:name": "1. Central Health Workforce Registry"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-834c8d5a4f4f48169b4a05421e5a455b",
+      "@type": "archimate:Diagram",
+      "schema:name": "2.1 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-965b89ca9b03427aa9a017943fdbb0da",
+      "@type": "archimate:Diagram",
+      "schema:name": "2.2 Application Structure Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-742bf0b1880949c883216fe33e10c50f",
+      "@type": "archimate:Diagram",
+      "schema:name": "2.3 Layered Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-3e53675d428a4221924b045302fb5ae0",
+      "@type": "archimate:Diagram",
+      "schema:name": "3.1 Stakeholder & Motivational Viewpoint "
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-7c4afcea8c5f4e41a438bb212f666969",
+      "@type": "archimate:Diagram",
+      "schema:name": "3.2 Application Structure Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-360f87ddd163420ea6b011a7f2a2a883",
+      "@type": "archimate:Diagram",
+      "schema:name": "3.3 Layed Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-eb37b1a9803a4651ab94aa23df0b9a72",
+      "@type": "archimate:Diagram",
+      "schema:name": "4.1 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-3784e6ca41c9442b861b80c864550888",
+      "@type": "archimate:Diagram",
+      "schema:name": "4.2 Application Structure Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-1c59b7b8fc87499cb6ccefaf2a5180a7",
+      "@type": "archimate:Diagram",
+      "schema:name": "4.3 Layered Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-4ab01ad1da38416c93b26a0c1bfbefcc",
+      "@type": "archimate:Diagram",
+      "schema:name": "Generated View for Health Workforce Management"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-5bcff55b2d5f4705b4503cb3edc47a15",
+      "@type": "archimate:Diagram",
+      "schema:name": "0.1 ALL High Level - Health Financing"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-9c4971cb40d243b39ef2877a23e3888a",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-bb57734650a34b6391f711b8a17ac2d9",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #2 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-1f990d412cd1462492b538005ab09717",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #3 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-805bb2e33c9c4b1bb7d02d5c5e622695",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL High Level - Financing"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-6ba8a66a5d9847ed8cd866f414bb9395",
+      "@type": "archimate:Diagram",
+      "schema:name": "Business Process to Capability Mapping"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-1eaaf03aadd04e15bfbe47d98302cf0b",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #4 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-66da78e5e1e54ccc83d295d419f98578",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #5 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-d755c473f3aa49a2b63f329cee641fad",
+      "@type": "archimate:Diagram",
+      "schema:name": "Application Structure Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-d5d83e06fb0c4a86a56f68a51bfb5d13",
+      "@type": "archimate:Diagram",
+      "schema:name": "Public Financial Management stakeholder viewpoint #1"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-a1b0140fd00740ec9ae3fb6110866fbc",
+      "@type": "archimate:Diagram",
+      "schema:name": "Public Financial Management stakeholder viewpoint #2"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-44a90972eb904a658cdb2b7288911f25",
+      "@type": "archimate:Diagram",
+      "schema:name": "Public Financial Management stakeholder viewpoint #3"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-d42bc24a71734c0f91c344a3863ab185",
+      "@type": "archimate:Diagram",
+      "schema:name": "Public Financial Management stakeholder viewpoint #4"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-7da6c80d57a84f39a22fba722473e84b",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level - Layered View Point"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-df39a920462b47c7b4dc58629e9da87c",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Motivation and Stakeholder View Point"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-9b1d57d73f594eff9d0705bc14f9cdc1",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #1 Implementation"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-df049b5739684c3d80199545fc1c1a2d",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level - Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-522bfc7592cc4079b50d84f9b002ef5d",
+      "@type": "archimate:Diagram",
+      "schema:name": "ALL High Level - PHR"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-8b42608b8ca146e8831f0a39e08f557b",
+      "@type": "archimate:Diagram",
+      "schema:name": "Business Process to Capability Mapping"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-21d9995c385640a9992a9b70c8727fb2",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #2 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-7825caef86b14554ab8aff34c57fa879",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #3 Stakeholder & Motivational Viewpoint "
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-5ad85737213346c09881249854d3595a",
+      "@type": "archimate:Diagram",
+      "schema:name": "Sub-goal #4 Stakeholder & Motivational Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-3554dc4a806245a4ba4dbe314fdf02a9",
+      "@type": "archimate:Diagram",
+      "schema:name": "Business Process to Capability Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-7c4a1df0420646d79e37c2e62955f62a",
+      "@type": "archimate:Diagram",
+      "schema:name": "High Level - Surveillance"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-973ae9891df24dcb9cdc4a29999a7001",
+      "@type": "archimate:Diagram",
+      "schema:name": "Layered Viewpoint"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.1/view/id-bea2bf6555904aa180bfb036c77b7a89",
+      "@type": "archimate:Diagram",
+      "schema:name": "Stakeholder & Motivational Viewpoint"
+    }
+  ]
+}

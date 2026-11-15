@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0c44eb56fc924e438fb9b9aab5cbe271",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-0c44eb56fc924e438fb9b9aab5cbe271",
+  "schema:name": "Security operations",
+  "schema:description": "This capability encompasses the continuous monitoring, detection, and response to cybersecurity threats across the health financing infrastructure. It involves the day-to-day work of maintaining the resilience and availability of the national payment network.\r\n\r\nThe goal is to ensure that health financing systems are always operational and that sensitive data is protected from breach or disruption. It provides the \"eyes and ears\" needed to defend the sector against evolving cyber threats.\r\n\r\nExample: A security team investigating and neutralizing a malware infection on a regional health finance server before it can spread.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

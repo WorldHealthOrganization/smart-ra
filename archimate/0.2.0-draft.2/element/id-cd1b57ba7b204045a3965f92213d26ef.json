@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-cd1b57ba7b204045a3965f92213d26ef",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-cd1b57ba7b204045a3965f92213d26ef",
+  "schema:name": "Computable Guideline Repository",
+  "schema:description": "A computable guideline repository stores machine-readable clinical guidelines that digital systems can automatically interpret and execute. It supports the automation of evidence-based clinical recommendations and workflows.\r\n\r\nThe purpose of this repository is to enable healthcare systems to consistently apply standardized clinical guidance. It also reduces manual interpretation errors and supports scalable automation.\r\n\r\nExample: A computable diabetes management guideline automatically recommends HbA1c monitoring schedules for eligible patients.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

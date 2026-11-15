@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-4eec5de219f9402dbf934194f2f02046",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4eec5de219f9402dbf934194f2f02046",
+  "schema:name": "Personalized Care Plan Viewer",
+  "schema:description": "This component renders a patient's care plan, goals, and assigned tasks in a clear, non-clinical format that is understandable to patients and families. It draws on FHIR CarePlan, Goal, and Task resources to present a longitudinal view of the patient's care journey.\r\n\r\nThe purpose of this component is to bridge the gap between clinical care documentation and patient understanding by translating structured health data into accessible, actionable information. It also supports self-management by making goals and next steps visible to the patient.\r\n\r\nExample: A patient with hypertension views their care plan through the portal, which displays their blood pressure targets, upcoming medication review, and lifestyle recommendations in plain language with progress indicators.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

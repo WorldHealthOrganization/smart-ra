@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-f98a1d7b0e1b431390c4fc5d64984d8b",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-f98a1d7b0e1b431390c4fc5d64984d8b",
+  "schema:name": "Registration system",
+  "schema:description": "The registration system is the user-facing interface and workflow engine used to enroll new members into health schemes. It handles the collection of demographics, verification of documents, and the issuance of proof of coverage.\r\n\r\nIts purpose is to simplify the onboarding process and maximize the reach of health protection programs. It reduces administrative barriers to enrollment and ensures that citizen data is captured accurately from the start of their journey.\r\n\r\nExample: A mobile app used by community health workers to sign up families for a government health subsidy program in rural areas.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

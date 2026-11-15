@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-33fb907b677346ed828e29c5fe1cc773",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-33fb907b677346ed828e29c5fe1cc773",
+  "schema:name": "SIEM / SOAR platform",
+  "schema:description": "The SIEM (Security Information & Event Management) and SOAR (Security Orchestration, Automation, and Response) platform provides real-time security monitoring and automated incident response. It analyzes logs from across the system to detect and neutralize cyber threats.\r\n\r\nIts purpose is to maintain the continuous availability and security of the national health financial infrastructure. It ensures that security breaches are detected in seconds and that response plans are executed automatically to minimize damage.\r\n\r\nExample: A platform that detects a ransomware attack on the claims database and automatically disconnects the affected server to prevent spread.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

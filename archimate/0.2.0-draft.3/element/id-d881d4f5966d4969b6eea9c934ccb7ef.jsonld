@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-d881d4f5966d4969b6eea9c934ccb7ef",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-d881d4f5966d4969b6eea9c934ccb7ef",
+  "schema:name": "Electronic Case Reporting System (eCR)",
+  "schema:description": "A secure, digital software platform used by healthcare providers, laboratories, and institutions to automatically or manually transmit health data (such as disease diagnoses, immunization records, or adverse drug events) to public health authorities and regulatory bodies for tracking, analysis, and response \r\n\r\nExample: Person based reporting of the WHO Client Registry links person-reported public health events to unique identities for early outbreak detection",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

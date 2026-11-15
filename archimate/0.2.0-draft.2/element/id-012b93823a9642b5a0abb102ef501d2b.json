@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-012b93823a9642b5a0abb102ef501d2b",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-012b93823a9642b5a0abb102ef501d2b",
+  "schema:name": "Consent Management Platform",
+  "schema:description": "The Consent Management Platform is a technical component that manages the capture, storage, and enforcement of patient preferences regarding the sharing of their health information. It provides a mechanism for patients to grant, modify, or revoke access to specific data segments or healthcare providers.\r\n\r\nIts purpose is to operationalize patient agency by ensuring that health data is only shared according to the individual's explicit authorization. It provides a transparent mechanism for patients to govern their own health data privacy and builds trust in digital systems.\r\n\r\nExample: A digital dashboard where a patient can grant a specific cardiologist temporary access to their diagnostic imaging results.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

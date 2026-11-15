@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-c-business-services-components-public-health-surveillance-platf-4fb051",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:c-business-services-components-public-health-surveillance-platf-4fb051",
+  "kind": "table",
+  "text": "t-c-business-services-components-public-health-surveillance-platf-4fb051.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 971,
+      "page": 241,
+      "printedPage": "230",
+      "method": "inherited-page"
+    }
+  },
+  "provenance": "authored"
+}

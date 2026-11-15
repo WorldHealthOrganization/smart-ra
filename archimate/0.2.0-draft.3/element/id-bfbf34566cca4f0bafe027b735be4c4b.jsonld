@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-bfbf34566cca4f0bafe027b735be4c4b",
+  "@type": "archimate:Goal",
+  "schema:identifier": "id-bfbf34566cca4f0bafe027b735be4c4b",
+  "schema:name": "Support interoperability across providers, facilities, and jurisdictions",
+  "schema:description": "This subgoal focuses on eliminating data silos by adopting standardized protocols and clinical terminologies for seamless information exchange. It enables health data to flow accurately and meaningfully between different facilities and geographic regions.\r\n\r\nThe purpose is to reduce record fragmentation and improve care coordination by ensuring patient data is machine-readable by any authorized system. It supports global mobility and effective public health monitoring through the use of standardized data formats.\r\n\r\nRequiring all public and private hospitals to use the HL7 FHIR standard for sharing clinical summaries.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

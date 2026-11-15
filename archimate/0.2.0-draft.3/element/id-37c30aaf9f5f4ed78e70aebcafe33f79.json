@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-37c30aaf9f5f4ed78e70aebcafe33f79",
+  "@type": "archimate:BusinessProcess",
+  "schema:identifier": "id-37c30aaf9f5f4ed78e70aebcafe33f79",
+  "schema:name": "Input patient consent and privacy preferences",
+  "schema:description": "This process involves documenting the explicit permissions and data-sharing rules selected by the individual for their personal health information. It records which entities are authorized to access specific segments of the record and under what conditions.\r\n\r\nIt operationalizes patient agency and ensures the health system adheres strictly to the individual's privacy choices. This provides the technical and legal basis for secure, consent-based information exchange across the national health network.\r\n\r\nA patient using a mobile app to select which doctors are authorized to view their historical lab results.",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

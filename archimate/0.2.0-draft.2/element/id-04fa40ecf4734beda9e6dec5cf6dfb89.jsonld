@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-04fa40ecf4734beda9e6dec5cf6dfb89",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-04fa40ecf4734beda9e6dec5cf6dfb89",
+  "schema:name": "Contracting & contract execution monitoring",
+  "schema:description": "This capability manages the lifecycle of legal and financial agreements between payers and healthcare providers. It defines the service-level agreements and monitors whether providers are meeting their contracted obligations.\r\n\r\nThe objective is to ensure that the health system buys the right services at the right quality and price. It provides the accountability mechanism needed to verify that providers are delivering the value promised in their contracts.\r\n\r\nExample: An automated system that tracks whether a hospital is meeting its contracted 30-minute target for emergency triage.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

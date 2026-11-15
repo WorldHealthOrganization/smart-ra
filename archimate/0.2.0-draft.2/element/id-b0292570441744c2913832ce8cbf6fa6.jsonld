@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-b0292570441744c2913832ce8cbf6fa6",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-b0292570441744c2913832ce8cbf6fa6",
+  "schema:name": "Analytics and AI Platform",
+  "schema:description": "An advanced infrastructural component that aggregates diverse, high-volume health data—such as financial transaction logs, electronic health records (EHRs), supply chain histories, and operational metrics—into a unified environment for processing, modeling, and intelligent inference. This platform combines traditional statistical computation with modern machine learning (ML) models and artificial intelligence pipelines optimized for processing unstructured text, structured ledgers, and complex temporal patterns.\r\n\r\nIts primary purpose is to transform passive, historically siloed data into real-time operational foresight and proactive fraud detection. By shifting healthcare oversight from reactive post-payment auditing to predictive risk management, it enables systems to spot sophisticated collusion networks, anticipate medicine stockouts, identify systemic billing waste, and optimize resource allocation across thousands of facilities simultaneously.\r\n\r\nExample: A national health service integrates a centralized Analytics and AI Platform into its reimbursement pipeline; instead of waiting for annual audits, the platform's ML models screen millions of daily medical claims in real time, automatically flagging complex \"upcoding\" anomalies—where clinics systematically bill for more expensive procedures than standard diagnostic data suggests are necessary—allowing auditors to halt payments before a fraudulent payout occurs.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

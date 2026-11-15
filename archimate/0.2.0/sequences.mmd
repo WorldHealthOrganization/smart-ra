@@ -1,0 +1,60 @@
+sequenceDiagram
+  %% 1. Central Health Workforce Registry (id-007936f8c2424b96ad1893ef0ff66059): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_350840520ae44f658b6ad3b3762e382e as DPI-H National Health Workforce Directory/Registry
+  participant id_3c5d846710034c4595e206e748d65e36 as DPI-F Information Mediator
+  participant id_d79aa0eec0584b0792b44bca408afeb6 as DPI-F Security & Consent Module
+  participant id_4e0767822dcf46409554156a133fbc67 as DPI-H - Facility Registry
+  participant id_bbd18f65be45490fbbaf02346511ae5e as Reporting Module
+  participant id_702c24bbd73341be9afc11c7e11e9810 as Health Worker
+  participant id_301912f3fcaf4648b0ebc3cbbfc3b447 as Terminology
+  participant id_ad969289cb774307aa678037c56fdd3f as Facility
+  id_350840520ae44f658b6ad3b3762e382e->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_d79aa0eec0584b0792b44bca408afeb6->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_3c5d846710034c4595e206e748d65e36->>id_4e0767822dcf46409554156a133fbc67: flows to DPI-H - Facility Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_350840520ae44f658b6ad3b3762e382e: flows to DPI-H National Health Workforce Directory/Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_bbd18f65be45490fbbaf02346511ae5e: flows to Reporting Module
+  id_3c5d846710034c4595e206e748d65e36->>id_d79aa0eec0584b0792b44bca408afeb6: flows to DPI-F Security & Consent Module
+  id_4e0767822dcf46409554156a133fbc67->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_350840520ae44f658b6ad3b3762e382e->>id_702c24bbd73341be9afc11c7e11e9810: writes Health Worker
+  id_350840520ae44f658b6ad3b3762e382e->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_4e0767822dcf46409554156a133fbc67->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_4e0767822dcf46409554156a133fbc67->>id_ad969289cb774307aa678037c56fdd3f: writes Facility
+
+sequenceDiagram
+  %% SUB-GOAL 1. Central Health Workforce Registry (id-6702871f89b641d4823ad05fbd2a4bdb): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_350840520ae44f658b6ad3b3762e382e as DPI-H National Health Workforce Directory/Registry
+  participant id_3c5d846710034c4595e206e748d65e36 as DPI-F Information Mediator
+  participant id_d79aa0eec0584b0792b44bca408afeb6 as DPI-F Security & Consent Module
+  participant id_bbd18f65be45490fbbaf02346511ae5e as Reporting Module
+  participant id_301912f3fcaf4648b0ebc3cbbfc3b447 as Terminology
+  participant id_702c24bbd73341be9afc11c7e11e9810 as Health Worker
+  id_350840520ae44f658b6ad3b3762e382e->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_d79aa0eec0584b0792b44bca408afeb6->>id_3c5d846710034c4595e206e748d65e36: flows to DPI-F Information Mediator
+  id_3c5d846710034c4595e206e748d65e36->>id_350840520ae44f658b6ad3b3762e382e: flows to DPI-H National Health Workforce Directory/Registry
+  id_3c5d846710034c4595e206e748d65e36->>id_bbd18f65be45490fbbaf02346511ae5e: flows to Reporting Module
+  id_3c5d846710034c4595e206e748d65e36->>id_d79aa0eec0584b0792b44bca408afeb6: flows to DPI-F Security & Consent Module
+  id_350840520ae44f658b6ad3b3762e382e->>id_301912f3fcaf4648b0ebc3cbbfc3b447: writes Terminology
+  id_350840520ae44f658b6ad3b3762e382e->>id_702c24bbd73341be9afc11c7e11e9810: writes Health Worker
+
+sequenceDiagram
+  %% CDS (id-4c98f10e0a244315acddaf5257c7822e): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_8104985f0f0e4f4cbe3bdf032ea20759 as Clinical Guideline package
+  participant id_539b04ae45f147258d8253ae5cb87402 as Decision Support Engine
+  id_8104985f0f0e4f4cbe3bdf032ea20759->>id_539b04ae45f147258d8253ae5cb87402: flows to Decision Support Engine
+
+sequenceDiagram
+  %% B (id-d7e3215f6d3d4e5e8b39ee521f8248c2): sequence diagram, derived by archimate-diagrams. Do not edit.
+  participant id_4269b5141b6347698b67225759884a71 as Document Source
+  participant id_85d7590270dc483cb500963dbe5a4fc8 as Document Repository
+  id_4269b5141b6347698b67225759884a71->>id_85d7590270dc483cb500963dbe5a4fc8: Provide and Register Document Set [ITI-41]
+  id_85d7590270dc483cb500963dbe5a4fc8-->>id_4269b5141b6347698b67225759884a71: Register Document Set
+
+sequenceDiagram
+  %% D (id-ba6aa15d5d84416dab9fbd8a9f9fea14): sequence diagram, derived by archimate-diagrams. Do not edit.
+  actor id_abd2da4297944a5ca707a28a400dfb8f as Test Operator
+  participant id_e9e37f6657324db7a972a974186b61b5 as Create and submit document
+  participant id_4269b5141b6347698b67225759884a71 as Document Source
+  participant id_85d7590270dc483cb500963dbe5a4fc8 as Document Repository
+  id_abd2da4297944a5ca707a28a400dfb8f->>id_e9e37f6657324db7a972a974186b61b5: Create and submit document
+  id_e9e37f6657324db7a972a974186b61b5->>id_4269b5141b6347698b67225759884a71: triggers Provide and Register Document Set [ITI-41]
+  id_4269b5141b6347698b67225759884a71->>id_85d7590270dc483cb500963dbe5a4fc8: Provide and Register Document Set [ITI-41]

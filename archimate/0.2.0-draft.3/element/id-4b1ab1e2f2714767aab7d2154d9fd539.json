@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4b1ab1e2f2714767aab7d2154d9fd539",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4b1ab1e2f2714767aab7d2154d9fd539",
+  "schema:name": "Financial (e.g. insurance) management system (see Open HIE)/ data warehouse",
+  "schema:description": "A foundational application component that integrates enterprise core-financial modules, insurance administration tools, and an aggregated data warehouse to track the flow of funds, process health coverage transactions, and host historical data for system-wide reporting.\r\n\r\nIts primary purpose is to act as the authoritative financial ledger and data repository for the health ecosystem, ensuring that health finance operations (such as premium collections, subsidy allocations, and claims data) conform to standard data schemas (like OpenHIE architectures) to enable seamless auditing, risk modeling, and strategic reporting.\r\n\r\nExample: Built on open standards, the financial management system / data warehouse receives nightly transaction feeds from regional social health insurance funds; it consolidates these records into a centralized warehouse, allowing data analysts to extract five years of audited expenditure histories to feed directly into the system's risk-equalization engines.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

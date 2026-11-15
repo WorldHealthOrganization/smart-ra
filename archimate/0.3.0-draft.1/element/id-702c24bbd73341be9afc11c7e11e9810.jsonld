@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-702c24bbd73341be9afc11c7e11e9810",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-702c24bbd73341be9afc11c7e11e9810",
+  "schema:name": "Health worker record",
+  "schema:description": "The record a registry holds about a health worker. Renamed from \"Health Worker\" so that \"Health worker\" names the person in the role (smart-ra#201, owner card Q-RA3 A, 2026-11-01).",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4e9fb5ea34a642bb9e935bc49ae6595c",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-4e9fb5ea34a642bb9e935bc49ae6595c",
+  "schema:name": "Unified, secure channel for all care team communications, linked to patient context.",
+  "schema:description": "This outcome provides a single, encrypted communication environment where all care team members interact within the context of a specific patient, encounter, or care task. It ensures that messages, documents, and decisions are organized around the patient rather than scattered across disconnected tools or informal channels.\r\n\r\nThe purpose of this outcome is to eliminate the fragmentation that occurs when providers rely on separate, unconnected messaging platforms and to ensure that every communication is traceable back to a clinical context. It also protects patient information by enforcing security and access controls throughout all exchanges.\r\n\r\nExample: A rural health center uses a unified care platform where nurses, physicians, and midwives communicate about a high-risk pregnancy. All messages, lab results, and care notes are linked to the patient's record and accessible to the full care team in one place.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

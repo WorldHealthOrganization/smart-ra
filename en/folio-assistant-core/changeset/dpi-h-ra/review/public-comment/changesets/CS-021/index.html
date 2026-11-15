@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Align the health workforce goal with NHWA and a system perspective — changeset</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-ui4akv200a.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+</head>
+<body data-fa-node-kind-page><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-ui4akv200a","here":"/en/folio-assistant-core/changeset/dpi-h-ra/review/public-comment/changesets/CS-021/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Align the health workforce goal with NHWA and a system perspective</h1>
+<p class="m">A <a href="../../../../../">changeset</a> node held by <a href="../../../../">dpi-h-ra</a>, at <code>review/public-comment/changesets/CS-021.json</code>.</p>
+<h2 id="comments">Comments it answers</h2>
+<div class="clip"><table><thead><tr><th>Comment</th><th>Status</th><th>Summary</th></tr></thead><tbody>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2227/">PC-2227</a></td><td class="s">received</td><td class="t">The mapping correctly identifies the Workforce and Facility Registries but may overstate what these registries can deli…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2228/">PC-2228</a></td><td class="s">received</td><td class="t">Verified registration and qualifications do not prove current competence, task-specific authorisation, facility privile…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2229/">PC-2229</a></td><td class="s">received</td><td class="t">Workforce location and facility affiliation do not alone establish whether staffing is adequate. Population need, servi…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2230/">PC-2230</a></td><td class="s">received</td><td class="t">Payment DPI may be mapped directly to timely workforce pay, but payment rails do not determine employment validity, pay…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2231/">PC-2231</a></td><td class="s">received</td><td class="t">The Workforce Registry may be mapped to CPD and continuous learning, but detailed learning activities and competency de…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2232/">PC-2232</a></td><td class="s">received</td><td class="t">International classifications alone may not represent national roles, multiskilled workers, community health work, task…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2234/">PC-2234</a></td><td class="s">received</td><td class="t">The mapping may assume that every recognised worker has a formal professional licence and foundational identity.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2236/">PC-2236</a></td><td class="s">received</td><td class="t">Workforce planning and payroll reuse may expose personal addresses, nationality, disciplinary status, pay, and employme…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2237/">PC-2237</a></td><td class="s">received</td><td class="t">The mapping should reflect organisation, practitioner-role, facility, service, and location relationships rather than m…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2238/">PC-2238</a></td><td class="s">received</td><td class="t">The mapping does not identify which workforce capabilities can be implemented first.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2529/">PC-2529</a></td><td class="s">received</td><td class="t">notion of equitable distribution (link to subnational, skill mix,...)</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2530/">PC-2530</a></td><td class="s">received</td><td class="t">The document might improve the presentation of the system approach in which instruments with specfic and independent go…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2531/">PC-2531</a></td><td class="s">received</td><td class="t">It would be good to better align with NHWA and health labour market framework which try to minimise any imbalance in th…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2532/">PC-2532</a></td><td class="s">received</td><td class="t">Health workers should be individually identifiable and verifiable, deployed where they are needed, paid reliably, and s…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2533/">PC-2533</a></td><td class="s">received</td><td class="t">Payroll and HR notes such admin actions and long leaves may be captured elsewhere. Or are we suggesting the HWF registr…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2534/">PC-2534</a></td><td class="s">received</td><td class="t">Education qualifications and professional licenses</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2535/">PC-2535</a></td><td class="s">received</td><td class="t">This seems to be developed from the health workers&#39; perspective. It would also be worth including the health system&#39;s p…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2536/">PC-2536</a></td><td class="s">received</td><td class="t">At the national level, health system planners and policymakers should have the information that enables them to track t…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2537/">PC-2537</a></td><td class="s">received</td><td class="t">The HWF registry must comply with exitsing data confidentiality and data privacy laws</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2538/">PC-2538</a></td><td class="s">received</td><td class="t">health practitioner regulators</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2539/">PC-2539</a></td><td class="s">received</td><td class="t">To align to NHWA, there is a distinction between health workers licensed to practice, professionally active, and practi…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2540/">PC-2540</a></td><td class="s">received</td><td class="t">planning, distribution and retention.</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2541/">PC-2541</a></td><td class="s">received</td><td class="t">Sub goals could be articulated as 2.1 Identity and credentials for each health worker established. The credentials shou…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2551/">PC-2551</a></td><td class="s">received</td><td class="t">It must be noted that countries would have mixed level of maturity in their data sources and it would depend on the pur…</td></tr>
+<tr><td class="s"><a href="../../../../../../public-comment/dpi-h-ra/review/public-comment/comments/PC-2625/">PC-2625</a></td><td class="s">received</td><td class="t">Some initial comments for this mapping:2.1 first column - revise to &quot;high-quality workforce data for planning, deployme…</td></tr>
+</tbody></table></div>
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>id</dt><dd>CS-021</dd>
+<dt>title</dt><dd>Align the health workforce goal with NHWA and a system perspective</dd>
+<dt>requirements</dt><dd>- Add the health-system planning perspective and equitable distribution
+- Distinguish workforce and facility registries from HRIS, payroll, learning and planning systems the goal also needs
+- Align with NHWA distinctions (licensed, professionally active, practising) and the health labour market framework
+- Separate registration from competence, privileging and scope of practice; cover non-licensed cadres
+- Clarify what the workforce registry holds versus payroll and HR systems, and its privacy obligations
+- Govern national role terminology alongside international classifications and align with care-services discovery patterns
+- Consider sub-goals for identity and credentials, deployment and remuneration
+- Address purpose-limited reuse of workforce personal data and a suggested implementation sequence</dd>
+<dt>refs</dt><dd><pre>[
+  &quot;PC-2227&quot;,
+  &quot;PC-2228&quot;,
+  &quot;PC-2229&quot;,
+  &quot;PC-2230&quot;,
+  &quot;PC-2231&quot;,
+  &quot;PC-2232&quot;,
+  &quot;PC-2234&quot;,
+  &quot;PC-2236&quot;,
+  &quot;PC-2237&quot;,
+  &quot;PC-2238&quot;,
+  &quot;PC-2529&quot;,
+  &quot;PC-2530&quot;,
+  &quot;PC-2531&quot;,
+  &quot;PC-2532&quot;,
+  &quot;PC-2533&quot;,
+  &quot;PC-2534&quot;,
+  &quot;PC-2535&quot;,
+  &quot;PC-2536&quot;,
+  &quot;PC-2537&quot;,
+  &quot;PC-2538&quot;,
+  &quot;PC-2539&quot;,
+  &quot;PC-2540&quot;,
+  &quot;PC-2541&quot;,
+  &quot;PC-2551&quot;,
+  &quot;PC-2625&quot;
+]</pre></dd>
+<dt>status</dt><dd>editing</dd>
+<dt>issue</dt><dd>20</dd>
+<dt>issues</dt><dd><pre>[
+  20
+]</pre></dd>
+<dt>pr</dt><dd><pre>{
+  &quot;number&quot;: 16,
+  &quot;branch&quot;: &quot;claude/confident-bardeen-inaarx&quot;
+}</pre></dd>
+<dt>proposedBy</dt><dd>claude-agent</dd>
+<dt>proposedAt</dt><dd>2026-10-05T14:39:26.609Z</dd>
+<dt>history</dt><dd><pre>[
+  {
+    &quot;at&quot;: &quot;2026-10-05T14:39:26.609Z&quot;,
+    &quot;by&quot;: &quot;claude-agent&quot;,
+    &quot;what&quot;: &quot;proposed with 25 comment(s)&quot;
+  },
+  {
+    &quot;at&quot;: &quot;2026-10-06T05:23:45.944Z&quot;,
+    &quot;by&quot;: &quot;litlfred&quot;,
+    &quot;what&quot;: &quot;PR #16 is making the change&quot;,
+    &quot;url&quot;: &quot;https://github.com/litlfred/smart-ra/pull/16&quot;
+  },
+  {
+    &quot;at&quot;: &quot;2026-10-06T05:23:45.944Z&quot;,
+    &quot;by&quot;: &quot;litlfred&quot;,
+    &quot;what&quot;: &quot;issue #20 opened&quot;
+  }
+]</pre></dd>
+<dt>$schema</dt><dd>changeset/1.0.0</dd>
+</dl>
+</main>
+</body>
+</html>

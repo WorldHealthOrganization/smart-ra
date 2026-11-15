@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-2c5d3f070dbd46ba8c053e09c67c8d6d",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-2c5d3f070dbd46ba8c053e09c67c8d6d",
+  "schema:name": "Revenue collection & enforcement",
+  "schema:description": "This capability encompasses the technical and administrative processes used to gather taxes and insurance premiums from various sources. It includes mechanisms to identify non-compliance and execute recovery procedures for unpaid contributions.\r\n\r\nThe objective is to ensure that all expected revenues are successfully transferred into the health fund with minimal loss. It provides the financial foundation necessary for the continuous operation of health services and the fulfillment of coverage obligations.\r\n\r\nExample: An automated system that pulls monthly insurance premiums from bank accounts and flags missed payments for follow-up.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

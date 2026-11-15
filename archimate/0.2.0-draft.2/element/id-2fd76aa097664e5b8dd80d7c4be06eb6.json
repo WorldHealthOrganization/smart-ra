@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-2fd76aa097664e5b8dd80d7c4be06eb6",
+  "@type": "archimate:Capability",
+  "schema:identifier": "id-2fd76aa097664e5b8dd80d7c4be06eb6",
+  "schema:name": "Dynamic Consent Management",
+  "schema:description": "This capability allows for the granular and real-time management of patient permissions for data sharing. It enables patients to grant, revoke, or modify access rights for different providers and purposes.\r\n\r\nThe purpose is to place the patient in control of their data and ensure that sharing is always based on explicit, informed consent. This is a key requirement for building trust and complying with privacy laws.\r\n\r\nExample: A \"consent dashboard\" where a patient can give a specialist access to their history for only a 24-hour window.",
+  "schema:category": "Strategy",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-e-5fc53b",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:e-5fc53b",
+  "kind": "prose",
+  "text": "p-e-5fc53b.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1078,
+      "page": 248,
+      "printedPage": "237",
+      "lineStart": 276,
+      "lineEnd": 276,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

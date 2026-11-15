@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-f9160c2c633f43d68dc0c5407fcb3556",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-f9160c2c633f43d68dc0c5407fcb3556",
+  "schema:name": " Claims intake, validation and adjudication",
+  "schema:description": "This service receives electronic medical claims and uses an automated rules engine to check them for technical accuracy and policy compliance. It makes the final decision on whether a claim is valid and calculates the authorized payment amount.\r\n\r\nThe objective is to provide efficient purchasing through the rapid and consistent review of medical claims without manual intervention. It minimizes human labor and speeds up the reimbursement cycle for healthcare providers.\r\n\r\nExample: A system that instantly approves a standard primary care consultation claim while flagging a high-cost surgery for review.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

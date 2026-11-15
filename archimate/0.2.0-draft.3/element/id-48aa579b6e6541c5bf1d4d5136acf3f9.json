@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-48aa579b6e6541c5bf1d4d5136acf3f9",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-48aa579b6e6541c5bf1d4d5136acf3f9",
+  "schema:name": "Compliance and leakage analysis",
+  "schema:description": "This service analyzes financial transactions to detect deviations from established policy and identify where funds are being lost. It utilizes statistical models to find \"leaks\" caused by administrative errors, waste, or technical glitches.\r\n\r\nThe purpose is to protect the health budget by identifying and plugging holes in the financial workflow. It ensures that the maximum amount of pooled resources is available for actual patient care rather than being lost to inefficiency.\r\n\r\nExample: A report identifying duplicate payments made to a laboratory due to an error in the electronic claim intake process.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

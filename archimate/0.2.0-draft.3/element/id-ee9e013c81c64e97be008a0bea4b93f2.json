@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-ee9e013c81c64e97be008a0bea4b93f2",
+  "@type": "archimate:DataObject",
+  "schema:identifier": "id-ee9e013c81c64e97be008a0bea4b93f2",
+  "schema:name": "Product Catalogue",
+  "schema:description": "The Product Catalogue metadata component standardizes the descriptions of medications, medical devices, and health services used across the health system. It provides the reference data needed for consistent tracking of clinical interventions.\r\n\r\nIts purpose is to enable longitudinal tracking and spend analysis by ensuring all facilities use the same names and codes for products. It supports supply chain efficiency and clinical safety by standardizing the representation of treatments.\r\n\r\nExample: A standardized list of drug names and dosages that all pharmacies use to record and dispense prescriptions.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

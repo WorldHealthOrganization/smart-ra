@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-e-b1992f",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:e-b1992f",
+  "kind": "prose",
+  "text": "p-e-b1992f.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1076,
+      "page": 247,
+      "pageEnd": 248,
+      "printedPage": "236",
+      "lineStart": 262,
+      "lineEnd": 272,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

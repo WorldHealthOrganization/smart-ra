@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-a4cd11daf16645ea8588859af16ba3a7",
+  "@type": "archimate:Value",
+  "schema:identifier": "id-a4cd11daf16645ea8588859af16ba3a7",
+  "schema:name": "Value",
+  "schema:description": "The benefit or utility gained by a stakeholder from using a service, product, or capability.\n\nValue captures why a goal or capability matters and who benefits. Value can be monetary, but in health contexts it often reflects non-monetary benefits such as trust, usability, or equity. \n\nFor example, a citizen values secure access to their data, while a health worker values having a complete clinical history at the point of care.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1"
+}

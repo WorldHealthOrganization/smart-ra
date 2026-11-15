@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-05617a0d58cb49f29dc6a8a4688c539b",
+  "@type": "archimate:Outcome",
+  "schema:identifier": "id-05617a0d58cb49f29dc6a8a4688c539b",
+  "schema:name": "Authenticated and authorized transactions.",
+  "schema:description": "This outcome ensures that every financial action in the health system is performed by a verified user with the legal right to do so. It utilizes digital signatures and multi-factor authentication for all sensitive operations such as budget approvals or payment authorizations.\r\n\r\nIt provides the security foundation required to prevent unauthorized fund transfers and sophisticated administrative fraud. By verifying the identity and permissions of every actor, the system ensures high-level accountability for public funds.\r\n\r\nExample: A system requiring a fingerprint scan and a digital signature before a regional manager can approve a hospital's payment schedule.",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

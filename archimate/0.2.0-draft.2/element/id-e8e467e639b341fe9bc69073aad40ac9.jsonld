@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-e8e467e639b341fe9bc69073aad40ac9",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-e8e467e639b341fe9bc69073aad40ac9",
+  "schema:name": "Secure Communication Component",
+  "schema:description": "This component provides the technical infrastructure for encrypted messaging and video communication between patients, families, and care team members. It integrates with FHIR Communication resources and supports both asynchronous and real-time interaction modes.\r\n\r\nThe purpose of this component is to deliver a standards-based communication layer that protects patient privacy while enabling convenient, ongoing contact with the care team. I\r\n\r\nExample: A patient sends a message through the portal asking about a side effect from a new medication. The component routes the message to the prescribing physician, logs it against the patient's record, and notifies the physician of a pending response.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

@@ -1,0 +1,268 @@
+{
+  "$schema": "folio-library-index/v1",
+  "tile": {
+    "uploads": {
+      "count": 4,
+      "unit": "waiting"
+    }
+  },
+  "entries": [
+    {
+      "id": "crdm-walkthrough-2026-10-06",
+      "instance": "dpi-h-ra",
+      "dir": "library/crdm-walkthrough-2026-10-06",
+      "title": "Quick touchbase re Ref arc feedback and Assured AI WS1",
+      "provenance": "ingested",
+      "rung": "recording",
+      "docId": "crdm-walkthrough-2026-10-06",
+      "sourceFile": "output.mp4",
+      "sourceSha256": "5cdd6c09ef690a0f516f4277fefdb000fee849292ff04ca6ef7d8c85116cabb3",
+      "arxiv": "",
+      "doi": "",
+      "documentClass": "",
+      "sections": 0,
+      "blocks": 6,
+      "images": 0,
+      "figures": 0,
+      "ocrPages": 0,
+      "hasOcr": false,
+      "hasManifest": true,
+      "hasStructure": false,
+      "hasImagesJson": false,
+      "pageStart": null,
+      "pageEnd": null,
+      "words": 0,
+      "chars": 0,
+      "bytes": 175245,
+      "upload": "match",
+      "uploadInstance": "dpi-h-ra",
+      "referencedBy": [],
+      "summaries": {
+        "prose": 0,
+        "summarised": 0,
+        "backlog": 0,
+        "draft": 0,
+        "confirmed": 0,
+        "stale": 0,
+        "rejected": 0,
+        "notSummarised": 0,
+        "unreadable": 0,
+        "empty": 0
+      },
+      "view": "/en/cat-harness/library/dpi-h-ra/crdm-walkthrough-2026-10-06/"
+    },
+    {
+      "id": "mehl-2023-full-stac-oqad018",
+      "instance": "dpi-h-ra",
+      "dir": "library/mehl-2023-full-stac-oqad018",
+      "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "provenance": "ingested",
+      "rung": "paged",
+      "docId": "mehl-2023-full-stac-oqad018",
+      "sourceFile": "mehl-2023-full-stac-oqad018.pdf",
+      "sourceSha256": "d155556b5ef4d5f6229be7f369d22d22d0bec106ce3b49acd85b9d0387b71077",
+      "arxiv": "",
+      "doi": "10.1093/oodh/oqad018",
+      "documentClass": "",
+      "sections": 5,
+      "blocks": 5,
+      "images": 0,
+      "figures": 0,
+      "ocrPages": 0,
+      "hasOcr": false,
+      "hasManifest": true,
+      "hasStructure": true,
+      "hasImagesJson": true,
+      "pageStart": 1,
+      "pageEnd": 5,
+      "words": 3980,
+      "chars": 31177,
+      "bytes": 136554,
+      "upload": "match",
+      "uploadInstance": "dpi-h-ra",
+      "avatar": {
+        "href": "/assets/library/avatars/dpi-h-ra/mehl-2023-full-stac-oqad018.png",
+        "src": "library/mehl-2023-full-stac-oqad018/cover.png",
+        "source": "cover"
+      },
+      "referencedBy": [],
+      "summaries": {
+        "prose": 5,
+        "summarised": 0,
+        "backlog": 5,
+        "draft": 0,
+        "confirmed": 0,
+        "stale": 0,
+        "rejected": 0,
+        "notSummarised": 5,
+        "unreadable": 0,
+        "empty": 0
+      },
+      "view": "/en/cat-harness/library/dpi-h-ra/mehl-2023-full-stac-oqad018/",
+      "viewable": "pdf"
+    },
+    {
+      "id": "who-dpi-h-reference-architecture-draft-v1",
+      "instance": "dpi-h-ra",
+      "dir": "library/who-dpi-h-reference-architecture-draft-v1",
+      "title": "who-dpi-h-reference-architecture-draft-v1",
+      "provenance": "ingested",
+      "rung": "paged",
+      "docId": "who-dpi-h-reference-architecture-draft-v1",
+      "sourceFile": "who-dpi-h-reference-architecture-draft-v1.pdf",
+      "sourceSha256": "3bc9943fdaf76c465326ed2181858a6aa3b441ee818770f35e29cd1f621f7da8",
+      "arxiv": "",
+      "doi": "",
+      "documentClass": "",
+      "sections": 131,
+      "blocks": 160,
+      "images": 31,
+      "figures": 29,
+      "ocrPages": 0,
+      "hasOcr": false,
+      "hasManifest": true,
+      "hasStructure": true,
+      "hasImagesJson": true,
+      "pageStart": 1,
+      "pageEnd": 254,
+      "words": 101947,
+      "chars": 736910,
+      "bytes": 26947252,
+      "upload": "absent",
+      "uploadInstance": "",
+      "readme": "https://github.com/litlfred/smart-ra/blob/main/library/who-dpi-h-reference-architecture-draft-v1/README.md",
+      "referencedBy": [
+        {
+          "kind": "docs",
+          "instance": "smart-base",
+          "from": "smart-base/findings/dth-candidates-2026-10-02.json",
+          "count": 136
+        },
+        {
+          "kind": "docs",
+          "instance": "smart-base",
+          "from": "smart-base/findings/dth-term-alternatives.json",
+          "count": 7
+        },
+        {
+          "kind": "skills",
+          "instance": "smart-base",
+          "from": "smart-base/skills/voices/who-digital-transformation-handbook/voice.json",
+          "count": 3
+        }
+      ],
+      "summaries": {
+        "prose": 125,
+        "summarised": 0,
+        "backlog": 125,
+        "draft": 0,
+        "confirmed": 0,
+        "stale": 0,
+        "rejected": 0,
+        "notSummarised": 125,
+        "unreadable": 0,
+        "empty": 6
+      },
+      "view": "/en/cat-harness/library/dpi-h-ra/who-dpi-h-reference-architecture-draft-v1/",
+      "viewable": "pdf"
+    }
+  ],
+  "uploads": [
+    {
+      "file": "DPI-H_comment_categorisation_skill_requirements.docx",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/DPI-H_comment_categorisation_skill_requirements.docx",
+      "bytes": 17779,
+      "ext": "docx",
+      "ingestedBy": "",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    },
+    {
+      "file": "mehl-2023-full-stac",
+      "kind": "intake",
+      "instance": "dpi-h-ra",
+      "path": "uploads/mehl-2023-full-stac",
+      "bytes": 1109172,
+      "ext": "",
+      "ingestedBy": "mehl-2023-full-stac-oqad018",
+      "docId": "mehl-2023-full-stac-oqad018",
+      "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "declaredFiles": 1
+    },
+    {
+      "file": "output.mp4",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/output.mp4",
+      "bytes": 24776789,
+      "ext": "mp4",
+      "ingestedBy": "crdm-walkthrough-2026-10-06",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    },
+    {
+      "file": "output.whisper-base.json",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/output.whisper-base.json",
+      "bytes": 35950,
+      "ext": "json",
+      "ingestedBy": "",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    },
+    {
+      "file": "Quick-touchbase-re_-Ref-arc-feedback-and-Assured-AI-WS1.docx",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/Quick-touchbase-re_-Ref-arc-feedback-and-Assured-AI-WS1.docx",
+      "bytes": 693476,
+      "ext": "docx",
+      "ingestedBy": "",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    },
+    {
+      "file": "Quick-touchbase-re_-Ref-arc-feedback-and-Assured-AI-WS1.vtt",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/Quick-touchbase-re_-Ref-arc-feedback-and-Assured-AI-WS1.vtt",
+      "bytes": 42055,
+      "ext": "vtt",
+      "ingestedBy": "",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    },
+    {
+      "file": "README.md",
+      "kind": "file",
+      "instance": "dpi-h-ra",
+      "path": "uploads/README.md",
+      "bytes": 6705,
+      "ext": "md",
+      "ingestedBy": "isaitb-2026-interoperability-test-bed-readme",
+      "docId": "",
+      "title": "",
+      "declaredFiles": 0
+    }
+  ],
+  "queues": [
+    {
+      "instance": "dpi-h-ra",
+      "dir": "uploads",
+      "total": 7,
+      "ingested": 3,
+      "uningested": 4
+    }
+  ],
+  "refScan": {
+    "unreadable": []
+  }
+}

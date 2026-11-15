@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2/element/id-6d49d0bba16149f48dc506c998f56459",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-6d49d0bba16149f48dc506c998f56459",
+  "schema:name": "Security Monitoring/Audit Service",
+  "schema:description": "This service continuously monitors system logs and network traffic for suspicious activity and policy violations. It provides real-time alerts and detailed audit logs for forensic analysis.\r\n\r\nThe purpose is to detect security incidents as they happen and provide the data needed for a rapid response. It ensures that any attempt to breach patient privacy is captured and reported.\r\n\r\nExample: An automated alert triggered when a user tries to access 1,000 patient records in a single minute.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.2"
+}

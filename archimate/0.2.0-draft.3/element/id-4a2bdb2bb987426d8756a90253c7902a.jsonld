@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-4a2bdb2bb987426d8756a90253c7902a",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-4a2bdb2bb987426d8756a90253c7902a",
+  "schema:name": "Planning tool",
+  "schema:description": "An essential application component that provides an interactive, structured workspace for developing, aligning, and tracking strategic health plans and multi-year operational budgets. This component digitizes the planning lifecycle—integrating high-level policy targets, resource constraints, and key performance indicators (KPIs) into a unified interface where program managers, finance officers, and regional planners can collaborate synchronously.\r\n\r\nIts primary purpose is to bridge the gap between abstract health policies and concrete financial execution. By enforcing standardized templates, cross-referencing proposed activities against available resource envelopes, and locking inputs into structured workplans, it eliminates fragmented offline spreadsheets, prevents top-down policy disconnects, and ensures that every planned expenditure directly advances a national or organizational health priority.\r\n\r\nExample: A ministry of health utilizes a web-based planning tool component during its annual budget cycle; regional health boards log into the tool to map out their localized immunization campaigns, inputting specific targets (e.g., \"vaccinate 15,000 children\") which the component automatically links to standard line-item costs for transport, cold-chain storage, and nursing staff.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-8843b7eb4e824cfb81dfab90dd81415d",
+  "@type": "archimate:ApplicationService",
+  "schema:identifier": "id-8843b7eb4e824cfb81dfab90dd81415d",
+  "schema:name": "Budget forecasting and scenario modelling",
+  "schema:description": "An advanced application service layer achieved by utilizing predictive algorithms, statistical models, and historical expenditure data to project continuous financial trends and simulate diverse budget alternatives. This dynamic modeling service allows health agencies to manipulate variables—such as inflation, population growth, or disease prevalence—to generate and compare multiple future fiscal environments simultaneously.\r\n\r\nIts primary purpose is to move health organizations away from rigid, once-a-year budgeting and toward a model of continuous financial preparedness. By simulating best-case, worst-case, and expected fiscal scenarios, it ensures that leadership can proactively protect essential health services against sudden funding shortages or rapidly scaling crisis expenses.\r\n\r\nExample: Anticipating a potential winter influenza surge alongside a 5% inflation hike in medical supplies, a ministry of health’s forecasting service simulates a multi-year budget scenario that automatically identifies which non-essential administrative expenditures can be frozen to absorb the increased operational costs.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-0be8d6ffb57443629b7f7238fff46ca7",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-0be8d6ffb57443629b7f7238fff46ca7",
+  "schema:name": "Financial (e.g. insurance) management system",
+  "schema:description": "This is the core operational platform used to manage the day-to-day functions of a health insurance scheme or social health fund. It integrates multiple modules for premium collection, claims handling, and financial reporting.\r\n\r\nIts purpose is to provide the \"operating system\" for health financing organizations to run efficiently and transparently. It coordinates the complex interactions between members, providers, and payers to ensure a sustainable health financing lifecycle.\r\n\r\nExample: A centralized platform used by a Social Health Insurance agency to manage 10 million member records and 50,000 monthly claims.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}

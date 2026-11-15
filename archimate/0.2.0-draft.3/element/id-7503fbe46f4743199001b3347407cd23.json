@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3/element/id-7503fbe46f4743199001b3347407cd23",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7503fbe46f4743199001b3347407cd23",
+  "schema:name": "Client Registry",
+  "schema:description": "The Client Registry is an application component that acts as a Master Patient Index and Identity Provider for the health sector. It manages unique identifiers and resolves identity conflicts to ensure each person is uniquely represented.\r\n\r\nIts purpose is to uniquely identify and authenticate individuals across the entire healthcare ecosystem. It provides a \"single source of truth\" for patient identity, which is foundational for linking disparate medical records.\r\n\r\nExample: A system that assigns a unique Health ID to a citizen and links it to their national biometric identification.",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/smart-ra/archimate/0.2.0-draft.3"
+}
