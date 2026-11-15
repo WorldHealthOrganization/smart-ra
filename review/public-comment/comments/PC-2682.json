@@ -1,0 +1,73 @@
+{
+  "id": "pc-2682",
+  "summary": "'Minimum conformance' as drafted risks meaning full-stack conformance, because requirements are only stated at the targ…",
+  "comment": "'Minimum conformance' as drafted risks meaning full-stack conformance, because requirements are only stated at the target state. Without tiers, ministries and development partners will treat the complete Required set as the procurement bar, pricing out the majority of sub-national implementers and incentivising parallel donor systems — the fragmentation scenario the document opens with.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:4-3-5-92909d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2682",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 27,
+      "entry": "17",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.5",
+      "page": "98",
+      "lines": "398–415",
+      "raw": "§4.3.5 p.98 l.398–415"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-5-92909d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98 l.398–415 read as the printed page; section 4.3.5 agrees"
+    },
+    "type": "technical",
+    "text": "'Minimum conformance' as drafted risks meaning full-stack conformance, because requirements are only stated at the target state. Without tiers, ministries and development partners will treat the complete Required set as the procurement bar, pricing out the majority of sub-national implementers and incentivising parallel donor systems — the fragmentation scenario the document opens with.",
+    "suggestedRevision": "Define explicit conformance tiers per component (e.g., T1: standard case definitions plus store-and-forward/SMS-compatible capture with facility and person identifiers; T2: batch standards-based exchange; T3: full FHIR query and subscription), each with defined progression evidence. Reference the tiers from Appendix C profiles.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 27"
+      }
+    ]
+  }
+}

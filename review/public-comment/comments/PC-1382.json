@@ -1,0 +1,79 @@
+{
+  "id": "pc-1382",
+  "summary": "Flexibility at interfaces is emphasised, but future adaptability also depends on data portability, modular procurement,…",
+  "comment": "Flexibility at interfaces is emphasised, but future adaptability also depends on data portability, modular procurement, versioning, abstraction, governance, skills, and sustainable funding.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-5-6a9e1b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1382",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 618,
+      "entry": "617",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.5",
+      "page": "109-110",
+      "lines": "Lines 204-210",
+      "raw": "§5.5 p.109-110 l.Lines 204-210"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-5-6a9e1b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-5-c413ea"
+      ],
+      "note": "p.109-110 l.Lines 204-210 read as the printed page; section 5.5 agrees"
+    },
+    "text": "Flexibility at interfaces is emphasised, but future adaptability also depends on data portability, modular procurement, versioning, abstraction, governance, skills, and sustainable funding.",
+    "suggestedRevision": "Expand the future-proofing requirements to include these dimensions.",
+    "labels": {
+      "Comment type": "Q10 - Implementation pathways"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 618"
+      }
+    ]
+  }
+}

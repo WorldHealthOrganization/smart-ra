@@ -1,0 +1,77 @@
+{
+  "id": "pc-0189",
+  "summary": "The roles and skills section does not include roles for AI governance and data science capacity, yet thes skills are in…",
+  "comment": "The roles and skills section does not include roles for AI governance and data science capacity, yet thes skills are increasingly becoming essential as AI adoption grows. Without these, countries lack the institutional capacity to evaluate, procure, and oversee AI systems safely.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-2-2a0e80",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0189",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 189,
+      "entry": "188",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.5.2, 5.4.1",
+      "page": "101. 107",
+      "lines": "500 - 517\n142 - 153",
+      "raw": "§4.5.2, 5.4.1 p.101. 107 l.500 - 517\n142 - 153"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-2-2a0e80",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.101. 107 l.500 - 517\n142 - 153 read as the printed page; section 4.5.2 agrees"
+    },
+    "type": "general",
+    "text": "The roles and skills section does not include roles for AI governance and data science capacity, yet thes skills are increasingly becoming essential as AI adoption grows. Without these, countries lack the institutional capacity to evaluate, procure, and oversee AI systems safely.",
+    "suggestedRevision": "1) Consider adding AI-specific roles and capacities to the roles and skills section, including: AI ethics and governance specialists; model evaluators and auditors; data scientists with health domain expertise; clinical informaticians with AI literacy; and MLOps engineers for model deployment and maintenance. \n2) Include guidance on building these capacities through training programmes, partnerships with academic institutions, and regional centres of excellence.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 189"
+      }
+    ]
+  }
+}

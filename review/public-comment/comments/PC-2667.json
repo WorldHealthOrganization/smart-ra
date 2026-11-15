@@ -1,0 +1,82 @@
+{
+  "id": "pc-2667",
+  "summary": "Row #19 says the record \"shall\" work offline. \"Shall\" means required. But the status beside it says \"Recommended\", whic…",
+  "comment": "Row #19 says the record \"shall\" work offline. \"Shall\" means required. But the status beside it says \"Recommended\", which means optional. The two do not match. The three comparable rows (Computable Decision Support Engine #25 p.189, Health Management Information System #21 p.216, Public Health Surveillance Platform #21 p.226) say \"should\" and are marked Recommended, so those are consistent. Only row #19 contradicts itself.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2667",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 12,
+      "entry": "2",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Lifelong Health Record",
+      "page": "162",
+      "lines": "Operational requirement #19",
+      "raw": "§Appendix C — Lifelong Health Record p.162 l.Operational requirement #19"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-00a47d"
+      ],
+      "note": "placed by a placement agent reading the comment against the text (medium): LHR operational requirement #19 (offline); the page read had landed it on the Product Registry"
+    },
+    "type": "technical",
+    "text": "Row #19 says the record \"shall\" work offline. \"Shall\" means required. But the status beside it says \"Recommended\", which means optional. The two do not match. The three comparable rows (Computable Decision Support Engine #25 p.189, Health Management Information System #21 p.216, Public Health Surveillance Platform #21 p.226) say \"should\" and are marked Recommended, so those are consistent. Only row #19 contradicts itself.",
+    "suggestedRevision": "Make the wording and the status agree in row #19: either change \"shall\" to \"should\", or change the status to Required. See the next comment for a better option.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 12"
+      },
+      {
+        "at": "2026-10-15T11:15:03.546Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): LHR operational requirement #19 (offline); the page read had landed it on the Product Registry"
+      }
+    ]
+  }
+}

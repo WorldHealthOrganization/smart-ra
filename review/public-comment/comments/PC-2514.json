@@ -1,0 +1,77 @@
+{
+  "id": "pc-2514",
+  "summary": "Direct ICD-11 input to decision support — Establishes a primary clinical use without claiming that ICD-11 itself is a c…",
+  "comment": "Direct ICD-11 input to decision support — Establishes a primary clinical use without claiming that ICD-11 itself is a complete decision-support knowledge base. This is a design recommendation consistent with the WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-computable-decision-support-engi-2a67bd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2514",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 57,
+      "entry": "56",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Computable Decision Support Engine, §3",
+      "page": "183",
+      "lines": "A20.01",
+      "raw": "§Computable Decision Support Engine, §3 p.183 l.A20.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-computable-decision-support-engi-2a67bd",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-computable-decision-support-engi-9b2c20",
+        "prose:c-business-services-components-computable-decision-support-engi-97cc2b"
+      ],
+      "note": "p.183 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Direct ICD-11 input to decision support — Establishes a primary clinical use without claiming that ICD-11 itself is a complete decision-support knowledge base. This is a design recommendation consistent with the WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub).",
+    "suggestedRevision": "Insert paragraph: Decision logic may reference ICD-11 concepts and expressions directly where they represent the information required by the rule. The rule package shall identify the terminology release, relevant clinical context, and tested interpretation of any postcoordination. It shall not require a SNOMED CT intermediate solely to consume ICD-11-coded data. Terminology services supply identified meaning and applicable relationships; the clinical recommendation, drug knowledge, inference logic, and validation of the decision remain separately governed responsibilities.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 57"
+      }
+    ]
+  }
+}

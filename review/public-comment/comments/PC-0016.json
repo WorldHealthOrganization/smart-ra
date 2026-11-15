@@ -1,0 +1,79 @@
+{
+  "id": "pc-0016",
+  "summary": "The measurement framework covers coverage, conformance, governance maturity and outcome linkage, but model accuracy alo…",
+  "comment": "The measurement framework covers coverage, conformance, governance maturity and outcome linkage, but model accuracy alone is insufficient for AI-enabled service evaluation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0016",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 16,
+      "entry": "15",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4",
+      "page": "108-110",
+      "lines": "409-463",
+      "raw": "§4.4 p.108-110 l.409-463"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-4",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.4 only"
+    },
+    "type": "technical",
+    "text": "The measurement framework covers coverage, conformance, governance maturity and outcome linkage, but model accuracy alone is insufficient for AI-enabled service evaluation.",
+    "suggestedRevision": "Add an implementation measurement set spanning access, turnaround time, quality, override and incident rates, workforce effects, cost, equity and service continuity, disaggregated where appropriate.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 16"
+      }
+    ]
+  }
+}

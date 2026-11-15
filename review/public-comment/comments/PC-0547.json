@@ -1,0 +1,82 @@
+{
+  "id": "pc-0547",
+  "summary": "The layered view for the Trusted Personal Health Records sub-goal groups the metadata components as Client Registry, Fa…",
+  "comment": "The layered view for the Trusted Personal Health Records sub-goal groups the metadata components as Client Registry, Facility Registry, Health Worker Registry, Product Registry and Terminology Service. The Logical Information Model Repository is not among them, although section 3.6.2 lines 802–809 identifies the Terminology Service and the LIMR as the paired components governing meaning and structure and states that both are required, and the Lifelong Health Record shown immediately above depends on the LIMR for the structures against which it stores and validates data (page 157, lines 107–110). The same omission occurs in Appendix E, Goal 1. A reader working from this view would not know that a structural component exists.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-3-9d9a6d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0547",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 547,
+      "entry": "546",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 The reference architecture in practice — Figure 3.4",
+      "page": "51",
+      "lines": "Figure 3.4 — Metadata Components group",
+      "caption": "Figure 3.4",
+      "raw": "§3.3 The reference architecture in practice — Figure 3.4 p.51 l.Figure 3.4 — Metadata Components group"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-3-9d9a6d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-3-188f29",
+        "fig:3-3-9fbe49"
+      ],
+      "note": "p.51 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The layered view for the Trusted Personal Health Records sub-goal groups the metadata components as Client Registry, Facility Registry, Health Worker Registry, Product Registry and Terminology Service. The Logical Information Model Repository is not among them, although section 3.6.2 lines 802–809 identifies the Terminology Service and the LIMR as the paired components governing meaning and structure and states that both are required, and the Lifelong Health Record shown immediately above depends on the LIMR for the structures against which it stores and validates data (page 157, lines 107–110). The same omission occurs in Appendix E, Goal 1. A reader working from this view would not know that a structural component exists.",
+    "suggestedRevision": "Add the Logical Information Model Repository to the Metadata Components group in Figure 3.4, alongside the Terminology Service, and check the other per-goal views for the same omission.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 547"
+      }
+    ]
+  }
+}

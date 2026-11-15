@@ -1,0 +1,80 @@
+{
+  "id": "pc-1326",
+  "summary": "The list identifies terminology, LIMR, Client Registry, interoperability, and governance as key AI enablers. It omits f…",
+  "comment": "The list identifies terminology, LIMR, Client Registry, interoperability, and governance as key AI enablers. It omits facility and workforce registries, product data, data-quality services, provenance, secure research environments, model registries, and computing infrastructure.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-b8b815",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1326",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 562,
+      "entry": "561",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2",
+      "page": "105",
+      "lines": "Lines 51-69",
+      "raw": "§5.2 p.105 l.Lines 51-69"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-b8b815",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-2-cc2994",
+        "prose:5-2-dcb8d1"
+      ],
+      "note": "p.105 l.Lines 51-69 read as the printed page; section 5.2 agrees"
+    },
+    "text": "The list identifies terminology, LIMR, Client Registry, interoperability, and governance as key AI enablers. It omits facility and workforce registries, product data, data-quality services, provenance, secure research environments, model registries, and computing infrastructure.",
+    "suggestedRevision": "Expand the list or explain that the examples are illustrative. Identify additional infrastructure according to AI use case, including authoritative workforce, facility, product, device, and organisational data.",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 562"
+      }
+    ]
+  }
+}

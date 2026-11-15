@@ -1,0 +1,78 @@
+{
+  "id": "pc-0146",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-87ef33",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0146",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 146,
+      "entry": "145",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "9",
+      "lines": "42-55",
+      "raw": "§1.1.2 p.9 l.42-55"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-87ef33",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.9 l.42-55 read as the printed page; section 1.1.2 agrees"
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "The G20 characterised DPI as a collection of collaborative digital infrastructures that must be secure and interoperable, constructed on open standards and specifications to ensure equitable access to public and/or private services at a societal level, governed by relevant legal frameworks and enabling regulations to promote development, inclusion, innovation, trust and competition, while upholding human rights and fundamental freedoms. Collectively, these criteria delineate essential attributes of DPI: it functions as a communal infrastructure at a society level, and its value arises not from an individual system but from its open, interoperable basis that enables both public and private entities to innovate. The G20 acknowledges that Digital Public Infrastructure (DPI) is a dynamic notion, not confined to systems with particular features, and may be customised to fit the unique situations of many nations, often referred to by diverse terminology. This establishes the foundation for expressing a health-centric interpretation of DPI, tailored to the requirements of the health sector while aligning with the broad agreement. This health-specific digital public infrastructure is derived from a comprehensive cross-sectoral understanding.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 146"
+      }
+    ]
+  }
+}

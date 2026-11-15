@@ -1,0 +1,43 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-166",
+  "title": "Restructure the Product Registry data model by product class",
+  "requirements": "- Model units, strength, routes, storage conditions and classifications as structured, governed attributes\n- Distinguish clinical concept, regulated product, item, packaging level, batch and serial instance\n- Add applicability by product class and identification level to the data-element table\n- Define a governed clinical-product model and identifier scheme\n- Model repeatable packaging relationships down to the smallest base unit\n- Make GTIN, brand name, medicinal attributes, origin, shelf life, dimensions and generic mapping conditional where not universally applicable\n- Link manufacturers and related parties to authoritative organisation records\n- Govern units and conversions, referencing UCUM where applicable, with integrity checks",
+  "refs": [
+    "PC-0417",
+    "PC-1750",
+    "PC-1753",
+    "PC-1754",
+    "PC-1755",
+    "PC-1773",
+    "PC-1789",
+    "PC-1790",
+    "PC-1791",
+    "PC-1792",
+    "PC-1793",
+    "PC-1794",
+    "PC-1795",
+    "PC-1796",
+    "PC-1797",
+    "PC-1798",
+    "PC-1799",
+    "PC-1800",
+    "PC-1801",
+    "PC-1802",
+    "PC-1803",
+    "PC-1804",
+    "PC-1806"
+  ],
+  "anchor": "sec:c-metadata-registries-and-foundati-product-registry",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 23 comment(s)"
+    }
+  ]
+}

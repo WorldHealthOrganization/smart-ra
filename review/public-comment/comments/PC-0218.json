@@ -1,0 +1,78 @@
+{
+  "id": "pc-0218",
+  "summary": "The REDDHI open standards list (line 148) and surrounding text reference SNOMED CT, ICD-11, and LOINC as a group withou…",
+  "comment": "The REDDHI open standards list (line 148) and surrounding text reference SNOMED CT, ICD-11, and LOINC as a group without articulating that these are complementary, not interchangeable, standards. Each occupies a distinct clinical domain: SNOMED CT covers clinical concepts and findings; ICD-11-MMS supports morbidity/mortality classification and reimbursement; LOINC standardises laboratory and clinical observation identifiers. A country implementing only one of these three would produce a functionally incomplete Terminology Service. The current grouping may lead national programmes to conclude that any single standard satisfies the architectural requirement.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0218",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 218,
+      "entry": "217",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1",
+      "page": "26",
+      "lines": "148–169",
+      "raw": "§2.2.1 p.26 l.148–169"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.26 l.148–169 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "technical",
+    "text": "The REDDHI open standards list (line 148) and surrounding text reference SNOMED CT, ICD-11, and LOINC as a group without articulating that these are complementary, not interchangeable, standards. Each occupies a distinct clinical domain: SNOMED CT covers clinical concepts and findings; ICD-11-MMS supports morbidity/mortality classification and reimbursement; LOINC standardises laboratory and clinical observation identifiers. A country implementing only one of these three would produce a functionally incomplete Terminology Service. The current grouping may lead national programmes to conclude that any single standard satisfies the architectural requirement.",
+    "suggestedRevision": "Add a clarifying sentence following the open standards list: \"These standards are complementary rather than interchangeable: SNOMED CT provides clinical concept and procedural coverage; ICD-11 MMS supports mortality and morbidity classification; LOINC provides universal identifiers for laboratory tests and clinical observations. A complete national Terminology Service typically requires all three, operating together.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 218"
+      }
+    ]
+  }
+}

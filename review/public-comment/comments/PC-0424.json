@@ -1,0 +1,78 @@
+{
+  "id": "pc-0424",
+  "summary": "It may be useful for the architecture to consider citizens not only as users of digital health services, but also as po…",
+  "comment": "It may be useful for the architecture to consider citizens not only as users of digital health services, but also as potential contributors of health data. This could help make the proposed infrastructure more future-ready as self-testing kits, home-monitoring devices and wearable technologies become increasingly common sources of health information. One option could be to provide an optional, appropriately governed pathway for patient-generated health data, including data from wearables and home-monitoring devices, to be incorporated into the Lifelong Health Record where appropriate. The future-proofing section could also give this area more dedicated consideration, building on the existing recognition of wearables and remote monitoring as an emerging trend. Providing a clear architectural direction for these data sources could help countries accommodate new forms of patient-generated data while retaining appropriate governance and safeguards.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-1-ea0e4f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0424",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 424,
+      "entry": "423",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.1",
+      "page": "104",
+      "lines": "28",
+      "raw": "§5.1 p.104 l.28"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-1-ea0e4f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.104 l.28 read as the printed page; section 5.1 agrees"
+    },
+    "type": "general",
+    "text": "It may be useful for the architecture to consider citizens not only as users of digital health services, but also as potential contributors of health data. This could help make the proposed infrastructure more future-ready as self-testing kits, home-monitoring devices and wearable technologies become increasingly common sources of health information. One option could be to provide an optional, appropriately governed pathway for patient-generated health data, including data from wearables and home-monitoring devices, to be incorporated into the Lifelong Health Record where appropriate. The future-proofing section could also give this area more dedicated consideration, building on the existing recognition of wearables and remote monitoring as an emerging trend. Providing a clear architectural direction for these data sources could help countries accommodate new forms of patient-generated data while retaining appropriate governance and safeguards.",
+    "suggestedRevision": "Suggested addition to Sec 5.1: 'Where appropriate governance and consent mechanisms are in place, countries may wish to establish an optional pathway for patient-generated health data, including data from personal wearables and home-monitoring devices,  to be incorporated into the Lifelong Health Record, subject to the same consent and data-quality safeguards that apply to other data sources.' Suggested expansion to the Chapter 5 introduction (p.104): develop the existing reference to 'remote monitoring, wearable sensors' into a short dedicated paragraph describing their implications for the shared health data foundation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 424"
+      }
+    ]
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "$schema": "folio-transcript/v1",
+  "lang": "fr",
+  "recording_sha256": "5cdd6c09ef690a0f516f4277fefdb000fee849292ff04ca6ef7d8c85116cabb3",
+  "translated_from": {
+    "lang": "en",
+    "segments_sha256": "72fccad324ce2df0b5c59cf7d3827673a51b8e608d534cfd24b40ba977225c7a"
+  },
+  "state": "draft",
+  "drafted_by": {
+    "kind": "agent",
+    "id": "claude-code",
+    "model": "not-disclosed",
+    "session": "conversation://4e43c8a3-23a2-4f5e-8fc4-cad1bee809b0"
+  },
+  "drafted_at": "2026-10-30",
+  "segments": [
+    {
+      "start_ms": 0,
+      "end_ms": 9880,
+      "text": "Bonjour, ici Carl Leitner. J'interviens en tant qu'analyste métier suivant une méthodologie collaborative"
+    },
+    {
+      "start_ms": 9880,
+      "end_ms": 17640,
+      "text": "de développement des exigences, ou CRDM, avec ma collègue qui va se présenter."
+    },
+    {
+      "start_ms": 17640,
+      "end_ms": 27120,
+      "text": "Nous cherchons à développer et à faire évoluer par itérations une fonctionnalité d'examen des commentaires publics"
+    },
+    {
+      "start_ms": 27120,
+      "end_ms": 34880,
+      "text": "sur un document pour lequel nous avons reçu 3000 commentaires. Certaines fonctionnalités initiales ont été développées"
+    },
+    {
+      "start_ms": 34880,
+      "end_ms": 41460,
+      "text": "et nous allons maintenant faire une revue pas à pas avec ma collègue afin de corriger certains points ou de recueillir"
+    },
+    {
+      "start_ms": 41460,
+      "end_ms": 47680,
+      "text": "des fonctionnalités, des demandes et d'autres éléments susceptibles d'améliorer le flux de travail. Elle agit"
+    },
+    {
+      "start_ms": 47680,
+      "end_ms": 53920,
+      "text": "en tant que rédactrice en chef pour l'architecture de référence. À vous la parole. Voulez-vous vous présenter ?"
+    },
+    {
+      "start_ms": 53920,
+      "end_ms": 61100,
+      "text": "Je suis [la rédactrice en chef]. J'agis en tant que rédactrice en chef pour le document d'architecture de référence."
+    },
+    {
+      "start_ms": 61100,
+      "end_ms": 67240,
+      "text": "Comme Carl l'a mentionné, nous avons plus de 3000 commentaires et nous voulons pouvoir définir les exigences"
+    },
+    {
+      "start_ms": 67240,
+      "end_ms": 75640,
+      "text": "nous permettant d'examiner ces commentaires au sein du groupe de travail technique et de catégoriser"
+    },
+    {
+      "start_ms": 75640,
+      "end_ms": 83720,
+      "text": "les commentaires afin que différents membres des sous-groupes de travail puissent également examiner les commentaires"
+    },
+    {
+      "start_ms": 83720,
+      "end_ms": 92560,
+      "text": "qui relèvent de ce domaine particulier. Très bien. Je mets dans le fil de discussion un lien vers ce que nous"
+    },
+    {
+      "start_ms": 92560,
+      "end_ms": 98880,
+      "text": "allons examiner. Je ne sais pas, est-ce que cela enregistre aussi la vidéo ou non ? Ce serait"
+    },
+    {
+      "start_ms": 98880,
+      "end_ms": 114920,
+      "text": "fermer. Désolé, je crois que j'ai enregistré la mauvaise fenêtre. Qu'est-ce que je voulais partager ? Je pense que c'est ceci... D'accord, voici donc la branche de préproduction actuelle"
+    },
+    {
+      "start_ms": 114920,
+      "end_ms": 120760,
+      "text": "dont nous disposons pour l'examen des commentaires publics sur l'architecture de référence."
+    },
+    {
+      "start_ms": 120760,
+      "end_ms": 128280,
+      "text": "Vous pouvez voir qu'il y a 2600 commentaires, dont 2629 sont ouverts. Je ne sais pas pourquoi certains"
+    },
+    {
+      "start_ms": 128280,
+      "end_ms": 136580,
+      "text": "sont fermés. C'est intéressant car je n'ai pas demandé qu'ils soient fermés. Ce qui s'est"
+    },
+    {
+      "start_ms": 136580,
+      "end_ms": 145840,
+      "text": "passé, c'est que tous ces 2600 commentaires ont été regroupés en ensembles de modifications (change sets) et vous pouvez voir ces ensembles"
+    },
+    {
+      "start_ms": 145840,
+      "end_ms": 156600,
+      "text": "de modifications ici. Ces ensembles de modifications sont, par exemple, CS 001 qui contient 14 commentaires. Il a"
+    },
+    {
+      "start_ms": 156600,
+      "end_ms": 162620,
+      "text": "regroupé l'ensemble de ces 14 commentaires en un ensemble de commentaires portant sur des exigences : phrases complètes, définir"
+    },
+    {
+      "start_ms": 162620,
+      "end_ms": 171160,
+      "text": "DPI-F à la première occurrence, simplifier la formulation des indicateurs. Vous pouvez aussi accéder aux commentaires spécifiques de cet"
+    },
+    {
+      "start_ms": 171160,
+      "end_ms": 180040,
+      "text": "ensemble de modifications et voir, vous pouvez déplier pour voir qui a réellement fourni le commentaire ainsi que les détails"
+    },
+    {
+      "start_ms": 180040,
+      "end_ms": 186600,
+      "text": "derrière ce commentaire. Savoir si une décision a déjà été prise sur ce commentaire, le comité ou la personne qui"
+    },
+    {
+      "start_ms": 186600,
+      "end_ms": 193720,
+      "text": "examine effectivement ce commentaire. Nous devons encore préciser un peu cela. Vous pouvez également voir les liens"
+    },
+    {
+      "start_ms": 193720,
+      "end_ms": 202600,
+      "text": "dans le document lui-même pour consulter tous les commentaires liés à cette section ou à cette zone des"
+    },
+    {
+      "start_ms": 202600,
+      "end_ms": 211160,
+      "text": "commentaires. C'est ce que je voulais partager avec vous. Une dernière chose : si vous êtes maintenant dans un ensemble de commentaires,"
+    },
+    {
+      "start_ms": 213960,
+      "end_ms": 220040,
+      "text": "ce que vous pouvez faire, disons que nous regardons CS 164. Il y a un lien « discuter ». Ce que cela permet de faire,"
+    },
+    {
+      "start_ms": 220040,
+      "end_ms": 227160,
+      "text": "c'est par exemple si nous sommes dans un appel de groupe de travail et que nous disons : oh, nous sommes dans l'appel du groupe de travail"
+    },
+    {
+      "start_ms": 227160,
+      "end_ms": 235080,
+      "text": "sur le registre des produits avec Saroop ou quelqu'un d'autre. Nous voulons examiner ces modifications, puis nous passons en"
+    },
+    {
+      "start_ms": 235080,
+      "end_ms": 241560,
+      "text": "mode discussion. Cela crée automatiquement un ticket (issue) ou prépare un ticket que nous pouvons créer pour"
+    },
+    {
+      "start_ms": 241560,
+      "end_ms": 248200,
+      "text": "ensuite ajouter des commentaires pendant la discussion, prendre des notes, y joindre des pièces, et toute personne"
+    },
+    {
+      "start_ms": 248200,
+      "end_ms": 258600,
+      "text": "possédant un compte GitHub peut contribuer à cet ensemble de modifications. Une fois créé, vous pouvez alors,"
+    },
+    {
+      "start_ms": 258600,
+      "end_ms": 265320,
+      "text": "par exemple, assigner un Copilot ou un agent pour créer une pull request qui parcourra et"
+    },
+    {
+      "start_ms": 265320,
+      "end_ms": 270920,
+      "text": "appliquera les modifications approuvées au cours de la discussion. Voilà le flux de travail général"
+    },
+    {
+      "start_ms": 272520,
+      "end_ms": 284680,
+      "text": "et le tableau de bord proposés comme ébauche (straw person) pour recueillir vos réactions. D'accord, super. Je pense que cela fonctionne bien"
+    },
+    {
+      "start_ms": 284680,
+      "end_ms": 290760,
+      "text": "sur le plan du flux de travail, mais il y a quelques éléments supplémentaires que je souhaitais simplement"
+    },
+    {
+      "start_ms": 290760,
+      "end_ms": 302280,
+      "text": "clarifier concernant la manière dont les commentaires sont catégorisés. L'un des points qui me préoccupent"
+    },
+    {
+      "start_ms": 302280,
+      "end_ms": 310040,
+      "text": "est de veiller à la cohérence dans la façon dont s'effectue la catégorisation de ces"
+    },
+    {
+      "start_ms": 310040,
+      "end_ms": 321880,
+      "text": "commentaires. J'ai quelques catégories sous lesquelles ces commentaires doivent être regroupés"
+    },
+    {
+      "start_ms": 322760,
+      "end_ms": 330280,
+      "text": "au-delà du fait, vous savez, de les aborder uniquement sous l'angle"
+    },
+    {
+      "start_ms": 330280,
+      "end_ms": 337240,
+      "text": "des lots (bundles) et des domaines qu'ils couvrent. Ainsi, par exemple, il y a ceux qui portent"
+    },
+    {
+      "start_ms": 337240,
+      "end_ms": 343880,
+      "text": "sur l'application d'une révision de clarté éditoriale au résumé. J'aimerais que cela aille dans une catégorie"
+    },
+    {
+      "start_ms": 343880,
+      "end_ms": 351320,
+      "text": "éditoriale. Ensuite, il y en a quelques-uns, quelques commentaires qui portent davantage"
+    },
+    {
+      "start_ms": 351320,
+      "end_ms": 359160,
+      "text": "sur des sujets comme, par exemple, la chaîne d'approvisionnement. Et j'aimerais que ces commentaires soient également catégorisés"
+    },
+    {
+      "start_ms": 359160,
+      "end_ms": 369800,
+      "text": "sous la chaîne d'approvisionnement. Ainsi, en réalité, au-delà des commentaires éditoriaux et de la question de savoir si une revue"
+    },
+    {
+      "start_ms": 369800,
+      "end_ms": 377320,
+      "text": "est nécessaire ou non, j'aimerais aussi disposer d'un ensemble supplémentaire de catégories destinées aux architectes principaux (core architects),"
+    },
+    {
+      "start_ms": 377960,
+      "end_ms": 386680,
+      "text": "au groupe des registres de métadonnées, à la chaîne d'approvisionnement, aux systèmes financiers, au domaine clinique, puis à la WHO en général."
+    },
+    {
+      "start_ms": 388280,
+      "end_ms": 394200,
+      "text": "Et, bien sûr, aux modifications éditoriales, comme je l'ai mentionné plus tôt. Ce sont donc quelques-unes des"
+    },
+    {
+      "start_ms": 394200,
+      "end_ms": 402120,
+      "text": "premières catégorisations que je souhaiterais également avoir, au-delà du regroupement par thèmes similaires"
+    },
+    {
+      "start_ms": 403080,
+      "end_ms": 408440,
+      "text": "que, vous savez, vous avez déjà réalisé dans le cadre de cette catégorisation actuelle."
+    },
+    {
+      "start_ms": 409640,
+      "end_ms": 418040,
+      "text": "D'accord, merci. Et pour aider à clarifier : vous souhaitez donc conserver l'approche par ensembles de modifications,"
+    },
+    {
+      "start_ms": 418040,
+      "end_ms": 424040,
+      "text": "avec peut-être différentes étiquettes (tags) superposées à l'ensemble de modifications selon différents axes liés, par exemple,"
+    },
+    {
+      "start_ms": 424040,
+      "end_ms": 432120,
+      "text": "au fait de savoir s'il s'agit d'une modification de type éditorial ou d'une modification portant sur un type de contenu spécifique ?"
+    },
+    {
+      "start_ms": 432120,
+      "end_ms": 440120,
+      "text": "Oui. D'accord. Et je vois, en regardant l'écran dans la démonstration, qu'il existe déjà un type doté"
+    },
+    {
+      "start_ms": 440120,
+      "end_ms": 446360,
+      "text": "d'un menu déroulant « éditorial, générique, général et technique », qui semblait fonctionner auparavant,"
+    },
+    {
+      "start_ms": 446360,
+      "end_ms": 453800,
+      "text": "mais ne fonctionne plus maintenant, ou bien est-ce que ce sont là les catégories que vous souhaitez ? Alors, je pense qu'« éditorial »"
+    },
+    {
+      "start_ms": 453800,
+      "end_ms": 461800,
+      "text": "convient parfaitement. La question se pose vraiment entre « général » et « technique ». Les commentaires « techniques », en particulier,"
+    },
+    {
+      "start_ms": 462440,
+      "end_ms": 469640,
+      "text": "sont ceux qui nécessiteraient une catégorisation spécifique indiquant s'il s'agit du registre de métadonnées,"
+    },
+    {
+      "start_ms": 469640,
+      "end_ms": 477240,
+      "text": "de la chaîne d'approvisionnement, des systèmes financiers, du domaine clinique ou des architectes principaux. Pour « général », nous pouvons le laisser en général"
+    },
+    {
+      "start_ms": 477240,
+      "end_ms": 485880,
+      "text": "et cela pourra être examiné par l'équipe éditoriale du côté de la WHO. D'accord. Je suppose donc qu'il y a"
+    },
+    {
+      "start_ms": 485880,
+      "end_ms": 491000,
+      "text": "plusieurs façons de subdiviser la catégorie technique. L'une pourrait être par comité de groupe de travail"
+    },
+    {
+      "start_ms": 491000,
+      "end_ms": 500440,
+      "text": "spécialisé dans ce domaine, ce qui pourrait s'aligner sur ce que nous avons vu en examinant les commentaires eux-mêmes. D'accord."
+    },
+    {
+      "start_ms": 500440,
+      "end_ms": 507480,
+      "text": "Il y avait un comité associé aux commentaires. Oui. Oui. Donc, si nous disions qu'un ensemble de modifications"
+    },
+    {
+      "start_ms": 507480,
+      "end_ms": 513160,
+      "text": "comprend deux ou trois commentaires ou plus, et que ce commentaire — ou ces deux ou trois commentaires —"
+    },
+    {
+      "start_ms": 513160,
+      "end_ms": 518520,
+      "text": "peuvent être associés à un ou deux comités, nous pourrions au moins faire remonter cette information"
+    },
+    {
+      "start_ms": 518520,
+      "end_ms": 526840,
+      "text": "jusqu'au niveau supérieur lorsque certaines choses en arrière-plan ne fonctionnent pas. Nous pourrions au moins la faire remonter et vous pourriez rechercher"
+    },
+    {
+      "start_ms": 526840,
+      "end_ms": 532360,
+      "text": "en haut de page les ensembles de modifications qui sont éditoriaux au sein de ce comité. Et ce serait tout. D'accord."
+    },
+    {
+      "start_ms": 533080,
+      "end_ms": 538120,
+      "text": "Cela fonctionnera, tout à fait. Il existe toutefois un autre axe, qui est l'architecture"
+    },
+    {
+      "start_ms": 538120,
+      "end_ms": 543320,
+      "text": "de référence elle-même. Par exemple : est-ce que cela porte sur un composant de métadonnées ? Est-ce sur un composant de domaine"
+    },
+    {
+      "start_ms": 543320,
+      "end_ms": 549400,
+      "text": "métier ? Lequel d'entre eux ? Nous pourrions faire cela. Je pense que cela va probablement au-delà de ce qui est nécessaire"
+    },
+    {
+      "start_ms": 549400,
+      "end_ms": 556520,
+      "text": "pour l'instant. D'accord. Je peux me tromper, je pose simplement la question. Oui. Je pense que si nous commençons avec"
+    },
+    {
+      "start_ms": 556520,
+      "end_ms": 562440,
+      "text": "ce que nous avons d'abord, nous verrons ensuite si nous allons jusqu'à ce niveau de détail. Je vais tester cela"
+    },
+    {
+      "start_ms": 562440,
+      "end_ms": 568200,
+      "text": "avec, ou du moins je vais le montrer au groupe des architectes principaux demain, et nous pourrons commencer à voir"
+    },
+    {
+      "start_ms": 568200,
+      "end_ms": 576120,
+      "text": "et à tester si cela peut réellement fonctionner comme processus de flux de travail pour parcourir ces éléments"
+    },
+    {
+      "start_ms": 576120,
+      "end_ms": 581880,
+      "text": "avec les autres groupes de domaine. L'autre point que je voulais également mentionner, c'est qu'à partir"
+    },
+    {
+      "start_ms": 581880,
+      "end_ms": 588520,
+      "text": "de la feuille de calcul que j'ai partagée avec vous, j'ai encore des commentaires supplémentaires qui sont arrivés,"
+    },
+    {
+      "start_ms": 588520,
+      "end_ms": 593880,
+      "text": "mais qui ne font pas partie de cette première consolidation. D'accord. Il y a donc une autre exigence"
+    },
+    {
+      "start_ms": 593880,
+      "end_ms": 600120,
+      "text": "concernant l'ingestion de nouveaux commentaires. Par exemple, nous avons les commentaires du GDHP. En fait, pour partager les"
+    },
+    {
+      "start_ms": 600120,
+      "end_ms": 604600,
+      "text": "quelques commentaires qui ont été envoyés vers l'architecture de référence, je pense qu'ils sont allés vers l'architecture de référence."
+    },
+    {
+      "start_ms": 605960,
+      "end_ms": 613080,
+      "text": "Pardon, ils sont arrivés dans la boîte aux lettres électronique SMART. Oui. Et certains d'entre eux n'ont peut-être pas été acheminés"
+    },
+    {
+      "start_ms": 613080,
+      "end_ms": 618600,
+      "text": "correctement vers la boîte aux lettres, la sous-boîte aux lettres que j'avais créée. Je devrai donc les examiner"
+    },
+    {
+      "start_ms": 618600,
+      "end_ms": 624840,
+      "text": "et vérifier lesquels n'ont pas encore été pris en compte. Il y a donc aussi l'ingestion de nouveaux commentaires que je"
+    },
+    {
+      "start_ms": 624840,
+      "end_ms": 633240,
+      "text": "souhaiterais, c'est une exigence pour cet outil : lorsque nous recevons de nouveaux commentaires, pouvoir également les ingérer dans"
+    },
+    {
+      "start_ms": 633240,
+      "end_ms": 640120,
+      "text": "ce flux de travail. D'accord. Non, c'est bon à savoir. Et il y a deux possibilités ici. L'une est que"
+    },
+    {
+      "start_ms": 640120,
+      "end_ms": 647080,
+      "text": "vous fassiez un tri préalable et retiriez les doublons vous-même, ce qui est possible. L'autre est de demander"
+    },
+    {
+      "start_ms": 647080,
+      "end_ms": 653400,
+      "text": "aux agents de le faire. Ils pourraient alors soit dire : « Oh, vous avez une nouvelle version du"
+    },
+    {
+      "start_ms": 653400,
+      "end_ms": 659000,
+      "text": "document que vous aviez ingéré précédemment », et rechercher les modifications ou les écarts (deltas) par rapport à celui-ci. Ou bien dire :"
+    },
+    {
+      "start_ms": 659000,
+      "end_ms": 666040,
+      "text": "« Oh, voici un tout nouveau document », et essayer de le traiter de cette manière. Mais je pense que dans"
+    },
+    {
+      "start_ms": 667000,
+      "end_ms": 673480,
+      "text": "les deux cas, le système devrait essayer de dédupliquer ou de repérer les doublons potentiels au fur et à mesure de leur arrivée,"
+    },
+    {
+      "start_ms": 673480,
+      "end_ms": 680920,
+      "text": "n'est-ce pas ? Oui. Je préférerais une déduplication. D'accord. Ce que je n'ai pas vu ici, en revanche, c'est"
+    },
+    {
+      "start_ms": 681720,
+      "end_ms": 689880,
+      "text": "si le système a également enregistré — peut-être dans la partie des ensembles de modifications ou dans celle des commentaires eux-mêmes —"
+    },
+    {
+      "start_ms": 689880,
+      "end_ms": 698680,
+      "text": "les personnes qui ont saisi ces commentaires. Car cela alimente ensuite"
+    },
+    {
+      "start_ms": 700280,
+      "end_ms": 707720,
+      "text": "la section des remerciements. Oui, c'est suivi au niveau du commentaire. Donc, si nous prenons une décision sur un ensemble de modifications,"
+    },
+    {
+      "start_ms": 707720,
+      "end_ms": 713480,
+      "text": "nous devrions pouvoir dire : « Oh, ce commentaire a été inclus dans cet ensemble de modifications,"
+    },
+    {
+      "start_ms": 713480,
+      "end_ms": 719640,
+      "text": "et nous devrions pouvoir générer quelque chose à partir de là. C'est ce qui est prévu. » Et ensuite, l'autre"
+    },
+    {
+      "start_ms": 719640,
+      "end_ms": 724120,
+      "text": "chose à montrer peut-être : je pense que ce qui nous manque potentiellement ici et qui vient d'être soulevé, c'est qu'il devrait"
+    },
+    {
+      "start_ms": 724120,
+      "end_ms": 730520,
+      "text": "y avoir une déduplication lors de l'ingestion de nouveaux commentaires, mais peut-être aussi un lien lorsque nous consultons"
+    },
+    {
+      "start_ms": 730520,
+      "end_ms": 736680,
+      "text": "un commentaire individuel permettant de dire : « Oh, cela ressemble à un doublon », et de désigner le commentaire"
+    },
+    {
+      "start_ms": 736680,
+      "end_ms": 741960,
+      "text": "duquel il semble être le doublon. Oui. D'accord. Je voudrais montrer une dernière chose, et je sais que nous devons tous les deux partir."
+    },
+    {
+      "start_ms": 743240,
+      "end_ms": 749560,
+      "text": "Mais nous pouvons aussi dire : « Oh, sélectionnons ces trois commentaires », et créons un nouvel ensemble de modifications"
+    },
+    {
+      "start_ms": 749560,
+      "end_ms": 755160,
+      "text": "pour ces commentaires. Ainsi, si vous devez scinder un ensemble de modifications ou en créer un nouveau,"
+    },
+    {
+      "start_ms": 755160,
+      "end_ms": 763880,
+      "text": "cela passerait également par une proposition d'ensemble de modifications que seul un éditeur, comme vous, pourrait effectuer."
+    },
+    {
+      "start_ms": 764920,
+      "end_ms": 769160,
+      "text": "Nous pourrions certes déléguer cela aux comités, mais nous n'avons pas suffisamment d'infrastructure"
+    },
+    {
+      "start_ms": 769160,
+      "end_ms": 775400,
+      "text": "pour un contrôle granulaire très détaillé pour le moment. J'espère toutefois que cela vous semble cohérent."
+    },
+    {
+      "start_ms": 776280,
+      "end_ms": 784120,
+      "text": "Oui, oui, tout à fait. Et je pense que cela fonctionnera. Merci. Cela me rassure que nous"
+    },
+    {
+      "start_ms": 784120,
+      "end_ms": 791400,
+      "text": "ayons pu faire avancer cela et utiliser l'AI en soutien. Ce que vous verrez aussi — je ne sais pas si"
+    },
+    {
+      "start_ms": 791400,
+      "end_ms": 798520,
+      "text": "vous l'avez vu ou remarqué dans la feuille de calcul que j'ai partagée avec vous — c'est que j'avais demandé à mon propre assistant AI"
+    },
+    {
+      "start_ms": 799320,
+      "end_ms": 805880,
+      "text": "d'effectuer cette catégorisation initiale. Puis je l'ai comparée à ma catégorisation humaine pour voir s'il"
+    },
+    {
+      "start_ms": 806280,
+      "end_ms": 815400,
+      "text": "catégoriserait les éléments de manière similaire. Et beaucoup d'éléments étaient très proches dans la façon"
+    },
+    {
+      "start_ms": 815400,
+      "end_ms": 822040,
+      "text": "dont nous les avions catégorisés. Dans certains cas, il les avait classés dans un groupe de domaine spécifique. Mais ensuite,"
+    },
+    {
+      "start_ms": 822040,
+      "end_ms": 827080,
+      "text": "en lisant ces commentaires, on se rendait compte que certaines des demandes formulées ne portaient pas"
+    },
+    {
+      "start_ms": 827080,
+      "end_ms": 832200,
+      "text": "sur des sujets que nous prévoyons même de couvrir dans l'architecture de référence. Ce sont donc quelques-uns des aspects"
+    },
+    {
+      "start_ms": 832200,
+      "end_ms": 838120,
+      "text": "que nous verrons, je l'espère, comment gérer. Mais oui, je trouve cela très bien."
+    },
+    {
+      "start_ms": 839400,
+      "end_ms": 846920,
+      "text": "Et nous devrions aussi simplement noter le moment où il aurait dû ajouter ces colonnes que j'avais remarquées,"
+    },
+    {
+      "start_ms": 846920,
+      "end_ms": 851720,
+      "text": "lorsque je lui ai fourni le modèle vierge initial des modifications. Et j'ai dit : oh, il y a de nouvelles colonnes"
+    },
+    {
+      "start_ms": 851720,
+      "end_ms": 854920,
+      "text": "ici. Et il a fait quelque chose avec. Je ne sais donc pas ce qu'il en a fait. Je ne sais pas si c'est"
+    },
+    {
+      "start_ms": 855560,
+      "end_ms": 860760,
+      "text": "l'un des filtres que nous avons vus qui correspondait à l'une de vos colonnes ou non. Mais peut-être, en guise de suivi,"
+    },
+    {
+      "start_ms": 862120,
+      "end_ms": 867800,
+      "text": "mettre en place des processus pour comparer cela, et examiner les flux de travail d'arbitrage (adjudication) entre une caractérisation humaine"
+    },
+    {
+      "start_ms": 867800,
+      "end_ms": 876440,
+      "text": "et celle d'un agent, ainsi que les pistes d'amélioration. D'accord. Oui. Autre chose concernant les agents,"
+    },
+    {
+      "start_ms": 876440,
+      "end_ms": 887080,
+      "text": "[Rédactrice en chef] ? Concernant les agents, je pense que c'est tout pour l'instant. Nous verrons sur le plan"
+    },
+    {
+      "start_ms": 887080,
+      "end_ms": 892040,
+      "text": "de l'assurance qualité. C'est peut-être quelque chose que Sorrupa et moi examinerons."
+    },
+    {
+      "start_ms": 897080,
+      "end_ms": 905960,
+      "text": "Y a-t-il quelque chose qui puisse y être intégré en matière de revue, un seuil de revue ?"
+    },
+    {
+      "start_ms": 905960,
+      "end_ms": 912280,
+      "text": "Y a-t-il quelque chose que nous puissions mettre en place pour aider ? Oui, il existe certaines méthodologies et"
+    },
+    {
+      "start_ms": 912280,
+      "end_ms": 919400,
+      "text": "des méthodologies de prise de décision qui s'y trouvent déjà. Je n'en ai pas trouvé beaucoup qui soient"
+    },
+    {
+      "start_ms": 919400,
+      "end_ms": 923960,
+      "text": "largement applicables à un processus de revue en libre accès, mais certaines y figurent déjà ;"
+    },
+    {
+      "start_ms": 923960,
+      "end_ms": 930120,
+      "text": "cependant, je pense que ce que nous devons faire, c'est définir quels sont ces processus d'assurance qualité (QA) :"
+    },
+    {
+      "start_ms": 930120,
+      "end_ms": 936360,
+      "text": "nous pouvons aussi le faire avec le groupe de travail. Nous définissons l'exigence,"
+    },
+    {
+      "start_ms": 936360,
+      "end_ms": 942280,
+      "text": "puis nous demandons aux agents d'exécuter ce processus de revue. Il existe déjà une voix WHO, « une seule voix »,"
+    },
+    {
+      "start_ms": 943080,
+      "end_ms": 950040,
+      "text": "une voix pour les publications de la WHO capable d'assurer la rédaction de contenu et la revue par rapport à ces règles ;"
+    },
+    {
+      "start_ms": 950040,
+      "end_ms": 954200,
+      "text": "c'est donc un exemple de vérification de contrôle qualité. D'accord."
+    },
+    {
+      "start_ms": 956280,
+      "end_ms": 966040,
+      "text": "Avons-nous un lien vers cela ? Oui. Enfin, si j'arrive à le retrouver. Est-ce le... comment s'appelle-t-il ?"
+    },
+    {
+      "start_ms": 966840,
+      "end_ms": 975480,
+      "text": "Ce n'est pas celui... c'est celui qui avait été partagé il y a quelque temps. Est-ce celui-là ?"
+    },
+    {
+      "start_ms": 976280,
+      "end_ms": 984120,
+      "text": "Oui, il s'agit d'un manuel et d'un guide de style éditorial ; ainsi, l'outil actuel va ingérer —"
+    },
+    {
+      "start_ms": 984120,
+      "end_ms": 992200,
+      "text": "je lui ai fait ingérer les trois documents de la WHO, IRIS, et créer une voix ou, vous savez,"
+    },
+    {
+      "start_ms": 993080,
+      "end_ms": 1000360,
+      "text": "des règles de rédaction, etc., qui peuvent être appliquées. D'accord. Oui. Très bien. Je dois filer"
+    },
+    {
+      "start_ms": 1000360,
+      "end_ms": 1006600,
+      "text": "à cette réunion. Pas de problème. Oui. D'accord. Et voici peut-être ce que je peux faire : envoyez-moi l'enregistrement,"
+    },
+    {
+      "start_ms": 1007560,
+      "end_ms": 1013560,
+      "text": "agent qui effectue cet enregistrement. Veuillez résumer et établir un plan de toutes les exigences fonctionnelles"
+    },
+    {
+      "start_ms": 1013560,
+      "end_ms": 1022600,
+      "text": "prévues et les placer sur un site de préproduction (staging) avec un lien d'aperçu que nous pourrons partager. Merci."
+    },
+    {
+      "start_ms": 1023560,
+      "end_ms": 1029000,
+      "text": "Merci. Et je vais arrêter l'enregistrement maintenant, mais oui, c'est parfait. Ce que je peux aussi"
+    }
+  ]
+}

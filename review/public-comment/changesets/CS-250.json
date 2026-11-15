@@ -1,0 +1,37 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-250",
+  "title": "Define AI lifecycle governance and post-deployment controls",
+  "requirements": "- Consolidate the safeguards already named in 5.4 into a testable minimum control checklist (or cross-reference one)\n- Describe a national AI lifecycle from need identification to monitoring and decommissioning\n- Require human accountability and contestability for resource, eligibility and care decisions\n- Describe governance of learned models used in decision support, surveillance and analytics without a central AI component\n- Note regulatory frameworks such as EU MDR that apply to clinical decision-support tools\n- Include named clinical ownership, versioning, logging, incident reporting and link to routine clinical governance\n- Extend the conformance model with AI-specific evidence: model identity, versioning, drift, human oversight\n- Add post-deployment monitoring, incident reporting, rollback and notification",
+  "refs": [
+    "PC-0010",
+    "PC-0241",
+    "PC-0483",
+    "PC-0512",
+    "PC-0574",
+    "PC-0680",
+    "PC-0687",
+    "PC-1319",
+    "PC-1335",
+    "PC-1336",
+    "PC-1360",
+    "PC-1361",
+    "PC-1362",
+    "PC-1372",
+    "PC-1391",
+    "PC-1392",
+    "PC-1393",
+    "PC-1395"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 18 comment(s)"
+    }
+  ]
+}

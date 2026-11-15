@@ -1,0 +1,31 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-186",
+  "title": "Minimise surveillance data and make identity linkage conditional",
+  "requirements": "- Replace universal LHR integration and verified-identity linkage with conditions set by national architecture and use case\n- Require purpose limitation, legal authority, minimisation and sensitivity classification\n- Replace a universal case dataset with a cross-hazard core and condition-specific modules\n- Require identity-optional case creation, pseudonymous identifiers and later reconciliation\n- Require human-rights safeguards against stigma and repurposing\n- Limit geographic detail by purpose and population size\n- Limit LHR and workforce data access to bounded, legally authorised surveillance datasets\n- Time-limit emergency powers and data reuse",
+  "refs": [
+    "PC-0399",
+    "PC-0400",
+    "PC-2035",
+    "PC-2036",
+    "PC-2040",
+    "PC-2041",
+    "PC-2042",
+    "PC-2052",
+    "PC-2053",
+    "PC-2054",
+    "PC-2056",
+    "PC-2097"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 12 comment(s)"
+    }
+  ]
+}

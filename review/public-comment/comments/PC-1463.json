@@ -1,0 +1,77 @@
+{
+  "id": "pc-1463",
+  "summary": "The text says some children may be “denied services” without registry capability. Lack of formal registration should ne…",
+  "comment": "The text says some children may be “denied services” without registry capability. Lack of formal registration should never be treated as justification for denial of essential health services.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-3207d2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1463",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 699,
+      "entry": "698",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, 2",
+      "page": "116",
+      "lines": "Lines 73-78",
+      "raw": "§Client Registry, 2 p.116 l.Lines 73-78"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-3207d2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.116 l.Lines 73-78 read as the printed page; section 2 agrees"
+    },
+    "text": "The text says some children may be “denied services” without registry capability. Lack of formal registration should never be treated as justification for denial of essential health services.",
+    "suggestedRevision": "State explicitly that the Client Registry must support care without foundational documentation and that registration or matching uncertainty must not become a barrier to essential service access.",
+    "labels": {
+      "Comment type": "Q12 - Applicability and equity"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 699"
+      }
+    ]
+  }
+}

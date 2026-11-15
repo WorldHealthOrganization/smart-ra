@@ -1,0 +1,74 @@
+{
+  "id": "pc-0754",
+  "summary": "The draft warns that \"a maximalist global model… will not be adopted,\" but does not state the positive rule. We recomme…",
+  "comment": "The draft warns that \"a maximalist global model… will not be adopted,\" but does not state the positive rule. We recommend adding it: keeping the shared core minimal, and reaching through governed national/local extension. A minimal core is what enables the extensibility the draft wants; the maturity spectrum can reference it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0754",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 754,
+      "entry": "753",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§3.4.5 Global/national/local content (p.61)",
+      "lines": "C15",
+      "raw": "§§3.4.5 Global/national/local content (p.61) l.C15"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.4.5 only"
+    },
+    "text": "The draft warns that \"a maximalist global model… will not be adopted,\" but does not state the positive rule. We recommend adding it: keeping the shared core minimal, and reaching through governed national/local extension. A minimal core is what enables the extensibility the draft wants; the maturity spectrum can reference it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Comment type": "P3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 754"
+      }
+    ]
+  }
+}

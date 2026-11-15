@@ -1,0 +1,67 @@
+{
+  "id": "pc-2734",
+  "summary": "§4.6.3, p. 103, lines 582–583. [highlight] On the text: «co-financing».",
+  "comment": "§4.6.3, p. 103, lines 582–583. [highlight] On the text: «co-financing».\nare there country examples for this from HIC? \nNot aware of HIC HI schemes that pay contribution....",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2734",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 34,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-b18ea059f7",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "4.6.3",
+      "page": "103",
+      "lines": "582–583",
+      "raw": "§4.6.3, p. 103, lines 582–583. [highlight] On the text: «co-financing».\nare there country examples for this from HIC? \nN"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.103 l.582–583 read as the printed page; section 4.6.3 agrees"
+    },
+    "text": "§4.6.3, p. 103, lines 582–583. [highlight] On the text: «co-financing».\nare there country examples for this from HIC? \nNot aware of HIC HI schemes that pay contribution....",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

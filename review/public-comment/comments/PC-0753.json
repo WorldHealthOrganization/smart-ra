@@ -1,0 +1,74 @@
+{
+  "id": "pc-0753",
+  "summary": "The draft does not mandate a central health ID — Box 1.2 (pt 5) allows multiple context-specific identifiers, and the C…",
+  "comment": "The draft does not mandate a central health ID — Box 1.2 (pt 5) allows multiple context-specific identifiers, and the Client Registry allows centralised, federated, or hybrid implementation as an EMPI over local IDs (p.67, 115, 117). But this is clear only in Ch.3 and App. C. We recommend surfacing the federated/multi-identifier stance in §1.2.1/Box 1.2 so a reader does not infer a single central health ID.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-2-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0753",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 753,
+      "entry": "752",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§1.2.1 & Box 1.2 (p.13–14)",
+      "lines": "C14",
+      "raw": "§§1.2.1 & Box 1.2 (p.13–14) l.C14"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-2-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 1.2.1 only"
+    },
+    "text": "The draft does not mandate a central health ID — Box 1.2 (pt 5) allows multiple context-specific identifiers, and the Client Registry allows centralised, federated, or hybrid implementation as an EMPI over local IDs (p.67, 115, 117). But this is clear only in Ch.3 and App. C. We recommend surfacing the federated/multi-identifier stance in §1.2.1/Box 1.2 so a reader does not infer a single central health ID.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 753"
+      }
+    ]
+  }
+}

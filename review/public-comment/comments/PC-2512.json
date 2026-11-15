@@ -1,0 +1,78 @@
+{
+  "id": "pc-2512",
+  "summary": "LIMR relationship to cross-cutting semantic governance — Aligns the component sheet with the cross-cutting capability d…",
+  "comment": "LIMR relationship to cross-cutting semantic governance — Aligns the component sheet with the cross-cutting capability definition on printed pp. 57–58 (PDF 68–69). The PDF already spells DPI-H correctly across a line break; no separate typo correction is needed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-73f642",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2512",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 55,
+      "entry": "54",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Logical Information Model Repository, Architecture placement",
+      "page": "172",
+      "lines": "A27.02",
+      "raw": "§Logical Information Model Repository, Architecture placement p.172 l.A27.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-73f642",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-3cee94",
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-458279",
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-d1ef6d"
+      ],
+      "note": "p.172 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "LIMR relationship to cross-cutting semantic governance — Aligns the component sheet with the cross-cutting capability definition on printed pp. 57–58 (PDF 68–69). The PDF already spells DPI-H correctly across a line break; no separate typo correction is needed.",
+    "suggestedRevision": "Replace that clause; retain the following TS/LIMR role explanation: Together with the TS, the LIMR provides technical services within the broader cross-cutting Semantic Governance Infrastructure described in section 3.4.5",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 55"
+      }
+    ]
+  }
+}

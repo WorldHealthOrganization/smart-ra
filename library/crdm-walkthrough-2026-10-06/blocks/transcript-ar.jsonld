@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/crdm-walkthrough-2026-10-06/blocks/transcript-ar",
+  "@type": [
+    "cat-harness:Block"
+  ],
+  "kind": "transcript",
+  "lang": "ar",
+  "label": "Transcript (ar, translated from en)",
+  "file": "../transcript/ar.json",
+  "state": "draft",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/crdm-walkthrough-2026-10-06",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/crdm-walkthrough-2026-10-06",
+  "provenance": {
+    "kind": "agent",
+    "id": "claude-code",
+    "model": "not-disclosed",
+    "session": "conversation://4e43c8a3-23a2-4f5e-8fc4-cad1bee809b0"
+  }
+}

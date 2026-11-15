@@ -1,0 +1,82 @@
+{
+  "id": "pc-0326",
+  "summary": "I find it interesting that the document refers to the WHO Digital Adaptation Kits as an example of centralised metadata…",
+  "comment": "I find it interesting that the document refers to the WHO Digital Adaptation Kits as an example of centralised metadata – but these are developed in silos and have no communal metadata repository or even standard definitions of common data elements (I work on these directly so am aware of several of their content and design). \nI would even suggest that WHO consider to engage the AIHW to build and maintain their DAK metadata in our metadata repository METEOR (it would need to be a funded project of course)\nMETEOR can be found at www.https://meteor.aihw.gov.au",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0326",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 326,
+      "entry": "325",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole of document",
+      "raw": "§Whole of document"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (low): Remark on DAKs and METEOR metadata; no passage presenting DAKs as centralised metadata found"
+    },
+    "type": "editorial",
+    "text": "I find it interesting that the document refers to the WHO Digital Adaptation Kits as an example of centralised metadata – but these are developed in silos and have no communal metadata repository or even standard definitions of common data elements (I work on these directly so am aware of several of their content and design). \nI would even suggest that WHO consider to engage the AIHW to build and maintain their DAK metadata in our metadata repository METEOR (it would need to be a funded project of course)\nMETEOR can be found at www.https://meteor.aihw.gov.au",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 326"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (low): Remark on DAKs and METEOR metadata; no passage presenting DAKs as centralised metadata found"
+      }
+    ]
+  }
+}

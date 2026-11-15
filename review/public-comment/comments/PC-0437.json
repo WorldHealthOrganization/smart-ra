@@ -1,0 +1,78 @@
+{
+  "id": "pc-0437",
+  "summary": "The component catalogue does not adequately represent the wider workflow of research institutions. MakBRC-type institut…",
+  "comment": "The component catalogue does not adequately represent the wider workflow of research institutions. MakBRC-type institutions support grant and project management, clinical research, procurement, equipment management, ICT operations, LIMS, BIMS, research data management, analysis and reporting.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-809cf8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0437",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 437,
+      "entry": "436",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Component catalogue",
+      "page": "114–228",
+      "lines": "Component catalogue",
+      "raw": "§Appendix C — Component catalogue p.114–228 l.Component catalogue"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-809cf8",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.114–228 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The component catalogue does not adequately represent the wider workflow of research institutions. MakBRC-type institutions support grant and project management, clinical research, procurement, equipment management, ICT operations, LIMS, BIMS, research data management, analysis and reporting.",
+    "suggestedRevision": "Recognise these as connected functional applications that may consume or contribute to DPI-H services while remaining outside the central foundational layer.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 437"
+      }
+    ]
+  }
+}

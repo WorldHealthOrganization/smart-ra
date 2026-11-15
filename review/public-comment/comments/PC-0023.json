@@ -1,0 +1,77 @@
+{
+  "id": "pc-0023",
+  "summary": "The purpose and scope are clear and the document is relevant to ADB’s operational agenda and ADB’s new health strategy.…",
+  "comment": "The purpose and scope are clear and the document is relevant to ADB’s operational agenda and ADB’s new health strategy.  \n\nHowever, it is unclear whether this is a normative WHO/ITU product that Member States are expected to align to, a technical reference, or an advocacy document.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-7-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0023",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 23,
+      "entry": "22",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Is the purpose, scope and intended audience of the guidance clear, and is it relevant to your context (country, organisation, role)?",
+      "raw": "§Is the purpose, scope and intended audience of the guidance clear, and is it relevant to your context (country, organisation, role)?"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-7-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Purpose\""
+    },
+    "type": "technical",
+    "text": "The purpose and scope are clear and the document is relevant to ADB’s operational agenda and ADB’s new health strategy.  \n\nHowever, it is unclear whether this is a normative WHO/ITU product that Member States are expected to align to, a technical reference, or an advocacy document.",
+    "suggestedRevision": "It would help to make a short statement on the relationship of the DPI-H architecture and guidance to the forthcoming Global Strategy on Digital Health 2028-2033. \n\nThe intended audience matrix in page 4 only refers to ‘Health Ministries,’ although Ministries of Finance and National Planning Agencies appear in the narrative as important stakeholders.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO",
+      "Consider by TWG? Human categorisation": "Editorial/ WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 23"
+      }
+    ]
+  }
+}

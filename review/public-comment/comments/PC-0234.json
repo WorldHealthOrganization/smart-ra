@@ -1,0 +1,80 @@
+{
+  "id": "pc-0234",
+  "summary": "The governance principles give necessary weight to underserved communities, but they do not explicitly require frontlin…",
+  "comment": "The governance principles give necessary weight to underserved communities, but they do not explicitly require frontline clinical, clinical-informatics or patient-safety expertise in decisions that can affect care delivery. A deployment could therefore meet the stated representation principle while clinically consequential architecture decisions are made without those who understand workflow hazards, service constraints and patient-safety consequences.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0234",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 234,
+      "entry": "233",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "250–264",
+      "raw": "§3.4.2 p.54 l.250–264"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-2-8b9795"
+      ],
+      "note": "p.54 l.250–264 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "general",
+    "text": "The governance principles give necessary weight to underserved communities, but they do not explicitly require frontline clinical, clinical-informatics or patient-safety expertise in decisions that can affect care delivery. A deployment could therefore meet the stated representation principle while clinically consequential architecture decisions are made without those who understand workflow hazards, service constraints and patient-safety consequences.",
+    "suggestedRevision": "Add a governance principle on clinical and service accountability: governance bodies should include frontline clinical, clinical-informatics, patient-safety and service-user expertise, with defined decision rights for safety-relevant architecture, data and workflow decisions. Representation should be proportionate to the clinical consequences of the decision, not merely advisory.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 234"
+      }
+    ]
+  }
+}

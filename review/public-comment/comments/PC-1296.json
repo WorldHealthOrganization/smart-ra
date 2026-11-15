@@ -1,0 +1,77 @@
+{
+  "id": "pc-1296",
+  "summary": "Efficiency dividends are proposed as a financing source, but savings may be uncertain, accrue to another institution, o…",
+  "comment": "Efficiency dividends are proposed as a financing source, but savings may be uncertain, accrue to another institution, or be absorbed into general budgets.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1296",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 532,
+      "entry": "531",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3",
+      "page": "103",
+      "lines": "Lines 586-588",
+      "raw": "§4.6.3 p.103 l.Lines 586-588"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.103 l.Lines 586-588 read as the printed page; section 4.6.3 agrees"
+    },
+    "text": "Efficiency dividends are proposed as a financing source, but savings may be uncertain, accrue to another institution, or be absorbed into general budgets.",
+    "suggestedRevision": "Require conservative benefit estimates, agreed benefit ownership, tracking, verification, and an approved mechanism for reinvestment before relying on savings to fund operations.",
+    "labels": {
+      "Comment type": "Q11 - Financing and sustainability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 532"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "pc-0185",
+  "summary": "The term 'AI readiness' is discussed qualitatively but lacks a practical framework to guide assessment. A structured to…",
+  "comment": "The term 'AI readiness' is discussed qualitatively but lacks a practical framework to guide assessment. A structured tool would support countries to self-evaluate across several dimensions and identify priority gaps",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0185",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 185,
+      "entry": "184",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.1",
+      "page": "107",
+      "lines": "142 - 153",
+      "raw": "§5.4.1 p.107 l.142 - 153"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4-1",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 5.4.1 l.142-153 on AI readiness, spanning the whole subsection"
+    },
+    "type": "technical",
+    "text": "The term 'AI readiness' is discussed qualitatively but lacks a practical framework to guide assessment. A structured tool would support countries to self-evaluate across several dimensions and identify priority gaps",
+    "suggestedRevision": "1) Add an AI readiness assessment framework with concrete indicators across each dimension, including data governance maturity, availability of structured data for priority use cases, legal framework for algorithmic accountability, institutional capacity for model evaluation and monitoring, and workforce skills. \n2) Present the framework as a self-assessment matrix that countries can complete during architecture planning",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 185"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 5.4.1 l.142-153 on AI readiness, spanning the whole subsection"
+      }
+    ]
+  }
+}

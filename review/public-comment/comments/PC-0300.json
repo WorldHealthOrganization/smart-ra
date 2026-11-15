@@ -1,0 +1,80 @@
+{
+  "id": "pc-0300",
+  "summary": "Conformance is claimed to be machine-checkable, but the verdict is \"left implicit for now\" and \"not modelled as a disti…",
+  "comment": "Conformance is claimed to be machine-checkable, but the verdict is \"left implicit for now\" and \"not modelled as a distinct element.\" Because conformance claims, including those used in procurement, may drive consequential decisions, the result should be an explicit, persistent assessment that can be reviewed or re-verified after the fact.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-2-553f71",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0300",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 300,
+      "entry": "299",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7",
+      "page": "80 / 85",
+      "lines": "1011-1012 / 1188-1191",
+      "raw": "§3.7 p.80 / 85 l.1011-1012 / 1188-1191"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-2-553f71",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-2-84dcbf"
+      ],
+      "note": "p.80 / 85 l.1011-1012 / 1188-1191 read as the printed page; section 3.7 agrees"
+    },
+    "type": "technical",
+    "text": "Conformance is claimed to be machine-checkable, but the verdict is \"left implicit for now\" and \"not modelled as a distinct element.\" Because conformance claims, including those used in procurement, may drive consequential decisions, the result should be an explicit, persistent assessment that can be reviewed or re-verified after the fact.",
+    "suggestedRevision": "Model the conformance verdict as an explicit, persistent assessment result together with sufficient provenance to identify the actor or test mechanism, specification and version tested, inputs, result, and timestamp. Where appropriate, established provenance standards such as W3C PROV may be used so that the assessment can be independently reviewed or re-verified.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 300"
+      }
+    ]
+  }
+}

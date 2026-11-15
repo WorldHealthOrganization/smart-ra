@@ -1,0 +1,22 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-075",
+  "title": "Correct Figure 3.6 and show conformance points per exchange pattern",
+  "requirements": "- Reword the dashed-line legend to acknowledge that logs and registry interactions may carry sensitive metadata\n- Add conformance points or a table identifying interfaces, actor roles and specifications for each pattern in Figure 3.6",
+  "refs": [
+    "PC-1032",
+    "PC-1034"
+  ],
+  "anchor": "prose:3-6-3-61768e",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 2 comment(s)"
+    }
+  ]
+}

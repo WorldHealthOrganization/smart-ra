@@ -1,0 +1,77 @@
+{
+  "id": "pc-0329",
+  "summary": "coverage gaps (pg 14 line 209). Newborns are managed in Australia in the HIS as “baby of” before formal civil registrat…",
+  "comment": "coverage gaps (pg 14 line 209). Newborns are managed in Australia in the HIS as “baby of” before formal civil registration, there are mechanism for identifying individuals before formal registration or identification ie “Jane Doe” and “John Doe” which may not grammatically be applicable in all countries but a mechanism is possible",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-1-2a7257",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0329",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 329,
+      "entry": "328",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 1",
+      "page": "14",
+      "lines": "209",
+      "raw": "§Chapter 1 p.14 l.209"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-1-2a7257",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.14 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "coverage gaps (pg 14 line 209). Newborns are managed in Australia in the HIS as “baby of” before formal civil registration, there are mechanism for identifying individuals before formal registration or identification ie “Jane Doe” and “John Doe” which may not grammatically be applicable in all countries but a mechanism is possible",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 329"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0374",
+  "summary": "The governance treatment is very strong. But we see here that participation is concentrated in national strategic and t…",
+  "comment": "The governance treatment is very strong. But we see here that participation is concentrated in national strategic and technical bodies. There is insufficient assurance that district/facility managers, frontline workers, community representatives, civil society and marginalized groups can influence priorities, metadata, access rules, performance review and remediation. Representation in formal committees alone may not surface harms or operational realities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-1-18e851",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0374",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 374,
+      "entry": "373",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4",
+      "page": "53–56",
+      "lines": "219–372",
+      "raw": "§3.4 p.53–56 l.219–372"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-1-18e851",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-1-0a357f"
+      ],
+      "note": "p.53–56 l.219–372 read as the printed page; section 3.4 agrees"
+    },
+    "type": "general",
+    "text": "The governance treatment is very strong. But we see here that participation is concentrated in national strategic and technical bodies. There is insufficient assurance that district/facility managers, frontline workers, community representatives, civil society and marginalized groups can influence priorities, metadata, access rules, performance review and remediation. Representation in formal committees alone may not surface harms or operational realities.",
+    "suggestedRevision": "Add examples of blended governance committees at national and subnational levels. Advocate for specific means to ensure equirable participation, such as transparent decision records, recurring user/community forums, conflict-of-interest rules, feedback channels and accessible grievance/redress. Require evidence that feedback changed design or operations—not only that consultation occurred.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 374"
+      }
+    ]
+  }
+}

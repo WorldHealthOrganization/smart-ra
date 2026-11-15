@@ -1,0 +1,79 @@
+{
+  "id": "pc-0818",
+  "summary": "The section describes consent as the “primary mechanism” through which individuals exercise data rights. In healthcare,…",
+  "comment": "The section describes consent as the “primary mechanism” through which individuals exercise data rights. In healthcare, data processing may rely on several legal bases, and consent may not be valid or appropriate in every care, public-health, or statutory context.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-7d4652",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0818",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 54,
+      "entry": "53",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3.VIII",
+      "page": "34-35",
+      "lines": "Lines 346-378",
+      "raw": "§2.3.VIII p.34-35 l.Lines 346-378"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-7d4652",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-2b3a5f"
+      ],
+      "note": "p.34-35 l.Lines 346-378 read as the printed page; section 2.3 agrees"
+    },
+    "text": "The section describes consent as the “primary mechanism” through which individuals exercise data rights. In healthcare, data processing may rely on several legal bases, and consent may not be valid or appropriate in every care, public-health, or statutory context.",
+    "suggestedRevision": "Replace with a sentence like: “Consent is one important mechanism through which individuals exercise choices over data use, alongside statutory rights, transparency, access, correction, objection, and other protections established by applicable law.”",
+    "labels": {
+      "Comment type": "Privacy and security"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 54"
+      }
+    ]
+  }
+}

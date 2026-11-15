@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-124",
+  "title": "Address AI equity and subgroup performance",
+  "requirements": "- Require representative data and subgroup performance reporting (age, sex, disability, language, setting)\n- Extend equity assessment across the lifecycle (deployment, access, language, workflow, consequences of error)\n- Require evaluation of record-linkage accuracy and differential harms before linked data is used for AI\n- Require evaluation against locally representative populations and languages, with subgroup evaluation and response to disparities\n- Note the compounded risk where independent verification capacity is limited",
+  "refs": [
+    "PC-0047",
+    "PC-0101",
+    "PC-0190",
+    "PC-0216",
+    "PC-0520",
+    "PC-1329",
+    "PC-1370",
+    "PC-1371"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

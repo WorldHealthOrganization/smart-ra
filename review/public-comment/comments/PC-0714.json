@@ -1,0 +1,73 @@
+{
+  "id": "pc-0714",
+  "summary": "Proposed redraft of section 2.4.2 (health financing worked example) and Table 2.4. Full replacement text is provided ve…",
+  "comment": "Proposed redraft of section 2.4.2 (health financing worked example) and Table 2.4. Full replacement text is provided verbatim in the source document 'Updating Table 2.4 (HB/IM/MJ update)'.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0714",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 714,
+      "entry": "713",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d1a8365eca",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "2.4.2; Table 2.4",
+      "raw": "§2.4.2; Table 2.4"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-4",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.4 as cited"
+    },
+    "type": "technical",
+    "text": "Proposed redraft of section 2.4.2 (health financing worked example) and Table 2.4. Full replacement text is provided verbatim in the source document 'Updating Table 2.4 (HB/IM/MJ update)'.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 714"
+      }
+    ]
+  }
+}

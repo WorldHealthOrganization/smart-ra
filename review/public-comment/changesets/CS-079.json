@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-079",
+  "title": "Temper claims about tested components and mechanical assessment",
+  "requirements": "- Replace the 'arrive tested' wording with a statement that reusable test specifications and evidence reduce but do not replace local verification\n- Replace 'fall out mechanically' and similar wording with a statement of what can be automated and what needs expert judgement\n- Frame the ArchiMate-typed conformance model as a reference model; allow other ecosystems that map to it\n- Require evidence to be checked against selected version, options, configuration and national profile\n- Qualify ArchiMate-based checkability claims in 3.1 as dependent on conventions, validation rules and governance\n- Present IHE as a leading worked example and explain how FHIR IGs, SMART Guidelines, DICOM and national profiles fit\n- State that country-specific supplementary testing (terminology, security, performance, deployment) remains necessary\n- Say who performs assessments and how disputes over conformance claims are resolved; cross-reference 3.1 to 3.7 rules",
+  "refs": [
+    "PC-0107",
+    "PC-0378",
+    "PC-0755",
+    "PC-0838",
+    "PC-0840",
+    "PC-1083",
+    "PC-1089",
+    "PC-1090",
+    "PC-1096",
+    "PC-2479",
+    "PC-2480"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "folio-glossary/v1",
+  "id": "dpi-h-ra-acronyms",
+  "title": "Acronyms used in the DPI-H reference architecture",
+  "description": "The RA's acronyms list, read verbatim from its acronyms table: one SKOS concept per acronym, the acronym as its notation and the expansion as printed as its prefLabel. The acronyms table is drawn from this file (Tool glossary-table, litlfred/smart-ra#206). Every term is a candidate: only a person adopts a definition, and the definitions of the concepts that have one are in dpi-h-ra.glossary.json.",
+  "source": "library/who-dpi-h-reference-architecture-draft-v1/",
+  "terms": [
+    {
+      "id": "ai",
+      "prefLabel": "Artificial Intelligence",
+      "notation": "AI",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "diig",
+      "prefLabel": "Digital Implementation Investment Guide",
+      "notation": "DIIG",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "dpi",
+      "prefLabel": "Digital Public Infrastructure",
+      "notation": "DPI",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "dpi-f",
+      "prefLabel": "Foundational Digital Public Infrastructure",
+      "notation": "DPI-F",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "dpi-h",
+      "prefLabel": "Health Digital Public Infrastructure",
+      "notation": "DPI-H",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "hl7-fhir",
+      "prefLabel": "Health Level Seven Fast Healthcare Interoperability Resources",
+      "notation": "HL7 FHIR®",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "icd-11",
+      "prefLabel": "International Classification of Diseases 11th Revision",
+      "notation": "ICD-11",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "icvp",
+      "prefLabel": "International Certificate of Vaccination or Prophylaxis",
+      "notation": "ICVP",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "ips",
+      "prefLabel": "International Patient Summary",
+      "notation": "IPS",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "lmic",
+      "prefLabel": "Low-and-Middle-Income Country",
+      "notation": "LMIC",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "loinc",
+      "prefLabel": "Logical Observation Identifiers Names and Codes",
+      "notation": "LOINC",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "openhie",
+      "prefLabel": "Open Health Information Exchange",
+      "notation": "OpenHIE",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "reddhi",
+      "prefLabel": "Resilient Essential Data and Digital Health Infrastructure",
+      "notation": "REDDHI",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "sdg",
+      "prefLabel": "Sustainable Development Goal",
+      "notation": "SDG",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "smart-guidelines",
+      "prefLabel": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+      "notation": "SMART Guidelines",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "snomed-ct",
+      "prefLabel": "Systematized Nomenclature of Medicine - Clinical Terms",
+      "notation": "SNOMED CT",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "snomed-gps",
+      "prefLabel": "Systematized Nomenclature of Medicine – Global Patient Set",
+      "notation": "SNOMED GPS",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    },
+    {
+      "id": "togaf",
+      "prefLabel": "The Open Group Architecture Framework",
+      "notation": "TOGAF",
+      "status": "candidate",
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+    }
+  ]
+}

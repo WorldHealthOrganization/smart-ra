@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-3-european-union-and-european-econ-351139",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-3-european-union-and-european-econ-351139",
+  "kind": "prose",
+  "cites": [
+    "references/ecdc"
+  ],
+  "text": "p-d-3-european-union-and-european-econ-351139.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1064,
+      "page": 246,
+      "printedPage": "235",
+      "lineStart": 206,
+      "lineEnd": 212,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

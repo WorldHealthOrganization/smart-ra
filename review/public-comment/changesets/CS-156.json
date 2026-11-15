@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-156",
+  "title": "Align occupation classification with national classifications mapped to ISCO",
+  "requirements": "- Use national occupation classifications mapped to ISCO and the WHO health-worker classification, per the NHWA approach\n- Refer to 'ISCO' generically given the planned revision\n- Replace 'cadre' with 'occupation' and clarify the occupation code versus other classification fields\n- Govern mappings, versions and domain-authority approval",
+  "refs": [
+    "PC-1652",
+    "PC-1655",
+    "PC-1666",
+    "PC-2568",
+    "PC-2569",
+    "PC-2570",
+    "PC-2583",
+    "PC-2590",
+    "PC-2600",
+    "PC-2604",
+    "PC-2616"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pc-0358",
+  "summary": "Suggest defining product upfront, since product can mean so many things, especially in a tech context",
+  "comment": "Suggest defining product upfront, since product can mean so many things, especially in a tech context",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0358",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 358,
+      "entry": "357",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "145",
+      "lines": "380",
+      "raw": "§Appendix C p.145 l.380"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-0298f8",
+        "prose:c-metadata-registries-and-foundati-product-registry-f78df9",
+        "prose:c-metadata-registries-and-foundati-product-registry-4c0041"
+      ],
+      "note": "p.145 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Suggest defining product upfront, since product can mean so many things, especially in a tech context",
+    "suggestedRevision": "The Product Registry is a foundational DPI-H component holding standardised, and cross-sectorally reusable master data for core health products - medicines, vaccines, medical devices, diagnostics, and health commodities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 358"
+      }
+    ]
+  }
+}

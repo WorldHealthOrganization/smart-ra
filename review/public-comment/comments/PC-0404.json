@@ -1,0 +1,82 @@
+{
+  "id": "pc-0404",
+  "summary": "The Uganda example labels the components as HMIS and CDSE even though it describes national electronic IDSR. It therefo…",
+  "comment": "The Uganda example labels the components as HMIS and CDSE even though it describes national electronic IDSR. It therefore misses PHSP/eIDSR and the broader DHIS2 platform pathway: extending an existing national HMIS installed base with surveillance workflows, local requirements work, training, phased scale-up and HISP Uganda support. The peer-reviewed study documents expansion to 100 of 146 districts and shows that institutional and capacity arrangements—not only software—enabled scale: https://doi.org/10.2196/59783",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-2-tanzania-93bef4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0404",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 404,
+      "entry": "403",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2 – Uganda",
+      "page": "234",
+      "lines": "170–185",
+      "raw": "§Appendix D.2 – Uganda p.234 l.170–185"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-tanzania-93bef4",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:d-2-uganda-d83254",
+        "prose:d-2-tanzania-b86e2c",
+        "prose:d-2-uganda-b0c2fd"
+      ],
+      "note": "p.234 l.170–185 read as the printed page; section D agrees"
+    },
+    "type": "technical",
+    "text": "The Uganda example labels the components as HMIS and CDSE even though it describes national electronic IDSR. It therefore misses PHSP/eIDSR and the broader DHIS2 platform pathway: extending an existing national HMIS installed base with surveillance workflows, local requirements work, training, phased scale-up and HISP Uganda support. The peer-reviewed study documents expansion to 100 of 146 districts and shows that institutional and capacity arrangements—not only software—enabled scale: https://doi.org/10.2196/59783",
+    "suggestedRevision": "Correct the mapping to PHSP, CDSE, plus the shared DHIS2 platform/HMIS installed base. Cite the implementation study and describe: reuse of national platform and organisational units; participatory requirements; aggregate/case surveillance capability; phased scale; training and support; HISP Uganda’s role; information use; outcomes and limitations. Present this as a socio-technical infrastructure trajectory.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 404"
+      }
+    ]
+  }
+}

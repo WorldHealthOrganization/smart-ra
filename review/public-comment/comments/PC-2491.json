@@ -1,0 +1,78 @@
+{
+  "id": "pc-2491",
+  "summary": "National stewardship versus international meaning — Existing wording calls the national service the authority for what …",
+  "comment": "National stewardship versus international meaning — Existing wording calls the national service the authority for what concepts mean. National deployment and stewardship should preserve, rather than supersede, WHO's authority over WHO identifiers. Federation is already allowed elsewhere in the draft; this makes the definition consistent with it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-535c38-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2491",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 34,
+      "entry": "33",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §1, What it is",
+      "page": "164",
+      "lines": "A13.02",
+      "raw": "§Terminology Service, §1, What it is p.164 l.A13.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-535c38-2",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-6c5267",
+        "prose:c-metadata-registries-and-foundati-terminology-service-93c028",
+        "prose:c-metadata-registries-and-foundati-terminology-service-2c425b"
+      ],
+      "note": "p.164 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "National stewardship versus international meaning — Existing wording calls the national service the authority for what concepts mean. National deployment and stewardship should preserve, rather than supersede, WHO's authority over WHO identifiers. Federation is already allowed elsewhere in the draft; this makes the definition consistent with it.",
+    "suggestedRevision": "Replace span: The national TS is the authoritative institutional point for national adoption, access, approved profiles, and lifecycle management of semantic content. It does not acquire authority to redefine the meaning of an international publisher's identifiers. Nationally governed additions and implementation choices shall be distinguishable from international content, with change requests routed through the relevant maintenance process. This national governance function distinguishes the shared TS capability from a terminology tool used only within one facility or programme.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 34"
+      }
+    ]
+  }
+}

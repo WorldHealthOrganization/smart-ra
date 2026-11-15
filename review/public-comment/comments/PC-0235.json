@@ -1,0 +1,80 @@
+{
+  "id": "pc-0235",
+  "summary": "The strategic-governance responsibilities address equity, sustainability and dependency risks. Patient safety, clinical…",
+  "comment": "The strategic-governance responsibilities address equity, sustainability and dependency risks. Patient safety, clinical effectiveness and accountable clinical authority are not named. As a result, the relationship between national architecture decisions and their consequences in care settings may remain unclear.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-3-1ab967",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0235",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 235,
+      "entry": "234",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.3",
+      "page": "55",
+      "lines": "290–304",
+      "raw": "§3.4.3 p.55 l.290–304"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-3-1ab967",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-3-7c7f43"
+      ],
+      "note": "p.55 l.290–304 read as the printed page; section 3.4.3 agrees"
+    },
+    "type": "general",
+    "text": "The strategic-governance responsibilities address equity, sustainability and dependency risks. Patient safety, clinical effectiveness and accountable clinical authority are not named. As a result, the relationship between national architecture decisions and their consequences in care settings may remain unclear.",
+    "suggestedRevision": "Add responsibilities to: designate an accountable clinical-governance or patient-safety authority; define clinical-risk appetite and safety/outcome thresholds for DPI-H-enabled services; and require strategic approval of changes with material clinical or patient-safety consequences. Include patient safety and clinically significant service degradation among the systemic risks monitored.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 235"
+      }
+    ]
+  }
+}

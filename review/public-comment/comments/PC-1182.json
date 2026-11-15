@@ -1,0 +1,77 @@
+{
+  "id": "pc-1182",
+  "summary": "Advanced decision support and analytics may be prioritised before data quality, representativeness, workflow integratio…",
+  "comment": "Advanced decision support and analytics may be prioritised before data quality, representativeness, workflow integration, and evaluation capacity are sufficient.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-2e55c1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1182",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 418,
+      "entry": "417",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "92",
+      "lines": "Lines 181-183",
+      "raw": "§4.2.2 p.92 l.Lines 181-183"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-2e55c1",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.92 l.Lines 181-183 read as the printed page; section 4.2.2 agrees"
+    },
+    "text": "Advanced decision support and analytics may be prioritised before data quality, representativeness, workflow integration, and evaluation capacity are sufficient.",
+    "suggestedRevision": "Require readiness criteria for each business-service capability, including data coverage and quality, governed models, evidence base, workflow readiness, human oversight, safety, monitoring, and operating capacity.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 418"
+      }
+    ]
+  }
+}

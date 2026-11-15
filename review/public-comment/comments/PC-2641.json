@@ -1,0 +1,77 @@
+{
+  "id": "pc-2641",
+  "summary": "The relationship types are not consistent with those defined in the conformance table.",
+  "comment": "The relationship types are not consistent with those defined in the conformance table.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:3-1-a6a9c4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2641",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 19,
+      "entry": "9",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.1 The architecture description approach",
+      "page": "45",
+      "lines": "Figure 3.1",
+      "caption": "Figure 3.1",
+      "raw": "§3.1 The architecture description approach p.45 l.Figure 3.1"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-1-a6a9c4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-1-380550",
+        "prose:3-1-6a6807"
+      ],
+      "note": "p.45 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The relationship types are not consistent with those defined in the conformance table.",
+    "suggestedRevision": "Replace the relation between 'Application Component' and 'Application Fuction' from 'realizes' to 'assigned to'.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 19"
+      }
+    ]
+  }
+}

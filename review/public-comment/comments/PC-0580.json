@@ -1,0 +1,84 @@
+{
+  "id": "pc-0580",
+  "summary": "Because psoriasis is a systemic disease, data from dermatology, rheumatology and cardiology need to be captured within …",
+  "comment": "Because psoriasis is a systemic disease, data from dermatology, rheumatology and cardiology need to be captured within the same infrastructure rather than as siloed, stand-alone datasets. Such an infrastructure is mandatory for successful application of AI.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0580",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 580,
+      "entry": "579",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4",
+      "page": "41–52",
+      "raw": "§4 p.41–52"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General request for multi-specialty data in one infrastructure; cited p.41-52 is a broad range."
+    },
+    "type": "technical",
+    "text": "Because psoriasis is a systemic disease, data from dermatology, rheumatology and cardiology need to be captured within the same infrastructure rather than as siloed, stand-alone datasets. Such an infrastructure is mandatory for successful application of AI.",
+    "suggestedRevision": "Require multi-specialty data (e.g. dermatology, rheumatology, cardiology) to be captured within a single shared infrastructure rather than as siloed datasets, and state this as a precondition for AI applications.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 580"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General request for multi-specialty data in one infrastructure; cited p.41-52 is a broad range."
+      }
+    ]
+  }
+}

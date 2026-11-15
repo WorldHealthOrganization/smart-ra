@@ -1,0 +1,81 @@
+{
+  "id": "pc-0579",
+  "summary": "Artificial intelligence is of major importance, particularly for early diagnosis and for selecting the optimal treatmen…",
+  "comment": "Artificial intelligence is of major importance, particularly for early diagnosis and for selecting the optimal treatment for individual patients, and AI depends on the retrieval of relevant patient data. The guidance does not make patient data input into DPI-H mandatory or bind it to the principles defined for the national digital health infrastructure.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-62927f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0579",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 579,
+      "entry": "578",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4",
+      "page": "104–110",
+      "raw": "§4 p.104–110"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-62927f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-2-2-c20968",
+        "prose:4-2-3-e15f8f",
+        "prose:4-2-3-85cfac"
+      ],
+      "note": "p.104–110 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Artificial intelligence is of major importance, particularly for early diagnosis and for selecting the optimal treatment for individual patients, and AI depends on the retrieval of relevant patient data. The guidance does not make patient data input into DPI-H mandatory or bind it to the principles defined for the national digital health infrastructure.",
+    "suggestedRevision": "State that patient data input into DPI-H is mandatory and must adhere to the principles defined for the national digital health infrastructure, so that AI applications have the data foundation they require.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 579"
+      }
+    ]
+  }
+}

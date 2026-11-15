@@ -1,0 +1,78 @@
+{
+  "id": "pc-0384",
+  "summary": "Calling data models the starting point, as a top-down approach, overlooks the public-health information cycle and how h…",
+  "comment": "Calling data models the starting point, as a top-down approach, overlooks the public-health information cycle and how health data is refined into health intelligence. In DHIS2, collection forms are not the analytical model (‘data input ≠ data output’); reusable data elements, dimensions, indicators, organisational units and workflows are configured from decision and reporting needs and evolve with use. A data model-first approach may simply digitise reporting forms and increase reporting burden. Evidence: https://docs.dhis2.org/en/implement/implementing-dhis2/conceptual-design-principles.html",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-1-2cc917",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0384",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 384,
+      "entry": "383",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3",
+      "page": "94",
+      "lines": "256–284",
+      "raw": "§4.3 p.94 l.256–284"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-1-2cc917",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.94 l.256–284 read as the printed page; section 4.3 agrees"
+    },
+    "type": "general",
+    "text": "Calling data models the starting point, as a top-down approach, overlooks the public-health information cycle and how health data is refined into health intelligence. In DHIS2, collection forms are not the analytical model (‘data input ≠ data output’); reusable data elements, dimensions, indicators, organisational units and workflows are configured from decision and reporting needs and evolve with use. A data model-first approach may simply digitise reporting forms and increase reporting burden. Evidence: https://docs.dhis2.org/en/implement/implementing-dhis2/conceptual-design-principles.html",
+    "suggestedRevision": "Foundational facility and health workforce registries require minimal administrative datasets and may be the best place to start defining requirements.\n\nClient registries: minimal dataset for capturing essential demographic details, both digital identifiers optional elements. Here we have found a logical model to be very useful, and a good place to start buildign logical models.\n\nFor terminology services, which will define the health data content of DPI-H, a longer and more thorough M&E review process is justified, going program by program and across administrative divisions. A level below that, EMRs will feed M&E systems and also inform clinical decisions; divergence of interests is greater across programs and regions.\n\nTo consolidate health program requirements, we recommend starting with priority decisions, users, workflows, existing reporting obligations and action pathways. Then define minimum reusable metadata—data elements, dimensions, organisational units, indicators, validation and workflow rules—separating collection interfaces from analytical outputs. Require participatory testing and iterative metadata governance rather than a one-off model-first exercise.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 384"
+      }
+    ]
+  }
+}

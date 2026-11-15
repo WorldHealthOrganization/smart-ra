@@ -1,0 +1,80 @@
+{
+  "id": "pc-0301",
+  "summary": "The architecture already requires strong auditability in several places, including a tamper-evident Lifelong Health Rec…",
+  "comment": "The architecture already requires strong auditability in several places, including a tamper-evident Lifelong Health Record audit log that records the data affected by an event. However, audit evidence is generally retained as a property of the originating service or repository. In federated exchange, a downstream consumer may also need portable evidence of the governance or conformance decision that materially affected a particular data instance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-3-890226",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0301",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 301,
+      "entry": "300",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.3 / Appendix C",
+      "page": "75 / 170,177",
+      "lines": "867-869 / TS Req 25, LIMR Req 16",
+      "raw": "§3.6.3 / Appendix C p.75 / 170,177 l.867-869 / TS Req 25, LIMR Req 16"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-3-890226",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [
+        "prose:3-6-3-277f14"
+      ],
+      "note": "p.75 / 170,177 l.867-869 / TS Req 25, LIMR Req 16 read as the printed page; section C does NOT agree"
+    },
+    "type": "technical",
+    "text": "The architecture already requires strong auditability in several places, including a tamper-evident Lifelong Health Record audit log that records the data affected by an event. However, audit evidence is generally retained as a property of the originating service or repository. In federated exchange, a downstream consumer may also need portable evidence of the governance or conformance decision that materially affected a particular data instance.",
+    "suggestedRevision": "Consider a requirement for portable provenance or conformance evidence that identifies the relevant data instance or digest, decision, governing model or policy and version, actor or service, and timestamp, and that can be verified independently of the originating platform. Existing system audit logs would remain complementary.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 301"
+      }
+    ]
+  }
+}

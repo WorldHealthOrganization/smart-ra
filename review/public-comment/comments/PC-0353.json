@@ -1,0 +1,81 @@
+{
+  "id": "pc-0353",
+  "summary": "The inventory framework does not cover a funding/financing section - which can be crucial for decision making purposes.…",
+  "comment": "The inventory framework does not cover a funding/financing section - which can be crucial for decision making purposes. Whether a system is funded domestically, externally and more importantly when does the funding end. And where feasible we could have a slot to also capture run cost per year. This helps with rationalisation decision",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-2-0bf73d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0353",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 353,
+      "entry": "352",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.2",
+      "page": "89",
+      "lines": "29-62",
+      "raw": "§4.1.2 p.89 l.29-62"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-2-0bf73d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-1-2-e670d8",
+        "prose:4-1-2-a4f8e0",
+        "prose:4-1-2-932323"
+      ],
+      "note": "p.89 l.29-62 read as the printed page; section 4.1.2 agrees"
+    },
+    "type": "general",
+    "text": "The inventory framework does not cover a funding/financing section - which can be crucial for decision making purposes. Whether a system is funded domestically, externally and more importantly when does the funding end. And where feasible we could have a slot to also capture run cost per year. This helps with rationalisation decision",
+    "suggestedRevision": "Adding in of a cost component",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 353"
+      }
+    ]
+  }
+}

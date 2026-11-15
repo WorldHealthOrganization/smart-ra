@@ -1,0 +1,87 @@
+{
+  "id": "pc-0471",
+  "summary": "The distinction drawn here between how DPI for health is financed and what DPI for health financing can deliver is amon…",
+  "comment": "The distinction drawn here between how DPI for health is financed and what DPI for health financing can deliver is among the most practically useful points in the document, and it is made once and not carried forward. Conflating the two is the commonest reason investment cases fail with finance ministries.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-1-6f998e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0471",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 471,
+      "entry": "470",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.1",
+      "page": "102",
+      "lines": "547",
+      "raw": "§4.6.1 p.102 l.547"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-1-6f998e",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-2-f08184"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): This block draws the distinction between how DPI for health is financed and what DPI for health financing delivers."
+    },
+    "type": "general",
+    "text": "The distinction drawn here between how DPI for health is financed and what DPI for health financing can deliver is among the most practically useful points in the document, and it is made once and not carried forward. Conflating the two is the commonest reason investment cases fail with finance ministries.",
+    "suggestedRevision": "Promote this distinction to a stated principle and apply it consistently in chapters 1 and 4. Add a third element finance ministries ask for and the draft omits: the cost of not investing, expressed in the same units as the investment. Recommend that countries publish a periodically updated estimate of the annual value of interoperability as a percentage of health expenditure, as a bandwidth rather than a point estimate, with the context conditions that determine where in the bandwidth a given setting falls.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 471"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): This block draws the distinction between how DPI for health is financed and what DPI for health financing delivers."
+      }
+    ]
+  }
+}

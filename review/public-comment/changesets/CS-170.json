@@ -1,0 +1,41 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-170",
+  "title": "Define the LHR as governed longitudinal access, not a store",
+  "requirements": "- Justify the LHR's place in the foundational layer and distinguish it visually from registries\n- Add a decision table comparing centralised, federated and hybrid models\n- Define the LHR at governance level (authoritative longitudinal view) and at implementation level (assembled from source systems, consolidated or federated)\n- Explain the choice of 'Lifelong Health Record' over 'Shared Health Record'\n- Define it as longitudinal access via consolidated, federated or hybrid means, not one national store\n- State that federation increases dependence on a governed information model\n- Replace 'maintains' with wording that does not imply a persisted national record\n- Add a comparison of LHR, SHR, EHR and patient summary",
+  "refs": [
+    "PC-0118",
+    "PC-0361",
+    "PC-0464",
+    "PC-0554",
+    "PC-0962",
+    "PC-0963",
+    "PC-1520",
+    "PC-1823",
+    "PC-1824",
+    "PC-1825",
+    "PC-1826",
+    "PC-1827",
+    "PC-1829",
+    "PC-1830",
+    "PC-1831",
+    "PC-1837",
+    "PC-1852",
+    "PC-1853",
+    "PC-1860",
+    "PC-1861",
+    "PC-1862",
+    "PC-1863"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 22 comment(s)"
+    }
+  ]
+}

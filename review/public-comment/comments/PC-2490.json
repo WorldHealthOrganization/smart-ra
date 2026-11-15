@@ -1,0 +1,78 @@
+{
+  "id": "pc-2490",
+  "summary": "TS definition supports native WHO services — Existing wording calls the national service the authority for what concept…",
+  "comment": "TS definition supports native WHO services — Existing wording calls the national service the authority for what concepts mean. National deployment and stewardship should preserve, rather than supersede, WHO's authority over WHO identifiers. Federation is already allowed elsewhere in the draft; this makes the definition consistent with it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-535c38-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2490",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 33,
+      "entry": "32",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §1, What it is",
+      "page": "164",
+      "lines": "A13.01",
+      "raw": "§Terminology Service, §1, What it is p.164 l.A13.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-535c38-2",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-6c5267",
+        "prose:c-metadata-registries-and-foundati-terminology-service-93c028",
+        "prose:c-metadata-registries-and-foundati-terminology-service-2c425b"
+      ],
+      "note": "p.164 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "TS definition supports native WHO services — Existing wording calls the national service the authority for what concepts mean. National deployment and stewardship should preserve, rather than supersede, WHO's authority over WHO identifiers. Federation is already allowed elsewhere in the draft; this makes the definition consistent with it.",
+    "suggestedRevision": "Replace paragraph: The Terminology Service is a governed service that manages or provides controlled access to the semantic content used across the digital health ecosystem. It supports international and national code systems, classifications, terminologies, value sets, and concept maps through published interfaces. These include ICD-11 as both terminology and classification, other WHO-FIC content where applicable, and standards such as SNOMED CT, LOINC, ICPC, and ATC according to their intended roles. Access may be delivered through a national deployment, a conforming local service, or a governed connection to an authoritative publisher service. The implementation shall preserve the content's identifiers, release, meaning, and applicable use rules. It complements the structural definitions in the LIMR and supports direct use of the chosen semantic standard as well as mapping where needed.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 33"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0003",
+  "summary": "The draft is deliberate about versioning at the source. Requirement 3 requires the Terminology Service to \"maintain ful…",
+  "comment": "The draft is deliberate about versioning at the source. Requirement 3 requires the Terminology Service to \"maintain full version history of code systems, supporting concurrent active versions, defined lifecycle states (draft, active, deprecated, retired), and consumer-specified version requests\", and explains the choice: \"DPI-H elevates this to Required where OpenHIE treats it as a Recommendation; versioning is essential for a governance-grade national terminology service to honour backwards compatibility obligations\" (p.167). Requirement 8 does the same for value sets, and the summary of departures from OpenHIE confirms it (p.170, L147–151).\n\nWhat is not stated is what version and temporal context a consuming system must retain with coded data when interpretation is version-dependent. A service able to reconstruct every release does not help a historical clinical record that carries a bare code, and therefore does not identify which meaning, which value-set membership, which display or which mapping applied when the record was created.\n\nThe record side of the draft shows how close it already is. The Lifelong Health Record must \"record and version all updates to clinical data; records shall never be deleted, only marked as such; no previous version of a record shall be overwritten; all prior versions shall remain retrievable\" (requirement 3, SHRF-7, p.159, Required). That is immutability of the record. It is not immutability of the record's interpretation: every prior version of the entry is retrievable, and the requirement does not ensure that any of them carries, or can resolve, the code-system version, expansion or map that governed its meaning when it was written.\n\nAn effective date alone would not close this. Publication time, the period during which an artefact is approved for use, the version a consumer actually applied, and the time a notification was delivered are four different facts, and reconstructing a past interpretation needs more than one of them. The service can already do the work. Requirement 13 obliges the Terminology Service to \"expand value sets into the explicit list of concepts they contain at a given point in time, accounting for the version of the underlying code systems and the expansion parameters supplied by the consumer\" (p.169, Required). Reconstructing a past reading is therefore an available operation – but only to a caller who still holds the parameters it needs, and nothing requires the record to retain them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0003",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 3,
+      "entry": "2",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (Terminology Service; Lifelong Health Record) / 3.5",
+      "page": "159 / 167 / 168 / 169 / 170",
+      "lines": "Terminology Service requirement 3 (TSF-3, p.167), requirement 8 (TSF-4, p.168) and requirement 13 (TSWF-3, p.169); Lifelong Health Record requirement 3 (SHRF-7, p.159); p.170 L147–151",
+      "raw": "§Appendix C (Terminology Service; Lifelong Health Record) / 3.5 p.159 / 167 / 168 / 169 / 170 l.Terminology Service requirement 3 (TSF-3, p.167), requirement 8 (TSF-4, p.168) and requirement 13 (TSWF-3, p.169); Lifelong Health Record requirement 3 (SHRF-7, p.159); p.170 L147–151"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "The draft is deliberate about versioning at the source. Requirement 3 requires the Terminology Service to \"maintain full version history of code systems, supporting concurrent active versions, defined lifecycle states (draft, active, deprecated, retired), and consumer-specified version requests\", and explains the choice: \"DPI-H elevates this to Required where OpenHIE treats it as a Recommendation; versioning is essential for a governance-grade national terminology service to honour backwards compatibility obligations\" (p.167). Requirement 8 does the same for value sets, and the summary of departures from OpenHIE confirms it (p.170, L147–151).\n\nWhat is not stated is what version and temporal context a consuming system must retain with coded data when interpretation is version-dependent. A service able to reconstruct every release does not help a historical clinical record that carries a bare code, and therefore does not identify which meaning, which value-set membership, which display or which mapping applied when the record was created.\n\nThe record side of the draft shows how close it already is. The Lifelong Health Record must \"record and version all updates to clinical data; records shall never be deleted, only marked as such; no previous version of a record shall be overwritten; all prior versions shall remain retrievable\" (requirement 3, SHRF-7, p.159, Required). That is immutability of the record. It is not immutability of the record's interpretation: every prior version of the entry is retrievable, and the requirement does not ensure that any of them carries, or can resolve, the code-system version, expansion or map that governed its meaning when it was written.\n\nAn effective date alone would not close this. Publication time, the period during which an artefact is approved for use, the version a consumer actually applied, and the time a notification was delivered are four different facts, and reconstructing a past interpretation needs more than one of them. The service can already do the work. Requirement 13 obliges the Terminology Service to \"expand value sets into the explicit list of concepts they contain at a given point in time, accounting for the version of the underlying code systems and the expansion parameters supplied by the consumer\" (p.169, Required). Reconstructing a past reading is therefore an available operation – but only to a caller who still holds the parameters it needs, and nothing requires the record to retain them.",
+    "suggestedRevision": "Add a Required temporal-provenance requirement: published code systems, value sets and concept maps carry stable identifiers, explicit business versions, release dates and, where applicable, effective periods, and a published expansion carries its own identifier, the time at which it was produced, and the parameters and underlying code-system versions used to produce it – requirement 13 already names those inputs; and, where clinical or operational interpretation depends on a terminology release or a governing profile, the record preserves or can resolve the code-system version together with the identifiers, versions and temporal context of the profile, value-set expansion or map on which that interpretation depended. Stating the condition this way keeps the requirement bounded: it does not ask every coded value to carry an expansion version regardless of context, and it does not disturb the concurrent active versions the draft permits. A change should not silently assign a materially different meaning to an existing versionless identifier, but should create an explicitly distinguishable version or identifier while preserving access to the prior meaning.\n\nThe architecture is standards-neutral and need not name FHIR elements, but the semantic equivalents are what this requires: a business version, a revision date and an effective period on each of CodeSystem, ValueSet and ConceptMap; for an expansion, its own identifier with the timestamp and the parameters and underlying code-system versions that produced it; and Coding.version travelling with the coded value wherever interpretation is version-dependent. FHIR's own guidance against changing the meaning of an existing code is the practice being asked for. Extend conformance testing to include retrospective interpretation of a record created under a prior active version.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Consider by TWG? Human categorisation": "Metadata"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 3"
+      }
+    ]
+  }
+}

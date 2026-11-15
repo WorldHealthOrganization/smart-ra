@@ -1,0 +1,79 @@
+{
+  "id": "pc-0123",
+  "summary": "The \"Foundational capability\" table title implies comprehensive coverage of REDDHI's foundation, but every row and comp…",
+  "comment": "The \"Foundational capability\" table title implies comprehensive coverage of REDDHI's foundation, but every row and component listed is technical infrastructure. The ongoing REDDHI readiness index by HQ/MIS treats financing/sustainability and data analytics (including workforce and institutional capacity) as equally foundational, with neither represented in this table.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0123",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 123,
+      "entry": "122",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 What REDDHI is and its foundational core",
+      "page": "28",
+      "lines": "141, Table 2.2.",
+      "caption": "Table 2.2",
+      "raw": "§2.2.1 What REDDHI is and its foundational core p.28 l.141, Table 2.2."
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "The \"Foundational capability\" table title implies comprehensive coverage of REDDHI's foundation, but every row and component listed is technical infrastructure. The ongoing REDDHI readiness index by HQ/MIS treats financing/sustainability and data analytics (including workforce and institutional capacity) as equally foundational, with neither represented in this table.",
+    "suggestedRevision": "Not sure, maybe retitle the table to specify its technical scope, and add a cross-reference noting that financing and institutional/workforce readiness are addressed separately (e.g. via the readiness index. Or align with HQ/MIS on REDDHI Readiness Index.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 123"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0639",
+  "summary": "Overall impression: It is an important milestone in architectural approaches to information systems development. This w…",
+  "comment": "Overall impression: It is an important milestone in architectural approaches to information systems development. This was a missing canonical piece that was necessary for WHO to propagate the enterprise continuum framework of TOGAF. Without this, countries will have to create and define their own architectures out of necessity. WHO and ITU would've missed out on a great opportunity to share artifacts to the regions and the countries.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0639",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 639,
+      "entry": "638",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression of the whole guidance."
+    },
+    "type": "general",
+    "text": "Overall impression: It is an important milestone in architectural approaches to information systems development. This was a missing canonical piece that was necessary for WHO to propagate the enterprise continuum framework of TOGAF. Without this, countries will have to create and define their own architectures out of necessity. WHO and ITU would've missed out on a great opportunity to share artifacts to the regions and the countries.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 639"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression of the whole guidance."
+      }
+    ]
+  }
+}

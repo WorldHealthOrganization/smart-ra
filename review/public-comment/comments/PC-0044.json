@@ -1,0 +1,79 @@
+{
+  "id": "pc-0044",
+  "summary": "Person-facing access tools are placed outside DPI-H, which is a reasonable component boundary, but the guidance provide…",
+  "comment": "Person-facing access tools are placed outside DPI-H, which is a reasonable component boundary, but the guidance provides no shared access-layer requirements for those tools. Without a cross-cutting profile, every portal, wallet and mobile application may implement accessibility, authentication, consent and proxy access differently, recreating fragmentation at the human-access layer.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0044",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 44,
+      "entry": "43",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Lifelong Health Record, 4. How it connects",
+      "page": "168–169",
+      "lines": "138–141; 176–179",
+      "raw": "§Appendix C — Lifelong Health Record, 4. How it connects p.168–169 l.138–141; 176–179"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.168–169 l.138–141; 176–179 read as the PDF page; section C agrees"
+    },
+    "type": "technical",
+    "text": "Person-facing access tools are placed outside DPI-H, which is a reasonable component boundary, but the guidance provides no shared access-layer requirements for those tools. Without a cross-cutting profile, every portal, wallet and mobile application may implement accessibility, authentication, consent and proxy access differently, recreating fragmentation at the human-access layer.",
+    "suggestedRevision": "Introduce a cross-cutting “Person Access and Delegation Profile” applicable to all person-facing tools that connect to the LHR. It should define minimum requirements for accessible and multilingual interaction, alternative authentication, low-complexity workflows, consent and delegation, notifications, audit visibility, assisted access and conformance testing. The profile need not make the portal itself a DPI-H component.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 44"
+      }
+    ]
+  }
+}

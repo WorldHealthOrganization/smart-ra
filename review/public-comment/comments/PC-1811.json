@@ -1,0 +1,79 @@
+{
+  "id": "pc-1811",
+  "summary": "The comparison usefully separates the registry from catalogue management but is very long and repeats previous material.",
+  "comment": "The comparison usefully separates the registry from catalogue management but is very long and repeats previous material.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-00a47d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1811",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1047,
+      "entry": "1046",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry comparison",
+      "page": "151-154",
+      "lines": "Comparison table",
+      "raw": "§Product Registry comparison p.151-154 l.Comparison table"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-00a47d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-ca593e"
+      ],
+      "note": "p.151-154 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The comparison usefully separates the registry from catalogue management but is very long and repeats previous material.",
+    "suggestedRevision": "Retain a concise boundary table in Appendix C and move detailed operational examples to a separate implementation guide.",
+    "labels": {
+      "Comment type": "Q2 - Level of detail"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1047"
+      }
+    ]
+  }
+}

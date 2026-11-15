@@ -1,0 +1,73 @@
+{
+  "id": "pc-2636",
+  "summary": "The objective of preventing strategic dependency and vendor lock-in is appropriate. However, standards themselves shoul…",
+  "comment": "The objective of preventing strategic dependency and vendor lock-in is appropriate. However, standards themselves should not necessarily remain “under national control.” \n\nDigital-health interoperability depends extensively on internationally maintained standards and, in some jurisdictions, binding supranational specifications. \n\nThe distinction should be between public control over the architecture and its implementation, on the one hand, and ownership/governance of individual interoperability standards, on the other. \n\nFor EU Member States, the EHDS Regulation establishes a common legal and technical framework for electronic health data and EHR-system interoperability at Union level. A formulation requiring national control over standards could therefore be interpreted inconsistently with both the open-standards principle elsewhere in the Guidance and binding regional frameworks.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:1-4-ee898c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2636",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 14,
+      "entry": "4",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4 DPI-H Principles",
+      "page": "21",
+      "lines": "414-416",
+      "raw": "§1.4 DPI-H Principles p.21 l.414-416"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-ee898c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.21 l.414-416 read as the printed page; section 1.4 agrees"
+    },
+    "type": "technical",
+    "text": "The objective of preventing strategic dependency and vendor lock-in is appropriate. However, standards themselves should not necessarily remain “under national control.” \n\nDigital-health interoperability depends extensively on internationally maintained standards and, in some jurisdictions, binding supranational specifications. \n\nThe distinction should be between public control over the architecture and its implementation, on the one hand, and ownership/governance of individual interoperability standards, on the other. \n\nFor EU Member States, the EHDS Regulation establishes a common legal and technical framework for electronic health data and EHR-system interoperability at Union level. A formulation requiring national control over standards could therefore be interpreted inconsistently with both the open-standards principle elsewhere in the Guidance and binding regional frameworks.",
+    "suggestedRevision": "Replace with: “Countries should retain effective public control, accountability and strategic autonomy over critical DPI-H capabilities and should avoid unacceptable dependencies on individual external providers. Applicable standards and governance may be nationally defined or established through international or supranational frameworks, provided that public authorities retain effective decision-making, assurance and accountability over their implementation.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 14"
+      }
+    ]
+  }
+}

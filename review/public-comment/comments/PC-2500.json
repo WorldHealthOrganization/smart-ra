@@ -1,0 +1,83 @@
+{
+  "id": "pc-2500",
+  "summary": "Separate identifier and expression validation — The draft should permit an ICD-11-native pathway and avoid equating a v…",
+  "comment": "Separate identifier and expression validation — The draft should permit an ICD-11-native pathway and avoid equating a vocabulary match with correct classification. These are proposed implementation controls, not claims that a particular FHIR operation performs all these checks.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2500",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 43,
+      "entry": "42",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "168",
+      "lines": "A16.01",
+      "raw": "§Terminology Service, §5 p.168 l.A16.01"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+    },
+    "text": "Separate identifier and expression validation — The draft should permit an ICD-11-native pathway and avoid equating a vocabulary match with correct classification. These are proposed implementation controls, not claims that a particular FHIR operation performs all these checks.",
+    "suggestedRevision": "Append; retain Required status: The response shall distinguish identifier existence, value-set membership, release validity, and any expression constraints actually checked. For ICD-11, validation shall not treat the independent existence of stem and extension codes as sufficient evidence that their combination is permitted. Unsupported checks shall be reported explicitly. Clinical coding accuracy requires the relevant documentation and rules in addition to terminology validation.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 43"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+      }
+    ]
+  }
+}

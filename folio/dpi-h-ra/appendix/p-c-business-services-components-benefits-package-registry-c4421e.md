@@ -1,0 +1,1 @@
+The Benefits Package Registry serves a broad and institutionally diverse set of stakeholders, reflecting the multi-actor nature of health financing in most countries. The table below identifies primary stakeholders, their relationship to the registry, and the value they derive from it.

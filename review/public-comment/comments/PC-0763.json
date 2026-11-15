@@ -1,0 +1,74 @@
+{
+  "id": "pc-0763",
+  "summary": "We thank the authors for this. Interoperability as a distributed capability, not a central box. The line between integr…",
+  "comment": "We thank the authors for this. Interoperability as a distributed capability, not a central box. The line between integration and interoperability — \"bilateral connections… do not scale nationally.\" The warning that deferring interoperability or creating central dependencies breeds technical and political debt. These match our implementation experience.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0763",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 763,
+      "entry": "762",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§2.3 Interoperability (p.32); §3.6.1 (p.72); §3.4.2 (p.54–55)",
+      "lines": "A5",
+      "raw": "§§2.3 Interoperability (p.32); §3.6.1 (p.72); §3.4.2 (p.54–55) l.A5"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 2.3 only"
+    },
+    "text": "We thank the authors for this. Interoperability as a distributed capability, not a central box. The line between integration and interoperability — \"bilateral connections… do not scale nationally.\" The warning that deferring interoperability or creating central dependencies breeds technical and political debt. These match our implementation experience.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 763"
+      }
+    ]
+  }
+}

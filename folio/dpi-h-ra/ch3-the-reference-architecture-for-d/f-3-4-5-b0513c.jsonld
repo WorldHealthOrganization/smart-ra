@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/fig-3-4-5-b0513c",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "label": "fig:3-4-5-b0513c",
+  "kind": "figure",
+  "text": "f-3-4-5-b0513c.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 302,
+      "page": 71,
+      "printedPage": "60",
+      "method": "inherited-page"
+    }
+  },
+  "provenance": "authored"
+}

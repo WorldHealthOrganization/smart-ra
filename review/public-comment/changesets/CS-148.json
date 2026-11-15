@@ -1,0 +1,28 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-148",
+  "title": "Specify facility location precision and restricted disclosure",
+  "requirements": "- Model coordinates, address, geometry and administrative assignment separately with source and precision\n- Define a public subset with documented exceptions for sensitive facilities\n- Define CRS, accuracy, capture method and verification for coordinates\n- Require access controls on search and accessible, multilingual, low-bandwidth public formats\n- Allow restricted or approximate coordinates for sensitive sites\n- Support mobile services through routes, service areas and schedules",
+  "refs": [
+    "PC-1568",
+    "PC-1569",
+    "PC-1574",
+    "PC-1600",
+    "PC-1603",
+    "PC-1604",
+    "PC-1605",
+    "PC-1621",
+    "PC-1634"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 9 comment(s)"
+    }
+  ]
+}

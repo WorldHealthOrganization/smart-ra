@@ -1,0 +1,88 @@
+{
+  "id": "pc-0011",
+  "summary": "The architecture discusses agents, assistive AI and clinical applications but does not clearly represent orchestration …",
+  "comment": "The architecture discusses agents, assistive AI and clinical applications but does not clearly represent orchestration among a local facility, an AI service and a remote specialist. A model output is not a completed clinical service.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-32e323",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0011",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 11,
+      "entry": "10",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2-5.3",
+      "page": "116-117",
+      "lines": "85-138",
+      "raw": "§5.2-5.3 p.116-117 l.85-138"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-32e323",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 5.2-5.3 l.85-138 on AI agents/orchestration; this block describes models exposed as skills and agents"
+    },
+    "type": "technical",
+    "text": "The architecture discusses agents, assistive AI and clinical applications but does not clearly represent orchestration among a local facility, an AI service and a remote specialist. A model output is not a completed clinical service.",
+    "suggestedRevision": "Add a workflow-orchestration pattern that records task assignment, priority, status, clinician acceptance, critical-result communication, exception handling and final responsibility across distributed teams.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 11"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 5.2-5.3 l.85-138 on AI agents/orchestration; this block describes models exposed as skills and agents"
+      }
+    ]
+  }
+}

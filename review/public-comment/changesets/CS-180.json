@@ -1,0 +1,25 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-180",
+  "title": "Clarify LIMR scope, name, governance and consumer notification",
+  "requirements": "- Require release and deprecation notifications to registered consumers\n- Identify the LIMR as a proposed capability and distinguish established practice from novel consolidation\n- Federate only from published, versioned package channels and monitor publication-pipeline health\n- Require multidisciplinary domain review of models\n- Define whether it governs logical models only or also implementation artefacts\n- State that governance is required from the outset while tooling matures",
+  "refs": [
+    "PC-0525",
+    "PC-1926",
+    "PC-1927",
+    "PC-1944",
+    "PC-1946",
+    "PC-1947"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 6 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pc-0645",
+  "summary": "Mention the regional networks",
+  "comment": "Mention the regional networks",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0645",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 645,
+      "entry": "644",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.3 Strategic governance",
+      "lines": "319",
+      "raw": "§3.4.3 Strategic governance l.319"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.4.3 only"
+    },
+    "text": "Mention the regional networks",
+    "suggestedRevision": "\"and engage proactively with national health financing mechanisms,\n319 development partners, multilateral institutions, and regional networks (such as AeHIN, PHIN, RECAINSA, HELINA).\"",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 645"
+      }
+    ]
+  }
+}

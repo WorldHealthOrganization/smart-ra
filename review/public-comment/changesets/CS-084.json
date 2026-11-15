@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-084",
+  "title": "Generalise the 3.7 interaction model and transaction specification",
+  "requirements": "- Use provider/consumer for service direction; reserve initiator/responder for transaction patterns\n- Define what a 'fully specified' transaction contains\n- State that each supported access channel (UI, API) must meet applicable requirements\n- Show how event-driven, asynchronous, batch and user-initiated interactions are modelled, with a second figure example\n- Introduce maturity states for interactions and restrict formal conformance claims to testable ones\n- Require consistent enforcement of business rules, consent, security and audit across channels\n- Clarify how human actors, devices and external services participate in interactions\n- Identify the 'other means' for specifying non-IHE or human-initiated interactions",
+  "refs": [
+    "PC-1058",
+    "PC-1065",
+    "PC-1066",
+    "PC-1069",
+    "PC-1070",
+    "PC-1071",
+    "PC-1073",
+    "PC-1075",
+    "PC-1076",
+    "PC-1087",
+    "PC-1088"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

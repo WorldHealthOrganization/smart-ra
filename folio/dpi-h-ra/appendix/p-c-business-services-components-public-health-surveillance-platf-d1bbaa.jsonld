@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-business-services-components-public-health-surveillance-platf-d1bbaa",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-business-services-components-public-health-surveillance-platf-d1bbaa",
+  "kind": "prose",
+  "cites": [
+    "references/who-afro-2019-idsr-guidelines",
+    "references/9789241580496-eng",
+    "references/who-eis-operational-standards",
+    "references/who-integrated-data-platform"
+  ],
+  "text": "p-c-business-services-components-public-health-surveillance-platf-d1bbaa.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 999,
+      "page": 233,
+      "pageEnd": 234,
+      "printedPage": "222",
+      "lineStart": 216,
+      "lineEnd": 220,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

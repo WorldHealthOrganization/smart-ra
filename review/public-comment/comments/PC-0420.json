@@ -1,0 +1,78 @@
+{
+  "id": "pc-0420",
+  "summary": "It may be valuable to expand the conformance and testing approach in Sec 3.7 to include non-functional testing for high…",
+  "comment": "It may be valuable to expand the conformance and testing approach in Sec 3.7 to include non-functional testing for high-demand and emergency scenarios. For example, a pandemic or other major public-health event could lead to simultaneous increases in patient registrations, laboratory results, surveillance data and supply requests across the country. Testing could therefore consider whether core registries and the Lifelong Health Record can maintain performance and availability under peak loads, as well as how they operate under degraded-connectivity conditions. Including peak-load simulation, resilience and degraded-connectivity testing as part of the testing framework could provide implementers with a practical way to assess pandemic readiness and system resilience. This would be very relevant from an outbreak/pandemic perspective.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-1-aef1b3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0420",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 420,
+      "entry": "419",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7",
+      "page": "78",
+      "lines": "964",
+      "raw": "§3.7 p.78 l.964"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-1-aef1b3",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.78 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "It may be valuable to expand the conformance and testing approach in Sec 3.7 to include non-functional testing for high-demand and emergency scenarios. For example, a pandemic or other major public-health event could lead to simultaneous increases in patient registrations, laboratory results, surveillance data and supply requests across the country. Testing could therefore consider whether core registries and the Lifelong Health Record can maintain performance and availability under peak loads, as well as how they operate under degraded-connectivity conditions. Including peak-load simulation, resilience and degraded-connectivity testing as part of the testing framework could provide implementers with a practical way to assess pandemic readiness and system resilience. This would be very relevant from an outbreak/pandemic perspective.",
+    "suggestedRevision": "Suggested new subsection, e.g. 3.7.7 Non-functional and resilience testing: \"In addition to functional conformance, implementers should consider testing core registries and the Lifelong Health Record under peak-load conditions, for example, simulating a surge in registrations, laboratory results and supply requests consistent with a pandemic or other major public-health event and under degraded-connectivity conditions, to assess whether performance and availability are maintained and how the system degrades when they are not.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 420"
+      }
+    ]
+  }
+}

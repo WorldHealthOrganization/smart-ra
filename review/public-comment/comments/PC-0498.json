@@ -1,0 +1,80 @@
+{
+  "id": "pc-0498",
+  "summary": "The enabling conditions are stated as capabilities to be built. Where foundational components already exist, the bindin…",
+  "comment": "The enabling conditions are stated as capabilities to be built. Where foundational components already exist, the binding condition is not a further capability but the authority to require its use. Without that, the guidance offers no path from partial to comprehensive coverage other than continued persuasion.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-e01764",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0498",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 498,
+      "entry": "497",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.2",
+      "page": "28",
+      "lines": "143",
+      "raw": "§2.2.2 p.28 l.143"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-e01764",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:2-2-2-2c4d7e"
+      ],
+      "note": "p.28 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The enabling conditions are stated as capabilities to be built. Where foundational components already exist, the binding condition is not a further capability but the authority to require its use. Without that, the guidance offers no path from partial to comprehensive coverage other than continued persuasion.",
+    "suggestedRevision": "Add authority to the enabling conditions alongside capability and capacity: an identifiable party empowered to require participation, an enforceable norm, a durable funding basis and a dispute route. Present these as conditions of the same standing as the technical ones, since a country can satisfy every technical condition and remain unable to progress - which is the Dutch position after two decades of investment.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 498"
+      }
+    ]
+  }
+}

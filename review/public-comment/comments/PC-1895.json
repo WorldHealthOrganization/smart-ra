@@ -1,0 +1,86 @@
+{
+  "id": "pc-1895",
+  "summary": "Provenance may be specified only as source system, facility, professional, and date, which is insufficient for transfor…",
+  "comment": "Provenance may be specified only as source system, facility, professional, and date, which is insufficient for transformed or derived data.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1895",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1131,
+      "entry": "1130",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Lifelong Health Record, 6",
+      "page": "163-165",
+      "lines": "Provenance metadata",
+      "raw": "§Lifelong Health Record, 6 p.163-165 l.Provenance metadata"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-lifelong-health-record"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): LHR requirements table row 2 defines provenance as source system, clinician, facility, timestamp."
+    },
+    "text": "Provenance may be specified only as source system, facility, professional, and date, which is insufficient for transformed or derived data.",
+    "suggestedRevision": "Include original source, contributor, recorder, transformer, transformation specification, software version, validation status, derivation, signature, and custody history.",
+    "labels": {
+      "Comment type": "Q15 - Completeness"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1131"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): LHR requirements table row 2 defines provenance as source system, clinician, facility, timestamp."
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0451",
+  "summary": "The starting point is framed technically: inherited systems, legacy platforms, donor-funded tools. In institutionally p…",
+  "comment": "The starting point is framed technically: inherited systems, legacy platforms, donor-funded tools. In institutionally plural systems the binding constraint is legally protected institutional autonomy rather than legacy technology. Providers cannot be required to participate, professional bodies hold normative authority, vendors hold contractual positions. A country can be technically advanced and structurally unable to act.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-971416",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0451",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 451,
+      "entry": "450",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.1",
+      "page": "88",
+      "lines": "13",
+      "raw": "§4.1.1 p.88 l.13"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-971416",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-1-1-237a78"
+      ],
+      "note": "p.88 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The starting point is framed technically: inherited systems, legacy platforms, donor-funded tools. In institutionally plural systems the binding constraint is legally protected institutional autonomy rather than legacy technology. Providers cannot be required to participate, professional bodies hold normative authority, vendors hold contractual positions. A country can be technically advanced and structurally unable to act.",
+    "suggestedRevision": "Extend the assessment of the starting point to institutional and legal preconditions alongside technical ones, with four questions: is there a party empowered to require participation; is there an enforceable norm; is there a durable funding basis; is there a route for resolving disputes. In the Netherlands all four are absent after two decades of investment, which explains persistent fragmentation better than any technical variable.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 451"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+# The review record (review/public-comment): tags, change-sets and their issues. The steps
+# and the comment grammar are documented in folio-assistant-core's
+# public-comment.yml. Manual trigger only (owner decision, 2026-10-06).
+#
+# A thin caller: the steps are cat-harness-tools' reusable workflow, ONE
+# copy for every harnessed repository (cat-harness-tools#1038), so this
+# repository's CI cannot drift from smart-ra's or dth-hrh's again.
+name: Public comment — tags, change-sets and their issues
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  record:
+    uses: litlfred/folio-assistant-core/.github/workflows/public-comment.yml@aceae1937c9af784c8c0af6a60a1d7192cdd5e2a # index.lock.json
+    with:
+      store: review/public-comment
+      label: public comment

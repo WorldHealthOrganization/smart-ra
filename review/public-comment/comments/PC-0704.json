@@ -1,0 +1,76 @@
+{
+  "id": "pc-0704",
+  "summary": "The individual appears primarily as a rights-holder and, ‘where applicable’, a data source. The person is also a knowle…",
+  "comment": "The individual appears primarily as a rights-holder and, ‘where applicable’, a data source. The person is also a knowledge source: the holder of context, corrections, and narrative that no provider system records — often decisive for safe care (allergies, adherence, home circumstances).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0704",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 704,
+      "entry": "703",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Goal 4 (Trusted Personal Health Records); Lifelong Health Record (App. C)",
+      "raw": "§Goal 4 (Trusted Personal Health Records); Lifelong Health Record (App. C)"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+      "method": "section",
+      "confidence": "low",
+      "candidates": [
+        "sec:d-1-lifelong-health-record"
+      ],
+      "note": "section named \"Lifelong Health Record\""
+    },
+    "text": "The individual appears primarily as a rights-holder and, ‘where applicable’, a data source. The person is also a knowledge source: the holder of context, corrections, and narrative that no provider system records — often decisive for safe care (allergies, adherence, home circumstances).",
+    "suggestedRevision": "Extend the LHR component requirements with a governed citizen-contribution channel: the ability for individuals (and, where authorised, informal carers) to add structured and narrative contributions and corrections to their record, with provenance and review workflow, so the record reflects lived reality as well as institutional data.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Comment type": "#5"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 704"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pc-0231",
+  "summary": "Chapter 5 correctly identifies governed terminology as essential infrastructure for AI-ready health data (p. 115: \"term…",
+  "comment": "Chapter 5 correctly identifies governed terminology as essential infrastructure for AI-ready health data (p. 115: \"terminology services, which provide the semantic consistency that allows an algorithm to operate on data that means the same thing across the systems that produced it\"). However, SNOMED CT is ommitted, despite SNOMED CT named in §3.4.5, and Table 3.5, as the required clinical terminology throughout the rest of the document.\n\nAdditionally, p. 116 introduces the concept of AI models calling authoritative services through shared interfaces (explicitly mentioning the Model Context Protocol), describing exactly the kind of deterministic, governed reference services that SNOMED International's Snowstorm FHIR Terminology Server and SNOMED CT FHIR API provide. These are not mentioned.\n\nSNOMED CT's hierarchical, computable structure (including ability for post-coordinated expressions, direct attribute relationships, and transitive closure), makes it uniquely suited for ML training, NLP named entity recognition, and AI reasoning.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0231",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 231,
+      "entry": "230",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2 & 5.3",
+      "page": "115–116 and 117",
+      "raw": "§5.2 & 5.3 p.115–116 and 117"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-5",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.5 as cited"
+    },
+    "type": "general",
+    "text": "Chapter 5 correctly identifies governed terminology as essential infrastructure for AI-ready health data (p. 115: \"terminology services, which provide the semantic consistency that allows an algorithm to operate on data that means the same thing across the systems that produced it\"). However, SNOMED CT is ommitted, despite SNOMED CT named in §3.4.5, and Table 3.5, as the required clinical terminology throughout the rest of the document.\n\nAdditionally, p. 116 introduces the concept of AI models calling authoritative services through shared interfaces (explicitly mentioning the Model Context Protocol), describing exactly the kind of deterministic, governed reference services that SNOMED International's Snowstorm FHIR Terminology Server and SNOMED CT FHIR API provide. These are not mentioned.\n\nSNOMED CT's hierarchical, computable structure (including ability for post-coordinated expressions, direct attribute relationships, and transitive closure), makes it uniquely suited for ML training, NLP named entity recognition, and AI reasoning.",
+    "suggestedRevision": "Suggested addition to §5.2: \"For clinical data, the governed terminology standard that delivers semantic consistency across AI training and inference is SNOMED CT, the same terminology required for the Terminology Service component described in Section 3.4.5. Its hierarchical and computable structure, which captures relationships between clinical concepts, allows AI models to generalise across equivalent clinical expressions rather than treating each code as an isolated label. The SNOMED CT GPS provides this foundation to non-member countries without cost. SNOMED International's open-source Snowstorm server implements the HL7 FHIR Terminology Service specification and is available as an authoritative, machine-callable service for AI and analytical applications.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 231"
+      }
+    ]
+  }
+}

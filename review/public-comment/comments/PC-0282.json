@@ -1,0 +1,80 @@
+{
+  "id": "pc-0282",
+  "summary": "Section 3.6.4 contains the document's strongest normative trust statement: a cross-jurisdiction trust framework, with m…",
+  "comment": "Section 3.6.4 contains the document's strongest normative trust statement: a cross-jurisdiction trust framework, with mutual recognition of identities, credentials and digital signatures underpinned by appropriate public-key infrastructure, shall establish that participants and the data they exchange can be trusted (lines 945-947). 'Appropriate' is undefined, and the GDHCN pattern cited immediately above verifies document provenance between national authorities; it does not authenticate live exchange participants, nor anything below authority level, such as a hospital verifying a foreign hospital or a clinician's role verified across a border.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-c0012b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0282",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 282,
+      "entry": "281",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4",
+      "page": "77-78",
+      "lines": "926-951",
+      "raw": "§3.6.4 p.77-78 l.926-951"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-c0012b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-6-4-ce5111"
+      ],
+      "note": "p.77-78 l.926-951 read as the printed page; section 3.6.4 agrees"
+    },
+    "type": "technical",
+    "text": "Section 3.6.4 contains the document's strongest normative trust statement: a cross-jurisdiction trust framework, with mutual recognition of identities, credentials and digital signatures underpinned by appropriate public-key infrastructure, shall establish that participants and the data they exchange can be trusted (lines 945-947). 'Appropriate' is undefined, and the GDHCN pattern cited immediately above verifies document provenance between national authorities; it does not authenticate live exchange participants, nor anything below authority level, such as a hospital verifying a foreign hospital or a clinician's role verified across a border.",
+    "suggestedRevision": "Specify what 'appropriate' must include: mutual recognition below the national-authority level via verifiable delegation from authority to institution to practitioner, key lifecycle and revocation, offline verifiability, algorithm agility, and no single point of control. Delegated verifiable identifiers extend the authority-level trust the GDHCN already establishes down to institutions and practitioners under the same framework, without creating a supranational authority.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 282"
+      }
+    ]
+  }
+}

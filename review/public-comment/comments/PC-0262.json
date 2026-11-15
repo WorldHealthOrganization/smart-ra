@@ -1,0 +1,78 @@
+{
+  "id": "pc-0262",
+  "summary": "The draft addresses underserved populations, representation and unrepresentative AI data, but largely treats equity thr…",
+  "comment": "The draft addresses underserved populations, representation and unrepresentative AI data, but largely treats equity through separate demographic or geographic categories. Systems may appear equitable in aggregate while performing poorly for people experiencing overlapping disadvantages, and some vulnerable populations may be missing from formal datasets altogether.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0262",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 262,
+      "entry": "261",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2–3.4.3; 5.4.3",
+      "page": "54–56; 109",
+      "lines": "258–265; 299–327; 170–176",
+      "raw": "§3.4.2–3.4.3; 5.4.3 p.54–56; 109 l.258–265; 299–327; 170–176"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.54–56; 109 l.258–265; 299–327; 170–176 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "general",
+    "text": "The draft addresses underserved populations, representation and unrepresentative AI data, but largely treats equity through separate demographic or geographic categories. Systems may appear equitable in aggregate while performing poorly for people experiencing overlapping disadvantages, and some vulnerable populations may be missing from formal datasets altogether.",
+    "suggestedRevision": "Operationalise intersectional equity across representation, access, performance and outcomes. Where lawful, proportionate and ethically justified, assess combinations of relevant characteristics and contexts- such as poverty, disability, language, geography, migration status, gender and digital exclusion- rather than only single-group averages. Require attention to missing populations, missing contextual meaning, cultural and linguistic fit, and community-defined priorities, while avoiding unnecessary collection of sensitive data. Distinguish measurable health inequalities from avoidable and unjust health inequities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 262"
+      }
+    ]
+  }
+}

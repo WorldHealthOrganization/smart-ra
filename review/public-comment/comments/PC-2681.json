@@ -1,0 +1,75 @@
+{
+  "id": "pc-2681",
+  "summary": "The assessment question 'What is the state of our foundational DPI?' is framed in terms of existence and reach, not dis…",
+  "comment": "The assessment question 'What is the state of our foundational DPI?' is framed in terms of existence and reach, not distribution. A country can report near-universal foundational-ID registration (as the Philippines now can for PhilSys) while the identifier is absent from actual surveillance workflows, and can report that an electronic surveillance system 'exists' while most local health offices submit by paper, spreadsheet, or SMS. Existence-framed assessment systematically overstates readiness in devolved systems.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:4-1-2-c9bb04",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2681",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 26,
+      "entry": "16",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.2",
+      "page": "88–89",
+      "lines": "28–61",
+      "raw": "§4.1.2 p.88–89 l.28–61"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-2-c9bb04",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-1-2-25c058"
+      ],
+      "note": "p.88–89 l.28–61 read as the printed page; section 4.1.2 agrees"
+    },
+    "type": "technical",
+    "text": "The assessment question 'What is the state of our foundational DPI?' is framed in terms of existence and reach, not distribution. A country can report near-universal foundational-ID registration (as the Philippines now can for PhilSys) while the identifier is absent from actual surveillance workflows, and can report that an electronic surveillance system 'exists' while most local health offices submit by paper, spreadsheet, or SMS. Existence-framed assessment systematically overstates readiness in devolved systems.",
+    "suggestedRevision": "Add distributional assessment prompts: share of local health offices with (i) functional connectivity, (ii) staffed and budgeted surveillance units, (iii) electronic submission to the national surveillance system, and (iv) routine use of the foundational identifier in health transactions. These become the baseline values referenced in Phase 1 (4.2.2).",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 26"
+      }
+    ]
+  }
+}

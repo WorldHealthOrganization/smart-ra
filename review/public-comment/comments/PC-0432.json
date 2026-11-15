@@ -1,0 +1,78 @@
+{
+  "id": "pc-0432",
+  "summary": "Consent and provenance should not be reduced to a simple access flag. Research use may depend on the approved protocol,…",
+  "comment": "Consent and provenance should not be reduced to a simple access flag. Research use may depend on the approved protocol, ethics committee conditions, data-access requirements and, where material is distributed, material-transfer obligations.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0432",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 432,
+      "entry": "431",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "LHR core attributes",
+      "page": "157",
+      "lines": "111–121",
+      "raw": "§LHR core attributes p.157 l.111–121"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.157 l.111–121 read as the printed page"
+    },
+    "type": "technical",
+    "text": "Consent and provenance should not be reduced to a simple access flag. Research use may depend on the approved protocol, ethics committee conditions, data-access requirements and, where material is distributed, material-transfer obligations.",
+    "suggestedRevision": "Ensure consent records retain consent version, date, study/protocol identifier, ethics approval reference, permitted purposes, review or expiry conditions, restrictions, withdrawal history and authorised decision-making body where applicable.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 432"
+      }
+    ]
+  }
+}

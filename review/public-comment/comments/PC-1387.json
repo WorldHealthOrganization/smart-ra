@@ -1,0 +1,77 @@
+{
+  "id": "pc-1387",
+  "summary": "The decision to treat AI as cross-cutting is appropriate, but the document does not clarify whether a shared model regi…",
+  "comment": "The decision to treat AI as cross-cutting is appropriate, but the document does not clarify whether a shared model registry, evaluation service, controlled computing environment, or AI governance function belongs within the present architecture.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-5-cdc2eb",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1387",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 623,
+      "entry": "622",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.5",
+      "page": "110",
+      "lines": "Lines 213-217",
+      "raw": "§5.5 p.110 l.Lines 213-217"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-5-cdc2eb",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.110 l.Lines 213-217 read as the printed page; section 5.5 agrees"
+    },
+    "text": "The decision to treat AI as cross-cutting is appropriate, but the document does not clarify whether a shared model registry, evaluation service, controlled computing environment, or AI governance function belongs within the present architecture.",
+    "suggestedRevision": "State whether these are out of scope, optional implementation capabilities, or candidates for future architecture releases.",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 623"
+      }
+    ]
+  }
+}

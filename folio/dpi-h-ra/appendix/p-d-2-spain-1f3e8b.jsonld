@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-spain-1f3e8b",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-spain-1f3e8b",
+  "kind": "prose",
+  "cites": [
+    "references/es-ministerio-sanidad",
+    "references/somsns"
+  ],
+  "text": "p-d-2-spain-1f3e8b.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1045,
+      "page": 244,
+      "printedPage": "233",
+      "lineStart": 154,
+      "lineEnd": 160,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

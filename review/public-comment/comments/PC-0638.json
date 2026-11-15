@@ -1,0 +1,77 @@
+{
+  "id": "pc-0638",
+  "summary": "The guidance places strong emphasis on centrally planned architecture and governance as the primary driver of digital t…",
+  "comment": "The guidance places strong emphasis on centrally planned architecture and governance as the primary driver of digital transformation. In practice, many successful digital health capabilities emerge through locally implemented solutions that are subsequently standardised and scaled once value has been demonstrated.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0638",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 638,
+      "entry": "637",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b7f5ce4dc",
+      "name": "Joern Guy Suess",
+      "organisation": "CSIRO",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2 Charting a Path (or equivalent implementation guidance section)",
+      "lines": "Relevant paragraphs describing implementation pathways and architecture adoption",
+      "raw": "§4.2 Charting a Path (or equivalent implementation guidance section) l.Relevant paragraphs describing implementation pathways and architecture adoption"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.2 only"
+    },
+    "text": "The guidance places strong emphasis on centrally planned architecture and governance as the primary driver of digital transformation. In practice, many successful digital health capabilities emerge through locally implemented solutions that are subsequently standardised and scaled once value has been demonstrated.",
+    "suggestedRevision": "Add an explicit implementation-led pathway that recognises local innovation, pilot deployments and operational validation as legitimate entry points for DPI-H adoption. The reference architecture should position itself as a framework for documenting, assessing and scaling proven implementations, rather than implying that transformation must begin with central architectural design.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 638"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pc-2674",
+  "summary": "The REDDHI minimum viable foundation is, at capability level, genuinely minimum for disease surveillance: unique identi…",
+  "comment": "The REDDHI minimum viable foundation is, at capability level, genuinely minimum for disease surveillance: unique identification, facility attribution, provenance, and consistent case definitions are the irreducible preconditions of case-based surveillance, and their absence maps precisely onto known pathologies of national systems such as the Philippine PIDSR (manual deduplication, unstable denominators, unreconciled facility lists). However, the draft only defines surveillance functionality on a COMPLETED foundation; it is silent on what surveillance-grade capability looks like when the foundation is partially present, which is the operating condition of most LMICs for the next decade.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2674",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 19,
+      "entry": "9",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1",
+      "page": "26–27",
+      "lines": "118–135",
+      "raw": "§2.2.1 p.26–27 l.118–135"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.26–27 l.118–135 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "general",
+    "text": "The REDDHI minimum viable foundation is, at capability level, genuinely minimum for disease surveillance: unique identification, facility attribution, provenance, and consistent case definitions are the irreducible preconditions of case-based surveillance, and their absence maps precisely onto known pathologies of national systems such as the Philippine PIDSR (manual deduplication, unstable denominators, unreconciled facility lists). However, the draft only defines surveillance functionality on a COMPLETED foundation; it is silent on what surveillance-grade capability looks like when the foundation is partially present, which is the operating condition of most LMICs for the next decade.",
+    "suggestedRevision": "Retain the capability set unchanged, but add to 2.2.1 an explicit statement that each application component (surveillance foremost) must be implementable in a defined degraded mode on a partially present foundation, with a progression path, and cross-reference the conformance tiers requested below (see comments on Appendix C and 4.3.5).",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 19"
+      }
+    ]
+  }
+}

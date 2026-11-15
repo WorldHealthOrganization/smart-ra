@@ -1,0 +1,93 @@
+{
+  "id": "pc-0051",
+  "summary": "In highlighting ID no mention is made of the privacy, control and safety concerns that tend to arise with respect to di…",
+  "comment": "In highlighting ID no mention is made of the privacy, control and safety concerns that tend to arise with respect to digital ID in many jurisdictions. This becomes particularly pertinent when addressing health needs and the issue of linkage arises",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-a447f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0051",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 51,
+      "entry": "50",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.3",
+      "page": "11",
+      "lines": "103-113",
+      "raw": "§1.1.3 p.11 l.103-113"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-a447f2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.11 l.103-113 read as the printed page; section 1.1.3 agrees"
+    },
+    "type": "editorial",
+    "text": "In highlighting ID no mention is made of the privacy, control and safety concerns that tend to arise with respect to digital ID in many jurisdictions. This becomes particularly pertinent when addressing health needs and the issue of linkage arises",
+    "suggestedRevision": "If not addressed elsewhere I would recommend some commentary on this issue as confidentiality has broken many a health data project at scale",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 51"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "decide",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the log's status was \"Not accepted\""
+      },
+      {
+        "at": "2026-10-07T05:19:31.472Z",
+        "transition": "reopen",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the master log's status was imported as a decision (by review-log); it was the log's, not an editor's (owner, 2026-10-07: \"nothing has been decided\"). Back to triaged; the log's status stays in this history."
+      }
+    ]
+  }
+}

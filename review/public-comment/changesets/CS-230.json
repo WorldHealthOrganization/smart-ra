@@ -1,0 +1,25 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-230",
+  "title": "Govern reuse, national extensions, local variation and bindings",
+  "requirements": "- Prefer governed reference and specialisation over copying external content, with provenance and upstream tracking\n- Require namespace, authority, rationale and upstream-contribution rules for national extensions and registered local variants\n- Specify what a terminology binding must state (strength, version, context, fallback)\n- Separate permitted local configuration from semantic extension",
+  "refs": [
+    "PC-2363",
+    "PC-2364",
+    "PC-2365",
+    "PC-2366",
+    "PC-2422"
+  ],
+  "anchor": "prose:f-be46bc",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

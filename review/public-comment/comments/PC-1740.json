@@ -1,0 +1,77 @@
+{
+  "id": "pc-1740",
+  "summary": "The scope includes medicines, vaccines, devices, diagnostics, and health commodities. These product classes use substan…",
+  "comment": "The scope includes medicines, vaccines, devices, diagnostics, and health commodities. These product classes use substantially different regulatory, identification, packaging, clinical, and lifecycle models.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1740",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 976,
+      "entry": "975",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry, 1",
+      "page": "145",
+      "lines": "Lines 382-387",
+      "raw": "§Product Registry, 1 p.145 l.Lines 382-387"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.145 l.Lines 382-387 read as the printed page; section 1 agrees"
+    },
+    "text": "The scope includes medicines, vaccines, devices, diagnostics, and health commodities. These product classes use substantially different regulatory, identification, packaging, clinical, and lifecycle models.",
+    "suggestedRevision": "Define a common product-identity core and domain-specific extensions for medicinal products, devices, diagnostics, vaccines, and other commodities. Avoid one undifferentiated record model.",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 976"
+      }
+    ]
+  }
+}

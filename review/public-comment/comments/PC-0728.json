@@ -1,0 +1,79 @@
+{
+  "id": "pc-0728",
+  "summary": "FHIR Terminology Conformance: A Ready-Made Testing Framework Section 3.7 of the DPI-H draft describes a testable, machi…",
+  "comment": "FHIR Terminology Conformance: A Ready-Made Testing Framework Section 3.7 of the DPI-H draft describes a testable, machine-readable architecture in which national implementations are verified against published conformance profiles. This is precisely the architecture that the HL7 FHIR Terminology Service specification was designed to support. SNOMED International and Regenstrief Institute acknowledge and support that HL7 International has published a mature FHIR Terminology Service capability model, including operations for CodeSystem lookup, ValueSet expansion, and concept translation, each of which maps directly to the DPI-H Terminology Service functions described in Section 3.4.5. Additionally, SNOMED International's Snowstorm server and Regenstrief's LOINC FHIR Terminology Service both implement this specification and are available as open-source reference implementations. We recommend that: ● The DPI-H conformance framework (Section 3.7) explicitly reference the HL7 FHIR Terminology Service specification (HL7 FHIR R4/R5, http://hl7.org/fhir/terminology-service.html) as the baseline conformance model for national Terminology Service implementations. ● We recommend that the organizations be invited to jointly develop a DPI-H Terminology Service Conformance Profile that countries can use to verify their implementations against the DPI-H standard. ● WHO/ITU consider an open reference implementation programme, in which nationally deployed instances of Snowstorm (SNOMED CT) and the LOINC FHIR API are certified as conformant reference implementations. 4.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0728",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 728,
+      "entry": "727",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d37df1fa79",
+      "organisation": "SNOMED International; Regenstrief Institute; HL7 International",
+      "country": "International"
+    },
+    "citation": {
+      "lines": "Area 3",
+      "raw": "l.Area 3"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-7",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites Section 3.7 conformance; offers FHIR terminology testing framework."
+    },
+    "text": "FHIR Terminology Conformance: A Ready-Made Testing Framework Section 3.7 of the DPI-H draft describes a testable, machine-readable architecture in which national implementations are verified against published conformance profiles. This is precisely the architecture that the HL7 FHIR Terminology Service specification was designed to support. SNOMED International and Regenstrief Institute acknowledge and support that HL7 International has published a mature FHIR Terminology Service capability model, including operations for CodeSystem lookup, ValueSet expansion, and concept translation, each of which maps directly to the DPI-H Terminology Service functions described in Section 3.4.5. Additionally, SNOMED International's Snowstorm server and Regenstrief's LOINC FHIR Terminology Service both implement this specification and are available as open-source reference implementations. We recommend that: ● The DPI-H conformance framework (Section 3.7) explicitly reference the HL7 FHIR Terminology Service specification (HL7 FHIR R4/R5, http://hl7.org/fhir/terminology-service.html) as the baseline conformance model for national Terminology Service implementations. ● We recommend that the organizations be invited to jointly develop a DPI-H Terminology Service Conformance Profile that countries can use to verify their implementations against the DPI-H standard. ● WHO/ITU consider an open reference implementation programme, in which nationally deployed instances of Snowstorm (SNOMED CT) and the LOINC FHIR API are certified as conformant reference implementations. 4.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 728"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites Section 3.7 conformance; offers FHIR terminology testing framework."
+      }
+    ]
+  }
+}

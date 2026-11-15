@@ -1,0 +1,88 @@
+{
+  "id": "pc-0305",
+  "summary": "Appendix F's \"Business Rule Enforcement\" capability validates that authoring and publication actions conform to governa…",
+  "comment": "Appendix F's \"Business Rule Enforcement\" capability validates that authoring and publication actions conform to governance policy. The detailed SGI capability set does not explicitly include runtime enforcement of governed constraints on data instances. That distinction matters because governance of an artefact does not by itself ensure that data produced or exchanged against that artefact conforms to it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:f-79f600",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0305",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 305,
+      "entry": "304",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5 / Appendix F",
+      "page": "62 / 242",
+      "lines": "492-494 / Table F (Authoring/publication)",
+      "caption": "Table F",
+      "raw": "§3.4.5 / Appendix F p.62 / 242 l.492-494 / Table F (Authoring/publication)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:f-79f600",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-dfede6"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Proposes a new capability in the Appendix F SGI capability table (Business Rule Enforcement)"
+    },
+    "type": "technical",
+    "text": "Appendix F's \"Business Rule Enforcement\" capability validates that authoring and publication actions conform to governance policy. The detailed SGI capability set does not explicitly include runtime enforcement of governed constraints on data instances. That distinction matters because governance of an artefact does not by itself ensure that data produced or exchanged against that artefact conforms to it.",
+    "suggestedRevision": "Add a capability under a suitable SGI category (e.g. Consumption or Monitoring): \"Runtime constraint enforcement — machine-checkable validation of data instances against the applicable governed model at the point of use, distinct from authoring and publication governance.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 305"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Proposes a new capability in the Appendix F SGI capability table (Business Rule Enforcement)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "pc-0460",
+  "summary": "The implementation guidance does not address what happens when a DPI-H component operator fails, withdraws or is discon…",
+  "comment": "The implementation guidance does not address what happens when a DPI-H component operator fails, withdraws or is discontinued. For infrastructure on which a statutory right depends this is not a residual risk; it determines whether the right is real.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0460",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 460,
+      "entry": "459",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "90",
+      "lines": "113",
+      "raw": "§4.2.2 p.90 l.113"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-2-2",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-1-aef1b3"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §4.2.2 l.113 (start of phased implementation); requests continuity-of-supply guidance not tied to one paragraph."
+    },
+    "type": "general",
+    "text": "The implementation guidance does not address what happens when a DPI-H component operator fails, withdraws or is discontinued. For infrastructure on which a statutory right depends this is not a residual risk; it determines whether the right is real.",
+    "suggestedRevision": "Add continuity of supply as an implementation requirement for every component classified as DPI-H: a designated fallback operator, a transfer dossier maintained in advance, source-code and data escrow, and a transfer plan that is exercised rather than only documented. The Dutch personal health environment programme is a documented case - a subsidised market of applications was created without any party obliged to secure the underlying function, and when the subsidy ended the statutory right of access became unexercisable through no single party's failure.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 460"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §4.2.2 l.113 (start of phased implementation); requests continuity-of-supply guidance not tied to one paragraph."
+      }
+    ]
+  }
+}

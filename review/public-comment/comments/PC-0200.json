@@ -1,0 +1,77 @@
+{
+  "id": "pc-0200",
+  "summary": "The document devotes a footnote and two governance provisions to SNOMED CT's licensing model and national member-fee ob…",
+  "comment": "The document devotes a footnote and two governance provisions to SNOMED CT's licensing model and national member-fee obligations but never notes that LOINC is freely available worldwide at no cost, with no membership requirement. This asymmetry could leave national planners with the impression that all three core terminologies carry licensing costs.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0200",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 200,
+      "entry": "199",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-fa81b3a622",
+      "name": "Marjorie Rallins, DPM, MS, Executive Director, Health Data Standards",
+      "organisation": "Regenstrief Institute, Health Data Standards, LOINC/UCUM",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "p. 29 footnote (standards licensing); Appendix C – “Licensing management” and Governance item (4), “Licensing obligations” (pp. 166–171)",
+      "page": "29\n166-171",
+      "raw": "§p. 29 footnote (standards licensing); Appendix C – “Licensing management” and Governance item (4), “Licensing obligations” (pp. 166–171) p.29\n166-171"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The document devotes a footnote and two governance provisions to SNOMED CT's licensing model and national member-fee obligations but never notes that LOINC is freely available worldwide at no cost, with no membership requirement. This asymmetry could leave national planners with the impression that all three core terminologies carry licensing costs.",
+    "suggestedRevision": "Add a parallel footnote or sentence clarifying that LOINC is released under an open license with no license fee, so that licensing/budget implications are distinguished clearly across the three core terminologies.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 200"
+      }
+    ]
+  }
+}

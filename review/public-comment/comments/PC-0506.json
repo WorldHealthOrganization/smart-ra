@@ -1,0 +1,78 @@
+{
+  "id": "pc-0506",
+  "summary": "Section 3.4.5 states that Semantic Governance Infrastructure (SGI) is foundational, and section 4.3.1 requires national…",
+  "comment": "Section 3.4.5 states that Semantic Governance Infrastructure (SGI) is foundational, and section 4.3.1 requires national data models to be governed before implementation begins. The phased plan nevertheless lists establishment of SGI in Phase 3, after Phase 2 has established components and basic terminology services. Although the introduction says governance threads begin earlier and are listed where most prominent, it does not identify the minimum semantic-governance functions that must operate while Phase 2 models and profiles are created.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-c1332c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0506",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 506,
+      "entry": "505",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2 (with 3.4.5 and 4.3.1)",
+      "page": "90, 92, 94 and 62",
+      "lines": "Lines 120-123, 176-177, 262-273 and 492-494",
+      "raw": "§4.2.2 (with 3.4.5 and 4.3.1) p.90, 92, 94 and 62 l.Lines 120-123, 176-177, 262-273 and 492-494"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-c1332c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.90, 92, 94 and 62 l.Lines 120-123, 176-177, 262-273 and 492-494 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "technical",
+    "text": "Section 3.4.5 states that Semantic Governance Infrastructure (SGI) is foundational, and section 4.3.1 requires national data models to be governed before implementation begins. The phased plan nevertheless lists establishment of SGI in Phase 3, after Phase 2 has established components and basic terminology services. Although the introduction says governance threads begin earlier and are listed where most prominent, it does not identify the minimum semantic-governance functions that must operate while Phase 2 models and profiles are created.",
+    "suggestedRevision": "Place a minimum SGI capability in Phase 2 alongside terminology services and information-model work. It should cover intake, authoring, approval, publication, versioning and release. Reserve Phase 3 for expanding this capability to broader multi-stakeholder curation, harmonisation and lifecycle maturity.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 506"
+      }
+    ]
+  }
+}

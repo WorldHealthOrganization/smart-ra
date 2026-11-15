@@ -1,0 +1,86 @@
+{
+  "id": "pc-0187",
+  "summary": "The document acknowledges AI cost and sustainability challenges but provides no practical guidance on financing models.…",
+  "comment": "The document acknowledges AI cost and sustainability challenges but provides no practical guidance on financing models. Countries need to understand how to fund AI adoption sustainably, including through shared infrastructure models, public-private partnerships, and integration with existing DPI-H investments.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-4-3957e6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0187",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 187,
+      "entry": "186",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.4",
+      "page": "108",
+      "lines": "170 - 183",
+      "raw": "§5.4.4 p.108 l.170 - 183"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-4-3957e6",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-4-83c937"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.4 l.170-183 on AI cost and sustainability; this block opens 5.4.4"
+    },
+    "type": "general",
+    "text": "The document acknowledges AI cost and sustainability challenges but provides no practical guidance on financing models. Countries need to understand how to fund AI adoption sustainably, including through shared infrastructure models, public-private partnerships, and integration with existing DPI-H investments.",
+    "suggestedRevision": "1) Add a sub-section on AI financing and procurement, including: options for public-private partnerships; shared AI infrastructure models where costs are pooled across programmes; guidance on managing vendor lock-in (including through open-weight and open-source models); and criteria for evaluating whether to build sovereign AI capacity or rely on commercial offerings. \n2) Include a risk assessment for data sovereignty/ownership and security when using commercial API-based models.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 187"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.4 l.170-183 on AI cost and sustainability; this block opens 5.4.4"
+      }
+    ]
+  }
+}

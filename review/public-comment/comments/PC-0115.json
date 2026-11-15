@@ -1,0 +1,81 @@
+{
+  "id": "pc-0115",
+  "summary": "The term \"layered\" is reused here for regional-vs-national governance (\"Layered governance,\" 511) after 3.4.5 already e…",
+  "comment": "The term \"layered\" is reused here for regional-vs-national governance (\"Layered governance,\" 511) after 3.4.5 already established \"layers\" to mean governance/runtime/content (419–431). The same word now denotes two unrelated structures within a few pages of each other.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-6-b4320d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0115",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 115,
+      "entry": "114",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.6 Regional governance considerations",
+      "page": "62-63",
+      "lines": "495-516",
+      "raw": "§3.4.6 Regional governance considerations p.62-63 l.495-516"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-6-b4320d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-6-12c0cd",
+        "prose:3-4-6-7842fb"
+      ],
+      "note": "p.62-63 l.495-516 read as the printed page; section 3.4.6 agrees"
+    },
+    "type": "editorial",
+    "text": "The term \"layered\" is reused here for regional-vs-national governance (\"Layered governance,\" 511) after 3.4.5 already established \"layers\" to mean governance/runtime/content (419–431). The same word now denotes two unrelated structures within a few pages of each other.",
+    "suggestedRevision": "Use a distinct term for the regional/national split (e.g. \"tiered governance\" or \"governance scope split\") to avoid conflating it with the governance/runtime/content layering in 3.4.5.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 115"
+      }
+    ]
+  }
+}

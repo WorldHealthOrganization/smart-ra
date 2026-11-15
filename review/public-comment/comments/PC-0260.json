@@ -1,0 +1,81 @@
+{
+  "id": "pc-0260",
+  "summary": "The distinction between authoritative deterministic services and model inference is valuable but currently presented as…",
+  "comment": "The distinction between authoritative deterministic services and model inference is valuable but currently presented as an emerging AI pattern rather than an architecture-wide safety principle. Exact, governed rules and probabilistic inference have different assurance needs and should not be blended invisibly.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-e0d91d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0260",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 260,
+      "entry": "259",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2",
+      "page": "106",
+      "lines": "85–102",
+      "raw": "§5.2 p.106 l.85–102"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-e0d91d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-2-d49756",
+        "prose:5-2-32e323"
+      ],
+      "note": "p.106 l.85–102 read as the printed page; section 5.2 agrees"
+    },
+    "type": "technical",
+    "text": "The distinction between authoritative deterministic services and model inference is valuable but currently presented as an emerging AI pattern rather than an architecture-wide safety principle. Exact, governed rules and probabilistic inference have different assurance needs and should not be blended invisibly.",
+    "suggestedRevision": "Elevate the principle, where a health-system function has an authoritative, exact or rule-bound answer- such as identity status, consent, units, eligibility, indicator definitions, reference calculations or authorisation- AI should invoke a governed deterministic service rather than recreate the result through inference. Reserve probabilistic methods for genuine uncertainty, preserve uncertainty explicitly, and keep inferred outputs distinguishable from authoritative facts and rules.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 260"
+      }
+    ]
+  }
+}

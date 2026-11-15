@@ -1,0 +1,79 @@
+{
+  "id": "pc-0110",
+  "summary": "\"Terminology service\" and \"terminology server\" are used inconsistently, apparently referring to the same element, simil…",
+  "comment": "\"Terminology service\" and \"terminology server\" are used inconsistently, apparently referring to the same element, similar to the PKI/Trust Architecture issue above.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0110",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 110,
+      "entry": "109",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 The reference architecture in practice",
+      "page": "50-52",
+      "lines": "172-192, Figure 3.3-3.5",
+      "caption": "Figure 3.3",
+      "raw": "§3.3 The reference architecture in practice p.50-52 l.172-192, Figure 3.3-3.5"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Figure 3.3 as cited"
+    },
+    "type": "editorial",
+    "text": "\"Terminology service\" and \"terminology server\" are used inconsistently, apparently referring to the same element, similar to the PKI/Trust Architecture issue above.",
+    "suggestedRevision": "Standardise on a single term throughout \"service\" if referring to the functional/architectural role, or \"server\" if referring to the specific technical implementation and apply consistently across all figures and text.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 110"
+      }
+    ]
+  }
+}

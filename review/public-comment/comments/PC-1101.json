@@ -1,0 +1,77 @@
+{
+  "id": "pc-1101",
+  "summary": "Evaluation results remain implicit despite the section discussing repeated goal assessment and adoption measurement. Th…",
+  "comment": "Evaluation results remain implicit despite the section discussing repeated goal assessment and adoption measurement. This prevents the architecture model from carrying historical evidence or comparison over time.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-5-830dfa",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1101",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 337,
+      "entry": "336",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.5",
+      "page": "85",
+      "lines": "Lines 1187-1192",
+      "raw": "§3.7.5 p.85 l.Lines 1187-1192"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-5-830dfa",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.85 l.Lines 1187-1192 read as the printed page; section 3.7.5 agrees"
+    },
+    "text": "Evaluation results remain implicit despite the section discussing repeated goal assessment and adoption measurement. This prevents the architecture model from carrying historical evidence or comparison over time.",
+    "suggestedRevision": "Use the ArchiMate Assessment element or a linked results model to record findings, dates, evidence, confidence, evaluator, status, and trends while avoiding unnecessary operational-data burden in the architecture model itself.",
+    "labels": {
+      "Comment type": "Q15 - Completeness"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 337"
+      }
+    ]
+  }
+}

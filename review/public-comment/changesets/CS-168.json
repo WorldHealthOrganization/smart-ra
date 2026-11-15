@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-168",
+  "title": "Strengthen Product Registry versioning, lifecycle and provisional records",
+  "requirements": "- Define separate product, packaging, regulatory, item and publication statuses\n- Expand history and provenance metadata and require impact assessment of changes\n- Allow time-bound provisional records for emergency procurement, donations and migration, with later reconciliation\n- Define decision rights per role\n- Define the effect of each lifecycle status on consumers; prohibit deletion of identifiers needed for history\n- Require impact analysis across consumers before major changes\n- Define a complete audit profile",
+  "refs": [
+    "PC-1756",
+    "PC-1757",
+    "PC-1775",
+    "PC-1780",
+    "PC-1786",
+    "PC-1810",
+    "PC-1817"
+  ],
+  "anchor": "sec:c-metadata-registries-and-foundati-product-registry",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

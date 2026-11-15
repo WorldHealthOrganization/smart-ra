@@ -1,0 +1,74 @@
+{
+  "id": "pc-2475",
+  "summary": "Worked direct ICD-11 diagnosis pathway — ICD-11 is already in the table's standards list, but is absent from its worked…",
+  "comment": "Worked direct ICD-11 diagnosis pathway — ICD-11 is already in the table's standards list, but is absent from its worked interactions. A diagnosis example demonstrates its strengths without trying to substitute it for laboratory or measurement terminology. Evidence for the identifier example: WHO ICD API v2 (https://icd.who.int/docs/icd-api/APIDoc-Version2/). This is an explanatory scenario, not a claim of a tested deployment or a complete FHIR instance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5-3-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2475",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 18,
+      "entry": "17",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.5.3.1, immediately after Table 3.5",
+      "page": "70",
+      "lines": "A06.01",
+      "raw": "§§3.5.3.1, immediately after Table 3.5 p.70 l.A06.01"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5-3-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.5.3.1 only"
+    },
+    "text": "Worked direct ICD-11 diagnosis pathway — ICD-11 is already in the table's standards list, but is absent from its worked interactions. A diagnosis example demonstrates its strengths without trying to substitute it for laboratory or measurement terminology. Evidence for the identifier example: WHO ICD API v2 (https://icd.who.int/docs/icd-api/APIDoc-Version2/). This is an explanatory scenario, not a claim of a tested deployment or a complete FHIR instance.",
+    "suggestedRevision": "Insert complete worked-example box; retain blood-pressure example: Worked example: an ICD-11-coded clinical diagnosis\n\nA clinician records a diagnosis using ICD-11 terminology. The terminology service resolves the selected concept against the specified WHO release and provides its identifier, title, relevant properties, and available coding instructions. For example, the WHO API documentation identifies cholera by Foundation URI http://id.who.int/icd/entity/257068234; its MMS category code is 1A00. The Foundation URI and the MMS code are recorded with their respective namespace and release, rather than treated as the same identifier.\n\nThe LIMR defines the clinical statement: whose condition it is, the encounter, onset or relevant time, clinical and verification status, and other context required for the use case. The record preserves the clinician's statement and any valid coded expression, including linked postcoordination detail when applicable.\n\nA receiving clinical system interprets the diagnosis using the same identified ICD-11 content. A statistical process derives the applicable MMS representation and applies the relevant selection and aggregation rules, retaining a link to the source statement. No conversion to SNOMED CT is a prerequisite for this path. Where another system requires a different terminology, any additional mapping is governed separately, with its limitations recorded.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 18"
+      }
+    ]
+  }
+}

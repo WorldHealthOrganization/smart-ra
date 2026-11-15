@@ -1,0 +1,25 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-100",
+  "title": "Make minimum datasets proportionate and purpose-limited",
+  "requirements": "- Require a documented purpose for each mandatory element\n- Note that fitness for reuse depends on purpose, granularity, provenance and lawful basis\n- Separate schema support from mandatory presence; define unknown and not-applicable values\n- Pair the principle with data minimisation at source where it is introduced\n- Ensure missing address or contact data cannot block registration or care",
+  "refs": [
+    "PC-0055",
+    "PC-0366",
+    "PC-0698",
+    "PC-0745",
+    "PC-1211",
+    "PC-1212"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 6 comment(s)"
+    }
+  ]
+}

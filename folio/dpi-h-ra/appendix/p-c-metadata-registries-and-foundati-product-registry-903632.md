@@ -1,0 +1,1 @@
+***Note:*** *Cross-cutting requirements (audit logging, subscription and notification, performance and availability) apply consistently across all registry components. Where these appear in individual component specifications they are written for completeness.*

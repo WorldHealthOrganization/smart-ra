@@ -1,0 +1,83 @@
+{
+  "id": "pc-2506",
+  "summary": "Native ICD-11 service capability — Existing requirements name generic functions but do not ensure that any offered serv…",
+  "comment": "Native ICD-11 service capability — Existing requirements name generic functions but do not ensure that any offered server actually implements ICD-11's distinctive model and coding workflow. The conditional status avoids requiring every country or every deployed service to implement an unused standard. Evidence: WHO API (https://icd.who.int/docs/icd-api/APIDoc-Version2/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/), Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2506",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 49,
+      "entry": "48",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "170",
+      "lines": "A15.01",
+      "raw": "§Terminology Service, §5 p.170 l.A15.01"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+    },
+    "text": "Native ICD-11 service capability — Existing requirements name generic functions but do not ensure that any offered server actually implements ICD-11's distinctive model and coding workflow. The conditional status avoids requiring every country or every deployed service to implement an unused standard. Evidence: WHO API (https://icd.who.int/docs/icd-api/APIDoc-Version2/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/), Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf).",
+    "suggestedRevision": "Insert row: Business process = Native classification and terminology support; Status = Required where ICD-11 is included in the implementation’s declared scope: ICD-11 terminology and classification support. Where ICD-11 is selected, the TS, directly or through a declared integrated service, shall support the WHO content model needed by the use case. This includes distinguishing Foundation entities from MMS categories; resolving their identifiers and releases; providing available designations, definitions, relationships, and coding guidance; and preserving complete expressions and their applicable postcoordination constraints. The implementation shall identify which validation and coding-assistance functions it supplies and which are supplied by an integrated WHO tool or other validated component. An implementation used for statistical coding shall apply the relevant ICD-11 rules; a code lookup alone shall not be represented as complete coding support. National conformance documentation shall specify the supported content, release, language, interfaces, and tested functions. A connection to WHO services or a local deployment may satisfy the relevant functions when it meets the same conformance, availability, and governance requirements.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 49"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+      }
+    ]
+  }
+}

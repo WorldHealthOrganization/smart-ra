@@ -1,0 +1,78 @@
+{
+  "id": "pc-0445",
+  "summary": "Section 2.2.2 (lines 148–151) and section 3.6.2 (lines 811–817) name HL7 FHIR, SNOMED CT (and SNOMED GPS), ICD-11, LOIN…",
+  "comment": "Section 2.2.2 (lines 148–151) and section 3.6.2 (lines 811–817) name HL7 FHIR, SNOMED CT (and SNOMED GPS), ICD-11, LOINC, GS1/IDMP, DICOM, IHE profiles and the International Patient Summary as the referenced content standards. openEHR is acknowledged separately, as one of the standards the Logical Information Model Repository can anchor to (Appendix C, LIMR, architecture placement note). However, the wider ISO/TC 215 body of health informatics standards is not named in either list-  including ISO 13606 (EHR communication), ISO 13940/ContSys (health informatics system of concepts) and ISO 18308 (EHR architecture requirements, cited once only as a footnote reference rather than as a standard the architecture supports). Countries that have already invested in ISO-based national EHR architectures are not given an explicit place in the reference architecture's standards list.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-2c4d7e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0445",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 445,
+      "entry": "444",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.2;  3.6.2; Appendix C -  Logical Information Model Repository",
+      "page": "28–29; 73–74; 172–188",
+      "lines": "148–151; 811–817; Appendix C-  LIMR, architecture placement note (p. 172)",
+      "raw": "§2.2.2;  3.6.2; Appendix C -  Logical Information Model Repository p.28–29; 73–74; 172–188 l.148–151; 811–817; Appendix C-  LIMR, architecture placement note (p. 172)"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-2c4d7e",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.28–29; 73–74; 172–188 l.148–151; 811–817; Appendix C-  LIMR, architecture placement note (p. 172) read as the printed page; section C does NOT agree"
+    },
+    "type": "technical",
+    "text": "Section 2.2.2 (lines 148–151) and section 3.6.2 (lines 811–817) name HL7 FHIR, SNOMED CT (and SNOMED GPS), ICD-11, LOINC, GS1/IDMP, DICOM, IHE profiles and the International Patient Summary as the referenced content standards. openEHR is acknowledged separately, as one of the standards the Logical Information Model Repository can anchor to (Appendix C, LIMR, architecture placement note). However, the wider ISO/TC 215 body of health informatics standards is not named in either list-  including ISO 13606 (EHR communication), ISO 13940/ContSys (health informatics system of concepts) and ISO 18308 (EHR architecture requirements, cited once only as a footnote reference rather than as a standard the architecture supports). Countries that have already invested in ISO-based national EHR architectures are not given an explicit place in the reference architecture's standards list.",
+    "suggestedRevision": "In 2.2.2 or 3.6.2, add ISO/TC 215 standards (ISO 13606, ISO 13940, ISO 18308, and related ISO/TC 215 standards) to the list of standards the architecture references, alongside HL7 FHIR and the openEHR reference already given in Appendix C. This would make explicit-  rather than leave implicit-  that countries with existing investments in ISO-based national architectures have a recognised path into the reference architecture, without weakening the recommendation of FHIR as the primary exchange framework.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 445"
+      }
+    ]
+  }
+}

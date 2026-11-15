@@ -1,0 +1,7 @@
+- Client Registry
+- Health Facility Registry
+- Health Workforce Registry
+- Product Registry
+- Lifelong Health Record
+- Terminology Service
+- Logical Information Model Repository

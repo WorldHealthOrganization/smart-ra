@@ -1,0 +1,81 @@
+{
+  "id": "pc-0571",
+  "summary": "OMISSION — there is no guidance anywhere in the framework on the capture, transmission or storage of clinical photograp…",
+  "comment": "OMISSION — there is no guidance anywhere in the framework on the capture, transmission or storage of clinical photographs. IPC recently inventoried the use of digital tools by dermatologists worldwide across all regions (manuscript in preparation); dermatologists use a wide variety of digital tools, in particular for sharing psoriasis images. Images require quality control, consent, privacy, retention, encryption and interoperability, and a reimbursement system in every country. Given siloed healthcare organisation past and present, these images must be retrievable by other HCPs caring for the patient. Psoriasis is a systemic disease with comorbidities including cardiometabolic disease, depression and psoriatic arthritis, so care requires an infrastructure permitting interoperability and easy access for all healthcare workers involved. This matters especially in low-resource countries, where affordable, scalable, interoperable solutions can improve access to specialist care.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-4-834f89",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0571",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 571,
+      "entry": "570",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2",
+      "page": "49–52; 114–123",
+      "raw": "§2 p.49–52; 114–123"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-834f89",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:2-4-98e953",
+        "prose:2-4-47566f",
+        "prose:2-4-611812"
+      ],
+      "note": "p.49–52; 114–123 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "OMISSION — there is no guidance anywhere in the framework on the capture, transmission or storage of clinical photographs. IPC recently inventoried the use of digital tools by dermatologists worldwide across all regions (manuscript in preparation); dermatologists use a wide variety of digital tools, in particular for sharing psoriasis images. Images require quality control, consent, privacy, retention, encryption and interoperability, and a reimbursement system in every country. Given siloed healthcare organisation past and present, these images must be retrievable by other HCPs caring for the patient. Psoriasis is a systemic disease with comorbidities including cardiometabolic disease, depression and psoriatic arthritis, so care requires an infrastructure permitting interoperability and easy access for all healthcare workers involved. This matters especially in low-resource countries, where affordable, scalable, interoperable solutions can improve access to specialist care.",
+    "suggestedRevision": "Add explicit WHO guidance on consent, quality standards, retention, encryption and interoperability of clinical images as part of the Lifelong Health Record concept, together with the legislative/privacy framework and a reimbursement expectation. Guidance on privacy alongside the medical need for interoperability is mandatory.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 571"
+      }
+    ]
+  }
+}

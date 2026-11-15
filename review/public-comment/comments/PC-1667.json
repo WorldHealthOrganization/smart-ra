@@ -1,0 +1,80 @@
+{
+  "id": "pc-1667",
+  "summary": "Clinical systems verifying prescribing authority need more than registration and affiliation. Prescribing rights may de…",
+  "comment": "Clinical systems verifying prescribing authority need more than registration and affiliation. Prescribing rights may depend on profession, specialty, jurisdiction, medicine class, supervision, local privileges, and current restrictions. [draft-for-...idance.pdf | PDF]",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-c279d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1667",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 903,
+      "entry": "902",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Workforce Registry, 4",
+      "page": "137",
+      "lines": "Lines 320-329",
+      "raw": "§Health Workforce Registry, 4 p.137 l.Lines 320-329"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-c279d9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-93960c",
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-163f20"
+      ],
+      "note": "p.137 l.Lines 320-329 read as the printed page; section 4 agrees"
+    },
+    "text": "Clinical systems verifying prescribing authority need more than registration and affiliation. Prescribing rights may depend on profession, specialty, jurisdiction, medicine class, supervision, local privileges, and current restrictions. [draft-for-...idance.pdf | PDF]",
+    "suggestedRevision": "Distinguish professional licence verification from task-specific or facility-specific authorisation. Define additional authoritative sources and policy checks.",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 903"
+      }
+    ]
+  }
+}

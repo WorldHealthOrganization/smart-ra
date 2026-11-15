@@ -1,0 +1,79 @@
+{
+  "id": "pc-0346",
+  "summary": "The principle's caution against 'a single centralised mediator' is a substantive architectural position, but no country…",
+  "comment": "The principle's caution against 'a single centralised mediator' is a substantive architectural position, but no country implementation example is cited to demonstrate it in practice, and the trade-offs relative to well-run centralised HIE/mediator models (in use in many current national health information exchanges) are not discussed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-86952f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0346",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 346,
+      "entry": "345",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3",
+      "page": "32",
+      "lines": "240–249",
+      "raw": "§2.3 p.32 l.240–249"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-86952f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-ab33c6"
+      ],
+      "note": "p.32 l.240–249 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "The principle's caution against 'a single centralised mediator' is a substantive architectural position, but no country implementation example is cited to demonstrate it in practice, and the trade-offs relative to well-run centralised HIE/mediator models (in use in many current national health information exchanges) are not discussed.",
+    "suggestedRevision": "Cross-reference a relevant Appendix D country example illustrating distributed/federated mediation working in practice, or acknowledge the governance-coordination trade-offs of decentralisation more explicitly.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 346"
+      }
+    ]
+  }
+}

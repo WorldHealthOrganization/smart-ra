@@ -1,0 +1,73 @@
+{
+  "id": "pc-2638",
+  "summary": "Consent should not be characterised as the primary universal mechanism governing health-data processing. ",
+  "comment": "Consent should not be characterised as the primary universal mechanism governing health-data processing. \n\nThis conflates three distinct concepts: the legal basis authorising processing; individual/data-subject rights; and consent as one particular legal or governance mechanism. \n\nArticle 9(2) GDPR expressly provides multiple grounds for processing health data besides explicit consent, including substantial public interest, healthcare provision and management, public health, and scientific research/statistics. \n\nThe EHDS Regulation likewise combines individual control with access restrictions and opt-out rights and does not make individual consent a general prerequisite for lawful secondary use. An architecture that operationalises consent as the default authorisation layer could therefore incorrectly constrain healthcare, public-health and statutory secondary-use processing in many jurisdictions.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:2-3-673e06",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2638",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 16,
+      "entry": "6",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 DPI-H Reference Architecture Design Principles",
+      "page": "35",
+      "lines": "355-357",
+      "raw": "§2.3 DPI-H Reference Architecture Design Principles p.35 l.355-357"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-673e06",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.35 l.355-357 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "Consent should not be characterised as the primary universal mechanism governing health-data processing. \n\nThis conflates three distinct concepts: the legal basis authorising processing; individual/data-subject rights; and consent as one particular legal or governance mechanism. \n\nArticle 9(2) GDPR expressly provides multiple grounds for processing health data besides explicit consent, including substantial public interest, healthcare provision and management, public health, and scientific research/statistics. \n\nThe EHDS Regulation likewise combines individual control with access restrictions and opt-out rights and does not make individual consent a general prerequisite for lawful secondary use. An architecture that operationalises consent as the default authorisation layer could therefore incorrectly constrain healthcare, public-health and statutory secondary-use processing in many jurisdictions.",
+    "suggestedRevision": "Replace the second sentence and align the first as follows: “Consent is one mechanism through which individuals may exercise control over health information where consent is applicable under the relevant legal or policy framework. Individual control may also be exercised through rights of access, information, rectification, restriction, objection or opt-out, and through legally defined confidentiality and access safeguards. DPI-H should support technically enforceable consent where required, without assuming that consent is the universal legal basis for access to or processing of health data.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 16"
+      }
+    ]
+  }
+}

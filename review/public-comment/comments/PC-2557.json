@@ -1,0 +1,75 @@
+{
+  "id": "pc-2557",
+  "summary": "We need to also list what the Regsitry is NOT. Either here or elsewhere. Building on my earlier comments that the HWF r…",
+  "comment": "We need to also list what the Regsitry is NOT. Either here or elsewhere. Building on my earlier comments that the HWF registry will be consumed/linked/synced by other systems such as payroll etc. Suggested text«The registry is distinct from operational systems that manage  (i) employment and payroll, HR actions records (ii) learning records on CPD trainings etc  »",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2557",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 36,
+      "entry": "35",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-1a248e902c",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Proposed \"registry is distinct from operational systems (payroll, HR, CPD)\" text belongs to the placement box."
+    },
+    "text": "We need to also list what the Regsitry is NOT. Either here or elsewhere. Building on my earlier comments that the HWF registry will be consumed/linked/synced by other systems such as payroll etc. Suggested text«The registry is distinct from operational systems that manage  (i) employment and payroll, HR actions records (ii) learning records on CPD trainings etc  »",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 36"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Proposed \"registry is distinct from operational systems (payroll, HR, CPD)\" text belongs to the placement box."
+      }
+    ]
+  }
+}

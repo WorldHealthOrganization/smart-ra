@@ -1,0 +1,78 @@
+{
+  "id": "pc-0397",
+  "summary": "The core attributes focus mainly at access, dashboards and dissemination. DHIS2/HISP evidence treats information use as…",
+  "comment": "The core attributes focus mainly at access, dashboards and dissemination. DHIS2/HISP evidence treats information use as a decentralised cycle linking data quality, interpretation, feedback, action and renewed demand. Platform features specifically desgined to support data use include user-specific dashboards, maps, interpretations/discussion, internal messages, alerts and action tracking. These features enrich decision-point convenings such as data review meetings, healthworker supervision and policy dialogues. In essence, HMIS should promote translation of data into information, and track actions taken by HMIS actors.  Evidence: https://docs.dhis2.org/en/implement/health/chis-community-health-information-system/implementation/data-quality-and-use.html",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0397",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 397,
+      "entry": "396",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – HMIS",
+      "page": "211",
+      "lines": "64–108",
+      "raw": "§Appendix C – HMIS p.211 l.64–108"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.211 l.64–108 read as the printed page; section C agrees"
+    },
+    "type": "general",
+    "text": "The core attributes focus mainly at access, dashboards and dissemination. DHIS2/HISP evidence treats information use as a decentralised cycle linking data quality, interpretation, feedback, action and renewed demand. Platform features specifically desgined to support data use include user-specific dashboards, maps, interpretations/discussion, internal messages, alerts and action tracking. These features enrich decision-point convenings such as data review meetings, healthworker supervision and policy dialogues. In essence, HMIS should promote translation of data into information, and track actions taken by HMIS actors.  Evidence: https://docs.dhis2.org/en/implement/health/chis-community-health-information-system/implementation/data-quality-and-use.html",
+    "suggestedRevision": "Add ‘decentralised information-to-action and feedback’ as a core capability. Require role-appropriate analytics at facility, district and national levels; interpretation/discussion; configurable alerts; action plans with owners and deadlines; follow-up and closure; supervisory feedback to data producers; and measurement of whether information changed decisions or services.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 397"
+      }
+    ]
+  }
+}

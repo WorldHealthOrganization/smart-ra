@@ -1,0 +1,67 @@
+{
+  "id": "pc-2720",
+  "summary": "§2.4.2, p. 39, lines 506–507. [note]",
+  "comment": "§2.4.2, p. 39, lines 506–507. [note]\nplease rephrase:\nWhatever the composition of health funds  (primarily a mix of taxation, insurance contributions, as well as out-of-pocket payments)",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:2-4-2-bbbb9a",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2720",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 20,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-7fdc281d1f",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "2.4.2",
+      "page": "39",
+      "lines": "506–507",
+      "raw": "§2.4.2, p. 39, lines 506–507. [note]\nplease rephrase:\nWhatever the composition of health funds  (primarily a mix of taxa"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-2-bbbb9a",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.39 l.506–507 read as the printed page; section 2.4.2 agrees"
+    },
+    "text": "§2.4.2, p. 39, lines 506–507. [note]\nplease rephrase:\nWhatever the composition of health funds  (primarily a mix of taxation, insurance contributions, as well as out-of-pocket payments)",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

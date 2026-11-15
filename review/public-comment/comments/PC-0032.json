@@ -1,0 +1,83 @@
+{
+  "id": "pc-0032",
+  "summary": "There is geographic imbalance in the country examples. There is no Southeast Asian, Pacific, or Central/West Asian exam…",
+  "comment": "There is geographic imbalance in the country examples. There is no Southeast Asian, Pacific, or Central/West Asian example. Moreover, of the 13 countries, 7 are high-income.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0032",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 32,
+      "entry": "31",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Are the country and regional implementation examples accurate and useful? Please flag any inaccuracies, with a source where possible.",
+      "raw": "§Are the country and regional implementation examples accurate and useful? Please flag any inaccuracies, with a source where possible."
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About the geographic balance of the country implementation examples (D.2)"
+    },
+    "type": "general",
+    "text": "There is geographic imbalance in the country examples. There is no Southeast Asian, Pacific, or Central/West Asian example. Moreover, of the 13 countries, 7 are high-income.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial",
+      "Consider by TWG? Human categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 32"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About the geographic balance of the country implementation examples (D.2)"
+      }
+    ]
+  }
+}

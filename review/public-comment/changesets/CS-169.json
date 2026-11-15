@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-169",
+  "title": "Specify Product Registry interfaces and access profiles",
+  "requirements": "- Reference a national Product Registry implementation guide for APIs, events and bulk access\n- Extend or qualify the user list (regulators, public health, customs, researchers, patients) with access profiles\n- Make critical status-event notifications mandatory for authorised subscribers\n- Define service classes with availability and degraded-mode requirements",
+  "refs": [
+    "PC-1784",
+    "PC-1787",
+    "PC-1788",
+    "PC-1818"
+  ],
+  "anchor": "sec:c-metadata-registries-and-foundati-product-registry",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

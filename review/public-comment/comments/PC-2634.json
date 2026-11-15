@@ -1,0 +1,80 @@
+{
+  "id": "pc-2634",
+  "summary": "The distinction between the content provided in the appendices is unclear. While appendices typically contain supplemen…",
+  "comment": "The distinction between the content provided in the appendices is unclear. While appendices typically contain supplementary information, Appendix C appears to contain normative content, whereas Appendix D appears to be illustrative. This may create uncertainty about the intended status and purpose of the information included in each appendix.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "chap:appendix",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2634",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 12,
+      "entry": "2",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix",
+      "page": "NA",
+      "lines": "NA",
+      "raw": "§Appendix p.NA l.NA"
+    },
+    "anchor": {
+      "targetLabel": "chap:appendix",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (medium): about the appendices as a whole (which are normative, which informative)"
+    },
+    "type": "editorial",
+    "text": "The distinction between the content provided in the appendices is unclear. While appendices typically contain supplementary information, Appendix C appears to contain normative content, whereas Appendix D appears to be illustrative. This may create uncertainty about the intended status and purpose of the information included in each appendix.",
+    "suggestedRevision": "Clarify the nature and purpose of the content in each appendix, explicitly indicating whether it is normative, informative, or illustrative.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 12"
+      },
+      {
+        "at": "2026-10-15T11:15:03.328Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): about the appendices as a whole (which are normative, which informative)"
+      }
+    ]
+  }
+}

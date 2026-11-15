@@ -1,0 +1,82 @@
+{
+  "id": "pc-0217",
+  "summary": "The African examples are valuable, but no Lusophone African country is included. Greater linguistic and regional divers…",
+  "comment": "The African examples are valuable, but no Lusophone African country is included. Greater linguistic and regional diversity would strengthen the global applicability of the guidance and provide lessons from countries at earlier stages of architecture maturity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-public-health-surveillance-platf-92708e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0217",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 217,
+      "entry": "216",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2",
+      "page": "231–234",
+      "lines": "Country examples",
+      "raw": "§Appendix D.2 p.231–234 l.Country examples"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-public-health-surveillance-platf-92708e",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-1-terminology-service-and-logical-ceb1d0",
+        "prose:d-2-australia-0e3861",
+        "prose:d-2-australia-49379a"
+      ],
+      "note": "p.231–234 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The African examples are valuable, but no Lusophone African country is included. Greater linguistic and regional diversity would strengthen the global applicability of the guidance and provide lessons from countries at earlier stages of architecture maturity.",
+    "suggestedRevision": "Include or actively solicit emerging examples from Mozambique, Angola, Guinea-Bissau, Cabo Verde and São Tomé and Príncipe. Establish a mechanism for countries to submit implementation profiles and lessons for future versions. Mozambique could contribute experience on a Unique Patient Identifier, FHIR capacity-building and integration with existing systems.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 217"
+      }
+    ]
+  }
+}

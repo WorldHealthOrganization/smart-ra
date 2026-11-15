@@ -1,0 +1,79 @@
+{
+  "id": "pc-0299",
+  "summary": "Table 3.5 states LIMR definitions are \"precise and unambiguous, leaving no room for reinterpretation by consuming syste…",
+  "comment": "Table 3.5 states LIMR definitions are \"precise and unambiguous, leaving no room for reinterpretation by consuming systems,\" yet the requirement that would guarantee this, LIMR Req 10 \"model-driven validation of data instances,\" is marked Recommended. As drafted, the no-reinterpretation claim is an aspiration, not an enforced property. This is the single mechanism that turns the LIMR from a specification catalogue into an enforcement point.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0299",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 299,
+      "entry": "298",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1 / Appendix C (LIMR)",
+      "page": "68 / 176",
+      "lines": "Table 3.5 (LIMR cell) / LIMR Req 10",
+      "caption": "Table 3.5",
+      "raw": "§3.5.3.1 / Appendix C (LIMR) p.68 / 176 l.Table 3.5 (LIMR cell) / LIMR Req 10"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-5",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.5 as cited"
+    },
+    "type": "technical",
+    "text": "Table 3.5 states LIMR definitions are \"precise and unambiguous, leaving no room for reinterpretation by consuming systems,\" yet the requirement that would guarantee this, LIMR Req 10 \"model-driven validation of data instances,\" is marked Recommended. As drafted, the no-reinterpretation claim is an aspiration, not an enforced property. This is the single mechanism that turns the LIMR from a specification catalogue into an enforcement point.",
+    "suggestedRevision": "Elevate LIMR Req 10 (\"Conformance and validation support\" / model-driven validation of data instances) from Recommended to Required. Align Table 3.5's \"no room for reinterpretation\" language to the enforced requirement.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 299"
+      }
+    ]
+  }
+}

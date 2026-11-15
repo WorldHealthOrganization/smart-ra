@@ -1,0 +1,83 @@
+{
+  "id": "pc-0674",
+  "summary": "Strengths: IHE International appreciates the opportunity to comment on this important draft. We strongly support its ce…",
+  "comment": "Strengths: IHE International appreciates the opportunity to comment on this important draft. We strongly support its central premises: health digital public infrastructure should be built on shared foundations; interoperability should be treated as a cross-cutting capability rather than a single product or middleware layer; implementations should rely on open, publicly governed specifications; and conformance should be testable. These principles are closely aligned with IHE's mission and with more than 25 years of work profiling international standards into implementable, testable interoperability specifications.\n\nWe particularly welcome Sections 3.6 and 3.7, including the recognition in Section 3.7.3 that IHE is a principal example of a framework that can be accommodated directly within the reference architecture. The draft appropriately explains that, where an interaction corresponds to an IHE transaction, the architecture can defer to the IHE specification for protocol details and to IHE conformance tooling for testing. That is an important and accurate foundation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0674",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 674,
+      "entry": "673",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths statement (IHE)."
+    },
+    "type": "general",
+    "text": "Strengths: IHE International appreciates the opportunity to comment on this important draft. We strongly support its central premises: health digital public infrastructure should be built on shared foundations; interoperability should be treated as a cross-cutting capability rather than a single product or middleware layer; implementations should rely on open, publicly governed specifications; and conformance should be testable. These principles are closely aligned with IHE's mission and with more than 25 years of work profiling international standards into implementable, testable interoperability specifications.\n\nWe particularly welcome Sections 3.6 and 3.7, including the recognition in Section 3.7.3 that IHE is a principal example of a framework that can be accommodated directly within the reference architecture. The draft appropriately explains that, where an interaction corresponds to an IHE transaction, the architecture can defer to the IHE specification for protocol details and to IHE conformance tooling for testing. That is an important and accurate foundation.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 674"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths statement (IHE)."
+      }
+    ]
+  }
+}

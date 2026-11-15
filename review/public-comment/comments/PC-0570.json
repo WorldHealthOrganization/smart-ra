@@ -1,0 +1,82 @@
+{
+  "id": "pc-0570",
+  "summary": "The implementation guidance in the REDDHI framework, and particularly the STAC foundation, is outstanding — it is the m…",
+  "comment": "The implementation guidance in the REDDHI framework, and particularly the STAC foundation, is outstanding — it is the most valuable part of the document. The table on capabilities and components and the table on DPI-H architecture design are excellent and provide real inspiration for clinicians.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-1-2-a219ab",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0570",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 570,
+      "entry": "569",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2",
+      "page": "26–31",
+      "raw": "§2 p.26–31"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-1-2-a219ab",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:2-1-2-93db4e",
+        "prose:2-1-3-1b7b3e",
+        "prose:2-1-3-4874b3"
+      ],
+      "note": "p.26–31 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The implementation guidance in the REDDHI framework, and particularly the STAC foundation, is outstanding — it is the most valuable part of the document. The table on capabilities and components and the table on DPI-H architecture design are excellent and provide real inspiration for clinicians.",
+    "suggestedRevision": "No change required — IPC's compliments to WHO on the REDDHI framework and the STAC foundation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No",
+      "Comment type": "Compliment"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 570"
+      }
+    ]
+  }
+}

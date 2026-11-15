@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-067",
+  "title": "Broaden Terminology Service scope and conformance references",
+  "requirements": "- Include UCUM and unit validation in the example and terminology list\n- Cite it as a machine-testable conformance model for the Terminology Service in 3.7\n- Tabulate purpose, authority, licensing and national extension needs for SNOMED CT, ICD-11, LOINC, ATC, UCUM and others\n- Include nationally governed and local code and identifier systems",
+  "refs": [
+    "PC-0223",
+    "PC-0972",
+    "PC-0978",
+    "PC-1915"
+  ],
+  "anchor": "tbl:3-5",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

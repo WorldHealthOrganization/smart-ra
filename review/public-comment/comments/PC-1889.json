@@ -1,0 +1,79 @@
+{
+  "id": "pc-1889",
+  "summary": "Diagnoses, encounter reasons, symptoms, conditions, problem-list entries, and billing codes may have different meanings…",
+  "comment": "Diagnoses, encounter reasons, symptoms, conditions, problem-list entries, and billing codes may have different meanings and confidence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1889",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1125,
+      "entry": "1124",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Lifelong Health Record, 6",
+      "page": "163-165",
+      "lines": "Diagnoses and problems",
+      "raw": "§Lifelong Health Record, 6 p.163-165 l.Diagnoses and problems"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+      "method": "section",
+      "confidence": "low",
+      "candidates": [
+        "sec:d-1-lifelong-health-record"
+      ],
+      "note": "section named \"Lifelong Health Record\""
+    },
+    "text": "Diagnoses, encounter reasons, symptoms, conditions, problem-list entries, and billing codes may have different meanings and confidence.",
+    "suggestedRevision": "Model the clinical context, status, verification, role, onset, resolution, source, and coding purpose rather than storing undifferentiated diagnosis codes.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1125"
+      }
+    ]
+  }
+}

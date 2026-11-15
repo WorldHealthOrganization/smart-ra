@@ -1,0 +1,88 @@
+{
+  "id": "pc-0041",
+  "summary": "The section requires a minimum actor and role set, but the examples remain institution-centred. A national role schema …",
+  "comment": "The section requires a minimum actor and role set, but the examples remain institution-centred. A national role schema should distinguish the individual from people acting with or for the individual. Relationship alone must not confer access: a spouse, adult child, caregiver, legal guardian and assisted-access agent may each have different authority, scope and duration.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-2-513f61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0041",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 41,
+      "entry": "40",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.2 — Actors and Roles: Defining Who Participates",
+      "page": "105–106",
+      "lines": "285–305",
+      "raw": "§4.3.2 — Actors and Roles: Defining Who Participates p.105–106 l.285–305"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-2-513f61",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-2-b8b815"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 4.3.2 l.285-305 on the minimum actor/role set; this paragraph defines the minimum actors and roles"
+    },
+    "type": "technical",
+    "text": "The section requires a minimum actor and role set, but the examples remain institution-centred. A national role schema should distinguish the individual from people acting with or for the individual. Relationship alone must not confer access: a spouse, adult child, caregiver, legal guardian and assisted-access agent may each have different authority, scope and duration.",
+    "suggestedRevision": "Add to the minimum actor set: individual; supported user; authorised representative or proxy; informal caregiver; legal guardian; health or social care worker; and assisted-access intermediary. Require each authority to be represented separately from the relationship, with scope, purpose, duration, permitted actions, provenance and revocation. Standards-based patterns such as HL7 FHIR Consent and RelatedPerson should be used where applicable.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 41"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 4.3.2 l.285-305 on the minimum actor/role set; this paragraph defines the minimum actors and roles"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "$schema": "folio-image-verdicts/v1",
+  "_comment": "One agent's INSPECTION of every image pdf-images.py extracted from the frozen review version (library/who-dpi-h-reference-architecture-draft-v1/), applied by cat-harness-tools/scripts/apply-image-verdicts.ts. All 31 images were opened. The two that extract as solid black blocks were identified by rendering their pages: they are the alpha-masked diagonal DRAFT watermark. The 13 small images on pages 54-55 are the notation swatches in Tables 3.1 and 3.2, matched to their rows by the notation drawn. Figure numbers are read from each page's own caption line; the review version numbers two figures 3.5 (pages 63 and 77), and the drafts say so rather than renumbering. Every narrative is a DRAFT: only a person may confirm one (schemas/narrative.ts). The images and this file are ADDED beside the frozen PDF and .docx, which are not changed.",
+  "inspected_by": {
+    "kind": "agent",
+    "id": "claude",
+    "model": "claude-opus-5-5",
+    "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+  },
+  "inspected_at": "2026-10-15",
+  "verdicts": {
+    "who-dpi-h-reference-architecture-draft-v1": {
+      "img-p001-1": {
+        "role": "decorative",
+        "saw": "the diagonal grey 'DRAFT' watermark: an alpha-masked raster placed across the body of 221 pages (it extracts as a solid black block because its shape is in the soft mask); it is the circulated draft's status stamp, not content",
+        "draft": "The word DRAFT set diagonally in light grey across the page: the watermark the review version carries on 221 pages to mark it as the draft circulated for public comment. It adds nothing to the text."
+      },
+      "img-p019-1": {
+        "role": "decorative",
+        "saw": "the diagonal grey 'DRAFT' watermark: an alpha-masked raster placed across the body of 33 pages (it extracts as a solid black block because its shape is in the soft mask); it is the circulated draft's status stamp, not content; a second copy of the same stamp, offset higher on the page",
+        "draft": "The word DRAFT set diagonally in light grey across the page: the watermark the review version carries on 33 pages to mark it as the draft circulated for public comment. It adds nothing to the text."
+      },
+      "img-p012-2": {
+        "role": "figure",
+        "saw": "Figure 1 on page 12: a seven-phase table of planning steps with WHO/ITU tools against each, and the Reference Architecture marked at the right",
+        "draft": "Figure 1. A planning chart in seven coloured rows, one per phase of planning and implementing digital health: 01 assessing the current state and enabling environment, 02 establishing a shared understanding and strategic planning, 03 defining the future state, 04 planning the enterprise architecture, 05 determining health content requirements, 06 M&E of digital health implementations and fostering data use, 07 implementing, maintaining and scaling. Each row lists its steps, then the WHO, ITU and partner tools that support it (among them the WHO-ITU National eHealth Strategy Toolkit, the DIIG, OpenHIE, TOGAF, WHO SMART Guidelines' digital adaptation kits, ICD-11 and HL7 FHIR). A dashed box at the right, 'WHO-ITU Reference Architecture for DPI-H', spans the phases. A footnote expands the abbreviations HIS, ICT, ITU, M&E and SDG."
+      },
+      "img-p041-2": {
+        "role": "figure",
+        "saw": "Figure 2.2 on page 41: the REDDHI infographic",
+        "draft": "Figure 2.2. An infographic titled 'REDDHI — Resilient Essential Data & Digital Health Infrastructure', subtitled 'a direction of travel, not a fixed destination or a single system'. Panels explain why 'resilient' (survives funding volatility, reduces vendor dependency, long-term sustainability, local capacity) and why 'essential' (minimum capabilities, a foundation for many use cases, investment efficiency, a subset of the national architecture); the full-STAC foundations (Standards such as HL7 FHIR, ICD, SNOMED CT, LOINC and CQL; open-source Technologies; DPI-based Architectures; WHO SMART Guidelines Content); REDDHI's role in the national architecture; five objectives; and the guiding principles as a set of tags."
+      },
+      "img-p048-2": {
+        "role": "figure",
+        "saw": "Figure 2.3 on page 48: the design-principles fan",
+        "draft": "Figure 2.3. 'DPI-H Architecture Design Principles': a blue semicircular fan of ten segments, each with an icon, around the title, and a short definition beside each: Governance, Open Standards, Interoperability, Sustainability, Modularity, Local Capacity, Equity and Inclusion, Data Ownership, Access and Control, Trust and Security, and Ethics."
+      },
+      "img-p054-2": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Stakeholder' element: a lilac (motivation) box labelled 'Stakeholder' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-3": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Goal' element: a lilac (motivation) box labelled 'Goal' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-4": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Outcome' element: a lilac (motivation) box labelled 'Outcome' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-5": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Value' element: a lilac (motivation) box labelled 'Value' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-6": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Capability' element: a tan (strategy) box labelled 'Capability' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-7": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Application Component' element: a cyan (application) box labelled 'Application Component' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-8": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Application Service' element: a cyan (application) box labelled 'Application Service' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-9": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Data Object' element: a cyan (application) box labelled 'Data Object' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p054-10": {
+        "role": "figure",
+        "saw": "one of the nine element-type swatches in Table 3.1 on page 54, each a separate raster in the table's first column",
+        "draft": "The ArchiMate notation for the 'Product' element: a yellow (business) box labelled 'Product' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses."
+      },
+      "img-p055-2": {
+        "role": "figure",
+        "saw": "one of the four relationship-notation glyphs in Table 3.2 on page 55, drawn vertically; matched to its row by the notation itself (the table's row order is Realisation, Composition, Serving, Access, as is the image order)",
+        "draft": "The ArchiMate notation for a Realisation relationship: a dashed line ending in a hollow triangle. One row of Table 3.2, which lists the relationship types the reference architecture uses."
+      },
+      "img-p055-3": {
+        "role": "figure",
+        "saw": "one of the four relationship-notation glyphs in Table 3.2 on page 55, drawn vertically; matched to its row by the notation itself (the table's row order is Realisation, Composition, Serving, Access, as is the image order)",
+        "draft": "The ArchiMate notation for a Composition relationship: a solid line starting from a filled diamond. One row of Table 3.2, which lists the relationship types the reference architecture uses."
+      },
+      "img-p055-4": {
+        "role": "figure",
+        "saw": "one of the four relationship-notation glyphs in Table 3.2 on page 55, drawn vertically; matched to its row by the notation itself (the table's row order is Realisation, Composition, Serving, Access, as is the image order)",
+        "draft": "The ArchiMate notation for a Serving relationship: a solid line ending in an open arrowhead. One row of Table 3.2, which lists the relationship types the reference architecture uses."
+      },
+      "img-p055-5": {
+        "role": "figure",
+        "saw": "one of the four relationship-notation glyphs in Table 3.2 on page 55, drawn vertically; matched to its row by the notation itself (the table's row order is Realisation, Composition, Serving, Access, as is the image order)",
+        "draft": "The ArchiMate notation for a Access relationship: a dotted line ending in a small open arrowhead. One row of Table 3.2, which lists the relationship types the reference architecture uses."
+      },
+      "img-p056-2": {
+        "role": "figure",
+        "saw": "Figure 3.1 on page 56",
+        "draft": "Figure 3.1. A worked chain of realisation relationships, top to bottom: a Business Capability ('Identity maintained across services') is realised by an Application Service ('Resolving and matching identity'), which is realised by an Application Function ('Identity matching'), which is realised by an Application Component ('Client Registry'). Each link is a dashed 'realises' arrow, and a note beside each element gives the example."
+      },
+      "img-p059-2": {
+        "role": "figure",
+        "saw": "Figure 3.2 on page 59: the integrated layered view",
+        "draft": "Figure 3.2. 'DPI-H Reference Architecture — Integrated View': a dense layered poster. From the top: strategic health goals (G1 trusted data foundations to G7 climate and epidemic resilience); cross-cutting governance; stakeholders; capabilities; the point-of-service and functional applications layer; the DPI-H layer of government-stewarded reusable components and the shared data layer of core registries (client, health record, workforce, location, products, terminology and logical information models), REDDHI components starred; the foundational DPI layer (identity, trust services, payments, data exchange, CRVS, geo-location); and the technology layer. An interoperability column at the right lists the information mediator, open standards and integration patterns. At this resolution most of the small text is not legible."
+      },
+      "img-p061-2": {
+        "role": "figure",
+        "saw": "Figure 3.3 on page 61: an Archi view of the TPHR goal",
+        "draft": "Figure 3.3. An ArchiMate view of the health goal 'Establish Trusted Personal Health Records'. The goal and its four sub-goals (universally accessible verifiable records, consent-based sharing, trust and privacy, interoperability) sit at the top, with four outcomes beneath them. Below, a grey 'TPHR Implementation' grouping holds the capabilities (for example Health Record Management, Identity & Authentication, Consent Management, Trust Verification), the application services that realise them, and the application components (Lifelong Health Record, Client Registry, Consent Management Platform, PKI, SIEM, Terminology Service and others) that realise those."
+      },
+      "img-p062-2": {
+        "role": "figure",
+        "saw": "Figure 3.4 on page 62",
+        "draft": "Figure 3.4. A layered ArchiMate view for one TPHR sub-goal. 'Establish a secure, universally accessible, verifiable health record for every individual' is realised by the outcome 'Population has verifiable digital health records'; inside 'TPHR Sub-goal #1 Implementation' three capabilities (Health Record Management, Identity & Authentication, Universal Access Enablement) are served by a 'Trusted Personal Health Record (PHR)' product, three application services and three components (Lifelong Health Record, Client Registry, PKI/Trust Infrastructure), which draw on a 'Metadata Components' group of Client, Facility, Health Worker and Product registries and a Terminology Service."
+      },
+      "img-p063-2": {
+        "role": "figure",
+        "saw": "Figure 3.5 on page 63 (Quality and Continuity of Care)",
+        "draft": "Figure 3.5. A layered ArchiMate view for a Quality and Continuity of Care sub-goal: 'Comprehensive Needs Assessment' and the outcome 'Integrated, Person-Centered Care' at the top; five capabilities (Care Protocol Management, Patient History Integration, Decision Support, Task-Sharing Orchestration, Quality and Performance Monitoring) realised through an 'Integrated Shared Care Plan (SCP)' product; application services for care protocols, clinical decision support, patient-history aggregation and care coordination; components such as a knowledge base engine, EMR, interoperability layer, access control, lifelong health record and client registry; and a grouping of the shared registries and terminology server they use."
+      },
+      "img-p070-2": {
+        "role": "figure",
+        "saw": "Figure 3.4.1 on page 70",
+        "draft": "Figure 3.4.1. 'Semantic Governance Infrastructure' in three bands. Governance services: LIMR, profile authoring, conformance resources and a governance terminology management service fed by 'Global Content Sources' through content syndication. Runtime services: a runtime terminology service linked to the governance TMS. Content and application layers: implementation guides (IG 1, IG 2, IG 3, …) and applications or use cases (App 1, App 2, App 3, …)."
+      },
+      "img-p072-2": {
+        "role": "figure",
+        "saw": "Figure 3.4.2 on page 72; a slide-style figure",
+        "draft": "Figure 3.4.2. A terminology services maturity model drawn as a rising line through five stages: Nascent (no centrally defined content or governance), Emerging (some content published in non-standard formats), Shared Electronic Reference, Digital Subscription and Data Exchange. A break in the line between Emerging and Shared Electronic Reference marks the steep climb. Notes say many LMICs are at the early stages. Braces beneath group the early stages as selecting and defining standards and the later ones as using terminologies to support data exchange."
+      },
+      "img-p073-2": {
+        "role": "figure",
+        "saw": "Figure 3.4.3 on page 73; a slide-style figure",
+        "draft": "Figure 3.4.3. 'NHDD Framework: Content Structure': five stacked bars, from reference and administrative code sets (SNOMED, ICD, HL7), through curated concept sources and interface terminologies (CIEL, IMO), country-level subsets, organisation-level dictionaries, down to facility-level dictionaries such as formularies. A downward arrow at the left says international standards are selected and customised for country use and adapted for local implementation; an upward arrow at the right reads 'Submissions / Feedback to Standards' and 'Responsive Local & National Governance'."
+      },
+      "img-p077-2": {
+        "role": "figure",
+        "saw": "Figure 3.5 on page 77 (the second figure numbered 3.5): the point-of-care layered view",
+        "draft": "Figure 3.5 (page 77). 'DPI-H Reference Architecture': the layered view without the goals: point-of-service and functional applications at the top; the government-stewarded DPI-H layer of reusable components and the shared data layer of core registries, REDDHI components starred; the foundational DPI layer at the bottom; and an interoperability column with the information mediator, open standards and integration patterns. At this resolution most of the small text is not legible."
+      },
+      "img-p087-2": {
+        "role": "figure",
+        "saw": "Figure 3.6 on page 87",
+        "draft": "Figure 3.6. Five exchange patterns, each drawn with the same small systems: direct point-to-point connections; a central service bus; gateways protecting each component; distributed access points with a central registry and oversight; and publish-subscribe through an event broker that notifies subscribers."
+      },
+      "img-p093-2": {
+        "role": "figure",
+        "saw": "Figure 3.7.1 on page 93",
+        "draft": "Figure 3.7.1. An ArchiMate view of an IHE transaction: two vendor EHR products realise the actors Document Source and Document Repository, which are connected through the interaction 'Provide and Register Document Set [ITI-41]' and the service 'Register Document Set'."
+      },
+      "img-p094-2": {
+        "role": "figure",
+        "saw": "Figure 3.7.2 on page 94",
+        "draft": "Figure 3.7.2. A conformance-testing view: a System Under Test, with a Document Capture UI, realises the Document Source actor and a Simulator realises the Document Repository; a Test Operator triggers 'Create and submit document', which drives the 'Provide and Register Document Set [ITI-41]' interaction between them."
+      },
+      "img-p254-2": {
+        "role": "figure",
+        "saw": "the figure on page 254, in an annex; the page's text carries no 'Figure N' caption line",
+        "draft": "'Semantic governance capabilities, roles and supporting tools': five capabilities in sequence (Consume, Change requests, Change management, Publication, Monitoring). Above them are the roles and information objects each involves (Stakeholder, Author, Owner, Content, Upstream content, Management rules), and below them the supporting tools (change-request tooling, authoring, repository). A legend distinguishes capability, role or information object, and supporting tool."
+      }
+    }
+  }
+}

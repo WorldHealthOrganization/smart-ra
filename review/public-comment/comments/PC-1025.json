@@ -1,0 +1,77 @@
+{
+  "id": "pc-1025",
+  "summary": "The foundational exchange example appears closely aligned to one specific building-block pattern involving gateways, RE…",
+  "comment": "The foundational exchange example appears closely aligned to one specific building-block pattern involving gateways, REST interfaces, event notifications, signatures, and transaction logs. This may not represent all national data-exchange DPI.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-3-890226",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1025",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 261,
+      "entry": "260",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.3",
+      "page": "75",
+      "lines": "Lines 864-876",
+      "raw": "§3.6.3 p.75 l.Lines 864-876"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-3-890226",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.75 l.Lines 864-876 read as the printed page; section 3.6.3 agrees"
+    },
+    "text": "The foundational exchange example appears closely aligned to one specific building-block pattern involving gateways, REST interfaces, event notifications, signatures, and transaction logs. This may not represent all national data-exchange DPI.",
+    "suggestedRevision": "Present it as one illustrative capability pattern rather than a general definition of foundational exchange DPI. Keep requirements technology-neutral and outcome-based.",
+    "labels": {
+      "Comment type": "Q3 - DPI-F/DPI-H distinction"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 261"
+      }
+    ]
+  }
+}

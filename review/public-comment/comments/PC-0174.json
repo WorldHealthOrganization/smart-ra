@@ -1,0 +1,82 @@
+{
+  "id": "pc-0174",
+  "summary": "The European Health Data Space (EHDS) — the largest legal and infrastructural implementation of exactly these ideas, es…",
+  "comment": "The European Health Data Space (EHDS) — the largest legal and infrastructural implementation of exactly these ideas, establishing citizen rights, mandated exchange formats and cross-border channels for primary and secondary use — is never mentioned, although EU examples are cited.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-4fbd23",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0174",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 174,
+      "entry": "173",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4",
+      "page": "77",
+      "lines": "Cross-border health data flows; also Appendix D.3 (p. 234)",
+      "raw": "§3.6.4 p.77 l.Cross-border health data flows; also Appendix D.3 (p. 234)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-4fbd23",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-4-4150dd",
+        "prose:3-6-4-ce5111",
+        "prose:3-6-4-c0012b"
+      ],
+      "note": "p.77 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The European Health Data Space (EHDS) — the largest legal and infrastructural implementation of exactly these ideas, establishing citizen rights, mandated exchange formats and cross-border channels for primary and secondary use — is never mentioned, although EU examples are cited.",
+    "suggestedRevision": "Add an EHDS alignment section mapping DPI-H components to EHDS obligations and formats (e.g. the European exchange format and patient summary), so European implementers can position themselves and other regions can learn from the largest live implementation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 174"
+      }
+    ]
+  }
+}

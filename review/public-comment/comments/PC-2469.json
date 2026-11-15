@@ -1,0 +1,81 @@
+{
+  "id": "pc-2469",
+  "summary": "Identify the planning-figure adaptation — Distinguishes the proposed extension from reproduced source wording. This cha…",
+  "comment": "Identify the planning-figure adaptation — Distinguishes the proposed extension from reproduced source wording. This changes the caption, so it is separately assignable from the figure artwork. No assertion is made that the proposed wording is a verbatim DIIG quotation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2469",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 12,
+      "entry": "11",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Figure 1 caption",
+      "page": "1",
+      "lines": "A28.03",
+      "raw": "§Figure 1 caption p.1 l.A28.03"
+    },
+    "anchor": {
+      "targetLabel": "fig:1",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Figure 1 caption on printed p.1."
+    },
+    "text": "Identify the planning-figure adaptation — Distinguishes the proposed extension from reproduced source wording. This changes the caption, so it is separately assignable from the figure artwork. No assertion is made that the proposed wording is a verbatim DIIG quotation.",
+    "suggestedRevision": "Append caption sentence when A28.01 is applied; retain the existing caption and any source attribution: Phase 01 is adapted here to include data workflows, data uses and reporting obligations.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 12"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Figure 1 caption on printed p.1."
+      }
+    ]
+  }
+}

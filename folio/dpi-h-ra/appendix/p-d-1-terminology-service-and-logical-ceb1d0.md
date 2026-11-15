@@ -1,0 +1,5 @@
+- **Snowstorm —** an open-source, FHIR-conformant terminology server used by national terminology services to host SNOMED CT and national extensions. \cite{snowstorm}
+- **Ontoserver** **—** a FHIR-conformant terminology server adopted as a national terminology service in Australia and used in several other jurisdictions. \cite{ontoserver}
+- **HL7 FHIR reference terminology service (tx.fhir.org) —** the reference implementation of the FHIR Terminology Service specification, widely used for testing and reference. \cite{tx-fhir-org}
+- **openEHR** **Clinical Knowledge Manager —** an international, peer-reviewed repository of archetypes and templates supporting local adaptation of globally curated models. \cite{openehr-ckm}
+- **National FHIR profile registries —** country-specific implementation guides and profiles (for example, Simplifier-based national registries), maintaining canonical structural definitions.

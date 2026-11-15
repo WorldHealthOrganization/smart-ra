@@ -1,0 +1,78 @@
+{
+  "id": "pc-0535",
+  "summary": "This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence …",
+  "comment": "This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence of clinical data or the information-model layer, so that the individual comments that follow are read as a set rather than separately. We have set them out this way because a reader encountering these passages in isolation will reasonably draw different conclusions from each, which is the opposite of what guidance of this kind is for.\n\nWHERE THE GUIDANCE ALREADY ACCEPTS AN OPEN INFORMATION-MODEL FORMALISM FOR CLINICAL DATA\n1. Annex D.1, page 230, lines 36–37 — EHRbase is listed under Lifelong Health Record as \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\", alongside HAPI FHIR Server at page 229 lines 33–35.\n2. Appendix C, page 175, functional requirement 2, status REQUIRED — the LIMR \"shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates\".\n3. Appendix C, page 174, lines 81–85 — multi-formalism support is a core attribute; a national LIMR \"should bridge between them rather than mandate one\".\n4. Appendix C, page 172, architecture placement box — the LIMR \"is anchored in internationally recognised standards including HL7 FHIR StructureDefinitions, openEHR archetypes, and WHO SMART Guidelines data dictionaries\".\n5. Appendix C, page 156, line 43 — ISO 18308:2011 is cited as characterising an EHR architecture.\n\nWHERE THE GUIDANCE NAMES ONLY FHIR, OR PRESCRIBES IT FOR PERSISTENCE\n6. Section 2.2.2, page 28, lines 148–151 — the Open Standards enabling condition names HL7 FHIR, ICD, LOINC and SNOMED CT. No information-model formalism.\n7. Figure 2.2, page 30 — the full-STAC \"S\" grouping lists HL7 FHIR, ICD, SNOMED CT, LOINC, CQL. No information-model formalism.\n8. Section 2.3, principle II, page 32, lines 233–234 — \"The architecture points to FHIR-based approaches as the direction of travel.\"\n9. Figure 3.2, page 48, Shared Data Layer — the Lifelong Health Record element is annotated \"FHIR-based store\". It is the only element in the figure carrying a storage technology.\n10. Figure 3.5, page 66 — the same Shared Data Layer is repeated with the identical \"FHIR-based store\" annotation.\n11. Figures 3.2 and 3.5 — the Logical Info Model Repo element lists its artefacts as \"FHIR profiles · eObjects · IPS · datasets\". openEHR archetypes and templates are absent, contrary to item 2 above.\n12. Figures 3.2 and 3.5, Interoperability column — openEHR is listed under \"Open standards — Exchange & content\". It is an information-model formalism, not an exchange standard.\n13. Section 3.6.2, page 74, lines 811–820 — the paragraph naming the standards the architecture references lists nine, across exchange, terminology, identifiers, imaging and content. None for structure, although lines 805–807 state that the LIMR governs structure.\n\nWHERE THE INFORMATION-MODEL COMPONENT IS OMITTED OR DEFERRED\n14. Section 2.2.1, page 28, capability table — the LIMR is asterisked as \"an enabler that can be built up as maturity grows, rather than part of the minimum foundation\".\n15. Appendix C, page 172, architecture placement box — \"Countries should approach the LIMR as a progressive enabler, not an immediate prerequisite.\"\n16. Figure 3.4, page 51 — the Metadata Components group lists the four registries and the Terminology Service; the LIMR is absent.\n17. Appendix E, Goal 1, page 236, lines 238–240 — the foundational component list omits the LIMR.\n\nWHERE THE GUIDANCE ARGUES THE MINISTRY'S CASE ITSELF\n18. Section 3.6.2, page 74, lines 822–830 — \"Standards designed primarily for data in motion are highly extensible, and uncoordinated extension produces what are sometimes described as interoperable silos.\"\n19. Section 4.3.3, page 96, lines 319–321 — \"A FHIR profile is a representation of that logical model, not a replacement for it.\"\n20. Appendix C, page 173, lines 35–42 — two systems can exchange in HL7 FHIR \"and still fail to interoperate meaningfully\".\n21. Appendix C, page 157, lines 107–110 — the LHR core attribute requires \"storage of health data in accordance with the logical information structures published through the LIMR\".\n22. Section 2.3, principle VIII, page 35, lines 381–389 — the architecture should deliver \"clear separation between the data a country owns and the systems that process it\", with no mechanism named.\n\nItems 6 to 17 are inconsistent with items 1 to 5 and with items 18 to 22. The Ministry's recommendation is that items 6 to 13 be amended to name an open information-model formalism for persisted clinical data alongside HL7 FHIR, and that items 14 to 17 be amended so that a governed minimum information model is treated as foundational.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0535",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 535,
+      "entry": "534",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "General — register of inconsistencies in the treatment of the persistence and information-model layer",
+      "page": "Whole document",
+      "lines": "see list",
+      "raw": "§General — register of inconsistencies in the treatment of the persistence and information-model layer p.Whole document l.see list"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "general",
+    "text": "This comment lists, in one place, every location the Ministry has identified where the guidance treats the persistence of clinical data or the information-model layer, so that the individual comments that follow are read as a set rather than separately. We have set them out this way because a reader encountering these passages in isolation will reasonably draw different conclusions from each, which is the opposite of what guidance of this kind is for.\n\nWHERE THE GUIDANCE ALREADY ACCEPTS AN OPEN INFORMATION-MODEL FORMALISM FOR CLINICAL DATA\n1. Annex D.1, page 230, lines 36–37 — EHRbase is listed under Lifelong Health Record as \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\", alongside HAPI FHIR Server at page 229 lines 33–35.\n2. Appendix C, page 175, functional requirement 2, status REQUIRED — the LIMR \"shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates\".\n3. Appendix C, page 174, lines 81–85 — multi-formalism support is a core attribute; a national LIMR \"should bridge between them rather than mandate one\".\n4. Appendix C, page 172, architecture placement box — the LIMR \"is anchored in internationally recognised standards including HL7 FHIR StructureDefinitions, openEHR archetypes, and WHO SMART Guidelines data dictionaries\".\n5. Appendix C, page 156, line 43 — ISO 18308:2011 is cited as characterising an EHR architecture.\n\nWHERE THE GUIDANCE NAMES ONLY FHIR, OR PRESCRIBES IT FOR PERSISTENCE\n6. Section 2.2.2, page 28, lines 148–151 — the Open Standards enabling condition names HL7 FHIR, ICD, LOINC and SNOMED CT. No information-model formalism.\n7. Figure 2.2, page 30 — the full-STAC \"S\" grouping lists HL7 FHIR, ICD, SNOMED CT, LOINC, CQL. No information-model formalism.\n8. Section 2.3, principle II, page 32, lines 233–234 — \"The architecture points to FHIR-based approaches as the direction of travel.\"\n9. Figure 3.2, page 48, Shared Data Layer — the Lifelong Health Record element is annotated \"FHIR-based store\". It is the only element in the figure carrying a storage technology.\n10. Figure 3.5, page 66 — the same Shared Data Layer is repeated with the identical \"FHIR-based store\" annotation.\n11. Figures 3.2 and 3.5 — the Logical Info Model Repo element lists its artefacts as \"FHIR profiles · eObjects · IPS · datasets\". openEHR archetypes and templates are absent, contrary to item 2 above.\n12. Figures 3.2 and 3.5, Interoperability column — openEHR is listed under \"Open standards — Exchange & content\". It is an information-model formalism, not an exchange standard.\n13. Section 3.6.2, page 74, lines 811–820 — the paragraph naming the standards the architecture references lists nine, across exchange, terminology, identifiers, imaging and content. None for structure, although lines 805–807 state that the LIMR governs structure.\n\nWHERE THE INFORMATION-MODEL COMPONENT IS OMITTED OR DEFERRED\n14. Section 2.2.1, page 28, capability table — the LIMR is asterisked as \"an enabler that can be built up as maturity grows, rather than part of the minimum foundation\".\n15. Appendix C, page 172, architecture placement box — \"Countries should approach the LIMR as a progressive enabler, not an immediate prerequisite.\"\n16. Figure 3.4, page 51 — the Metadata Components group lists the four registries and the Terminology Service; the LIMR is absent.\n17. Appendix E, Goal 1, page 236, lines 238–240 — the foundational component list omits the LIMR.\n\nWHERE THE GUIDANCE ARGUES THE MINISTRY'S CASE ITSELF\n18. Section 3.6.2, page 74, lines 822–830 — \"Standards designed primarily for data in motion are highly extensible, and uncoordinated extension produces what are sometimes described as interoperable silos.\"\n19. Section 4.3.3, page 96, lines 319–321 — \"A FHIR profile is a representation of that logical model, not a replacement for it.\"\n20. Appendix C, page 173, lines 35–42 — two systems can exchange in HL7 FHIR \"and still fail to interoperate meaningfully\".\n21. Appendix C, page 157, lines 107–110 — the LHR core attribute requires \"storage of health data in accordance with the logical information structures published through the LIMR\".\n22. Section 2.3, principle VIII, page 35, lines 381–389 — the architecture should deliver \"clear separation between the data a country owns and the systems that process it\", with no mechanism named.\n\nItems 6 to 17 are inconsistent with items 1 to 5 and with items 18 to 22. The Ministry's recommendation is that items 6 to 13 be amended to name an open information-model formalism for persisted clinical data alongside HL7 FHIR, and that items 14 to 17 be amended so that a governed minimum information model is treated as foundational.",
+    "suggestedRevision": "Each item in the comment section has its own comment in this xls matrix with proposed wording. The changes are consistent with one another and can be made as a set. If only one change is made, it should be Comment No. 8 in this excel — design principle II — because that is the sentence procurement teams will cite.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 535"
+      }
+    ]
+  }
+}

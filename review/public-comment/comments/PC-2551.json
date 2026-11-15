@@ -1,0 +1,75 @@
+{
+  "id": "pc-2551",
+  "summary": "It must be noted that countries would have mixed level of maturity in their data sources and it would depend on the pur…",
+  "comment": "It must be noted that countries would have mixed level of maturity in their data sources and it would depend on the purpose, some not for population's health. For example for health workforce, it can be helpful to rely on census data or labour force survey data conducted by national statistical office; another example are data from national pension scheme which has potential great utility (was utilised successfully in some country for HRHIS). Although these are not really great for health purpose, although it would be almost impossible to modify them or have any weight on their governance as their main purpose is totally scalar, there can be attempts to improve the interoperability to make use of these data into a HRHIS. I am not seeing in the report this subtlety that national infrastructure would build on pieces which purpose vary drastically.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2551",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 30,
+      "entry": "29",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b1e2f66b7b",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that national infrastructure builds on data sources of varied purpose/maturity; \"not seeing in the report\"."
+    },
+    "text": "It must be noted that countries would have mixed level of maturity in their data sources and it would depend on the purpose, some not for population's health. For example for health workforce, it can be helpful to rely on census data or labour force survey data conducted by national statistical office; another example are data from national pension scheme which has potential great utility (was utilised successfully in some country for HRHIS). Although these are not really great for health purpose, although it would be almost impossible to modify them or have any weight on their governance as their main purpose is totally scalar, there can be attempts to improve the interoperability to make use of these data into a HRHIS. I am not seeing in the report this subtlety that national infrastructure would build on pieces which purpose vary drastically.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 30"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that national infrastructure builds on data sources of varied purpose/maturity; \"not seeing in the report\"."
+      }
+    ]
+  }
+}

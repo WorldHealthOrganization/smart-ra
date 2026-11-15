@@ -1,0 +1,78 @@
+{
+  "id": "pc-0223",
+  "summary": "Section 3.7 describes a machine-testable conformance framework. The Terminology Service is a named DPI-H component (Sec…",
+  "comment": "Section 3.7 describes a machine-testable conformance framework. The Terminology Service is a named DPI-H component (Section 3.4.5, Table 3.5) within scope of the Section 3.7 conformance model. However, the section does not reference the HL7 FHIR Terminology Service specification, which is the most widely deployed, mature, and machine-testable conformance model available for Terminology Service implementations. The FHIR Terminology Service defines testable operations ($lookup, $expand, $validate-code, $translate, $subsumes) that map directly to the Terminology Service capabilities described in Section 3.4.5 and Table 3.5. SNOMED International's open-source Snowstorm server and Regenstrief's LOINC FHIR API both implement this specification and are available as reference implementations.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0223",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 223,
+      "entry": "222",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7 / 3.7.2",
+      "page": "78",
+      "lines": "962–1000",
+      "raw": "§3.7 / 3.7.2 p.78 l.962–1000"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-5",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.5 as cited"
+    },
+    "type": "technical",
+    "text": "Section 3.7 describes a machine-testable conformance framework. The Terminology Service is a named DPI-H component (Section 3.4.5, Table 3.5) within scope of the Section 3.7 conformance model. However, the section does not reference the HL7 FHIR Terminology Service specification, which is the most widely deployed, mature, and machine-testable conformance model available for Terminology Service implementations. The FHIR Terminology Service defines testable operations ($lookup, $expand, $validate-code, $translate, $subsumes) that map directly to the Terminology Service capabilities described in Section 3.4.5 and Table 3.5. SNOMED International's open-source Snowstorm server and Regenstrief's LOINC FHIR API both implement this specification and are available as reference implementations.",
+    "suggestedRevision": "We suggest to add to Section 3.7.2 or 3.7.3: \"For Terminology Service components, the HL7 FHIR Terminology Service specification (R4/R5, http://hl7.org/fhir/terminology-service.html) provides a ready-made, machine-testable conformance baseline. National Terminology Service implementations are encouraged to conform to the FHIR Terminology Service specification as part of their Section 3.7 conformance profile. Open-source reference implementations, including SNOMED International's Snowstorm server are currently available for countries to deploy and use as benchmarks.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 223"
+      }
+    ]
+  }
+}

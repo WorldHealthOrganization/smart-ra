@@ -1,0 +1,81 @@
+{
+  "id": "pc-0416",
+  "summary": "UNSPSC: no objection but this is just a classifier and not a product identifier and useless for end-users",
+  "comment": "UNSPSC: no objection but this is just a classifier and not a product identifier and useless for end-users",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-d6c737",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0416",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 416,
+      "entry": "415",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "147",
+      "lines": "379-478",
+      "raw": "§Appendix C p.147 l.379-478"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-d6c737",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-8a64c2",
+        "prose:c-metadata-registries-and-foundati-product-registry-9f0ff9",
+        "prose:c-metadata-registries-and-foundati-product-registry-d93f8e"
+      ],
+      "note": "p.147 l.379-478 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "UNSPSC: no objection but this is just a classifier and not a product identifier and useless for end-users",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 416"
+      }
+    ]
+  }
+}

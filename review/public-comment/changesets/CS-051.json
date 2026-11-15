@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-051",
+  "title": "Allow authoritative registry responsibility to be distributed",
+  "requirements": "- Replace 'single accountable source' with clearly defined authoritative responsibility that may be distributed across recognised sources\n- Either use one term for all registries or explain any intended distinction between index, list, record and source\n- Apply the same framing to the Product Registry ('one per country', single steward, consequences of absence)\n- Distinguish logical authority from physical storage so 'single source' cannot be read as one repository\n- Require coordination, conflict resolution and attribute-level decision rights where authority is distributed\n- Note where a registry may be singular, federated or split across authorities",
+  "refs": [
+    "PC-0063",
+    "PC-0117",
+    "PC-0878",
+    "PC-0947",
+    "PC-1814",
+    "PC-1816",
+    "PC-1819"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0214",
+  "summary": "The section recognises that capacity is institutional rather than a series of individual hires. It should additionally …",
+  "comment": "The section recognises that capacity is institutional rather than a series of individual hires. It should additionally emphasise multidisciplinary capacity, structured retention and practical application, especially for countries that depend heavily on short-term external technical assistance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-3-b2e92d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0214",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 214,
+      "entry": "213",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.5.3",
+      "page": "101",
+      "lines": "526–539",
+      "raw": "§4.5.3 p.101 l.526–539"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-3-b2e92d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-5-3-466dad"
+      ],
+      "note": "p.101 l.526–539 read as the printed page; section 4.5.3 agrees"
+    },
+    "type": "general",
+    "text": "The section recognises that capacity is institutional rather than a series of individual hires. It should additionally emphasise multidisciplinary capacity, structured retention and practical application, especially for countries that depend heavily on short-term external technical assistance.",
+    "suggestedRevision": "Add a recommended national capacity framework covering enterprise architecture, HL7 FHIR modelling, terminology, interoperability, cybersecurity, privacy, data stewardship, clinical informatics, conformance testing and change management, supported by practical assignments, mentoring, institutional career paths and periodic competency assessment.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 214"
+      }
+    ]
+  }
+}

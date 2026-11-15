@@ -1,0 +1,78 @@
+{
+  "id": "pc-0720",
+  "summary": "From: https://www.digitalhealth.gov.au/sites/default/files/documents/csr-8169-health-connect-australia-architechture8.p…",
+  "comment": "From: https://www.digitalhealth.gov.au/sites/default/files/documents/csr-8169-health-connect-australia-architechture8.pdf: Australia offers a middle reference point. Not all interoperability capabilities should sit in a central ESB, and not all health specific capabilities should be pushed entirely to endpoints. Instead, it adopts an architecture in which nationally shared capabilities coexist with locally owned systems, with responsibilities distributed according to where they provide the greatest value – I feel this aligns with our current RA understanding as well.\n\nFinally, one key lesson from ‘OpenHIE discussions with countries’ is that each box is often interpreted as requiring a separate systems or procurements, kicking off another debate. It might be useful to clarify that these DPI-H RA boxes represent reference capabilities and not target state, standalone platforms. Smaller or more centralised countries may choose to consolidate multiple capabilities within a single solution/platform/system and still achieve the intended outcomes.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0720",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 720,
+      "entry": "719",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f562a7140",
+      "organisation": "CSIRO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that RA boxes are capabilities, not standalone systems."
+    },
+    "text": "From: https://www.digitalhealth.gov.au/sites/default/files/documents/csr-8169-health-connect-australia-architechture8.pdf: Australia offers a middle reference point. Not all interoperability capabilities should sit in a central ESB, and not all health specific capabilities should be pushed entirely to endpoints. Instead, it adopts an architecture in which nationally shared capabilities coexist with locally owned systems, with responsibilities distributed according to where they provide the greatest value – I feel this aligns with our current RA understanding as well.\n\nFinally, one key lesson from ‘OpenHIE discussions with countries’ is that each box is often interpreted as requiring a separate systems or procurements, kicking off another debate. It might be useful to clarify that these DPI-H RA boxes represent reference capabilities and not target state, standalone platforms. Smaller or more centralised countries may choose to consolidate multiple capabilities within a single solution/platform/system and still achieve the intended outcomes.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 720"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that RA boxes are capabilities, not standalone systems."
+      }
+    ]
+  }
+}

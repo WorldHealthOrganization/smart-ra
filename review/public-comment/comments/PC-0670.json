@@ -1,0 +1,77 @@
+{
+  "id": "pc-0670",
+  "summary": "The topic requires considerable tougth, and is some what simplified in text and figure. We recommend to include and bui…",
+  "comment": "The topic requires considerable tougth, and is some what simplified in text and figure. We recommend to include and build on mature experiences in WHO's mature governance models, see elaborate and updated description https://cdn.who.int/media/docs/default-source/classification/who-fic-network/conduct-of-the-who-family-of-international-classifications-network-2024-update.pdf?sfvrsn=b650e3d3_4",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0670",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 670,
+      "entry": "669",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-06fa6918a8",
+      "name": "Information Management and Methods Division",
+      "organisation": "The Norwegian Directorate of Health",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "lines": "480-482",
+      "raw": "§3.4.5 l.480-482"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.4.5 only"
+    },
+    "text": "The topic requires considerable tougth, and is some what simplified in text and figure. We recommend to include and build on mature experiences in WHO's mature governance models, see elaborate and updated description https://cdn.who.int/media/docs/default-source/classification/who-fic-network/conduct-of-the-who-family-of-international-classifications-network-2024-update.pdf?sfvrsn=b650e3d3_4",
+    "suggestedRevision": "\"Several exist to draw on, firstly within the WHO Family of International Classifications Conduct paper (link), and further the  HL7's Unified Terminology Governance (UTG) process for \nconsensus-based authoring [...]\"",
+    "labels": {
+      "Stakeholder type": "Ministry of health or national health authority",
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 670"
+      }
+    ]
+  }
+}

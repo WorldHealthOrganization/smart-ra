@@ -1,0 +1,76 @@
+{
+  "id": "pc-0623",
+  "summary": "The examples are valuable and mostly directionally accurate, but some describe national strategies, partial rollouts or…",
+  "comment": "The examples are valuable and mostly directionally accurate, but some describe national strategies, partial rollouts or separate systems as fully integrated nationwide capabilities. Spain’s HCDSNS exchanges selected clinical documents rather than a complete record; India’s ABDM and Kenya’s HIE have uneven or phased adoption; Rwanda, Uganda, Catalonia and Tanzania require clearer evidence of coverage and integration; and Tanzania’s description as “one of the more mature” systems is subjective. \nThe England example appears to conflate centrally governed terminology with centrally delivered pharmaceutical decision support. The WHO SMART pilot claims also require country-, use-case- and scale-specific evidence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0623",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 623,
+      "entry": "622",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2–D.3: Country, Regional and Multi-country Implementation Examples",
+      "lines": "94–101, 120–150, 154–194 and 213–219",
+      "raw": "§Appendix D.2–D.3: Country, Regional and Multi-country Implementation Examples l.94–101, 120–150, 154–194 and 213–219"
+    },
+    "anchor": {
+      "targetLabel": "sec:d",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section D only"
+    },
+    "text": "The examples are valuable and mostly directionally accurate, but some describe national strategies, partial rollouts or separate systems as fully integrated nationwide capabilities. Spain’s HCDSNS exchanges selected clinical documents rather than a complete record; India’s ABDM and Kenya’s HIE have uneven or phased adoption; Rwanda, Uganda, Catalonia and Tanzania require clearer evidence of coverage and integration; and Tanzania’s description as “one of the more mature” systems is subjective. \nThe England example appears to conflate centrally governed terminology with centrally delivered pharmaceutical decision support. The WHO SMART pilot claims also require country-, use-case- and scale-specific evidence.",
+    "suggestedRevision": "For every example, state whether it is operational nationwide, operational with partial coverage, a pilot or planned, together with a last-verified date and an authoritative country source. \n\nRevise Spain to “federated exchange of selected clinical documents”; describe England as centrally governing SNOMED CT UK and dm+d, which support locally or vendor-implemented decision support; qualify phased or uneven adoption in India, Kenya, Rwanda, Uganda, Catalonia and Tanzania; and either provide evidence for the claimed WHO SMART pilot outcomes and reduced time and cost or remove those claims.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 623"
+      }
+    ]
+  }
+}

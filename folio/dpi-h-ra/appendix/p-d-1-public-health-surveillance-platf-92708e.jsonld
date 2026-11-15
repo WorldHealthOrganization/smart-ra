@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-1-public-health-surveillance-platf-92708e",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-1-public-health-surveillance-platf-92708e",
+  "kind": "prose",
+  "cites": [
+    "references/dhis2",
+    "references/who-go-data",
+    "references/bahmni",
+    "references/sormas",
+    "references/openelis-global",
+    "references/cdc-epi-info",
+    "references/who-data-platforms"
+  ],
+  "text": "p-d-1-public-health-surveillance-platf-92708e.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1018,
+      "page": 241,
+      "pageEnd": 242,
+      "printedPage": "230",
+      "lineStart": 63,
+      "lineEnd": 79,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0562",
+  "summary": "Two different subsections are numbered 4.3.4: \"Integration Interfaces with Foundational DPI\" at page 96 line 339, and \"…",
+  "comment": "Two different subsections are numbered 4.3.4: \"Integration Interfaces with Foundational DPI\" at page 96 line 339, and \"Interoperability Implementation Pathways\" at page 97 line 369. The duplication also appears in the table of contents.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-83c937",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0562",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 562,
+      "entry": "561",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "96; 97",
+      "lines": "339; 369",
+      "raw": "§4.3.4 p.96; 97 l.339; 369"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-83c937",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96; 97 l.339; 369 read as the printed page; section 4.3.4 agrees"
+    },
+    "type": "editorial",
+    "text": "Two different subsections are numbered 4.3.4: \"Integration Interfaces with Foundational DPI\" at page 96 line 339, and \"Interoperability Implementation Pathways\" at page 97 line 369. The duplication also appears in the table of contents.",
+    "suggestedRevision": "Renumber the second occurrence as 4.3.5 and the subsequent \"Minimum Conformance and Testing\" as 4.3.6, and correct the contents accordingly.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 562"
+      }
+    ]
+  }
+}

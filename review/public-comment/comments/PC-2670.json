@@ -1,0 +1,77 @@
+{
+  "id": "pc-2670",
+  "summary": "The document lists the jobs involved in managing health standards, but folds one big job inside another. Keeping the \"t…",
+  "comment": "The document lists the jobs involved in managing health standards, but folds one big job inside another. Keeping the \"translation tables\" current, the ones that match local codes to global codes and ICD to SNOMED CT, is constant work with its own reviews and versions. The document raises this as a concern later but never lists it as its own job, so it is easy to under-resource.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:3-4-5-1126e0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2670",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 15,
+      "entry": "5",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "59–60 (see 61)",
+      "lines": "SGI five-category capability table (see lines 469–486, p.61)",
+      "raw": "§3.4.5 p.59–60 (see 61) l.SGI five-category capability table (see lines 469–486, p.61)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-1126e0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-0ea2bd",
+        "prose:3-4-5-6062e4",
+        "tbl:3-4-5-c94948"
+      ],
+      "note": "p.59–60 (see 61) read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The document lists the jobs involved in managing health standards, but folds one big job inside another. Keeping the \"translation tables\" current, the ones that match local codes to global codes and ICD to SNOMED CT, is constant work with its own reviews and versions. The document raises this as a concern later but never lists it as its own job, so it is easy to under-resource.",
+    "suggestedRevision": "Add the upkeep of these translation tables (concept maps) as its own job in the list, covering how they are made, checked, versioned, and kept current when either the local or the global side changes.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 15"
+      }
+    ]
+  }
+}

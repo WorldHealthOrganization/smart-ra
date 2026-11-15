@@ -1,0 +1,74 @@
+{
+  "id": "pc-0707",
+  "summary": "Several glossary terms are under review and ‘Health Information Exchange’ is still to be included. Since the pragmatic …",
+  "comment": "Several glossary terms are under review and ‘Health Information Exchange’ is still to be included. Since the pragmatic level (comments 1, 4, 6) is currently absent from the definitions, the revision of the glossary is the natural place to anchor it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0707",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 707,
+      "entry": "706",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Glossary; §3.6.5; terms marked ‘[Under review]’",
+      "raw": "§Glossary; §3.6.5; terms marked ‘[Under review]’"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Several glossary terms are under review and ‘Health Information Exchange’ is still to be included. Since the pragmatic level (comments 1, 4, 6) is currently absent from the definitions, the revision of the glossary is the natural place to anchor it.",
+    "suggestedRevision": "When finalising the glossary, define pragmatic interoperability (shared use of exchanged information for appropriate action) alongside the existing definition of interoperability, and align the conformance chapter’s vocabulary with it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "#8"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 707"
+      }
+    ]
+  }
+}

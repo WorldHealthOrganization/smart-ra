@@ -1,0 +1,83 @@
+{
+  "id": "pc-0647",
+  "summary": "DPI-H components (right set): The core components are well chosen and reflect the building blocks that national digital…",
+  "comment": "DPI-H components (right set): The core components are well chosen and reflect the building blocks that national digital health systems genuinely need. From practical experience deploying community health registry infrastructure in Kenya and Zambia, the Client Registry, Health Facility Registry, Health Management Information System, and Public Health Surveillance Platform are the components that matter most at the point of delivery. The inclusion of the Lifelong Health Record is aspirationally important but may be premature as a priority component for low-income settings where foundational data capture is still inconsistent. The guidance would benefit from being more explicit about which components represent a minimum viable starting point versus longer-term goals, so that countries with limited resources can sequence implementation realistically rather than feeling they must address everything at once.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0647",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 647,
+      "entry": "646",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-93fcd0b606",
+      "name": "Mercy Chepngeno",
+      "organisation": "GeoApnet",
+      "country": "Kenya",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set as a whole."
+    },
+    "type": "general",
+    "text": "DPI-H components (right set): The core components are well chosen and reflect the building blocks that national digital health systems genuinely need. From practical experience deploying community health registry infrastructure in Kenya and Zambia, the Client Registry, Health Facility Registry, Health Management Information System, and Public Health Surveillance Platform are the components that matter most at the point of delivery. The inclusion of the Lifelong Health Record is aspirationally important but may be premature as a priority component for low-income settings where foundational data capture is still inconsistent. The guidance would benefit from being more explicit about which components represent a minimum viable starting point versus longer-term goals, so that countries with limited resources can sequence implementation realistically rather than feeling they must address everything at once.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "Theme": "Architecture and concepts",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 647"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set as a whole."
+      }
+    ]
+  }
+}

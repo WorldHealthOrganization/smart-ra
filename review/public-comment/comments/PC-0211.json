@@ -1,0 +1,80 @@
+{
+  "id": "pc-0211",
+  "summary": "The requirement for inclusive representation is welcome. However, the guidance could better explain how civil society a…",
+  "comment": "The requirement for inclusive representation is welcome. However, the guidance could better explain how civil society and affected communities obtain genuine influence rather than nominal participation, particularly where technical governance structures are highly specialised.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0211",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 211,
+      "entry": "210",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "249–272",
+      "raw": "§3.4.2 p.54 l.249–272"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-2-8b9795"
+      ],
+      "note": "p.54 l.249–272 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "general",
+    "text": "The requirement for inclusive representation is welcome. However, the guidance could better explain how civil society and affected communities obtain genuine influence rather than nominal participation, particularly where technical governance structures are highly specialised.",
+    "suggestedRevision": "Recommend defined voting or decision rights where appropriate, transparent selection of community representatives, accessible disclosure of decisions, feedback and grievance mechanisms, resourcing for effective participation, and periodic assessment of whether rural populations, women, displaced persons and underserved groups influence strategic decisions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 211"
+      }
+    ]
+  }
+}

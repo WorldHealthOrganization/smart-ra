@@ -1,0 +1,1 @@
+The Client Registry provides the verified person identity that the CDSE uses to request person-specific clinical data from the LHR. The CDSE relies on the Client Registry identifier to ensure that the clinical data it retrieves and evaluates belongs to the correct individual and that recommendations are generated in the context of that person's verified longitudinal record.

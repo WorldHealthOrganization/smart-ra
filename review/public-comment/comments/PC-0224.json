@@ -1,0 +1,81 @@
+{
+  "id": "pc-0224",
+  "summary": "Appendix F provides useful capability details for the Semantic Governance Infrastructure but does not reference the too…",
+  "comment": "Appendix F provides useful capability details for the Semantic Governance Infrastructure but does not reference the tools, programmes, or SDO engagement pathways available to countries to operationalise those capabilities. Countries reading Appendix F will understand what capabilities are required but receive no guidance on how to implement them or where to seek technical support which is a significant implementation gap given the technical complexity of building an SGI from scratch.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:f-46b1ae",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0224",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 224,
+      "entry": "223",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix F",
+      "page": "241",
+      "lines": "Table, Appendix F",
+      "raw": "§Appendix F p.241 l.Table, Appendix F"
+    },
+    "anchor": {
+      "targetLabel": "prose:f-46b1ae",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:f-79a18e",
+        "tbl:f-79f600"
+      ],
+      "note": "p.241 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Appendix F provides useful capability details for the Semantic Governance Infrastructure but does not reference the tools, programmes, or SDO engagement pathways available to countries to operationalise those capabilities. Countries reading Appendix F will understand what capabilities are required but receive no guidance on how to implement them or where to seek technical support which is a significant implementation gap given the technical complexity of building an SGI from scratch.",
+    "suggestedRevision": "We suggest to add a column to the Appendix F capability table: \"Available tools and SDO resources.\" Suggested entries: Concept lookup and value set management → Snowstorm (SNOMED International open-source FHIR Terminology Server); Laboratory observation management → LOINC FHIR API (Regenstrief); Terminology governance and release pipeline → SNOMED International NRC programme; FHIR conformance profiling → HL7 International Implementation Guides; Clinical-to-administrative coding maps → SNOMED International-WHO ICD cross-map programme.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 224"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0121",
+  "summary": "Beyond the single introductory claim about the DHP Handbook and one reference to WHO DIIG (4.2.2, line 124–125), the do…",
+  "comment": "Beyond the single introductory claim about the DHP Handbook and one reference to WHO DIIG (4.2.2, line 124–125), the document does not reference other relevant WHO digital health guidance — the Global Digital Health Monitor (GDHM), WHO SMART Guidelines — at any point reviewed, despite these being directly relevant comparator or complementary frameworks (GDHM in particular was already found to differ from REDDHI in indicator wording, making an explicit comparison valuable rather than optional).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:executive-summary-lead-7df30d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0121",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 121,
+      "entry": "120",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1. Executive summary",
+      "page": "1",
+      "lines": "39-55",
+      "raw": "§1. Executive summary p.1 l.39-55"
+    },
+    "anchor": {
+      "targetLabel": "prose:executive-summary-lead-7df30d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:executive-summary-lead-01831f"
+      ],
+      "note": "p.1 l.39-55 read as the printed page; section 1 agrees"
+    },
+    "type": "general",
+    "text": "Beyond the single introductory claim about the DHP Handbook and one reference to WHO DIIG (4.2.2, line 124–125), the document does not reference other relevant WHO digital health guidance — the Global Digital Health Monitor (GDHM), WHO SMART Guidelines — at any point reviewed, despite these being directly relevant comparator or complementary frameworks (GDHM in particular was already found to differ from REDDHI in indicator wording, making an explicit comparison valuable rather than optional).",
+    "suggestedRevision": "Add a short \"Related WHO guidance\" cross-reference at the start of major sections (or a consolidated subsection early in the document) mapping REDDHI/DPI-H concepts to GDHM indicators, SMART Guidelines components, DIIG costing stages, and DHP Handbook concepts, with specific section numbers in each case.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 121"
+      }
+    ]
+  }
+}

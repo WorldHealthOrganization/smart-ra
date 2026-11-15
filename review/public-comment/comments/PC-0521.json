@@ -1,0 +1,78 @@
+{
+  "id": "pc-0521",
+  "summary": "Section 3.6.5 addresses conformance testing before and during procurement. It does not address behavioral drift in AI-e…",
+  "comment": "Section 3.6.5 addresses conformance testing before and during procurement. It does not address behavioral drift in AI-enabled DPI-H components after deployment — the condition where an AI component that achieved conformance at procurement behaves differently after updates, changes to upstream data sources, or integration with new system components, without triggering re-conformance testing. For AI components used in clinical decision support or population health analytics, behavioral drift may represent a patient safety issue that the current conformance framework would not detect.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0521",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 521,
+      "entry": "520",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-0798f04c4c",
+      "name": "Dee Jared Johnson",
+      "organisation": "Cognitive Fusion™",
+      "country": "Salt Lake City, Utah, United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.5",
+      "page": "78",
+      "lines": "964-961",
+      "raw": "§3.6.5 p.78 l.964-961"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.78 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Section 3.6.5 addresses conformance testing before and during procurement. It does not address behavioral drift in AI-enabled DPI-H components after deployment — the condition where an AI component that achieved conformance at procurement behaves differently after updates, changes to upstream data sources, or integration with new system components, without triggering re-conformance testing. For AI components used in clinical decision support or population health analytics, behavioral drift may represent a patient safety issue that the current conformance framework would not detect.",
+    "suggestedRevision": "Add after line 961: \"For AI-enabled DPI-H components, conformance testing should extend beyond point-in-time procurement validation to include: (a) defined thresholds at which behavioral drift from the conformance baseline requires re-testing; (b) post-deployment monitoring protocols that compare AI component behavior against its conformance baseline at defined intervals; and (c) a documented process for detecting and responding to retrospective evaluation integrity failures — cases where a conformance evaluation is later found to have been conducted in a misconfigured or unrepresentative environment. These requirements align with the NIST AI RMF MANAGE function (MANAGE 2.4), which addresses ongoing monitoring and retrospective evaluation integrity protocols.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 521"
+      }
+    ]
+  }
+}

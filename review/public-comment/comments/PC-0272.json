@@ -1,0 +1,81 @@
+{
+  "id": "pc-0272",
+  "summary": "Reduced administrative burden and improved workforce capability are stated benefits, but workforce burden and socio-tec…",
+  "comment": "Reduced administrative burden and improved workforce capability are stated benefits, but workforce burden and socio-technical fit are not consistently framed as required evidence of architecture success. Shared infrastructure can still introduce duplicate entry, new reconciliation work, alert fatigue, training burden, workflow disruption or dependence on scarce specialist staff, especially for nurses, midwives and community health workers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-3-3-ada3f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0272",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 272,
+      "entry": "271",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.3.3; 1.5; 4.4; 4.5",
+      "page": "19; 21–23; 98–101",
+      "lines": "329–366; 440–448; progress measures; capacity sections",
+      "raw": "§1.3.3; 1.5; 4.4; 4.5 p.19; 21–23; 98–101 l.329–366; 440–448; progress measures; capacity sections"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-3-3-ada3f2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-3-3-2e5543",
+        "prose:1-3-3-461eca"
+      ],
+      "note": "p.19; 21–23; 98–101 l.329–366; 440–448; progress measures; capacity sections read as the printed page; section 1.3.3 agrees"
+    },
+    "type": "general",
+    "text": "Reduced administrative burden and improved workforce capability are stated benefits, but workforce burden and socio-technical fit are not consistently framed as required evidence of architecture success. Shared infrastructure can still introduce duplicate entry, new reconciliation work, alert fatigue, training burden, workflow disruption or dependence on scarce specialist staff, especially for nurses, midwives and community health workers.",
+    "suggestedRevision": "Include workforce and implementation-burden measures in baselines and impact evaluation which are duplicate data-entry and reporting time; cognitive and alert burden; workflow fit; training and supervision needs; competence and deskilling risks; downtime/manual fallback capability; availability of local support; staff acceptability; and whether benefits are sustained after donor or project funding ends. Require co-design and validation with frontline users across different resource and service settings.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 272"
+      }
+    ]
+  }
+}

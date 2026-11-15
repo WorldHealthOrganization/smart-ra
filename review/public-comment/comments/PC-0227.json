@@ -1,0 +1,87 @@
+{
+  "id": "pc-0227",
+  "summary": "SNOMED International formally offers to serve as an International SGI Reference Partner for WHO and ITU in the implemen…",
+  "comment": "SNOMED International formally offers to serve as an International SGI Reference Partner for WHO and ITU in the implementation of the DPI-H framework. As the steward of SNOMED CT, explicitly named in Section 3.4.5 and the REDDHI Open Standards list as foundational to the DPI-H Terminology Service, SNOMED International has a direct organisational interest in, and responsibility for, the success of national SGI implementations. SNOMED International's NRC programme, Snowstorm server, SNOMED CT Browser, and global member network constitute the resources countries will need to implement SGI at scale. SNOMED International would welcome the establishment of a formal SDO Technical Advisory Group to develop SGI implementation guidance alongside WHO and ITU.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0227",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 227,
+      "entry": "226",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5 / Overall",
+      "page": "57",
+      "lines": "373+",
+      "raw": "§3.4.5 / Overall p.57 l.373+"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-2-00e672"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 3.4.5 and asks to add SNOMED International as SGI reference partner"
+    },
+    "type": "general",
+    "text": "SNOMED International formally offers to serve as an International SGI Reference Partner for WHO and ITU in the implementation of the DPI-H framework. As the steward of SNOMED CT, explicitly named in Section 3.4.5 and the REDDHI Open Standards list as foundational to the DPI-H Terminology Service, SNOMED International has a direct organisational interest in, and responsibility for, the success of national SGI implementations. SNOMED International's NRC programme, Snowstorm server, SNOMED CT Browser, and global member network constitute the resources countries will need to implement SGI at scale. SNOMED International would welcome the establishment of a formal SDO Technical Advisory Group to develop SGI implementation guidance alongside WHO and ITU.",
+    "suggestedRevision": "Add to Section 3.4.5: \"WHO and ITU are invited to formally recognise SNOMED International as an International SGI Reference Partner for the DPI-H framework. A formal Technical Advisory Group, comprising SNOMED International, Regenstrief, HL7 International, and WHO, is proposed to develop SGI implementation guidance, standard operating procedures for NRC-aligned national bodies, and a DPI-H Terminology Service Conformance Profile for use in national procurement.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 227"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 3.4.5 and asks to add SNOMED International as SGI reference partner"
+      }
+    ]
+  }
+}

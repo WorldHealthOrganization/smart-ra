@@ -1,0 +1,78 @@
+{
+  "id": "pc-0516",
+  "summary": "The four entry points are framed at country level. Within countries that already have mature shared infrastructure, new…",
+  "comment": "The four entry points are framed at country level. Within countries that already have mature shared infrastructure, new facilities, service networks or cities may still be making foundational choices about processes, systems and capture points. Their local starting position can therefore differ materially from the national maturity category.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-971416",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0516",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 516,
+      "entry": "515",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.1 / 4.2.1",
+      "page": "88-89",
+      "lines": "Lines 13-21 and 64-73",
+      "raw": "§4.1.1 / 4.2.1 p.88-89 l.Lines 13-21 and 64-73"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-971416",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.88-89 l.Lines 13-21 and 64-73 read as the printed page; section 4.1.1 agrees"
+    },
+    "type": "general",
+    "text": "The four entry points are framed at country level. Within countries that already have mature shared infrastructure, new facilities, service networks or cities may still be making foundational choices about processes, systems and capture points. Their local starting position can therefore differ materially from the national maturity category.",
+    "suggestedRevision": "Add a short implementation note that entry-point assessment may also be applied to a major programme or delivery setting within the national architecture. Highlight commissioning and greenfield development as opportunities to align local actor definitions, data capture and system interfaces to national models before procurement and deployment.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 516"
+      }
+    ]
+  }
+}

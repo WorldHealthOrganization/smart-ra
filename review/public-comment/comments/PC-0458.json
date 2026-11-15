@@ -1,0 +1,78 @@
+{
+  "id": "pc-0458",
+  "summary": "The principle separates strategy from operations, and elsewhere the draft requires that no single programme, donor or v…",
+  "comment": "The principle separates strategy from operations, and elsewhere the draft requires that no single programme, donor or vendor control access or evolution. Neither addresses the combination of roles within one organisation: operating the shared infrastructure, holding the data that flows over it, and being its dominant funder. That combination makes improper influence possible even where none occurs, and no conduct rule fully remedies it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0458",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 458,
+      "entry": "457",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "254",
+      "raw": "§3.4.2 p.54 l.254"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.54 l.254 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "The principle separates strategy from operations, and elsewhere the draft requires that no single programme, donor or vendor control access or evolution. Neither addresses the combination of roles within one organisation: operating the shared infrastructure, holding the data that flows over it, and being its dominant funder. That combination makes improper influence possible even where none occurs, and no conduct rule fully remedies it.",
+    "suggestedRevision": "Add a structural separation requirement: the infrastructure operator role, the data holder role and a dominant funding relationship should not coincide in one entity, irrespective of whether misuse is demonstrated. Ordering law elsewhere works this way - Dutch electricity legislation prohibits combining network operation, supply and ownership interest without requiring proof of abuse in each case. In Dutch health information the three roles are currently intertwined, which illustrates why a conduct rule is insufficient.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 458"
+      }
+    ]
+  }
+}

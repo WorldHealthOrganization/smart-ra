@@ -1,0 +1,78 @@
+{
+  "id": "pc-0375",
+  "summary": "The criterion that a component be reusable ‘without modification to core design’ is too rigid for health information in…",
+  "comment": "The criterion that a component be reusable ‘without modification to core design’ is too rigid for health information infrastructure, or it may be easily misinterpreted. For example, is \"modifying\" a HIV registry for TB patients modifying its \"core design\"? They may have similar workflows, and both link to the shared client registry, but the content will be substantively different. What about updating an existing registry within new data elements, constraints, or reporting stages?",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-1-6060c3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0375",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 375,
+      "entry": "374",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "page": "64",
+      "lines": "550–572; Box 3.1",
+      "raw": "§3.5 p.64 l.550–572; Box 3.1"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-1-6060c3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.64 l.550–572; Box 3.1 read as the printed page; section 3.5 agrees"
+    },
+    "type": "technical",
+    "text": "The criterion that a component be reusable ‘without modification to core design’ is too rigid for health information infrastructure, or it may be easily misinterpreted. For example, is \"modifying\" a HIV registry for TB patients modifying its \"core design\"? They may have similar workflows, and both link to the shared client registry, but the content will be substantively different. What about updating an existing registry within new data elements, constraints, or reporting stages?",
+    "suggestedRevision": "Add \"data content definitions may be reused or altered, but the software serving these content definitions remains stable and content-neutral\".",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 375"
+      }
+    ]
+  }
+}

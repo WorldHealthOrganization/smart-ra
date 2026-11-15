@@ -1,0 +1,78 @@
+{
+  "id": "pc-0221",
+  "summary": "Line 482 cites SNOMED International's National Release Centre (NRC) model as a consensus-based authoring and release fr…",
+  "comment": "Line 482 cites SNOMED International's National Release Centre (NRC) model as a consensus-based authoring and release framework, and is the only named, tested framework for terminology governance referenced in the document. However, the citation is brief and provides no actionable guidance to countries on how to engage SNOMED International to implement an NRC-aligned SGI. Countries reading this section have no indication that tooling, governance templates, or a formal engagement pathway exist.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-a69d55",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0221",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 221,
+      "entry": "220",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "61",
+      "lines": "482",
+      "raw": "§3.4.5 p.61 l.482"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-a69d55",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.61 l.482 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "Line 482 cites SNOMED International's National Release Centre (NRC) model as a consensus-based authoring and release framework, and is the only named, tested framework for terminology governance referenced in the document. However, the citation is brief and provides no actionable guidance to countries on how to engage SNOMED International to implement an NRC-aligned SGI. Countries reading this section have no indication that tooling, governance templates, or a formal engagement pathway exist.",
+    "suggestedRevision": "Following the NRC model citation at line 482, we suggest to add: \"Countries wishing to establish an NRC-aligned SGI body can engage SNOMED International through the NRC onboarding programme (snomedct.org/nrc). SNOMED International provides governance templates, access to Snowstorm, an open-source HL7 FHIR Terminology Server, the SNOMED CT Browser, and connection to the global NRC peer community, at no additional cost to Member countries. Non-member countries can access GPS and NRC guidance materials as a starting point.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 221"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-0247",
+  "summary": "The definition is marked [Under review]. As drafted it groups all end-user applications together, but the obligations t…",
+  "comment": "The definition is marked [Under review]. As drafted it groups all end-user applications together, but the obligations that follow differ sharply depending on whether an application writes to the shared record or only reads from it. A system that writes into the Lifelong Health Record inherits conformance, provenance and data-quality duties that a read-only viewer does not.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:glossary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0247",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 247,
+      "entry": "246",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "Glossary — 'Point-of-service applications' [Under review]",
+      "page": "2 (glossary)",
+      "lines": "glossary entry",
+      "raw": "§Glossary — 'Point-of-service applications' [Under review] p.2 (glossary) l.glossary entry"
+    },
+    "anchor": {
+      "targetLabel": "sec:glossary-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Glossary\""
+    },
+    "type": "editorial",
+    "text": "The definition is marked [Under review]. As drafted it groups all end-user applications together, but the obligations that follow differ sharply depending on whether an application writes to the shared record or only reads from it. A system that writes into the Lifelong Health Record inherits conformance, provenance and data-quality duties that a read-only viewer does not.",
+    "suggestedRevision": "Revise to distinguish point-of-service applications that write to shared infrastructure from those that only consume it, and state that the former carry conformance and provenance obligations defined by the architecture.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 247"
+      }
+    ]
+  }
+}

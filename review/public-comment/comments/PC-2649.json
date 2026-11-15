@@ -1,0 +1,73 @@
+{
+  "id": "pc-2649",
+  "summary": "The statement that centralised infrastructure inherently provides “stronger” public governance, security or accountabil…",
+  "comment": "The statement that centralised infrastructure inherently provides “stronger” public governance, security or accountability is not topology-neutral and is not demonstrated by the architectural model. \n\nGovernance strength derives from the allocation and enforcement of decision rights, conformance rules, auditability, security controls and accountability, rather than necessarily from physical or logical centralisation. \n\nThe Guidance itself states on p. 54 that whether registries are centralised, federated or hybrid is an implementation choice. \n\nFor exameple, Spain's HCDSNS provides a practical example of a nationally interoperable system in which personal clinical data remain in Autonomous Community databases while national services enable access across the SNS. \n\nThe proposed wording would therefore preserve the legitimate advantages of centralised implementations without suggesting that federated architectures are intrinsically weaker.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:4-3-4-2-18dac0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2649",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 27,
+      "entry": "17",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3 Profiles and Specifications for Implementation",
+      "page": "98",
+      "lines": "382-384",
+      "raw": "§4.3 Profiles and Specifications for Implementation p.98 l.382-384"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-2-18dac0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98 l.382-384 read as the printed page; section 4.3 agrees"
+    },
+    "type": "technical",
+    "text": "The statement that centralised infrastructure inherently provides “stronger” public governance, security or accountability is not topology-neutral and is not demonstrated by the architectural model. \n\nGovernance strength derives from the allocation and enforcement of decision rights, conformance rules, auditability, security controls and accountability, rather than necessarily from physical or logical centralisation. \n\nThe Guidance itself states on p. 54 that whether registries are centralised, federated or hybrid is an implementation choice. \n\nFor exameple, Spain's HCDSNS provides a practical example of a nationally interoperable system in which personal clinical data remain in Autonomous Community databases while national services enable access across the SNS. \n\nThe proposed wording would therefore preserve the legitimate advantages of centralised implementations without suggesting that federated architectures are intrinsically weaker.",
+    "suggestedRevision": "Replace with: “Centralised models. National shared infrastructure may simplify certain common-service, conformance, operational-control and monitoring functions, but can also concentrate operational, availability and cybersecurity risks. Federated and hybrid models can provide equally strong public governance, standards enforcement, security and accountability where common conformance requirements, trust frameworks, audit mechanisms and decision rights are effectively governed. Architectural topology should therefore be selected according to context rather than ranked by presumed governance strength.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 27"
+      }
+    ]
+  }
+}

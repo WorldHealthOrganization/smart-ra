@@ -1,0 +1,67 @@
+{
+  "id": "pc-2713",
+  "summary": "§1.2.3, p. 16, lines 257–258. [highlight] On the text: «outside».",
+  "comment": "§1.2.3, p. 16, lines 257–258. [highlight] On the text: «outside».\nI would prefer to say:\nthat cuts across the health system as well as ....\n(it is for sure not outside the health system)\nIFMIS for example can be considered as part of DPI, and it is part of PFM. So \"adjacent\" does better justice to these connections.",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:1-2-3-99d1f0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2713",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 13,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-d0c911e213",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "1.2.3",
+      "page": "16",
+      "lines": "257–258",
+      "raw": "§1.2.3, p. 16, lines 257–258. [highlight] On the text: «outside».\nI would prefer to say:\nthat cuts across the health sys"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-3-99d1f0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.16 l.257–258 read as the printed page; section 1.2.3 agrees"
+    },
+    "text": "§1.2.3, p. 16, lines 257–258. [highlight] On the text: «outside».\nI would prefer to say:\nthat cuts across the health system as well as ....\n(it is for sure not outside the health system)\nIFMIS for example can be considered as part of DPI, and it is part of PFM. So \"adjacent\" does better justice to these connections.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

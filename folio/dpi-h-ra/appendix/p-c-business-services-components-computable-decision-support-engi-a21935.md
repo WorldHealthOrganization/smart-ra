@@ -1,0 +1,1 @@
+The Health Workforce Registry provides the authoritative references for the professional role and credentials of the requesting health worker, supporting role-based filtering of recommendations so that guidance is calibrated to the scope of practice of the receiving clinician.

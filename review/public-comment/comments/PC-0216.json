@@ -1,0 +1,78 @@
+{
+  "id": "pc-0216",
+  "summary": "The discussion of representative data and trustworthy AI is important. Greater attention is needed to African populatio…",
+  "comment": "The discussion of representative data and trustworthy AI is important. Greater attention is needed to African populations and local languages that are underrepresented in global datasets, since systems trained and evaluated elsewhere may perform inequitably in Mozambique and other multilingual settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0216",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 216,
+      "entry": "215",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2–5.4.3",
+      "page": "108",
+      "lines": "154–175",
+      "raw": "§5.4.2–5.4.3 p.108 l.154–175"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.108 l.154–175 read as the printed page; section 5.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "The discussion of representative data and trustworthy AI is important. Greater attention is needed to African populations and local languages that are underrepresented in global datasets, since systems trained and evaluated elsewhere may perform inequitably in Mozambique and other multilingual settings.",
+    "suggestedRevision": "Require evaluation against locally representative clinical cases, population groups and languages before deployment. Encourage governed development of local-language datasets, terminology resources and benchmarks, with community participation, appropriate consent, documented human oversight and clear accountability for harmful or incorrect outputs.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 216"
+      }
+    ]
+  }
+}

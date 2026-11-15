@@ -1,0 +1,1290 @@
+WEBVTT
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/5-0
+00:00:05.812 --> 00:00:10.760
+<v LEITNER, Carl>Hi, this is Carl Lightner.
+I'm acting as a business analyst going</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/5-1
+00:00:10.760 --> 00:00:16.084
+<v LEITNER, Carl>through a collaborative requirements
+development methodology, or CRDM,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/5-2
+00:00:16.084 --> 00:00:19.758
+<v LEITNER, Carl>with my colleague who will introduce
+themselves.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/5-3
+00:00:19.758 --> 00:00:24.932
+<v LEITNER, Carl>We are looking at developing and
+iterating on a feature for doing...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/7-0
+00:00:26.372 --> 00:00:32.001
+<v LEITNER, Carl>public comment review of a document where
+we had 3000 comments come in.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/7-1
+00:00:32.001 --> 00:00:38.413
+<v LEITNER, Carl>We've had some initial features developed
+and now we're going to do a walkthrough</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/7-2
+00:00:38.413 --> 00:00:43.652
+<v LEITNER, Carl>with my colleague and want to correct
+some or capture features and</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/8-0
+00:00:43.892 --> 00:00:47.751
+<v LEITNER, Carl>requests and other things that could
+improve the workflow.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/8-1
+00:00:47.751 --> 00:00:52.984
+<v LEITNER, Carl>She is serving as the chief editor for
+the reference architecture. Over to you.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/8-2
+00:00:52.984 --> 00:00:55.012
+<v LEITNER, Carl>You want to introduce yourself?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/9-0
+00:00:54.532 --> 00:00:59.879
+<v EYETAN, Chinemerem Chika>Thanks, Carl. I'm Chinni EYETAN.
+I'm serving as the chief editor for the</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/9-1
+00:00:59.879 --> 00:01:03.835
+<v EYETAN, Chinemerem Chika>reference architecture document.
+Like Carl mentioned,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/9-2
+00:01:03.835 --> 00:01:09.695
+<v EYETAN, Chinemerem Chika>we have over 3000 comments and we want to
+be able to define the requirements to</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/9-3
+00:01:09.695 --> 00:01:15.188
+<v EYETAN, Chinemerem Chika>enable us review those comments as part
+of the technical working group and</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/9-4
+00:01:15.188 --> 00:01:17.972
+<v EYETAN, Chinemerem Chika>categorise the comments so that we can</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/11-0
+00:01:18.452 --> 00:01:24.973
+<v EYETAN, Chinemerem Chika>also have different sub-working group
+members look at the comments that pertain</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/11-1
+00:01:24.973 --> 00:01:27.092
+<v EYETAN, Chinemerem Chika>to that particular domain.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/14-0
+00:01:29.132 --> 00:01:32.537
+<v LEITNER, Carl>Great.
+And I'm putting in the chat a link to the,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/12-0
+00:01:29.652 --> 00:01:30.052
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/14-1
+00:01:32.537 --> 00:01:35.874
+<v LEITNER, Carl>what we're going to be looking at.
+I don't know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/14-2
+00:01:35.874 --> 00:01:39.892
+<v LEITNER, Carl>does this also record video or not?
+Because that would be.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/13-0
+00:01:39.252 --> 00:01:41.012
+<v EYETAN, Chinemerem Chika>It does, yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/15-0
+00:01:40.852 --> 00:01:43.972
+<v LEITNER, Carl>Would be, oops, sorry,
+I think I recorded the wrong thing.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/16-0
+00:01:45.172 --> 00:01:45.972
+<v LEITNER, Carl>Ohh.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/17-0
+00:01:46.892 --> 00:01:47.972
+<v LEITNER, Carl>What did I want to share?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/18-0
+00:01:50.692 --> 00:01:55.417
+<v LEITNER, Carl>I think this, okay,
+so this is the current staging branch</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/18-1
+00:01:55.417 --> 00:02:02.098
+<v LEITNER, Carl>that we have for the reviewing the public
+comments on the reference architecture.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/18-2
+00:02:02.098 --> 00:02:08.372
+<v LEITNER, Carl>You can see that there's 2600 comments of
+which 2629 are open. I don't know.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/19-0
+00:02:08.772 --> 00:02:12.132
+<v LEITNER, Carl>Why some are closed? That's interesting,
+because I didn't ask them to be closed.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/20-0
+00:02:14.932 --> 00:02:21.249
+<v LEITNER, Carl>But the way that these,
+what's happened is all of these 2600</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/20-1
+00:02:21.249 --> 00:02:28.809
+<v LEITNER, Carl>comments got grouped into change sets.
+And you can see change sets here.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/20-2
+00:02:28.809 --> 00:02:35.852
+<v LEITNER, Carl>These change sets are, for example,
+CS001 has 14 comments that are.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/21-0
+00:02:35.932 --> 00:02:39.904
+<v LEITNER, Carl>are in it,
+it has grouped all of those 14 comments</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/21-1
+00:02:39.904 --> 00:02:45.357
+<v LEITNER, Carl>to a common set of requirements,
+like complete, incomplete sentences,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/21-2
+00:02:45.357 --> 00:02:49.719
+<v LEITNER, Carl>define DPIF at first use,
+simplify the flagged wording.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/21-3
+00:02:49.719 --> 00:02:55.172
+<v LEITNER, Carl>You can also go to the specific comments
+for that change set and see.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/23-0
+00:02:55.252 --> 00:03:00.294
+<v LEITNER, Carl>You can expand to see who actually
+provided the comment and the details</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/23-1
+00:03:00.294 --> 00:03:04.566
+<v LEITNER, Carl>behind that comment,
+whether a decision has been made yet on</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/23-2
+00:03:04.566 --> 00:03:08.488
+<v LEITNER, Carl>that comment,
+the committee or who's actually reviewing</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/23-3
+00:03:08.488 --> 00:03:12.270
+<v LEITNER, Carl>that comment,
+and we need to figure that out a little</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/22-0
+00:03:09.732 --> 00:03:09.812
+<v EYETAN, Chinemerem Chika>So.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/23-4
+00:03:12.270 --> 00:03:15.492
+<v LEITNER, Carl>bit.
+And you can also see the links in the...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/24-0
+00:03:16.212 --> 00:03:22.330
+<v LEITNER, Carl>document itself to see all the comments
+that are related to that section or that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/24-1
+00:03:22.330 --> 00:03:27.164
+<v LEITNER, Carl>area of the comment.
+So that's what I wanted to share with you,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/24-2
+00:03:27.164 --> 00:03:31.545
+<v LEITNER, Carl>Tini, like, and oh,
+one last thing is if you are now in a</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/24-3
+00:03:31.545 --> 00:03:32.452
+<v LEITNER, Carl>comment set.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/25-0
+00:03:34.932 --> 00:03:38.433
+<v LEITNER, Carl>What you can do,
+let's say we're looking at CS164.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/25-1
+00:03:38.433 --> 00:03:42.896
+<v LEITNER, Carl>There's a discuss link.
+What this can do is let's say we're in a</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/25-2
+00:03:42.896 --> 00:03:45.986
+<v LEITNER, Carl>working group call and we say, oh,
+you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/25-3
+00:03:45.986 --> 00:03:51.066
+<v LEITNER, Carl>we're in the product registry working
+group call with Saroop or somebody.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/25-4
+00:03:51.066 --> 00:03:53.332
+<v LEITNER, Carl>We want to look at these changes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/27-0
+00:03:54.572 --> 00:03:57.654
+<v LEITNER, Carl>And then we go and go into a discussion
+mode.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/27-1
+00:03:57.654 --> 00:04:02.947
+<v LEITNER, Carl>This automatically creates an issue or
+sets up an issue that we can create and</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/27-2
+00:04:02.947 --> 00:04:06.967
+<v LEITNER, Carl>then provide comments during the
+discussion and keep notes,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/27-3
+00:04:06.967 --> 00:04:10.987
+<v LEITNER, Carl>put attachments there,
+and whoever has a GitHub account can</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/26-0
+00:04:08.612 --> 00:04:09.092
+<v EYETAN, Chinemerem Chika>Mhm.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/27-4
+00:04:10.987 --> 00:04:13.332
+<v LEITNER, Carl>contribute to like that change set.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/28-0
+00:04:14.372 --> 00:04:18.345
+<v LEITNER, Carl>Once that's created, then you can then,
+for example,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/28-1
+00:04:18.345 --> 00:04:24.341
+<v LEITNER, Carl>assign a co-pilot or an agent to create a
+pull request that will go through and</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/28-2
+00:04:24.341 --> 00:04:29.139
+<v LEITNER, Carl>implement the changes that get approved
+through the discussion.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/28-3
+00:04:29.139 --> 00:04:32.212
+<v LEITNER, Carl>So that was sort of the general workflow.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/29-0
+00:04:33.492 --> 00:04:37.492
+<v LEITNER, Carl>and dashboard that was a straw person for
+you to react to.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/30-0
+00:04:40.132 --> 00:04:40.692
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/31-0
+00:04:41.572 --> 00:04:45.988
+<v EYETAN, Chinemerem Chika>Great.
+So I think it works fine in terms of the</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/31-1
+00:04:45.988 --> 00:04:50.312
+<v EYETAN, Chinemerem Chika>workflow,
+but there are a couple of additional</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/31-2
+00:04:50.312 --> 00:04:57.488
+<v EYETAN, Chinemerem Chika>things that I think I just wanted to
+clarify in terms of how it's categorised</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/31-3
+00:04:57.488 --> 00:05:01.812
+<v EYETAN, Chinemerem Chika>in the comments.
+So one of the things that I'm</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/32-0
+00:05:02.532 --> 00:05:09.510
+<v EYETAN, Chinemerem Chika>concerned that it does is that there's
+consistency in the way it goes through</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/32-1
+00:05:09.510 --> 00:05:13.714
+<v EYETAN, Chinemerem Chika>the categorization of these comments.
+We have,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/32-2
+00:05:13.714 --> 00:05:20.692
+<v EYETAN, Chinemerem Chika>I have a couple of categories for which
+this needs, these comments need to be</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/33-0
+00:05:21.892 --> 00:05:27.706
+<v EYETAN, Chinemerem Chika>grouped under beyond the, you know,
+whether they're, apart from, you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/33-1
+00:05:27.706 --> 00:05:33.132
+<v EYETAN, Chinemerem Chika>talking about them in terms of the
+bundles and the areas that they're</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/33-2
+00:05:33.132 --> 00:05:38.481
+<v EYETAN, Chinemerem Chika>covering. So, for example,
+you have the ones that relate to applying</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/33-3
+00:05:38.481 --> 00:05:41.892
+<v EYETAN, Chinemerem Chika>editorial clarity revisions to the
+summary.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/34-0
+00:05:42.212 --> 00:05:46.973
+<v EYETAN, Chinemerem Chika>I would like that to go to an editorial
+category. Then I would,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/34-1
+00:05:46.973 --> 00:05:52.553
+<v EYETAN, Chinemerem Chika>there are a couple of them that,
+a couple of the comments that relate more</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/34-2
+00:05:52.553 --> 00:05:58.728
+<v EYETAN, Chinemerem Chika>to things like, for example, supply chain.
+And I would like those comments also to</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/34-3
+00:05:58.728 --> 00:06:01.332
+<v EYETAN, Chinemerem Chika>be categorised on the supply chain.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/35-0
+00:06:02.132 --> 00:06:06.529
+<v EYETAN, Chinemerem Chika>So in reality,
+beyond the editorial comments,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/35-1
+00:06:06.529 --> 00:06:13.603
+<v EYETAN, Chinemerem Chika>whether a review or not is needed,
+I would also like an additional set of</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/35-2
+00:06:13.603 --> 00:06:20.772
+<v EYETAN, Chinemerem Chika>categories that go towards core
+architects, the metadata registries group,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/36-0
+00:06:21.012 --> 00:06:27.892
+<v EYETAN, Chinemerem Chika>supply chain, financial systems, clinical,
+and then WHO in general.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/37-0
+00:06:29.332 --> 00:06:33.993
+<v EYETAN, Chinemerem Chika>And of course, editorial changes,
+like I mentioned earlier.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/37-1
+00:06:33.993 --> 00:06:39.042
+<v EYETAN, Chinemerem Chika>So those are one of the,
+some of the first categorization that I</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/37-2
+00:06:39.042 --> 00:06:44.713
+<v EYETAN, Chinemerem Chika>would also like beyond grouping them into
+similar themes that, you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/37-3
+00:06:44.713 --> 00:06:49.452
+<v EYETAN, Chinemerem Chika>you've already done in terms of this
+current categorization.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/38-0
+00:06:50.692 --> 00:06:55.252
+<v LEITNER, Carl>Okay, thanks. And to help clarify, so you.
+..</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/42-0
+00:06:56.132 --> 00:06:59.490
+<v LEITNER, Carl>Would one,
+so you like the change sets as an</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/42-1
+00:06:59.490 --> 00:07:03.147
+<v LEITNER, Carl>approach,
+but maybe different tags on top of the</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/42-2
+00:07:03.147 --> 00:07:07.997
+<v LEITNER, Carl>change set for different axes related to,
+you know, for example,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/42-3
+00:07:07.997 --> 00:07:13.818
+<v LEITNER, Carl>is it an editorial type of change or is
+it a specific content type of change?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/39-0
+00:07:10.252 --> 00:07:10.612
+<v EYETAN, Chinemerem Chika>Yep.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/42-4
+00:07:13.818 --> 00:07:16.132
+<v LEITNER, Carl>Okay, and I see that there's...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/40-0
+00:07:13.972 --> 00:07:14.452
+<v EYETAN, Chinemerem Chika>Yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/41-0
+00:07:15.532 --> 00:07:15.692
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/45-0
+00:07:16.612 --> 00:07:21.224
+<v LEITNER, Carl>Looking at the screen in the demo,
+there is already a type that has a</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/45-1
+00:07:21.224 --> 00:07:26.758
+<v LEITNER, Carl>dropdown of editorial, generic, general,
+and technical, which seemed to be working,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/43-0
+00:07:22.052 --> 00:07:22.212
+<v EYETAN, Chinemerem Chika>Mm.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/44-0
+00:07:24.052 --> 00:07:24.932
+<v EYETAN, Chinemerem Chika>Technical, yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/45-2
+00:07:26.758 --> 00:07:28.932
+<v LEITNER, Carl>but before, but doesn't work now.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/47-0
+00:07:30.372 --> 00:07:32.725
+<v LEITNER, Carl>Those are,
+are those the categories you want,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/46-0
+00:07:30.692 --> 00:07:31.332
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/47-1
+00:07:32.725 --> 00:07:33.492
+<v LEITNER, Carl>or do you have?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/49-0
+00:07:32.852 --> 00:07:39.122
+<v EYETAN, Chinemerem Chika>So I think editorial, absolutely fine.
+It's really between the general and the</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/49-1
+00:07:39.122 --> 00:07:43.011
+<v EYETAN, Chinemerem Chika>technical.
+The technical especially are the ones</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/48-0
+00:07:41.972 --> 00:07:42.252
+<v LEITNER, Carl>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/49-2
+00:07:43.011 --> 00:07:49.440
+<v EYETAN, Chinemerem Chika>that would need specific categorization
+into whether it's the metadata registry,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/49-3
+00:07:49.440 --> 00:07:53.012
+<v EYETAN, Chinemerem Chika>supply chain,
+financial systems or clinical.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/51-0
+00:07:53.732 --> 00:07:59.157
+<v EYETAN, Chinemerem Chika>or core architects. General,
+we can leave as general and that can be</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/50-0
+00:07:55.892 --> 00:07:56.372
+<v LEITNER, Carl>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/51-1
+00:07:59.157 --> 00:08:02.932
+<v EYETAN, Chinemerem Chika>reviewed by the editorial team in terms
+of WHO.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/55-0
+00:08:03.892 --> 00:08:07.326
+<v LEITNER, Carl>Okay,
+so I guess there's a couple of ways that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/55-1
+00:08:07.326 --> 00:08:12.805
+<v LEITNER, Carl>we could break down the technical.
+One could be by working group committee</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/52-0
+00:08:12.372 --> 00:08:12.852
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/55-2
+00:08:12.805 --> 00:08:17.700
+<v LEITNER, Carl>that is focused on that area,
+and that could be aligned to when we</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/53-0
+00:08:13.732 --> 00:08:14.132
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/55-3
+00:08:17.700 --> 00:08:19.892
+<v LEITNER, Carl>looked at the actual comments.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/54-0
+00:08:20.852 --> 00:08:21.252
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/56-0
+00:08:21.412 --> 00:08:24.212
+<v LEITNER, Carl>There was a committee associated with a
+comment.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/57-0
+00:08:23.812 --> 00:08:25.252
+<v EYETAN, Chinemerem Chika>Yes, yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/60-0
+00:08:25.172 --> 00:08:29.203
+<v LEITNER, Carl>So if we said, oh, well,
+a change set is two or three more</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/60-1
+00:08:29.203 --> 00:08:33.029
+<v LEITNER, Carl>comments, and that comment is associated,
+or those two,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/60-2
+00:08:33.029 --> 00:08:37.948
+<v LEITNER, Carl>three comments could be associated to,
+you know, one to two committees,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/58-0
+00:08:37.892 --> 00:08:38.292
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/60-3
+00:08:37.948 --> 00:08:42.047
+<v LEITNER, Carl>but at least we could roll that
+information back up to, oh,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/59-0
+00:08:39.732 --> 00:08:40.092
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/60-4
+00:08:42.047 --> 00:08:43.892
+<v LEITNER, Carl>the back things don't work.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/61-0
+00:08:44.132 --> 00:08:44.452
+<v LEITNER, Carl>Um...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/63-0
+00:08:45.612 --> 00:08:49.768
+<v LEITNER, Carl>then we could at least roll it back up
+and you could search at the top for chain</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/62-0
+00:08:48.772 --> 00:08:49.332
+<v EYETAN, Chinemerem Chika>Yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/63-1
+00:08:49.768 --> 00:08:53.412
+<v LEITNER, Carl>sets that are editorial within this
+committee. And that would be okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/64-0
+00:08:52.212 --> 00:08:55.732
+<v EYETAN, Chinemerem Chika>Yes, that would work, absolutely.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/66-0
+00:08:56.132 --> 00:09:00.125
+<v LEITNER, Carl>So there's another axis though,
+which is the reference architecture</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/66-1
+00:09:00.125 --> 00:09:03.003
+<v LEITNER, Carl>itself. And like,
+is it on a metadata component?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/66-2
+00:09:03.003 --> 00:09:07.467
+<v LEITNER, Carl>Is it on a business domain component?
+Which one of those? We could do that.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/65-0
+00:09:05.252 --> 00:09:05.652
+<v EYETAN, Chinemerem Chika>OK.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/66-3
+00:09:07.467 --> 00:09:10.932
+<v LEITNER, Carl>I think that's probably more than that's
+needed right now.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/67-0
+00:09:11.972 --> 00:09:13.492
+<v EYETAN, Chinemerem Chika>Okay, I think let's...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/68-0
+00:09:12.852 --> 00:09:15.412
+<v LEITNER, Carl>Or, but I could be wrong. I mean,
+I'm asking, yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/70-0
+00:09:15.732 --> 00:09:18.786
+<v EYETAN, Chinemerem Chika>I think if we start with what we have
+first,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/70-1
+00:09:18.786 --> 00:09:22.654
+<v EYETAN, Chinemerem Chika>and then we'll see whether we go to that
+level of depth.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/70-2
+00:09:22.654 --> 00:09:27.200
+<v EYETAN, Chinemerem Chika>I will trial this out with,
+or at least I'll show this to the core</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/70-3
+00:09:27.200 --> 00:09:31.408
+<v EYETAN, Chinemerem Chika>architect group tomorrow,
+and we can start seeing and testing</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/70-4
+00:09:31.408 --> 00:09:35.412
+<v EYETAN, Chinemerem Chika>whether it actually is able to work as a
+workflow process.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/69-0
+00:09:35.972 --> 00:09:36.372
+<v LEITNER, Carl>OK.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/72-0
+00:09:36.052 --> 00:09:39.661
+<v EYETAN, Chinemerem Chika>for us to go through this with the other
+domain groups.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/72-1
+00:09:39.661 --> 00:09:44.817
+<v EYETAN, Chinemerem Chika>The other thing I wanted to also mention
+is because from the spreadsheet that I</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/72-2
+00:09:44.817 --> 00:09:48.362
+<v EYETAN, Chinemerem Chika>shared with you,
+I still have additional comments that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/72-3
+00:09:48.362 --> 00:09:52.616
+<v EYETAN, Chinemerem Chika>have come through that were not part of
+that first consolidation.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/72-4
+00:09:52.616 --> 00:09:56.612
+<v EYETAN, Chinemerem Chika>So there's another requirement around
+ingesting new comments.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/71-0
+00:09:53.092 --> 00:09:53.492
+<v LEITNER, Carl>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/73-0
+00:10:08.612 --> 00:10:11.332
+<v LEITNER, Carl>Okay, yeah, yeah, yeah,
+I guess I remember some of those, yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/74-0
+00:10:11.652 --> 00:10:16.630
+<v EYETAN, Chinemerem Chika>and some of them might not have been
+routed properly to the mailbox that I,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/74-1
+00:10:16.630 --> 00:10:21.215
+<v EYETAN, Chinemerem Chika>the sub mailbox that I created.
+So I'll have to look at those and see</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/74-2
+00:10:21.215 --> 00:10:26.783
+<v EYETAN, Chinemerem Chika>which ones have not already been captured.
+So there's also ingestion of new comments</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/74-3
+00:10:26.783 --> 00:10:30.189
+<v EYETAN, Chinemerem Chika>that I would,
+that's a requirement for this so that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/74-4
+00:10:30.189 --> 00:10:31.892
+<v EYETAN, Chinemerem Chika>when we have new comments,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/75-0
+00:10:32.132 --> 00:10:35.332
+<v EYETAN, Chinemerem Chika>we can also ingest into this workflow.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/76-0
+00:10:36.452 --> 00:10:41.028
+<v LEITNER, Carl>Okay, no, that's good to know.
+And there's a couple of possibilities</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/76-1
+00:10:41.028 --> 00:10:43.880
+<v LEITNER, Carl>here.
+One is that you pre-resolve and take</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/76-2
+00:10:43.880 --> 00:10:48.456
+<v LEITNER, Carl>things out, which you can do.
+And the other is we can ask, you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/76-3
+00:10:48.456 --> 00:10:52.236
+<v LEITNER, Carl>the agents to do it.
+And then they could either say, oh,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/76-4
+00:10:52.236 --> 00:10:54.292
+<v LEITNER, Carl>you have a new version of your.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/79-0
+00:10:54.452 --> 00:11:00.297
+<v LEITNER, Carl>the document that you ingested before and
+it looks for changes or deltas on that or</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/79-1
+00:11:00.297 --> 00:11:04.125
+<v LEITNER, Carl>it says, oh,
+here's a brand new document and tries to,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/79-2
+00:11:04.125 --> 00:11:08.926
+<v LEITNER, Carl>you know, process it that way.
+But I think in either case, you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/79-3
+00:11:08.926 --> 00:11:14.354
+<v LEITNER, Carl>it should try to deduplicate or look for
+potential duplicates as it comes in,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/78-0
+00:11:12.852 --> 00:11:13.492
+<v EYETAN, Chinemerem Chika>Yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/79-4
+00:11:14.354 --> 00:11:14.772
+<v LEITNER, Carl>right?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/82-0
+00:11:14.772 --> 00:11:21.529
+<v EYETAN, Chinemerem Chika>Yes, I would prefer deduplication.
+What I haven't seen though here is the,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/81-0
+00:11:18.532 --> 00:11:18.932
+<v LEITNER, Carl>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/82-1
+00:11:21.529 --> 00:11:27.475
+<v EYETAN, Chinemerem Chika>whether it also captured,
+and maybe it's in the change sets piece</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/82-2
+00:11:27.475 --> 00:11:33.692
+<v EYETAN, Chinemerem Chika>or in the actual comments piece,
+whether it captured the individuals</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/84-0
+00:11:33.812 --> 00:11:39.892
+<v EYETAN, Chinemerem Chika>who entered those comments,
+because then this feeds back into.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/83-0
+00:11:38.372 --> 00:11:39.412
+<v LEITNER, Carl>Yeah, it's in.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/85-0
+00:11:40.932 --> 00:11:41.492
+<v LEITNER, Carl>Oh, go ahead.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/86-0
+00:11:41.092 --> 00:11:42.532
+<v EYETAN, Chinemerem Chika>Acknowledgements.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/89-0
+00:11:43.332 --> 00:11:47.010
+<v LEITNER, Carl>Yeah, it's tracked on the comment level.
+So if we acknowledge,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/87-0
+00:11:45.852 --> 00:11:46.212
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/89-1
+00:11:47.010 --> 00:11:51.098
+<v LEITNER, Carl>if we decide on a change set,
+then that we should be able to say, oh,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/89-2
+00:11:51.098 --> 00:11:54.426
+<v LEITNER, Carl>this comment was, you know,
+included in this change set,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/89-3
+00:11:54.426 --> 00:11:58.163
+<v LEITNER, Carl>and we should be able to generate
+something from based on that.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/89-4
+00:11:58.163 --> 00:12:01.492
+<v LEITNER, Carl>That's the plan.
+And then the other maybe thing to show.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/88-0
+00:11:59.092 --> 00:11:59.652
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/93-0
+00:12:01.812 --> 00:12:05.592
+<v LEITNER, Carl>So I think what we're missing here,
+potentially just brought up,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/93-1
+00:12:05.592 --> 00:12:09.256
+<v LEITNER, Carl>is there should be deduplication on
+ingestion of new comments,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/90-0
+00:12:07.972 --> 00:12:08.292
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/93-2
+00:12:09.256 --> 00:12:13.850
+<v LEITNER, Carl>but also maybe some a link when we're
+looking at an individual compliment that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/93-3
+00:12:13.850 --> 00:12:18.387
+<v LEITNER, Carl>says, oh, this looks like a duplicate,
+and you could name the comment that it</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/91-0
+00:12:17.492 --> 00:12:17.892
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/93-4
+00:12:18.387 --> 00:12:19.492
+<v LEITNER, Carl>looks duplicate to.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/92-0
+00:12:19.172 --> 00:12:21.732
+<v EYETAN, Chinemerem Chika>Yeah, OK, yes.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/94-0
+00:12:21.052 --> 00:12:25.092
+<v LEITNER, Carl>I want to show one last thing and I know
+we both have to run,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/94-1
+00:12:25.092 --> 00:12:29.654
+<v LEITNER, Carl>but if we also you can say, oh,
+select these three comments and let's</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/94-2
+00:12:29.654 --> 00:12:35.064
+<v LEITNER, Carl>make a new change set for those comments.
+So if you need to like break up a change</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/94-3
+00:12:35.064 --> 00:12:39.821
+<v LEITNER, Carl>set or create a new change set,
+then that would also go to like a change</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/94-4
+00:12:39.821 --> 00:12:41.972
+<v LEITNER, Carl>set proposal that only an editor.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/97-0
+00:12:43.092 --> 00:12:47.681
+<v LEITNER, Carl>like yourself could do. I mean,
+we could delegate this to committees,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/97-1
+00:12:47.681 --> 00:12:52.270
+<v LEITNER, Carl>but we don't have enough like
+infrastructure for like really detailed</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/95-0
+00:12:51.892 --> 00:12:52.292
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/97-2
+00:12:52.270 --> 00:12:56.532
+<v LEITNER, Carl>granular control at this moment.
+But hopefully that makes sense.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/96-0
+00:12:53.532 --> 00:12:53.812
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/98-0
+00:12:57.332 --> 00:13:01.603
+<v EYETAN, Chinemerem Chika>Yes, yes, it makes sense.
+And I think I think it will work.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/98-1
+00:13:01.603 --> 00:13:05.375
+<v EYETAN, Chinemerem Chika>Thank you.
+Makes me feel better that we were able to</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/98-2
+00:13:05.375 --> 00:13:10.429
+<v EYETAN, Chinemerem Chika>kind of move this forward and use AI to
+support. What you'll also see,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/98-3
+00:13:10.429 --> 00:13:16.052
+<v EYETAN, Chinemerem Chika>I don't know if you saw or noticed in the
+spreadsheet I shared with you, I had</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/100-0
+00:13:16.372 --> 00:13:21.934
+<v EYETAN, Chinemerem Chika>asked my own AI assistant to do that
+initial categorization.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/100-1
+00:13:21.934 --> 00:13:28.864
+<v EYETAN, Chinemerem Chika>And then I compared it with my human
+categorization to see whether it would</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/100-2
+00:13:28.864 --> 00:13:34.882
+<v EYETAN, Chinemerem Chika>categorise things similarly.
+And there were a lot that were quite</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/99-0
+00:13:32.532 --> 00:13:32.692
+<v LEITNER, Carl>Mm.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/100-3
+00:13:34.882 --> 00:13:35.612
+<v EYETAN, Chinemerem Chika>similar.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/101-0
+00:13:35.732 --> 00:13:39.452
+<v EYETAN, Chinemerem Chika>In terms of how we categorize,
+there were some where it...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/104-0
+00:13:40.612 --> 00:13:45.063
+<v EYETAN, Chinemerem Chika>categorised into a specific domain group,
+but then upon reading those comments,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/104-1
+00:13:45.063 --> 00:13:49.403
+<v EYETAN, Chinemerem Chika>you realise that some of those things
+that are being requested are not things</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/104-2
+00:13:49.403 --> 00:13:52.630
+<v EYETAN, Chinemerem Chika>that we plan to even cover in the
+reference architecture.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/102-0
+00:13:51.132 --> 00:13:51.372
+<v LEITNER, Carl>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/104-3
+00:13:52.630 --> 00:13:56.804
+<v EYETAN, Chinemerem Chika>So these are some of the things that
+hopefully we'll see how we're able to</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/104-4
+00:13:56.804 --> 00:13:59.252
+<v EYETAN, Chinemerem Chika>manage that. But yes,
+I think that's great.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/103-0
+00:13:58.052 --> 00:13:58.692
+<v LEITNER, Carl>Yeah, I know.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-0
+00:14:00.452 --> 00:14:04.926
+<v LEITNER, Carl>And we should also just make a note that
+when it should have added those columns,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-1
+00:14:04.926 --> 00:14:08.691
+<v LEITNER, Carl>I noticed when I gave it the original
+blank template of the changes,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-2
+00:14:08.691 --> 00:14:11.310
+<v LEITNER, Carl>and it said, oh,
+there's a new columns in here,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/105-0
+00:14:10.292 --> 00:14:10.692
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-3
+00:14:11.310 --> 00:14:14.966
+<v LEITNER, Carl>and it did something with it.
+So I don't know what it did with it.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-4
+00:14:14.966 --> 00:14:18.840
+<v LEITNER, Carl>I don't know if that's one of the
+philtres that we saw was one of your</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/107-5
+00:14:18.840 --> 00:14:19.932
+<v LEITNER, Carl>columns or not, but.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/106-0
+00:14:20.532 --> 00:14:21.492
+<v EYETAN, Chinemerem Chika>Ah, okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/109-0
+00:14:20.852 --> 00:14:26.896
+<v LEITNER, Carl>maybe as a follow-up processes to compare
+that and look at sort of the adjudication</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/109-1
+00:14:26.896 --> 00:14:32.005
+<v LEITNER, Carl>workflows between a human and an agent
+characterization and, you know,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/109-2
+00:14:32.005 --> 00:14:33.732
+<v LEITNER, Carl>options for improvement.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/108-0
+00:14:34.292 --> 00:14:35.332
+<v EYETAN, Chinemerem Chika>Okay, yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/110-0
+00:14:35.972 --> 00:14:37.972
+<v LEITNER, Carl>Anything else for the agents, Jiun?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/111-0
+00:14:38.412 --> 00:14:41.172
+<v EYETAN, Chinemerem Chika>In terms of the agents, I think...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/112-0
+00:14:45.012 --> 00:14:49.100
+<v EYETAN, Chinemerem Chika>I think that's it for now.
+We'll have to see in terms of quality</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/112-1
+00:14:49.100 --> 00:14:52.434
+<v EYETAN, Chinemerem Chika>assurance.
+Maybe that's something myself and Swarupu</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/112-2
+00:14:52.434 --> 00:14:53.252
+<v EYETAN, Chinemerem Chika>will look at.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/113-0
+00:14:58.052 --> 00:15:01.092
+<v EYETAN, Chinemerem Chika>Is there anything that can be built in
+there in terms of...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/115-0
+00:15:04.132 --> 00:15:09.396
+<v EYETAN, Chinemerem Chika>Review a threshold for review.
+Is there something that we can put that</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/114-0
+00:15:09.252 --> 00:15:09.652
+<v LEITNER, Carl>Yep.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/115-1
+00:15:09.396 --> 00:15:10.212
+<v EYETAN, Chinemerem Chika>would help?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/117-0
+00:15:11.252 --> 00:15:13.118
+<v LEITNER, Carl>Yeah,
+there's some like methodologies and</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/117-1
+00:15:13.118 --> 00:15:15.652
+<v LEITNER, Carl>decision-making methodologies that are
+already in there.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/116-0
+00:15:16.052 --> 00:15:16.532
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-0
+00:15:17.812 --> 00:15:22.121
+<v LEITNER, Carl>I haven't found many that are like
+broadly applicable for review process</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-1
+00:15:22.121 --> 00:15:25.545
+<v LEITNER, Carl>that are open access,
+but there's some that are in there.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-2
+00:15:25.545 --> 00:15:28.615
+<v LEITNER, Carl>But like,
+that's what I think we need to do is what</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-3
+00:15:28.615 --> 00:15:32.511
+<v LEITNER, Carl>are those QA processes?
+We need to define those. And we can also,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-4
+00:15:32.511 --> 00:15:36.879
+<v LEITNER, Carl>that could be do it with a working group.
+We say what the requirement is,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/118-0
+00:15:35.652 --> 00:15:36.132
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/119-5
+00:15:36.879 --> 00:15:38.532
+<v LEITNER, Carl>and then we have the agents.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/122-0
+00:15:39.412 --> 00:15:44.050
+<v LEITNER, Carl>do that, you know, review process.
+There's already a WHO one voice,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/122-1
+00:15:44.050 --> 00:15:49.301
+<v LEITNER, Carl>WHO like voice for WHO publications that
+can do content authoring and review</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/120-0
+00:15:48.372 --> 00:15:48.612
+<v EYETAN, Chinemerem Chika>Yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/122-2
+00:15:49.301 --> 00:15:53.803
+<v LEITNER, Carl>against it. So, you know,
+that's just one type of quality control</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/122-3
+00:15:53.803 --> 00:15:54.212
+<v LEITNER, Carl>check.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/121-0
+00:15:54.852 --> 00:15:55.332
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/124-0
+00:15:57.332 --> 00:16:04.692
+<v LEITNER, Carl>So we just need that board. Yeah, well,
+if I can find it, it's I'm still.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/123-0
+00:15:57.532 --> 00:15:58.692
+<v EYETAN, Chinemerem Chika>Do you have a link to that?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/125-0
+00:16:03.652 --> 00:16:08.412
+<v EYETAN, Chinemerem Chika>Okay, is it the um, uh, what's it called?
+It's not the...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/126-0
+00:16:11.172 --> 00:16:15.462
+<v EYETAN, Chinemerem Chika>What's it called?
+The one that Nat shared a while back.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/126-1
+00:16:15.462 --> 00:16:16.612
+<v EYETAN, Chinemerem Chika>Is it that one?</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/127-0
+00:16:17.252 --> 00:16:19.929
+<v LEITNER, Carl>Yeah,
+there's like a handbook in the editorial</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/127-1
+00:16:19.929 --> 00:16:21.012
+<v LEITNER, Carl>style, so what I...</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/131-0
+00:16:22.412 --> 00:16:29.077
+<v LEITNER, Carl>the current thing will ingest,
+I had it ingest the three documents from</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/128-0
+00:16:28.132 --> 00:16:29.252
+<v EYETAN, Chinemerem Chika>Yes, okay, yeah.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/131-1
+00:16:29.077 --> 00:16:36.390
+<v LEITNER, Carl>WHO Iris and create a voice or like,
+you know, rules for authoring, et cetera,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/129-0
+00:16:30.212 --> 00:16:30.612
+<v EYETAN, Chinemerem Chika>Okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/131-2
+00:16:36.390 --> 00:16:38.612
+<v LEITNER, Carl>that can be applied. So.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/130-0
+00:16:38.212 --> 00:16:40.132
+<v EYETAN, Chinemerem Chika>Okay. Yes, okay.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/133-0
+00:16:39.732 --> 00:16:43.222
+<v LEITNER, Carl>All right,
+I need to jump to this other meeting.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/132-0
+00:16:41.652 --> 00:16:46.772
+<v EYETAN, Chinemerem Chika>Yeah, no problem. Yes, okay,
+and maybe what I can do.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/133-1
+00:16:43.222 --> 00:16:47.210
+<v LEITNER, Carl>And we'll, oh,
+just as you'll send the recording to me,</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/133-2
+00:16:47.210 --> 00:16:52.551
+<v LEITNER, Carl>agent that's doing this recording,
+please summarise and make a plan of all</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/133-3
+00:16:52.551 --> 00:16:57.252
+<v LEITNER, Carl>the planned feature requirements and
+implement them on a staging.</v>
+
+ccd80af6-37ae-49f3-91ec-d49751e87007/134-0
+00:16:59.892 --> 00:17:03.732
+<v LEITNER, Carl>site with a preview link that we can
+share. Thank you.</v>

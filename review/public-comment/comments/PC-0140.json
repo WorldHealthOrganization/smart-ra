@@ -1,0 +1,78 @@
+{
+  "id": "pc-0140",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:executive-summary-lead-23092b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0140",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 140,
+      "entry": "139",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive summary",
+      "page": "3",
+      "lines": "100-102",
+      "raw": "§Executive summary p.3 l.100-102"
+    },
+    "anchor": {
+      "targetLabel": "prose:executive-summary-lead-23092b",
+      "method": "page-line",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.3 l.100-102 read as the printed page"
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "When combined, these contributions provide nations with an organised framework and a common terminology that they can use and modify to fit their particular situation. Regardless of where they begin, they may move from strategic purpose to  cohesive, standards-based technical execution.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 140"
+      }
+    ]
+  }
+}

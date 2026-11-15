@@ -1,0 +1,84 @@
+{
+  "id": "pc-0676",
+  "summary": "Country / regional examples: IHE’s comments focus on the architecture, international standards and profiles, and confor…",
+  "comment": "Country / regional examples: IHE’s comments focus on the architecture, international standards and profiles, and conformance and testing. This submission does not assess the accuracy of the individual country and regional implementation examples.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0676",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 676,
+      "entry": "675",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): States the examples were not assessed; nothing to place."
+    },
+    "type": "general",
+    "text": "Country / regional examples: IHE’s comments focus on the architecture, international standards and profiles, and conformance and testing. This submission does not assess the accuracy of the individual country and regional implementation examples.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 676"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): States the examples were not assessed; nothing to place."
+      }
+    ]
+  }
+}

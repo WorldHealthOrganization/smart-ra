@@ -1,0 +1,5 @@
+- It enables continuity of care so that a person's clinical history, diagnoses, medications, allergies, and care plans are accessible to authorised providers at the point of care regardless of where previous encounters took place.
+- It supports informed clinical decision-making by providing the complete person-level context that clinicians need for safe, evidence-based decisions.
+- It enables care coordination across providers and programmes, ensuring that transitions of care do not result in loss of information or duplication of effort.
+- It gives individuals access to a portable, verifiable record of their health encounters that they can share and control through meaningful consent mechanisms.
+- And it provides the person-level data foundation from which aggregate indicators, surveillance signals, and population health insights can be derived without requiring separate, parallel data collection.

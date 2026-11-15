@@ -1,0 +1,78 @@
+{
+  "id": "pc-0207",
+  "summary": "The distinction between foundational identity and health-sector identification is highly relevant. The guidance should …",
+  "comment": "The distinction between foundational identity and health-sector identification is highly relevant. The guidance should state more explicitly that assignment of a health identifier and access to essential care must not depend on possession of a civil or national identity document.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-1-99bfd1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0207",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 207,
+      "entry": "206",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.2.1",
+      "page": "13",
+      "lines": "195–207; Box 1.2",
+      "raw": "§1.2.1 p.13 l.195–207; Box 1.2"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-1-99bfd1",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.13 l.195–207; Box 1.2 read as the printed page; section 1.2.1 agrees"
+    },
+    "type": "technical",
+    "text": "The distinction between foundational identity and health-sector identification is highly relevant. The guidance should state more explicitly that assignment of a health identifier and access to essential care must not depend on possession of a civil or national identity document.",
+    "suggestedRevision": "Add: “A person shall be able to receive a health identifier and access essential health services without possessing a civil or national identity document. The Client Registry should support temporary identifiers, probabilistic matching, deduplication and subsequent linkage to civil identity when available.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 207"
+      }
+    ]
+  }
+}

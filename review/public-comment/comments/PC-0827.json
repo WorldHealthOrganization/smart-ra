@@ -1,0 +1,79 @@
+{
+  "id": "pc-0827",
+  "summary": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the …",
+  "comment": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the architecture’s structural description. This could reinforce an artificial separation between architecture and implementation, even thoug",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-4-611812",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0827",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 63,
+      "entry": "62",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.4",
+      "page": "38",
+      "lines": "Lines 479-485",
+      "raw": "§2.4 p.38 l.Lines 479-485"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-611812",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-4-47566f"
+      ],
+      "note": "p.38 l.Lines 479-485 read as the printed page; section 2.4 agrees"
+    },
+    "text": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the architecture’s structural description. This could reinforce an artificial separation between architecture and implementation, even thoug",
+    "suggestedRevision": "Add an accountability model covering the shared component owner, application owner, data steward, standards authority, implementer, and service-delivery authority.",
+    "labels": {
+      "Comment type": "Component boundary"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 63"
+      }
+    ]
+  }
+}

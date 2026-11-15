@@ -1,0 +1,78 @@
+{
+  "id": "pc-0716",
+  "summary": "My other main comment is on the beneficiary registry. I remember that we had once discussed this in one of the Friday m…",
+  "comment": "My other main comment is on the beneficiary registry. I remember that we had once discussed this in one of the Friday meetings. Even then, I was not fully following and unclear what the group members had in mind. I cannot relate this to our HF framework and core HF functions. I would appreciate if we can again take 10 minutes at the next Friday meeting and quickly review/reflect.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-business-services-components-benefits-package-registry-distinguishing-the-benefits-pack",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0716",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 716,
+      "entry": "715",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d1a8365eca",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:c-business-services-components-benefits-package-registry-distinguishing-the-benefits-pack",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Questions the Beneficiary Registry concept, described in this App. C subsection."
+    },
+    "text": "My other main comment is on the beneficiary registry. I remember that we had once discussed this in one of the Friday meetings. Even then, I was not fully following and unclear what the group members had in mind. I cannot relate this to our HF framework and core HF functions. I would appreciate if we can again take 10 minutes at the next Friday meeting and quickly review/reflect.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 716"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Questions the Beneficiary Registry concept, described in this App. C subsection."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pc-0684",
+  "summary": "The recommendation to begin with assistive tools under human oversight is well judged, but the effectiveness of that ov…",
+  "comment": "The recommendation to begin with assistive tools under human oversight is well judged, but the effectiveness of that oversight should not be inferred simply from the presence of a human reviewer. In consequential health decisions, automation bias, perceived model authority, time pressure, and miscalibrated trust can result in nominal human review without meaningful capacity to detect, challenge, or correct an AI-supported output.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0684",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 684,
+      "entry": "683",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-e846db7147",
+      "name": "Onour Impram",
+      "organisation": "Marmara University",
+      "country": "Türkiye",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.3 (p. 107)",
+      "lines": "134–138",
+      "raw": "§5.3 (p. 107) l.134–138"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.3 only"
+    },
+    "text": "The recommendation to begin with assistive tools under human oversight is well judged, but the effectiveness of that oversight should not be inferred simply from the presence of a human reviewer. In consequential health decisions, automation bias, perceived model authority, time pressure, and miscalibrated trust can result in nominal human review without meaningful capacity to detect, challenge, or correct an AI-supported output.",
+    "suggestedRevision": "Consider adding: “Human oversight should be designed and evaluated as an effective capability, rather than only as the presence of a human reviewer. For consequential uses, implementers should assess whether reviewers can identify and question potential errors, interpret uncertainty, resist inappropriate deference to automated outputs, and override or escalate AI-supported decisions when necessary",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 684"
+      }
+    ]
+  }
+}

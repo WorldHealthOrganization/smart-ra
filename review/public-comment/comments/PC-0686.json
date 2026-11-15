@@ -1,0 +1,76 @@
+{
+  "id": "pc-0686",
+  "summary": "Consent capability is under-specified. Consent, authorisation and privacy are defined as foundational REDDHI capabiliti…",
+  "comment": "Consent capability is under-specified. Consent, authorisation and privacy are defined as foundational REDDHI capabilities, and the Lifelong Health Record has a Required dependency on consent-management services. However, the reference architecture does not provide a corresponding cross-cutting service/interface specification with the same level of clarity as the named DPI-H components. This creates a capability-to-implementation traceability gap.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0686",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 686,
+      "entry": "685",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "(not stated)",
+      "country": "(not stated)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Sections 2.2.1 and 2.3; Appendix C - Lifelong Health Record. p. 28; p. 35, lines 355-379; p. 161, Requirements 13-14.",
+      "raw": "§Sections 2.2.1 and 2.3; Appendix C - Lifelong Health Record. p. 28; p. 35, lines 355-379; p. 161, Requirements 13-14."
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "Consent capability is under-specified. Consent, authorisation and privacy are defined as foundational REDDHI capabilities, and the Lifelong Health Record has a Required dependency on consent-management services. However, the reference architecture does not provide a corresponding cross-cutting service/interface specification with the same level of clarity as the named DPI-H components. This creates a capability-to-implementation traceability gap.",
+    "suggestedRevision": "Define a technology-neutral Consent/Permissions Management service profile across DPI-H. At minimum, specify consent representation, grant/modify/revoke lifecycle, subject and delegate identity, purpose, data scope, permitted recipient, effective period, revocation propagation, enforcement responsibility and auditability. Allow this profile to be implemented through national/foundational consent infrastructure where available, or through a health-sector capability where required; do not mandate a single centralised consent component.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "Major / Technical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 686"
+      }
+    ]
+  }
+}

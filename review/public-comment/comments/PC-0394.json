@@ -1,0 +1,82 @@
+{
+  "id": "pc-0394",
+  "summary": "THis section presents a fairly accurate architectural description of what a mature DHIS2 national HMIS deployment alrea…",
+  "comment": "THis section presents a fairly accurate architectural description of what a mature DHIS2 national HMIS deployment already does. But, HMIS/RHIS is reduced to a ‘shared application component’ and explicitly declared non-foundational, even within business service layer. This underestimates the infrastructural role of a national DHIS2 platform: it provides shared organisational hierarchies, metadata, aggregate and event/person data, indicators, analytics/GIS, data quality and approval workflows, offline collection, notifications, APIs, extensions and a user/support ecosystem across programmes. While these could come from other sources, in current landscape, HMIS are the source of truth for facility registries and indicator construction. Public-health informatics treats RHIS as the people–process–information–technology system through which routine decisions are made—not merely an application consuming LHR data.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-9dea8c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0394",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 394,
+      "entry": "393",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – HMIS",
+      "page": "210",
+      "lines": "2–30",
+      "raw": "§Appendix C – HMIS p.210 l.2–30"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-9dea8c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-health-management-information-sy-8b268c",
+        "prose:c-business-services-components-health-management-information-sy-c9b02d",
+        "prose:c-business-services-components-health-management-information-sy-5d0f89"
+      ],
+      "note": "p.210 l.2–30 read as the printed page; section C agrees"
+    },
+    "type": "general",
+    "text": "THis section presents a fairly accurate architectural description of what a mature DHIS2 national HMIS deployment already does. But, HMIS/RHIS is reduced to a ‘shared application component’ and explicitly declared non-foundational, even within business service layer. This underestimates the infrastructural role of a national DHIS2 platform: it provides shared organisational hierarchies, metadata, aggregate and event/person data, indicators, analytics/GIS, data quality and approval workflows, offline collection, notifications, APIs, extensions and a user/support ecosystem across programmes. While these could come from other sources, in current landscape, HMIS are the source of truth for facility registries and indicator construction. Public-health informatics treats RHIS as the people–process–information–technology system through which routine decisions are made—not merely an application consuming LHR data.",
+    "suggestedRevision": "Redefine HMIS/RHIS as a governed socio-technical public-health information infrastructure. Distinguish its software platform from the wider RHIS, but recognise that the platform may supply shared foundational capabilities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 394"
+      }
+    ]
+  }
+}

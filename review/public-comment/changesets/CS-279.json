@@ -1,0 +1,31 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-279",
+  "title": "Explain the complementary roles of SNOMED CT, ICD-11 and LOINC",
+  "requirements": "- State that the core terminology standards are complementary, each covering a distinct domain, not interchangeable alternatives\n- State accurately which terminologies the IPS binds and permits (SNOMED CT, ICD-11 for diagnoses)\n- Add an example (e.g. laboratory order/result) where LOINC is primary, not only a mapping target\n- Add LOINC panels and answer lists as an example alongside SNOMED CT\n- Avoid implying that the named standards are the only or optimal choices\n- Describe IPS as a minimum for particular exchange use cases, not all exchanges\n- Note the history of SNOMED International/WHO mapping collaboration\n- Require preservation of original codes and context alongside translation for the receiving clinician",
+  "refs": [
+    "PC-0056",
+    "PC-0201",
+    "PC-0218",
+    "PC-0226",
+    "PC-0230",
+    "PC-0726",
+    "PC-0735",
+    "PC-0736",
+    "PC-1014",
+    "PC-1041",
+    "PC-2477",
+    "PC-2478"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 12 comment(s)"
+    }
+  ]
+}

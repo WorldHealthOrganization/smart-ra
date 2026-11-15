@@ -1,0 +1,79 @@
+{
+  "id": "pc-0055",
+  "summary": "The notion that data be \"captured once and used many times\" is valid but needs qualification against the common asserti…",
+  "comment": "The notion that data be \"captured once and used many times\" is valid but needs qualification against the common assertion that the structure of the data/metadata is governed by its intended purpose",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-69f4a6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0055",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 55,
+      "entry": "54",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5.1",
+      "page": "22",
+      "lines": "464",
+      "raw": "§1.5.1 p.22 l.464"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-69f4a6",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.22 l.464 read as the printed page; section 1.5.1 agrees"
+    },
+    "type": "editorial",
+    "text": "The notion that data be \"captured once and used many times\" is valid but needs qualification against the common assertion that the structure of the data/metadata is governed by its intended purpose",
+    "suggestedRevision": "In a health context there is a lack of clarity in every context I am aware of what the true intended purpose is even if on inspection it is nearly always not primarily for the delivery of individual care. Much of the DPI draft goes beyond just this component of healthcare data but I submit that it should be the foundational intent and top of a necessary hierarchy of intended uses so that the data design (of both the more generi DPI and domain specific health data). Nearly all the goals would be better served by clarity on this (and by prioritising direct care in the design as suggested)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 55"
+      }
+    ]
+  }
+}

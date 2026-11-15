@@ -1,0 +1,80 @@
+{
+  "id": "pc-0538",
+  "summary": "This principle states that countries should ground implementations in open standards that \"reduce dependency on proprie…",
+  "comment": "This principle states that countries should ground implementations in open standards that \"reduce dependency on proprietary technology\", and then names a single direction: \"The architecture points to FHIR-based approaches as the direction of travel\" (lines 233–234). No information-model formalism is named anywhere in the principle, and information models appear at line 235 only as something to be distributed, not as something to be expressed in a standard. This is inconsistent with the guidance's own treatment elsewhere: Annex D.1 lists EHRbase, \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\", as an illustrative Lifelong Health Record implementation (page 230, lines 36–37); Appendix C page 175, functional requirement 2, status Required, obliges the LIMR to support openEHR archetypes and templates; and page 174 lines 81–85 make multi-formalism support a core attribute. A design principle that names one family as the direction of travel, while the component specifications require another alongside it, will be read by procurement teams as settling a question the rest of the document leaves open.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-c05b8c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0538",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 538,
+      "entry": "537",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 Design Principles — II. Open Standards",
+      "page": "32",
+      "lines": "226–238",
+      "raw": "§2.3 Design Principles — II. Open Standards p.32 l.226–238"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-c05b8c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-5b5567"
+      ],
+      "note": "p.32 l.226–238 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "This principle states that countries should ground implementations in open standards that \"reduce dependency on proprietary technology\", and then names a single direction: \"The architecture points to FHIR-based approaches as the direction of travel\" (lines 233–234). No information-model formalism is named anywhere in the principle, and information models appear at line 235 only as something to be distributed, not as something to be expressed in a standard. This is inconsistent with the guidance's own treatment elsewhere: Annex D.1 lists EHRbase, \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\", as an illustrative Lifelong Health Record implementation (page 230, lines 36–37); Appendix C page 175, functional requirement 2, status Required, obliges the LIMR to support openEHR archetypes and templates; and page 174 lines 81–85 make multi-formalism support a core attribute. A design principle that names one family as the direction of travel, while the component specifications require another alongside it, will be read by procurement teams as settling a question the rest of the document leaves open.",
+    "suggestedRevision": "Amend lines 233–238 to express the direction of travel by layer rather than as a single family, for example: \"The architecture points to open, openly governed standards as the direction of travel — HL7 FHIR for exchange services and transactions, an open information-model formalism such as openEHR archetypes and templates or ISO 13606 for the logical structure of persisted clinical data, and established classifications and terminologies for coded meaning — while accommodating countries at different stages of readiness …\".",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 538"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0219",
+  "summary": "The footnote describing SNOMED CT licensing correctly states the membership model and mentions the SNOMED International…",
+  "comment": "The footnote describing SNOMED CT licensing correctly states the membership model and mentions the SNOMED International Global Patient Set (GPS), but does not clearly communicate that the GPS is freely available to all countries, including non-Members,  at no charge, with no application or registration barrier. For LMIC audiences, this ambiguity risks perpetuating the perception that SNOMED CT is a commercial product and not a global terminology standard, that it is inaccessible without membership fees, which is not the case for the GPS. This is a material equity concern given that DPI-H is designed to serve all country income levels.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0219",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 219,
+      "entry": "218",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 (Footnote 14)",
+      "page": "26",
+      "lines": "Footnote 14",
+      "raw": "§2.2.1 (Footnote 14) p.26 l.Footnote 14"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.26 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The footnote describing SNOMED CT licensing correctly states the membership model and mentions the SNOMED International Global Patient Set (GPS), but does not clearly communicate that the GPS is freely available to all countries, including non-Members,  at no charge, with no application or registration barrier. For LMIC audiences, this ambiguity risks perpetuating the perception that SNOMED CT is a commercial product and not a global terminology standard, that it is inaccessible without membership fees, which is not the case for the GPS. This is a material equity concern given that DPI-H is designed to serve all country income levels.",
+    "suggestedRevision": "Suggestion to expand the footnote: \"SNOMED CT requires a licence: the license is available at no charge within SNOMED International Member countries; others license it directly. For non-member countries, the SNOMED International Global Patient Set (GPS) is an open-access product including all of SNOMED CT concenpts freely available at no charge to any country without membership requirements, providing an immediate zero-cost entry pathway for LMIC implementations. Countries should confirm their licensing position before adoption. See snomedct.org/gps.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 219"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0532",
+  "summary": "The drug list can also contain coverage of brands, e.g. generica vs. original brand plus a substitution order in times …",
+  "comment": "The drug list can also contain coverage of brands, e.g. generica vs. original brand plus a substitution order in times of drug  shortages.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-2f494f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0532",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 532,
+      "entry": "531",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f380ebaaac",
+      "name": "Uwe Wahser",
+      "organisation": "Deutsche Gesellschaft für Technische Zusammenarbeit (GIZ) GmbH",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix BPR 3",
+      "page": "200",
+      "lines": "65 - 68",
+      "raw": "§Appendix BPR 3 p.200 l.65 - 68"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-2f494f",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.200 l.65 - 68 read as the printed page; section 3 does NOT agree"
+    },
+    "type": "editorial",
+    "text": "The drug list can also contain coverage of brands, e.g. generica vs. original brand plus a substitution order in times of drug  shortages.",
+    "suggestedRevision": "Add a word or two in the list point at generica & substitution rules.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 532"
+      }
+    ]
+  }
+}

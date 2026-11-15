@@ -1,0 +1,141 @@
+{
+  "$schema": "archimate-relationship-rules/v1",
+  "title": "The relationships the DPI-H reference architecture allows between element types",
+  "source": "folio/dpi-h-ra/ch3-the-reference-architecture-for-d/t-3-3.md (Table 3.3) and t-3-2.md (Table 3.2), as reviewed in draft v1",
+  "relationships": [
+    {
+      "type": "Realization",
+      "name": "Realisation",
+      "verb": "Realises",
+      "icon": "media/image14-rot90.png",
+      "meaning": "A capability is *realised* by the components and services that provide it"
+    },
+    {
+      "type": "Composition",
+      "name": "Composition",
+      "verb": "Composes",
+      "icon": "media/image15-rot90.png",
+      "meaning": "A component is *composed* of the functions and data objects it contains"
+    },
+    {
+      "type": "Serving",
+      "name": "Serving",
+      "verb": "Serves",
+      "icon": "media/image16-rot90.png",
+      "meaning": "A service *serves* the stakeholders and other elements that use it"
+    },
+    {
+      "type": "Access",
+      "name": "Access",
+      "verb": "Accesses",
+      "icon": "media/image17-rot270.png",
+      "meaning": "A component *accesses* the data objects it reads or writes"
+    },
+    {
+      "type": "Assignment",
+      "name": "Assignment"
+    },
+    {
+      "type": "Triggering",
+      "name": "Triggering"
+    }
+  ],
+  "rules": [
+    {
+      "source": "ApplicationService",
+      "relationship": "Realization",
+      "target": "Capability",
+      "note": "A service realises (provides) a capability"
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Realization",
+      "target": "ApplicationService",
+      "note": "A component realises a service it offers"
+    },
+    {
+      "source": "ApplicationFunction",
+      "relationship": "Realization",
+      "target": "ApplicationService",
+      "note": "A function realises the service it provides"
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Realization",
+      "target": "ApplicationComponent",
+      "note": "A concrete system realises an actor (role)"
+    },
+    {
+      "source": "Outcome",
+      "relationship": "Realization",
+      "target": "Goal",
+      "note": "An outcome signals achievement of a goal"
+    },
+    {
+      "source": "ApplicationService",
+      "relationship": "Serving",
+      "target": "ApplicationComponent",
+      "note": "A required service serves the component that consumes it"
+    },
+    {
+      "source": "ApplicationService",
+      "relationship": "Serving",
+      "target": "Stakeholder",
+      "note": "A service serves the stakeholders that use it"
+    },
+    {
+      "source": "Capability",
+      "relationship": "Serving",
+      "target": "Goal",
+      "note": "A capability serves the goal it supports"
+    },
+    {
+      "source": "Goal",
+      "relationship": "Composition",
+      "target": "Goal",
+      "note": "A goal is composed of sub-goals"
+    },
+    {
+      "source": "Product",
+      "relationship": "Composition",
+      "target": "ApplicationService",
+      "note": "A product bundles the services it offers"
+    },
+    {
+      "source": "Product",
+      "relationship": "Composition",
+      "target": "DataObject",
+      "note": "A product bundles the data it carries"
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Access",
+      "target": "DataObject",
+      "note": "A component reads/writes the data it holds"
+    },
+    {
+      "source": "ApplicationFunction",
+      "relationship": "Access",
+      "target": "DataObject",
+      "note": "A function reads/writes data objects"
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Assignment",
+      "target": "ApplicationInteraction",
+      "note": "An actor performs the interaction it participates in."
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Assignment",
+      "target": "ApplicationFunction",
+      "note": "A component performs its internal function"
+    },
+    {
+      "source": "ApplicationInteraction",
+      "relationship": "Triggering",
+      "target": "ApplicationFunction",
+      "note": "A transaction triggers the function that handles it"
+    }
+  ]
+}

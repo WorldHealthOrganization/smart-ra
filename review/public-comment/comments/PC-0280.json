@@ -1,0 +1,82 @@
+{
+  "id": "pc-0280",
+  "summary": "Section 3.4.5 makes an argument that the guidance does not then apply to itself. Terminology services, it observes, can…",
+  "comment": "Section 3.4.5 makes an argument that the guidance does not then apply to itself. Terminology services, it observes, cannot be relied on as runtime infrastructure unless the content they serve is governed, and the response is a full Semantic Governance Infrastructure with named roles, lifecycle and stewardship. The identical argument holds for trust: certificate and credential services cannot be relied on as runtime infrastructure unless the keys and credentials they serve are governed. Where semantics received a governance infrastructure, trust received an entry in Figure 3.5 and a referral out of the health sector. The asymmetry is a choice the draft makes rather than one it argues for, and a reader cannot tell from the text why semantic governance is health-specific while trust governance is inheritable.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-aef916",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0280",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 280,
+      "entry": "279",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57-62",
+      "lines": "373-414; also Figure 3.5 (p. 66)",
+      "caption": "Figure 3.5",
+      "raw": "§3.4.5 p.57-62 l.373-414; also Figure 3.5 (p. 66)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-aef916",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-474cc6",
+        "prose:3-4-5-f2a242"
+      ],
+      "note": "p.57-62 l.373-414; also Figure 3.5 (p. 66) read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "Section 3.4.5 makes an argument that the guidance does not then apply to itself. Terminology services, it observes, cannot be relied on as runtime infrastructure unless the content they serve is governed, and the response is a full Semantic Governance Infrastructure with named roles, lifecycle and stewardship. The identical argument holds for trust: certificate and credential services cannot be relied on as runtime infrastructure unless the keys and credentials they serve are governed. Where semantics received a governance infrastructure, trust received an entry in Figure 3.5 and a referral out of the health sector. The asymmetry is a choice the draft makes rather than one it argues for, and a reader cannot tell from the text why semantic governance is health-specific while trust governance is inheritable.",
+    "suggestedRevision": "Apply the reasoning of 3.4.5 to trust. Either describe a trust-governance function at comparable depth, covering identity issuance and verification for institutions and systems, key and credential lifecycle, revocation and recovery, audit-log integrity, and the roles that steward them; or state explicitly why trust governance, unlike semantic governance, can safely be inherited from outside the health sector, so that the reader can weigh that judgement instead of inferring it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 280"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "pc-0702",
+  "summary": "The LIMR governs logical models, and FHIR is recommended for exchange. Experience with national clinical information mo…",
+  "comment": "The LIMR governs logical models, and FHIR is recommended for exchange. Experience with national clinical information models (e.g. the Netherlands’ zibs, per ISO 13972) shows the translation from logical model to technical artefact (FHIR profile, storage model) is not inherently one-to-one; meaning can shift or be lost in that step even when systems are technically conformant.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0702",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 702,
+      "entry": "701",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 4, §4.3.1–4.3.3 (Data models first; FHIR); Ch. 3, §3.7 (Conformance and testing); Logical Information Model Repository (App. C)",
+      "raw": "§Ch. 4, §4.3.1–4.3.3 (Data models first; FHIR); Ch. 3, §3.7 (Conformance and testing); Logical Information Model Repository (App. C)"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-7",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-logical-information-model-reposi"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Suggestion targets §3.7 conformance testing (semantic fidelity); LIMR also cited."
+    },
+    "text": "The LIMR governs logical models, and FHIR is recommended for exchange. Experience with national clinical information models (e.g. the Netherlands’ zibs, per ISO 13972) shows the translation from logical model to technical artefact (FHIR profile, storage model) is not inherently one-to-one; meaning can shift or be lost in that step even when systems are technically conformant.",
+    "suggestedRevision": "Add to §3.7 a requirement for semantic fidelity testing across the translation step: round-trip verification that data instantiated from a logical model, exchanged via its technical representation, and re-interpreted at the receiving end preserves the governed meaning — not only structural/technical conformance. Reference ISO 13972 for clinical information model quality requirements.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Comment type": "#3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 702"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Suggestion targets §3.7 conformance testing (semantic fidelity); LIMR also cited."
+      }
+    ]
+  }
+}

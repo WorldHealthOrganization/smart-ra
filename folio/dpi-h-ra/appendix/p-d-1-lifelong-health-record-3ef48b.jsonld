@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-1-lifelong-health-record-3ef48b",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-1-lifelong-health-record-3ef48b",
+  "kind": "prose",
+  "cites": [
+    "references/hapi-fhir",
+    "references/ehrbase"
+  ],
+  "text": "p-d-1-lifelong-health-record-3ef48b.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1012,
+      "page": 240,
+      "pageEnd": 241,
+      "printedPage": "229",
+      "lineStart": 33,
+      "lineEnd": 37,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

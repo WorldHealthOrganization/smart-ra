@@ -1,0 +1,83 @@
+{
+  "id": "pc-0034",
+  "summary": "More emphasis on clear, protective private sector engagement principles.",
+  "comment": "More emphasis on clear, protective private sector engagement principles.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0034",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 34,
+      "entry": "33",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Is anything important missing, or is any part unclear or hard to follow?",
+      "raw": "§Is anything important missing, or is any part unclear or hard to follow?"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General request for stronger private-sector engagement principles; no passage cited"
+    },
+    "type": "technical",
+    "text": "More emphasis on clear, protective private sector engagement principles.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 34"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General request for stronger private-sector engagement principles; no passage cited"
+      }
+    ]
+  }
+}

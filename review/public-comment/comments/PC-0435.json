@@ -1,0 +1,87 @@
+{
+  "id": "pc-0435",
+  "summary": "The interoperability guidance should include a minimum profile for clinical research, laboratories and biobanks. This i…",
+  "comment": "The interoperability guidance should include a minimum profile for clinical research, laboratories and biobanks. This is relevant to institutions that link participant care, research, diagnostics and biospecimen repositories.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-3-a5243c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0435",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 435,
+      "entry": "434",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "FHIR",
+      "page": "96",
+      "lines": "Section 4.3.3",
+      "raw": "§FHIR p.96 l.Section 4.3.3"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-3-a5243c",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Asks for a minimum FHIR profile for research/labs; this §4.3.3 block defines minimum FHIR resources per component."
+    },
+    "type": "technical",
+    "text": "The interoperability guidance should include a minimum profile for clinical research, laboratories and biobanks. This is relevant to institutions that link participant care, research, diagnostics and biospecimen repositories.",
+    "suggestedRevision": "Recommend exchange using Patient, ResearchSubject, ResearchStudy, Consent, ServiceRequest, Specimen, Observation, DiagnosticReport, DocumentReference and Provenance, with national implementation guides and terminology bindings.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 435"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Asks for a minimum FHIR profile for research/labs; this §4.3.3 block defines minimum FHIR resources per component."
+      }
+    ]
+  }
+}

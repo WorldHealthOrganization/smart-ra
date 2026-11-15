@@ -1,0 +1,87 @@
+{
+  "id": "pc-0479",
+  "summary": "No EU/EEA member state with a federated, market-based delivery system appears among the examples, and the Netherlands i…",
+  "comment": "No EU/EEA member state with a federated, market-based delivery system appears among the examples, and the Netherlands is absent altogether. It is an unusually informative case because it separates technical maturity from ordering capacity: high digitisation, mature standards, twenty years of national programmes, and persistent discontinuity of information between providers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0479",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 479,
+      "entry": "478",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "page": "229",
+      "lines": "23",
+      "raw": "§Appendix D p.229 l.23"
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-a0d870"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Asks to add the Netherlands to the Appendix D country examples."
+    },
+    "type": "general",
+    "text": "No EU/EEA member state with a federated, market-based delivery system appears among the examples, and the Netherlands is absent altogether. It is an unusually informative case because it separates technical maturity from ordering capacity: high digitisation, mature standards, twenty years of national programmes, and persistent discontinuity of information between providers.",
+    "suggestedRevision": "Add the Netherlands with two documented episodes. First, a national exchange infrastructure technically completed while its enabling legislation was rejected by the Senate in 2011, after which it continued on a private-law basis with voluntary participation - a direct illustration of the legal dimension identified in 4.6.2 as deserving equal weight. Second, the personal health environment programme, in which a subsidised market of applications was created without any party made responsible for the underlying function, so that when the subsidy ended a statutory right of access became unexercisable. Both are matters of public record.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 479"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Asks to add the Netherlands to the Appendix D country examples."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0487",
+  "summary": "Subsidiarity is stated as a principle but the guidance does not say what happens where a subnational body already deliv…",
+  "comment": "Subsidiarity is stated as a principle but the guidance does not say what happens where a subnational body already delivers the function well. As written, a national DPI-H programme can displace functioning regional arrangements without any test of whether it improves on them, which is the mechanism by which external rules crowd out effective self-organisation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0487",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 487,
+      "entry": "486",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "251",
+      "raw": "§3.4.2 p.54 l.251"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.54 l.251 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "Subsidiarity is stated as a principle but the guidance does not say what happens where a subnational body already delivers the function well. As written, a national DPI-H programme can displace functioning regional arrangements without any test of whether it improves on them, which is the mechanism by which external rules crowd out effective self-organisation.",
+    "suggestedRevision": "Add an equivalence provision: where an existing arrangement demonstrably delivers the required capability to the national standard, it satisfies the requirement and is recognised rather than replaced, on a comply-or-explain basis with periodic verification. This is Ostrom's seventh design principle - recognition by external authority of the right to self-organise - expressed as an implementation rule, and it materially reduces political resistance to national programmes.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 487"
+      }
+    ]
+  }
+}

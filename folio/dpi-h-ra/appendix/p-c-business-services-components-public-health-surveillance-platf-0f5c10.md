@@ -1,0 +1,1 @@
+The PHSP is a major consumer of shared data infrastructure and a primary contributor to international health security, with relationships spanning the full DPI-H ecosystem and extending to international surveillance frameworks.

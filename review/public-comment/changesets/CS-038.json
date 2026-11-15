@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-038",
+  "title": "Define accountability and data-responsibility roles for components",
+  "requirements": "- Define accountability across the LHR service, contributors and stewards\n- Name owners, stewards and authorities rather than leaving governance outside the architecture\n- Define authoritative source, accountable authority, custodian, steward, operator and contributor\n- Name an accountable holder for shared objects with no single source system\n- Use accountability, stewardship and lawful processing concepts\n- Require contributor agreements, onboarding and data-quality monitoring with remediation\n- Use these terms consistently in place of undefined 'owns' and 'stewards'",
+  "refs": [
+    "PC-0459",
+    "PC-0827",
+    "PC-0898",
+    "PC-1298",
+    "PC-1848",
+    "PC-1896",
+    "PC-1899"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

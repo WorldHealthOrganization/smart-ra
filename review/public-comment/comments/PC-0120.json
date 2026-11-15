@@ -1,0 +1,87 @@
+{
+  "id": "pc-0120",
+  "summary": "4.6.3 addresses financing sources only and contains no underlying cost structure. DIIG in costing section warning — tha…",
+  "comment": "4.6.3 addresses financing sources only and contains no underlying cost structure. DIIG in costing section warning — that budgets \"frequently underestimated\" because they focus on demonstration/deployment costs and omit long-term O&M — is exactly the risk a \"Sustain and evolve\" / recurrent-financing section should be guarding against, but 4.6.3 never uses the concept or term, and never warns against front-loaded budgeting.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0120",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 120,
+      "entry": "119",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6 Financing and Partnerships",
+      "page": "92-93",
+      "lines": "547-600",
+      "raw": "§4.6 Financing and Partnerships p.92-93 l.547-600"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-3",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-2-2-62927f"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 4.6 l.547-600 and discusses 4.6.3 financing approaches lacking cost structure"
+    },
+    "type": "general",
+    "text": "4.6.3 addresses financing sources only and contains no underlying cost structure. DIIG in costing section warning — that budgets \"frequently underestimated\" because they focus on demonstration/deployment costs and omit long-term O&M — is exactly the risk a \"Sustain and evolve\" / recurrent-financing section should be guarding against, but 4.6.3 never uses the concept or term, and never warns against front-loaded budgeting.",
+    "suggestedRevision": "Add a short introductory paragraph whether this part complement WHO Digital Implementation Investment Guide, which part may be referred to that guide, and which is not part of the DPI-H Reference Architecture Guidance",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 120"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 4.6 l.547-600 and discusses 4.6.3 financing approaches lacking cost structure"
+      }
+    ]
+  }
+}

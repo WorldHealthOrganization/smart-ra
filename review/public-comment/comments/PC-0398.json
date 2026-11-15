@@ -1,0 +1,80 @@
+{
+  "id": "pc-0398",
+  "summary": "The logical separation of PHSP (surveillance) and HMIS is defensible, but calling them distinct platforms is not. DHIS2…",
+  "comment": "The logical separation of PHSP (surveillance) and HMIS is defensible, but calling them distinct platforms is not. DHIS2 supports indicator-based, event-based and case-based surveillance together with analytic dashboards, laboratory linkage, alert thresholds and emergency workflows. WHO-aligned DHIS2 surveillance toolkit deliberately triangulate case-based and weekly aggregate data. Such surveillance functions often overlap with and are sourced from HMIS; separate boundaries for HMIS and PHSP would duplicate metadata, users, hosting and support. Evidence: https://dhis2.org/disease-surveillance/\n\nWe see the primary distinction as one of governance, not business logic or functional requirements. For example, most countries have a designated agency responsible for infectious disease surveillance, within the MoH or an institute of public health. This institutional pattern is derived from two intertwined political mandates: to provide routine health services, and protect the public from epidemics. Often, the HMIS already captures monthly indicator-based surveillance datasets. So PHSP can use HMIS indicators as an early signal, in conjunction with its own case surveillance and contact tracing processes.\n\nWe further note that many countries also have developed \"\"public health emergency operations centres\"\", as evidenced during Covid19, when some countries special units were created under executive branches for on-demand health statistics and crisis management. Emergencies focused health leaders on identifying best-available data from all sources, leading to collapsed institutional constraints. This demonstrated an acute need for merged HMIS/PHSP models, linkages with lab systems, and collaborating with other ministries such as MET agencies and veterinary services.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-a0d870",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0398",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 398,
+      "entry": "397",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – PHSP",
+      "page": "218",
+      "lines": "4–24",
+      "raw": "§Appendix C – PHSP p.218 l.4–24"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-a0d870",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-fdef8d"
+      ],
+      "note": "p.218 l.4–24 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The logical separation of PHSP (surveillance) and HMIS is defensible, but calling them distinct platforms is not. DHIS2 supports indicator-based, event-based and case-based surveillance together with analytic dashboards, laboratory linkage, alert thresholds and emergency workflows. WHO-aligned DHIS2 surveillance toolkit deliberately triangulate case-based and weekly aggregate data. Such surveillance functions often overlap with and are sourced from HMIS; separate boundaries for HMIS and PHSP would duplicate metadata, users, hosting and support. Evidence: https://dhis2.org/disease-surveillance/\n\nWe see the primary distinction as one of governance, not business logic or functional requirements. For example, most countries have a designated agency responsible for infectious disease surveillance, within the MoH or an institute of public health. This institutional pattern is derived from two intertwined political mandates: to provide routine health services, and protect the public from epidemics. Often, the HMIS already captures monthly indicator-based surveillance datasets. So PHSP can use HMIS indicators as an early signal, in conjunction with its own case surveillance and contact tracing processes.\n\nWe further note that many countries also have developed \"\"public health emergency operations centres\"\", as evidenced during Covid19, when some countries special units were created under executive branches for on-demand health statistics and crisis management. Emergencies focused health leaders on identifying best-available data from all sources, leading to collapsed institutional constraints. This demonstrated an acute need for merged HMIS/PHSP models, linkages with lab systems, and collaborating with other ministries such as MET agencies and veterinary services.",
+    "suggestedRevision": "Describe HMIS and PHSP as distinct capability domains that may share a metadata-driven platform, organisational hierarchy, analytics and support ecosystem. Permit co-realisation in HMIS and PHSP where data segregation, privacy, access, performance and emergency requirements are satisfied. Acknowledge that HMIS and PHSP often share data sources, but serve different administrative structures.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 398"
+      }
+    ]
+  }
+}

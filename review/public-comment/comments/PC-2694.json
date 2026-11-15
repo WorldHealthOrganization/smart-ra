@@ -1,0 +1,75 @@
+{
+  "id": "pc-2694",
+  "summary": "[Chapter 1, Introduction (the letter: \"Section 1 (DPI-H Principles and Priority Goals)\")] 1. Strengthen the DPI-H Princ…",
+  "comment": "[Chapter 1, Introduction (the letter: \"Section 1 (DPI-H Principles and Priority Goals)\")] 1. Strengthen the DPI-H Principles and Health Sector Priority Goals GDHP recommends adjusting certain principles and goals within Section 1 (DPI-H Principles and Priority Goals) to better account for real-world implementation conditions. In particular:\n• Separate core principles from implementation principles and clarify which ones are essential for countries to adopt the framework successfully.\n• Reframe the Autonomy and Sovereignty point: avoiding dependency is the right goal, but it shouldn't mean every standard must be nationally controlled. Health-data interoperability relies heavily on international standards, and sometimes on binding regional rules.\n• Consider placing greater emphasis on citizen agency, including access transparency, consent management, portability, digital identity integration and trusted presentation of health information across organisational and national boundaries.\n• Qualify the \"captured once\" principle so it is not framed as an unconditional rule applying to all health information. Clinical information may legitimately be generated, verified, or recorded by different actors at different points in a care pathway.\n• Clarify that data collected for one purpose can't automatically be shared wherever it might be useful, since reuse must follow the law and data- protection safeguards, and that consent isn't the only legal basis for using health data. These refinements would help align the stated principles and goals more closely with how digital health systems function in practice, without diminishing the overall strength of the framework.",
+  "createdAt": "2026-10-15T11:14:36.149Z",
+  "targetLabel": "chap:ch1-introduction",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2694",
+    "source": {
+      "channel": "narrative",
+      "batch": "gdhp-letter",
+      "sha256": "3224a0f9c086b1ead974bdd01dcd0e4bef33d27ee095c0dde6f1a01a498ef806",
+      "segment": 2,
+      "receivedAt": "2026-10-15T11:14:36.149Z"
+    },
+    "reviewer": {
+      "id": "r-8eb63f38b6",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1",
+      "raw": "[Chapter 1, Introduction (the letter: \"Section 1 (DPI-H Principles and Priority Goals)\")] 1. Strengthen the DPI-H Princi"
+    },
+    "anchor": {
+      "targetLabel": "chap:ch1-introduction",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 1: the principles and priority goals of chapter 1 (1.4, 1.5)"
+    },
+    "text": "[Chapter 1, Introduction (the letter: \"Section 1 (DPI-H Principles and Priority Goals)\")] 1. Strengthen the DPI-H Principles and Health Sector Priority Goals GDHP recommends adjusting certain principles and goals within Section 1 (DPI-H Principles and Priority Goals) to better account for real-world implementation conditions. In particular:\n• Separate core principles from implementation principles and clarify which ones are essential for countries to adopt the framework successfully.\n• Reframe the Autonomy and Sovereignty point: avoiding dependency is the right goal, but it shouldn't mean every standard must be nationally controlled. Health-data interoperability relies heavily on international standards, and sometimes on binding regional rules.\n• Consider placing greater emphasis on citizen agency, including access transparency, consent management, portability, digital identity integration and trusted presentation of health information across organisational and national boundaries.\n• Qualify the \"captured once\" principle so it is not framed as an unconditional rule applying to all health information. Clinical information may legitimately be generated, verified, or recorded by different actors at different points in a care pathway.\n• Clarify that data collected for one purpose can't automatically be shared wherever it might be useful, since reuse must follow the law and data- protection safeguards, and that consent isn't the only legal basis for using health data. These refinements would help align the stated principles and goals more closely with how digital health systems function in practice, without diminishing the overall strength of the framework.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.149Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-letter"
+      },
+      {
+        "at": "2026-10-15T11:15:03.704Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 1: the principles and priority goals of chapter 1 (1.4, 1.5)"
+      }
+    ]
+  }
+}

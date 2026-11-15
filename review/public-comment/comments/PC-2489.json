@@ -1,0 +1,83 @@
+{
+  "id": "pc-2489",
+  "summary": "LHR validation and historical validity — Existing provenance and versioning requirements are useful. These additions ma…",
+  "comment": "LHR validation and historical validity — Existing provenance and versioning requirements are useful. These additions make semantic specificity, historical validity, and derived representations explicit rather than adding a duplicate record system.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2489",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 32,
+      "entry": "31",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Lifelong Health Record, §5",
+      "page": "160",
+      "lines": "A12.02",
+      "raw": "§Lifelong Health Record, §5 p.160 l.A12.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-lifelong-health-record"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites LHR §5; LHR functional requirements table."
+    },
+    "text": "LHR validation and historical validity — Existing provenance and versioning requirements are useful. These additions make semantic specificity, historical validity, and derived representations explicit rather than adding a duplicate record system.",
+    "suggestedRevision": "Append; retain Required status: Validation shall use the declared profile and terminology release, distinguish code or expression validity from clinical coding correctness, and return actionable findings. An identifier valid in the recorded historical release shall not be rejected solely because it has subsequently been retired. Reconciliation and any recoding shall preserve the source record and provenance.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 32"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites LHR §5; LHR functional requirements table."
+      }
+    ]
+  }
+}

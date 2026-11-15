@@ -1,0 +1,80 @@
+{
+  "id": "pc-0452",
+  "summary": "The maturity assessment measures capabilities and coverage but not the authority behind them. Two countries with identi…",
+  "comment": "The maturity assessment measures capabilities and coverage but not the authority behind them. Two countries with identical component coverage have entirely different prospects if one can oblige participation and the other cannot, yet they would score the same.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-2-c9bb04",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0452",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 452,
+      "entry": "451",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.2",
+      "page": "88",
+      "lines": "28",
+      "raw": "§4.1.2 p.88 l.28"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-2-c9bb04",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-1-2-25c058"
+      ],
+      "note": "p.88 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The maturity assessment measures capabilities and coverage but not the authority behind them. Two countries with identical component coverage have entirely different prospects if one can oblige participation and the other cannot, yet they would score the same.",
+    "suggestedRevision": "Add an ordering-readiness dimension, scored separately from technical maturity: duty to connect; right to connect; enforceable norms with proportionate sanctions; statutory tariff or recurrent budget basis; accessible dispute resolution; designated holder per shared function. Countries can then see whether their gap is technical, institutional, or both, which determines what kind of intervention will help.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 452"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0410",
+  "summary": "Gap in architecture: Laboratory information systems, Blood bank/ blood safety systems, biomedical and cold chain equipm…",
+  "comment": "Gap in architecture: Laboratory information systems, Blood bank/ blood safety systems, biomedical and cold chain equipment, and One Health. In particular, DPI-H presents an opportunity to critically appraise national availability of data from outside the formal \"health sector\", such as animal and plant health, in a One Health framework.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-ea5cb0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0410",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 410,
+      "entry": "409",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "page": "63",
+      "lines": "Reference architecture (general)",
+      "raw": "§3.5 p.63 l.Reference architecture (general)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-ea5cb0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-5-1-385af7"
+      ],
+      "note": "p.63 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Gap in architecture: Laboratory information systems, Blood bank/ blood safety systems, biomedical and cold chain equipment, and One Health. In particular, DPI-H presents an opportunity to critically appraise national availability of data from outside the formal \"health sector\", such as animal and plant health, in a One Health framework.",
+    "suggestedRevision": "Recommend references to national data soruces to the left.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 410"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+**Sources:** *WHO. Integrated Disease Surveillance and Response (IDSR): technical guidelines, 3rd edition. Geneva: WHO, 2019. International Health Regulations 2005 (IHR 2005), World Health Organization. WHO Integrated Data Platform (https://www.who.int/tools/who-integrated-data-platform).*

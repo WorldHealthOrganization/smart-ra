@@ -1,0 +1,78 @@
+{
+  "id": "pc-0464",
+  "summary": "The Lifelong Health Record is presented as a component. In federated systems it is not a component but a governed view …",
+  "comment": "The Lifelong Health Record is presented as a component. In federated systems it is not a component but a governed view assembled on request from source systems that remain authoritative. Presenting it as a component invites the reading that a central longitudinal store is intended, which is precisely the reading that has defeated national programmes politically.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0464",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 464,
+      "entry": "463",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1",
+      "page": "67",
+      "lines": "647",
+      "raw": "§3.5.3.1 p.67 l.647"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.67 l.647 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "type": "technical",
+    "text": "The Lifelong Health Record is presented as a component. In federated systems it is not a component but a governed view assembled on request from source systems that remain authoritative. Presenting it as a component invites the reading that a central longitudinal store is intended, which is precisely the reading that has defeated national programmes politically.",
+    "suggestedRevision": "Describe the Lifelong Health Record at the two levels the draft already uses for registries: at governance level a single authoritative longitudinal view with defined provenance and attribution; at implementation level a store, a federated view, or a hybrid. State explicitly that a federated implementation satisfies the architecture. In the Netherlands this distinction is decisive: the 2011 Bill was rejected on the concern that data would be centralised, while the architecture in fact kept data at source.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 464"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0446",
+  "summary": "The data-quality and reconciliation requirement (line 126) and the availability and resilience requirement (lines 132–1…",
+  "comment": "The data-quality and reconciliation requirement (line 126) and the availability and resilience requirement (lines 132–135) both note that the record must remain usable under intermittent connectivity, with reconciliation of duplicate or conflicting records and support for offline operation and synchronisation. The functional requirements table (row 19, 'Low-resource settings') similarly requires 'reliable synchronisation... when connectivity is restored'. None of these specifies how a conflict is to be resolved when the same record is edited concurrently at two disconnected points-  for example, two facilities updating the same encounter or medication list while both are offline. Given that the LHR explicitly supports federated and distributed deployment (row 18, 'Architecture flexibility'), concurrent offline edits are a routine rather than an edge-case scenario, and the resolution strategy chosen has direct clinical-safety implications.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0446",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 446,
+      "entry": "445",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C-  Lifelong Health Record",
+      "page": "157; 161",
+      "lines": "126; 132–135; functional requirements table, row 19 ('Low-resource settings')",
+      "raw": "§Appendix C-  Lifelong Health Record p.157; 161 l.126; 132–135; functional requirements table, row 19 ('Low-resource settings')"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-cb62ba"
+      ],
+      "note": "p.157; 161 l.126; 132–135; functional requirements table, row 19 ('Low-resource settings') read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The data-quality and reconciliation requirement (line 126) and the availability and resilience requirement (lines 132–135) both note that the record must remain usable under intermittent connectivity, with reconciliation of duplicate or conflicting records and support for offline operation and synchronisation. The functional requirements table (row 19, 'Low-resource settings') similarly requires 'reliable synchronisation... when connectivity is restored'. None of these specifies how a conflict is to be resolved when the same record is edited concurrently at two disconnected points-  for example, two facilities updating the same encounter or medication list while both are offline. Given that the LHR explicitly supports federated and distributed deployment (row 18, 'Architecture flexibility'), concurrent offline edits are a routine rather than an edge-case scenario, and the resolution strategy chosen has direct clinical-safety implications.",
+    "suggestedRevision": "Add an explicit conflict-resolution requirement for offline and federated synchronisation, specifying at minimum: how concurrent edits to the same record element are detected; whether resolution is automated, and by what rule (e.g. last-write-wins, source-priority, additive merge), or requires clinician review; and how the audit log (row 20) captures the original, conflicting and reconciled versions so that the resolution itself remains traceable.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 446"
+      }
+    ]
+  }
+}

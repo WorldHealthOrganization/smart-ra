@@ -1,0 +1,77 @@
+{
+  "id": "pc-0685",
+  "summary": "The inclusion of meaningful human oversight and repeated evaluation is a major strength. I would suggest broadening eva…",
+  "comment": "The inclusion of meaningful human oversight and repeated evaluation is a major strength. I would suggest broadening evaluation beyond model behaviour alone to include the behaviour of the human AI system. A technically accurate model can still contribute to unsafe outcomes if clinicians or users become over reliant on it, fail to exercise independent judgement, or rarely use available override and escalation mechanisms. These risks are especially relevant in sensitive and high impact health contexts.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0685",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 685,
+      "entry": "684",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-e846db7147",
+      "name": "Onour Impram",
+      "organisation": "Marmara University",
+      "country": "Türkiye",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2, p. 108",
+      "lines": "155 to 168",
+      "raw": "§5.4.2, p. 108 l.155 to 168"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.4.2 only"
+    },
+    "text": "The inclusion of meaningful human oversight and repeated evaluation is a major strength. I would suggest broadening evaluation beyond model behaviour alone to include the behaviour of the human AI system. A technically accurate model can still contribute to unsafe outcomes if clinicians or users become over reliant on it, fail to exercise independent judgement, or rarely use available override and escalation mechanisms. These risks are especially relevant in sensitive and high impact health contexts.",
+    "suggestedRevision": "Consider adding: “Evaluation should include relevant human AI interaction outcomes alongside model performance. Depending on the use case, these may include calibration of trust and reliance, automation bias, actual override or escalation behaviour, workload, and the ability of users or professionals to maintain independent judgement. For AI systems that interact directly with patients, particularly in sensitive domains such as mental health, evaluation should also consider whether perceived empathy, emotional reliance, or excessive epistemic dependence may undermine human agency.”",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 685"
+      }
+    ]
+  }
+}

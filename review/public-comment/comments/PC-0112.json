@@ -1,0 +1,82 @@
+{
+  "id": "pc-0112",
+  "summary": "Line 293 states strategic governance \"does not manage operations,\" but the \"Securing financial continuity\" and \"Managin…",
+  "comment": "Line 293 states strategic governance \"does not manage operations,\" but the \"Securing financial continuity\" and \"Managing demand on shared capacity\" subsections assign it operational-sounding actions (monitor utilisation against capacity, adjust fee structures, monitoring and reporting of utilisation patterns), contradicting the stated separation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-3-1ab967",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0112",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 112,
+      "entry": "111",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4 Governance of Digital Health Architectures and\nDPI-H",
+      "page": "55-60",
+      "lines": "290-451",
+      "raw": "§3.4 Governance of Digital Health Architectures and\nDPI-H p.55-60 l.290-451"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-3-1ab967",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-3-d89dbc",
+        "prose:3-4-3-7c7f43",
+        "prose:3-4-3-a81d49"
+      ],
+      "note": "p.55-60 l.290-451 read as the printed page; section 3.4 agrees"
+    },
+    "type": "technical",
+    "text": "Line 293 states strategic governance \"does not manage operations,\" but the \"Securing financial continuity\" and \"Managing demand on shared capacity\" subsections assign it operational-sounding actions (monitor utilisation against capacity, adjust fee structures, monitoring and reporting of utilisation patterns), contradicting the stated separation.",
+    "suggestedRevision": "Reframe these actions as strategic-level authority exercised on operationally-supplied data or explicitly note that strategic bodies set the parameters that operational governance then applies.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 112"
+      }
+    ]
+  }
+}

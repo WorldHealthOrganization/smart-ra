@@ -1,0 +1,77 @@
+{
+  "id": "pc-0229",
+  "summary": "SNOMED CT Global Patient Set (GPS) definition (\"a list of basic clinical terms\") is inaccurate in two respects. First, …",
+  "comment": "SNOMED CT Global Patient Set (GPS) definition (\"a list of basic clinical terms\") is inaccurate in two respects. First, \"basic\" is wrong: the GPS is a curated, clinically meaningful subset of the SNOMED CT International Edition, providing broad coverage of the most clinically relevant concepts across findings, procedures, medications, and other domains. Second, the word \"basic\" may actively deter adoption by implying inadequacy for serious clinical use, which is the opposite of the document's intent. The definition also omits the GPS's most important policy feature: it is freely available to all countries without any SNOMED International membership requirement or fee. This is the primary access pathway for LMIC implementations and should be stated plainly in the Glossary.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0229",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 229,
+      "entry": "228",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "9",
+      "raw": "§Glossary p.9"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "SNOMED CT Global Patient Set (GPS) definition (\"a list of basic clinical terms\") is inaccurate in two respects. First, \"basic\" is wrong: the GPS is a curated, clinically meaningful subset of the SNOMED CT International Edition, providing broad coverage of the most clinically relevant concepts across findings, procedures, medications, and other domains. Second, the word \"basic\" may actively deter adoption by implying inadequacy for serious clinical use, which is the opposite of the document's intent. The definition also omits the GPS's most important policy feature: it is freely available to all countries without any SNOMED International membership requirement or fee. This is the primary access pathway for LMIC implementations and should be stated plainly in the Glossary.",
+    "suggestedRevision": "We suggest the following change: \"SNOMED CT Global Patient Set (GPS): a curated subset of the SNOMED CT International Edition, providing broad coverage of clinically essential concepts across findings, procedures, and related domains. The GPS is freely available to all countries at no charge, with no membership requirement, providing an immediate zero-cost access pathway for national terminology services in any country.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 229"
+      }
+    ]
+  }
+}

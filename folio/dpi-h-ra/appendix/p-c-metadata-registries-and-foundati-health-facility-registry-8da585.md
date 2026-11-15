@@ -1,0 +1,5 @@
+- Accurate attribution of health workers to their deployed facilities, supporting workforce planning and accountability.
+- Routing and delivery of health products and commodities to verified locations.
+- Validation of health coverage scheme claims against known, empanelled providers.
+- Modelling of service coverage by planners against population distribution.
+- Aggregation of case data across administrative hierarchies for public health surveillance, with confidence that the boundaries used are consistent over time.

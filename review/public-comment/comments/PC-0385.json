@@ -1,0 +1,87 @@
+{
+  "id": "pc-0385",
+  "summary": "FHIR is an important exchange framework, but the text may be read as making it the universal semantic and exchange solu…",
+  "comment": "FHIR is an important exchange framework, but the text may be read as making it the universal semantic and exchange solution. Aggregate reporting, imaging, laboratory, logistics and geospatial/public-health data may require other standards. FHIR versions and resources also differ in normative maturity; HL7 describes R5 as an STU while R4 combines normative and STU content: https://fhir.hl7.org/fhir/versions.html",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0385",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 385,
+      "entry": "384",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.3",
+      "page": "95–96",
+      "lines": "306–338",
+      "raw": "§4.3.3 p.95–96 l.306–338"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-3",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites all of §4.3.3 (l.306-338), the FHIR-as-recommended-framework subsection."
+    },
+    "type": "technical",
+    "text": "FHIR is an important exchange framework, but the text may be read as making it the universal semantic and exchange solution. Aggregate reporting, imaging, laboratory, logistics and geospatial/public-health data may require other standards. FHIR versions and resources also differ in normative maturity; HL7 describes R5 as an STU while R4 combines normative and STU content: https://fhir.hl7.org/fhir/versions.html",
+    "suggestedRevision": "Describe FHIR as one (highly recommended) standards family within a governed standards portfolio. Require stated versions, national profiles/implementation guides, terminology bindings, validation and migration policy. Recognize complementary standards and non-FHIR aggregate interfaces. National standards frameworks depend on use case and maturity rather than by blanket preference.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 385"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites all of §4.3.3 (l.306-338), the FHIR-as-recommended-framework subsection."
+      }
+    ]
+  }
+}

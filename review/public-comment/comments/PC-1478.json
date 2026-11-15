@@ -1,0 +1,80 @@
+{
+  "id": "pc-1478",
+  "summary": "The three HUID models are attributed to WHO guidance, but the exact reference and terminology should be verified agains…",
+  "comment": "The three HUID models are attributed to WHO guidance, but the exact reference and terminology should be verified against the cited source.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-307c48",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1478",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 714,
+      "entry": "713",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, 4",
+      "page": "117",
+      "lines": "Lines 127-142",
+      "raw": "§Client Registry, 4 p.117 l.Lines 127-142"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-307c48",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-client-registry-8520f2",
+        "prose:c-metadata-registries-and-foundati-client-registry-efacc8"
+      ],
+      "note": "p.117 l.Lines 127-142 read as the printed page; section 4 agrees"
+    },
+    "text": "The three HUID models are attributed to WHO guidance, but the exact reference and terminology should be verified against the cited source.",
+    "suggestedRevision": "Cite the specific guidance, version, and section. State whether the three models are reproduced directly or adapted for this architecture.",
+    "labels": {
+      "Comment type": "Q13 - Examples and evidence"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 714"
+      }
+    ]
+  }
+}

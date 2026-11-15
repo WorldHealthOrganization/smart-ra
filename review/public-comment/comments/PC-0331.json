@@ -1,0 +1,85 @@
+{
+  "id": "pc-0331",
+  "summary": "there seems to be a big focus on data for funding (ie section 1.2.3)  and worked example 2.4.2, but this is a secondary…",
+  "comment": "there seems to be a big focus on data for funding (ie section 1.2.3)  and worked example 2.4.2, but this is a secondary use case for health data. First use case should be population health statistical outputs.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-2-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0331",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 331,
+      "entry": "330",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 1",
+      "raw": "§Chapter 1"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-2-3",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [
+        "chap:ch1-introduction"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 1 and 1.2.3 focus on financing data versus population statistics"
+    },
+    "type": "editorial",
+    "text": "there seems to be a big focus on data for funding (ie section 1.2.3)  and worked example 2.4.2, but this is a secondary use case for health data. First use case should be population health statistical outputs.",
+    "suggestedRevision": "For example they could reference the ICD-11 reference guide and use something similar to “Health data systems need to be designed to address the needs of a broad range of use cases, such as: causes of death, morbidity, epidemiology, casemix (Diagnosis-Related Groups (DRG)), quality and patient safety, primary care, functioning assessment, research, prevention, substance (medication) or device safety, specific surveillance like antimicrobial resistance (AMR), cancer registration, injury research, as well as ensuring semantic interoperability for clinical documentation, decision support and guidelines or recommendations.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 331"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 1 and 1.2.3 focus on financing data versus population statistics"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0212",
+  "summary": "The phased implementation approach is useful, but countries with limited technical and institutional capacity may still…",
+  "comment": "The phased implementation approach is useful, but countries with limited technical and institutional capacity may still struggle to identify a minimum viable starting package and the concrete outputs expected from each phase.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-c1332c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0212",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 212,
+      "entry": "211",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "90–91",
+      "lines": "113–165",
+      "raw": "§4.2.2 p.90–91 l.113–165"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-c1332c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.90–91 l.113–165 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "general",
+    "text": "The phased implementation approach is useful, but countries with limited technical and institutional capacity may still struggle to identify a minimum viable starting package and the concrete outputs expected from each phase.",
+    "suggestedRevision": "Provide a low-resource implementation annex specifying minimum governance arrangements, baseline assessment, priority registries, interoperability capability, FHIR implementation guides, security controls, testing environment, capacity plan, financing plan, responsible institutions, indicative costs and measurable milestones for each phase.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 212"
+      }
+    ]
+  }
+}

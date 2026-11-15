@@ -1,0 +1,1 @@
+The relationship between the Client Registry and foundational identification infrastructure is the most architecturally significant dependency in the health identity domain, and the one most frequently misunderstood. It is therefore given dedicated treatment here.

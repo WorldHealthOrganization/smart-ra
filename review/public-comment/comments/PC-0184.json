@@ -1,0 +1,86 @@
+{
+  "id": "pc-0184",
+  "summary": "The document correctly asserts that AI depends on foundational  data infrastructure but doesn’t define a structured mul…",
+  "comment": "The document correctly asserts that AI depends on foundational  data infrastructure but doesn’t define a structured multi-layered framework or roadmap to guide its adoption.\nCountries would benefit from a blueprint of sorts for them to understand the critical investments (e.g., compute infrastructure, data governance, applications, etc) and how to go about setting them up.\nA defined/custom AI capability stack guide in understanding how DPI-H relate to AI infrastructure",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:ch5-future-proofing-the-architecture-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0184",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 184,
+      "entry": "183",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2, 5.4.1",
+      "page": "104 - 107",
+      "lines": "24 - 70, \n142 - 153",
+      "raw": "§5.2, 5.4.1 p.104 - 107 l.24 - 70, \n142 - 153"
+    },
+    "anchor": {
+      "targetLabel": "sec:ch5-future-proofing-the-architecture-lead",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:5-1-ea0e4f"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 5.2 and 5.4.1 and proposes a new chapter 5 sub-section for an AI capability framework"
+    },
+    "type": "technical",
+    "text": "The document correctly asserts that AI depends on foundational  data infrastructure but doesn’t define a structured multi-layered framework or roadmap to guide its adoption.\nCountries would benefit from a blueprint of sorts for them to understand the critical investments (e.g., compute infrastructure, data governance, applications, etc) and how to go about setting them up.\nA defined/custom AI capability stack guide in understanding how DPI-H relate to AI infrastructure",
+    "suggestedRevision": "Consider adding a new sub-section in Chapter 5 that defines an AI capabilty framework with layers: \n(1) Data foundations (DPI-H components like registries, LHR, LIMR, TS) that provide governed, structured data\n(2) Interoperability and access  (exchange layer that allows data to flow to models) \n(3) Model development and inference (infrastructure for training, testing, and deploying models)\n(4) Governance and oversight (policies and processes for trustworthy AI) \n(5) AI-enabled applications (point-of-care and analytical tools that consume AI outputs). \n\nAlso include an indicative implementation sequence: countries should establish layers 1–2 before meaningful AI adoption.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 184"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 5.2 and 5.4.1 and proposes a new chapter 5 sub-section for an AI capability framework"
+      }
+    ]
+  }
+}

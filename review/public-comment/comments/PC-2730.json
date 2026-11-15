@@ -1,0 +1,67 @@
+{
+  "id": "pc-2730",
+  "summary": "§4.3.4, p. 98, lines 393–395. [highlight] On the text: «while health financing claims are orchestrated through a claims…",
+  "comment": "§4.3.4, p. 98, lines 393–395. [highlight] On the text: «while health financing claims are orchestrated through a claims exchange component.».\nI suggest to rephrase:\n\".... while financial flows to providers are orchestrated through a separate transaction system\" (or another word: through a separate financial flow system).",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:4-3-4-2-7e2279",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2730",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 30,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-82988d7ddf",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "98",
+      "lines": "393–395",
+      "raw": "§4.3.4, p. 98, lines 393–395. [highlight] On the text: «while health financing claims are orchestrated through a claims "
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-2-7e2279",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98 l.393–395 read as the printed page; section 4.3.4 agrees"
+    },
+    "text": "§4.3.4, p. 98, lines 393–395. [highlight] On the text: «while health financing claims are orchestrated through a claims exchange component.».\nI suggest to rephrase:\n\".... while financial flows to providers are orchestrated through a separate transaction system\" (or another word: through a separate financial flow system).",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

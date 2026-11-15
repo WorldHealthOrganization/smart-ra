@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-063",
+  "title": "Extend the component description template",
+  "requirements": "- Add fields for accountable authority, operating model, prerequisites and dependencies, non-functional requirements and risks\n- Identify the responsible actor for each requirement\n- Specify intended use, audience and limits for material outputs such as alerts and scores\n- Add conformance fields: test method, evidence, applicable profile, conditional applicability\n- Add applicability (e.g. product class), standard, test method and evidence\n- Classify requirements as universal baseline, conditional or advanced target state",
+  "refs": [
+    "PC-0270",
+    "PC-0950",
+    "PC-0952",
+    "PC-0953",
+    "PC-0954",
+    "PC-1768",
+    "PC-1865",
+    "PC-2065"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

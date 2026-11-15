@@ -1,0 +1,74 @@
+{
+  "id": "pc-2499",
+  "summary": "Import does not authorise ICD modification — Unqualified “local modifications of ICD” can imply permissions the archite…",
+  "comment": "Import does not authorise ICD modification — Unqualified “local modifications of ICD” can imply permissions the architecture cannot confer. Technical import capability is not itself a licence breach: distinguish unchanged international content, authorised extensions and separately identified additions. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time; verify the terms in force at publication. ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4, supports international comparability and governed maintenance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2499",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 42,
+      "entry": "41",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "167",
+      "lines": "A14.03",
+      "raw": "§Terminology Service, §5 p.167 l.A14.03"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Import does not authorise ICD modification — Unqualified “local modifications of ICD” can imply permissions the architecture cannot confer. Technical import capability is not itself a licence breach: distinguish unchanged international content, authorised extensions and separately identified additions. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time; verify the terms in force at publication. ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4, supports international comparability and governed maintenance.",
+    "suggestedRevision": "Replace sentence; retain other text and Required status: Import shall preserve international identifiers, meaning, attribution, and release information. It shall distinguish local code systems and authorised extensions from the unmodified international source; technical import capability does not authorise modification or redistribution of that source.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 42"
+      }
+    ]
+  }
+}

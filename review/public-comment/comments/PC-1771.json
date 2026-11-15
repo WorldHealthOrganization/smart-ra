@@ -1,0 +1,81 @@
+{
+  "id": "pc-1771",
+  "summary": "UNSPSC is described parenthetically as covering pharmaceuticals and GPC as covering medical devices. Both are broader c…",
+  "comment": "UNSPSC is described parenthetically as covering pharmaceuticals and GPC as covering medical devices. Both are broader classifications with different commercial purposes; ATC classifies medicines therapeutically rather than identifying products.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-d6c737",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1771",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1007,
+      "entry": "1006",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry, 5",
+      "page": "147",
+      "lines": "Requirement 2",
+      "raw": "§Product Registry, 5 p.147 l.Requirement 2"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-d6c737",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-9f0ff9",
+        "prose:c-metadata-registries-and-foundati-product-registry-8a64c2",
+        "prose:c-business-services-components-public-health-surveillance-platf-63ffd5-12-4"
+      ],
+      "note": "p.147 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "UNSPSC is described parenthetically as covering pharmaceuticals and GPC as covering medical devices. Both are broader classifications with different commercial purposes; ATC classifies medicines therapeutically rather than identifying products.",
+    "suggestedRevision": "Correct the descriptions and state the intended use of each scheme. Avoid suggesting they are interchangeable product identifiers.",
+    "labels": {
+      "Comment type": "Q14 - Technical accuracy"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1007"
+      }
+    ]
+  }
+}

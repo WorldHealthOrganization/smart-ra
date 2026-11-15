@@ -1,0 +1,76 @@
+{
+  "id": "pc-0624",
+  "summary": "The statement that England centrally governs and provides pharmaceutical decision support, including interaction checki…",
+  "comment": "The statement that England centrally governs and provides pharmaceutical decision support, including interaction checking, allergy alerts and dosage guidance, appears inaccurate as written. England centrally maintains SNOMED CT UK and dm+d, but NHS England explicitly states that dm+d does not provide decision-support functionality. Such functionality is generally implemented and configured within local or vendor-supplied clinical systems.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0624",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 624,
+      "entry": "623",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2: United Kingdom (England)",
+      "lines": "186–194",
+      "raw": "§Appendix D.2: United Kingdom (England) l.186–194"
+    },
+    "anchor": {
+      "targetLabel": "sec:d",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section D only"
+    },
+    "text": "The statement that England centrally governs and provides pharmaceutical decision support, including interaction checking, allergy alerts and dosage guidance, appears inaccurate as written. England centrally maintains SNOMED CT UK and dm+d, but NHS England explicitly states that dm+d does not provide decision-support functionality. Such functionality is generally implemented and configured within local or vendor-supplied clinical systems.",
+    "suggestedRevision": "You may replace with - “England centrally governs national clinical terminologies, including SNOMED CT UK and the dictionary of medicines and devices (dm+d). These standards support consistent medicines-data exchange and can be used by local and vendor-supplied prescribing systems to implement decision-support functions.” A centrally delivered national pharmaceutical decision-support service should not be implied unless a specific authoritative source is provided.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 624"
+      }
+    ]
+  }
+}

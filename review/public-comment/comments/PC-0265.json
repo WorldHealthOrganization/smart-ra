@@ -1,0 +1,80 @@
+{
+  "id": "pc-0265",
+  "summary": "Public governance, privacy and inclusion are necessary foundations, but trust should not be presented as an automatic r…",
+  "comment": "Public governance, privacy and inclusion are necessary foundations, but trust should not be presented as an automatic result of technical architecture or formal representation. Trust depends on clear and bounded purpose, understandable data use, visible safeguards, independent scrutiny, consistency between commitments and practice, and meaningful routes for people to question, correct or contextualise information. Health information should support two-way, context-aware communication rather than only top-down message delivery.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-1298cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0265",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 265,
+      "entry": "264",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4; 3.4.2–3.4.3",
+      "page": "20; 54–56",
+      "lines": "394–410; 258–265; 279–289; 321–327",
+      "raw": "§1.4; 3.4.2–3.4.3 p.20; 54–56 l.394–410; 258–265; 279–289; 321–327"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-1298cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-4-c75a90"
+      ],
+      "note": "p.20; 54–56 l.394–410; 258–265; 279–289; 321–327 read as the printed page; section 1.4 agrees"
+    },
+    "type": "general",
+    "text": "Public governance, privacy and inclusion are necessary foundations, but trust should not be presented as an automatic result of technical architecture or formal representation. Trust depends on clear and bounded purpose, understandable data use, visible safeguards, independent scrutiny, consistency between commitments and practice, and meaningful routes for people to question, correct or contextualise information. Health information should support two-way, context-aware communication rather than only top-down message delivery.",
+    "suggestedRevision": "Add a trust and public-legitimacy principle stating that secure architecture enables but does not manufacture trust. Require transparent purpose and limits, plain-language and multilingual explanations of data flows and automated uses, health-literacy and accessibility considerations, published decision and access rules, feedback and redress mechanisms, community participation with real influence, communication of uncertainty, and the ability of patients, families, health workers and communities to question, correct or contextualise information. Periodically evaluate public and workforce experience.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 265"
+      }
+    ]
+  }
+}

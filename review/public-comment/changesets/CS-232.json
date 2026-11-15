@@ -1,0 +1,25 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-232",
+  "title": "Define conformance domains and validation services for semantic artefacts",
+  "requirements": "- Distinguish conformance of artefacts, implementations, exchanged data and operational use, with evidence and authority for each\n- Provide open validators, test servers and offline/local validation options\n- Require conformance statements rather than inferring conformance from download\n- Consider runtime enforcement of governed constraints on data instances",
+  "refs": [
+    "PC-0305",
+    "PC-2390",
+    "PC-2423",
+    "PC-2424",
+    "PC-2425"
+  ],
+  "anchor": "prose:f-404ba5",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0510",
+  "summary": "The progress framework measures component coverage, standards conformance, governance maturity and outcome linkage, whi…",
+  "comment": "The progress framework measures component coverage, standards conformance, governance maturity and outcome linkage, while section 5.2 notes that weaknesses in data quality cascade into analytical and AI reliability. None of the four progress dimensions directly measures the quality of data captured or derived at source, so a technically conformant architecture may still operate on incomplete, invalid, untimely or poorly attributed data.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-ad907b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0510",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 510,
+      "entry": "509",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.4 / 4.4.2 / 5.2",
+      "page": "84, 99 and 106",
+      "lines": "Lines 1154-1161, 447-460 and 69-70",
+      "raw": "§3.7.4 / 4.4.2 / 5.2 p.84, 99 and 106 l.Lines 1154-1161, 447-460 and 69-70"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-ad907b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.84, 99 and 106 l.Lines 1154-1161, 447-460 and 69-70 read as the printed page; section 3.7.4 agrees"
+    },
+    "type": "technical",
+    "text": "The progress framework measures component coverage, standards conformance, governance maturity and outcome linkage, while section 5.2 notes that weaknesses in data quality cascade into analytical and AI reliability. None of the four progress dimensions directly measures the quality of data captured or derived at source, so a technically conformant architecture may still operate on incomplete, invalid, untimely or poorly attributed data.",
+    "suggestedRevision": "Add a fifth progress dimension: source-data quality. Measure completeness, validity, timeliness, semantic conformance and provenance for mandatory elements in governed models, sampled at producing settings. Where factual accuracy cannot be tested automatically, specify a proportionate audit or validation method.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 510"
+      }
+    ]
+  }
+}

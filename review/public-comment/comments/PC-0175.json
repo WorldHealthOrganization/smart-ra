@@ -1,0 +1,78 @@
+{
+  "id": "pc-0175",
+  "summary": "REDDHI is rightly defined as a condition of maturity to be approached gradually and verified through observable signs —…",
+  "comment": "REDDHI is rightly defined as a condition of maturity to be approached gradually and verified through observable signs — but the draft offers no structured self-assessment instrument with which a country can locate itself and plan progression.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0175",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 175,
+      "entry": "174",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2",
+      "page": "26–30",
+      "lines": "REDDHI (§§2.2.1–2.2.2); also §4.4 (p. 98)",
+      "raw": "§2.2 p.26–30 l.REDDHI (§§2.2.1–2.2.2); also §4.4 (p. 98)"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.26–30 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "REDDHI is rightly defined as a condition of maturity to be approached gradually and verified through observable signs — but the draft offers no structured self-assessment instrument with which a country can locate itself and plan progression.",
+    "suggestedRevision": "Connect REDDHI to the existing tradition of maturity models — for example SCIROCCO, the European twelve-dimension self-assessment for integrated-care readiness, used for planning rather than grading — or provide a REDDHI maturity instrument with dimensions and observable indicators.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 175"
+      }
+    ]
+  }
+}

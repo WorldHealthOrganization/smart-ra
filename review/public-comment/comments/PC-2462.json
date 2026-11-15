@@ -1,0 +1,74 @@
+{
+  "id": "pc-2462",
+  "summary": "MMS acronym — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Readers need the m…",
+  "comment": "MMS acronym — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Readers need the modern architecture of ICD-11 before interpreting later lists. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub), ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:acronyms-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2462",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 5,
+      "entry": "4",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Acronyms",
+      "page": "6",
+      "lines": "A01.04",
+      "raw": "§Acronyms p.6 l.A01.04"
+    },
+    "anchor": {
+      "targetLabel": "sec:acronyms-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Acronyms\""
+    },
+    "text": "MMS acronym — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Readers need the modern architecture of ICD-11 before interpreting later lists. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub), ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+    "suggestedRevision": "Insert acronym row: MMS — Mortality and Morbidity Statistics",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 5"
+      }
+    ]
+  }
+}

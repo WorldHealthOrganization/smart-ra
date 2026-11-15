@@ -1,0 +1,73 @@
+{
+  "id": "pc-2673",
+  "summary": "The document promises two things that pull against each other but are never reconciled. In Section 2.3 (p.35) it says c…",
+  "comment": "The document promises two things that pull against each other but are never reconciled. In Section 2.3 (p.35) it says consent must be something people can withdraw, and it gives individuals a right to have records erased. In the same Section 2.3 (p.36–37) it endorses using health data to train AI models, with de-identified data as the safeguard. The problem is that once data has been used to train a model, that model cannot practically \"un-learn\" one person’s data. So withdrawal and erasure can stop future training but cannot remove a person’s influence from a model already trained. The AI chapter (Section 5.4) covers safety, fairness, and evaluation well, but not this. Two further gaps: the document offers de-identification as the safeguard but does not say what the lawful basis is when de-identification is not feasible; and it does not note that rich health data can often be re-identified by linking datasets, so \"de-identified\" is not a guarantee.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:2-3-673e06",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2673",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 18,
+      "entry": "8",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 (see 5.4)",
+      "page": "35–37 (see 107–109)",
+      "lines": "Design principles, lines 355–361 and 436–445",
+      "raw": "§2.3 (see 5.4) p.35–37 (see 107–109) l.Design principles, lines 355–361 and 436–445"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-673e06",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.35–37 (see 107–109) l.Design principles, lines 355–361 and 436–445 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "The document promises two things that pull against each other but are never reconciled. In Section 2.3 (p.35) it says consent must be something people can withdraw, and it gives individuals a right to have records erased. In the same Section 2.3 (p.36–37) it endorses using health data to train AI models, with de-identified data as the safeguard. The problem is that once data has been used to train a model, that model cannot practically \"un-learn\" one person’s data. So withdrawal and erasure can stop future training but cannot remove a person’s influence from a model already trained. The AI chapter (Section 5.4) covers safety, fairness, and evaluation well, but not this. Two further gaps: the document offers de-identification as the safeguard but does not say what the lawful basis is when de-identification is not feasible; and it does not note that rich health data can often be re-identified by linking datasets, so \"de-identified\" is not a guarantee.",
+    "suggestedRevision": "Add explicit guidance on training AI with health data. State a lawful basis for training on identifiable data when de-identification is not feasible (for example a research or public-interest basis with safeguards, rather than relying on consent alone). State plainly that withdrawal and erasure stop future training but cannot undo training already done, so any consent notice must say this for consent to count as informed. Flag that de-identified health data can be re-identified through linkage and should be risk-assessed, not assumed safe.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 18"
+      }
+    ]
+  }
+}

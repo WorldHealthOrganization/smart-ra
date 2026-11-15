@@ -1,0 +1,78 @@
+{
+  "id": "pc-0256",
+  "summary": "The draft explains the progression from data models to actors, FHIR profiles and testing, but it does not require expli…",
+  "comment": "The draft explains the progression from data models to actors, FHIR profiles and testing, but it does not require explicit end-to-end traceability from an approved professional or clinical semantic requirement into the implemented model, terminology binding, storage, exchange, analytics/AI use and conformance test. Without traceability, an implementation can be syntactically conformant while progressively losing the rationale and meaning that the original content governance approved.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-1-2cc917",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0256",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 256,
+      "entry": "255",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.1–4.3.3; 3.7.4",
+      "page": "94–96; 84",
+      "lines": "248–330; 1132–1168",
+      "raw": "§4.3.1–4.3.3; 3.7.4 p.94–96; 84 l.248–330; 1132–1168"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-1-2cc917",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.94–96; 84 l.248–330; 1132–1168 read as the printed page; section 4.3.1 agrees"
+    },
+    "type": "technical",
+    "text": "The draft explains the progression from data models to actors, FHIR profiles and testing, but it does not require explicit end-to-end traceability from an approved professional or clinical semantic requirement into the implemented model, terminology binding, storage, exchange, analytics/AI use and conformance test. Without traceability, an implementation can be syntactically conformant while progressively losing the rationale and meaning that the original content governance approved.",
+    "suggestedRevision": "Require a traceability chain for priority clinical content: governed requirement to logical information model, to terminology/value-set binding and to implementation profile, to persistence/provenance requirements and to exchange transaction, to analytics/AI use and to conformance and regression tests. Material deviations and local extensions should be documented with rationale and clinical approval.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 256"
+      }
+    ]
+  }
+}

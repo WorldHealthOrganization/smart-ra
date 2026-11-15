@@ -1,0 +1,78 @@
+{
+  "id": "pc-0390",
+  "summary": "The workforce model is specialist-heavy and does not capture the roles we see as needed to sustain a configurable natio…",
+  "comment": "The workforce model is specialist-heavy and does not capture the roles we see as needed to sustain a configurable national platform: M&E specialists,  platform administrators/configurators, district information officers, trainers, help-desk/support staff, implementation researchers, local app/integration developers and user-community facilitators. In the DHIS2 context, these roles often sit across ministries, HISP groups and universities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-2-802f96",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0390",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 390,
+      "entry": "389",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.5",
+      "page": "100–101",
+      "lines": "493–539",
+      "raw": "§4.5 p.100–101 l.493–539"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-2-802f96",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.100–101 l.493–539 read as the printed page; section 4.5 agrees"
+    },
+    "type": "general",
+    "text": "The workforce model is specialist-heavy and does not capture the roles we see as needed to sustain a configurable national platform: M&E specialists,  platform administrators/configurators, district information officers, trainers, help-desk/support staff, implementation researchers, local app/integration developers and user-community facilitators. In the DHIS2 context, these roles often sit across ministries, HISP groups and universities.",
+    "suggestedRevision": "Add a platform operations and learning workforce stream. Define national and subnational teams for metadata governance, configuration, analytics and data use, user support, training, integration/app development, security and performance, action research and community facilitation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 390"
+      }
+    ]
+  }
+}

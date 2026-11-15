@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-business-services-components-public-health-surveillance-platf-4ded99",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-business-services-components-public-health-surveillance-platf-4ded99",
+  "kind": "prose",
+  "cites": [
+    "references/magoba-2025-sierra-leone-surveillance",
+    "references/mugasha-2025-uganda-eidsr"
+  ],
+  "text": "p-c-business-services-components-public-health-surveillance-platf-4ded99.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 975,
+      "page": 229,
+      "pageEnd": 230,
+      "printedPage": "218",
+      "lineStart": 25,
+      "lineEnd": 32,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

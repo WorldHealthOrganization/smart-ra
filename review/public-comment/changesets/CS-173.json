@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-173",
+  "title": "Define LHR acceptance levels and a minimum dataset by level",
+  "requirements": "- Specify governed models for allergies, medications, diagnoses, results, procedures/encounters and documents, including status and provenance\n- Define acceptance levels from conformant structured data to unstructured content\n- Distinguish record, encounter, document and element-level metadata with cardinality and source\n- Require governed extensions where clinically essential meaning exceeds IPS\n- Support coexistence of structured resources, documents and narrative\n- Require ability to represent domains rather than mandatory presence of data\n- Specify minimum validation and labelled quarantine of non-conformant content\n- Use a resolved person reference supporting the national identity model",
+  "refs": [
+    "PC-0273",
+    "PC-0277",
+    "PC-1839",
+    "PC-1840",
+    "PC-1866",
+    "PC-1867",
+    "PC-1883",
+    "PC-1884",
+    "PC-1885",
+    "PC-1886",
+    "PC-1887",
+    "PC-1888",
+    "PC-1889",
+    "PC-1890",
+    "PC-1892",
+    "PC-1894"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

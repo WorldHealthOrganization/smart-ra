@@ -1,0 +1,83 @@
+{
+  "id": "pc-0672",
+  "summary": "DPI-H components (right set): Leverage IHE's Foundational Work as an Implementation Layer",
+  "comment": "DPI-H components (right set): Leverage IHE's Foundational Work as an Implementation Layer\n\nIHE specifications complement standards such as HL7 FHIR, DICOM, HL7 CDA or HL7 v2, and could similarly complement the terminology standards referenced by the draft WHO handbook. IHE provides the use-case aggregation and definition, together with the implementation layer that makes those standards work together in real clinical and operational workflows. IHE profiles define actor responsibilities, coordinated transactions, content and terminology constraints, required options, cross-profile dependencies, and testable conformance expectations.\n\nThe draft already applies this approach in selected areas, notably its use of IHE Mobile Care Services Discovery (mCSD) for facility and workforce registry functions and IHE Sharing Valuesets, Codes, and Maps (SVCM) for terminology services. The same discipline should be applied consistently across the architecture. The following examples are illustrative rather than exhaustive and should be validated against the final DPI-H use cases and selected profile versions.\n\nDPI-H capability\n\n1. Client identity and matching\n   Illustrative IHE assets: PIXm, PDQm, PMIR\n   How the assets can be leveraged: Patient identity query, cross-referencing, synchronization, and merge patterns.\n\n2. Facility, workforce, service and endpoint directories\n   Illustrative IHE assets: mCSD\n   How the assets can be leveraged: Federated discovery and update of organizations, practitioners, locations, services, and exchange endpoints.\n\n3. Lifelong record and document exchange\n   Illustrative IHE assets: MHD, MHDS, XDS.b\n   How the assets can be leveraged: Mobile/FHIR-based and established document-sharing patterns that can support distributed or hybrid architectures.\n\n4. Federated and cross-border discovery and access\n   Illustrative IHE assets: XCA, XCPD\n   How the assets can be leveraged: Gateway, patient discovery, query, and retrieval patterns across autonomous communities and jurisdictions.\n\n5. Terminology services\n   Illustrative IHE assets: SVCM\n   How the assets can be leveraged: Standards-based sharing and use of code systems, value sets, and concept maps.\n\n6. International Patient Summary exchange\n   Illustrative IHE assets: sIPS\n   How the assets can be leveraged: A workflow profile for sharing IPS content using established actors and transactions.\n\n7. Trust, authorization, audit and consent\n   Illustrative IHE assets: ATNA, IUA, BALP, XUA, PCF\n   How the assets can be leveraged: Reusable security, authorization, audit-event, user-assertion, and consent patterns.\n\n8. Diagnostic imaging exchange\n   Illustrative IHE assets: XDS-I, XCA-I and IHE Radiology profiles\n   How the assets can be leveraged: Standards-based discovery and exchange of imaging information across enterprises and communities.\n\nIllustrative mapping only; profile selection should be governed by the final use case, applicable options, dependencies, version, and testing requirements.\n\nAdditional comment on Introduction and health goals (Sections 1.4–1.5, 2.4 and Appendix E)\n\nMake each health goal traceable to a clinical or operational workflow, the international profiles that support it, and measurable acceptance criteria. Validate these links with clinicians, patients, public-health users, and implementers. Apply the global-core, national-extension principle to this mapping.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0672",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 672,
+      "entry": "671",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General recommendation to use IHE profiles across components; not one passage."
+    },
+    "type": "general",
+    "text": "DPI-H components (right set): Leverage IHE's Foundational Work as an Implementation Layer\n\nIHE specifications complement standards such as HL7 FHIR, DICOM, HL7 CDA or HL7 v2, and could similarly complement the terminology standards referenced by the draft WHO handbook. IHE provides the use-case aggregation and definition, together with the implementation layer that makes those standards work together in real clinical and operational workflows. IHE profiles define actor responsibilities, coordinated transactions, content and terminology constraints, required options, cross-profile dependencies, and testable conformance expectations.\n\nThe draft already applies this approach in selected areas, notably its use of IHE Mobile Care Services Discovery (mCSD) for facility and workforce registry functions and IHE Sharing Valuesets, Codes, and Maps (SVCM) for terminology services. The same discipline should be applied consistently across the architecture. The following examples are illustrative rather than exhaustive and should be validated against the final DPI-H use cases and selected profile versions.\n\nDPI-H capability\n\n1. Client identity and matching\n   Illustrative IHE assets: PIXm, PDQm, PMIR\n   How the assets can be leveraged: Patient identity query, cross-referencing, synchronization, and merge patterns.\n\n2. Facility, workforce, service and endpoint directories\n   Illustrative IHE assets: mCSD\n   How the assets can be leveraged: Federated discovery and update of organizations, practitioners, locations, services, and exchange endpoints.\n\n3. Lifelong record and document exchange\n   Illustrative IHE assets: MHD, MHDS, XDS.b\n   How the assets can be leveraged: Mobile/FHIR-based and established document-sharing patterns that can support distributed or hybrid architectures.\n\n4. Federated and cross-border discovery and access\n   Illustrative IHE assets: XCA, XCPD\n   How the assets can be leveraged: Gateway, patient discovery, query, and retrieval patterns across autonomous communities and jurisdictions.\n\n5. Terminology services\n   Illustrative IHE assets: SVCM\n   How the assets can be leveraged: Standards-based sharing and use of code systems, value sets, and concept maps.\n\n6. International Patient Summary exchange\n   Illustrative IHE assets: sIPS\n   How the assets can be leveraged: A workflow profile for sharing IPS content using established actors and transactions.\n\n7. Trust, authorization, audit and consent\n   Illustrative IHE assets: ATNA, IUA, BALP, XUA, PCF\n   How the assets can be leveraged: Reusable security, authorization, audit-event, user-assertion, and consent patterns.\n\n8. Diagnostic imaging exchange\n   Illustrative IHE assets: XDS-I, XCA-I and IHE Radiology profiles\n   How the assets can be leveraged: Standards-based discovery and exchange of imaging information across enterprises and communities.\n\nIllustrative mapping only; profile selection should be governed by the final use case, applicable options, dependencies, version, and testing requirements.\n\nAdditional comment on Introduction and health goals (Sections 1.4–1.5, 2.4 and Appendix E)\n\nMake each health goal traceable to a clinical or operational workflow, the international profiles that support it, and measurable acceptance criteria. Validate these links with clinicians, patients, public-health users, and implementers. Apply the global-core, national-extension principle to this mapping.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "Theme": "Architecture and concepts",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 672"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General recommendation to use IHE profiles across components; not one passage."
+      }
+    ]
+  }
+}

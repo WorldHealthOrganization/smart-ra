@@ -1,0 +1,82 @@
+{
+  "id": "pc-0210",
+  "summary": "Equity and inclusion should address linguistic accessibility, disability and low digital literacy more explicitly. In m…",
+  "comment": "Equity and inclusion should address linguistic accessibility, disability and low digital literacy more explicitly. In multilingual settings such as Mozambique, meaningful participation and consent cannot depend on fluency in the official language, written forms or individual smartphone ownership.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-bf2ea8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0210",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 210,
+      "entry": "209",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3",
+      "page": "34",
+      "lines": "325–343",
+      "raw": "§2.3 p.34 l.325–343"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-bf2ea8",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-5d50f2",
+        "prose:2-3-dc70a5",
+        "prose:2-3-d50090"
+      ],
+      "note": "p.34 l.325–343 read as the printed page; section 2.3 agrees"
+    },
+    "type": "general",
+    "text": "Equity and inclusion should address linguistic accessibility, disability and low digital literacy more explicitly. In multilingual settings such as Mozambique, meaningful participation and consent cannot depend on fluency in the official language, written forms or individual smartphone ownership.",
+    "suggestedRevision": "Expand the equity principle to require accessible and multilingual interfaces and processes, including local languages, assisted or oral consent where legally permitted, formats for persons with disabilities, and service pathways for people without personal digital devices or sufficient digital literacy.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 210"
+      }
+    ]
+  }
+}

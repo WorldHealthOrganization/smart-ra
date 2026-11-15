@@ -1,0 +1,88 @@
+{
+  "id": "pc-0267",
+  "summary": "The Semantic Governance Infrastructure describes intake, review, publication, distribution and lifecycle management, bu…",
+  "comment": "The Semantic Governance Infrastructure describes intake, review, publication, distribution and lifecycle management, but it does not provide a clear maturity pathway for creating new professional clinical content. There is a risk that a technically convened group could publish content before adequate evidence synthesis, professional/public consensus, clinical validation and implementation testing.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0267",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 267,
+      "entry": "266",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5; Appendix F",
+      "page": "57–59; 241–250",
+      "lines": "373–442; Appendix F capability tables",
+      "caption": "Table s",
+      "raw": "§3.4.5; Appendix F p.57–59; 241–250 l.373–442; Appendix F capability tables"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-aef916"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 3.4.5 l.373-442 and Appendix F on SGI content-development pathway; spans the section"
+    },
+    "type": "technical",
+    "text": "The Semantic Governance Infrastructure describes intake, review, publication, distribution and lifecycle management, but it does not provide a clear maturity pathway for creating new professional clinical content. There is a risk that a technically convened group could publish content before adequate evidence synthesis, professional/public consensus, clinical validation and implementation testing.",
+    "suggestedRevision": "Add a non-prescriptive content-development pathway for new national or professional semantic assets which are evidence mapping; candidate definitions and inclusion/exclusion rules; multi-stakeholder consensus; clinical, public and technical validation; controlled pilot; publication and standards alignment; conformance testing; versioning; and long-term maintenance. The pathway should be proportionate to risk and should not imply that an individual author, vendor or technical team can declare a professional semantic standard unilaterally.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 267"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 3.4.5 l.373-442 and Appendix F on SGI content-development pathway; spans the section"
+      }
+    ]
+  }
+}

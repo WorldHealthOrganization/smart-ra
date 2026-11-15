@@ -1,0 +1,1 @@
+The Client Registry provides the verified person identity used to register and link surveillance cases, ensuring that cases reported from different facilities or through different channels are correctly attributed to the same individual and that duplicates are detected.

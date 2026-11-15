@@ -1,0 +1,80 @@
+{
+  "id": "pc-1442",
+  "summary": "The table maps goals to building blocks but does not map DPI-H components, capabilities, or stakeholder value to those …",
+  "comment": "The table maps goals to building blocks but does not map DPI-H components, capabilities, or stakeholder value to those building blocks. Its contribution to the architecture methodology is therefore limited.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:b-3025a7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1442",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 678,
+      "entry": "677",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix B",
+      "page": "113",
+      "lines": "Table B",
+      "caption": "Table B",
+      "raw": "§Appendix B p.113 l.Table B"
+    },
+    "anchor": {
+      "targetLabel": "prose:b-3025a7",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "tbl:b-f241d4"
+      ],
+      "note": "p.113 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The table maps goals to building blocks but does not map DPI-H components, capabilities, or stakeholder value to those building blocks. Its contribution to the architecture methodology is therefore limited.",
+    "suggestedRevision": "Consider extending the table or adding a companion matrix connecting goals, health-system building blocks, capabilities, and principal DPI-H components.",
+    "labels": {
+      "Comment type": "Q7 - Goal mapping"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 678"
+      }
+    ]
+  }
+}

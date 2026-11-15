@@ -1,0 +1,87 @@
+{
+  "id": "pc-0161",
+  "summary": "This joint submission synthesises two critical reviews written independently and without sight of each other (a semanti…",
+  "comment": "This joint submission synthesises two critical reviews written independently and without sight of each other (a semantics-and-standards review and an integrated-care review; their convergence is documented in a separate comparison). Both commend the same strengths: the Semantic Governance Infrastructure (meaning as a permanently governed asset — institutions first, tools second); the outcome-defined Lifelong Health Record; the draft's realism (no country starts from zero; conformance as a graded model); and Chapter 5's sober treatment of AI. Both also identify the same missing piece: the draft's own definition of interoperability ends with 'use the exchanged information to execute functions effectively', yet nowhere is that effective use designed, supported or measured. Conformance verifies systems and transactions, never whether the receiving human understood the information and acted appropriately (the 'last mile'). Likewise 'capture once, use many times' silently assumes reuse is free, while in practice information must be transformed to each receiver's role and context ('informational metamorphosis') — a transformation that is neither designed nor governed. Comments 2–15 below make this actionable; that two unconnected critiques converge on the same point is itself evidence the gap is real.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0161",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 161,
+      "entry": "160",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole document",
+      "page": "—",
+      "lines": "General comment (no specific lines)",
+      "raw": "§Whole document p.— l.General comment (no specific lines)"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-1-3-288187"
+      ],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Cites whole document; overall synthesis of a joint submission"
+    },
+    "type": "general",
+    "text": "This joint submission synthesises two critical reviews written independently and without sight of each other (a semantics-and-standards review and an integrated-care review; their convergence is documented in a separate comparison). Both commend the same strengths: the Semantic Governance Infrastructure (meaning as a permanently governed asset — institutions first, tools second); the outcome-defined Lifelong Health Record; the draft's realism (no country starts from zero; conformance as a graded model); and Chapter 5's sober treatment of AI. Both also identify the same missing piece: the draft's own definition of interoperability ends with 'use the exchanged information to execute functions effectively', yet nowhere is that effective use designed, supported or measured. Conformance verifies systems and transactions, never whether the receiving human understood the information and acted appropriately (the 'last mile'). Likewise 'capture once, use many times' silently assumes reuse is free, while in practice information must be transformed to each receiver's role and context ('informational metamorphosis') — a transformation that is neither designed nor governed. Comments 2–15 below make this actionable; that two unconnected critiques converge on the same point is itself evidence the gap is real.",
+    "suggestedRevision": "Extend the draft's own logic — govern meaning, define by outcome, verify by testing — to the point of action, per the specific proposals in comments 2–15.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 161"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Cites whole document; overall synthesis of a joint submission"
+      }
+    ]
+  }
+}

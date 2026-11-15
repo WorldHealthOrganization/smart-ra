@@ -1,0 +1,77 @@
+{
+  "id": "pc-2643",
+  "summary": "The Guidance currently addresses national governance and then uses “regional governance” principally for multi-country …",
+  "comment": "The Guidance currently addresses national governance and then uses “regional governance” principally for multi-country arrangements, leaving an important governance model insufficiently covered: distribution of responsibilities within a country. \n\nFederal, devolved and decentralised health systems may combine shared national infrastructure with autonomous or subnational ownership and service-delivery responsibilities. \n\nThis is not equivalent to undesirable fragmentation. For example: Spain provides an established implementation pattern: the Interterritorial Council created the Digital Health Commission specifically to support co-governance between the Ministry of Health and the Autonomous Communities and to ensure interoperability across public administrations. \n\nThe national TSI/CIP-SNS (Tarjeta Sanitaria Individual / Código de identificación de paciente SNS) architecture similarly combines regional databases and management responsibilities with shared national identity and interoperability services. Explicitly addressing multi-level governance would improve the applicability of the Guidance to decentralised countries and would also reinforce the subsidiarity principle already included in Section 3.4.2",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:3-4-5-7a4a7f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2643",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 21,
+      "entry": "11",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4 Governance of Digital Health Architectures and DPI-H",
+      "page": "62",
+      "lines": "Section 3.4.5/3.4.6",
+      "raw": "§3.4 Governance of Digital Health Architectures and DPI-H p.62 l.Section 3.4.5/3.4.6"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-7a4a7f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-dfede6",
+        "prose:3-4-6-7842fb",
+        "prose:3-4-6-12c0cd"
+      ],
+      "note": "p.62 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The Guidance currently addresses national governance and then uses “regional governance” principally for multi-country arrangements, leaving an important governance model insufficiently covered: distribution of responsibilities within a country. \n\nFederal, devolved and decentralised health systems may combine shared national infrastructure with autonomous or subnational ownership and service-delivery responsibilities. \n\nThis is not equivalent to undesirable fragmentation. For example: Spain provides an established implementation pattern: the Interterritorial Council created the Digital Health Commission specifically to support co-governance between the Ministry of Health and the Autonomous Communities and to ensure interoperability across public administrations. \n\nThe national TSI/CIP-SNS (Tarjeta Sanitaria Individual / Código de identificación de paciente SNS) architecture similarly combines regional databases and management responsibilities with shared national identity and interoperability services. Explicitly addressing multi-level governance would improve the applicability of the Guidance to decentralised countries and would also reinforce the subsidiarity principle already included in Section 3.4.2",
+    "suggestedRevision": "Insert a new subsection immediately before the current Section 3.4.6: “Subnational and multi-level governance. In federal, devolved or otherwise decentralised health systems, legal responsibility, stewardship and operational control may be distributed between national and subnational public authorities. Governance should explicitly define: (i) decision rights at each level; (ii) common national or jurisdiction-wide interoperability and conformance requirements; (iii) capabilities and data remaining under subnational stewardship; (iv) co-governance, coordination and dispute-resolution mechanisms; and (v) accountability across federated nodes. A national DPI-H architecture does not require national ownership or operational control of all underlying systems or data.” Rename existing 3.4.6 “Cross-country and supranational governance considerations.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 21"
+      }
+    ]
+  }
+}

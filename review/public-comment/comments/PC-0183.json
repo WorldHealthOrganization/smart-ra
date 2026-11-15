@@ -1,0 +1,78 @@
+{
+  "id": "pc-0183",
+  "summary": "The guidance mentions partnership and financing arrangements for DPI-H implementation, but lacks targeted guidance on t…",
+  "comment": "The guidance mentions partnership and financing arrangements for DPI-H implementation, but lacks targeted guidance on two core practical challenges faced by most countries: first, the necessity of engaging local frontline experts in the localization adaptation of the framework; second, the matching of long-term operation and maintenance funds with the data interoperability implementation. Many countries have complete construction plans, but fail to land them due to the lack of local expert adaptation and insufficient long-term budget guarantee, resulting in the framework remaining on paper only.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0183",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 183,
+      "entry": "182",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f9ffd69fd",
+      "name": "Li Jianping",
+      "organisation": "Research Office of Guoxue Studies, Heluo Culture Research Institute, Harbin Normal University",
+      "country": "China",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6 & 4.5",
+      "page": "111",
+      "lines": "Exact line numbers to be confirmed from full-review-version PDF",
+      "raw": "§4.6 & 4.5 p.111 l.Exact line numbers to be confirmed from full-review-version PDF"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.6 only"
+    },
+    "type": "general",
+    "text": "The guidance mentions partnership and financing arrangements for DPI-H implementation, but lacks targeted guidance on two core practical challenges faced by most countries: first, the necessity of engaging local frontline experts in the localization adaptation of the framework; second, the matching of long-term operation and maintenance funds with the data interoperability implementation. Many countries have complete construction plans, but fail to land them due to the lack of local expert adaptation and insufficient long-term budget guarantee, resulting in the framework remaining on paper only.",
+    "suggestedRevision": "Add the following two paragraphs to the implementation and financing sections:\n1. “During the early stage of DPI-H localization and implementation, countries are recommended to establish a local adaptation working group composed of frontline medical and digital architecture experts, to adjust the framework to match local health system conditions and reduce the risk of mismatched implementation.”\n2. “The implementation of data interoperability and semantic governance must be matched with a guaranteed long-term recurring budget for system operation, maintenance and iteration. Countries should incorporate the relevant funding needs into their medium and long-term fiscal planning, to ensure the sustainable operation of the digital infrastructure.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 183"
+      }
+    ]
+  }
+}

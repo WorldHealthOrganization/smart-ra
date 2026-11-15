@@ -1,0 +1,1 @@
+Functional health ID systems, including the Health Unique Identifier (HUID), are created to manage identification for the specific use cases of health service delivery. They may or may not be linked to foundational ID, depending on a country's context. The WHO HUID Guidance (2023) identifies three primary implementation models that countries have adopted:

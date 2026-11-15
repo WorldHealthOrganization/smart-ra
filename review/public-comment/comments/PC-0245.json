@@ -1,0 +1,80 @@
+{
+  "id": "pc-0245",
+  "summary": "The equity principle addresses connectivity, infrastructure and institutional capacity, and requires that the architect…",
+  "comment": "The equity principle addresses connectivity, infrastructure and institutional capacity, and requires that the architecture 'degrade gracefully rather than exclude'. Language is absent from it. In a substantial share of the settings this guidance addresses — refugee and displacement contexts, migrant populations, multilingual states, and rural populations served by clinicians trained in a national or colonial language — the patient and the clinician do not share a fluent language. This is not a user-interface localisation matter. History taken across a language barrier is systematically less complete and less accurate, and that deficit propagates directly into the registries and longitudinal records this architecture exists to make trustworthy. Language is therefore a data-quality property of the architecture, not a presentation-layer concern.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-bf2ea8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0245",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 245,
+      "entry": "244",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "2.3 Design Principles — VII. Equity and Inclusion",
+      "page": "34",
+      "lines": "325-343",
+      "raw": "§2.3 Design Principles — VII. Equity and Inclusion p.34 l.325-343"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-bf2ea8",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-5d50f2",
+        "prose:2-3-dc70a5",
+        "prose:2-3-d50090"
+      ],
+      "note": "p.34 l.325-343 read as the printed page; section 2.3 agrees"
+    },
+    "type": "general",
+    "text": "The equity principle addresses connectivity, infrastructure and institutional capacity, and requires that the architecture 'degrade gracefully rather than exclude'. Language is absent from it. In a substantial share of the settings this guidance addresses — refugee and displacement contexts, migrant populations, multilingual states, and rural populations served by clinicians trained in a national or colonial language — the patient and the clinician do not share a fluent language. This is not a user-interface localisation matter. History taken across a language barrier is systematically less complete and less accurate, and that deficit propagates directly into the registries and longitudinal records this architecture exists to make trustworthy. Language is therefore a data-quality property of the architecture, not a presentation-layer concern.",
+    "suggestedRevision": "Add language to the equity design decisions, along the lines of: 'The architecture should not assume that the person and the health worker share a language. Where they do not, the capability to capture history in the person's own language and render it into the clinical record in the working language of the health system is a data-quality requirement, not a presentation concern, and should be treated as such in conformance expectations for systems that write to the shared record.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 245"
+      }
+    ]
+  }
+}

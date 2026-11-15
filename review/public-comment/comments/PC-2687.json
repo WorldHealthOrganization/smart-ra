@@ -1,0 +1,72 @@
+{
+  "id": "pc-2687",
+  "summary": "Can we add a bullet item for AI use to support local, regional and national health policy making?",
+  "comment": "Can we add a bullet item for AI use to support local, regional and national health policy making?",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:5-3-09c983",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2687",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 32,
+      "entry": "22",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.3",
+      "page": "107",
+      "lines": "124-129",
+      "raw": "§5.3 p.107 l.124-129"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-3-09c983",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.107 l.124-129 read as the printed page; section 5.3 agrees"
+    },
+    "type": "general",
+    "text": "Can we add a bullet item for AI use to support local, regional and national health policy making?",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 32"
+      }
+    ]
+  }
+}

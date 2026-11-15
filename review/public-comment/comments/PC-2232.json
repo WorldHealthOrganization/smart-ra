@@ -1,0 +1,81 @@
+{
+  "id": "pc-2232",
+  "summary": "International classifications alone may not represent national roles, multiskilled workers, community health work, task…",
+  "comment": "International classifications alone may not represent national roles, multiskilled workers, community health work, task sharing, and scope of practice.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:e-434a9b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2232",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1468,
+      "entry": "1467",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix E, Goal 2",
+      "page": "236-237",
+      "lines": "Workforce classification rows",
+      "raw": "§Appendix E, Goal 2 p.236-237 l.Workforce classification rows"
+    },
+    "anchor": {
+      "targetLabel": "prose:e-434a9b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:e-40301a",
+        "prose:e-ce763f",
+        "prose:e-d53f92"
+      ],
+      "note": "p.236-237 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "International classifications alone may not represent national roles, multiskilled workers, community health work, task sharing, and scope of practice.",
+    "suggestedRevision": "Map national role and occupation models to international classifications and govern role, specialty, credential, and scope terminology separately.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1468"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "pc-0197",
+  "summary": "Where the document names SNOMED International and WHO-FIC as governance or federation partners, it should name Regenstr…",
+  "comment": "Where the document names SNOMED International and WHO-FIC as governance or federation partners, it should name Regenstrief Institute alongside them wherever LOINC is the terminology under discussion, rather than referencing LOINC only as a code system without its governing organization.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0197",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 197,
+      "entry": "196",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-fa81b3a622",
+      "name": "Marjorie Rallins, DPM, MS, Executive Director, Health Data Standards",
+      "organisation": "Regenstrief Institute, Health Data Standards, LOINC/UCUM",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole Document",
+      "raw": "§Whole Document"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Cites whole document; name Regenstrief wherever LOINC governance is discussed"
+    },
+    "type": "technical",
+    "text": "Where the document names SNOMED International and WHO-FIC as governance or federation partners, it should name Regenstrief Institute alongside them wherever LOINC is the terminology under discussion, rather than referencing LOINC only as a code system without its governing organization.",
+    "suggestedRevision": "Revise to include reference to Regenstrief Institute where governing entities are mentioned",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 197"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Cites whole document; name Regenstrief wherever LOINC governance is discussed"
+      }
+    ]
+  }
+}

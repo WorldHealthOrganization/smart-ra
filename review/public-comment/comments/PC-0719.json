@@ -1,0 +1,78 @@
+{
+  "id": "pc-0719",
+  "summary": "We should be explicit that this is a reference architecture rather than a prescribed end-state EA. Its purpose is to pr…",
+  "comment": "We should be explicit that this is a reference architecture rather than a prescribed end-state EA. Its purpose is to provide a set of capabilities and design considerations that countries can adapt according to their own context, and implementation priorities. Estonia evolved within the context of mature digital governance, infrastructure, and capability. Not where most countries would start. Countries are at different stages of their interoperability journey, and many will require shared interoperability capabilities to reduce complexity, support consistent policy, and accelerate adoption. The aspirations overtime could be greater distribution of responsibilities across participating systems. In my views, countries may choose a lighter or more capability rich interoperability layer based on their context - reference architecture should guide design thinking and considerations, not prescribe it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0719",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 719,
+      "entry": "718",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f562a7140",
+      "organisation": "CSIRO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that the RA is not a prescribed end-state."
+    },
+    "text": "We should be explicit that this is a reference architecture rather than a prescribed end-state EA. Its purpose is to provide a set of capabilities and design considerations that countries can adapt according to their own context, and implementation priorities. Estonia evolved within the context of mature digital governance, infrastructure, and capability. Not where most countries would start. Countries are at different stages of their interoperability journey, and many will require shared interoperability capabilities to reduce complexity, support consistent policy, and accelerate adoption. The aspirations overtime could be greater distribution of responsibilities across participating systems. In my views, countries may choose a lighter or more capability rich interoperability layer based on their context - reference architecture should guide design thinking and considerations, not prescribe it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 719"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General point that the RA is not a prescribed end-state."
+      }
+    ]
+  }
+}

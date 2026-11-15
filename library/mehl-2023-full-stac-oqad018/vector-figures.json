@@ -1,0 +1,47 @@
+{
+  "$schema": "folio-vector-figures/v1",
+  "doc_id": "mehl-2023-full-stac-oqad018",
+  "figures": [
+    {
+      "id": "vfig-p002",
+      "file": null,
+      "role": "undetermined",
+      "basis": {
+        "method": "assembly",
+        "by": {
+          "kind": "script",
+          "id": "cat-harness/scripts/pdf-vector-figures.py"
+        },
+        "page": 2
+      },
+      "page": 2,
+      "rotation": 0,
+      "captionLabels": [
+        "1"
+      ],
+      "region": null,
+      "assembly": {
+        "drawings": 67,
+        "background": 0,
+        "groups": [],
+        "boxes": [],
+        "unlabelledClosedShapes": 66,
+        "connectors": [
+          {
+            "from": null,
+            "to": null,
+            "bbox": [
+              41.95,
+              42.02,
+              546.52,
+              42.02
+            ]
+          }
+        ],
+        "between": [],
+        "outside": 0
+      },
+      "unrendered_reason": "no drawing component on this page contains a text line, so there is no labelled region to render -- the caption candidates are recorded and nothing is claimed about what the page draws"
+    }
+  ]
+}

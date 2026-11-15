@@ -1,0 +1,86 @@
+{
+  "id": "pc-1916",
+  "summary": "Requirement statuses use Required and Recommended rather than the stated SHALL, SHOULD, and MAY convention.",
+  "comment": "Requirement statuses use Required and Recommended rather than the stated SHALL, SHOULD, and MAY convention.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1916",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1152,
+      "entry": "1151",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Terminology Service, 5",
+      "page": "169-171",
+      "lines": "Requirements table",
+      "raw": "§Terminology Service, 5 p.169-171 l.Requirements table"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): TS functional requirements table; status column."
+    },
+    "text": "Requirement statuses use Required and Recommended rather than the stated SHALL, SHOULD, and MAY convention.",
+    "suggestedRevision": "Harmonise normative terminology and add applicability by maturity, terminology type, licensing, and national use case.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1152"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): TS functional requirements table; status column."
+      }
+    ]
+  }
+}

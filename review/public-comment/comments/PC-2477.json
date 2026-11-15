@@ -1,0 +1,77 @@
+{
+  "id": "pc-2477",
+  "summary": "IPS profile and permitted ICD-11 diagnosis binding — “IPS requires SNOMED everywhere” is an inaccurate basis for archit…",
+  "comment": "IPS profile and permitted ICD-11 diagnosis binding — “IPS requires SNOMED everywhere” is an inaccurate basis for architecture or procurement. Equally, a permitted coding choice alone does not establish full document conformance or receiver capability. Evidence: IPS 2.0.1 Condition profile (https://hl7.org/fhir/uv/ips/2.0.1/StructureDefinition-Condition-uv-ips.html), machine-readable profile (https://hl7.org/fhir/uv/ips/2.0.1/StructureDefinition-Condition-uv-ips.json), FHIR R4 binding strengths (https://hl7.org/fhir/R4/terminologies.html#strength). Checked against the published 2.0.1 snapshot, including the referenced CodeableConcept profile; this is not an assertion that a comprehensive WHO-FIC IPS implementation guide has already been published.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-c0012b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2477",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 20,
+      "entry": "19",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.6.4, cross-border requirements",
+      "page": "78",
+      "lines": "A08.01",
+      "raw": "§§3.6.4, cross-border requirements p.78 l.A08.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-c0012b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-4-756bdc",
+        "prose:3-6-4-a6fcda"
+      ],
+      "note": "p.78 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "IPS profile and permitted ICD-11 diagnosis binding — “IPS requires SNOMED everywhere” is an inaccurate basis for architecture or procurement. Equally, a permitted coding choice alone does not establish full document conformance or receiver capability. Evidence: IPS 2.0.1 Condition profile (https://hl7.org/fhir/uv/ips/2.0.1/StructureDefinition-Condition-uv-ips.html), machine-readable profile (https://hl7.org/fhir/uv/ips/2.0.1/StructureDefinition-Condition-uv-ips.json), FHIR R4 binding strengths (https://hl7.org/fhir/R4/terminologies.html#strength). Checked against the published 2.0.1 snapshot, including the referenced CodeableConcept profile; this is not an assertion that a comprehensive WHO-FIC IPS implementation guide has already been published.",
+    "suggestedRevision": "Replace bullet: • A shared, internationally aligned patient summary specification, such as the International Patient Summary (IPS), should define the meaningful minimum exchanged for care. Implementations shall declare the IPS edition, national or regional profile, and terminology bindings used. ICD-11 is an available option for directly encoding diagnoses where the applicable binding permits it. For example, the published HL7 IPS 2.0.1 Condition profile uses a preferred SNOMED CT binding for the problem/diagnosis code; that binding does not require a SNOMED CT code for conformance. More restrictive derived profiles and the constraints on other fields must be assessed separately.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 20"
+      }
+    ]
+  }
+}

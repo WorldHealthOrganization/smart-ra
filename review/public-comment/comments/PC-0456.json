@@ -1,0 +1,80 @@
+{
+  "id": "pc-0456",
+  "summary": "The governance chapter contains no dispute resolution. Transparency and accountability are required and escalation betw…",
+  "comment": "The governance chapter contains no dispute resolution. Transparency and accountability are required and escalation between operational and strategic governance is described, but there is no route for a participant or citizen with a grievance: refused connection, refused correction of a record, disagreement over a shared object, or contested access. Governance without a grievance route relies on the goodwill of the party complained about.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-1-0a357f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0456",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 456,
+      "entry": "455",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4",
+      "page": "53",
+      "lines": "219–220",
+      "raw": "§3.4 p.53 l.219–220"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-1-0a357f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-1-18e851"
+      ],
+      "note": "p.53 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The governance chapter contains no dispute resolution. Transparency and accountability are required and escalation between operational and strategic governance is described, but there is no route for a participant or citizen with a grievance: refused connection, refused correction of a record, disagreement over a shared object, or contested access. Governance without a grievance route relies on the goodwill of the party complained about.",
+    "suggestedRevision": "Add dispute resolution as an operational governance function: low-threshold, accessible to providers, vendors and citizens, independent of the operator complained about, with published decisions so that precedent accumulates. Ostrom's design principles make locally accessible conflict resolution a condition for durable commons governance, and its absence is a good predictor of arrangements that erode.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 456"
+      }
+    ]
+  }
+}

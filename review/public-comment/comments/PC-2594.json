@@ -1,0 +1,75 @@
+{
+  "id": "pc-2594",
+  "summary": "Suggestion to include: Data elements needed for HWF planning are based on different data elements some that are obtaine…",
+  "comment": "Suggestion to include: Data elements needed for HWF planning are based on different data elements some that are obtained from other registry that look at service demands etc. the WISN tool for example, requires the workload /service demand estimates. Could this be incorporated in the relevant registry, if possible.https://www.who.int/tools/wisn",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-f926bd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2594",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 73,
+      "entry": "72",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-1a248e902c",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-f926bd",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Suggests WISN planning data elements for the minimum dataset."
+    },
+    "text": "Suggestion to include: Data elements needed for HWF planning are based on different data elements some that are obtained from other registry that look at service demands etc. the WISN tool for example, requires the workload /service demand estimates. Could this be incorporated in the relevant registry, if possible.https://www.who.int/tools/wisn",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 73"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Suggests WISN planning data elements for the minimum dataset."
+      }
+    ]
+  }
+}

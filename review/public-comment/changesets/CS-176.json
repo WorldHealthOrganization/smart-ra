@@ -1,0 +1,23 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-176",
+  "title": "Specify LHR retrieval completeness and event handling",
+  "requirements": "- Publish a retrieval profile with partial-result and source-availability indicators\n- Define governed event types and minimum payload\n- Treat notification metadata as protected information",
+  "refs": [
+    "PC-1849",
+    "PC-1850",
+    "PC-1868",
+    "PC-1876"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0610",
+  "summary": "Reason for disagreement: I disagree where the draft asserts implementability without the artefacts national platforms r…",
+  "comment": "Reason for disagreement: I disagree where the draft asserts implementability without the artefacts national platforms require. REDDHI is directionally useful but lacks SLOs, RTO/RPO, and offline/degraded-mode design. The component set omits a first-class Consent Decision capability and under-specifies ABAC/purpose-of-use, claims adjudication, and supply-chain verification. Semantic governance explains LIMR vs Terminology Service well but does not define versioning, deprecation windows, or consumer impact analysis. Conformance/testing is not practical: IHE deferral leaves new DPI-H components without reference test suites or a national/regional conformance authority model. Implementation pathways lack a hard dependency graph, legacy strangler patterns, and an institutional operating model beyond a single National Digital Architect. Financing guidance is conceptually right (recurrent infrastructure) but lacks TCO drivers and procurement gates. Cross-income applicability and country examples are too anecdotal and understate constrained-connectivity, sovereignty, and ops reality. Language is generally clear for architects, but “zero-trust,” “resilient,” and “testable architecture” are over-claimed relative to the technical depth provided.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0610",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 610,
+      "entry": "609",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc990dab77",
+      "name": "Sivanand Lanka",
+      "organisation": "MOSIP",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form disagreement spanning REDDHI, components, semantic governance and conformance."
+    },
+    "type": "general",
+    "text": "Reason for disagreement: I disagree where the draft asserts implementability without the artefacts national platforms require. REDDHI is directionally useful but lacks SLOs, RTO/RPO, and offline/degraded-mode design. The component set omits a first-class Consent Decision capability and under-specifies ABAC/purpose-of-use, claims adjudication, and supply-chain verification. Semantic governance explains LIMR vs Terminology Service well but does not define versioning, deprecation windows, or consumer impact analysis. Conformance/testing is not practical: IHE deferral leaves new DPI-H components without reference test suites or a national/regional conformance authority model. Implementation pathways lack a hard dependency graph, legacy strangler patterns, and an institutional operating model beyond a single National Digital Architect. Financing guidance is conceptually right (recurrent infrastructure) but lacks TCO drivers and procurement gates. Cross-income applicability and country examples are too anecdotal and understate constrained-connectivity, sovereignty, and ops reality. Language is generally clear for architects, but “zero-trust,” “resilient,” and “testable architecture” are over-claimed relative to the technical depth provided.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 610"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form disagreement spanning REDDHI, components, semantic governance and conformance."
+      }
+    ]
+  }
+}

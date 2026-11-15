@@ -1,0 +1,85 @@
+{
+  "id": "pc-0565",
+  "summary": "The overall relevance and usability of the framework are clear, and the necessary information is present. WHO makes it …",
+  "comment": "The overall relevance and usability of the framework are clear, and the necessary information is present. WHO makes it clear that a framework serving as worldwide guidance for designing an integrated national digital health system is an unmet need, and this blueprint will stimulate and help countries to create one. IPC also perceives the organisation of digital health across the regions of the world as fragmented, so this connecting framework is welcome. The examples of what DPI-H can offer are important.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0565",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 565,
+      "entry": "564",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1",
+      "page": "i–iii; 1–110",
+      "raw": "§1 p.i–iii; 1–110"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Overall compliment on the framework."
+    },
+    "type": "general",
+    "text": "The overall relevance and usability of the framework are clear, and the necessary information is present. WHO makes it clear that a framework serving as worldwide guidance for designing an integrated national digital health system is an unmet need, and this blueprint will stimulate and help countries to create one. IPC also perceives the organisation of digital health across the regions of the world as fragmented, so this connecting framework is welcome. The examples of what DPI-H can offer are important.",
+    "suggestedRevision": "No change required — IPC's compliments to WHO on the initiative and on providing this framework.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 565"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Overall compliment on the framework."
+      }
+    ]
+  }
+}

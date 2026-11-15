@@ -1,0 +1,39 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-238",
+  "title": "Define a minimum security, privacy and audit baseline",
+  "requirements": "- Require policy-based access beyond role-based control\n- Describe security operations and incident response as a standing, recurrently funded function\n- Distinguish controls that mature over time from properties required from initial operation\n- State minimum key lifecycle states a national trust infrastructure must manage\n- Provide a risk-proportionate supplier assurance baseline countries can evaluate against\n- State the monoculture trade-off of consolidation and its design consequences, e.g. no mandated single reference implementation, degraded operation\n- Carry security-by-design into phases, procurement, financing and operations\n- Extend 3.4.4 to cover security operations, vulnerability management, continuity and disaster recovery, privacy incidents and supplier performance",
+  "refs": [
+    "PC-0005",
+    "PC-0027",
+    "PC-0279",
+    "PC-0284",
+    "PC-0485",
+    "PC-0610",
+    "PC-0612",
+    "PC-0614",
+    "PC-0691",
+    "PC-0821",
+    "PC-0822",
+    "PC-0896",
+    "PC-1307",
+    "PC-1513",
+    "PC-1514",
+    "PC-1607",
+    "PC-1608",
+    "PC-1872",
+    "PC-1875",
+    "PC-2067"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 20 comment(s)"
+    }
+  ]
+}

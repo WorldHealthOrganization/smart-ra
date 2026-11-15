@@ -1,0 +1,80 @@
+{
+  "id": "pc-0074",
+  "summary": "The seven priority health sector goals fit well with Caribbean priorities. They are also broadly consistent with the ON…",
+  "comment": "The seven priority health sector goals fit well with Caribbean priorities. They are also broadly consistent with the ONE Caribbean Digital Health Roadmap agreed by seven CARICOM Member States (2026) and the IDB/PAHO Pan-American Highway for Digital Health (PH4H). However, some regions already have their own agreed goal frameworks. The guidance should explain how countries can map the seven goals to an existing regional or national framework, rather than appearing to replace it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-84e1dc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0074",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 74,
+      "entry": "73",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5",
+      "page": "21–23",
+      "lines": "423–437",
+      "raw": "§1.5 p.21–23 l.423–437"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-84e1dc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-5-567e0d"
+      ],
+      "note": "p.21–23 l.423–437 read as the printed page; section 1.5 agrees"
+    },
+    "type": "general",
+    "text": "The seven priority health sector goals fit well with Caribbean priorities. They are also broadly consistent with the ONE Caribbean Digital Health Roadmap agreed by seven CARICOM Member States (2026) and the IDB/PAHO Pan-American Highway for Digital Health (PH4H). However, some regions already have their own agreed goal frameworks. The guidance should explain how countries can map the seven goals to an existing regional or national framework, rather than appearing to replace it.",
+    "suggestedRevision": "Add a short paragraph at the end of 1.5 noting that countries and regional bodies may already have agreed digital health goal frameworks. Clarify that the seven goals should be mapped to those frameworks, not replace them. A brief worked example would also be helpful.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 74"
+      }
+    ]
+  }
+}

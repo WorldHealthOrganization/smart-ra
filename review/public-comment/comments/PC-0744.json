@@ -1,0 +1,74 @@
+{
+  "id": "pc-0744",
+  "summary": "Two faces of one point. (a) \"Autonomy and Sovereignty\" can be read as building and operating everything nationally, whi…",
+  "comment": "Two faces of one point. (a) \"Autonomy and Sovereignty\" can be read as building and operating everything nationally, which defeats reuse and cost-control; we suggest clarifying that it means choice, control, and exit/migration rights, in line with the Reusability and Public Governance principles. (b) \"Technology-neutral\" covers neutral specification and standard interfaces — already in the §3.5.1 bullets — but not the implementation. A neutral spec on a proprietary stack still locks a country in. We recommend adding that implementations use open, non-proprietary technology.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-ee898c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0744",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 744,
+      "entry": "743",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§1.4 Autonomy & Sovereignty (p.21); Box 3.1 technology- neutral (p.64)",
+      "lines": "C6",
+      "raw": "§§1.4 Autonomy & Sovereignty (p.21); Box 3.1 technology- neutral (p.64) l.C6"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-ee898c",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Two faces of one point. (a) \"Autonomy and Sovereignty\" can be read as building and operating everything nationally, which defeats reuse and cost-control; we suggest clarifying that it means choice, control, and exit/migration rights, in line with the Reusability and Public Governance principles. (b) \"Technology-neutral\" covers neutral specification and standard interfaces — already in the §3.5.1 bullets — but not the implementation. A neutral spec on a proprietary stack still locks a country in. We recommend adding that implementations use open, non-proprietary technology.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 744"
+      }
+    ]
+  }
+}

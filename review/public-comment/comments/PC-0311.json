@@ -1,0 +1,87 @@
+{
+  "id": "pc-0311",
+  "summary": "As currently framed, the guidance prioritizes technical data transmission capability without explicitly linking exchang…",
+  "comment": "As currently framed, the guidance prioritizes technical data transmission capability without explicitly linking exchange to clinical-economic workflow resolution. Data exchange is clinically and economically neutral without clinical transaction resolution. In both high- and low-resource settings, the highest leverage lies in managing treatment adherence and preventing chronic disease progression (e.g., managing hypertension and early-stage kidney disease to avoid stroke or end-stage renal disease). Unclosed care loops create administrative noise, increase clinical burden, and result in a net-negative return on public infrastructure investment.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-2-bd790c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0311",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 311,
+      "entry": "310",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-319278460d",
+      "name": "Karim Keshavjee",
+      "organisation": "Institute for Health Policy, Management and Evaluation,\nDalla Lana School of Public Health,\nUniversity of Toronto",
+      "country": "Canada",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.3",
+      "page": "8",
+      "lines": "Lines 210–220",
+      "raw": "§1.3 p.8 l.Lines 210–220"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-2-bd790c",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-1-2-95b13c"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites l.210-220 on data-exchange transmission without workflow resolution; this 1.2.2 block is l.212-219"
+    },
+    "type": "general",
+    "text": "As currently framed, the guidance prioritizes technical data transmission capability without explicitly linking exchange to clinical-economic workflow resolution. Data exchange is clinically and economically neutral without clinical transaction resolution. In both high- and low-resource settings, the highest leverage lies in managing treatment adherence and preventing chronic disease progression (e.g., managing hypertension and early-stage kidney disease to avoid stroke or end-stage renal disease). Unclosed care loops create administrative noise, increase clinical burden, and result in a net-negative return on public infrastructure investment.",
+    "suggestedRevision": "Insert under Section 1.3 (Design Principles): “As a core design principle, DPI-H should prioritize the clinical-economic resolution of workflows alongside technical data exchange. The architecture should be designed to deliver system-level clinical outcomes and prevent chronic disease progression (such as tracking medication adherence to prevent stroke, managing early-stage chronic kidney disease to avoid end-stage renal disease, and supporting hypertension treatment control) rather than optimizing for technical transmission capability alone.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 311"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites l.210-220 on data-exchange transmission without workflow resolution; this 1.2.2 block is l.212-219"
+      }
+    ]
+  }
+}

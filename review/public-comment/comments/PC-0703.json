@@ -1,0 +1,83 @@
+{
+  "id": "pc-0703",
+  "summary": "The draft implicitly treats non-structured information as text awaiting structuring (‘machine-processable rather than l…",
+  "comment": "The draft implicitly treats non-structured information as text awaiting structuring (‘machine-processable rather than locked in free text’). Clinical information also exists in interpretive and tacit/narrative states that resist faithful coding; forcing them into structure distorts rather than captures them. These states carry a large share of real clinical decision-making.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0703",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 703,
+      "entry": "702",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 1, §1.2.2; Ch. 3, §3.6 (Interoperability architecture); Glossary (definition of interoperability)",
+      "raw": "§Ch. 1, §1.2.2; Ch. 3, §3.6 (Interoperability architecture); Glossary (definition of interoperability)"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-2-2",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "sec:glossary-lead"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §1.2.2 and §3.6 and asks to acknowledge limits of structuring there; not glossary."
+    },
+    "text": "The draft implicitly treats non-structured information as text awaiting structuring (‘machine-processable rather than locked in free text’). Clinical information also exists in interpretive and tacit/narrative states that resist faithful coding; forcing them into structure distorts rather than captures them. These states carry a large share of real clinical decision-making.",
+    "suggestedRevision": "Acknowledge in §1.2.2 and §3.6 the limits of structuring: name the interpretive and narrative states of clinical information as first-class concerns, state that the architecture supports (rather than replaces) their human carriers — the conversation, the handover, the narrative note — and caution against measuring digitisation progress by the elimination of free text.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "#4"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 703"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §1.2.2 and §3.6 and asks to acknowledge limits of structuring there; not glossary."
+      }
+    ]
+  }
+}

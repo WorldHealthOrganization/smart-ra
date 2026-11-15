@@ -1,0 +1,78 @@
+{
+  "id": "pc-0485",
+  "summary": "The security principle addresses protection of the infrastructure but not the systemic risk that shared infrastructure …",
+  "comment": "The security principle addresses protection of the infrastructure but not the systemic risk that shared infrastructure creates. Consolidating on one normative authority, one certification gate and a smaller set of conformant products reduces diversity, and reduced diversity means correlated vulnerability: one flaw in the certified implementation is a flaw across the system. Fragmented landscapes have the underappreciated property of failing in small pieces.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-c75a90",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0485",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 485,
+      "entry": "484",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4",
+      "page": "20",
+      "lines": "404",
+      "raw": "§1.4 p.20 l.404"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-c75a90",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.20 l.404 read as the printed page; section 1.4 agrees"
+    },
+    "type": "general",
+    "text": "The security principle addresses protection of the infrastructure but not the systemic risk that shared infrastructure creates. Consolidating on one normative authority, one certification gate and a smaller set of conformant products reduces diversity, and reduced diversity means correlated vulnerability: one flaw in the certified implementation is a flaw across the system. Fragmented landscapes have the underappreciated property of failing in small pieces.",
+    "suggestedRevision": "State the trade-off explicitly with its design consequences: do not mandate a single reference implementation, since that makes monoculture a requirement rather than an outcome; require degraded operating modes that keep care possible during outage, and require that they be exercised rather than only documented; and place national testing and validation capability under the same continuity regime as the components it certifies, so the conformance gate is not itself a single point of failure.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 485"
+      }
+    ]
+  }
+}

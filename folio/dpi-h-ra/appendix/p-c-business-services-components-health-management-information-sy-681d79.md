@@ -1,0 +1,1 @@
+The HMIS occupies a distinctive position in the DPI-H architecture: it is a major consumer of data from foundational DPI-H components and a primary producer of information for health system management and policy.

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0391",
+  "summary": "Sustainability is discussed, but the cost model should more explicitly cover the recurrent work hidden behind ‘shared’ …",
+  "comment": "Sustainability is discussed, but the cost model should more explicitly cover the recurrent work hidden behind ‘shared’ infrastructure: metadata and terminology maintenance, hosting, connectivity/power, devices, cybersecurity, upgrades, integration regression testing, user support, supervision, data-quality work, community engagement and safe decommissioning. Capital funding without these functions creates brittle infrastructure.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-1-31b1da",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0391",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 391,
+      "entry": "390",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6",
+      "page": "102–103",
+      "lines": "541–610",
+      "raw": "§4.6 p.102–103 l.541–610"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-1-31b1da",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-6-1-6f998e",
+        "prose:4-6-2-67c0fc",
+        "prose:4-6-93f1c3"
+      ],
+      "note": "p.102–103 l.541–610 read as the printed page; section 4.6 agrees"
+    },
+    "type": "general",
+    "text": "Sustainability is discussed, but the cost model should more explicitly cover the recurrent work hidden behind ‘shared’ infrastructure: metadata and terminology maintenance, hosting, connectivity/power, devices, cybersecurity, upgrades, integration regression testing, user support, supervision, data-quality work, community engagement and safe decommissioning. Capital funding without these functions creates brittle infrastructure.",
+    "suggestedRevision": "Require a 5–10 year total-cost-of-ownership and transition plan covering central and subnational recurrent costs, like local support ecosystems, refresh/upgrade cycles, security and incident response, training/supervision, accessibility, vendor exit, data migration and decommissioning. Link scale decisions to demonstrated financing and operational capacity.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 391"
+      }
+    ]
+  }
+}

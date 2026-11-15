@@ -1,0 +1,78 @@
+{
+  "id": "pc-0422",
+  "summary": "It may be useful to complement the CDSE's existing technical safety features and functional testing with a more explici…",
+  "comment": "It may be useful to complement the CDSE's existing technical safety features and functional testing with a more explicit clinical-safety risk-governance methodology. The existing provisions around safe failure, continuity, governance, knowledge review and liability provide a useful foundation. A further layer of structured clinical-risk management could include elements such as a hazard log covering potential failure modes, a defined approach for assessing the severity of identified risks, and a clearly assigned role or accountability for overall clinical safety. \n\nThese elements would align the framework more closely with established approaches to clinical software risk management, including the structures reflected in ISO 14971 and the UK's DCB0129/0160 standards. Including such a methodology as an explicit governance expectation could strengthen the overall clinical-safety framework.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0422",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 422,
+      "entry": "421",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "189",
+      "lines": "#21",
+      "raw": "§Appendix C p.189 l.#21"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "It may be useful to complement the CDSE's existing technical safety features and functional testing with a more explicit clinical-safety risk-governance methodology. The existing provisions around safe failure, continuity, governance, knowledge review and liability provide a useful foundation. A further layer of structured clinical-risk management could include elements such as a hazard log covering potential failure modes, a defined approach for assessing the severity of identified risks, and a clearly assigned role or accountability for overall clinical safety. \n\nThese elements would align the framework more closely with established approaches to clinical software risk management, including the structures reflected in ISO 14971 and the UK's DCB0129/0160 standards. Including such a methodology as an explicit governance expectation could strengthen the overall clinical-safety framework.",
+    "suggestedRevision": "Suggested addition as an eighth governance consideration (p.189): '(8) Clinical risk management. Countries should maintain a structured clinical risk-management process for the CDSE, comprising: a hazard log recording identified failure modes and their potential clinical impact; a risk classification scheme for grading the likelihood and severity of harm; and a named, accountable clinical safety role responsible for the CDSE's overall risk posture. This should draw on established frameworks such as ISO 14971 and the UK's DCB0129/DCB0160 clinical risk management standards.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 422"
+      }
+    ]
+  }
+}

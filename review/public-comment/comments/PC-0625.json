@@ -1,0 +1,76 @@
+{
+  "id": "pc-0625",
+  "summary": "The draft does not provide sources establishing that Ethiopia, the Philippines and Uganda have each deployed L3 computa…",
+  "comment": "The draft does not provide sources establishing that Ethiopia, the Philippines and Uganda have each deployed L3 computable logic within national health information systems for the stated clinical areas. It also does not provide evaluation evidence supporting the conclusion that these pilots reduced the time and cost of adapting international guidance. Adaptation of an L2 Digital Adaptation Kit, an L3 technical pilot and operational national deployment are different stages and should not be presented as equivalent.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0625",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 625,
+      "entry": "624",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.3: WHO SMART Guidelines Pilot Implementations",
+      "lines": "213–219",
+      "raw": "§Appendix D.3: WHO SMART Guidelines Pilot Implementations l.213–219"
+    },
+    "anchor": {
+      "targetLabel": "sec:d",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section D only"
+    },
+    "text": "The draft does not provide sources establishing that Ethiopia, the Philippines and Uganda have each deployed L3 computable logic within national health information systems for the stated clinical areas. It also does not provide evaluation evidence supporting the conclusion that these pilots reduced the time and cost of adapting international guidance. Adaptation of an L2 Digital Adaptation Kit, an L3 technical pilot and operational national deployment are different stages and should not be presented as equivalent.",
+    "suggestedRevision": "For each country you may want to, identify the clinical domain, SMART knowledge layer, implementation stage, scale, date and authoritative source. Unless evaluated results are available, replace the final sentence with - “These initiatives are exploring how internationally developed computable guidance can be adapted and tested within national digital health environments.” Remove or qualify the claim concerning reduced time and cost.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 625"
+      }
+    ]
+  }
+}

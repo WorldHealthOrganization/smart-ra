@@ -1,0 +1,78 @@
+{
+  "id": "pc-0455",
+  "summary": "There is no right of access for participants anywhere in the guidance. Public governance protects the infrastructure fr…",
+  "comment": "There is no right of access for participants anywhere in the guidance. Public governance protects the infrastructure from capture by a single programme, donor or vendor, but nothing protects an individual participant - a provider, a regional collaborative, a small vendor - from being refused, delayed or charged differently by whoever operates the shared component. A duty to connect without a right to connect is an obligation to become dependent on a party that may refuse.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-ee898c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0455",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 455,
+      "entry": "454",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4",
+      "page": "21",
+      "lines": "412",
+      "raw": "§1.4 p.21 l.412"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-ee898c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.21 l.412 read as the printed page; section 1.4 agrees"
+    },
+    "type": "general",
+    "text": "There is no right of access for participants anywhere in the guidance. Public governance protects the infrastructure from capture by a single programme, donor or vendor, but nothing protects an individual participant - a provider, a regional collaborative, a small vendor - from being refused, delayed or charged differently by whoever operates the shared component. A duty to connect without a right to connect is an obligation to become dependent on a party that may refuse.",
+    "suggestedRevision": "Add a right to connect as a DPI-H principle: any conformant participant may connect to a DPI-H component on published, non-discriminatory terms, within a defined lead time, with a route of appeal if refused or delayed. This mirrors third-party access in other regulated infrastructure and is, in Ostrom's terms, recognition of the right to organise. For small providers the right should be exercisable collectively, through a vendor or collaborative connecting on their behalf, with the cost carried in the tariff rather than in their own budget.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 455"
+      }
+    ]
+  }
+}

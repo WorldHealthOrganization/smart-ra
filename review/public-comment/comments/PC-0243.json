@@ -1,0 +1,78 @@
+{
+  "id": "pc-0243",
+  "summary": "The principle already favours 'widely supported, well-documented technologies over specialised or closed technologies w…",
+  "comment": "The principle already favours 'widely supported, well-documented technologies over specialised or closed technologies whose inner workings are not visible to the teams expected to run them', and states that an architecture a country cannot understand, operate and evolve with its own people is not genuinely owned by it. A model available only as a remote API is precisely a closed technology whose inner workings are not visible to the team expected to run it. The guidance makes the argument for software but does not extend it to models, which is where the argument is now most consequential.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-cb8583",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0243",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 243,
+      "entry": "242",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "2.3 Design Principles — VI. Local Capacity",
+      "page": "33-34",
+      "lines": "304-322",
+      "raw": "§2.3 Design Principles — VI. Local Capacity p.33-34 l.304-322"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-cb8583",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-a176b3"
+      ],
+      "note": "p.33-34 l.304-322 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "The principle already favours 'widely supported, well-documented technologies over specialised or closed technologies whose inner workings are not visible to the teams expected to run them', and states that an architecture a country cannot understand, operate and evolve with its own people is not genuinely owned by it. A model available only as a remote API is precisely a closed technology whose inner workings are not visible to the team expected to run it. The guidance makes the argument for software but does not extend it to models, which is where the argument is now most consequential.",
+    "suggestedRevision": "Add to Principle VI a clause noting that the same test applies to model artefacts: where an AI capability is adopted, preference should be given to models that in-country teams can host, inspect, evaluate and substitute, rather than models accessible only as an external service.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 243"
+      }
+    ]
+  }
+}

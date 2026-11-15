@@ -1,0 +1,78 @@
+{
+  "id": "pc-0298",
+  "summary": "The text observes that \"governance without runtime services produces decisions that cannot be operationalised.\" The arc…",
+  "comment": "The text observes that \"governance without runtime services produces decisions that cannot be operationalised.\" The architecture would be strengthened by making explicit the mechanism by which approved governance decisions become enforceable on data instances: constraints made available in machine-checkable form and evaluated at runtime against the governed model.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-f11aa7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0298",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 298,
+      "entry": "297",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "58",
+      "lines": "406-408",
+      "raw": "§3.4.5 p.58 l.406-408"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-f11aa7",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.58 l.406-408 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "The text observes that \"governance without runtime services produces decisions that cannot be operationalised.\" The architecture would be strengthened by making explicit the mechanism by which approved governance decisions become enforceable on data instances: constraints made available in machine-checkable form and evaluated at runtime against the governed model.",
+    "suggestedRevision": "After line 408, add: \"Governance decisions become operational when the constraints they express are available in machine-checkable form and can be enforced through deterministic validation of data instances against the governed information model, so that conformance can be verified rather than assumed.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 298"
+      }
+    ]
+  }
+}

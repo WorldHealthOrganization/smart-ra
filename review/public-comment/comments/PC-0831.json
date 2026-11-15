@@ -1,0 +1,77 @@
+{
+  "id": "pc-0831",
+  "summary": "The claim that only one genuinely new DPI-H component emerges from the financing analysis may be too strong. The analys…",
+  "comment": "The claim that only one genuinely new DPI-H component emerges from the financing analysis may be too strong. The analysis also depends on beneficiary or enrolment information, provider contracting, claims rules, and financial-accountability capabilities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-4-2-e70c22",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0831",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 67,
+      "entry": "66",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.4.2",
+      "page": "39",
+      "lines": "Lines 514-519",
+      "raw": "§2.4.2 p.39 l.Lines 514-519"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-2-e70c22",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.39 l.Lines 514-519 read as the printed page; section 2.4.2 agrees"
+    },
+    "text": "The claim that only one genuinely new DPI-H component emerges from the financing analysis may be too strong. The analysis also depends on beneficiary or enrolment information, provider contracting, claims rules, and financial-accountability capabilities.",
+    "suggestedRevision": "Qualify the claim: “Within the component set and scope adopted by this reference architecture, the principal additional shared reference component is the Benefits Package Registry.”",
+    "labels": {
+      "Comment type": "Architecture"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 67"
+      }
+    ]
+  }
+}

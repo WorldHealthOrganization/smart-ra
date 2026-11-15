@@ -1,0 +1,78 @@
+{
+  "id": "pc-0276",
+  "summary": "The section discusses sovereign AI models but does not acknowledge privacy-preserving distributed learning approaches t…",
+  "comment": "The section discusses sovereign AI models but does not acknowledge privacy-preserving distributed learning approaches that support collaborative model improvement while maintaining institutional data sovereignty.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-4-3957e6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0276",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 276,
+      "entry": "275",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8e24450907",
+      "name": "Chirag Tyagi",
+      "organisation": "Vectorise Global Private Limited - DiagNXT",
+      "country": "Bangalore, India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.4",
+      "page": "109",
+      "lines": "183",
+      "raw": "§5.4.4 p.109 l.183"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-4-3957e6",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.109 l.183 read as the printed page; section 5.4.4 agrees"
+    },
+    "type": "technical",
+    "text": "The section discusses sovereign AI models but does not acknowledge privacy-preserving distributed learning approaches that support collaborative model improvement while maintaining institutional data sovereignty.",
+    "suggestedRevision": "In addition to nationally hosted AI models, consideration may also be given to privacy-preserving distributed learning approaches, such as federated learning, where appropriate. Such approaches enable collaborative model improvement across multiple organizations while allowing sensitive health data to remain within institutional or jurisdictional boundaries, supporting AI sovereignty, data protection and cross-institutional collaboration.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 276"
+      }
+    ]
+  }
+}

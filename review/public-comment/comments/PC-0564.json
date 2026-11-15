@@ -1,0 +1,78 @@
+{
+  "id": "pc-0564",
+  "summary": "Five glossary entries carry a highlighted \"[Under review]\" marker in the version circulated for public comment, includi…",
+  "comment": "Five glossary entries carry a highlighted \"[Under review]\" marker in the version circulated for public comment, including the definitions of Business Domain and of terms used throughout Chapter 3. Reviewers cannot comment on definitions that are not settled, and terms used normatively in the body should be defined before consultation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0564",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 564,
+      "entry": "563",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "Glossary pp. 1–2",
+      "lines": "n/a (Business Domain; Digital Infrastructure; Identifiers; and two further entries)",
+      "raw": "§Glossary p.Glossary pp. 1–2 l.n/a (Business Domain; Digital Infrastructure; Identifiers; and two further entries)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.Glossary pp. 1–2 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "Five glossary entries carry a highlighted \"[Under review]\" marker in the version circulated for public comment, including the definitions of Business Domain and of terms used throughout Chapter 3. Reviewers cannot comment on definitions that are not settled, and terms used normatively in the body should be defined before consultation.",
+    "suggestedRevision": "Resolve the marked entries before publication, or state in the front matter which definitions remain provisional so that reviewers know not to rely on them.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 564"
+      }
+    ]
+  }
+}

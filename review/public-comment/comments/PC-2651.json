@@ -1,0 +1,73 @@
+{
+  "id": "pc-2651",
+  "summary": "The terminology should distinguish pseudonymisation from anonymisation. Under the GDPR, pseudonymisation means processi…",
+  "comment": "The terminology should distinguish pseudonymisation from anonymisation. Under the GDPR, pseudonymisation means processing data so that they cannot be attributed to a specific data subject without additional information; it is a safeguard, but the resulting data remain within the personal-data framework. The phrase “pseudo-anonymisation” is therefore both non-standard and potentially misleading. \n\nThis distinction is also operationally important under the EHDS: personal electronic health data may be made available in pseudonymised form when anonymous data would be insufficient for an authorised secondary-use purpose, but access remains controlled through a permit and secure processing environment.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2651",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 29,
+      "entry": "19",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Client Registry",
+      "page": "116, 120-121",
+      "lines": "110-111",
+      "raw": "§Appendix C: Client Registry p.116, 120-121 l.110-111"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.116, 120-121 l.110-111 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The terminology should distinguish pseudonymisation from anonymisation. Under the GDPR, pseudonymisation means processing data so that they cannot be attributed to a specific data subject without additional information; it is a safeguard, but the resulting data remain within the personal-data framework. The phrase “pseudo-anonymisation” is therefore both non-standard and potentially misleading. \n\nThis distinction is also operationally important under the EHDS: personal electronic health data may be made available in pseudonymised form when anonymous data would be insufficient for an authorised secondary-use purpose, but access remains controlled through a permit and secure processing environment.",
+    "suggestedRevision": "Replace “pseudo-anonymisation” / “pseudo-anonymised” throughout with “pseudonymisation” / “pseudonymised”. Add: “Pseudonymised data remain personal data where they can be attributed to an individual through additional information. Pseudonymisation is a technical and organisational safeguard and does not, by itself, establish a legal basis for secondary use. Data that have been rendered genuinely non-identifiable should be described as anonymised.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 29"
+      }
+    ]
+  }
+}

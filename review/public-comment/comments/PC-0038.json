@@ -1,0 +1,79 @@
+{
+  "id": "pc-0038",
+  "summary": "The inclusive-representation principle does not explicitly include older people, persons with disabilities, people with…",
+  "comment": "The inclusive-representation principle does not explicitly include older people, persons with disabilities, people with limited digital capability, or unpaid and family caregivers. Although caregivers are listed as stakeholders elsewhere in the guidance, these groups are not clearly represented in the governance provisions. They may face distinctive barriers involving identity verification, accessibility, consent, assisted or delegated access, and continuity of care. Governance processes based mainly on digitally confident users may therefore overlook how the infrastructure functions for people who require assistance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0038",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 38,
+      "entry": "37",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2 — Governance principles",
+      "page": "64",
+      "lines": "258–265",
+      "raw": "§3.4.2 — Governance principles p.64 l.258–265"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.4.2 only"
+    },
+    "type": "general",
+    "text": "The inclusive-representation principle does not explicitly include older people, persons with disabilities, people with limited digital capability, or unpaid and family caregivers. Although caregivers are listed as stakeholders elsewhere in the guidance, these groups are not clearly represented in the governance provisions. They may face distinctive barriers involving identity verification, accessibility, consent, assisted or delegated access, and continuity of care. Governance processes based mainly on digitally confident users may therefore overlook how the infrastructure functions for people who require assistance.",
+    "suggestedRevision": "Revise the examples in lines 260–261 to include “older people, persons with disabilities, people with limited digital capability, and unpaid or family caregivers.”\n\nIn lines 321–327, add that governance bodies should establish mechanisms for obtaining and acting on evidence from people who use assisted or delegated access, including older people, persons with disabilities and caregivers, rather than relying principally on digitally confident users or organisational representatives.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 38"
+      }
+    ]
+  }
+}

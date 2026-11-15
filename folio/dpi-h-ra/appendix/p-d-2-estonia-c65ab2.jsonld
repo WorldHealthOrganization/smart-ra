@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-2-estonia-c65ab2",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-2-estonia-c65ab2",
+  "kind": "prose",
+  "cites": [
+    "references/tehik"
+  ],
+  "text": "p-d-2-estonia-c65ab2.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1030,
+      "page": 243,
+      "printedPage": "232",
+      "lineStart": 112,
+      "lineEnd": 117,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

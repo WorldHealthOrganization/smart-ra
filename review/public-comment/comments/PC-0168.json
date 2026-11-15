@@ -1,0 +1,78 @@
+{
+  "id": "pc-0168",
+  "summary": "We strongly endorse Chapter 5's framing. One principle deserves to be stated explicitly: an AI model must not be the te…",
+  "comment": "We strongly endorse Chapter 5's framing. One principle deserves to be stated explicitly: an AI model must not be the terminal interpreter of clinical information. Its outputs become trustworthy data only when a human author has checked, integrated and signed them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0168",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 168,
+      "entry": "167",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2",
+      "page": "108",
+      "lines": "Whole subsection",
+      "raw": "§5.4.2 p.108 l.Whole subsection"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.108 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "We strongly endorse Chapter 5's framing. One principle deserves to be stated explicitly: an AI model must not be the terminal interpreter of clinical information. Its outputs become trustworthy data only when a human author has checked, integrated and signed them.",
+    "suggestedRevision": "Add a sentence to §5.4.2 stating that AI outputs affecting care, eligibility or resources require a human author of record who verifies and signs the resulting data before it enters the Lifelong Health Record or downstream decision processes — consistent with the chapter's auditability principle.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 168"
+      }
+    ]
+  }
+}

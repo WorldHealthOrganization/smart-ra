@@ -1,0 +1,80 @@
+{
+  "id": "pc-0553",
+  "summary": "The Ministry supports this section, and in particular lines 315–321, which state that a FHIR profile is a representatio…",
+  "comment": "The Ministry supports this section, and in particular lines 315–321, which state that a FHIR profile is a representation of the logical model rather than a replacement for it and that two systems can each be valid FHIR and still diverge in meaning. This matches our national experience precisely. We also support lines 331–338 on progressive conformance and the observation that FHIR compatibility is hardest to retrofit where underlying data structures are not conformant. Our concern is placement rather than content: this analysis appears in Chapter 4, while the enabling conditions in Chapter 2 that shape national procurement do not carry it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-3-ab95cd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0553",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 553,
+      "entry": "552",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.3 Services and Transactions: FHIR as the Recommended Framework",
+      "page": "96",
+      "lines": "315–321; 331–338",
+      "raw": "§4.3.3 Services and Transactions: FHIR as the Recommended Framework p.96 l.315–321; 331–338"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-3-ab95cd",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-3-99c0e8"
+      ],
+      "note": "p.96 l.315–321; 331–338 read as the printed page; section 4.3.3 agrees"
+    },
+    "type": "general",
+    "text": "The Ministry supports this section, and in particular lines 315–321, which state that a FHIR profile is a representation of the logical model rather than a replacement for it and that two systems can each be valid FHIR and still diverge in meaning. This matches our national experience precisely. We also support lines 331–338 on progressive conformance and the observation that FHIR compatibility is hardest to retrofit where underlying data structures are not conformant. Our concern is placement rather than content: this analysis appears in Chapter 4, while the enabling conditions in Chapter 2 that shape national procurement do not carry it.",
+    "suggestedRevision": "No change proposed to this text. We recommend that a short subsection be added to 4.3 before 4.3.3, parallel in structure to it — for example \"4.3.x Clinical content and persistence: the governed information model\" — since 4.3.1 already establishes that data structures are designed first, and that section 2.2.2 cross-reference it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 553"
+      }
+    ]
+  }
+}

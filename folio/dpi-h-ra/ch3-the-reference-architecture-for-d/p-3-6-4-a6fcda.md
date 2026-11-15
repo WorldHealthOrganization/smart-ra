@@ -1,0 +1,5 @@
+- A shared, internationally aligned patient summary specification, such as the International Patient Summary (IPS), should define the meaningful minimum exchanged for care.
+- Terminology and language translation services should allow a receiving clinician to interpret content in their own working language.
+- A cross-jurisdiction trust framework — mutual recognition of identities, credentials and digital signatures, underpinned by appropriate public-key infrastructure — shall establish that participants, and the data they exchange, can be trusted.
+- The legal basis and consent arrangements for cross-border processing shall be explicit.
+- These cross-border arrangements should build on foundational cross-border identity and trust DPI where it exists, extending it with the health-specific content and consent considerations rather than duplicating it.

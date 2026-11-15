@@ -1,0 +1,78 @@
+{
+  "id": "pc-0724",
+  "summary": "I would like to suggest including illustrative use cases, which would also allow for examples from South America and ad…",
+  "comment": "I would like to suggest including illustrative use cases, which would also allow for examples from South America and add value to the document. For the section on National Implementations (page 83), I am sharing the case of Uruguay in two alternative versions for your consideration. DRAFT ENTRY A — Technical interoperability architecture emphasis Historia Clínica Electrónica Nacional (HCEN) is Uruguay's federated national longitudinal health record (LHR) and clinical-document exchange, developed and operated by the Salud.uy program of AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento) in conjunction with the Ministerio de Salud Pública. Architected as an IHE-based health information exchange rather than a central data store, the HCEN operates as a national interoperability node in which clinical documents remain in the custody of the institution that generated them while a central platform indexes and brokers their exchange in real time; its core components are the Índice Nacional de Usuarios de Salud, an Enterprise Master Patient Index implementing the IHE PIX/PDQ profiles for unique patient identification, the Registro Nacional de Documentos Clínicos (an IHE XDS.b document registry), a Bus de Salud (Enterprise Service Bus) serving as the single access point, a Sistema de Auditoría conformant to the IHE ATNA profile, and an Appliance/Conector Salud deployed at each provider that exposes the IHE XDS.b service interface. Each provider — both the public ASSE and the private mutualistas/IAMC of the Sistema Nacional Integrado de Salud (SNIS) — maintains its own institutional electronic record (HCE/HCD) and local document repository, generating standards-based electronic clinical documents (HL7 CDA R2, with HL7 v2 XML messaging, DICOM imaging, and the terminologies SNOMED CT including a Uruguayan national extension, LOINC and CIE-10) and registering each event's metadata in the national Registro de Eventos within 24 hours, enabling assembly of a longitudinal record across the country's mixed public-private landscape and exchange over the dedicated Red Salud network and AGESIC's Plataforma de Interoperabilidad (Interoperabilyty Platform). (https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/historia-clinica-electronica-nacional). DRAFT ENTRY B — Governance/institutional and public-private SNIS continuity-of-care emphasis Historia Clínica Electrónica Nacional (HCEN) is Uruguay's nationally governed, federated longitudinal health record (LHR), conceived as the central instrument for continuity of care across the Sistema Nacional Integrado de Salud (SNIS), the country's universal mixed public-private health system. It is delivered by the Salud.uy program, launched in 2012 under an inter-institutional agreement among the Presidency of the Republic, the Ministerio de Salud Pública (MSP), the Ministerio de Economía y Finanzas (MEF) and AGESIC, which provides its institutional home and embeds it within Uruguay's broader digital-state infrastructure — the Plataforma de Gobierno Electrónico and its Plataforma de Interoperabilidad (PDI), the Red Salud private network, and the national digital identity used for citizen and professional authentication — with co-financing of roughly USD 21 million from the Inter-American Development Bank. Adopting a federated model that respects each institution's technological autonomy, the HCEN leaves clinical data in the custody of the public ASSE and the private mutualistas/IAMC that generated it while a state-operated central platform indexes events and brokers their secure, audited exchange, so that a user's information is available to any treating team regardless of provider or location; participation was made mandatory for all public and private providers by Decreto 242/017 (2017), with the adoption plan set by Ordenanza 1085/017, event-registration duties by Decreto 122/019, and provider incorporation by Ley 19.670, all operating within the data-protection guarantees of Ley 18.331 and a treatment-purposes consent model that is implied unless the patient opts out via the \"Mi Historia Clínica Digital\" citizen portal. Widely cited by the IDB and PAHO as one of Latin America's most advanced national digital-health systems — with 95% of the population holding at least one clinical document by end-2020 and more than 170 million documents registered by 2022 — the HCEN demonstrates how a national interoperability node can knit a fragmented public-private provider landscape into a single longitudinal record centered on the patient/user (https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/historia-clinica-electronica-nacional)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0724",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 724,
+      "entry": "723",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-c5d4e496de",
+      "organisation": "IADB",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Proposes adding Uruguay to the national implementation examples."
+    },
+    "text": "I would like to suggest including illustrative use cases, which would also allow for examples from South America and add value to the document. For the section on National Implementations (page 83), I am sharing the case of Uruguay in two alternative versions for your consideration. DRAFT ENTRY A — Technical interoperability architecture emphasis Historia Clínica Electrónica Nacional (HCEN) is Uruguay's federated national longitudinal health record (LHR) and clinical-document exchange, developed and operated by the Salud.uy program of AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento) in conjunction with the Ministerio de Salud Pública. Architected as an IHE-based health information exchange rather than a central data store, the HCEN operates as a national interoperability node in which clinical documents remain in the custody of the institution that generated them while a central platform indexes and brokers their exchange in real time; its core components are the Índice Nacional de Usuarios de Salud, an Enterprise Master Patient Index implementing the IHE PIX/PDQ profiles for unique patient identification, the Registro Nacional de Documentos Clínicos (an IHE XDS.b document registry), a Bus de Salud (Enterprise Service Bus) serving as the single access point, a Sistema de Auditoría conformant to the IHE ATNA profile, and an Appliance/Conector Salud deployed at each provider that exposes the IHE XDS.b service interface. Each provider — both the public ASSE and the private mutualistas/IAMC of the Sistema Nacional Integrado de Salud (SNIS) — maintains its own institutional electronic record (HCE/HCD) and local document repository, generating standards-based electronic clinical documents (HL7 CDA R2, with HL7 v2 XML messaging, DICOM imaging, and the terminologies SNOMED CT including a Uruguayan national extension, LOINC and CIE-10) and registering each event's metadata in the national Registro de Eventos within 24 hours, enabling assembly of a longitudinal record across the country's mixed public-private landscape and exchange over the dedicated Red Salud network and AGESIC's Plataforma de Interoperabilidad (Interoperabilyty Platform). (https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/historia-clinica-electronica-nacional). DRAFT ENTRY B — Governance/institutional and public-private SNIS continuity-of-care emphasis Historia Clínica Electrónica Nacional (HCEN) is Uruguay's nationally governed, federated longitudinal health record (LHR), conceived as the central instrument for continuity of care across the Sistema Nacional Integrado de Salud (SNIS), the country's universal mixed public-private health system. It is delivered by the Salud.uy program, launched in 2012 under an inter-institutional agreement among the Presidency of the Republic, the Ministerio de Salud Pública (MSP), the Ministerio de Economía y Finanzas (MEF) and AGESIC, which provides its institutional home and embeds it within Uruguay's broader digital-state infrastructure — the Plataforma de Gobierno Electrónico and its Plataforma de Interoperabilidad (PDI), the Red Salud private network, and the national digital identity used for citizen and professional authentication — with co-financing of roughly USD 21 million from the Inter-American Development Bank. Adopting a federated model that respects each institution's technological autonomy, the HCEN leaves clinical data in the custody of the public ASSE and the private mutualistas/IAMC that generated it while a state-operated central platform indexes events and brokers their secure, audited exchange, so that a user's information is available to any treating team regardless of provider or location; participation was made mandatory for all public and private providers by Decreto 242/017 (2017), with the adoption plan set by Ordenanza 1085/017, event-registration duties by Decreto 122/019, and provider incorporation by Ley 19.670, all operating within the data-protection guarantees of Ley 18.331 and a treatment-purposes consent model that is implied unless the patient opts out via the \"Mi Historia Clínica Digital\" citizen portal. Widely cited by the IDB and PAHO as one of Latin America's most advanced national digital-health systems — with 95% of the population holding at least one clinical document by end-2020 and more than 170 million documents registered by 2022 — the HCEN demonstrates how a national interoperability node can knit a fragmented public-private provider landscape into a single longitudinal record centered on the patient/user (https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/historia-clinica-electronica-nacional)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 724"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Proposes adding Uruguay to the national implementation examples."
+      }
+    ]
+  }
+}

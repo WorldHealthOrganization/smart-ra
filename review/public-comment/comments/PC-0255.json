@@ -1,0 +1,82 @@
+{
+  "id": "pc-0255",
+  "summary": "The intended audiences and reading paths emphasise ministries, DPI authorities, architects, development partners and pr…",
+  "comment": "The intended audiences and reading paths emphasise ministries, DPI authorities, architects, development partners and procurement teams. Clinical professionals, professional bodies, patients, communities and civil society are essential to the semantic and public-interest governance described later, but are not presented as an explicit audience or governance constituency. Nurses, midwives and allied health professionals are not named in the draft, despite being major generators and users of health data.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:how-to-use-this-guidance-lead-ee6add",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0255",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 255,
+      "entry": "254",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "How to use this guidance; 1.1.4; 3.4.5",
+      "page": "4–7; 12; 57–58",
+      "lines": "Reading paths table; 136–169; 387–399",
+      "raw": "§How to use this guidance; 1.1.4; 3.4.5 p.4–7; 12; 57–58 l.Reading paths table; 136–169; 387–399"
+    },
+    "anchor": {
+      "targetLabel": "prose:how-to-use-this-guidance-lead-ee6add",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:how-to-use-this-guidance-lead-15a51a",
+        "tbl:how-to-use-this-guidance-lead-5f2ce1",
+        "prose:how-to-use-this-guidance-lead-cbaea4-2-2"
+      ],
+      "note": "p.4–7; 12; 57–58 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The intended audiences and reading paths emphasise ministries, DPI authorities, architects, development partners and procurement teams. Clinical professionals, professional bodies, patients, communities and civil society are essential to the semantic and public-interest governance described later, but are not presented as an explicit audience or governance constituency. Nurses, midwives and allied health professionals are not named in the draft, despite being major generators and users of health data.",
+    "suggestedRevision": "Add an explicit reading path and stakeholder category for clinical/professional and public-interest communities. Name nurses and nursing informaticians, midwives, allied health professionals, community health workers, physicians, pharmacists, public-health professionals, patients and community representatives as co-governors of domain meaning and acceptable use- not only as consultees or end users.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 255"
+      }
+    ]
+  }
+}

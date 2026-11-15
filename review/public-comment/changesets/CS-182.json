@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-182",
+  "title": "Describe HMIS scope as a multi-source aggregate-data platform",
+  "requirements": "- Do not present the LHR as the primary source of aggregates\n- Structure the minimum dataset around aggregate observations and indicator metadata\n- Describe HMIS and PHSP as distinct capability domains that may share a platform\n- Distinguish aggregate-data receipt, indicator calculation, analytics and publication responsibilities\n- Reword to denominators for service-utilisation indicators and point to census and population projections for population denominators\n- Allow direct aggregate, event, tracker, paper/SMS and automated contributions with provenance and progressive automation\n- Limit the DPI-H component to reusable aggregate data, indicator, validation and publication services\n- State when data is managed as routine aggregate reporting, line-listed surveillance or case records",
+  "refs": [
+    "PC-0395",
+    "PC-0396",
+    "PC-0398",
+    "PC-2012",
+    "PC-2016",
+    "PC-2019",
+    "PC-2020",
+    "PC-2022",
+    "PC-2026",
+    "PC-2028",
+    "PC-2043"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

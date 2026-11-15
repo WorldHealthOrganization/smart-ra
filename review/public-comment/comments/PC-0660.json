@@ -1,0 +1,83 @@
+{
+  "id": "pc-0660",
+  "summary": "Country / regional examples: I did not review the country and regional implementation examples in sufficient depth to i…",
+  "comment": "Country / regional examples: I did not review the country and regional implementation examples in sufficient depth to independently verify their accuracy, so I do not want to flag any potential inaccuracies without appropriate source verification.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0660",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 660,
+      "entry": "659",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "Independent Researcher",
+      "country": "Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Reviewer states they did not review the examples; no content to place."
+    },
+    "type": "general",
+    "text": "Country / regional examples: I did not review the country and regional implementation examples in sufficient depth to independently verify their accuracy, so I do not want to flag any potential inaccuracies without appropriate source verification.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 660"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Reviewer states they did not review the examples; no content to place."
+      }
+    ]
+  }
+}

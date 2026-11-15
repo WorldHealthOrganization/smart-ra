@@ -1,0 +1,80 @@
+{
+  "id": "pc-0389",
+  "summary": "The monitoring framework under-measures whether a shared platform becomes institutionalised and used. HISP has assessed…",
+  "comment": "The monitoring framework under-measures whether a shared platform becomes institutionalised and used. HISP has assessed country maturity of DHIS2 as an MIS platform across health and non-health domains. Relevant RHIS/DHIS2 measures include coexistence/triangulation of aggregate, event and Tracker data; end users have access to analytic dashboards; active use at subnational level; API integrations; local configuration/support capability; upgrade sustainability; and retirement of duplicative reporting systems.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-2-51501c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0389",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 389,
+      "entry": "388",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.2",
+      "page": "99",
+      "lines": "445–463",
+      "raw": "§4.4.2 p.99 l.445–463"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-2-51501c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-4-2-09adc4"
+      ],
+      "note": "p.99 l.445–463 read as the printed page; section 4.4.2 agrees"
+    },
+    "type": "general",
+    "text": "The monitoring framework under-measures whether a shared platform becomes institutionalised and used. HISP has assessed country maturity of DHIS2 as an MIS platform across health and non-health domains. Relevant RHIS/DHIS2 measures include coexistence/triangulation of aggregate, event and Tracker data; end users have access to analytic dashboards; active use at subnational level; API integrations; local configuration/support capability; upgrade sustainability; and retirement of duplicative reporting systems.",
+    "suggestedRevision": "We recommend measures for \"routine system use\" to catpure DPI-H institutionalization. Are data review meetings routine? How frequently are outages reported for civil registry systems? Are all facility and clients registered across the country -- and if not, does it prevent use of the system? Are data exchanged from other systems visible to healthcare providers, or do they inform critical M&E indicators? Have previous reporting systems been retired, or are they still add-on? See for example PRISM Framework https://www.measureevaluation.org/resources/prism.html",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 389"
+      }
+    ]
+  }
+}

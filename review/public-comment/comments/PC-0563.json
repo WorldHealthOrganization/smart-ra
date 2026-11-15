@@ -1,0 +1,87 @@
+{
+  "id": "pc-0563",
+  "summary": "The document contains three independent page-numbering sequences that each begin at 1: the contents pages, the glossary…",
+  "comment": "The document contains three independent page-numbering sequences that each begin at 1: the contents pages, the glossary, and the executive summary and body. Printed page \"1\" therefore occurs three times and \"2\" twice. Because the comment template asks reviewers to cite section, page and line, references in submitted comments will be ambiguous, and comparison of comments across reviewers will be harder than it needs to be.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0563",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 563,
+      "entry": "562",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Front matter – page numbering",
+      "page": "1–6 (contents); 1–2 (glossary); 1–7 (executive summary)",
+      "lines": "n/a",
+      "raw": "§Front matter – page numbering p.1–6 (contents); 1–2 (glossary); 1–7 (executive summary) l.n/a"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:executive-summary-lead-e900bf"
+      ],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Front-matter page numbering issue affecting the whole document."
+    },
+    "type": "editorial",
+    "text": "The document contains three independent page-numbering sequences that each begin at 1: the contents pages, the glossary, and the executive summary and body. Printed page \"1\" therefore occurs three times and \"2\" twice. Because the comment template asks reviewers to cite section, page and line, references in submitted comments will be ambiguous, and comparison of comments across reviewers will be harder than it needs to be.",
+    "suggestedRevision": "Use a single continuous sequence, or number front matter in roman numerals and the body in arabic, so that every page reference is unique.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 563"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Front-matter page numbering issue affecting the whole document."
+      }
+    ]
+  }
+}

@@ -8,16 +8,16 @@
 name: FHIR CI Build
 
 # Controls when the action will run. 
+# Manual trigger only (owner decision, 2026-10-06): GitHub workflows here are
+# defined, not run automatically. Start it from the Actions tab.
+# (workflow_call, if present, is kept so other repositories can call it.)
 on:
-  # Triggers the workflow on push or pull request events for any main branch
-  push:
-    branches-ignore:    
-      - 'gh-pages'
-  pull_request:
-
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   # This workflow contains a single job called "build"
   call_build: 
-    uses: WorldHealthOrganization/smart-base/.github/workflows/fhirbuild.yml@main
+    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@050de3b8130e96cf39dada434e5edacb68a6163e # index.lock.json

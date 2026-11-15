@@ -1,0 +1,79 @@
+{
+  "id": "pc-2690",
+  "summary": "What kind of human oversight should be instituted? A national-level \"regulatory\" office within or separate from the FDA?",
+  "comment": "What kind of human oversight should be instituted? A national-level \"regulatory\" office within or separate from the FDA?",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2690",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 35,
+      "entry": "25",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.1",
+      "page": "108",
+      "lines": "158-159",
+      "raw": "§5.4.1 p.108 l.158-159"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (medium): lines 158-159 (human oversight) are in 5.4.2; the cited 5.4.1 ends at line 153"
+    },
+    "type": "general",
+    "text": "What kind of human oversight should be instituted? A national-level \"regulatory\" office within or separate from the FDA?",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 35"
+      },
+      {
+        "at": "2026-10-15T11:15:03.654Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): lines 158-159 (human oversight) are in 5.4.2; the cited 5.4.1 ends at line 153"
+      }
+    ]
+  }
+}

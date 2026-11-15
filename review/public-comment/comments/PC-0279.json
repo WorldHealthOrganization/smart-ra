@@ -1,0 +1,80 @@
+{
+  "id": "pc-0279",
+  "summary": "Principle IX requires that compromise of any single component is contained rather than able to cascade (lines 407-408),…",
+  "comment": "Principle IX requires that compromise of any single component is contained rather than able to cascade (lines 407-408), and directs the health sector to build on national trust infrastructure where it exists (lines 415-418). Neither the principle nor any other part of the document says what that infrastructure must do about keys. Generation, custody, rotation, revocation, recovery and algorithm agility are unaddressed throughout, and there is no trust-anchor-failure model, so the containment requirement cannot be tested against any candidate service. The gap is substantive rather than editorial, and the vocabulary of the mechanism the guidance points at shows why. RFC 5280 section 5.3.1 enumerates ten revocation reason codes and distinguishes superseded (4) from keyCompromise (1), but none of them expresses recovery from compromise. The single reversible state is certificateHold (6), lifted by removeFromCRL (8), which RFC 5280 scopes to a certificate that 'expired or was removed from hold' rather than to a keyCompromise revocation being undone. A practitioner or institution whose key is compromised and who then regains control can be represented only as permanently revoked. DigiNotar remains the reference case for what an uncontained trust-anchor failure costs a country.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-43fc3d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0279",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 279,
+      "entry": "278",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 (Principle IX)",
+      "page": "35-36",
+      "lines": "392-427",
+      "raw": "§2.3 (Principle IX) p.35-36 l.392-427"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-43fc3d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-f3a23e"
+      ],
+      "note": "p.35-36 l.392-427 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "Principle IX requires that compromise of any single component is contained rather than able to cascade (lines 407-408), and directs the health sector to build on national trust infrastructure where it exists (lines 415-418). Neither the principle nor any other part of the document says what that infrastructure must do about keys. Generation, custody, rotation, revocation, recovery and algorithm agility are unaddressed throughout, and there is no trust-anchor-failure model, so the containment requirement cannot be tested against any candidate service. The gap is substantive rather than editorial, and the vocabulary of the mechanism the guidance points at shows why. RFC 5280 section 5.3.1 enumerates ten revocation reason codes and distinguishes superseded (4) from keyCompromise (1), but none of them expresses recovery from compromise. The single reversible state is certificateHold (6), lifted by removeFromCRL (8), which RFC 5280 scopes to a certificate that 'expired or was removed from hold' rather than to a keyCompromise revocation being undone. A practitioner or institution whose key is compromised and who then regains control can be represented only as permanently revoked. DigiNotar remains the reference case for what an uncontained trust-anchor failure costs a country.",
+    "suggestedRevision": "State minimum key-lifecycle requirements and a trust-anchor-failure model, so that the containment requirement in Principle IX becomes testable rather than aspirational. Name the lifecycle states a national trust service must be able to represent, and include recovery from compromise among them and not revocation alone.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 279"
+      }
+    ]
+  }
+}

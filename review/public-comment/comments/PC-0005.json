@@ -1,0 +1,88 @@
+{
+  "id": "pc-0005",
+  "summary": "Principle IX makes trust and security architectural properties while appropriately leaving \"the specific controls, conf…",
+  "comment": "Principle IX makes trust and security architectural properties while appropriately leaving \"the specific controls, configurations, and operational practices\" to implementation and national security policy (L426–427). The procurement and conformance material nevertheless supplies no common supplier-assurance baseline against which a country can evaluate how a DPI-H software component was built and how it will be maintained. Section 3.6.5 asks that requirements be testable \"so that countries can validate conformance – including the claims of vendors – before and during procurement\" (L955–959), and section 4.3.5 asks countries to \"establish minimum conformance requirements for each DPI-H component and define the testing mechanisms through which conformance is assessed\" (L400–401) – but both concern conformance to interoperability and information-model profiles. Appendix C commonly requires access control and audit logging, which are properties of the running system.\n\nAcross the draft there is no occurrence of software bill of materials, vulnerability, secure development, penetration testing or end-of-support. A component can therefore satisfy its information-model and access-control requirements without the guidance asking the supplier to identify its material dependencies, state how long the version will be supported, provide a route for reporting a vulnerability, or show how a security defect reaches deployed installations as a trusted update. This is a completeness gap in the common architecture rather than a request for WHO to prescribe a national control framework, and it sits on a different axis from interoperability conformance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-43fc3d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0005",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 5,
+      "entry": "4",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Principle IX; 3.6.5; 4.3.5",
+      "page": "35–36 / 78 / 98",
+      "lines": "Principle IX L392–427; 3.6.5 L955–959; 4.3.5 L400–401",
+      "raw": "§Principle IX; 3.6.5; 4.3.5 p.35–36 / 78 / 98 l.Principle IX L392–427; 3.6.5 L955–959; 4.3.5 L400–401"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-43fc3d",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [
+        "prose:2-3-f3a23e"
+      ],
+      "note": "p.35–36 / 78 / 98 l.Principle IX L392–427; 3.6.5 L955–959; 4.3.5 L400–401 read as the printed page; section 3.6.5 does NOT agree"
+    },
+    "type": "technical",
+    "text": "Principle IX makes trust and security architectural properties while appropriately leaving \"the specific controls, configurations, and operational practices\" to implementation and national security policy (L426–427). The procurement and conformance material nevertheless supplies no common supplier-assurance baseline against which a country can evaluate how a DPI-H software component was built and how it will be maintained. Section 3.6.5 asks that requirements be testable \"so that countries can validate conformance – including the claims of vendors – before and during procurement\" (L955–959), and section 4.3.5 asks countries to \"establish minimum conformance requirements for each DPI-H component and define the testing mechanisms through which conformance is assessed\" (L400–401) – but both concern conformance to interoperability and information-model profiles. Appendix C commonly requires access control and audit logging, which are properties of the running system.\n\nAcross the draft there is no occurrence of software bill of materials, vulnerability, secure development, penetration testing or end-of-support. A component can therefore satisfy its information-model and access-control requirements without the guidance asking the supplier to identify its material dependencies, state how long the version will be supported, provide a route for reporting a vulnerability, or show how a security defect reaches deployed installations as a trusted update. This is a completeness gap in the common architecture rather than a request for WHO to prescribe a national control framework, and it sits on a different axis from interoperability conformance.",
+    "suggestedRevision": "Add a risk-proportionate supplier software-assurance baseline to Principle IX, and cross-reference it from the procurement and conformance guidance rather than placing it inside section 4.3.5, which addresses interoperability profiles. The baseline should ask for evidence covering: supported versions and end-of-support dates; material third-party dependencies through a software bill of materials or equivalent inventory; a coordinated vulnerability-disclosure route; triage and remediation expectations proportionate to severity and clinical criticality; an authenticated mechanism for delivering security updates to deployed installations; and a secure development and maintenance lifecycle.\n\nIEC 81001-5-1 may be referenced for health-software lifecycle activities and NIST SP 800-218 for outcome-based secure-development practices and purchaser-supplier communication. They are not interchangeable and neither should be presented as a mandatory control set: IEC 81001-5-1 governs lifecycle activities and expressly excludes the content of accompanying documentation, so citing it does not by itself procure a dependency inventory. Conformance should assess declared evidence and lifecycle commitments rather than possession of a certificate.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 5"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Reviewed\""
+      }
+    ]
+  }
+}

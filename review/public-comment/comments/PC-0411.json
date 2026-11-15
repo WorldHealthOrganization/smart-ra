@@ -1,0 +1,87 @@
+{
+  "id": "pc-0411",
+  "summary": "The draft explicitly warns that centralized interoperability layers risk \"concentration of control, single points of fa…",
+  "comment": "The draft explicitly warns that centralized interoperability layers risk \"concentration of control, single points of failure and procurement bottlenecks\" (p.72) but gives no criteria for when a country should choose centralised vs. federated vs. hybrid. Based on our field experience, the decision factors (national IT capacity, existing platform landscape, donor funding structure, political economy) actually driving this choice are pragmatic. The architecture is rarely chosen in advance, but accrues over time via installed base, funding availability, and IT capacity at MoH to manage ETL middleware. Thus the guidance on interoperability layer to choose should be studied in more detail.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0411",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 411,
+      "entry": "410",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4",
+      "page": "97-98",
+      "lines": "376-384",
+      "raw": "§4.4 p.97-98 l.376-384"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-4-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-4-2-3ae952"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About choosing centralised vs federated vs hybrid; the cited lines fall in Interoperability Implementation Pathways."
+    },
+    "type": "technical",
+    "text": "The draft explicitly warns that centralized interoperability layers risk \"concentration of control, single points of failure and procurement bottlenecks\" (p.72) but gives no criteria for when a country should choose centralised vs. federated vs. hybrid. Based on our field experience, the decision factors (national IT capacity, existing platform landscape, donor funding structure, political economy) actually driving this choice are pragmatic. The architecture is rarely chosen in advance, but accrues over time via installed base, funding availability, and IT capacity at MoH to manage ETL middleware. Thus the guidance on interoperability layer to choose should be studied in more detail.",
+    "suggestedRevision": "Acknowledge that the decision for centralized vs federated vs hybrid depends on pragmatic considerations for development and maintenance, not just architectural ideals.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 411"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About choosing centralised vs federated vs hybrid; the cited lines fall in Interoperability Implementation Pathways."
+      }
+    ]
+  }
+}

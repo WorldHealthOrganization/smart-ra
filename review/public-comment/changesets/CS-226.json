@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-226",
+  "title": "Separate supply-chain reference data from operational systems in Goal 5",
+  "requirements": "- Distinguish Product/Supplier/Facility registries from procurement, inventory, traceability and forecasting systems\n- Cover product-type differences, supplier identity from other registries, logistics locations and code-system purposes\n- Add recall capability, data-readiness caveats for forecasting, and restricted views for sensitive data",
+  "refs": [
+    "PC-0741",
+    "PC-2266",
+    "PC-2267",
+    "PC-2268",
+    "PC-2269",
+    "PC-2270",
+    "PC-2271",
+    "PC-2272",
+    "PC-2273",
+    "PC-2274",
+    "PC-2276"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

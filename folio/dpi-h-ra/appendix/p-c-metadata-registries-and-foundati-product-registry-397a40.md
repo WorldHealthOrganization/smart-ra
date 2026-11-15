@@ -1,0 +1,1 @@
+The following table consolidates the data requirements drawn from all supply chain system components that consume the Product Registry. Status reflects the minimum requirement for a product record to be considered complete for interoperability purposes.

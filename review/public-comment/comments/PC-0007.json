@@ -1,0 +1,86 @@
+{
+  "id": "pc-0007",
+  "summary": "The progress dimensions are well chosen, but the standards-conformance dimension measures a property of deployment rath…",
+  "comment": "The progress dimensions are well chosen, but the standards-conformance dimension measures a property of deployment rather than a property of present state. It asks whether components \"conform to open standards, expose standard APIs, and use governed terminology and data models\" (p.99, L451–453). A system can satisfy all three while holding a superseded version of the terminology it uses: it conforms, it exposes the API, and it uses the governed artefact – just not the release currently applicable to it. That is the failure raised in comment 1, and it is invisible to this indicator as written.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-2-51501c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0007",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 7,
+      "entry": "6",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.2",
+      "page": "99",
+      "lines": "L451–453 (\"Standards conformance\" bullet)",
+      "raw": "§4.4.2 p.99 l.L451–453 (\"Standards conformance\" bullet)"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-2-51501c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.99 l.L451–453 (\"Standards conformance\" bullet) read as the printed page; section 4.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "The progress dimensions are well chosen, but the standards-conformance dimension measures a property of deployment rather than a property of present state. It asks whether components \"conform to open standards, expose standard APIs, and use governed terminology and data models\" (p.99, L451–453). A system can satisfy all three while holding a superseded version of the terminology it uses: it conforms, it exposes the API, and it uses the governed artefact – just not the release currently applicable to it. That is the failure raised in comment 1, and it is invisible to this indicator as written.",
+    "suggestedRevision": "Extend the \"Standards conformance\" bullet with a currency clause. Proposed wording, to be appended to the existing bullet:\n\n\"...and whether deployed components can demonstrate that they hold a version of the governed terminology and data models that is currently applicable to their context.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 7"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Reviewed\""
+      }
+    ]
+  }
+}

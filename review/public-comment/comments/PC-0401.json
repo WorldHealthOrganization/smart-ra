@@ -1,0 +1,82 @@
+{
+  "id": "pc-0401",
+  "summary": "The climate-related requirement is limited to ingesting sensor or data streams. Climate-informed public-health surveill…",
+  "comment": "The climate-related requirement is limited to ingesting sensor or data streams. Climate-informed public-health surveillance also requires compatible geospatial/temporal units, joint indicators, uncertainty handling, thresholds, cross-sector governance and explicit action protocols. Data integration without a decision pathway may produce dashboards without preparedness.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0401",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 401,
+      "entry": "400",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – PHSP requirements",
+      "page": "224",
+      "lines": "Requirement 11",
+      "raw": "§Appendix C – PHSP requirements p.224 l.Requirement 11"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-ea1178-12-3",
+        "tbl:c-metadata-registries-and-foundati-health-workforce-registry-5da961",
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-e5a981"
+      ],
+      "note": "p.224 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The climate-related requirement is limited to ingesting sensor or data streams. Climate-informed public-health surveillance also requires compatible geospatial/temporal units, joint indicators, uncertainty handling, thresholds, cross-sector governance and explicit action protocols. Data integration without a decision pathway may produce dashboards without preparedness.",
+    "suggestedRevision": "Expand the requirement to include governed climate–health indicator definitions, geospatial/temporal alignment, provenance and forecast uncertainty, alert thresholds, cross-sector data-sharing agreements, responsible decision owners, response protocols and evaluation of false positives/negatives and unequal impacts. In other words, these integrations have functional requirements as well as governance models. \n\nIn more technical detail: we should also address the temporal and spatial resolution mismatch between climate data (often gridded, continuous, sub-daily) and routine health surveillance data (facility-based, weekly/monthly, point-located), since this reconciliation — not just data receipt — is the actual technical challenge climate-health integration efforts like DHIS2's Chap Modeling Platform have had to solve. Distinguish between passively receiving environmental data streams for monitoring/analysis and the more demanding case of climate-driven predictive/forecasting models (e.g., climate-sensitive disease forecasting), since the latter requires defining model outputs and decision-support integration as a distinct capability rather than framed around communicable disease surveillance.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 401"
+      }
+    ]
+  }
+}

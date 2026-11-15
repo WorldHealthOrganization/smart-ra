@@ -1,0 +1,81 @@
+{
+  "id": "pc-0621",
+  "summary": "Concerns / changes: My main concern is the gap between the strength of the conceptual architecture and the level of ope…",
+  "comment": "Concerns / changes: My main concern is the gap between the strength of the conceptual architecture and the level of operational detail needed for countries to implement it. The draft explains the intended direction very well, but some essential implementation artefacts are still missing. In particular, Appendix E contains placeholders rather than the complete goal-to-capability-to-component mappings. These mappings should be included so that reviewers and countries can verify traceability, completeness and architectural gaps.\n\nI would also like to see a clearer minimum viable architecture and maturity model. Countries need to understand which components are foundational, which are context-dependent and which are more advanced, together with measurable readiness criteria and decision points for progressing between stages. Additional implementation pathways are needed for federated systems, fragile or resource-constrained settings, incomplete foundational DPI, unreliable connectivity and significant dependence on paper records or donor-funded systems.\n\nSome component boundaries also need clarification. The architecture should explicitly address a health-organisation and ecosystem-participant registry, as facilities, individual professionals and the legal organisations operating them are different entities. Consent, authorisation, trust, provenance and service-discovery capabilities also need clearer representation, particularly where foundational DPI does not provide the granularity required for healthcare. The distinction between nationally governed computable clinical knowledge and locally executed decision-support engines should also be strengthened.\n\nThe conformance section is conceptually strong, but countries will need reusable implementation profiles, test cases, reference datasets, certification governance and continuous testing requirements covering security, privacy, performance and version changes. A system implementing an accepted standard should not be assumed to “arrive tested.”\n\nFinally, the financing section would benefit from a practical investment-case template covering total cost of ownership, recurrent expenditure, measurable benefits, risk, cost-sharing and transition from donor to domestic financing. Country examples should also use a consistent, evidence-based format that distinguishes pilots from population-scale implementation and records both achievements and limitations.\n\nThese changes would preserve the draft’s strong global vision while making it more actionable, measurable and realistic across different national contexts.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0621",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 621,
+      "entry": "620",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form concerns about operational detail across the document."
+    },
+    "type": "general",
+    "text": "Concerns / changes: My main concern is the gap between the strength of the conceptual architecture and the level of operational detail needed for countries to implement it. The draft explains the intended direction very well, but some essential implementation artefacts are still missing. In particular, Appendix E contains placeholders rather than the complete goal-to-capability-to-component mappings. These mappings should be included so that reviewers and countries can verify traceability, completeness and architectural gaps.\n\nI would also like to see a clearer minimum viable architecture and maturity model. Countries need to understand which components are foundational, which are context-dependent and which are more advanced, together with measurable readiness criteria and decision points for progressing between stages. Additional implementation pathways are needed for federated systems, fragile or resource-constrained settings, incomplete foundational DPI, unreliable connectivity and significant dependence on paper records or donor-funded systems.\n\nSome component boundaries also need clarification. The architecture should explicitly address a health-organisation and ecosystem-participant registry, as facilities, individual professionals and the legal organisations operating them are different entities. Consent, authorisation, trust, provenance and service-discovery capabilities also need clearer representation, particularly where foundational DPI does not provide the granularity required for healthcare. The distinction between nationally governed computable clinical knowledge and locally executed decision-support engines should also be strengthened.\n\nThe conformance section is conceptually strong, but countries will need reusable implementation profiles, test cases, reference datasets, certification governance and continuous testing requirements covering security, privacy, performance and version changes. A system implementing an accepted standard should not be assumed to “arrive tested.”\n\nFinally, the financing section would benefit from a practical investment-case template covering total cost of ownership, recurrent expenditure, measurable benefits, risk, cost-sharing and transition from donor to domestic financing. Country examples should also use a consistent, evidence-based format that distinguishes pilots from population-scale implementation and records both achievements and limitations.\n\nThese changes would preserve the draft’s strong global vision while making it more actionable, measurable and realistic across different national contexts.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 621"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form concerns about operational detail across the document."
+      }
+    ]
+  }
+}

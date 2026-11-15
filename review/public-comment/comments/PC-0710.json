@@ -1,0 +1,83 @@
+{
+  "id": "pc-0710",
+  "summary": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object st…",
+  "comment": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object stating who does what, when, and towards which goals for a specific person. 'Care plan' appears only in passing inside other components, never as an architectural object with its own repository, governance and exchange rules. Of the three recognised kinds of continuity of care — informational (data follows the person), management (one coherent shared plan), relational (being cared for by people who know you) — the draft covers essentially only the first and equates it with the whole.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0710",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 710,
+      "entry": "709",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Component catalogue (Ch. 3; App. C); goals on continuity of care",
+      "raw": "§Component catalogue (Ch. 3; App. C); goals on continuity of care"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "chap:ch3-the-reference-architecture-for-d"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Proposes a new Shared Care Plan component for the component catalogue (§3.5)."
+    },
+    "text": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object stating who does what, when, and towards which goals for a specific person. 'Care plan' appears only in passing inside other components, never as an architectural object with its own repository, governance and exchange rules. Of the three recognised kinds of continuity of care — informational (data follows the person), management (one coherent shared plan), relational (being cared for by people who know you) — the draft covers essentially only the first and equates it with the whole.",
+    "suggestedRevision": "Add a Shared Care Plan component to the catalogue: a governed repository and exchange rules for multi-professional, cross-organisational, long-term plans (building on existing patterns such as FHIR CarePlan and the International Patient Summary), as the architectural carrier of management continuity.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Comment type": "#11"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 710"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Proposes a new Shared Care Plan component for the component catalogue (§3.5)."
+      }
+    ]
+  }
+}

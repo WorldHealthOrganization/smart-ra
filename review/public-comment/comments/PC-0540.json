@@ -1,0 +1,79 @@
+{
+  "id": "pc-0540",
+  "summary": "The capability table on page 28 marks the Logical Information Model Repository with a note that it is \"an enabler that …",
+  "comment": "The capability table on page 28 marks the Logical Information Model Repository with a note that it is \"an enabler that can be built up as maturity grows, rather than part of the minimum foundation\", and the architecture placement box on page 172 advises countries to approach the LIMR as \"a progressive enabler, not an immediate prerequisite\". Both are in tension with the guidance elsewhere: page 173 lines 43–50 state that the LIMR \"establishes the shared structural agreement before systems are built, rather than attempting to reconcile differences after the fact\"; page 95 lines 265–273 state that data models should be defined \"before implementation begins\" and that the LIMR \"is the designated home for these national data models\"; and page 96 lines 335–338 note that conformance is hardest to retrofit where underlying data structures are not conformant. A ministry reading only the REDDHI table and the placement box will sequence the record before the model, which is the sequence the guidance warns against.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0540",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 540,
+      "entry": "539",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 REDDHI foundational core / Appendix C – LIMR",
+      "page": "28; 172",
+      "lines": "Table 2.2 (p28); architecture placement box (p172)",
+      "caption": "Table 2.2",
+      "raw": "§2.2.1 REDDHI foundational core / Appendix C – LIMR p.28; 172 l.Table 2.2 (p28); architecture placement box (p172)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "The capability table on page 28 marks the Logical Information Model Repository with a note that it is \"an enabler that can be built up as maturity grows, rather than part of the minimum foundation\", and the architecture placement box on page 172 advises countries to approach the LIMR as \"a progressive enabler, not an immediate prerequisite\". Both are in tension with the guidance elsewhere: page 173 lines 43–50 state that the LIMR \"establishes the shared structural agreement before systems are built, rather than attempting to reconcile differences after the fact\"; page 95 lines 265–273 state that data models should be defined \"before implementation begins\" and that the LIMR \"is the designated home for these national data models\"; and page 96 lines 335–338 note that conformance is hardest to retrofit where underlying data structures are not conformant. A ministry reading only the REDDHI table and the placement box will sequence the record before the model, which is the sequence the guidance warns against.",
+    "suggestedRevision": "Distinguish the two things now conflated. Reword both passages so that a governed minimum information model — the mandatory data elements for the components a country is actually implementing — is part of the REDDHI foundational core, while a full repository platform, with authoring, federation, dependency tracking and impact analysis, remains a progressive capability. Suggested replacement for the page 28 note: \"A governed minimum model is part of the foundation; the full repository platform and its tooling mature over time.\" Cross-reference 4.3.1 and 4.3.3 from both locations.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 540"
+      }
+    ]
+  }
+}

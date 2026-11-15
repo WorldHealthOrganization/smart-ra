@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-acronyms-lead-bf4749",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:acronyms-lead-bf4749",
+  "kind": "table",
+  "text": "t-acronyms-lead-bf4749.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 3,
+      "page": 4,
+      "printedPage": "3",
+      "method": "unnumbered-page"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "pc-0194",
+  "summary": "The document mentions sovereign models and openness but does not provide guidance on how countries should decide betwee…",
+  "comment": "The document mentions sovereign models and openness but does not provide guidance on how countries should decide between building their own AI capabilities, relying on commercial offerings, or using open-weight models. This decision has significant implications for cost, sovereignty, and sustainability.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-4-a1fd66",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0194",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 194,
+      "entry": "193",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.4, 5.5",
+      "page": "108 - 109",
+      "lines": "170 - 218",
+      "raw": "§5.4.4, 5.5 p.108 - 109 l.170 - 218"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-4-a1fd66",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-3-4-83c937"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 5.4.4/5.5 on build vs buy and commercial AI; this paragraph discusses commercial pressures"
+    },
+    "type": "general",
+    "text": "The document mentions sovereign models and openness but does not provide guidance on how countries should decide between building their own AI capabilities, relying on commercial offerings, or using open-weight models. This decision has significant implications for cost, sovereignty, and sustainability.",
+    "suggestedRevision": "Add guidance on the AI procurement landscape, including: criteria for evaluating commercial AI offerings (performance, cost, data sovereignty, security); consideration of open-weight and open-source models as alternatives to proprietary models; procurement clauses that protect national data assets and ensure portability; and the conditions under which sovereign AI infrastructure (national or regional) may be worth the investment.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 194"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 5.4.4/5.5 on build vs buy and commercial AI; this paragraph discusses commercial pressures"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+- **DHIS2 Tracker —** the individual-level case-tracking module used for disease-specific surveillance, outbreak investigation and contact tracing, integrated with aggregate reporting. \cite{dhis2}
+- **Go.Data** **—** a WHO outbreak-investigation and contact-tracing tool with offline operation and configurable data collection, used extensively in emergency response. \cite{who-go-data}
+- **Bahmni** **surveillance module —** syndrome-based surveillance embedded within a facility clinical system, deriving reporting from data already captured at the point of care. \cite{bahmni}
+- **SORMAS —** a mobile-capable surveillance and outbreak-response tool supporting case registration, contact tracing and laboratory integration, deployed across several African countries. \cite{sormas}
+- **OpenELIS** **—** an open-source public-health laboratory information system feeding confirmed diagnostic data into surveillance. \cite{openelis-global}
+- **Epi Info —** a public-domain epidemiological analysis suite used in field epidemiology and ad hoc outbreak investigation. \cite{cdc-epi-info}
+- **WHO Integrated Data Platform —** international data-exchange infrastructure through which national surveillance data flows to WHO for global health intelligence and International Health Regulations reporting. \cite{who-data-platforms}

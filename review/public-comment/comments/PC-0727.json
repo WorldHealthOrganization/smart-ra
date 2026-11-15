@@ -1,0 +1,79 @@
+{
+  "id": "pc-0727",
+  "summary": "Semantic Governance Infrastructure (SGI) — A Joint Partnership Offer The DPI-H framework introduces Semantic Governance…",
+  "comment": "Semantic Governance Infrastructure (SGI) — A Joint Partnership Offer The DPI-H framework introduces Semantic Governance Infrastructure (SGI) as a new national-level governance architecture and, notably, cites SNOMED International's National Release Center (NRC) model as one of the only tested frameworks for SGI implementation. We commend this recognition of the NRC model as a proven reference. The current text, however, describes SGI as a national responsibility without establishing a formal relationship between national SGI bodies and the international standards organisations that develop and maintain the underlying terminologies. This creates a governance gap: countries may establish SGI processes independently, leading to fragmentation, duplicated effort, and in the absence of international guidance semantic divergence across national implementations. SNOMED International and Regenstrief collectively offer to serve as formal International SGI Reference Partners to WHO and ITU. In practice, this would mean: ● SNOMED International: providing National Release Centre (NRC) governance templates, Snowstorm (open-source FHIR Terminology Server), SNOMED CT Browser, and training resources to countries establishing SGI bodies aligned to the NRC model. ● Regenstrief Institute: providing a LOINC Terminology FHIR Service, with resources that include code system, value set, concept map and questionnaire. Regenstrief also provides LOINC Panels and Forms,UCUM specifications and education and training guidance and laboratory for countries establishing national observation and units of measure catalogues within their SGI. We propose that the DPI-H framework explicitly recognise our two organisations as reference implementation partners for SGI, and that WHO/ITU establish a formal Technical Advisory Group comprising representatives of SNOMED International, Regenstrief Institute, the WHO, and additional Standards Development Organization participation, such as HL7 International, to develop SGI implementation guidance for national programmes. 3.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0727",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 727,
+      "entry": "726",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d37df1fa79",
+      "organisation": "SNOMED International; Regenstrief Institute; HL7 International",
+      "country": "International"
+    },
+    "citation": {
+      "lines": "Area 2",
+      "raw": "l.Area 2"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About SGI and the NRC model reference in §3.4.5."
+    },
+    "text": "Semantic Governance Infrastructure (SGI) — A Joint Partnership Offer The DPI-H framework introduces Semantic Governance Infrastructure (SGI) as a new national-level governance architecture and, notably, cites SNOMED International's National Release Center (NRC) model as one of the only tested frameworks for SGI implementation. We commend this recognition of the NRC model as a proven reference. The current text, however, describes SGI as a national responsibility without establishing a formal relationship between national SGI bodies and the international standards organisations that develop and maintain the underlying terminologies. This creates a governance gap: countries may establish SGI processes independently, leading to fragmentation, duplicated effort, and in the absence of international guidance semantic divergence across national implementations. SNOMED International and Regenstrief collectively offer to serve as formal International SGI Reference Partners to WHO and ITU. In practice, this would mean: ● SNOMED International: providing National Release Centre (NRC) governance templates, Snowstorm (open-source FHIR Terminology Server), SNOMED CT Browser, and training resources to countries establishing SGI bodies aligned to the NRC model. ● Regenstrief Institute: providing a LOINC Terminology FHIR Service, with resources that include code system, value set, concept map and questionnaire. Regenstrief also provides LOINC Panels and Forms,UCUM specifications and education and training guidance and laboratory for countries establishing national observation and units of measure catalogues within their SGI. We propose that the DPI-H framework explicitly recognise our two organisations as reference implementation partners for SGI, and that WHO/ITU establish a formal Technical Advisory Group comprising representatives of SNOMED International, Regenstrief Institute, the WHO, and additional Standards Development Organization participation, such as HL7 International, to develop SGI implementation guidance for national programmes. 3.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 727"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About SGI and the NRC model reference in §3.4.5."
+      }
+    ]
+  }
+}

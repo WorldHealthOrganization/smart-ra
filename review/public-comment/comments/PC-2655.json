@@ -1,0 +1,73 @@
+{
+  "id": "pc-2655",
+  "summary": "The current model risks representing consent as the universal authorisation layer for access to longitudinal health rec…",
+  "comment": "The current model risks representing consent as the universal authorisation layer for access to longitudinal health records. In many public healthcare systems, ordinary professional access for healthcare delivery is based on statutory healthcare functions rather than individual consent to each data-processing operation. \n\nThe same is true for certain health-system management and public-health activities. Research and secondary use may be governed by separate legal mechanisms. Under the GDPR, healthcare provision/management, public health and research are expressly recognised as possible grounds for processing health data. The architecture should therefore distinguish consent to a clinical intervention, legal basis for processing, professional access authorisation, and individual data-control rights.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2655",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 33,
+      "entry": "23",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Lifelong Health Record",
+      "page": "157, 161, 163",
+      "lines": "111;\nGovernance",
+      "raw": "§Appendix C: Lifelong Health Record p.157, 161, 163 l.111;\nGovernance"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.157, 161, 163 l.111;\nGovernance read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The current model risks representing consent as the universal authorisation layer for access to longitudinal health records. In many public healthcare systems, ordinary professional access for healthcare delivery is based on statutory healthcare functions rather than individual consent to each data-processing operation. \n\nThe same is true for certain health-system management and public-health activities. Research and secondary use may be governed by separate legal mechanisms. Under the GDPR, healthcare provision/management, public health and research are expressly recognised as possible grounds for processing health data. The architecture should therefore distinguish consent to a clinical intervention, legal basis for processing, professional access authorisation, and individual data-control rights.",
+    "suggestedRevision": "Replace the overarching concept with “Lawful access and patient-control governance.” Amend Requirements 13-14 to state: “The LHR shall enforce access according to the applicable legal basis, purpose of processing, authenticated role, professional relationship, statutory access rules and applicable individual-control mechanisms. Consent shall be enforced where consent is the applicable legal or policy mechanism; other mechanisms may include access restrictions, objection or opt-out. Emergency or break-glass access shall operate under predefined lawful conditions and shall be fully audited.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 33"
+      }
+    ]
+  }
+}

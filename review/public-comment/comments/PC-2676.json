@@ -1,0 +1,73 @@
+{
+  "id": "pc-2676",
+  "summary": "The Required rows presuppose an operational Lifelong Health Record (LHR-derived case reporting), a Terminology Service …",
+  "comment": "The Required rows presuppose an operational Lifelong Health Record (LHR-derived case reporting), a Terminology Service with push subscription for case-definition updates, and a LIMR — in most LMICs the three least mature components of the entire architecture. In the Philippines, the health information exchange has never reached production scale, LGU EMRs (iClinicSys, CHITS, private systems) remain largely non-interoperable, and frontline PIDSR reporting is still substantially paper, spreadsheet, and SMS (e.g., the TUGON module of FASSSTER). As drafted, a country cannot be conformant on surveillance until nearly the whole stack exists, which delays exactly the capability with the greatest health-security urgency.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2676",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 21,
+      "entry": "11",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — PHSP",
+      "page": "225–226",
+      "lines": "Functional requirements table, reqs. 16–18",
+      "raw": "§Appendix C — PHSP p.225–226 l.Functional requirements table, reqs. 16–18"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The Required rows presuppose an operational Lifelong Health Record (LHR-derived case reporting), a Terminology Service with push subscription for case-definition updates, and a LIMR — in most LMICs the three least mature components of the entire architecture. In the Philippines, the health information exchange has never reached production scale, LGU EMRs (iClinicSys, CHITS, private systems) remain largely non-interoperable, and frontline PIDSR reporting is still substantially paper, spreadsheet, and SMS (e.g., the TUGON module of FASSSTER). As drafted, a country cannot be conformant on surveillance until nearly the whole stack exists, which delays exactly the capability with the greatest health-security urgency.",
+    "suggestedRevision": "Add a degraded-mode surveillance conformance profile: (i) case capture against nationally issued standard case definitions distributed centrally (no edge subscription required); (ii) person linkage via a foundational-ID-derived token where the Client Registry is not yet queryable in real time; (iii) facility attribution via the facility registry code list distributed in lightweight formats; (iv) batch or store-and-forward submission accepted as conformant, with FHIR query interfaces as the target state.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 21"
+      }
+    ]
+  }
+}

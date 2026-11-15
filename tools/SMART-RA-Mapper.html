@@ -255,6 +255,26 @@ const EMBEDDED_CATALOG=(function(){
 const LS_MODEL='ra-mapper-refmodel-v1', LS_CHOICE='ra-mapper-refchoice-v1';
 let customModel=null, currentVersionKey=null;
 let MODEL=null, byId={}, relsBySource={}, relsByTarget={};
+/* Ids and types from a model, an imported file or saved state must have these shapes; anything else is refused. */
+const ID_RE=/^[A-Za-z0-9_][A-Za-z0-9_.:-]{0,199}$/, TYPE_RE=/^[A-Z][A-Za-z]{0,63}$/;
+function validId(x){ return typeof x==='string'&&ID_RE.test(x); }
+function validType(x){ return typeof x==='string'&&TYPE_RE.test(x); }
+function optStr(x){ return x==null||typeof x==='string'; }
+/* returns null when the model data is acceptable, else the reason it is refused */
+function modelProblem(m){
+  if(!m||!Array.isArray(m.elements)||!Array.isArray(m.relationships)) return 'not a reference model';
+  for(const e of m.elements){
+    if(!e||!validId(e.i)) return 'element with an unexpected id';
+    if(!validType(e.t)) return 'element with an unexpected type';
+    if(typeof e.n!=='string'||typeof e.f!=='string'||!optStr(e.d)) return 'element with unexpected fields';
+  }
+  for(const r of m.relationships){
+    if(!r||!validId(r.i)||!validId(r.s)||!validId(r.g)) return 'relationship with an unexpected id';
+    if(!validType(r.t)) return 'relationship with an unexpected type';
+  }
+  if(!optStr(m.modelName)||!optStr(m.source)) return 'unexpected model name';
+  return null;
+}
 function initModel(data){
   MODEL=data; byId={}; relsBySource={}; relsByTarget={};
   MODEL.elements.forEach(e=>byId[e.i]=e);
@@ -266,7 +286,11 @@ function initModel(data){
   });
 }
 (function(){
-  try{ const s=localStorage.getItem(LS_MODEL); if(s){ const m=JSON.parse(s); if(m&&m.elements&&m.elements.length) customModel=m; } }catch(e){}
+  try{ const s=localStorage.getItem(LS_MODEL); if(s){ const m=JSON.parse(s);
+    if(m&&m.elements&&m.elements.length){
+      if(modelProblem(m)===null) customModel=m;
+      else{ localStorage.removeItem(LS_MODEL); console.warn('Saved reference model refused: '+modelProblem(m)); }
+    } } }catch(e){}
   let choice=null; try{ choice=localStorage.getItem(LS_CHOICE); }catch(e){}
   if(choice==='__custom'&&customModel){ currentVersionKey='__custom'; initModel(customModel); }
   else{
@@ -297,17 +321,50 @@ const ABB_TYPES = ['ApplicationComponent','ApplicationService','ApplicationFunct
 const FOLDER_ORDER = ['Strategy','Business','Application','Motivation','Implementation & Migration','Other'];
 function topFolder(e){ return e.f.split('/')[0] || 'Other'; }
 function typeLabel(t){ return t.replace(/([a-z])([A-Z])/g,'$1 $2'); }
-function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+/* a value as a quoted JS string argument inside an HTML attribute (inline handlers) */
+function ja(v){ return esc(JSON.stringify(String(v==null?'':v))); }
 
 /* ================= state (v2) ================= */
 const LS_KEY='ra-mapper-state-v2', LS_KEY_V1='ra-mapper-state-v1';
 let state = { version:2, meta:{organisation:'',country:'',author:'',notes:''}, abbs:{}, sbbs:{}, overrides:{} };
+/* returns null when the mapping state is acceptable, else the reason it is refused */
+function stateProblem(st){
+  if(!st||typeof st!=='object') return 'not a mapping state';
+  const isObj=o=>o&&typeof o==='object'&&!Array.isArray(o);
+  const ids=a=>Array.isArray(a)&&a.every(validId);
+  if(st.meta!=null){ if(!isObj(st.meta)) return 'unexpected metadata'; for(const k in st.meta) if(!optStr(st.meta[k])) return 'unexpected metadata'; }
+  if(!isObj(st.abbs)||!isObj(st.sbbs)||!isObj(st.overrides)) return 'not a mapping state';
+  for(const k in st.abbs){ const a=st.abbs[k];
+    if(!isObj(a)||!validId(k)||a.id!==k) return 'ABB with an unexpected id';
+    if(!validType(a.type)) return 'ABB with an unexpected type';
+    if(typeof a.name!=='string'||!optStr(a.desc)||!ids(a.refIds)) return 'ABB with unexpected fields';
+  }
+  for(const k in st.sbbs){ const s=st.sbbs[k];
+    if(!isObj(s)||!validId(k)||s.id!==k) return 'SBB with an unexpected id';
+    if(typeof s.name!=='string'||!optStr(s.product)||!optStr(s.version)||!optStr(s.desc)||!ids(s.abbIds)||!ids(s.refIds)) return 'SBB with unexpected fields';
+  }
+  for(const k in st.overrides){ const o=st.overrides[k];
+    if(!isObj(o)||!validId(k)) return 'override with an unexpected id';
+    if(o.status!=null&&!OVERRIDES.includes(o.status)) return 'override with an unexpected status';
+    if(!optStr(o.notes)||!optStr(o.reason)) return 'override with unexpected fields';
+  }
+  return null;
+}
 (function load(){
   try{
     const s=localStorage.getItem(LS_KEY);
-    if(s){ state=Object.assign(state,JSON.parse(s)); return; }
+    if(s){
+      const st=Object.assign({},state,JSON.parse(s)), why=stateProblem(st);
+      if(why===null){ state=st; return; }
+      /* refused: keep the saved copy aside, start empty */
+      localStorage.setItem(LS_KEY+'-refused',s); localStorage.removeItem(LS_KEY);
+      toast('Saved mappings were not loaded ('+why+').'); return;
+    }
     const v1=localStorage.getItem(LS_KEY_V1);
-    if(v1){ state=migrateV1(JSON.parse(v1)); persist(); toast('Previous mappings migrated to the ABB/SBB model.'); }
+    if(v1){ const st=migrateV1(JSON.parse(v1)), why=stateProblem(st);
+      if(why!==null){ toast('Previous mappings were not migrated ('+why+').'); return; }
+      state=st; persist(); toast('Previous mappings migrated to the ABB/SBB model.'); }
   }catch(e){}
 })();
 function migrateV1(old){
@@ -391,14 +448,14 @@ function buildTree(){
     const node=document.createElement('div'); node.className='tnode'+((filter.folder===f)||f==='Application'||f==='Strategy'?' open':'');
     const total=Object.values(tree[f]).reduce((a,b)=>a+b,0);
     const hdr=document.createElement('div'); hdr.className='hdr';
-    hdr.innerHTML='<span class="caret">▶</span><span style="flex:1">'+f+'</span><span class="cnt" style="font-weight:400">'+total+'</span>';
+    hdr.innerHTML='<span class="caret">▶</span><span style="flex:1">'+esc(f)+'</span><span class="cnt" style="font-weight:400">'+total+'</span>';
     hdr.onclick=()=>node.classList.toggle('open');
     node.appendChild(hdr);
     const kids=document.createElement('div'); kids.className='kids';
     Object.keys(tree[f]).sort((a,b)=>tree[f][b]-tree[f][a]).forEach(t=>{
       const leaf=document.createElement('div');
       leaf.className='tleaf'+(filter.folder===f&&filter.type===t?' sel':'');
-      leaf.innerHTML='<span>'+typeLabel(t)+'</span><span class="cnt">'+tree[f][t]+'</span>';
+      leaf.innerHTML='<span>'+esc(typeLabel(t))+'</span><span class="cnt">'+tree[f][t]+'</span>';
       leaf.onclick=(ev)=>{ev.stopPropagation();filter={folder:f,type:t};refresh();};
       kids.appendChild(leaf);
     });
@@ -429,7 +486,7 @@ function renderList(){
     let mi='';
     if(abbs.length) mi+='<span class="mapinfo"><b style="color:var(--abb)">ABB</b> '+abbs.map(a=>esc(a.name)).join(', ')+'</span>';
     if(sbbs.length) mi+='<span class="mapinfo"><b style="color:var(--sbb)">SBB</b> '+sbbs.map(x=>esc(x.sbb.name)).join(', ')+'</span>';
-    row.innerHTML='<div class="grow"><div class="nm">'+esc(e.n)+'</div><div class="meta"><span class="badge">'+typeLabel(e.t)+'</span><span class="badge folder">'+esc(e.f)+'</span>'+mi+'</div></div>'+chipHTML(st);
+    row.innerHTML='<div class="grow"><div class="nm">'+esc(e.n)+'</div><div class="meta"><span class="badge">'+esc(typeLabel(e.t))+'</span><span class="badge folder">'+esc(e.f)+'</span>'+mi+'</div></div>'+chipHTML(st);
     row.onclick=()=>openDetail(e.i);
     frag.appendChild(row);
   });
@@ -444,7 +501,7 @@ function openDetail(id){
   const abbs=abbsForRef(id), sbbs=sbbsForRef(id);
   const d=document.getElementById('detail'); d.classList.add('open');
   let html='<div class="dhead"><button class="close" onclick="closeDetail()">✕</button><div class="nm">'+esc(e.n)+'</div>'+
-    '<div class="meta" style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap"><span class="badge">Reference ABB</span><span class="badge">'+typeLabel(e.t)+'</span><span class="badge folder">'+esc(e.f)+'</span>'+chipHTML(st)+'</div></div><div class="body">';
+    '<div class="meta" style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap"><span class="badge">Reference ABB</span><span class="badge">'+esc(typeLabel(e.t))+'</span><span class="badge folder">'+esc(e.f)+'</span>'+chipHTML(st)+'</div></div><div class="body">';
   if(e.d) html+='<div class="sec"><h3>Definition</h3><div class="doc">'+esc(e.d)+'</div></div>';
   /* subtree progress */
   const ss=subtreeStats(id);
@@ -482,9 +539,9 @@ function openDetail(id){
   html+='<div class="sec"><h3>Local ABBs — <span style="color:var(--abb)">Specialization</span> ('+abbs.length+')</h3>';
   abbs.forEach(a=>{
     const sb=sbbsForAbb(a.id);
-    html+='<div class="mapItem abb"><div><div class="li-nm">'+esc(a.name)+'</div><div class="li-ty">'+typeLabel(a.type)+(sb.length?' · realised by '+sb.map(s=>esc(s.name)).join(', '):'')+'</div></div><button class="rm" title="Unmap" onclick="unmapAbb(\''+a.id+'\')">✕</button></div>';
+    html+='<div class="mapItem abb"><div><div class="li-nm">'+esc(a.name)+'</div><div class="li-ty">'+esc(typeLabel(a.type))+(sb.length?' · realised by '+sb.map(s=>esc(s.name)).join(', '):'')+'</div></div><button class="rm" title="Unmap" onclick="unmapAbb('+ja(a.id)+')">✕</button></div>';
   });
-  html+='<div class="addGrid"><input id="newAbbName" list="abbNames" placeholder="Local ABB name (e.g. National Client Registry)"><select id="newAbbType">'+ABB_TYPES.map(t=>'<option'+(t===e.t?' selected':'')+'>'+t+'</option>').join('')+'</select><button onclick="addAbbHere()" title="Map local ABB">+</button></div>';
+  html+='<div class="addGrid"><input id="newAbbName" list="abbNames" placeholder="Local ABB name (e.g. National Client Registry)"><select id="newAbbType">'+ABB_TYPES.map(t=>'<option'+(t===e.t?' selected':'')+'>'+esc(t)+'</option>').join('')+'</select><button onclick="addAbbHere()" title="Map local ABB">+</button></div>';
   html+='<div class="hint">An existing name reuses that ABB; a new name creates one. Exported as ArchiMate <b>Specialization</b> (local ABB → reference ABB).</div></div>';
   /* SBBs */
   html+='<div class="sec"><h3>SBBs — <span style="color:var(--sbb)">Realization</span> ('+sbbs.length+')</h3>';
@@ -492,7 +549,7 @@ function openDetail(id){
     const s=x.sbb;
     html+='<div class="mapItem sbb"><div><div class="li-nm">'+esc(s.name)+(s.product?' <span class="li-ty">('+esc(s.product)+(s.version?' '+esc(s.version):'')+')</span>':'')+
       (x.via?'<span class="via">via ABB '+esc(x.via.name)+'</span>':'<span class="via">direct</span>')+'</div></div>'+
-      (x.via?'':'<button class="rm" title="Unmap" onclick="unmapSbbDirect(\''+s.id+'\')">✕</button>')+'</div>';
+      (x.via?'':'<button class="rm" title="Unmap" onclick="unmapSbbDirect('+ja(s.id)+')">✕</button>')+'</div>';
   });
   html+='<div class="addGrid3"><input id="newSbbName" list="sbbNames" placeholder="SBB name (e.g. OpenCR)"><input id="newSbbProduct" placeholder="Product"><input id="newSbbVersion" placeholder="Ver."><button onclick="addSbbHere()" title="Map SBB directly">+</button></div>';
   html+='<div class="hint">Maps an SBB <b>directly</b> to this reference ABB (Realization). To instantiate via your own ABB, link the SBB to the ABB in <b>My Architecture</b>.</div></div>';
@@ -522,7 +579,7 @@ function relSection(title,items,isDownSec){
   for(const t in grouped){
     h+='<div class="relgrp"><div class="rt">'+esc(t)+' ('+grouped[t].length+')</div>';
     grouped[t].slice(0,40).forEach(o=>{
-      h+='<div class="rel" onclick="openDetail(\''+o.i+'\')"><span class="chipmini" style="background:'+STATUSES[refStatus(o.i)].c+'"></span>'+esc(o.n)+' <span style="color:var(--muted);font-size:10.5px">'+typeLabel(o.t)+'</span></div>';
+      h+='<div class="rel" onclick="openDetail('+ja(o.i)+')"><span class="chipmini" style="background:'+STATUSES[refStatus(o.i)].c+'"></span>'+esc(o.n)+' <span style="color:var(--muted);font-size:10.5px">'+esc(typeLabel(o.t))+'</span></div>';
     });
     h+='</div>';
   }
@@ -637,7 +694,7 @@ const X_START_TYPES=['Capability','Goal','Outcome','Grouping','ApplicationCompon
 function xInit(){
   if(xInited) return; xInited=true;
   const tSel=document.getElementById('xType');
-  tSel.innerHTML=X_START_TYPES.filter(t=>MODEL.elements.some(e=>e.t===t)).map(t=>'<option value="'+t+'">'+typeLabel(t)+'</option>').join('');
+  tSel.innerHTML=X_START_TYPES.filter(t=>MODEL.elements.some(e=>e.t===t)).map(t=>'<option value="'+esc(t)+'">'+esc(typeLabel(t))+'</option>').join('');
   tSel.addEventListener('change',xFillRoots);
   document.getElementById('xRoot').addEventListener('change',ev=>{
     xRootId=ev.target.value||null; xExpanded.clear();
@@ -649,7 +706,7 @@ function xInit(){
 function xFillRoots(){
   const t=document.getElementById('xType').value;
   const els=MODEL.elements.filter(e=>e.t===t).sort((a,b)=>a.n.localeCompare(b.n));
-  document.getElementById('xRoot').innerHTML='<option value="">— choose a '+typeLabel(t)+' ('+els.length+') —</option>'+els.map(e=>'<option value="'+e.i+'">'+esc(e.n)+'</option>').join('');
+  document.getElementById('xRoot').innerHTML='<option value="">— choose a '+esc(typeLabel(t))+' ('+els.length+') —</option>'+els.map(e=>'<option value="'+esc(e.i)+'">'+esc(e.n)+'</option>').join('');
   xRootId=null; renderXTree();
 }
 function renderExplore(){ xInit(); renderXTree(); }
@@ -681,18 +738,18 @@ function xNodeHTML(id,path,ancestors){
   const ss=subtreeStats(id);
   let h='<div class="xn"><div class="xcard">'+
     '<span class="xdot" style="background:'+STATUSES[st].c+'" title="Own status: '+STATUSES[st].label+'"></span>'+
-    '<span class="xname" onclick="openDetail(\''+id+'\')" title="Open details & map">'+esc(e.n)+'</span>'+
-    '<span class="badge">'+typeLabel(e.t)+'</span>'+
+    '<span class="xname" onclick="openDetail('+ja(id)+')" title="Open details & map">'+esc(e.n)+'</span>'+
+    '<span class="badge">'+esc(typeLabel(e.t))+'</span>'+
     (ss.total>1?xstatHTML(ss,false):'')+
     maps+
-    '<select class="xnm" onchange="xQuick(\''+id+'\',this.value);this.value=\'\'">'+
+    '<select class="xnm" onchange="xQuick('+ja(id)+',this.value);this.value=\'\'">'+
       '<option value="">'+(ov.status?esc(STATUSES[ov.status].label+(ov.reason&&REASONS[ov.reason]?': '+REASONS[ov.reason][0]:'')):'mapped to / not mapped…')+'</option>'+
       '<optgroup label="Mapped to — local ABB (specialises)">'+
-        Object.values(state.abbs).map(a=>'<option value="abb:'+a.id+'">'+esc(a.name)+'</option>').join('')+
+        Object.values(state.abbs).map(a=>'<option value="abb:'+esc(a.id)+'">'+esc(a.name)+'</option>').join('')+
         '<option value="abb:__new">+ new local ABB…</option>'+
       '</optgroup>'+
       '<optgroup label="Mapped to — SBB (realises, direct)">'+
-        Object.values(state.sbbs).map(s=>'<option value="sbb:'+s.id+'">'+esc(s.name)+(s.product?' ('+esc(s.product)+')':'')+'</option>').join('')+
+        Object.values(state.sbbs).map(s=>'<option value="sbb:'+esc(s.id)+'">'+esc(s.name)+(s.product?' ('+esc(s.product)+')':'')+'</option>').join('')+
         '<option value="sbb:__new">+ new SBB…</option>'+
       '</optgroup>'+
       '<optgroup label="Not mapped — reason">'+
@@ -700,7 +757,7 @@ function xNodeHTML(id,path,ancestors){
       '</optgroup>'+
       (ov.status?'<option value="__clear">✕ clear assertion</option>':'')+
     '</select>'+
-    (kids.length?'<button class="xexp" onclick="xToggle(\''+path.replace(/'/g,"\\'")+'\')">'+(expanded?'▾':'▸')+' '+kids.length+' below</button>':'')+
+    (kids.length?'<button class="xexp" onclick="xToggle('+ja(path)+')">'+(expanded?'▾':'▸')+' '+kids.length+' below</button>':'')+
     '</div>';
   if(expanded&&kids.length){
     const groups={};
@@ -774,29 +831,29 @@ function renderArch(){
     h+='<table class="tbl"><tr><th style="width:22%">Local ABB</th><th style="width:16%">Type</th><th>Specialises (reference ABBs)</th><th>Realised by (SBBs)</th><th></th></tr>';
     abbs.forEach(a=>{
       const sb=sbbsForAbb(a.id);
-      h+='<tr><td><b>'+esc(a.name)+'</b></td><td>'+typeLabel(a.type)+'</td><td>'+
-        a.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapAbbRef(\''+a.id+'\',\''+rid+'\')">✕</span></span>':'').join('')+
-        '</td><td>'+sb.map(s=>'<span class="tag">'+esc(s.name)+' <span class="x" onclick="archUnlinkSbbAbb(\''+s.id+'\',\''+a.id+'\')">✕</span></span>').join('')+
-        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb(this.value,\''+a.id+'\');this.value=\'\'"><option value="">+ link SBB…</option>'+
-        sbbs.filter(s=>!s.abbIds.includes(a.id)).map(s=>'<option value="'+s.id+'">'+esc(s.name)+'</option>').join('')+'</select>'+
-        '</td><td><button class="iconbtn" title="Delete ABB" onclick="archDeleteAbb(\''+a.id+'\')">🗑</button></td></tr>';
+      h+='<tr><td><b>'+esc(a.name)+'</b></td><td>'+esc(typeLabel(a.type))+'</td><td>'+
+        a.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapAbbRef('+ja(a.id)+','+ja(rid)+')">✕</span></span>':'').join('')+
+        '</td><td>'+sb.map(s=>'<span class="tag">'+esc(s.name)+' <span class="x" onclick="archUnlinkSbbAbb('+ja(s.id)+','+ja(a.id)+')">✕</span></span>').join('')+
+        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb(this.value,'+ja(a.id)+');this.value=\'\'"><option value="">+ link SBB…</option>'+
+        sbbs.filter(s=>!s.abbIds.includes(a.id)).map(s=>'<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>').join('')+'</select>'+
+        '</td><td><button class="iconbtn" title="Delete ABB" onclick="archDeleteAbb('+ja(a.id)+')">🗑</button></td></tr>';
     });
     h+='</table>';
   } else h+='<div class="hint">No local ABBs yet — create them below or map from the Reference ABBs view.</div>';
-  h+='<div class="newBB"><input id="archAbbName" placeholder="New ABB name"><select id="archAbbType">'+ABB_TYPES.map(t=>'<option>'+t+'</option>').join('')+'</select><span></span><span></span><button onclick="archAddAbb()">Add ABB</button></div>';
+  h+='<div class="newBB"><input id="archAbbName" placeholder="New ABB name"><select id="archAbbType">'+ABB_TYPES.map(t=>'<option>'+esc(t)+'</option>').join('')+'</select><span></span><span></span><button onclick="archAddAbb()">Add ABB</button></div>';
   h+='</div>';
   h+='<div class="panel"><h2>Solution Building Blocks — your solutions ('+sbbs.length+')</h2>';
   if(sbbs.length){
     h+='<table class="tbl"><tr><th style="width:18%">SBB</th><th style="width:14%">Product</th><th style="width:8%">Version</th><th>Realises ABBs</th><th>Realises reference ABBs (direct)</th><th></th></tr>';
     sbbs.forEach(s=>{
       h+='<tr><td><b>'+esc(s.name)+'</b></td>'+
-        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.product||'')+'" onchange="archEditSbb(\''+s.id+'\',\'product\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
-        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.version||'')+'" onchange="archEditSbb(\''+s.id+'\',\'version\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
-        '<td>'+s.abbIds.map(aid=>state.abbs[aid]?'<span class="tag abb">'+esc(state.abbs[aid].name)+' <span class="x" onclick="archUnlinkSbbAbb(\''+s.id+'\',\''+aid+'\')">✕</span></span>':'').join('')+
-        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb(\''+s.id+'\',this.value);this.value=\'\'"><option value="">+ ABB…</option>'+
-        Object.values(state.abbs).filter(a=>!s.abbIds.includes(a.id)).map(a=>'<option value="'+a.id+'">'+esc(a.name)+'</option>').join('')+'</select></td>'+
-        '<td>'+s.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapSbbRef(\''+s.id+'\',\''+rid+'\')">✕</span></span>':'').join('')+'</td>'+
-        '<td><button class="iconbtn" title="Delete SBB" onclick="archDeleteSbb(\''+s.id+'\')">🗑</button></td></tr>';
+        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.product||'')+'" onchange="archEditSbb('+ja(s.id)+',\'product\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
+        '<td><input style="width:100%;border:1px solid transparent;border-radius:5px;padding:2px 4px;font-size:12px;background:transparent" value="'+esc(s.version||'')+'" onchange="archEditSbb('+ja(s.id)+',\'version\',this.value)" onfocus="this.style.borderColor=\'var(--line)\'" onblur="this.style.borderColor=\'transparent\'"></td>'+
+        '<td>'+s.abbIds.map(aid=>state.abbs[aid]?'<span class="tag abb">'+esc(state.abbs[aid].name)+' <span class="x" onclick="archUnlinkSbbAbb('+ja(s.id)+','+ja(aid)+')">✕</span></span>':'').join('')+
+        ' <select style="font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px" onchange="archLinkSbbAbb('+ja(s.id)+',this.value);this.value=\'\'"><option value="">+ ABB…</option>'+
+        Object.values(state.abbs).filter(a=>!s.abbIds.includes(a.id)).map(a=>'<option value="'+esc(a.id)+'">'+esc(a.name)+'</option>').join('')+'</select></td>'+
+        '<td>'+s.refIds.map(rid=>byId[rid]?'<span class="tag ref">'+esc(byId[rid].n)+' <span class="x" onclick="archUnmapSbbRef('+ja(s.id)+','+ja(rid)+')">✕</span></span>':'').join('')+'</td>'+
+        '<td><button class="iconbtn" title="Delete SBB" onclick="archDeleteSbb('+ja(s.id)+')">🗑</button></td></tr>';
     });
     h+='</table>';
   } else h+='<div class="hint">No SBBs yet — add your actual systems/products below.</div>';
@@ -828,7 +885,10 @@ document.getElementById('archImportFile').addEventListener('change',ev=>{
   const f=ev.target.files[0]; if(!f) return;
   const rd=new FileReader();
   rd.onload=()=>{ try{
-      impData=parseArchiFile(rd.result); impChecked=new Set(); impFilter.q=''; impFilter.t='';
+      impData=null;
+      const parsed=parseArchiFile(rd.result), why=parsedProblem(parsed);
+      if(why!==null){ toast('File refused: '+why+'.'); ev.target.value=''; renderImportModal(); return; }
+      impData=parsed; impChecked=new Set(); impFilter.q=''; impFilter.t='';
       if(!impData.els.length){ toast('No ArchiMate elements found in that file.'); impData=null; }
       renderImportModal();
     }catch(err){ toast('Could not read model: '+err.message); }
@@ -870,6 +930,18 @@ function parseArchiFile(text){
   const nEl=doc.querySelector('model > name');
   return {name:nEl?nEl.textContent:'imported model',els:els.filter(e=>e.name),rels:rels};
 }
+/* returns null when every element and relationship has the expected id/type shape, else the reason */
+function parsedProblem(p){
+  for(const e of p.els){
+    if(!validId(e.id)) return 'an element has an unexpected id';
+    if(!validType(e.type)) return 'an element has an unexpected type';
+  }
+  for(const r of p.rels){
+    if(r.t&&!validType(r.t)) return 'a relationship has an unexpected type';
+    if((r.s!=null&&!validId(r.s))||(r.g!=null&&!validId(r.g))) return 'a relationship has an unexpected id';
+  }
+  return null;
+}
 function renderImportModal(){
   const m=document.getElementById('modal');
   if(!impData){ m.innerHTML=''; return; }
@@ -879,11 +951,11 @@ function renderImportModal(){
   let h='<div class="ovl"><div class="box">';
   h+='<div class="mh"><b>Import “'+esc(impData.name)+'”</b><span class="hint" style="margin:0">'+impData.els.length+' elements, '+impData.rels.length+' relationships</span><span style="flex:1"></span>'+
      '<input type="search" placeholder="filter by name…" value="'+esc(impFilter.q)+'" oninput="impFilter.q=this.value.toLowerCase();renderImportModal()">'+
-     '<select onchange="impFilter.t=this.value;renderImportModal()"><option value="">all types</option>'+types.map(ty=>'<option'+(impFilter.t===ty?' selected':'')+'>'+ty+'</option>').join('')+'</select>'+
+     '<select onchange="impFilter.t=this.value;renderImportModal()"><option value="">all types</option>'+types.map(ty=>'<option'+(impFilter.t===ty?' selected':'')+'>'+esc(ty)+'</option>').join('')+'</select>'+
      '<button class="btn2 ghost" onclick="impSelectVisible(true)">select visible</button><button class="btn2 ghost" onclick="impSelectVisible(false)">none</button></div>';
   h+='<div class="mb">'+vis.slice(0,500).map(e=>{
     const a=already(e.id);
-    return '<div class="mrow"><input type="checkbox"'+(a?' disabled':'')+(impChecked.has(e.id)?' checked':'')+' onchange="impToggle(\''+e.id+'\')"><b title="'+esc(e.doc||e.name)+'">'+esc(e.name)+'</b><span class="badge">'+typeLabel(e.type)+'</span>'+(a?'<span class="badge '+(a==='ABB'?'abb':'sbb')+'">already imported as '+a+'</span>':'')+'</div>';
+    return '<div class="mrow"><input type="checkbox"'+(a?' disabled':'')+(impChecked.has(e.id)?' checked':'')+' onchange="impToggle('+ja(e.id)+')"><b title="'+esc(e.doc||e.name)+'">'+esc(e.name)+'</b><span class="badge">'+esc(typeLabel(e.type))+'</span>'+(a?'<span class="badge '+(a==='ABB'?'abb':'sbb')+'">already imported as '+a+'</span>':'')+'</div>';
   }).join('')+(vis.length>500?'<div class="hint">first 500 shown — use the filter</div>':'')+(vis.length?'':'<div class="hint" style="padding:14px">nothing matches</div>')+'</div>';
   h+='<div class="mf"><span class="hint" style="margin:0">'+impChecked.size+' selected · ABBs = your architecture building blocks (specialise reference ABBs) · SBBs = concrete solutions (realise ABBs)</span><span style="flex:1"></span>'+
      '<button class="btn2 abbc" onclick="impDo(\'abb\')">Import as local ABBs</button>'+
@@ -945,7 +1017,9 @@ document.getElementById('refFile').addEventListener('change',ev=>{
   rd.onload=()=>{ try{
       const parsed=parseArchiFile(rd.result);
       if(!parsed.els.length) throw new Error('no ArchiMate elements found');
+      const why=parsedProblem(parsed); if(why!==null) throw new Error(why);
       const data=toModelData(parsed,f.name);
+      const why2=modelProblem(data); if(why2!==null) throw new Error(why2);
       customModel=data;
       try{ localStorage.setItem(LS_MODEL,JSON.stringify(data)); }catch(e){ toast('Note: model too large to persist — it will reset on reload.'); }
       applyVersion('__custom');
@@ -1019,7 +1093,7 @@ function renderDash(){
   caps.forEach(c=>{
     const revPct=c.ss.total?Math.round(100*c.ss.reviewed/c.ss.total):0;
     const confPct=c.ss.total?Math.round(100*(c.ss.conf+0.5*c.ss.partial)/c.ss.total):0;
-    h+='<div class="barRow click" onclick="jumpToPerspective(\''+c.e.i+'\')" style="cursor:pointer"><div class="lbl" title="'+esc(c.e.n)+'">'+esc(c.e.n)+'</div><div class="bar"><div class="seg" style="width:'+confPct+'%;background:var(--st-instantiated)"></div><div class="seg" style="width:'+Math.max(0,revPct-confPct)+'%;background:var(--st-partial)"></div></div><div class="pct">'+c.ss.reviewed+'/'+c.ss.total+' · '+confPct+'%✓</div></div>';
+    h+='<div class="barRow click" onclick="jumpToPerspective('+ja(c.e.i)+')" style="cursor:pointer"><div class="lbl" title="'+esc(c.e.n)+'">'+esc(c.e.n)+'</div><div class="bar"><div class="seg" style="width:'+confPct+'%;background:var(--st-instantiated)"></div><div class="seg" style="width:'+Math.max(0,revPct-confPct)+'%;background:var(--st-partial)"></div></div><div class="pct">'+c.ss.reviewed+'/'+c.ss.total+' · '+confPct+'%✓</div></div>';
   });
   h+='</div>';
   const byType={};
@@ -1038,7 +1112,7 @@ function renderDash(){
     h+='<table class="tbl"><tr><th>Reference ABB</th><th>Type</th><th>Status</th><th>Reason</th><th>Local ABBs</th><th>Notes</th></tr>';
     attention.forEach(e=>{
       const ovr=(state.overrides[e.i]||{}).reason;
-      h+='<tr class="click" onclick="jumpTo(\''+e.i+'\')"><td><b>'+esc(e.n)+'</b></td><td>'+typeLabel(e.t)+'</td><td>'+chipHTML(refStatus(e.i))+'</td><td>'+(ovr&&REASONS[ovr]?REASONS[ovr][0]:'')+'</td><td>'+abbsForRef(e.i).map(a=>esc(a.name)).join(', ')+'</td><td style="max-width:300px">'+esc(refNotes(e.i))+'</td></tr>';
+      h+='<tr class="click" onclick="jumpTo('+ja(e.i)+')"><td><b>'+esc(e.n)+'</b></td><td>'+esc(typeLabel(e.t))+'</td><td>'+chipHTML(refStatus(e.i))+'</td><td>'+(ovr&&REASONS[ovr]?REASONS[ovr][0]:'')+'</td><td>'+abbsForRef(e.i).map(a=>esc(a.name)).join(', ')+'</td><td style="max-width:300px">'+esc(refNotes(e.i))+'</td></tr>';
     });
     h+='</table>';
   } else h+='<div class="hint">Nothing flagged yet.</div>';
@@ -1072,7 +1146,7 @@ function barRow(label,els){
   const done=n-c.unreviewed;
   return '<div class="barRow"><div class="lbl" title="'+esc(label)+'">'+esc(label)+'</div><div class="bar">'+segs+'</div><div class="pct">'+done+'/'+n+' assessed</div></div>';
 }
-function jumpTo(id){ showTab('browse'); filter={folder:null,type:null}; query=''; document.getElementById('q').value=''; statusFilter=''; document.getElementById('statusFilter').value=''; refresh(); openDetail(id); const row=document.querySelector('.row[data-id="'+id+'"]'); if(row) row.scrollIntoView({block:'center'}); }
+function jumpTo(id){ showTab('browse'); filter={folder:null,type:null}; query=''; document.getElementById('q').value=''; statusFilter=''; document.getElementById('statusFilter').value=''; refresh(); openDetail(id); const row=document.querySelector('.row[data-id="'+CSS.escape(id)+'"]'); if(row) row.scrollIntoView({block:'center'}); }
 function jumpToPerspective(id){
   showTab('explore'); xInit();
   const e=byId[id]; if(!e) return;
@@ -1122,16 +1196,16 @@ function exportXML(){
   usedWho.forEach(id=>{
     const e=byId[id];
     const ov=state.overrides[id]||{};
-    x+='    <element identifier="'+xesc(id)+'" xsi:type="'+e.t+'">\n      <name xml:lang="en">'+xesc(e.n)+'</name>\n      <properties>\n';
+    x+='    <element identifier="'+xesc(id)+'" xsi:type="'+xesc(e.t)+'">\n      <name xml:lang="en">'+xesc(e.n)+'</name>\n      <properties>\n';
     x+='        <property propertyDefinitionRef="pd-origin"><value xml:lang="en">reference-abb</value></property>\n';
     x+='        <property propertyDefinitionRef="pd-status"><value xml:lang="en">'+refStatus(id)+'</value></property>\n';
-    if(ov.status) x+='        <property propertyDefinitionRef="pd-override"><value xml:lang="en">'+ov.status+'</value></property>\n';
+    if(ov.status) x+='        <property propertyDefinitionRef="pd-override"><value xml:lang="en">'+xesc(ov.status)+'</value></property>\n';
     if(ov.reason) x+='        <property propertyDefinitionRef="pd-reason"><value xml:lang="en">'+xesc(ov.reason)+'</value></property>\n';
     if(ov.notes) x+='        <property propertyDefinitionRef="pd-notes"><value xml:lang="en">'+xesc(ov.notes)+'</value></property>\n';
     x+='      </properties>\n    </element>\n';
   });
   abbs.forEach(a=>{
-    x+='    <element identifier="'+xesc(a.id)+'" xsi:type="'+a.type+'">\n      <name xml:lang="en">'+xesc(a.name)+'</name>\n';
+    x+='    <element identifier="'+xesc(a.id)+'" xsi:type="'+xesc(a.type)+'">\n      <name xml:lang="en">'+xesc(a.name)+'</name>\n';
     if(a.desc) x+='      <documentation xml:lang="en">'+xesc(a.desc)+'</documentation>\n';
     x+='      <properties>\n        <property propertyDefinitionRef="pd-origin"><value xml:lang="en">local-abb</value></property>\n      </properties>\n    </element>\n';
   });
@@ -1194,7 +1268,9 @@ function importXML(text){
     }
   });
   if(restored){
-    state = restored.version===2 ? restored : migrateV1(restored);
+    const st=restored.version===2 ? restored : migrateV1(restored);
+    const why=stateProblem(st); if(why!==null) throw new Error(why);
+    state=st;
   } else {
     const st={version:2,meta:{organisation:'',country:'',author:'',notes:''},abbs:{},sbbs:{},overrides:{}};
     const props=el=>{ const o={}; el.querySelectorAll(':scope > properties > property').forEach(p=>{ const n=defs[p.getAttribute('propertyDefinitionRef')]; const v=p.querySelector('value'); if(n&&v) o[n]=v.textContent; }); return o; };
@@ -1202,6 +1278,9 @@ function importXML(text){
       const id=el.getAttribute('identifier'); const pr=props(el);
       const nm=(el.querySelector('name')||{}).textContent||'';
       const ty=el.getAttribute('xsi:type')||el.getAttributeNS('http://www.w3.org/2001/XMLSchema-instance','type')||'ApplicationComponent';
+      if(!validId(id)) throw new Error('an element has an unexpected id');
+      if(!validType(ty)) throw new Error('an element has an unexpected type');
+      if(pr['manual-override']&&!OVERRIDES.includes(pr['manual-override'])) throw new Error('an element has an unexpected status');
       if(pr.origin==='local-abb') st.abbs[id]={id:id,name:nm,type:ty,desc:'',refIds:[]};
       else if(pr.origin==='sbb') st.sbbs[id]={id:id,name:nm,product:pr.product||'',version:pr.version||'',desc:'',abbIds:[],refIds:[]};
       else if(pr.origin==='local'&&!byId[id]) st.abbs[id]={id:id,name:nm,type:ty,desc:'',refIds:[]};

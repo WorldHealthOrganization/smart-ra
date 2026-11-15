@@ -1,0 +1,1 @@
+The Health Workforce Registry is an analogous component in the provider domain — it does for health workers what the Client Registry does for health service users. The two are architecturally parallel and share many functional patterns, including multi-identifier management, deduplication, and standards-based API conventions.

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0894",
+  "summary": "The proposed equity mechanisms focus on representation within governance bodies but do not require assessment of actual…",
+  "comment": "The proposed equity mechanisms focus on representation within governance bodies but do not require assessment of actual distributional effects arising from architecture decisions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-3-f00e46",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0894",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 130,
+      "entry": "129",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.3",
+      "page": "56",
+      "lines": "Lines 320-326",
+      "raw": "§3.4.3 p.56 l.Lines 320-326"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-3-f00e46",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-3-be6870"
+      ],
+      "note": "p.56 l.Lines 320-326 read as the printed page; section 3.4.3 agrees"
+    },
+    "text": "The proposed equity mechanisms focus on representation within governance bodies but do not require assessment of actual distributional effects arising from architecture decisions.",
+    "suggestedRevision": "Require an equity-impact assessment for major decisions, examining who gains access, who bears data-entry and compliance burdens, who may be excluded, and whether benefits and risks are distributed fairly across regions and population groups.",
+    "labels": {
+      "Comment type": "Q12 - Applicability and equity"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 130"
+      }
+    ]
+  }
+}

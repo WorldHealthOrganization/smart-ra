@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-3-3",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:3-3",
+  "kind": "table",
+  "text": "t-3-3.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 236,
+      "page": 53,
+      "printedPage": "42",
+      "lineStart": 62,
+      "method": "numbered-start"
+    }
+  },
+  "provenance": "authored"
+}

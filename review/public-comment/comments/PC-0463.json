@@ -1,0 +1,78 @@
+{
+  "id": "pc-0463",
+  "summary": "The exclusion of point-of-care clinical systems from DPI-H is correct and important. It is also the classification most…",
+  "comment": "The exclusion of point-of-care clinical systems from DPI-H is correct and important. It is also the classification most likely to be contested by ministries and vendors, because these systems consume the largest share of national digital health spending. The draft states the boundary but does not defend it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-1-6b7238",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0463",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 463,
+      "entry": "462",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.1",
+      "page": "65",
+      "lines": "582",
+      "raw": "§3.5.1 p.65 l.582"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-1-6b7238",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.65 l.582 read as the printed page; section 3.5.1 agrees"
+    },
+    "type": "technical",
+    "text": "The exclusion of point-of-care clinical systems from DPI-H is correct and important. It is also the classification most likely to be contested by ministries and vendors, because these systems consume the largest share of national digital health spending. The draft states the boundary but does not defend it.",
+    "suggestedRevision": "Justify the exclusion using the dependency logic: a clinical record system has a working, if costly, exit - providers do replace them - so the public interest is secured by requirements on the product (conformance, exportability, ability to apply and honour access restrictions) rather than by public holdership of the function. Add that such systems remain a vital delivery layer on which conformance requirements should rest, so exclusion from DPI-H is not exclusion from regulation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 463"
+      }
+    ]
+  }
+}

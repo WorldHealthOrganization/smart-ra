@@ -1,0 +1,78 @@
+{
+  "id": "pc-2481",
+  "summary": "Semantic pathway acceptance tests — Generic terminology operations do not by themselves test the clinical-to-statistica…",
+  "comment": "Semantic pathway acceptance tests — Generic terminology operations do not by themselves test the clinical-to-statistical continuity the architecture promises. This is proposed acceptance-test design, informed by WHO coding guidance (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf) and the local continuity paper.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-b09317",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2481",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 24,
+      "entry": "23",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.7.4, Planning testing from the architecture",
+      "page": "84",
+      "lines": "A09.01",
+      "raw": "§§3.7.4, Planning testing from the architecture p.84 l.A09.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-b09317",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-4-7a4f40",
+        "prose:3-7-4-d096f9",
+        "prose:3-7-4-ad907b"
+      ],
+      "note": "p.84 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Semantic pathway acceptance tests — Generic terminology operations do not by themselves test the clinical-to-statistical continuity the architecture promises. This is proposed acceptance-test design, informed by WHO coding guidance (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf) and the local continuity paper.",
+    "suggestedRevision": "Insert paragraph; coordinate with B03.01–B03.02: Testing shall include the semantic pathway selected for the use case. For an ICD-11 pathway, test cases should cover identification of the code system and release; preservation of the selected Foundation entity, MMS code, and postcoordinated expression where used; multilingual display without change of concept identity; applicable coding constraints; and preservation of the original statement and clinical context through storage, exchange, and retrieval. Statistical tests should verify the intended selection and aggregation rules and retain traceability to source data. Code existence, value-set membership, syntactic conformance, clinical coding correctness, and fitness for the intended decision are different assertions and should have separate test results. The same outcome-based criteria should be used when comparing alternative semantic implementations.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 24"
+      }
+    ]
+  }
+}

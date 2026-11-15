@@ -1,0 +1,73 @@
+{
+  "id": "pc-2658",
+  "summary": "Reducing duplicate reporting is a sound objective, but defining the LHR as the primary universal source for HMIS data i…",
+  "comment": "Reducing duplicate reporting is a sound objective, but defining the LHR as the primary universal source for HMIS data is too restrictive. Health-system monitoring commonly depends on administrative and statistical datasets that are not, and should not necessarily become, part of a longitudinal clinical record. For example, activity reporting, waiting-list information, healthcare-facility registers, financing data and population-level statistical systems have different purposes, structures and governance from the clinical EHR. Spain's SNS information environment illustrates this multi-source pattern: the Ministry's current treatment inventory separately identifies HCDSNS, RAE-CMBD, BDCAP, SIAE, waiting-list systems, REGCESS, RESNS and BDPP-SNS, among others. The appropriate architectural principle is therefore reuse authoritative data and eliminate unnecessary duplicate capture, rather than require all health-system information to originate in the LHR.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-1146af",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2658",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 36,
+      "entry": "26",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Health Management Information System",
+      "page": "212",
+      "lines": "114-116",
+      "raw": "§Appendix C: Health Management Information System p.212 l.114-116"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-1146af",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.212 l.114-116 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "Reducing duplicate reporting is a sound objective, but defining the LHR as the primary universal source for HMIS data is too restrictive. Health-system monitoring commonly depends on administrative and statistical datasets that are not, and should not necessarily become, part of a longitudinal clinical record. For example, activity reporting, waiting-list information, healthcare-facility registers, financing data and population-level statistical systems have different purposes, structures and governance from the clinical EHR. Spain's SNS information environment illustrates this multi-source pattern: the Ministry's current treatment inventory separately identifies HCDSNS, RAE-CMBD, BDCAP, SIAE, waiting-list systems, REGCESS, RESNS and BDPP-SNS, among others. The appropriate architectural principle is therefore reuse authoritative data and eliminate unnecessary duplicate capture, rather than require all health-system information to originate in the LHR.",
+    "suggestedRevision": "Replace with: “The LHR may be an important source of person-level clinical data for the HMIS. However, HMIS architectures should support multiple governed authoritative sources according to the indicator and use case, including clinical records, administrative and activity datasets, population and disease registries, laboratory systems, surveys, financing systems and other relevant health-information sources. DPI-H should minimise unnecessary duplicate reporting while preserving purpose-specific authoritative datasets and provenance.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 36"
+      }
+    ]
+  }
+}

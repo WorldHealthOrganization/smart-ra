@@ -1,0 +1,77 @@
+{
+  "id": "pc-0232",
+  "summary": "Issue: Requirement 23 (\"Federation with international sources\") which covers synchronisation with content published by …",
+  "comment": "Issue: Requirement 23 (\"Federation with international sources\") which covers synchronisation with content published by international terminology authorities including SNOMED International, WHO-FIC, and Regenstrief, is classified as Recommended, not Required. This means a national Terminology Service can achieve full DPI-H conformance without establishing any formal connection to international SDOs for terminology updates.\n\nThis is a serious structural deficiency. SNOMED CT, ICD-11, and LOINC all publish versioned releases on defined cycles (SNOMED CT: monthly; ICD-11: annual; LOINC: biannual). A national Terminology Service that does not federate with these sources will progressively diverge from authoritative international content, producing the exact semantic fragmentation that the SGI concept is designed to prevent. The classification as Recommended effectively makes international alignment optional which contradicts the document's stated purpose and the intent of §3.4.5.\n\nElevating this requirement to Required would be consistent with: (a) the document's own statement that the TS must manage the \"lifecycle of terminologies from international adoption through national extension to local use\" (p. 174); (b) the SGI governance notes in §3.4.5; and (c) the international release cycle governance comment already submitted in the formal matrix (Comment #8).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0232",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 232,
+      "entry": "231",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C, Functional Requirements, Requirement 23",
+      "page": "180",
+      "raw": "§Appendix C, Functional Requirements, Requirement 23 p.180"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "Issue: Requirement 23 (\"Federation with international sources\") which covers synchronisation with content published by international terminology authorities including SNOMED International, WHO-FIC, and Regenstrief, is classified as Recommended, not Required. This means a national Terminology Service can achieve full DPI-H conformance without establishing any formal connection to international SDOs for terminology updates.\n\nThis is a serious structural deficiency. SNOMED CT, ICD-11, and LOINC all publish versioned releases on defined cycles (SNOMED CT: monthly; ICD-11: annual; LOINC: biannual). A national Terminology Service that does not federate with these sources will progressively diverge from authoritative international content, producing the exact semantic fragmentation that the SGI concept is designed to prevent. The classification as Recommended effectively makes international alignment optional which contradicts the document's stated purpose and the intent of §3.4.5.\n\nElevating this requirement to Required would be consistent with: (a) the document's own statement that the TS must manage the \"lifecycle of terminologies from international adoption through national extension to local use\" (p. 174); (b) the SGI governance notes in §3.4.5; and (c) the international release cycle governance comment already submitted in the formal matrix (Comment #8).",
+    "suggestedRevision": "Suggested revision: Elevate Requirement 23 from Recommended to Required. Add: \"Without active federation with international terminology authorities, national Terminology Services will diverge from authoritative content releases, undermining the semantic comparability DPI-H is designed to achieve. Federation with SNOMED International (for SNOMED CT/GPS), WHO-FIC (for ICD-11), and Regenstrief (for LOINC) is therefore a conformance requirement, not an optional enhancement.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 232"
+      }
+    ]
+  }
+}

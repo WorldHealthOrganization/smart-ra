@@ -1,0 +1,87 @@
+{
+  "id": "pc-0473",
+  "summary": "Sustainability covers creation and operation but not retirement. Standards, specifications and components are replaced,…",
+  "comment": "Sustainability covers creation and operation but not retirement. Standards, specifications and components are replaced, and the draft does not say who carries the residual cost of what is withdrawn. In practice those costs land on parties that did not decide, which is a disincentive to adopt the next generation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0473",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 473,
+      "entry": "472",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.2",
+      "page": "102",
+      "lines": "566",
+      "raw": "§4.6.2 p.102 l.566"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-2-f08184"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Asks to add decommissioning to the sustainability dimensions listed in §4.6.2 (cited l.566)."
+    },
+    "type": "technical",
+    "text": "Sustainability covers creation and operation but not retirement. Standards, specifications and components are replaced, and the draft does not say who carries the residual cost of what is withdrawn. In practice those costs land on parties that did not decide, which is a disincentive to adopt the next generation.",
+    "suggestedRevision": "Add decommissioning to the sustainability dimensions: every new component carries a stated end-of-life review point and a funded decommissioning provision in its cost base, so the cost of withdrawal is budgeted before the cost of build is incurred. This also gives countries a defence against accumulating parallel generations of the same capability, a documented pattern in the Netherlands where successive national programmes were added without any being retired.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 473"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Asks to add decommissioning to the sustainability dimensions listed in §4.6.2 (cited l.566)."
+      }
+    ]
+  }
+}

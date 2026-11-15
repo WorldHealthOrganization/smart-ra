@@ -1,0 +1,78 @@
+{
+  "id": "pc-0294",
+  "summary": "The body text refers to Box 2, Box 3 and Box 4, while the boxes themselves are labelled Box 1.2, Box 1.3 and Box 1.4.",
+  "comment": "The body text refers to Box 2, Box 3 and Box 4, while the boxes themselves are labelled Box 1.2, Box 1.3 and Box 1.4.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-1-99bfd1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0294",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 294,
+      "entry": "293",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.2",
+      "page": "13-16",
+      "lines": "206, 223, 259",
+      "raw": "§1.2 p.13-16 l.206, 223, 259"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-1-99bfd1",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.13-16 l.206, 223, 259 read as the printed page; section 1.2 agrees"
+    },
+    "type": "editorial",
+    "text": "The body text refers to Box 2, Box 3 and Box 4, while the boxes themselves are labelled Box 1.2, Box 1.3 and Box 1.4.",
+    "suggestedRevision": "Align the in-text references with the box labels.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 294"
+      }
+    ]
+  }
+}

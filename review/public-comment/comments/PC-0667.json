@@ -1,0 +1,82 @@
+{
+  "id": "pc-0667",
+  "summary": "Concerns / changes: While Norway/IMDI strongly supports the overall direction of the guidance, several areas could be s…",
+  "comment": "Concerns / changes: While Norway/IMDI strongly supports the overall direction of the guidance, several areas could be strengthened further.\nWe acknowledge WHOs important role in sharing knowledge, guiding and promoting alignment in health architecture globally. We understand that the primary audience for this guidance is at national-level focusing on national implementation. However, we do believe that the document would benefit from a stronger global perspective as health challenges inevitably transcend national boundaries, and consequently pandemics, public health surveillance, cross-border healthcare, international research collaboration, and global data sharing require cross border considerations. WHO's normative role and existing global public goods facilitates such collaboration, and we recommend this to be more explicitly leveraged throughout this guidance document. (Specified in bullet point 1).\n\nUnder this heading, Norway/IMDI recommends a stronger emphasis on WHO's own terminologies and classifications. WHO-FIC, including ICD, ICF, ICHI, and ATC, ICD-O and others, should be positioned as primary reference models whenever semantic interoperability and terminology governance are discussed. These internationally governed and widely adopted systems provide an important foundation for global comparability, data reuse, and equitable access. We therefore specifically recommend references to WHO standards to precede references to non-WHO terminologies, which may instead be presented as complementary solutions where appropriate. (Specified in bullet point 2). For some background, see: https://www.who.int/standards/classifications/clinician-documentation-hub).\n\nWe also suggest that you may consider highlighting use of WHO products in AI.  As mentioned above, the WHO-FIC Foundation provides a globally governed semantic resource that can support trusted AI applications through standardized concepts and classifications (https://www.who.int/standards/classifications/frequently-asked-questions/icd-11-implementation, see bullet point 28).\n\nWe further suggest that the guidance would benefit from greater visibility of WHO's mature governance models. The longstanding governance arrangements supporting WHO classifications demonstrate how Member States, clinicians, technical experts, and subject-matter specialists can collaborate to develop and maintain global health standards. Including these experiences in the consideration or as examples could provide valuable lessons for countries establishing their own governance structures (https://www.who.int/publications/m/item/who-fic-family-paper). (Specified in bullet point 3).\n\nFinally, Norway/IMDI recommends strengthening the strategic role of clinical and public health leadership within the governance framework. While clinical expertise is referenced throughout the document, clinical governance does not appear to be given the same strategic prominence as architecture, security, and interoperability governance. Based on Norway/IMDI's experience, a key factor for succeeding on in digital health architecture development, is to involve clinical and public health expertise throughout all stages of development and implementation, including at the highest decision-making levels. This ensures patient safety, quality of care, and public health objectives are adequately addressed also under the development of digital architecture.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0667",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 667,
+      "entry": "666",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-06fa6918a8",
+      "name": "Information Management and Methods Division",
+      "organisation": "The Norwegian Directorate of Health",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Asks for stronger global/cross-border perspective throughout the document."
+    },
+    "type": "general",
+    "text": "Concerns / changes: While Norway/IMDI strongly supports the overall direction of the guidance, several areas could be strengthened further.\nWe acknowledge WHOs important role in sharing knowledge, guiding and promoting alignment in health architecture globally. We understand that the primary audience for this guidance is at national-level focusing on national implementation. However, we do believe that the document would benefit from a stronger global perspective as health challenges inevitably transcend national boundaries, and consequently pandemics, public health surveillance, cross-border healthcare, international research collaboration, and global data sharing require cross border considerations. WHO's normative role and existing global public goods facilitates such collaboration, and we recommend this to be more explicitly leveraged throughout this guidance document. (Specified in bullet point 1).\n\nUnder this heading, Norway/IMDI recommends a stronger emphasis on WHO's own terminologies and classifications. WHO-FIC, including ICD, ICF, ICHI, and ATC, ICD-O and others, should be positioned as primary reference models whenever semantic interoperability and terminology governance are discussed. These internationally governed and widely adopted systems provide an important foundation for global comparability, data reuse, and equitable access. We therefore specifically recommend references to WHO standards to precede references to non-WHO terminologies, which may instead be presented as complementary solutions where appropriate. (Specified in bullet point 2). For some background, see: https://www.who.int/standards/classifications/clinician-documentation-hub).\n\nWe also suggest that you may consider highlighting use of WHO products in AI.  As mentioned above, the WHO-FIC Foundation provides a globally governed semantic resource that can support trusted AI applications through standardized concepts and classifications (https://www.who.int/standards/classifications/frequently-asked-questions/icd-11-implementation, see bullet point 28).\n\nWe further suggest that the guidance would benefit from greater visibility of WHO's mature governance models. The longstanding governance arrangements supporting WHO classifications demonstrate how Member States, clinicians, technical experts, and subject-matter specialists can collaborate to develop and maintain global health standards. Including these experiences in the consideration or as examples could provide valuable lessons for countries establishing their own governance structures (https://www.who.int/publications/m/item/who-fic-family-paper). (Specified in bullet point 3).\n\nFinally, Norway/IMDI recommends strengthening the strategic role of clinical and public health leadership within the governance framework. While clinical expertise is referenced throughout the document, clinical governance does not appear to be given the same strategic prominence as architecture, security, and interoperability governance. Based on Norway/IMDI's experience, a key factor for succeeding on in digital health architecture development, is to involve clinical and public health expertise throughout all stages of development and implementation, including at the highest decision-making levels. This ensures patient safety, quality of care, and public health objectives are adequately addressed also under the development of digital architecture.",
+    "labels": {
+      "Stakeholder type": "Ministry of health or national health authority",
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 667"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Asks for stronger global/cross-border perspective throughout the document."
+      }
+    ]
+  }
+}

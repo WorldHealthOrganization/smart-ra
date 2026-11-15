@@ -1,0 +1,74 @@
+{
+  "id": "pc-0743",
+  "summary": "The draft has a component for the individual at the point of care (CDSE) and one for the population in aggregate (HMIS)…",
+  "comment": "The draft has a component for the individual at the point of care (CDSE) and one for the population in aggregate (HMIS). A third job sits between them: tracking one person's care commitments across systems and over time. No component owns it. We recommend naming this layer and placing the C1 capability in it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0743",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 743,
+      "entry": "742",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§3.5.3 taxonomy; CDSE↔HMIS (p.66–70, 184–185)",
+      "lines": "C5",
+      "raw": "§§3.5.3 taxonomy; CDSE↔HMIS (p.66–70, 184–185) l.C5"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.5.3 only"
+    },
+    "text": "The draft has a component for the individual at the point of care (CDSE) and one for the population in aggregate (HMIS). A third job sits between them: tracking one person's care commitments across systems and over time. No component owns it. We recommend naming this layer and placing the C1 capability in it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 743"
+      }
+    ]
+  }
+}

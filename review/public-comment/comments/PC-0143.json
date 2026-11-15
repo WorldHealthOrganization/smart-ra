@@ -1,0 +1,81 @@
+{
+  "id": "pc-0143",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-f1f11b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0143",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 143,
+      "entry": "142",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1",
+      "page": "8",
+      "lines": "2-3",
+      "raw": "§1.1 p.8 l.2-3"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-f1f11b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-1-1-dcc314",
+        "prose:1-1-2-95b13c"
+      ],
+      "note": "p.8 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "Adressing the Referance Architecture for Health Digital Public Infrastructure (DPI-H) Guidance",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 143"
+      }
+    ]
+  }
+}

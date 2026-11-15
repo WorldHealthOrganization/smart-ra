@@ -1,0 +1,77 @@
+{
+  "id": "pc-0147",
+  "summary": "The first aspect is focused on collective resources. DPI-H is not a compilation of specialised tools or service-specifi…",
+  "comment": "The first aspect is focused on collective resources. DPI-H is not a compilation of specialised tools or service-specific apps; rather, it is an infrastructure that is communal, reusable and accessible to all stakeholders in the health system, eliminating the need for each to develop comparable capablilities independently. The second pertains to the connection between DPI-H and fundamental DPI. DPI-H does not aim to duplicate the offerings of foundational DPI; instead, it enhances and supplements them with the specialised funstionalities necessary for the health sector that general-purpose DPI cannot fulfil. Where basic DPI is present and available, DPI-H expands upon it. In instances where it falls short, DPI-H delivers the crucial functionalities required for the health system to operate, while maintaining an architechturally flexible framework for integration as the larger digital ecosystem evolves.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-55bcec",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0147",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 147,
+      "entry": "146",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "10",
+      "lines": "62-71",
+      "raw": "§1.1.2 p.10 l.62-71"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-55bcec",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.10 l.62-71 read as the printed page; section 1.1.2 agrees"
+    },
+    "type": "editorial",
+    "text": "The first aspect is focused on collective resources. DPI-H is not a compilation of specialised tools or service-specific apps; rather, it is an infrastructure that is communal, reusable and accessible to all stakeholders in the health system, eliminating the need for each to develop comparable capablilities independently. The second pertains to the connection between DPI-H and fundamental DPI. DPI-H does not aim to duplicate the offerings of foundational DPI; instead, it enhances and supplements them with the specialised funstionalities necessary for the health sector that general-purpose DPI cannot fulfil. Where basic DPI is present and available, DPI-H expands upon it. In instances where it falls short, DPI-H delivers the crucial functionalities required for the health system to operate, while maintaining an architechturally flexible framework for integration as the larger digital ecosystem evolves.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 147"
+      }
+    ]
+  }
+}

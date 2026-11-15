@@ -1,0 +1,82 @@
+{
+  "id": "pc-2647",
+  "summary": "FHIR is appropriately identified as a major framework for modern interoperability, and the proposed amendment does not …",
+  "comment": "FHIR is appropriately identified as a major framework for modern interoperability, and the proposed amendment does not weaken that recommendation.\nHowever, a global reference architecture should distinguish FHIR as an interoperability framework from a particular FHIR release.\nMature national infrastructures may use different releases during migration, and jurisdiction-specific implementation specifications may define the applicable profiles and versions.\nThe draft itself correctly states that generic FHIR conformance does not guarantee shared meaning and that two valid FHIR implementations can remain semantically inconsistent unless they conform to the same governed information model. A release-neutral formulation would therefore be more consistent with the Guidance's own semantic-interoperability approach and would avoid unnecessary coupling of the architecture to FHIR R5.\nIMPORTANT: the current proposal in the implementing acts of the EHDS regulation is NOT to use FHIR R5, but a different version.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:4-3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2647",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 25,
+      "entry": "15",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3 Profiles and Specifications for Implementation",
+      "page": "94",
+      "lines": "306\n309-310\nFootnote",
+      "raw": "§4.3 Profiles and Specifications for Implementation p.94 l.306\n309-310\nFootnote"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-3",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-2-55188b"
+      ],
+      "note": "placed by a placement agent reading the comment against the text (medium): cites p.94 l.306, 309-310, which is not 4.3; the comment is about FHIR as the recommended framework, the title and subject of 4.3.3"
+    },
+    "type": "technical",
+    "text": "FHIR is appropriately identified as a major framework for modern interoperability, and the proposed amendment does not weaken that recommendation.\nHowever, a global reference architecture should distinguish FHIR as an interoperability framework from a particular FHIR release.\nMature national infrastructures may use different releases during migration, and jurisdiction-specific implementation specifications may define the applicable profiles and versions.\nThe draft itself correctly states that generic FHIR conformance does not guarantee shared meaning and that two valid FHIR implementations can remain semantically inconsistent unless they conform to the same governed information model. A release-neutral formulation would therefore be more consistent with the Guidance's own semantic-interoperability approach and would avoid unnecessary coupling of the architecture to FHIR R5.\nIMPORTANT: the current proposal in the implementing acts of the EHDS regulation is NOT to use FHIR R5, but a different version.",
+    "suggestedRevision": "Retain FHIR as a recommended framework but amend to: “HL7 FHIR is a major recommended framework for implementing standards-based health-data exchange APIs. Conformance should be assessed against the applicable implementation guide, profile, terminology bindings and semantic model. The Reference Architecture should remain neutral regarding the FHIR release unless a specific release is required by an applicable jurisdictional or programme specification, and should accommodate equivalent standards-based implementations and managed migration paths for established infrastructures.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 25"
+      },
+      {
+        "at": "2026-10-15T11:15:03.388Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): cites p.94 l.306, 309-310, which is not 4.3; the comment is about FHIR as the recommended framework, the title and subject of 4.3.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0295",
+  "summary": "The goal-to-DPI mapping spreadsheets are referenced as placeholder tokens, for example [HG2_Health_Workforce_Mapping] a…",
+  "comment": "The goal-to-DPI mapping spreadsheets are referenced as placeholder tokens, for example [HG2_Health_Workforce_Mapping] at line 274 and [HG3_Quality_Continuity_Care_Mapping] at line 307, and are not included in the review draft. They are the one artefact that would show which foundational-DPI trust and identity services each health goal depends on, which bears on several comments above.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:e-37b7cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0295",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 295,
+      "entry": "294",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix E",
+      "page": "237-240",
+      "lines": "274 and 307",
+      "raw": "§Appendix E p.237-240 l.274 and 307"
+    },
+    "anchor": {
+      "targetLabel": "prose:e-37b7cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:e-e01128"
+      ],
+      "note": "p.237-240 l.274 and 307 read as the printed page; section E agrees"
+    },
+    "type": "editorial",
+    "text": "The goal-to-DPI mapping spreadsheets are referenced as placeholder tokens, for example [HG2_Health_Workforce_Mapping] at line 274 and [HG3_Quality_Continuity_Care_Mapping] at line 307, and are not included in the review draft. They are the one artefact that would show which foundational-DPI trust and identity services each health goal depends on, which bears on several comments above.",
+    "suggestedRevision": "Include the mapping spreadsheets, or a link to them, in the consultation materials so they can be reviewed.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 295"
+      }
+    ]
+  }
+}

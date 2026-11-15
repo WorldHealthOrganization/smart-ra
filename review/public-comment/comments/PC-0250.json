@@ -1,0 +1,84 @@
+{
+  "id": "pc-0250",
+  "summary": "This submission is based on a full reading of Chapter 1 and Chapter 2 only. Chapters 3, 4 and 5, and the appendices, we…",
+  "comment": "This submission is based on a full reading of Chapter 1 and Chapter 2 only. Chapters 3, 4 and 5, and the appendices, were not reviewed. Comments 1, 2, 5 and 7 concern artificial intelligence and may overlap with Chapter 5 (Future-proofing the Architecture), which the reviewer has not read; where they duplicate material already present there, they should be disregarded.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0250",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 250,
+      "entry": "249",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "NOTE ON SCOPE OF THIS REVIEW",
+      "page": "—",
+      "lines": "—",
+      "raw": "§NOTE ON SCOPE OF THIS REVIEW p.— l.—"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Scope note about which chapters the reviewer read"
+    },
+    "text": "This submission is based on a full reading of Chapter 1 and Chapter 2 only. Chapters 3, 4 and 5, and the appendices, were not reviewed. Comments 1, 2, 5 and 7 concern artificial intelligence and may overlap with Chapter 5 (Future-proofing the Architecture), which the reviewer has not read; where they duplicate material already present there, they should be disregarded.",
+    "suggestedRevision": "—",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No",
+      "Comment type": "Administrative"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 250"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Scope note about which chapters the reviewer read"
+      }
+    ]
+  }
+}

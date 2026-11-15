@@ -1,0 +1,75 @@
+{
+  "id": "pc-2555",
+  "summary": "You have presented this as two systems but in reality the situation is much more complex.HRIS - may be a single system …",
+  "comment": "You have presented this as two systems but in reality the situation is much more complex.HRIS - may be a single system for the public sector, sometimes there may be multiple systems even in the public sector (eg. (a) in countries with federal systems, each state may have their own HRIS, (b) MoH owned and operated health facilities may have a single HRIS, while those health facilities operated by other departments/Ministries (eg. defence, labour, railways, etc) may have their own HRIS). Meanwhile, private sector may be heavily fragmented, each hospital operating their own HRIS or perhaps clinics doing it all offline using facility registers.LMS - again, this could be extremely fragmented, with each health workforce education and training institution having their own LMS.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2555",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 34,
+      "entry": "33",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-204787cd1e",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-290683",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Says HRIS and LMS are presented as two systems; that is the Architecture Placement box."
+    },
+    "text": "You have presented this as two systems but in reality the situation is much more complex.HRIS - may be a single system for the public sector, sometimes there may be multiple systems even in the public sector (eg. (a) in countries with federal systems, each state may have their own HRIS, (b) MoH owned and operated health facilities may have a single HRIS, while those health facilities operated by other departments/Ministries (eg. defence, labour, railways, etc) may have their own HRIS). Meanwhile, private sector may be heavily fragmented, each hospital operating their own HRIS or perhaps clinics doing it all offline using facility registers.LMS - again, this could be extremely fragmented, with each health workforce education and training institution having their own LMS.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 34"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Says HRIS and LMS are presented as two systems; that is the Architecture Placement box."
+      }
+    ]
+  }
+}

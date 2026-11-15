@@ -1,0 +1,74 @@
+{
+  "id": "pc-0734",
+  "summary": "The SNOMED CT–to–LOINC concept-map example effectively re-derives a mapping relationship without reference to the exist…",
+  "comment": "The SNOMED CT–to–LOINC concept-map example effectively re-derives a mapping relationship without reference to the existing, LOINC Ontology: LOINC- SNOMED CT Interoperability Solution already published by Regenstrief and SNOMED International",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0734",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 734,
+      "entry": "733",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc0c42fb96",
+      "organisation": "Regenstrief Institute (LOINC, UCUM)",
+      "country": "United States"
+    },
+    "citation": {
+      "section": "5. §3.5.3.2 concept-map example (pp. 68–70); Appendix C – “Concept map management” (p. 165)",
+      "lines": "#5",
+      "raw": "§5. §3.5.3.2 concept-map example (pp. 68–70); Appendix C – “Concept map management” (p. 165) l.#5"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "The SNOMED CT–to–LOINC concept-map example effectively re-derives a mapping relationship without reference to the existing, LOINC Ontology: LOINC- SNOMED CT Interoperability Solution already published by Regenstrief and SNOMED International",
+    "suggestedRevision": "Add a citation/footnote pointing implementers to the existing LOINC Ontology: LOINC-SNOMED CT Interoperability Solution so national teams build on established work rather than re-mapping independently.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 734"
+      }
+    ]
+  }
+}

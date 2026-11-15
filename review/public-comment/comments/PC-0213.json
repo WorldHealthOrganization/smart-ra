@@ -1,0 +1,78 @@
+{
+  "id": "pc-0213",
+  "summary": "Conformance testing is correctly linked to procurement, but the draft would be more useful if it provided model require…",
+  "comment": "Conformance testing is correctly linked to procurement, but the draft would be more useful if it provided model requirements that ministries and development partners could insert into tenders and acceptance procedures.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-5-92909d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0213",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 213,
+      "entry": "212",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.5",
+      "page": "98",
+      "lines": "398–408",
+      "raw": "§4.3.5 p.98 l.398–408"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-5-92909d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98 l.398–408 read as the printed page; section 4.3.5 agrees"
+    },
+    "type": "technical",
+    "text": "Conformance testing is correctly linked to procurement, but the draft would be more useful if it provided model requirements that ministries and development partners could insert into tenders and acceptance procedures.",
+    "suggestedRevision": "Include adaptable procurement clauses requiring published national FHIR profiles and APIs, testing in an approved environment, secure data export and migration, full documentation, disclosed recurrent costs, security and audit compliance, offline capability where relevant, knowledge transfer, and retesting after major system updates.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 213"
+      }
+    ]
+  }
+}

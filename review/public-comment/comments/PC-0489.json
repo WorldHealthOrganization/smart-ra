@@ -1,0 +1,87 @@
+{
+  "id": "pc-0489",
+  "summary": "Governance maturity is described developmentally but without a mechanism for revising the arrangement itself. The most …",
+  "comment": "Governance maturity is described developmentally but without a mechanism for revising the arrangement itself. The most significant governance risk over the life of a health infrastructure is not immaturity but purpose expansion: capabilities built for care become available for research, oversight, enforcement or entitlement decisions, incrementally and by administrative decision.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0489",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 489,
+      "entry": "488",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.7",
+      "page": "63",
+      "lines": "517",
+      "raw": "§3.4.7 p.63 l.517"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-7",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-3-ff0e0e"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.7 governance maturity; asks for a revision mechanism."
+    },
+    "type": "technical",
+    "text": "Governance maturity is described developmentally but without a mechanism for revising the arrangement itself. The most significant governance risk over the life of a health infrastructure is not immaturity but purpose expansion: capabilities built for care become available for research, oversight, enforcement or entitlement decisions, incrementally and by administrative decision.",
+    "suggestedRevision": "Recommend that the legal instrument establishing DPI-H contain a revision clause requiring that any expansion of the purposes for which the infrastructure may be used be decided at the same level as its creation - legislative rather than administrative - with published justification. The most reliable protection against purpose creep is not technical control or supervision but the political cost of amending a law, and this is also the assurance that makes an objection-based model defensible to citizens who do not wish to participate.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 489"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.7 governance maturity; asks for a revision mechanism."
+      }
+    ]
+  }
+}

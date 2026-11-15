@@ -1,0 +1,74 @@
+{
+  "id": "pc-0752",
+  "summary": "Goal 3 sets no coordination measure. We recommend adding follow-up / referral completion as a Goal-3 indicator — the mo…",
+  "comment": "Goal 3 sets no coordination measure. We recommend adding follow-up / referral completion as a Goal-3 indicator — the most actionable coordination measure. In one real network, only ~7% of referrals were completed (4,707 of 67,478). Completion is an operational, leading measure, not the end in itself: where feasible it should be linked to downstream service delivery and outcomes — whether the person received the appropriate service in time, and whether continuity of care improved. A shared capability makes this visible and improvable.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0752",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 752,
+      "entry": "751",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§4.4 Measuring Progress (p.98–99)",
+      "lines": "C13",
+      "raw": "§§4.4 Measuring Progress (p.98–99) l.C13"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-4",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.4 only"
+    },
+    "text": "Goal 3 sets no coordination measure. We recommend adding follow-up / referral completion as a Goal-3 indicator — the most actionable coordination measure. In one real network, only ~7% of referrals were completed (4,707 of 67,478). Completion is an operational, leading measure, not the end in itself: where feasible it should be linked to downstream service delivery and outcomes — whether the person received the appropriate service in time, and whether continuity of care improved. A shared capability makes this visible and improvable.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 752"
+      }
+    ]
+  }
+}

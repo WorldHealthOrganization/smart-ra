@@ -1,0 +1,77 @@
+{
+  "id": "pc-1756",
+  "summary": "Full version history and lifecycle states are required, but the distinction among product version, packaging version, r…",
+  "comment": "Full version history and lifecycle states are required, but the distinction among product version, packaging version, regulatory status, item status, and publication status is not made.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-9abc28",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1756",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 992,
+      "entry": "991",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry, 3",
+      "page": "146",
+      "lines": "Lines 436-438",
+      "raw": "§Product Registry, 3 p.146 l.Lines 436-438"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-9abc28",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.146 l.Lines 436-438 read as the printed page; section 3 agrees"
+    },
+    "text": "Full version history and lifecycle states are required, but the distinction among product version, packaging version, regulatory status, item status, and publication status is not made.",
+    "suggestedRevision": "Define separate lifecycle dimensions and the effect of each status on ordering, dispensing, reporting, and historical records.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 992"
+      }
+    ]
+  }
+}

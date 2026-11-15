@@ -1,0 +1,76 @@
+{
+  "id": "pc-0677",
+  "summary": "Make international reuse a cross-cutting design principle",
+  "comment": "Make international reuse a cross-cutting design principle\n\nThe 'global core, national extension' principle should appear in the Executive Summary, the DPI-H design principles, Section 3.6.2, and the opening of Section 4.3. Repetition is warranted because these sections reach different audiences. The guidance should make clear that open standards are not merely documents to cite; they are governed by international communities and lifecycle processes that country representatives are invited to and should engage in.\n\nAdd standards and profile discovery before national specification\n\nBefore a country designs a new model, actor, transaction, API, or test, the implementation method should require a documented landscape review. That review should map each DPI-H capability and interaction to applicable international standards, IHE profiles, other established implementation guides, and available test assets. Only residual, unmet requirements should enter a national gap analysis and ultimately an effort to standardize the solution across the ecosystem.\n\nRoute generalizable gaps into international consensus processes\n\nWhen the architecture identifies a missing international specification, the default response should not be a separate national invention. WHO and ITU should encourage countries to submit the need, use case, and proposed requirements to the responsible international SDO or profiling organization. This is especially relevant where the draft itself identifies an active standardization gap, such as interaction models for Logical Information Model Repository capabilities. A shared backlog would enable expert review, implementation feedback, public comment, coordinated maintenance, and reuse by many countries.\n\nThe Global Digital Health Partnership (GDHP) as collaboration of national digital health agencies and WHO through its engagement with the Joint Initiative Council (JIC) of all relevant digital health standardization organizations provides a venue for this, as has been demonstrated with the International Patient Summary specifications.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-6-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0677",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 677,
+      "entry": "676",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive Summary; DPI-H design principles; Sections 3.6.2 and 4.3",
+      "raw": "§Executive Summary; DPI-H design principles; Sections 3.6.2 and 4.3"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-6-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.6.2 only"
+    },
+    "text": "Make international reuse a cross-cutting design principle\n\nThe 'global core, national extension' principle should appear in the Executive Summary, the DPI-H design principles, Section 3.6.2, and the opening of Section 4.3. Repetition is warranted because these sections reach different audiences. The guidance should make clear that open standards are not merely documents to cite; they are governed by international communities and lifecycle processes that country representatives are invited to and should engage in.\n\nAdd standards and profile discovery before national specification\n\nBefore a country designs a new model, actor, transaction, API, or test, the implementation method should require a documented landscape review. That review should map each DPI-H capability and interaction to applicable international standards, IHE profiles, other established implementation guides, and available test assets. Only residual, unmet requirements should enter a national gap analysis and ultimately an effort to standardize the solution across the ecosystem.\n\nRoute generalizable gaps into international consensus processes\n\nWhen the architecture identifies a missing international specification, the default response should not be a separate national invention. WHO and ITU should encourage countries to submit the need, use case, and proposed requirements to the responsible international SDO or profiling organization. This is especially relevant where the draft itself identifies an active standardization gap, such as interaction models for Logical Information Model Repository capabilities. A shared backlog would enable expert review, implementation feedback, public comment, coordinated maintenance, and reuse by many countries.\n\nThe Global Digital Health Partnership (GDHP) as collaboration of national digital health agencies and WHO through its engagement with the Joint Initiative Council (JIC) of all relevant digital health standardization organizations provides a venue for this, as has been demonstrated with the International Patient Summary specifications.",
+    "suggestedRevision": "Proposed cross-cutting principle\n\nCountries should adopt a global-core, national-extension approach. Before creating a new data model, actor, transaction, interface, terminology definition or implementation profile, national programs should evaluate and reuse applicable specifications maintained by recognized international Standards Development Organizations and established profiling organizations. National requirements should be expressed as transparent extensions or constraints that preserve interoperability with the international core. When a generalizable gap is identified, countries and regional bodies should work with the responsible international organization through an open, consensus-based process so that the resulting specification can be reviewed, tested, maintained, and reused globally.\n\nProposed addition at the beginning of Section 4.3\n\nProfiles for implementation should be selected through a reuse-first process: first map each DPI-H capability and interaction to existing international standards, IHE profiles, and other established implementation guides; identify only the residual unmet requirements; submit generalizable gaps to the relevant international development process; define a national extension only where a jurisdiction-specific requirement remains; and publish computable conformance artifacts and test plans for both the international core and the extension.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 677"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-281",
+  "title": "Apply SHALL/SHOULD/MAY normative keywords consistently",
+  "requirements": "- Replace Required/Recommended with the convention of Section 3.5.2\n- Choose a single way to record mandatory/optional support for both offered and consumed services\n- Define SHALL, SHOULD and MAY with reference to RFC 2119/8174\n- Promote machine-readable publication of component specifications and metadata in 5.2 to a SHOULD, with maturity exceptions, consistent with 3.7\n- Define conditional, maturity-dependent and use-case applicability\n- Add a conditional obligation with machine-readable applicability criteria\n- Reconcile them with Required/Recommended/Optional in Appendix C and use one convention consistently\n- Replace ambiguous 'would' where a requirement is intended",
+  "refs": [
+    "PC-0290",
+    "PC-0513",
+    "PC-0951",
+    "PC-1067",
+    "PC-1068",
+    "PC-1080",
+    "PC-1114",
+    "PC-1493",
+    "PC-1588",
+    "PC-1673",
+    "PC-1767",
+    "PC-1864",
+    "PC-1916",
+    "PC-1937",
+    "PC-1979",
+    "PC-2059"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

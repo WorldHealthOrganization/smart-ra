@@ -1,0 +1,73 @@
+{
+  "id": "pc-2650",
+  "summary": "Replace with: “compliance with applicable data-protection frameworks, including rights of access, rectification, restri…",
+  "comment": "Replace with: “compliance with applicable data-protection frameworks, including rights of access, rectification, restriction and erasure where legally applicable, subject to statutory retention requirements and applicable healthcare, public-interest, research, archival or legal-claims exceptions.” Apply equivalent qualification to Requirement 19.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2650",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 28,
+      "entry": "18",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Client Registry",
+      "page": "116, 119-121",
+      "lines": "112-113",
+      "raw": "§Appendix C: Client Registry p.116, 119-121 l.112-113"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.116, 119-121 l.112-113 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "Replace with: “compliance with applicable data-protection frameworks, including rights of access, rectification, restriction and erasure where legally applicable, subject to statutory retention requirements and applicable healthcare, public-interest, research, archival or legal-claims exceptions.” Apply equivalent qualification to Requirement 19.",
+    "suggestedRevision": "The right to erasure is not an unconditional right to delete health records, and the informal expression “right-to-be-forgotten” may obscure this important limitation. Article 17 GDPR itself contains exceptions. Healthcare legislation may additionally impose positive retention duties. Spanish Law 41/2002, for example, requires clinical documentation to be retained for the period appropriate to care and for at least five years after discharge from each care episode, with further preservation for judicial, epidemiological, research and health-system purposes. The Spanish Data Protection Agency consequently states that discharge from care does not permit automatic deletion of the corresponding clinical data. The architecture should implement data-subject rights but should explicitly accommodate statutory record-retention regimes",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 28"
+      }
+    ]
+  }
+}

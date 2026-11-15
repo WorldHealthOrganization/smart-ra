@@ -1,0 +1,77 @@
+{
+  "id": "pc-1542",
+  "summary": "Multisector governance is required because the registry intersects with civil registration and social protection. Manda…",
+  "comment": "Multisector governance is required because the registry intersects with civil registration and social protection. Mandatory participation from all sectors may not be necessary where they do not consume or contribute to the registry.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-3516a9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1542",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 778,
+      "entry": "777",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, Governance",
+      "page": "123",
+      "lines": "Governance item 1",
+      "raw": "§Client Registry, Governance p.123 l.Governance item 1"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-3516a9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.123 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Multisector governance is required because the registry intersects with civil registration and social protection. Mandatory participation from all sectors may not be necessary where they do not consume or contribute to the registry.",
+    "suggestedRevision": "Require representation according to actual authority, dependency, and risk, while ensuring health, civil identity, data protection, affected communities, and relevant service operators are appropriately involved.",
+    "labels": {
+      "Comment type": "Q10 - Implementation pathways"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 778"
+      }
+    ]
+  }
+}

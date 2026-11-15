@@ -1,0 +1,74 @@
+{
+  "id": "pc-0733",
+  "summary": "The document's only detailed worked example involving LOINC treats it purely as the downstream target of a concept map …",
+  "comment": "The document's only detailed worked example involving LOINC treats it purely as the downstream target of a concept map from a SNOMED CT concept (271649006 → LOINC 8480-6), rather than as a primary code system with its own structure (panels, question/answer conventions, document and observation typing). This may understate LOINC's role as a first-class terminology.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-logical-information-model-reposi",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0733",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 733,
+      "entry": "732",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc0c42fb96",
+      "organisation": "Regenstrief Institute (LOINC, UCUM)",
+      "country": "United States"
+    },
+    "citation": {
+      "section": "4. §3.5.3.2, LIMR/TS comparison table – blood- pressure worked example (pp. 68–70)",
+      "lines": "#4",
+      "raw": "§4. §3.5.3.2, LIMR/TS comparison table – blood- pressure worked example (pp. 68–70) l.#4"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-logical-information-model-reposi",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Logical Information Model Repository\""
+    },
+    "text": "The document's only detailed worked example involving LOINC treats it purely as the downstream target of a concept map from a SNOMED CT concept (271649006 → LOINC 8480-6), rather than as a primary code system with its own structure (panels, question/answer conventions, document and observation typing). This may understate LOINC's role as a first-class terminology.",
+    "suggestedRevision": "Add a second worked example in which LOINC is the primary code system — e.g., a laboratory order/result or clinical document use case — to balance the SNOMED-CT-first framing of the existing example.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 733"
+      }
+    ]
+  }
+}

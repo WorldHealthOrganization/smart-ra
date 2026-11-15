@@ -1,0 +1,79 @@
+{
+  "id": "pc-0289",
+  "summary": "The section cites India's Aadhaar and CoWIN, alongside Estonia's X-Road, as evidence that health capabilities can be de…",
+  "comment": "The section cites India's Aadhaar and CoWIN, alongside Estonia's X-Road, as evidence that health capabilities can be delivered at population scale by building on foundational DPI. The examples are apt for identity and service delivery. Research whose corresponding author is at the WHO South-East Asia Regional Office has since added a second and more cautionary chapter to the same case, and the guidance would be stronger for carrying it. An assessment of FHIR implementation in India (Jain et al., Preprints.org, 24 June 2026, DOI 10.20944/preprints202606.1791.v1) records that although the Ayushman Bharat Digital Mission is built on FHIR R4, it carries consent through a structured national construct, the MeitY Consent Artefact, 'instead of FHIR Consent' and rather than relying solely on SMART-on-FHIR patterns. The same paper records the omission of FHIR AuditEvent and Provenance resources and of OAuth2/OIDC scopes in patient-facing applications, and finds that ABDM certification 'primarily verifies connectivity (API availability, token flow) rather than data semantics'. This bears on the guidance directly, because OpenID and OAuth2 are the only identity-and-access standards Figure 3.5 names: the largest national programme built on that stack found it did not carry cross-institutional consent and engineered around it. The companion Sri Lanka baseline (Irfaan et al., DOI 10.20944/preprints202606.1768.v1) records that uncertainty over implementation of the Personal Data Protection Act 'creates hesitation among implementers regarding health data exchange, consent management, and legal liability'.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-a447f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0289",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 289,
+      "entry": "288",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.3",
+      "page": "11",
+      "lines": "102-113; also Figure 3.5 (p. 66)",
+      "caption": "Figure 3.5",
+      "raw": "§1.1.3 p.11 l.102-113; also Figure 3.5 (p. 66)"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-a447f2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.11 l.102-113; also Figure 3.5 (p. 66) read as the printed page; section 1.1.3 agrees"
+    },
+    "type": "general",
+    "text": "The section cites India's Aadhaar and CoWIN, alongside Estonia's X-Road, as evidence that health capabilities can be delivered at population scale by building on foundational DPI. The examples are apt for identity and service delivery. Research whose corresponding author is at the WHO South-East Asia Regional Office has since added a second and more cautionary chapter to the same case, and the guidance would be stronger for carrying it. An assessment of FHIR implementation in India (Jain et al., Preprints.org, 24 June 2026, DOI 10.20944/preprints202606.1791.v1) records that although the Ayushman Bharat Digital Mission is built on FHIR R4, it carries consent through a structured national construct, the MeitY Consent Artefact, 'instead of FHIR Consent' and rather than relying solely on SMART-on-FHIR patterns. The same paper records the omission of FHIR AuditEvent and Provenance resources and of OAuth2/OIDC scopes in patient-facing applications, and finds that ABDM certification 'primarily verifies connectivity (API availability, token flow) rather than data semantics'. This bears on the guidance directly, because OpenID and OAuth2 are the only identity-and-access standards Figure 3.5 names: the largest national programme built on that stack found it did not carry cross-institutional consent and engineered around it. The companion Sri Lanka baseline (Irfaan et al., DOI 10.20944/preprints202606.1768.v1) records that uncertainty over implementation of the Personal Data Protection Act 'creates hesitation among implementers regarding health data exchange, consent management, and legal liability'.",
+    "suggestedRevision": "Cite both assessments where the guidance discusses existing foundations, and let the India case carry its full lesson: foundational identity infrastructure transferred well into health, while cross-institutional consent required a construct built outside the standards stack the same programme had adopted. Three cautions belong with the citation. Both papers are posted as preprints and are explicitly marked not peer-reviewed. Their author teams are largely Indian and Sri Lankan institutions with a WHO South-East Asia Regional Office corresponding author, so they are regional research rather than WHO position papers. And the MeitY artefact is itself gateway-mediated and operator-anchored, so the case evidences how hard it is to carry consent across institutional boundaries rather than validating any particular remedy.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 289"
+      }
+    ]
+  }
+}

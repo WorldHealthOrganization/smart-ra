@@ -1,0 +1,77 @@
+{
+  "id": "pc-0030",
+  "summary": "The WHO draft introduces the Semantic Governance Infrastructure (SGI) and the Logical Information Model Repository (LIM…",
+  "comment": "The WHO draft introduces the Semantic Governance Infrastructure (SGI) and the Logical Information Model Repository (LIMR) to address limitations of existing frameworks. However, establishing SGI/LIMR workflows is resource-intensive and requires scarce specialized clinical informaticians.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0030",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 30,
+      "entry": "29",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Is interoperability, treated as a cross-cutting property rather than a single component, clear and workable, and is the semantic governance infrastructure adequately described?",
+      "raw": "§Is interoperability, treated as a cross-cutting property rather than a single component, clear and workable, and is the semantic governance infrastructure adequately described?"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Semantic Governance Infrastructure\""
+    },
+    "type": "technical",
+    "text": "The WHO draft introduces the Semantic Governance Infrastructure (SGI) and the Logical Information Model Repository (LIMR) to address limitations of existing frameworks. However, establishing SGI/LIMR workflows is resource-intensive and requires scarce specialized clinical informaticians.",
+    "suggestedRevision": "The guidance could frame LIMR and SGI as progressive enablers with clear maturity pathways, rather than binary, mandatory runtime prerequisites, to prevent penalizing low-maturity countries and Small Island Developing States in their conformance scoring.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Consider by TWG? Human categorisation": "Metadata"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 30"
+      }
+    ]
+  }
+}

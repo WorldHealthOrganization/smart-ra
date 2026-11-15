@@ -1,0 +1,83 @@
+{
+  "id": "pc-0615",
+  "summary": "Country / regional examples: Cannot validate here; current examples are too thin and overstate transferability. Strengt…",
+  "comment": "Country / regional examples: Cannot validate here; current examples are too thin and overstate transferability. Strengthen with component mapping, failure modes, cost/governance, and applicability class (high-connectivity vs constrained). Keep tool lists illustrative, not endorsed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0615",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 615,
+      "entry": "614",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc990dab77",
+      "name": "Sivanand Lanka",
+      "organisation": "MOSIP",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:d",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Online-form answer specifically about the Appendix D country examples and tool lists."
+    },
+    "type": "general",
+    "text": "Country / regional examples: Cannot validate here; current examples are too thin and overstate transferability. Strengthen with component mapping, failure modes, cost/governance, and applicability class (high-connectivity vs constrained). Keep tool lists illustrative, not endorsed.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 615"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Online-form answer specifically about the Appendix D country examples and tool lists."
+      }
+    ]
+  }
+}

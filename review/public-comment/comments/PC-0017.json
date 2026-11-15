@@ -1,0 +1,86 @@
+{
+  "id": "pc-0017",
+  "summary": "The draft makes the right to move non-negotiable but does not specify the evidence required to demonstrate practical po…",
+  "comment": "The draft makes the right to move non-negotiable but does not specify the evidence required to demonstrate practical portability from a supplier-controlled system.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-1-f13e61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0017",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 17,
+      "entry": "16",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.1",
+      "page": "100",
+      "lines": "93-101",
+      "raw": "§4.2.1 p.100 l.93-101"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-1-f13e61",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.100 l.93-101 read as the PDF page; section 4.2.1 agrees"
+    },
+    "type": "technical",
+    "text": "The draft makes the right to move non-negotiable but does not specify the evidence required to demonstrate practical portability from a supplier-controlled system.",
+    "suggestedRevision": "Require exportable data, standard interfaces, configuration and model documentation, audit-log retention, clear data rights and a tested transition plan as evidence that systems can be replaced or migrated without lock-in.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 17"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Reviewed\""
+      }
+    ]
+  }
+}

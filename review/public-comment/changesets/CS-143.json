@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-143",
+  "title": "Specify client-registry matching quality, adjudication and equity",
+  "requirements": "- Define matching thresholds, confidence representation and minimum operational controls for linking and deduplication\n- Require context-specific thresholds for false and missed matches with representative and subgroup evaluation\n- Require validation, versioning and governance approval of custom matching algorithms\n- Require localised, culturally appropriate matching rules, explainable match evidence and human adjudication\n- Make authorised adjudication mandatory below threshold or for high-consequence matches\n- Require ongoing monitoring and recalibration\n- Restrict demographic candidate searches (minimum criteria, result limits, masking, audit)\n- Note: these comments are anchored to 5.4.1 but concern the client registry requirements",
+  "refs": [
+    "PC-1469",
+    "PC-1470",
+    "PC-1503",
+    "PC-1504",
+    "PC-1506",
+    "PC-1508",
+    "PC-1509"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

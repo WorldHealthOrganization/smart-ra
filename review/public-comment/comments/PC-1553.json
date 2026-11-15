@@ -1,0 +1,77 @@
+{
+  "id": "pc-1553",
+  "summary": "Maintaining one centrally governed record for every public, private, faith-based, and NGO facility may not be instituti…",
+  "comment": "Maintaining one centrally governed record for every public, private, faith-based, and NGO facility may not be institutionally feasible in federal or decentralised settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-069302",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1553",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 789,
+      "entry": "788",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Facility Registry, 1",
+      "page": "124",
+      "lines": "Lines 13-17",
+      "raw": "§Health Facility Registry, 1 p.124 l.Lines 13-17"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-069302",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.124 l.Lines 13-17 read as the printed page; section 1 agrees"
+    },
+    "text": "Maintaining one centrally governed record for every public, private, faith-based, and NGO facility may not be institutionally feasible in federal or decentralised settings.",
+    "suggestedRevision": "Use “nationally governed authoritative reference arrangement” and allow centralised, federated, or hybrid implementation with clearly defined stewardship and reconciliation responsibilities.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 789"
+      }
+    ]
+  }
+}

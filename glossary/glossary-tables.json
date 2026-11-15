@@ -1,0 +1,62 @@
+{
+  "$schema": "folio-glossary-tables/v1",
+  "tables": [
+    {
+      "glossary": "glossary/dpi-h-ra.glossary.json",
+      "block": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
+      "kind": "terms"
+    },
+    {
+      "glossary": "glossary/dpi-h-ra-acronyms.glossary.json",
+      "block": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "kind": "acronyms"
+    },
+    {
+      "glossary": "glossary/dpi-h-ra.glossary.json",
+      "block": "folio/dpi-h-ra/ch3-the-reference-architecture-for-d/t-3-1.md",
+      "kind": "element-types",
+      "archimate": {
+        "model": "archimate/0.3.0-draft.1/WHOBaseFile.archimate",
+        "view": "id-84f16b3860924939af7b99e625a96e5a"
+      },
+      "rows": [
+        {
+          "type": "Stakeholder",
+          "icon": "media/image5.png"
+        },
+        {
+          "type": "Goal",
+          "icon": "media/image6.png"
+        },
+        {
+          "type": "Outcome",
+          "icon": "media/image7.png"
+        },
+        {
+          "type": "Value",
+          "icon": "media/image8.png"
+        },
+        {
+          "type": "Capability",
+          "icon": "media/image9.png"
+        },
+        {
+          "type": "ApplicationComponent",
+          "icon": "media/image10.png"
+        },
+        {
+          "type": "ApplicationService",
+          "icon": "media/image11.png"
+        },
+        {
+          "type": "DataObject",
+          "icon": "media/image12.png"
+        },
+        {
+          "type": "Product",
+          "icon": "media/image13.png"
+        }
+      ]
+    }
+  ]
+}

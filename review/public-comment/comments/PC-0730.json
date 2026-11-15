@@ -1,0 +1,75 @@
+{
+  "id": "pc-0730",
+  "summary": "The draft correctly identifies LOINC as one of the core internationally recognized terminologies a national Terminology…",
+  "comment": "The draft correctly identifies LOINC as one of the core internationally recognized terminologies a national Terminology Service (TS) must host and manage, alongside ICD-11 and SNOMED CT/GPS, and the glossary definition accurately reflects LOINC's full scope (measurements, observations, and documents — not laboratory results alone).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0730",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 730,
+      "entry": "729",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc0c42fb96",
+      "organisation": "Regenstrief Institute (LOINC, UCUM)",
+      "country": "United States"
+    },
+    "citation": {
+      "section": "1. Whole document; Appendix C – Terminology Service (pp. 164–171)",
+      "lines": "#1",
+      "raw": "§1. Whole document; Appendix C – Terminology Service (pp. 164–171) l.#1"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "The draft correctly identifies LOINC as one of the core internationally recognized terminologies a national Terminology Service (TS) must host and manage, alongside ICD-11 and SNOMED CT/GPS, and the glossary definition accurately reflects LOINC's full scope (measurements, observations, and documents — not laboratory results alone).",
+    "suggestedRevision": "No change requested. Noted as a strength worth preserving in future revisions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 730"
+      }
+    ]
+  }
+}

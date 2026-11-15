@@ -1,0 +1,78 @@
+{
+  "id": "pc-0522",
+  "summary": "Conformance certifies architectural roles (an Application Component realises Application Services), but no mechanism ce…",
+  "comment": "Conformance certifies architectural roles (an Application Component realises Application Services), but no mechanism certifies that a conformant decision-support component executes published guideline content faithfully. A platform can pass every interaction test yet be unable to parse the L3 artifacts the architecture names as Required formats. Observed: an Aug 2026 scan of all 31 published WHO smart-* IG packages (4,052 resources) against a current FHIR-native platform found 259 resources - including every PlanDefinition and Measure in smart-immunizations - unparseable from a single model defect (ohs-foundation/kotlin-fhir#123). Role conformance would not have surfaced this; executing the published content did.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0522",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 522,
+      "entry": "521",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-968ed540b2",
+      "name": "Dan Heslinga, MD",
+      "organisation": "Hopena Health",
+      "country": "United States of America (Hawaii)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.5 / 3.7 / 4.3.5",
+      "page": "78; 98",
+      "lines": "958; 401-406",
+      "raw": "§3.6.5 / 3.7 / 4.3.5 p.78; 98 l.958; 401-406"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.78; 98 l.958; 401-406 read as the printed page; section 3.6.5 agrees"
+    },
+    "type": "technical",
+    "text": "Conformance certifies architectural roles (an Application Component realises Application Services), but no mechanism certifies that a conformant decision-support component executes published guideline content faithfully. A platform can pass every interaction test yet be unable to parse the L3 artifacts the architecture names as Required formats. Observed: an Aug 2026 scan of all 31 published WHO smart-* IG packages (4,052 resources) against a current FHIR-native platform found 259 resources - including every PlanDefinition and Measure in smart-immunizations - unparseable from a single model defect (ohs-foundation/kotlin-fhir#123). Role conformance would not have surfaced this; executing the published content did.",
+    "suggestedRevision": "Add guideline-content execution as a conformance category: a conformant CDSE demonstrates it loads and executes published, unmodified L3 artifacts for the health areas it claims, with results matching reference-implementation output. In 4.3.5, list content-execution conformance alongside profile conformance in procurement guidance.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 522"
+      }
+    ]
+  }
+}

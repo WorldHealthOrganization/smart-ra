@@ -1,0 +1,78 @@
+{
+  "id": "pc-0125",
+  "summary": "\"The Role of the National Digital Architect\" (4.2.4) is separated by two sections (4.3, 4.4) from \"Roles, Skills, and C…",
+  "comment": "\"The Role of the National Digital Architect\" (4.2.4) is separated by two sections (4.3, 4.4) from \"Roles, Skills, and Capacity\" (4.5), which covers closely related content (\"Roles and Skills Needed to Build and Govern the Architecture,\" 4.5.2).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-4-a20796",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0125",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 125,
+      "entry": "124",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.4 The Role of the National Digital Architect",
+      "page": "93",
+      "lines": "226",
+      "raw": "§4.2.4 The Role of the National Digital Architect p.93 l.226"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-4-a20796",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.93 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "\"The Role of the National Digital Architect\" (4.2.4) is separated by two sections (4.3, 4.4) from \"Roles, Skills, and Capacity\" (4.5), which covers closely related content (\"Roles and Skills Needed to Build and Govern the Architecture,\" 4.5.2).",
+    "suggestedRevision": "Consolidate role-related content into 4.5, or add explicit cross-references between 4.2.4 and 4.5.2.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 125"
+      }
+    ]
+  }
+}

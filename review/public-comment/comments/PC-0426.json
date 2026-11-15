@@ -1,0 +1,77 @@
+{
+  "id": "pc-0426",
+  "summary": "It may be helpful for the draft to provide greater clarity on how and when consent is operationalised when health data …",
+  "comment": "It may be helpful for the draft to provide greater clarity on how and when consent is operationalised when health data are exchanged. The principle that consent should travel with an individual's data provides an important foundation. The architecture could build on this by specifying, for each of the proposed data-sharing approaches, where the consent status is checked, when that check takes place, and how the result is communicated or enforced when systems exchange data directly rather than through a central hub. Providing this operational detail would help implementers translate the consent principle into consistent technical processes and would strengthen the connection between the principle described earlier in the document and its implementation in subsequent sections.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-00d8ed",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0426",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 426,
+      "entry": "425",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6",
+      "page": "71",
+      "raw": "§3.6 p.71"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-00d8ed",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.71 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "It may be helpful for the draft to provide greater clarity on how and when consent is operationalised when health data are exchanged. The principle that consent should travel with an individual's data provides an important foundation. The architecture could build on this by specifying, for each of the proposed data-sharing approaches, where the consent status is checked, when that check takes place, and how the result is communicated or enforced when systems exchange data directly rather than through a central hub. Providing this operational detail would help implementers translate the consent principle into consistent technical processes and would strengthen the connection between the principle described earlier in the document and its implementation in subsequent sections.",
+    "suggestedRevision": "Suggested addition to Sec 3.6, for each exchange pattern (centralised, federated, hybrid): 'In a federated exchange, the requesting system should verify the individual's current consent status with the source system (or a designated consent service) at the time of each query, and the response should reflect that status before any data is returned.' (Adapt equivalent wording for the centralised and hybrid patterns.)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 426"
+      }
+    ]
+  }
+}

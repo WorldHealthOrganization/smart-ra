@@ -1,0 +1,80 @@
+{
+  "id": "pc-0436",
+  "summary": "Conformance should test more than data transmission. Laboratory and biobank systems need testing of identity matching, …",
+  "comment": "Conformance should test more than data transmission. Laboratory and biobank systems need testing of identity matching, specimen traceability, consent enforcement, terminology validation, access control, audit trails and correction workflows.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0436",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 436,
+      "entry": "435",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Conformance and testing",
+      "page": "78–86",
+      "lines": "Section 3.6",
+      "raw": "§Conformance and testing p.78–86 l.Section 3.6"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-1-aef1b3"
+      ],
+      "note": "p.78–86 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Conformance should test more than data transmission. Laboratory and biobank systems need testing of identity matching, specimen traceability, consent enforcement, terminology validation, access control, audit trails and correction workflows.",
+    "suggestedRevision": "Add test scenarios for participant-to-specimen linkage; parent–child specimen relationships; role-based access; consent withdrawal; provenance; offline capture and synchronisation; safe correction of records; and controlled exchange with authorised research systems.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 436"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pc-1935",
+  "summary": "Terminology bindings require strength, purpose, version, and allowed extension behaviour, not merely a value-set refere…",
+  "comment": "Terminology bindings require strength, purpose, version, and allowed extension behaviour, not merely a value-set reference.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-085ded",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1935",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1171,
+      "entry": "1170",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "LIMR, 4",
+      "page": "174",
+      "lines": "Relationship to Terminology Service",
+      "raw": "§LIMR, 4 p.174 l.Relationship to Terminology Service"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-085ded",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-15e727",
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-7de7a6",
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-6579aa"
+      ],
+      "note": "p.174 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Terminology bindings require strength, purpose, version, and allowed extension behaviour, not merely a value-set reference.",
+    "suggestedRevision": "Model required, extensible, preferred, or example bindings, with terminology version, context, jurisdiction, and exceptions.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1171"
+      }
+    ]
+  }
+}

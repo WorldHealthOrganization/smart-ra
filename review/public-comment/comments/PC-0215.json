@@ -1,0 +1,80 @@
+{
+  "id": "pc-0215",
+  "summary": "The five sustainability dimensions are appropriate, but they are not accompanied by measurable indicators. This may mak…",
+  "comment": "The five sustainability dimensions are appropriate, but they are not accompanied by measurable indicators. This may make it difficult for countries, ministries of finance and development partners to determine whether transition from project funding to a sustainable national capability is occurring.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-2-67c0fc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0215",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 215,
+      "entry": "214",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5c3eb9f8fb",
+      "name": "Eden Elão Manhique",
+      "organisation": "SEMEAR",
+      "country": "Mozambique",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.2",
+      "page": "102",
+      "lines": "566–577",
+      "raw": "§4.6.2 p.102 l.566–577"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-2-67c0fc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-6-2-b46bc9"
+      ],
+      "note": "p.102 l.566–577 read as the printed page; section 4.6.2 agrees"
+    },
+    "type": "general",
+    "text": "The five sustainability dimensions are appropriate, but they are not accompanied by measurable indicators. This may make it difficult for countries, ministries of finance and development partners to determine whether transition from project funding to a sustainable national capability is occurring.",
+    "suggestedRevision": "Add indicators such as the proportion of recurrent costs financed domestically, total cost of ownership, retention of qualified national staff, dependence on individual suppliers or consultants, service availability, rural and population coverage, upgrade and maintenance costs, and continuity during funding or connectivity disruptions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 215"
+      }
+    ]
+  }
+}

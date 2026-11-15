@@ -1,0 +1,82 @@
+{
+  "id": "pc-0111",
+  "summary": "The document never explicitly resolves where the Semantic Governance Infrastructure (SGI) sits in the governance hierar…",
+  "comment": "The document never explicitly resolves where the Semantic Governance Infrastructure (SGI) sits in the governance hierarchy. Section 3.4.3 says strategic governance \"does not manage operations; it creates the mandate\" (lines 293–294). Section 3.4.4 says operational governance includes \"interoperability and semantic governance… through the Semantic Governance Infrastructure described in 3.4.5\" (lines 355–358), which places SGI under operational governance. But Section 3.4.5 then describes SGI as \"cross-cutting\" and \"not a component of any single registry\" (lines 414–416) whose scope spans \"global, national and local content\" (lines 412–413) — work that sounds strategic (national standards alignment, clinical reality reflection). The reader is left uncertain: Is SGI an operational function executing strategic policy? A strategic function with operational mechanics? Or a third layer between the two?",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-3-1ab967",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0111",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 111,
+      "entry": "110",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4 Governance of Digital Health Architectures and\nDPI-H",
+      "page": "55-60",
+      "lines": "290-451",
+      "raw": "§3.4 Governance of Digital Health Architectures and\nDPI-H p.55-60 l.290-451"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-3-1ab967",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-3-d89dbc",
+        "prose:3-4-3-7c7f43",
+        "prose:3-4-3-a81d49"
+      ],
+      "note": "p.55-60 l.290-451 read as the printed page; section 3.4 agrees"
+    },
+    "type": "technical",
+    "text": "The document never explicitly resolves where the Semantic Governance Infrastructure (SGI) sits in the governance hierarchy. Section 3.4.3 says strategic governance \"does not manage operations; it creates the mandate\" (lines 293–294). Section 3.4.4 says operational governance includes \"interoperability and semantic governance… through the Semantic Governance Infrastructure described in 3.4.5\" (lines 355–358), which places SGI under operational governance. But Section 3.4.5 then describes SGI as \"cross-cutting\" and \"not a component of any single registry\" (lines 414–416) whose scope spans \"global, national and local content\" (lines 412–413) — work that sounds strategic (national standards alignment, clinical reality reflection). The reader is left uncertain: Is SGI an operational function executing strategic policy? A strategic function with operational mechanics? Or a third layer between the two?",
+    "suggestedRevision": "State explicitly in 3.4.5 whether SGI decisions route through operational governance alone, strategic governance alone, or both depending on decision type, and adjust the 3.4.4 bullet to reflect that SGI is not solely an operational output.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 111"
+      }
+    ]
+  }
+}

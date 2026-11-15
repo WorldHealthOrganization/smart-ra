@@ -1,0 +1,1 @@
+For individuals, the primary means of accessing their LHR data is through a Personal Health Record application — a functional application that may take the form of a patient portal, a mobile application, or a Digital Health Wallet. These applications depend on the LHR being governed and populated; they do not replace or duplicate it.

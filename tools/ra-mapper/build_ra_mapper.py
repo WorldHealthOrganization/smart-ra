@@ -9,9 +9,9 @@ MODEL     .archimate file (Archi native XML, Open Group exchange XML, or a
 -l LABEL  optional label per model (same order); defaults to the model's name.
 
 Example:
-  python build_ra_mapper.py ../archimate/draft/WHOBaseFile.archimate \\
-         ../archimate/current/WHOBaseFile_prev.archimate \\
-         -l "WHO RA (draft)" "WHO RA (previous)" -o ../SMART-RA-Mapper.html
+  python build_ra_mapper.py ../archimate/0.2.0/WHOBaseFile.archimate \\
+         ../archimate/0.2.0-draft.3/WHOBaseFile.archimate \\
+         -l "WHO RA 0.2.0 (current)" "WHO RA 0.2.0-draft.3" -o ../SMART-RA-Mapper.html
 """
 import argparse, json, sys, zipfile, io, re
 import xml.etree.ElementTree as ET
@@ -35,6 +35,17 @@ def read_xml(path):
             if not name: sys.exit(f'{path}: zip contains no xml')
             raw = z.read(name)
     return ET.fromstring(raw.decode('utf-8-sig'))
+
+# Ids and types must have these shapes (the mapper checks the same); anything else is refused.
+ID_RE = re.compile(r'^[A-Za-z0-9_][A-Za-z0-9_.:-]{0,199}$')
+TYPE_RE = re.compile(r'^[A-Z][A-Za-z]{0,63}$')
+
+def check_shapes(path, els, rels):
+    for e in els:
+        if not ID_RE.match(e['i'] or ''): sys.exit(f'{path}: refused: element id {e["i"]!r} has an unexpected shape')
+        if not TYPE_RE.match(e['t']): sys.exit(f'{path}: refused: element type {e["t"]!r} has an unexpected shape')
+    for r in rels:
+        if not TYPE_RE.match(r['t']): sys.exit(f'{path}: refused: relationship type {r["t"]!r} has an unexpected shape')
 
 def strip_ns(tag):
     return tag.split('}')[-1].split(':')[-1]
@@ -76,6 +87,7 @@ def parse_model(path):
         for r in root.findall(f'.//{ns}relationships/{ns}relationship'):
             rels.append({'t':(r.get(XSI) or ''),'s':r.get('source'),'g':r.get('target')})
     els=[e for e in els if e['n']]
+    check_shapes(path, els, rels)
     ids={e['i'] for e in els}
     rels=[{'i':f'id-rel-{k}','t':r['t'],'s':r['s'],'g':r['g']} for k,r in enumerate(rels) if r['t'] and r['s'] in ids and r['g'] in ids]
     return {'modelName':name or path,'modelId':'id-built','source':path,'elements':els,'relationships':rels}

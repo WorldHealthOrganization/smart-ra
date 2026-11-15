@@ -1,0 +1,78 @@
+{
+  "id": "pc-0413",
+  "summary": "This is a suitable framing.We support continuing engagement with partners within and outside the government to align al…",
+  "comment": "This is a suitable framing.We support continuing engagement with partners within and outside the government to align all contributions within the national architecture. However, we note that we have not yet seen a country trainsition from from primarily donor-to-domestic financing for their DPI-H.  Such a dynamic limits full country ownership and, long-term, the sustainability of open source digital public goods which compose DPI-H.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0413",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 413,
+      "entry": "412",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6",
+      "page": "103",
+      "lines": "582-584",
+      "raw": "§4.6 p.103 l.582-584"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.103 l.582-584 read as the printed page; section 4.6 agrees"
+    },
+    "type": "general",
+    "text": "This is a suitable framing.We support continuing engagement with partners within and outside the government to align all contributions within the national architecture. However, we note that we have not yet seen a country trainsition from from primarily donor-to-domestic financing for their DPI-H.  Such a dynamic limits full country ownership and, long-term, the sustainability of open source digital public goods which compose DPI-H.",
+    "suggestedRevision": "Identify countries in examples section that are actively \"weaning off\" donor support for DPI-H, or have evidence of mature domestic funding models.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 413"
+      }
+    ]
+  }
+}

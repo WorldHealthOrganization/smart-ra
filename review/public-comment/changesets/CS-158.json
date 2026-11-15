@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-158",
+  "title": "Replace primary/secondary affiliation with typed, dated affiliations",
+  "requirements": "- Model repeatable affiliations by role, organisation, facility, status, period and source, including dual practice\n- Make affiliation conditional; a record without current affiliation remains valid\n- Capture employment elements as dated history, aligned with NHWA ownership categories\n- Restrict and control sensitive fields such as exit reason",
+  "refs": [
+    "PC-0012",
+    "PC-1660",
+    "PC-1661",
+    "PC-1665",
+    "PC-1722",
+    "PC-1723",
+    "PC-1724",
+    "PC-2581",
+    "PC-2582",
+    "PC-2593",
+    "PC-2606",
+    "PC-2607",
+    "PC-2614",
+    "PC-2617",
+    "PC-2618",
+    "PC-2620"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

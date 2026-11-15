@@ -1,0 +1,77 @@
+{
+  "id": "pc-1165",
+  "summary": "Procurement is aligned with open standards and conformance requirements, but Phase 1 does not require publication or av…",
+  "comment": "Procurement is aligned with open standards and conformance requirements, but Phase 1 does not require publication or availability of the national profiles and test artefacts against which suppliers will be assessed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-186744",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1165",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 401,
+      "entry": "400",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "91",
+      "lines": "Lines 139-141",
+      "raw": "§4.2.2 p.91 l.Lines 139-141"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-186744",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.91 l.Lines 139-141 read as the printed page; section 4.2.2 agrees"
+    },
+    "text": "Procurement is aligned with open standards and conformance requirements, but Phase 1 does not require publication or availability of the national profiles and test artefacts against which suppliers will be assessed.",
+    "suggestedRevision": "Include national profile selection, implementation-guide development, test planning, reference data, validation tooling, and supplier conformance statements as Phase 1 or early Phase 2 outputs.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 401"
+      }
+    ]
+  }
+}

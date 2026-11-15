@@ -1,0 +1,76 @@
+{
+  "id": "pc-2484",
+  "summary": "Clinical profile content preservation — A list of accepted terminologies does not tell implementers how to preserve an …",
+  "comment": "Clinical profile content preservation — A list of accepted terminologies does not tell implementers how to preserve an ICD-11 clinical statement. These are proposed profile requirements, with identifier distinctions grounded in WHO API documentation (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-1-d68317",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2484",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 27,
+      "entry": "26",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§4.3.1, minimum data models",
+      "page": "95",
+      "lines": "A10.01",
+      "raw": "§§4.3.1, minimum data models p.95 l.A10.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-1-d68317",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-3-1-fc548c"
+      ],
+      "note": "p.95 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Clinical profile content preservation — A list of accepted terminologies does not tell implementers how to preserve an ICD-11 clinical statement. These are proposed profile requirements, with identifier distinctions grounded in WHO API documentation (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+    "suggestedRevision": "Insert paragraph: Minimum clinical data profiles should also specify how a coded statement preserves its code-system namespace, concept identifier or code, title or display, applicable release, original clinical text, and provenance. For ICD-11, the profile should distinguish Foundation identifiers from MMS codes and specify how the complete postcoordinated expression and any associated concept identifiers are retained and exchanged. The information model should carry the subject, encounter, timing, certainty or verification status, and other required context. When multiple codings are supplied, their relationship must be defined; additional codings must not silently change the meaning or replace a more precise source expression. Derived statistical outputs should be linked to the source statement and the rule version used to derive them.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 27"
+      }
+    ]
+  }
+}

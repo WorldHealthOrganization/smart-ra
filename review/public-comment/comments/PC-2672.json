@@ -1,0 +1,74 @@
+{
+  "id": "pc-2672",
+  "summary": "The document makes consent the main way individuals control their health data (Section 2.3, p.34–35), lists a \"health-s…",
+  "comment": "The document makes consent the main way individuals control their health data (Section 2.3, p.34–35), lists a \"health-sector consent service\" in Table 2.2, and tells several components to \"integrate with consent management services\" (for example the Lifelong Health Record, req #14). But consent is the only one of these capabilities with no component write-up and no functional requirements. The twelve other components each get a full specification; the consent service they all rely on does not. Implementers are told to connect to something the guidance never defines, which risks consent being recorded but not consistently enforced.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2672",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 17,
+      "entry": "7",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 / Table 2.2 / Appendix C (LHR)",
+      "page": "27, 34–35, 161",
+      "lines": "Table 2.2 (consent row); Section 2.3 p.34–35; LHR req #14",
+      "caption": "Table 2.2",
+      "raw": "§2.3 / Table 2.2 / Appendix C (LHR) p.27, 34–35, 161 l.Table 2.2 (consent row); Section 2.3 p.34–35; LHR req #14"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "The document makes consent the main way individuals control their health data (Section 2.3, p.34–35), lists a \"health-sector consent service\" in Table 2.2, and tells several components to \"integrate with consent management services\" (for example the Lifelong Health Record, req #14). But consent is the only one of these capabilities with no component write-up and no functional requirements. The twelve other components each get a full specification; the consent service they all rely on does not. Implementers are told to connect to something the guidance never defines, which risks consent being recorded but not consistently enforced.",
+    "suggestedRevision": "Give the consent service its own component description with functional requirements, at the same level of detail as the other components: what a consent record contains, how consent is checked at the point of data exchange, how a withdrawal takes effect across systems, and how it works with a national cross-sector consent service where one exists.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 17"
+      }
+    ]
+  }
+}

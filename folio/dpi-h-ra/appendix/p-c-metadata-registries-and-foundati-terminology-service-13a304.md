@@ -1,0 +1,1 @@
+The Terminology Service has a dependency relationship with virtually every component in the DPI-H ecosystem that stores, exchanges, or analyses coded health data. It is the semantic anchor that gives meaning to the codes used across the ecosystem, and its availability and reliability are prerequisites for the meaningful operation of all components that depend on it.

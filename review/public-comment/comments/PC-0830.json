@@ -1,0 +1,76 @@
+{
+  "id": "pc-0830",
+  "summary": "Product Registry and Terminology Services are presented as sufficient support for accurate pricing and reimbursement. P…",
+  "comment": "Product Registry and Terminology Services are presented as sufficient support for accurate pricing and reimbursement. Pricing also depends on contracts, tariffs, payment methods, provider agreements, benefit rules, clinical coding policies, and claims-adjudication logic.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0830",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 66,
+      "entry": "65",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.4.2",
+      "page": "39",
+      "lines": "Table 2.4, “Pricing and reimbursing accurately”",
+      "caption": "Table 2.4",
+      "raw": "§2.4.2 p.39 l.Table 2.4, “Pricing and reimbursing accurately”"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-4",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.4 as cited"
+    },
+    "type": "technical",
+    "text": "Product Registry and Terminology Services are presented as sufficient support for accurate pricing and reimbursement. Pricing also depends on contracts, tariffs, payment methods, provider agreements, benefit rules, clinical coding policies, and claims-adjudication logic.",
+    "suggestedRevision": "Expand the supporting capabilities to include the Benefits Package Registry, relevant contracting and tariff-management systems, claims rules, provider agreements, and coding standards. Clarify which are DPI-H and which are operational systems.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 66"
+      }
+    ]
+  }
+}

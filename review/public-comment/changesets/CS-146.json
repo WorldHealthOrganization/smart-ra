@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-146",
+  "title": "Define Facility Registry entity types and the MFL relationship",
+  "requirements": "- Add an entity model distinguishing organisations, facilities, locations, service sites, mobile and temporary services, mapped to mCSD/FHIR\n- Describe the registry as a governed capability (people, process, data, technology), not only 'the technology'\n- Replace 'within the Ministry's mandate' with nationally defined health-sector oversight scope\n- Allow countries to start from a governed MFL and progress\n- Publish configurable inclusion rules with in- and out-of-scope examples\n- Require one authoritative arrangement; any separate MFL is derived or formally synchronised\n- Give classification rules for when a temporary service is a facility, location or event",
+  "refs": [
+    "PC-1549",
+    "PC-1551",
+    "PC-1552",
+    "PC-1554",
+    "PC-1555",
+    "PC-1557",
+    "PC-1564",
+    "PC-1609"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

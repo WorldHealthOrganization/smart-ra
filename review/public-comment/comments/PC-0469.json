@@ -1,0 +1,87 @@
+{
+  "id": "pc-0469",
+  "summary": "The financing options are well chosen but the guidance does not say who sets the price, on what basis, or with what ove…",
+  "comment": "The financing options are well chosen but the guidance does not say who sets the price, on what basis, or with what oversight. Cost recovery and use-based contributions both require a method for determining allowed cost; without one the arrangement is renegotiated annually, which reproduces the instability that recurrent financing is meant to remove.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0469",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 469,
+      "entry": "468",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3",
+      "page": "103",
+      "lines": "578",
+      "raw": "§4.6.3 p.103 l.578"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-2-62927f"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): The financing-options list in §4.6.3 (recurrent budget, scheme contributions, etc.)."
+    },
+    "type": "technical",
+    "text": "The financing options are well chosen but the guidance does not say who sets the price, on what basis, or with what oversight. Cost recovery and use-based contributions both require a method for determining allowed cost; without one the arrangement is renegotiated annually, which reproduces the instability that recurrent financing is meant to remove.",
+    "suggestedRevision": "Add guidance on tariff design for shared digital infrastructure: a statutory basis for the tariff; an independent body that sets it; cost orientation with an approved and capped investment envelope rather than a return on a regulated asset base, which suits physical networks but not fast-depreciating software; short regulatory periods of two to three years with an efficiency benchmark; and service levels attached to the tariff. Note that the cost-recovery model used for generic government digital services in several countries - billing affiliated organisations against an approved multi-year plan - is a closer precedent than utility regulation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 469"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): The financing-options list in §4.6.3 (recurrent budget, scheme contributions, etc.)."
+      }
+    ]
+  }
+}

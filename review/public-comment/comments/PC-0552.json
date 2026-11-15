@@ -1,0 +1,78 @@
+{
+  "id": "pc-0552",
+  "summary": "The Ministry supports the statement that requirements should be expressed testably so that countries can validate confo…",
+  "comment": "The Ministry supports the statement that requirements should be expressed testably so that countries can validate conformance, including the claims of suppliers, before and during procurement. We would add that this is materially easier where the artefacts against which conformance is tested are national assets rather than supplier deliverables. Slovenia requires suppliers to publish archetypes, templates, profiles, terminology bindings, implementation guides and validation rules to a repository designated by the Ministry, as a condition of acceptance. The guidance would be strengthened by naming publication of conformance artefacts as a procurement condition rather than a technical practice.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0552",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 552,
+      "entry": "551",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.5 Conformance / 3.7 Conformance and Testing",
+      "page": "78",
+      "lines": "956–960",
+      "raw": "§3.6.5 Conformance / 3.7 Conformance and Testing p.78 l.956–960"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.78 l.956–960 read as the printed page; section 3.6.5 agrees"
+    },
+    "type": "technical",
+    "text": "The Ministry supports the statement that requirements should be expressed testably so that countries can validate conformance, including the claims of suppliers, before and during procurement. We would add that this is materially easier where the artefacts against which conformance is tested are national assets rather than supplier deliverables. Slovenia requires suppliers to publish archetypes, templates, profiles, terminology bindings, implementation guides and validation rules to a repository designated by the Ministry, as a condition of acceptance. The guidance would be strengthened by naming publication of conformance artefacts as a procurement condition rather than a technical practice.",
+    "suggestedRevision": "Add at line 959: \"Countries should require, as a condition of acceptance in procurement, that the information models, profiles, terminology bindings, implementation guides and validation rules developed under a contract are published as national assets in a repository the authority controls.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 552"
+      }
+    ]
+  }
+}

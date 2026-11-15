@@ -1,0 +1,78 @@
+{
+  "id": "pc-0527",
+  "summary": "Governance of the reference architecture itself is thin: no named custodian, versioning policy, or change process ('liv…",
+  "comment": "Governance of the reference architecture itself is thin: no named custodian, versioning policy, or change process ('living model' intentions stated but not operationalized); the reference list and several glossary entries are placeholders. The living home appears to already exist - the smart-ra implementation guide (smart.who.int/ra; WorldHealthOrganization/smart-ra), where the TWG governance framework is published and ArchiMate-to-IG tooling is under active development - but the published build is v0.1.0 (July 2025), a year behind this draft, and the document never names or links it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0527",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 527,
+      "entry": "526",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-968ed540b2",
+      "name": "Dan Heslinga, MD",
+      "organisation": "Hopena Health",
+      "country": "United States of America (Hawaii)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Front matter; 5.5; References",
+      "page": "2; 111",
+      "lines": "-",
+      "raw": "§Front matter; 5.5; References p.2; 111 l.-"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.5 only"
+    },
+    "type": "editorial",
+    "text": "Governance of the reference architecture itself is thin: no named custodian, versioning policy, or change process ('living model' intentions stated but not operationalized); the reference list and several glossary entries are placeholders. The living home appears to already exist - the smart-ra implementation guide (smart.who.int/ra; WorldHealthOrganization/smart-ra), where the TWG governance framework is published and ArchiMate-to-IG tooling is under active development - but the published build is v0.1.0 (July 2025), a year behind this draft, and the document never names or links it.",
+    "suggestedRevision": "Before publication: complete references/glossary; name the custodian, versioning scheme, and revision cadence; identify the smart-ra IG as the canonical machine-readable home, publish a build synchronized with the consultation text, and route post-consultation feedback through its public issue tracker.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 527"
+      }
+    ]
+  }
+}

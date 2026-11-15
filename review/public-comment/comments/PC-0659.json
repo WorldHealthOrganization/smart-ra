@@ -1,0 +1,82 @@
+{
+  "id": "pc-0659",
+  "summary": "Concerns / changes: My main concerns are not with the overall architecture, but with several cross-cutting requirements…",
+  "comment": "Concerns / changes: My main concerns are not with the overall architecture, but with several cross-cutting requirements that would benefit from more explicit and testable specification.\n\n1. Consent and permissions architecture. Consent and authorisation are treated as foundational capabilities, and the Lifelong Health Record depends on consent-management services, but the architecture does not provide an equivalent cross-cutting service profile defining consent representation, lifecycle, interfaces, revocation propagation, delegated/proxy authority and audit.\n\n2. AI/ML lifecycle governance. Chapter 5 provides strong principles for responsible AI, including evaluation, equity, human oversight and monitoring for drift. However, learned models used across decision support, analytics, surveillance or point-of-service applications should be traceable to a unique model/version, accountable owner, intended use, validation evidence, deployment status and monitoring state.\n\n3. Longitudinal record lifecycle. The LHR appropriately emphasises immutable history and provenance, but the requirement that records should “never be deleted” should be reconciled more explicitly with correction of wrong-person attribution, logical withdrawal and legally required erasure.\n\n4. Offline and federated consistency. The guidance supports offline operation and federated architectures, but minimum semantics for conflicting concurrent updates should be clearer. Clinically material conflicts should not be silently overwritten or presented as a single authoritative fact before reconciliation.\n\n5. Minimum security floor. Graduated assurance is appropriate for countries with different levels of maturity, but essential security properties-authentication, authorisation, least privilege, confidentiality, auditability, integrity and recovery-should remain explicit minimum requirements even where more advanced assurance mechanisms are introduced progressively.\n\nAddressing these issues would make the architecture more implementable and testable without making it more prescriptive about specific technologies.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0659",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 659,
+      "entry": "658",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "Independent Researcher",
+      "country": "Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Several cross-cutting concerns (consent, AI lifecycle, sync) spanning chapters."
+    },
+    "type": "general",
+    "text": "Concerns / changes: My main concerns are not with the overall architecture, but with several cross-cutting requirements that would benefit from more explicit and testable specification.\n\n1. Consent and permissions architecture. Consent and authorisation are treated as foundational capabilities, and the Lifelong Health Record depends on consent-management services, but the architecture does not provide an equivalent cross-cutting service profile defining consent representation, lifecycle, interfaces, revocation propagation, delegated/proxy authority and audit.\n\n2. AI/ML lifecycle governance. Chapter 5 provides strong principles for responsible AI, including evaluation, equity, human oversight and monitoring for drift. However, learned models used across decision support, analytics, surveillance or point-of-service applications should be traceable to a unique model/version, accountable owner, intended use, validation evidence, deployment status and monitoring state.\n\n3. Longitudinal record lifecycle. The LHR appropriately emphasises immutable history and provenance, but the requirement that records should “never be deleted” should be reconciled more explicitly with correction of wrong-person attribution, logical withdrawal and legally required erasure.\n\n4. Offline and federated consistency. The guidance supports offline operation and federated architectures, but minimum semantics for conflicting concurrent updates should be clearer. Clinically material conflicts should not be silently overwritten or presented as a single authoritative fact before reconciliation.\n\n5. Minimum security floor. Graduated assurance is appropriate for countries with different levels of maturity, but essential security properties-authentication, authorisation, least privilege, confidentiality, auditability, integrity and recovery-should remain explicit minimum requirements even where more advanced assurance mechanisms are introduced progressively.\n\nAddressing these issues would make the architecture more implementable and testable without making it more prescriptive about specific technologies.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 659"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Several cross-cutting concerns (consent, AI lifecycle, sync) spanning chapters."
+      }
+    ]
+  }
+}

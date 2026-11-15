@@ -1,0 +1,80 @@
+{
+  "id": "pc-0172",
+  "summary": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object st…",
+  "comment": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object stating who does what, when, and towards which goals for a specific person. 'Care plan' appears only in passing inside other components, never as an architectural object with its own repository, governance and exchange rules. Of the three recognised kinds of continuity of care — informational, management, relational — the draft covers essentially only the first and equates it with the whole.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-ea5cb0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0172",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 172,
+      "entry": "171",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "page": "63",
+      "lines": "Component catalogue; also Appendix C (p. 114 ff.)",
+      "raw": "§3.5 p.63 l.Component catalogue; also Appendix C (p. 114 ff.)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-ea5cb0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-5-1-385af7"
+      ],
+      "note": "p.63 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Among the proposed components there is no component for the shared, multi-professional care plan — the living object stating who does what, when, and towards which goals for a specific person. 'Care plan' appears only in passing inside other components, never as an architectural object with its own repository, governance and exchange rules. Of the three recognised kinds of continuity of care — informational, management, relational — the draft covers essentially only the first and equates it with the whole.",
+    "suggestedRevision": "Add a Shared Care Plan component to the catalogue: a governed repository and exchange rules for multi-professional, cross-organisational, long-term plans (building on existing patterns such as FHIR CarePlan and the International Patient Summary), as the architectural carrier of management continuity.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 172"
+      }
+    ]
+  }
+}

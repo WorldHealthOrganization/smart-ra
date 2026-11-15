@@ -1,0 +1,77 @@
+{
+  "id": "pc-0021",
+  "summary": "The approaches to financing (section 4.6.3.) includes budget lines, blended arrangements, scheme contributions, private…",
+  "comment": "The approaches to financing (section 4.6.3.) includes budget lines, blended arrangements, scheme contributions, private hosting, pooled programme investments; but it does not specifically mention MDB instruments such as sovereign lending, results-based lending, or policy-based operations.  \n\nRegional and shared financing is also not addressed, which may apply to small island states where regional public foods financing and shared hosting may be the most affordable route.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0021",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 21,
+      "entry": "20",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3",
+      "raw": "§4.6.3"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.6.3 only"
+    },
+    "type": "technical",
+    "text": "The approaches to financing (section 4.6.3.) includes budget lines, blended arrangements, scheme contributions, private hosting, pooled programme investments; but it does not specifically mention MDB instruments such as sovereign lending, results-based lending, or policy-based operations.  \n\nRegional and shared financing is also not addressed, which may apply to small island states where regional public foods financing and shared hosting may be the most affordable route.",
+    "suggestedRevision": "Consider incorporating a common investment taxonomy to map and package 'invisible' foundational blocks (like standards, SGI, and registries) into standard, investable capital assets.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems",
+      "Consider by TWG? Human categorisation": "Core architects/ WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 21"
+      }
+    ]
+  }
+}

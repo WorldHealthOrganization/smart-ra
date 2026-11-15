@@ -1,0 +1,77 @@
+{
+  "id": "pc-1668",
+  "summary": "Claims and payroll systems are positioned as consumers of the registry for eligibility. Registry data supports identity…",
+  "comment": "Claims and payroll systems are positioned as consumers of the registry for eligibility. Registry data supports identity and professional-status checks but does not replace employment, contract, attendance, or payment rules. [draft-for-...idance.pdf | PDF]",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-c279d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1668",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 904,
+      "entry": "903",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Workforce Registry, 4",
+      "page": "137",
+      "lines": "Lines 323-326",
+      "raw": "§Health Workforce Registry, 4 p.137 l.Lines 323-326"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-c279d9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.137 l.Lines 323-326 read as the printed page; section 4 agrees"
+    },
+    "text": "Claims and payroll systems are positioned as consumers of the registry for eligibility. Registry data supports identity and professional-status checks but does not replace employment, contract, attendance, or payment rules. [draft-for-...idance.pdf | PDF]",
+    "suggestedRevision": "Clarify that the registry contributes reference data to a broader eligibility or validation process executed by operational systems.",
+    "labels": {
+      "Comment type": "Q11 - Financing and sustainability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 904"
+      }
+    ]
+  }
+}

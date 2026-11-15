@@ -1,0 +1,1 @@
+Taken together, these contributions give countries a structured framework and a shared vocabulary that they can adopt and adapt to their own context — moving from strategic intent to coherent, standards-based technical implementation, whatever their starting point.

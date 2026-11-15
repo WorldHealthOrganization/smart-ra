@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-099",
+  "title": "Define transitional data formats and migration paths",
+  "requirements": "- Give examples of simpler exchange mechanisms and how they progress to target conformance\n- State what a progression path from lighter formats to open standards must document\n- Allow non-FHIR systems to demonstrate equivalence via mappings or adapters under time-bound arrangements\n- Allow several governed integration patterns with foundational systems\n- Point to migration strategies for fragmented ecosystems",
+  "refs": [
+    "PC-0088",
+    "PC-0811",
+    "PC-1229",
+    "PC-1231",
+    "PC-1234"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

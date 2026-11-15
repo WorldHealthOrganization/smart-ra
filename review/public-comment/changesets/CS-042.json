@@ -1,0 +1,23 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-042",
+  "title": "Clarify how the reference architecture relates to country architectures",
+  "requirements": "- State what an enterprise architecture is and how this reference architecture complements it\n- Add a short explanation of the three concepts in the Chapter 3 lead\n- Ask countries to document consequences and mitigations when elements are omitted or modified\n- Make explicit that this is a reference architecture to adapt, not a prescribed end-state\n- Separate the DPI-H, enterprise architecture and registry concepts",
+  "refs": [
+    "PC-0339",
+    "PC-0719",
+    "PC-0833",
+    "PC-0834"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

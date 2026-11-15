@@ -1,0 +1,80 @@
+{
+  "id": "pc-0258",
+  "summary": "Safe change management, testing and AI evaluation are discussed, but the guidance does not present an architecture-wide…",
+  "comment": "Safe change management, testing and AI evaluation are discussed, but the guidance does not present an architecture-wide clinical digital safety lifecycle for safety-critical components, interfaces and data transformations. Technical conformance can be achieved while clinically hazardous behaviour remains unrecognised, especially where changes affect downstream systems or professional workflows.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-4-c238c3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0258",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 258,
+      "entry": "257",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.4; 3.7.4; 5.4.2",
+      "page": "56–57; 84; 108",
+      "lines": "334–362; 1132–1152; 154–169",
+      "raw": "§3.4.4; 3.7.4; 5.4.2 p.56–57; 84; 108 l.334–362; 1132–1152; 154–169"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-4-c238c3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-4-65aa9a"
+      ],
+      "note": "p.56–57; 84; 108 l.334–362; 1132–1152; 154–169 read as the printed page; section 3.4.4 agrees"
+    },
+    "type": "technical",
+    "text": "Safe change management, testing and AI evaluation are discussed, but the guidance does not present an architecture-wide clinical digital safety lifecycle for safety-critical components, interfaces and data transformations. Technical conformance can be achieved while clinically hazardous behaviour remains unrecognised, especially where changes affect downstream systems or professional workflows.",
+    "suggestedRevision": "Add a proportionate clinical digital safety lifecycle for safety-critical DPI-H capabilities and interfaces which are hazard identification, named clinical safety accountability, safety requirements and acceptance criteria, documented risk controls, pre-deployment testing, release approval, incident response, rollback, post-implementation monitoring and reassessment triggers when data sources, models, algorithms, interfaces, intended use or deployment context materially change.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 258"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0758",
+  "summary": "The Lifelong Health Record sentence carries editing residue — a trailing fragment \"person-centred that,\" a duplicated \"…",
+  "comment": "The Lifelong Health Record sentence carries editing residue — a trailing fragment \"person-centred that,\" a duplicated \"capability that that maintains,\" and a repeated \"It is defined to allow centralised, federated, or hybrid…\" clause. We recommend cleaning the full sentence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0758",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 758,
+      "entry": "757",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§3.5.3.1 LHR bullet (p.67)",
+      "lines": "Ed1",
+      "raw": "§§3.5.3.1 LHR bullet (p.67) l.Ed1"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "The Lifelong Health Record sentence carries editing residue — a trailing fragment \"person-centred that,\" a duplicated \"capability that that maintains,\" and a repeated \"It is defined to allow centralised, federated, or hybrid…\" clause. We recommend cleaning the full sentence.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial",
+      "Comment type": "P3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 758"
+      }
+    ]
+  }
+}

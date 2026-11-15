@@ -1,0 +1,78 @@
+{
+  "id": "pc-2515",
+  "summary": "WHO-FIC content for benefits definitions — WHO-FIC should be represented by its substantive domains, rather than ICD-11…",
+  "comment": "WHO-FIC content for benefits definitions — WHO-FIC should be represented by its substantive domains, rather than ICD-11 being its only visible member. The qualification prevents an unsupported claim that a classification itself supplies tariffs, a grouper, or all billing detail. Evidence: WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-2f494f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2515",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 58,
+      "entry": "57",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Benefits Package Registry, §4",
+      "page": "201",
+      "lines": "A21.01",
+      "raw": "§Benefits Package Registry, §4 p.201 l.A21.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-2f494f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-benefits-package-registry-e0be74",
+        "prose:c-business-services-components-benefits-package-registry-9c2e53",
+        "prose:c-business-services-components-benefits-package-registry-e359e0"
+      ],
+      "note": "p.201 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "WHO-FIC content for benefits definitions — WHO-FIC should be represented by its substantive domains, rather than ICD-11 being its only visible member. The qualification prevents an unsupported claim that a classification itself supplies tariffs, a grouper, or all billing detail. Evidence: WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub).",
+    "suggestedRevision": "Replace bullet: • The Terminology Service provides the identified clinical and service concepts used in benefit definitions. These may include ICD-11 for diagnoses, ICHI for health interventions, and ICF for functioning-related criteria, where selected and supported by the implementation. The registry shall identify the applicable releases and distinguish these concepts from national service items, tariffs, product identifiers, eligibility rules, and claims-grouping logic. Links between these representations shall be explicit and governed.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 58"
+      }
+    ]
+  }
+}

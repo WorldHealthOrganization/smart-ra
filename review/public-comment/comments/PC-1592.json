@@ -1,0 +1,80 @@
+{
+  "id": "pc-1592",
+  "summary": "The minimum dataset requirement includes services, workforce by cadre, operating hours, and infrastructure attributes. …",
+  "comment": "The minimum dataset requirement includes services, workforce by cadre, operating hours, and infrastructure attributes. These may not be consistently available or maintained in the foundational registry.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-cb7690",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1592",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 828,
+      "entry": "827",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Facility Registry, 5",
+      "page": "128",
+      "lines": "Requirement 3",
+      "raw": "§Health Facility Registry, 5 p.128 l.Requirement 3"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-cb7690",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-facility-registry-37df36",
+        "tbl:c-metadata-registries-and-foundati-health-facility-registry-ecfb41"
+      ],
+      "note": "p.128 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The minimum dataset requirement includes services, workforce by cadre, operating hours, and infrastructure attributes. These may not be consistently available or maintained in the foundational registry.",
+    "suggestedRevision": "Separate mandatory signature data from optional or conditionally maintained service-readiness data and identify authoritative sources and update frequency.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 828"
+      }
+    ]
+  }
+}

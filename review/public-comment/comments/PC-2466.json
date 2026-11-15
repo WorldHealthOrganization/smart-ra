@@ -1,0 +1,74 @@
+{
+  "id": "pc-2466",
+  "summary": "GPS glossary scope — The existing “representative subset” wording does not tell readers which semantic capabilities the…",
+  "comment": "GPS glossary scope — The existing “representative subset” wording does not tell readers which semantic capabilities they actually receive. This correction should not be used to claim that GPS is only a demonstration product or that free IPS terminology is unavailable. Evidence: GPS (https://www.snomed.org/gps), IPS Terminology overview (https://docs.snomed.org/implementation-guides/snomed-ips-terminology-implementation-guide/2-ips-terminology-overview).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:glossary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2466",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 9,
+      "entry": "8",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "2",
+      "lines": "A04.02",
+      "raw": "§Glossary p.2 l.A04.02"
+    },
+    "anchor": {
+      "targetLabel": "sec:glossary-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Glossary\""
+    },
+    "text": "GPS glossary scope — The existing “representative subset” wording does not tell readers which semantic capabilities they actually receive. This correction should not be used to claim that GPS is only a demonstration product or that free IPS terminology is unavailable. Evidence: GPS (https://www.snomed.org/gps), IPS Terminology overview (https://docs.snomed.org/implementation-guides/snomed-ips-terminology-implementation-guide/2-ips-terminology-overview).",
+    "suggestedRevision": "Replace definition: The Global Patient Set is a freely accessible SNOMED International product supporting exchange, storage, display, and basic validation of SNOMED CT identifiers. It does not include SNOMED CT relationships or hierarchies. It is distinct from full SNOMED CT and from SNOMED International's IPS Terminology.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 9"
+      }
+    ]
+  }
+}

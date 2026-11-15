@@ -1,0 +1,83 @@
+{
+  "id": "pc-0013",
+  "summary": "Real-time credential verification and audit logging are specified, but the draft does not explicitly connect the creden…",
+  "comment": "Real-time credential verification and audit logging are specified, but the draft does not explicitly connect the credential and privilege used to the individual clinical transaction.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-618581",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0013",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 13,
+      "entry": "12",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: HWR §5",
+      "page": "148-150",
+      "lines": "8-20",
+      "raw": "§Appendix C: HWR §5 p.148-150 l.8-20"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-618581",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-6ccb44",
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-832af9",
+        "prose:c-metadata-registries-and-foundati-health-workforce-registry-93960c"
+      ],
+      "note": "p.148-150 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Real-time credential verification and audit logging are specified, but the draft does not explicitly connect the credential and privilege used to the individual clinical transaction.",
+    "suggestedRevision": "Allow a service to record which verified credential and facility privilege authorised a professional to act on a case, including the verification timestamp, expiry and revocation handling.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "HWF team"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 13"
+      }
+    ]
+  }
+}

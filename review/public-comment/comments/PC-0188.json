@@ -1,0 +1,86 @@
+{
+  "id": "pc-0188",
+  "summary": "The guidance notes the importance of human oversight but does not address documented risks such as automation bias (cli…",
+  "comment": "The guidance notes the importance of human oversight but does not address documented risks such as automation bias (clinicians over-relying on AI recommendations) or AI-fuelled misdiagnosis, particularly in low-resource settings where validation data may be limited.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0188",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 188,
+      "entry": "187",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2",
+      "page": "107",
+      "lines": "155 - 169",
+      "raw": "§5.4.2 p.107 l.155 - 169"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.2 l.155-169 on human oversight; this block is exactly l.155-169"
+    },
+    "type": "technical",
+    "text": "The guidance notes the importance of human oversight but does not address documented risks such as automation bias (clinicians over-relying on AI recommendations) or AI-fuelled misdiagnosis, particularly in low-resource settings where validation data may be limited.",
+    "suggestedRevision": "1) Add specific guidance on mitigating cognitive and clinical risks associated with AI deployment, including: mandatory training on AI limitations and appropriate human override\n2) Design requirements for explainability and transparency at the point of care (the importance of user-centred design that supports rather than supplants clinical reasoning) and the need for formal clinical validation of AI outputs before deployment, with ongoing monitoring of safety events.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 188"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.2 l.155-169 on human oversight; this block is exactly l.155-169"
+      }
+    ]
+  }
+}

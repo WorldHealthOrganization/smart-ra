@@ -1,0 +1,78 @@
+{
+  "id": "pc-0530",
+  "summary": "The first paragraph contains a lot of negativity towards existing systems. The statements are true and relevant, but mi…",
+  "comment": "The first paragraph contains a lot of negativity towards existing systems. The statements are true and relevant, but might cause the reader to associate this with the proposed solution.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0530",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 530,
+      "entry": "529",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f380ebaaac",
+      "name": "Uwe Wahser",
+      "organisation": "Deutsche Gesellschaft für Technische Zusammenarbeit (GIZ) GmbH",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix BPR 2",
+      "page": "199 ff.",
+      "lines": "33 - 40",
+      "raw": "§Appendix BPR 2 p.199 ff. l.33 - 40"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.199 ff. l.33 - 40 read as the printed page; section 2 does NOT agree"
+    },
+    "type": "editorial",
+    "text": "The first paragraph contains a lot of negativity towards existing systems. The statements are true and relevant, but might cause the reader to associate this with the proposed solution.",
+    "suggestedRevision": "Try to formulate sentences in a positive way in favor of a BPR, mentioning the drawbacks of existing systems e.g. as examples in a half sentnece afterwards. E.g. Instead of \"In most countries today, that knowledge is fragemented\" write \"A BPR unifies documentation about benefit schemes, donor agreements etc in a single registry, while in many countriies today that knowledge is fragmented.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 530"
+      }
+    ]
+  }
+}

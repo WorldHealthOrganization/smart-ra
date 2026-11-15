@@ -1,0 +1,87 @@
+{
+  "id": "pc-0488",
+  "summary": "The eight governance principles correspond closely to Elinor Ostrom's design principles for durable common-pool resourc…",
+  "comment": "The eight governance principles correspond closely to Elinor Ostrom's design principles for durable common-pool resource institutions, but the correspondence is not drawn, so the empirical basis is unavailable to the reader. Three of Ostrom's principles are absent from the list altogether.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0488",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 488,
+      "entry": "487",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "249",
+      "raw": "§3.4.2 p.54 l.249"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-1-26b106"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About the eight governance principles of §3.4.2 as a list."
+    },
+    "type": "general",
+    "text": "The eight governance principles correspond closely to Elinor Ostrom's design principles for durable common-pool resource institutions, but the correspondence is not drawn, so the empirical basis is unavailable to the reader. Three of Ostrom's principles are absent from the list altogether.",
+    "suggestedRevision": "Reference the design principles literature explicitly as the empirical foundation for this section, and add the three that are missing: clearly defined boundaries of who may participate and on what terms; accessible conflict resolution; and recognition by higher authorities of participants' right to devise their own rules. Note the correct reading for a DPI-H context: these are requirements on the rule system, not prescriptions about who sets the rules, so a framework law establishing who may make which rules by what procedure is consistent with them, while a law fixing their content is not.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 488"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About the eight governance principles of §3.4.2 as a list."
+      }
+    ]
+  }
+}

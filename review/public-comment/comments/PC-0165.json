@@ -1,0 +1,78 @@
+{
+  "id": "pc-0165",
+  "summary": "The draft implicitly treats non-structured information as text awaiting structuring ('machine-processable rather than l…",
+  "comment": "The draft implicitly treats non-structured information as text awaiting structuring ('machine-processable rather than locked in free text'). Clinical information also exists in interpretive and tacit/narrative states that resist faithful coding; forcing them into structure distorts rather than captures them. These states carry a large share of real clinical decision-making.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-00d8ed",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0165",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 165,
+      "entry": "164",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6",
+      "page": "71",
+      "lines": "Whole section; also §1.2.2 (p. 15), Glossary (front matter, PDF pp. 8–10)",
+      "raw": "§3.6 p.71 l.Whole section; also §1.2.2 (p. 15), Glossary (front matter, PDF pp. 8–10)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-00d8ed",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.71 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The draft implicitly treats non-structured information as text awaiting structuring ('machine-processable rather than locked in free text'). Clinical information also exists in interpretive and tacit/narrative states that resist faithful coding; forcing them into structure distorts rather than captures them. These states carry a large share of real clinical decision-making.",
+    "suggestedRevision": "Acknowledge in §1.2.2 and §3.6 the limits of structuring: name the interpretive and narrative states of clinical information as first-class concerns, state that the architecture supports (rather than replaces) their human carriers — the conversation, the handover, the narrative note — and caution against measuring digitisation progress by the elimination of free text.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 165"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "pc-2731",
+  "summary": "§4.3.4, p. 98, lines 394–395. [highlight] On the text: «financing».",
+  "comment": "§4.3.4, p. 98, lines 394–395. [highlight] On the text: «financing».\nin HF, we are not using this term \"health financing claims\"\nOnly countries with explicit health coverage schemes and separate purchaser would operate on the basis of claims, but they could also use budgets.\nWe need a more generic wording here to not be health insurance biased.",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:4-3-4-2-7e2279",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2731",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 31,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-3d4d908908",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "98",
+      "lines": "394–395",
+      "raw": "§4.3.4, p. 98, lines 394–395. [highlight] On the text: «financing».\nin HF, we are not using this term \"health financing "
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-2-7e2279",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98 l.394–395 read as the printed page; section 4.3.4 agrees"
+    },
+    "text": "§4.3.4, p. 98, lines 394–395. [highlight] On the text: «financing».\nin HF, we are not using this term \"health financing claims\"\nOnly countries with explicit health coverage schemes and separate purchaser would operate on the basis of claims, but they could also use budgets.\nWe need a more generic wording here to not be health insurance biased.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

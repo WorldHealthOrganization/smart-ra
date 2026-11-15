@@ -1,0 +1,83 @@
+{
+  "id": "pc-2507",
+  "summary": "Conformance-note count — Existing requirements name generic functions but do not ensure that any offered server actuall…",
+  "comment": "Conformance-note count — Existing requirements name generic functions but do not ensure that any offered server actually implements ICD-11's distinctive model and coding workflow. The conditional status avoids requiring every country or every deployed service to implement an unused standard. Evidence: WHO API (https://icd.who.int/docs/icd-api/APIDoc-Version2/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/), Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-f978cb",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2507",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 50,
+      "entry": "49",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5, conformance note",
+      "page": "170",
+      "lines": "A15.02",
+      "raw": "§Terminology Service, §5, conformance note p.170 l.A15.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-f978cb",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): TS conformance note; contains the \"seven respects\" phrase to change."
+    },
+    "text": "Conformance-note count — Existing requirements name generic functions but do not ensure that any offered server actually implements ICD-11's distinctive model and coding workflow. The conditional status avoids requiring every country or every deployed service to implement an unused standard. Evidence: WHO API (https://icd.who.int/docs/icd-api/APIDoc-Version2/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/), Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf).",
+    "suggestedRevision": "Replace phrase when A15.01 and A15.03 are adopted: eight respects",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 50"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): TS conformance note; contains the \"seven respects\" phrase to change."
+      }
+    ]
+  }
+}

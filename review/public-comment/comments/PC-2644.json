@@ -1,0 +1,77 @@
+{
+  "id": "pc-2644",
+  "summary": "The existing statement is not necessarily incorrect as a compressed description of Article 105, but it can give readers…",
+  "comment": "The existing statement is not necessarily incorrect as a compressed description of Article 105, but it can give readers the impression that the principal operational EHDS obligations generally take effect in March 2027. The implementation timetable is more differentiated. The European Commission identifies March 2027 primarily as the deadline for several key implementing acts, March 2029 as the point when major primary-use and most secondary-use provisions begin applying, and March 2031 for the second group of priority health-data categories and remaining secondary-use categories.\nSince the Guidance uses EHDS as a major example of regional interoperability governance, accurately distinguishing the stages of application would help implementers understand the regulatory transition.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:3-6-4-4fbd23",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2644",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 22,
+      "entry": "12",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6 Interoperability Architecture within DPI-H",
+      "page": "77",
+      "lines": "Footnote 33",
+      "raw": "§3.6 Interoperability Architecture within DPI-H p.77 l.Footnote 33"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-4fbd23",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-4-4150dd",
+        "prose:3-6-4-ce5111",
+        "prose:3-6-4-c0012b"
+      ],
+      "note": "p.77 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "The existing statement is not necessarily incorrect as a compressed description of Article 105, but it can give readers the impression that the principal operational EHDS obligations generally take effect in March 2027. The implementation timetable is more differentiated. The European Commission identifies March 2027 primarily as the deadline for several key implementing acts, March 2029 as the point when major primary-use and most secondary-use provisions begin applying, and March 2031 for the second group of priority health-data categories and remaining secondary-use categories.\nSince the Guidance uses EHDS as a major example of regional interoperability governance, accurately distinguishing the stages of application would help implementers understand the regulatory transition.",
+    "suggestedRevision": "Replace with: “Regulation (EU) 2025/327 entered into force on 26 March 2025 and applies progressively. Several key implementing acts are due by March 2027; major primary-use requirements concerning Patient Summaries and ePrescriptions/eDispensations and most secondary-use rules begin to apply from March 2029; further priority data categories and secondary-use provisions apply from March 2031.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 22"
+      }
+    ]
+  }
+}

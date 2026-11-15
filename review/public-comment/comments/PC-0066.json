@@ -1,0 +1,79 @@
+{
+  "id": "pc-0066",
+  "summary": "There are emerging challenges about long term archiving, reference and review of digital health records (all components…",
+  "comment": "There are emerging challenges about long term archiving, reference and review of digital health records (all components but for the sake of this comment principally the individual direct clinical records)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-2-a1249f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0066",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 66,
+      "entry": "65",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.2",
+      "page": "73",
+      "lines": "793….",
+      "raw": "§3.6.2 p.73 l.793…."
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-2-a1249f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.73 l.793…. read as the printed page; section 3.6.2 agrees"
+    },
+    "type": "technical",
+    "text": "There are emerging challenges about long term archiving, reference and review of digital health records (all components but for the sake of this comment principally the individual direct clinical records)",
+    "suggestedRevision": "Documents versus machine readable data and applications to present primary data with the necessary supporting registry of systems/versions, archived digital applications etc etc are all needed.\nNon-standard approach would be to treat documents and the data separately but require both: one as static, validated images of a \"transaction\" the other as the persistent logical representation of an individual (events, trajectory etc). This is not data embedded documents but loosely analogous to double entry book keeping",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 66"
+      }
+    ]
+  }
+}

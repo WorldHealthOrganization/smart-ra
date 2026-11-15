@@ -1,0 +1,89 @@
+{
+  "id": "pc-0002",
+  "summary": "The draft names this hazard itself: without semantic governance, \"the same coded value is interpreted differently by di…",
+  "comment": "The draft names this hazard itself: without semantic governance, \"the same coded value is interpreted differently by different systems, or systems maintain inconsistent local copies of code systems, making aggregation and comparison unreliable\" (p.69).\n\nThe contract the requirements then write is asymmetric. Two components are Required to consume a capability the provider is only advised to offer. Public Health Surveillance Platform requirement 18 is Required: the platform \"shall subscribe to update notifications from the Terminology Service to ensure surveillance case definitions and reporting forms remain aligned with current terminology versions as international standards evolve\" (p.226). Logical Information Model Repository requirement 7 is Required on the same pattern (p.176). The corresponding provider capability, requirement 21, by which a consuming system learns that an artefact was \"updated, deprecated, or retired\", is Recommended (p.170).\n\nThe nearest thing the draft does require is Public Health Surveillance Platform requirement 19 (p.226, Required), which monitors the \"timeliness, completeness, and quality of surveillance data submissions\" with alerts on threshold breach. That is a check on the volume, timeliness and quality of submissions. Its thresholds are set nationally, so whether the silent absence of one newly notifiable condition registers depends on how finely they are configured. Nothing in the requirement obliges that granularity, and nothing in it requires the platform to establish that a particular consumer has received a particular published change. A detection that depends on how an implementer happens to configure a threshold is not the same as a requirement that the state be demonstrable. Appendix F carries many of the enabling capabilities but is \"illustrative reference material rather than a specification\" (p.241). Gap detection, replay, resynchronisation, omission, cursor, sequence number, manifest and checksum return no occurrences anywhere in the draft.\n\nThe reasoning, a worked case and the measurement proposal are set out in the companion paper attached to this submission.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0002",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 2,
+      "entry": "1",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (Terminology Service; Public Health Surveillance Platform; Logical Information Model Repository); Appendix F",
+      "page": "69 / 170 / 176 / 226 / 241–242",
+      "lines": "Terminology Service requirements 21 and 24; Public Health Surveillance Platform requirements 18 and 19; Logical Information Model Repository requirement 7; Appendix F p.241 L4–7 and Table F",
+      "caption": "Table F",
+      "raw": "§Appendix C (Terminology Service; Public Health Surveillance Platform; Logical Information Model Repository); Appendix F p.69 / 170 / 176 / 226 / 241–242 l.Terminology Service requirements 21 and 24; Public Health Surveillance Platform requirements 18 and 19; Logical Information Model Repository requirement 7; Appendix F p.241 L4–7 and Table F"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-aef916"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggests a new Terminology Service requirement beside reqs 21 and 24; this is the TS functional-requirements table holding req 21"
+    },
+    "type": "technical",
+    "text": "The draft names this hazard itself: without semantic governance, \"the same coded value is interpreted differently by different systems, or systems maintain inconsistent local copies of code systems, making aggregation and comparison unreliable\" (p.69).\n\nThe contract the requirements then write is asymmetric. Two components are Required to consume a capability the provider is only advised to offer. Public Health Surveillance Platform requirement 18 is Required: the platform \"shall subscribe to update notifications from the Terminology Service to ensure surveillance case definitions and reporting forms remain aligned with current terminology versions as international standards evolve\" (p.226). Logical Information Model Repository requirement 7 is Required on the same pattern (p.176). The corresponding provider capability, requirement 21, by which a consuming system learns that an artefact was \"updated, deprecated, or retired\", is Recommended (p.170).\n\nThe nearest thing the draft does require is Public Health Surveillance Platform requirement 19 (p.226, Required), which monitors the \"timeliness, completeness, and quality of surveillance data submissions\" with alerts on threshold breach. That is a check on the volume, timeliness and quality of submissions. Its thresholds are set nationally, so whether the silent absence of one newly notifiable condition registers depends on how finely they are configured. Nothing in the requirement obliges that granularity, and nothing in it requires the platform to establish that a particular consumer has received a particular published change. A detection that depends on how an implementer happens to configure a threshold is not the same as a requirement that the state be demonstrable. Appendix F carries many of the enabling capabilities but is \"illustrative reference material rather than a specification\" (p.241). Gap detection, replay, resynchronisation, omission, cursor, sequence number, manifest and checksum return no occurrences anywhere in the draft.\n\nThe reasoning, a worked case and the measurement proposal are set out in the companion paper attached to this submission.",
+    "suggestedRevision": "Add a Required, transport-neutral requirement to the Terminology Service alongside requirements 21 and 24. Proposed wording:\n\n\"The TS shall provide a means by which a consuming system can obtain a complete and explicitly identified copy of the terminology content it depends on, determine whether that copy is a release currently applicable to its context, and detect and recover from a change that has not reached it. The means is not prescribed: an application programming interface, a subscription, a periodic release package, syndication or a bulk export may each satisfy this requirement, and a country distributing by release package requires no change-stream capability.\"\n\nMake the obligation reciprocal: where a component is Required to subscribe, as the surveillance platform and the information-model repository are, the Terminology Service should be Required to provide the mechanism they are Required to use. And extend terminology conformance testing across the producer–consumer boundary rather than against the service alone, with tests appropriate to each route: for replacement delivery, that a consumer can take a fresh complete copy and verify its identity and completeness against the published package identity; for incremental delivery, that omission and duplication are detected, that a recorded position can be resumed from, and that an unserviceable position produces an explicit condition with a route to a complete copy rather than a silent resumption.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Consider by TWG? Human categorisation": "Metadata"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 2"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggests a new Terminology Service requirement beside reqs 21 and 24; this is the TS functional-requirements table holding req 21"
+      }
+    ]
+  }
+}

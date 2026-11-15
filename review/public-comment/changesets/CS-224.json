@@ -1,0 +1,36 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-224",
+  "title": "Decompose cross-cutting enablers in the goal mappings",
+  "requirements": "- Replace the single interoperability box with its underlying services (discovery, trust, routing, validation, semantics, mapping)\n- Replace a single consent or privacy box with distinct capabilities: legal basis, authorisation, consent/preference, audit, data rights\n- Split legal identity, health person identification, authentication, credentials, authorisation and record linkage\n- Make SGI and governed semantic artefacts (profiles, mappings, data dictionaries) visible where components depend on them\n- Show trust enablers (governance, security, legal authority, accountability) as explicit capabilities\n- Make the foundational DPI dependency list explicitly non-exhaustive and context-specific\n- Include provenance, units, status and timing as semantic requirements where clinical data is exchanged\n- Map purpose-specific minimum datasets and restricted access where goals reuse personal data",
+  "refs": [
+    "PC-2213",
+    "PC-2214",
+    "PC-2216",
+    "PC-2219",
+    "PC-2220",
+    "PC-2221",
+    "PC-2222",
+    "PC-2224",
+    "PC-2243",
+    "PC-2250",
+    "PC-2255",
+    "PC-2288",
+    "PC-2297",
+    "PC-2310",
+    "PC-2311",
+    "PC-2312",
+    "PC-2313"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 17 comment(s)"
+    }
+  ]
+}

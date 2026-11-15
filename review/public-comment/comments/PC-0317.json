@@ -1,0 +1,83 @@
+{
+  "id": "pc-0317",
+  "summary": "For readability I suggest limiting paragraphs to 3-4 sentences. Make a point and use next paragraph to provide a contex…",
+  "comment": "For readability I suggest limiting paragraphs to 3-4 sentences. Make a point and use next paragraph to provide a context or example",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0317",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 317,
+      "entry": "316",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole of document",
+      "raw": "§Whole of document"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document paragraph-length style; line 102 is only an example"
+    },
+    "type": "editorial",
+    "text": "For readability I suggest limiting paragraphs to 3-4 sentences. Make a point and use next paragraph to provide a context or example",
+    "suggestedRevision": "Example of one instance (blank lines have been left here to demonstrate the point but not expecting blank lines in the final document)\n\nLine 102 \nDPI has demonstrated impact in countries and catalysed ecosystem innovation across sectors.\n\nFoundational DPI for identity, data exchange and digital payments — exemplified by India's Aadhaar digital identity, Brazil's Pix instant payments, and Estonia's X-Road data exchange layer — have shown tremendous value as shared infrastructure that can be leveraged by multiple sectors.\n\nThe health sector has been a direct beneficiary in some countries; for example, in India, the COVID-19 vaccination platform CoWIN was built on the existing Aadhaar identity infrastructure for beneficiary verification, helping deliver over one billion vaccine doses within nine months and reaching more than 940 million registered users. \n\nIn Estonia, the  national health information system — which since 2008 has maintained a longitudinal electronic health record for every resident — runs on the same X-Road data exchange layer used across  all public services, while citizens access their records through the national digital identity (IDcard or Mobile-ID) rather than a health-specific credential . \n\nTogether these cases show how  health-specific capabilities can be delivered at population scale by leveraging foundational DPI,  rather than building parallel identity, data-exchange or payment systems for health alone. \n\nThe  health sector however, while not being unique in its ability to leverage foundational DPI,  possesses some unique requirements that have not yet been articulated to enable it to  effectively leverage these foundational components. \n\nThis guidance articulates the explicit health-sector requirements that foundational DPIs would need to satisfy in order to contribute to health sector goals. Additionally, this reference architecture recognises that the health sector possesses some components that can be shared and reused across different programmes in  the health sector, components that can be described as health DPIs (DPI-H). \n\nIt also articulates the explicit requirements that the “health DPIs” would need to satisfy in order to contribute to health sector goals.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 317"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document paragraph-length style; line 102 is only an example"
+      }
+    ]
+  }
+}

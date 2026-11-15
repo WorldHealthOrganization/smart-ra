@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-metadata-registries-and-foundati-product-registry-4c0041",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-metadata-registries-and-foundati-product-registry-4c0041",
+  "kind": "prose",
+  "cites": [
+    "references/usaid-2020-ghsc-psm-pmdm"
+  ],
+  "text": "p-c-metadata-registries-and-foundati-product-registry-4c0041.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 726,
+      "page": 156,
+      "pageEnd": 157,
+      "printedPage": "145",
+      "lineStart": 404,
+      "lineEnd": 411,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

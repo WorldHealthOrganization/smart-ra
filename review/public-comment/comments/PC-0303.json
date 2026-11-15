@@ -1,0 +1,81 @@
+{
+  "id": "pc-0303",
+  "summary": "The section makes an important distinction between probabilistic inference and functions for which identical inputs sho…",
+  "comment": "The section makes an important distinction between probabilistic inference and functions for which identical inputs should yield identical outputs. It also identifies machine-readable specifications and metadata as a developing readiness practice. This distinction could be strengthened without implying that all AI outputs should be deterministic.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-e0d91d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0303",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 303,
+      "entry": "302",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2",
+      "page": "106",
+      "lines": "85-91, 99-102, 103-106",
+      "raw": "§5.2 p.106 l.85-91, 99-102, 103-106"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-e0d91d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-2-d49756",
+        "prose:5-2-2ba6f8"
+      ],
+      "note": "p.106 l.85-91, 99-102, 103-106 read as the printed page; section 5.2 agrees"
+    },
+    "type": "technical",
+    "text": "The section makes an important distinction between probabilistic inference and functions for which identical inputs should yield identical outputs. It also identifies machine-readable specifications and metadata as a developing readiness practice. This distinction could be strengthened without implying that all AI outputs should be deterministic.",
+    "suggestedRevision": "State as a recommended AI-readiness practice that deterministic subtasks should, where feasible, be delegated to governed authoritative services, while machine-readable specifications and metadata should support automated discovery and interpretation of those services. Reserve probabilistic model inference for tasks that genuinely benefit from it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 303"
+      }
+    ]
+  }
+}

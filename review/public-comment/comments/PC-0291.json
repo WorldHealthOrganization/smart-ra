@@ -1,0 +1,78 @@
+{
+  "id": "pc-0291",
+  "summary": "The references section is a placeholder: 'Reference list to be included before publication'. Substantive claims that ci…",
+  "comment": "The references section is a placeholder: 'Reference list to be included before publication'. Substantive claims that cite the numbered reference list rather than inline footnotes cannot be checked without it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:references-lead-071187",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0291",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 291,
+      "entry": "290",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "References",
+      "page": "111",
+      "lines": "n/a",
+      "raw": "§References p.111 l.n/a"
+    },
+    "anchor": {
+      "targetLabel": "prose:references-lead-071187",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "editorial",
+    "text": "The references section is a placeholder: 'Reference list to be included before publication'. Substantive claims that cite the numbered reference list rather than inline footnotes cannot be checked without it.",
+    "suggestedRevision": "Include the complete reference list in the next review round, not only in the final publication.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 291"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$comment": "Fig. 3.6 of the DPI-H RA as data (owner, 2026-11-01, Q-RAFIG-1 A): exchange patterns that can coexist within a single country. Systems A-D are placeholders, so they are kept out of the ArchiMate model. Kinds and line meanings follow the legend in block t-3-6; the text there says what each pattern means.",
+  "title": "Exchange patterns that can coexist within a single country (Fig. 3.6)",
+  "source": "DPI-H RA draft v1, Figure 3.6 (PDF 87); legend in block t-3-6",
+  "kinds": {
+    "system": {
+      "layer": "Application",
+      "label": "System: a participating system or component that sends or receives data"
+    },
+    "shared": {
+      "layer": "Technology",
+      "label": "Shared infrastructure: service bus, event broker, gateway or access point (AP)"
+    },
+    "oversight": {
+      "layer": "Business",
+      "label": "Central authority: registration, logging and oversight"
+    }
+  },
+  "lines": {
+    "data": {
+      "label": "Exchange of data between endpoints"
+    },
+    "oversight": {
+      "label": "Registration, logging and oversight, carrying no data content",
+      "dash": "6 4"
+    },
+    "event": {
+      "label": "Direction of event flow (publish–subscribe)",
+      "arrow": true
+    }
+  },
+  "panelSize": [300, 262],
+  "panels": [
+    {"title": "Direct connections",
+     "nodes": [
+        ["a", "System A", "system", 20, 30],
+        ["b", "System B", "system", 190, 30],
+        ["c", "System C", "system", 20, 160],
+        ["d", "System D", "system", 190, 160]],
+     "edges": [
+        ["a", "b", "data"],
+        ["a", "c", "data"],
+        ["a", "d", "data"],
+        ["b", "d", "data"]]},
+    {"title": "Central service bus",
+     "nodes": [
+        ["s1", "System", "system", 10, 20],
+        ["s2", "System", "system", 110, 20],
+        ["s3", "System", "system", 210, 20],
+        ["bus", "Service bus", "shared", 10, 95, 280, 30],
+        ["s4", "System", "system", 55, 165],
+        ["s5", "System", "system", 165, 165]],
+     "edges": [
+        ["s1", "bus", "data"],
+        ["s2", "bus", "data"],
+        ["s3", "bus", "data"],
+        ["bus", "s4", "data"],
+        ["bus", "s5", "data"]]},
+    {"title": "Gateways",
+     "nodes": [
+        ["a", "System A", "system", 15, 15],
+        ["b", "System B", "system", 195, 15],
+        ["ga", "Gateway", "shared", 25, 80, 70, 26],
+        ["gb", "Gateway", "shared", 205, 80, 70, 26],
+        ["gc", "Gateway", "shared", 115, 135, 70, 26],
+        ["c", "System C", "system", 105, 185]],
+     "edges": [
+        ["a", "ga", "data"],
+        ["b", "gb", "data"],
+        ["c", "gc", "data"],
+        ["ga", "gb", "data"],
+        ["ga", "gc", "data"],
+        ["gb", "gc", "data"]]},
+    {"title": "Distributed access points",
+     "nodes": [
+        ["a", "System A", "system", 15, 5],
+        ["b", "System B", "system", 195, 5],
+        ["apa", "AP", "shared", 35, 55, 50, 24],
+        ["apb", "AP", "shared", 215, 55, 50, 24],
+        ["reg", "Registry / oversight", "oversight", 92, 95, 116, 30],
+        ["apc", "AP", "shared", 125, 185, 50, 24],
+        ["c", "System C", "system", 110, 224, 80, 30]],
+     "edges": [
+        ["a", "apa", "data"],
+        ["b", "apb", "data"],
+        ["c", "apc", "data"],
+        ["apa", "apb", "data"],
+        ["apa", "apc", "data"],
+        ["apb", "apc", "data"],
+        ["reg", "apa", "oversight"],
+        ["reg", "apb", "oversight"],
+        ["reg", "apc", "oversight"]]},
+    {"title": "Publish–subscribe (asynchronous)",
+     "nodes": [
+        ["a", "System A", "system", 0, 110, 72, 32],
+        ["br", "Event broker", "shared", 117, 108, 80, 36],
+        ["b", "System B", "system", 222, 30, 74, 32],
+        ["c", "System C", "system", 222, 110, 74, 32],
+        ["d", "System D", "system", 222, 190, 74, 32]],
+     "edges": [
+        ["a", "br", "event", "publish"],
+        ["br", "b", "event", "notify"],
+        ["br", "c", "event"],
+        ["br", "d", "event"]]}
+  ]
+}

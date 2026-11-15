@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-191",
+  "title": "Scope the Supplier Registry as a health layer over cross-sector identities",
+  "requirements": "- Build on authoritative business, tax and procurement identities where available rather than duplicating them\n- Support provisional and pending-verification statuses for emergency suppliers\n- Make notification of suspension, sanction, licence expiry and recall mandatory for authorised consumers\n- Limit content to supplier identity and health-sector qualification; keep contracts and performance in procurement systems\n- Verify legal-entity data via authoritative sources rather than revalidating it\n- Model typed supplier-product relationships and support diverse supplier forms\n- Require source, legal basis, correction and appeal for sanctions or exclusion status\n- Qualify claims about preventing counterfeit and corruption",
+  "refs": [
+    "PC-0985",
+    "PC-0986",
+    "PC-1969",
+    "PC-1970",
+    "PC-1972",
+    "PC-1974",
+    "PC-1975",
+    "PC-1977",
+    "PC-1978",
+    "PC-1980",
+    "PC-1981",
+    "PC-1983",
+    "PC-1985",
+    "PC-1987",
+    "PC-1988"
+  ],
+  "anchor": "sec:c-business-services-components-supplier-registry",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 15 comment(s)"
+    }
+  ]
+}

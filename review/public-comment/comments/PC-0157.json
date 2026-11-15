@@ -1,0 +1,78 @@
+{
+  "id": "pc-0157",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-4-a8e0b3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0157",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 157,
+      "entry": "156",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.4",
+      "page": "12",
+      "lines": "161-163",
+      "raw": "§1.1.4 p.12 l.161-163"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-4-a8e0b3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.12 l.161-163 read as the printed page; section 1.1.4 agrees"
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "The referance architecture delineates standard specifications and compliance criteria that facilitate transparent procurement, vendor fairness and informed assessment of solutions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 157"
+      }
+    ]
+  }
+}

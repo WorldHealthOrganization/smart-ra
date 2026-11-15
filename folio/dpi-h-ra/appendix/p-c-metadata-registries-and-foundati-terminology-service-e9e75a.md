@@ -1,0 +1,1 @@
+The **HMIS, the PHSP**, and all analytical and reporting functions depend on the TS for semantic comparability of data drawn from multiple source systems. Aggregate indicators, case classifications, and cross-programme analyses are only reliable if the underlying data uses consistent codes; the TS is the infrastructure that makes that consistency achievable.

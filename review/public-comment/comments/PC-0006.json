@@ -1,0 +1,79 @@
+{
+  "id": "pc-0006",
+  "summary": "Two consecutive subsections carry the same number. \"Integration Interfaces with Foundational DPI\" begins as section 4.3…",
+  "comment": "Two consecutive subsections carry the same number. \"Integration Interfaces with Foundational DPI\" begins as section 4.3.4 at L339 (p.96), and \"Interoperability Implementation Pathways\" begins as section 4.3.4 at L369 (p.97). \"Minimum Conformance and Testing\" then appears as 4.3.5 at L398 (p.98). The duplication is reproduced in the table of contents, so a reference to \"section 4.3.4\" is ambiguous.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-83c937",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0006",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 6,
+      "entry": "5",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4–4.3.5",
+      "page": "96–98",
+      "lines": "L339; L369; L398",
+      "raw": "§4.3.4–4.3.5 p.96–98 l.L339; L369; L398"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-83c937",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96–98 l.L339; L369; L398 read as the printed page; section 4.3.4 agrees"
+    },
+    "type": "editorial",
+    "text": "Two consecutive subsections carry the same number. \"Integration Interfaces with Foundational DPI\" begins as section 4.3.4 at L339 (p.96), and \"Interoperability Implementation Pathways\" begins as section 4.3.4 at L369 (p.97). \"Minimum Conformance and Testing\" then appears as 4.3.5 at L398 (p.98). The duplication is reproduced in the table of contents, so a reference to \"section 4.3.4\" is ambiguous.",
+    "suggestedRevision": "Renumber \"Interoperability Implementation Pathways\" as 4.3.5 and \"Minimum Conformance and Testing\" as 4.3.6, in both the body and the table of contents.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial",
+      "Consider by TWG? Human categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 6"
+      }
+    ]
+  }
+}

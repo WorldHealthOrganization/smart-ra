@@ -1,0 +1,79 @@
+{
+  "id": "pc-0108",
+  "summary": "Figure 3.3-3.5 uses ArchiMate colours to layer the sub-goal and outcome, capabilities and services, and metadata compon…",
+  "comment": "Figure 3.3-3.5 uses ArchiMate colours to layer the sub-goal and outcome, capabilities and services, and metadata components for the \"Establish Trusted Personal Health Records\" sub-goal, but the colour coding does not visually distinguish DPI-F, DPI-H, and functional application elements from one another elsewhere in the document these three are referred to by different names/labels, so the same or similar colours mapping to inconsistently-named categories makes the layering hard to interpret correctly.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0108",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 108,
+      "entry": "107",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 The reference architecture in practice",
+      "page": "50-52",
+      "lines": "172-192, Figure 3.3-3.5",
+      "caption": "Figure 3.3",
+      "raw": "§3.3 The reference architecture in practice p.50-52 l.172-192, Figure 3.3-3.5"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Figure 3.3 as cited"
+    },
+    "type": "technical",
+    "text": "Figure 3.3-3.5 uses ArchiMate colours to layer the sub-goal and outcome, capabilities and services, and metadata components for the \"Establish Trusted Personal Health Records\" sub-goal, but the colour coding does not visually distinguish DPI-F, DPI-H, and functional application elements from one another elsewhere in the document these three are referred to by different names/labels, so the same or similar colours mapping to inconsistently-named categories makes the layering hard to interpret correctly.",
+    "suggestedRevision": "Assign DPI-F, DPI-H, and functional applications distinct, consistently-applied colours in Figure, with a legend that cross-references the terminology used for each category elsewhere in the document, so the colour-to-term mapping is unambiguous throughout.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 108"
+      }
+    ]
+  }
+}

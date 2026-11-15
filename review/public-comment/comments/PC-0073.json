@@ -1,0 +1,80 @@
+{
+  "id": "pc-0073",
+  "summary": "This is especially important for Member States where foundational DPI is still limited or does not yet exist. Health sy…",
+  "comment": "This is especially important for Member States where foundational DPI is still limited or does not yet exist. Health systems should be able to move ahead now and connect to digital identity, payments and data-exchange infrastructure as these become available, rather than waiting for foundational DPI to mature. In our region, waiting for that wider infrastructure is a common reason digital health investment stalls. The point is easy to miss at the end of the sub-section.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-1-3-1b7b3e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0073",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 73,
+      "entry": "72",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.1.3",
+      "page": "26",
+      "lines": "87–97",
+      "raw": "§2.1.3 p.26 l.87–97"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-1-3-1b7b3e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-1-3-4874b3"
+      ],
+      "note": "p.26 l.87–97 read as the printed page; section 2.1.3 agrees"
+    },
+    "type": "general",
+    "text": "This is especially important for Member States where foundational DPI is still limited or does not yet exist. Health systems should be able to move ahead now and connect to digital identity, payments and data-exchange infrastructure as these become available, rather than waiting for foundational DPI to mature. In our region, waiting for that wider infrastructure is a common reason digital health investment stalls. The point is easy to miss at the end of the sub-section.",
+    "suggestedRevision": "Give this point more prominence by including it in the executive summary and repeating it in 1.1.4 ('Who can benefit from this guidance?', p.12). Suggested wording: 'The absence of mature foundational DPI is not a reason to defer DPI-H investment. Health-sector components can be established first and integrated with foundational DPI as it becomes available.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 73"
+      }
+    ]
+  }
+}

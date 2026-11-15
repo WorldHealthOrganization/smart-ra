@@ -1,0 +1,78 @@
+{
+  "id": "pc-0844",
+  "summary": "The definition states that an application component is a deployable piece of software that provides functionality and h…",
+  "comment": "The definition states that an application component is a deployable piece of software that provides functionality and holds the data it manages. Some valid components may provide shared services without holding authoritative data, while federated components may access data held elsewhere.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0844",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 80,
+      "entry": "79",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.1",
+      "page": "43",
+      "lines": "Table 3.1, “Application component”",
+      "caption": "Table 3.1",
+      "raw": "§3.1 p.43 l.Table 3.1, “Application component”"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-1",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.1 as cited"
+    },
+    "text": "The definition states that an application component is a deployable piece of software that provides functionality and holds the data it manages. Some valid components may provide shared services without holding authoritative data, while federated components may access data held elsewhere.",
+    "suggestedRevision": "Revise the definition to: “A modular and independently identifiable unit of application functionality that exposes defined services and may manage or access defined data objects. It may be realised by one or more deployed software systems.”",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 80"
+      }
+    ]
+  }
+}

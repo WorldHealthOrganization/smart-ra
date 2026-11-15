@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-121",
+  "title": "Add safeguards and data prerequisites to the AI use cases in 5.3",
+  "requirements": "- For each example (claims, supply forecasting, product mapping, clinical support, settlement mapping, document extraction) note data prerequisites, evidence and validation needed\n- Note simpler alternatives where advanced models are not justified",
+  "refs": [
+    "PC-1347",
+    "PC-1349",
+    "PC-1350",
+    "PC-1351",
+    "PC-1353",
+    "PC-1354",
+    "PC-1355"
+  ],
+  "anchor": "prose:5-3-09c983",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-233",
+  "title": "Define SGI feedback and remediation loops from implementation",
+  "requirements": "- Require structured feedback tied to artefact, version, system and use case\n- Show bidirectional flows in the SGI figure: publication downward; implementation feedback, requests and quality issues upward\n- Take in evidence that governed content is misread at the point of care\n- Classify issues (content defect, implementation error, configuration, source data, training) with owners and deadlines\n- Route issues to both artefact stewards and source-system owners, and make bidirectional governance explicit\n- Define community participation rights and processes",
+  "refs": [
+    "PC-0167",
+    "PC-0705",
+    "PC-0911",
+    "PC-2394",
+    "PC-2395",
+    "PC-2403",
+    "PC-2427",
+    "PC-2429",
+    "PC-2430",
+    "PC-2455"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 10 comment(s)"
+    }
+  ]
+}

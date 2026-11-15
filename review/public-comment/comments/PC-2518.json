@@ -1,0 +1,74 @@
+{
+  "id": "pc-2518",
+  "summary": "Classification and derivation metadata for indicators — The existing “capture once” principle is strong; its classifica…",
+  "comment": "Classification and derivation metadata for indicators — The existing “capture once” principle is strong; its classification-aware mechanism is missing. This is the most direct place to operationalise the supplied data-continuity paper without claiming that reuse needs no rules or information beyond terminology.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-business-services-components-health-management-information-sy",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2518",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 61,
+      "entry": "60",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Health Management Information System, §5",
+      "page": "214",
+      "lines": "A22.02",
+      "raw": "§Health Management Information System, §5 p.214 l.A22.02"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-business-services-components-health-management-information-sy",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Health Management Information System\""
+    },
+    "text": "Classification and derivation metadata for indicators — The existing “capture once” principle is strong; its classification-aware mechanism is missing. This is the most direct place to operationalise the supplied data-continuity paper without claiming that reuse needs no rules or information beyond terminology.",
+    "suggestedRevision": "Append; retain Required status: For classification-based outputs, this metadata shall include the classification release, applicable selection and aggregation rules, and lineage from source clinical statements to derived results. Recalculation under a later release or rule set shall be distinguishable from the original reported result.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 61"
+      }
+    ]
+  }
+}

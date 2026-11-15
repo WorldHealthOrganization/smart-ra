@@ -1,0 +1,82 @@
+{
+  "id": "pc-0170",
+  "summary": "SGI presupposes sustained institutional capacity (committees, curation, release management) that is scarcest in the LMI…",
+  "comment": "SGI presupposes sustained institutional capacity (committees, curation, release management) that is scarcest in the LMICs this guidance most aims to serve. The financing and capacity sections are thin relative to what the governance model demands.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-d28462",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0170",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 170,
+      "entry": "169",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.5–4.6",
+      "page": "100–103",
+      "lines": "Whole sections",
+      "raw": "§4.5–4.6 p.100–103 l.Whole sections"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-d28462",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-5-1-bee8f3",
+        "prose:4-5-1-d0bafb",
+        "prose:4-5-1-c4688e"
+      ],
+      "note": "p.100–103 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "SGI presupposes sustained institutional capacity (committees, curation, release management) that is scarcest in the LMICs this guidance most aims to serve. The financing and capacity sections are thin relative to what the governance model demands.",
+    "suggestedRevision": "Expand §§4.5–4.6 with a minimal viable SGI staffing/costing model and options for regional pooling of semantic governance (shared curation across countries, as §3.4.6 hints), so the governance burden matches realistic capacity.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 170"
+      }
+    ]
+  }
+}

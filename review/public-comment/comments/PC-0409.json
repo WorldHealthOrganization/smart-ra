@@ -1,0 +1,82 @@
+{
+  "id": "pc-0409",
+  "summary": "Human-in-the-loop data quality is asserted as a goal frequently, but this process is specified nowhere. For example, da…",
+  "comment": "Human-in-the-loop data quality is asserted as a goal frequently, but this process is specified nowhere. For example, data quality functionality is also listed as a core attribute of the HMIS though data quality assurance is only \"recommended\" functional requirement. This seems to derive from an assumption that all HMIS data would derive from digital registries, although mixed modes of paper, digital, aggregate and line lists are prevalent in many settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0409",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 409,
+      "entry": "408",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "page": "230",
+      "lines": "HMIS",
+      "raw": "§Appendix D p.230 l.HMIS"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-1-computable-decision-support-engi-39fe47",
+        "prose:d-1-health-management-information-se-595883",
+        "prose:d-1-public-health-surveillance-platf-92708e"
+      ],
+      "note": "p.230 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Human-in-the-loop data quality is asserted as a goal frequently, but this process is specified nowhere. For example, data quality functionality is also listed as a core attribute of the HMIS though data quality assurance is only \"recommended\" functional requirement. This seems to derive from an assumption that all HMIS data would derive from digital registries, although mixed modes of paper, digital, aggregate and line lists are prevalent in many settings.",
+    "suggestedRevision": "Recommend: (1) an explicit data-quality-assurance dimension added to the HMIS and PHSP component articulations, naming who reviews data at each administrative level and how corrections propagate through the pipeline; (2) reconsidering \"structured quality feedback\" for Required status; (3) a data-quality-assurance workstream added to the Chapter 4 phased roadmap; (4) referencing WHO's own established DQR toolkit rather than leaving this to be reinvented per country.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 409"
+      }
+    ]
+  }
+}

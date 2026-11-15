@@ -1,0 +1,7 @@
+- **CDS Hooks —** an open standard for invoking decision-support services from within point-of-care clinical workflows, enabling logic to be consumed without bespoke integration. \cite{cds-hooks}
+- **Clinical Quality Language and FHIR Clinical Reasoning —** HL7 standards for expressing clinical logic in a human-readable, computable form and representing it as portable knowledge artefacts. \cite{hl7-cql}
+- **OpenCDS** **—** an open-source inference engine that executes clinical rules independently of the applications that consume their outputs. \cite{opencds}
+- **WHO SMART Guidelines Digital Adaptation Kits and L3 content —** a methodology and toolchain for expressing WHO guidelines as machine-executable decision logic for priority health areas. \cite{who-smart-guidelines}
+- **OpenMRS** **decision-support module —** rule-based alerting and protocol-driven guidance within an open-source facility clinical application, a practical entry point where a distinct engine is being built progressively. \cite{openmrs}
+- **Firely** **Server —** a commercially supported, FHIR-conformant server with Clinical Reasoning support, illustrating that the architecture is not limited to open-source realisations. \cite{firely}
+- **GDL2 and** **openEHR** **decision support —** an archetype-native formalism for computable rules that couples decision logic to the same information models used to structure the record. \cite{openehr}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0701",
+  "summary": "The draft rightly notes SNOMED CT licensing, and SGI covers release management. However, it nowhere states as a require…",
+  "comment": "The draft rightly notes SNOMED CT licensing, and SGI covers release management. However, it nowhere states as a requirement that all participating systems must operate on the same versions of the same code systems and value sets. Divergent versions allow one code to carry a changed or deprecated meaning across systems — undermining precisely the semantic consistency the architecture exists to provide.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0701",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 701,
+      "entry": "700",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 2, §2.2.2 (Enabling conditions / open standards); Ch. 3, §3.4.5 (SGI); Appendix F",
+      "raw": "§Ch. 2, §2.2.2 (Enabling conditions / open standards); Ch. 3, §3.4.5 (SGI); Appendix F"
+    },
+    "anchor": {
+      "targetLabel": "sec:f",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section F only"
+    },
+    "text": "The draft rightly notes SNOMED CT licensing, and SGI covers release management. However, it nowhere states as a requirement that all participating systems must operate on the same versions of the same code systems and value sets. Divergent versions allow one code to carry a changed or deprecated meaning across systems — undermining precisely the semantic consistency the architecture exists to provide.",
+    "suggestedRevision": "State explicitly (in §2.2.2 and in the SGI capability categories) that version alignment of terminologies and value sets across all consuming systems is a conformance requirement, with coordinated national release windows, deprecation notice periods, and migration testing as SGI-governed processes.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Comment type": "#2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 701"
+      }
+    ]
+  }
+}

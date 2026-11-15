@@ -1,0 +1,82 @@
+{
+  "id": "pc-2662",
+  "summary": "Suggestion to include Austria's example",
+  "comment": "Suggestion to include Austria's example",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2662",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 40,
+      "entry": "30",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D: Country implementation examples",
+      "page": "231",
+      "lines": "91",
+      "raw": "§Appendix D: Country implementation examples p.231 l.91"
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-fe9ea4"
+      ],
+      "note": "placed by a placement agent reading the comment against the text (high): proposes an Austria country example for D.2; p.231 l.91 is the line before D.2's first example"
+    },
+    "type": "editorial",
+    "text": "Suggestion to include Austria's example",
+    "suggestedRevision": "Components illustrated: LHR, Terminology Service\nAustria operates a national eHealth interoperability infrastructure (elga.gv.at), with ELGA serving as the electronic health record system for its citizens. It enables authorized healthcare professionals to securely access relevant health information across healthcare providers and institutions, while the ELGA Portal provides patients with access to their own health data. ELGA is deployed nationwide, connecting virtually all healthcare providers and pharmacies across Austria. ELGA supports the exchange of information such as discharge letters, laboratory and radiology reports, e-Medication, and e-prescriptions, improving continuity of care and patient safety. The ELGA Terminology Service1 provides centrally managed medical terminologies, code systems, value sets, and mappings, ensuring semantic interoperability and consistent interpretation of health information across different IT systems.\n\nAdd as foonote: 1 ELGA Terminology Service: https://termgit.elga.gv.at/index_en.html",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 40"
+      },
+      {
+        "at": "2026-10-15T11:15:03.441Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): proposes an Austria country example for D.2; p.231 l.91 is the line before D.2's first example"
+      }
+    ]
+  }
+}

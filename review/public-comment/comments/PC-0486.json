@@ -1,0 +1,87 @@
+{
+  "id": "pc-0486",
+  "summary": "Semantic governance is described in institutional terms without addressing who staffs it. Standards and terminology com…",
+  "comment": "Semantic governance is described in institutional terms without addressing who staffs it. Standards and terminology committees are resourced by organisations able to release expert time, predominantly established vendors and large providers. Whoever writes the standard determines who can meet it, so committee composition is a competition matter as well as a technical one.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0486",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 486,
+      "entry": "485",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57",
+      "lines": "373",
+      "raw": "§3.4.5 p.57 l.373"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-2-00e672"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.5 Semantic Governance Infrastructure, about who staffs normative bodies."
+    },
+    "type": "technical",
+    "text": "Semantic governance is described in institutional terms without addressing who staffs it. Standards and terminology committees are resourced by organisations able to release expert time, predominantly established vendors and large providers. Whoever writes the standard determines who can meet it, so committee composition is a competition matter as well as a technical one.",
+    "suggestedRevision": "Add a composition requirement for normative bodies: a stated balance between providers, professional bodies, smaller vendors, patient representation and public authorities; disclosure of participants and their affiliations; and publicly reasoned decisions. Without this, semantic governance reproduces the incumbent structure the guidance intends to open up, and does so with public authority behind it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 486"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.5 Semantic Governance Infrastructure, about who staffs normative bodies."
+      }
+    ]
+  }
+}

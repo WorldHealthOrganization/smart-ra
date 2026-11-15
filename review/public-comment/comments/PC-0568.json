@@ -1,0 +1,81 @@
+{
+  "id": "pc-0568",
+  "summary": "IPC has published a consensus manuscript on statements on the use of digital health, in particular teledermatology, in …",
+  "comment": "IPC has published a consensus manuscript on statements on the use of digital health, in particular teledermatology, in psoriasis (El Komy MHM, Chiricozzi A, Kerkhof P, Armstrong A, Diamei V, Hsu C, et al. Telemedicine and psoriasis: a review based on statements of the telemedicine working group of the International Psoriasis Council. JEADV Clin Pract. 2023;2:19-31. https://doi.org/10.1002/jvc2.93). The following consensus statements are in line with the current WHO initiative and are offered as supporting evidence: legal aspects, cost-effectiveness and reimbursement — Q14 every national healthcare system should legalise and establish preferred teledermatology systems such as live video conferencing (LVC) and store-and-forward (SAF); Q15 security, safety and privacy protocols for data communicated through teledermatology must be established; Q16 SAF and LVC must be reimbursed on par with in-person visits according to national reimbursement systems. Innovation in care — Q27 teledermatology consultations for early diagnosis should be available where culturally acceptable; Q28 teledermatology consultations are suitable for follow-up of patients with psoriasis; Q29 telehealth advice is increasingly used and can serve as a non-diagnostic triage and referral tool. Pictures, AI and automated PASI — Q30 photographs of patients with psoriasis are essential for diagnosis and for concomitant skin diseases; Q31 photograph quality should be optimised by giving patients instructions consistent with American Teledermatology Association guidelines. Access to care — Q36 access to care in underserved areas can be improved by providing a framework for the optimal use of teledermatology. (Q-numbers refer to the IPC consensus publication, not to the WHO draft.)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-c9e50d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0568",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 568,
+      "entry": "567",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1",
+      "page": "22–40; 88–103",
+      "raw": "§1 p.22–40; 88–103"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-c9e50d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-5-e66449",
+        "prose:1-5-1-69f4a6",
+        "prose:1-5-1-252744"
+      ],
+      "note": "p.22–40; 88–103 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "IPC has published a consensus manuscript on statements on the use of digital health, in particular teledermatology, in psoriasis (El Komy MHM, Chiricozzi A, Kerkhof P, Armstrong A, Diamei V, Hsu C, et al. Telemedicine and psoriasis: a review based on statements of the telemedicine working group of the International Psoriasis Council. JEADV Clin Pract. 2023;2:19-31. https://doi.org/10.1002/jvc2.93). The following consensus statements are in line with the current WHO initiative and are offered as supporting evidence: legal aspects, cost-effectiveness and reimbursement — Q14 every national healthcare system should legalise and establish preferred teledermatology systems such as live video conferencing (LVC) and store-and-forward (SAF); Q15 security, safety and privacy protocols for data communicated through teledermatology must be established; Q16 SAF and LVC must be reimbursed on par with in-person visits according to national reimbursement systems. Innovation in care — Q27 teledermatology consultations for early diagnosis should be available where culturally acceptable; Q28 teledermatology consultations are suitable for follow-up of patients with psoriasis; Q29 telehealth advice is increasingly used and can serve as a non-diagnostic triage and referral tool. Pictures, AI and automated PASI — Q30 photographs of patients with psoriasis are essential for diagnosis and for concomitant skin diseases; Q31 photograph quality should be optimised by giving patients instructions consistent with American Teledermatology Association guidelines. Access to care — Q36 access to care in underserved areas can be improved by providing a framework for the optimal use of teledermatology. (Q-numbers refer to the IPC consensus publication, not to the WHO draft.)",
+    "suggestedRevision": "Cite the IPC teledermatology consensus statements as supporting evidence in the relevant sections, and reflect the reimbursement, privacy and image-quality statements in the guidance on legal aspects, financing and clinical images.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 568"
+      }
+    ]
+  }
+}

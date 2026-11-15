@@ -1,0 +1,73 @@
+{
+  "id": "pc-2657",
+  "summary": "“De-identified” is legally and technically ambiguous. Removal of direct identifiers does not necessarily make a dataset…",
+  "comment": "“De-identified” is legally and technically ambiguous. Removal of direct identifiers does not necessarily make a dataset anonymous. If individuals remain identifiable through additional information or reasonably available means, the data remain personal data and continue to require an applicable legal basis and safeguards. The Reference Architecture should therefore use the clearer categories of anonymous/anonymised and pseudonymised data or define any broader term precisely. This distinction is particularly important for secondary use: EHDS permits access to pseudonymised personal data when anonymous data are insufficient, but only through its regulated access and secure-processing model.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2657",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 35,
+      "entry": "25",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Health Management Information System",
+      "page": "212",
+      "lines": "101-104",
+      "raw": "§Appendix C: Health Management Information System p.212 l.101-104"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.212 l.101-104 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "“De-identified” is legally and technically ambiguous. Removal of direct identifiers does not necessarily make a dataset anonymous. If individuals remain identifiable through additional information or reasonably available means, the data remain personal data and continue to require an applicable legal basis and safeguards. The Reference Architecture should therefore use the clearer categories of anonymous/anonymised and pseudonymised data or define any broader term precisely. This distinction is particularly important for secondary use: EHDS permits access to pseudonymised personal data when anonymous data are insufficient, but only through its regulated access and secure-processing model.",
+    "suggestedRevision": "Replace with: “Provision of mechanisms for authorised secondary use. Anonymous aggregate or anonymised outputs may be made available where appropriate. Pseudonymised or otherwise personal data shall remain subject to the applicable legal basis, access authorisation and security requirements. The term ‘de-identified’ should be used only where its relationship to anonymisation or pseudonymisation is explicitly defined.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 35"
+      }
+    ]
+  }
+}

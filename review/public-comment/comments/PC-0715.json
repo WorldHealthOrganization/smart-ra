@@ -1,0 +1,78 @@
+{
+  "id": "pc-0715",
+  "summary": "I have two broader comments: I think the narrative is written from a very specific view point, outside HF or even outsi…",
+  "comment": "I have two broader comments: I think the narrative is written from a very specific view point, outside HF or even outside health systems, with assumptions from that outside point of view. But for somebody from within HF, these assumptions appear quite unusual. I wonder whether it is needed to outline those (external) assumptions, more so considering that our target audience are health system people, and not IT people necessarily. One of these assumptions is about what payments DPI are. However, this document does not explain what these are. I am guessing (and there is a hint at one point) that this refers to digital wallets/digital payment systems such as Mtiba or alike. But why would we consider this as “payments DPI”. Why is the GIFMIS not considered as a core example/element of payments DPI? So depending on where you stand, this may be viewed completely different. To avoid confusion, I suggest simply completely removing these assumptions. And just remain descriptive and explain what is needed from the DPI system view.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-2-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0715",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 715,
+      "entry": "714",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d1a8365eca",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:1-2-3",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Main concrete point is what 'payments DPI' means; §1.2.3 covers payments DPI."
+    },
+    "text": "I have two broader comments: I think the narrative is written from a very specific view point, outside HF or even outside health systems, with assumptions from that outside point of view. But for somebody from within HF, these assumptions appear quite unusual. I wonder whether it is needed to outline those (external) assumptions, more so considering that our target audience are health system people, and not IT people necessarily. One of these assumptions is about what payments DPI are. However, this document does not explain what these are. I am guessing (and there is a hint at one point) that this refers to digital wallets/digital payment systems such as Mtiba or alike. But why would we consider this as “payments DPI”. Why is the GIFMIS not considered as a core example/element of payments DPI? So depending on where you stand, this may be viewed completely different. To avoid confusion, I suggest simply completely removing these assumptions. And just remain descriptive and explain what is needed from the DPI system view.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 715"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Main concrete point is what 'payments DPI' means; §1.2.3 covers payments DPI."
+      }
+    ]
+  }
+}

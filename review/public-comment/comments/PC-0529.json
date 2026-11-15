@@ -1,0 +1,87 @@
+{
+  "id": "pc-0529",
+  "summary": "country examples for Benefits Package Registry missing",
+  "comment": "country examples for Benefits Package Registry missing",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0529",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 529,
+      "entry": "528",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f380ebaaac",
+      "name": "Uwe Wahser",
+      "organisation": "Deutsche Gesellschaft für Technische Zusammenarbeit (GIZ) GmbH",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2",
+      "page": "231 ff.",
+      "lines": "91 ff.",
+      "raw": "§Appendix D.2 p.231 ff. l.91 ff."
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-fe9ea4"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): D.2 country examples lack a Benefits Package Registry example (Nepal)."
+    },
+    "type": "technical",
+    "text": "country examples for Benefits Package Registry missing",
+    "suggestedRevision": "add Nepal (BPR, EHR, HMIS): The national Health Insurance board documents benefit data of the public health insurance scheme in central data-base under openIMIS that can be queried by hospital information systems (e.g the national OpenMRS fork NidanEHR or BAHMNI) through FHIR APIs. The same system also receives and manages electronical claims from the Hospital Accounting Systems and provides aggregated data for the consumption by HMIS.\n1) Parajuli S, Shrestha P, Yuh GA, Dhakal N 2025  \"Driving Healthcare Transformation: openIMIS as a Catalyst for Interoperability enabling Universal HealthCoverage in Nepal\", Poster Presentation, GDHF 2025, Nairobi: https://openimis.atlassian.net/wiki/spaces/OP/pages/5443944455\n2) Dhakal R, 2023 \"Case Study on Open Source Tools Used for Healthcare Systems\", Thesis, University of Kathmandu: https://www.researchgate.net/profile/Rohan-Dhakal/publication/391047459_CASE_STUDY_ON_OPEN_SOURCE_TOOLS_USED_FOR_HEALTHCARE_SYSTEMS/links/6808d7b060241d5140157491/CASE-STUDY-ON-OPEN-SOURCE-TOOLS-USED-FOR-HEALTHCARE-SYSTEMS.pdf\n3) Parajuli S, 2026, Webinar Presentation, AEHIN Hour 2026-08-25, https://docs.google.com/presentation/d/11GdwvRt3KugwEeOTwn_FXNDOXzvz2XEeNGXEoD5XUxE/edit?slide=id.g3f845d733eb_0_237#slide=id.g3f845d733eb_0_237, https://youtu.be/cOhv2kIbiF4?si=kSwC5jtd0iOgl63m&t=997 \n4) HIB 2026, Public Dashboard of the Health Insurance Board of the Government of Nepal: https://dashboard.hib.gov.np/public/",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 529"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): D.2 country examples lack a Benefits Package Registry example (Nepal)."
+      }
+    ]
+  }
+}

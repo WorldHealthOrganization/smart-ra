@@ -1,0 +1,231 @@
+{
+  "$schema": "folio-glossary/v1",
+  "id": "organizations",
+  "title": "Organizations named in the Digital Transformation Handbooks",
+  "description": "Organizations that several handbooks (dth-pc, dth-sc, dth-hrh, dth-phc, dth-sfp) name, held once here as SKOS concepts with a foaf:focus to a W3C ORG organization (owner, 2026-10-31, option B; litlfred/folio-assistant-core#411). The concept carries the name and the acronym (notation); the organization carries its ORG type, homepage and parent. A handbook lists these under members and never copies them. An organization only one handbook names, such as a national regulator, stays in that handbook's glossary. Every term is a candidate: only a person adopts a definition.",
+  "hasVersion": "2026-10-31",
+  "modified": "2026-10-31",
+  "source": "who-iris/library/9789240116191-eng/",
+  "terms": [
+    {
+      "id": "un",
+      "prefLabel": "United Nations",
+      "notation": "UN",
+      "scopeNote": "The parent of the UN bodies below. Not named in dth-pc's abbreviations; added so subOrganizationOf has a target.",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.un.org/"
+      }
+    },
+    {
+      "id": "who",
+      "prefLabel": "World Health Organization",
+      "notation": "WHO",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.who.int/"
+      }
+    },
+    {
+      "id": "paho",
+      "prefLabel": "Pan American Health Organization",
+      "notation": "PAHO",
+      "scopeNote": "Named in the dth-pc acknowledgements. PAHO serves as WHO's Regional Office for the Americas, hence subOrganizationOf WHO.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.paho.org/",
+        "subOrganizationOf": [
+          "who"
+        ]
+      }
+    },
+    {
+      "id": "unicef",
+      "prefLabel": "United Nations Children's Fund",
+      "notation": "UNICEF",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.unicef.org/",
+        "subOrganizationOf": [
+          "un"
+        ]
+      }
+    },
+    {
+      "id": "unido",
+      "prefLabel": "United Nations Industrial Development Organization",
+      "notation": "UNIDO",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-055.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.unido.org/"
+      }
+    },
+    {
+      "id": "itu",
+      "prefLabel": "International Telecommunication Union",
+      "notation": "ITU",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-013.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.itu.int/"
+      }
+    },
+    {
+      "id": "iso",
+      "prefLabel": "International Organization for Standardization",
+      "notation": "ISO",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.iso.org/"
+      }
+    },
+    {
+      "id": "hl7",
+      "prefLabel": "Health Level Seven International",
+      "altLabel": [
+        "Health Level Seven",
+        "HL7 International"
+      ],
+      "notation": "HL7",
+      "scopeNote": "dth-pc's abbreviations table expands HL7 as 'Health Level Seven®'. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.hl7.org/"
+      }
+    },
+    {
+      "id": "gs1",
+      "prefLabel": "GS1",
+      "notation": "GS1",
+      "scopeNote": "Named in dth-pc (acknowledgements, and as the GTIN and GDSN standards body) but missing from its abbreviations table. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.gs1.org/"
+      }
+    },
+    {
+      "id": "usaid",
+      "prefLabel": "United States Agency for International Development",
+      "notation": "USAID",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization"
+      }
+    },
+    {
+      "id": "umc",
+      "prefLabel": "Uppsala Monitoring Centre",
+      "notation": "UMC",
+      "scopeNote": "dth-pc's abbreviations table names UMC as the Swedish foundation that maintains WHODrug. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://who-umc.org/"
+      }
+    },
+    {
+      "id": "global-fund",
+      "prefLabel": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "altLabel": [
+        "Global Fund"
+      ],
+      "notation": "Global Fund",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.theglobalfund.org/"
+      }
+    },
+    {
+      "id": "gavi",
+      "prefLabel": "Gavi, the Vaccine Alliance",
+      "altLabel": [
+        "Gavi"
+      ],
+      "notation": "Gavi",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalCollaboration",
+        "homepage": "https://www.gavi.org/"
+      }
+    },
+    {
+      "id": "giz",
+      "prefLabel": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+      "notation": "GIZ",
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.giz.de/"
+      }
+    },
+    {
+      "id": "path",
+      "prefLabel": "PATH",
+      "notation": "PATH",
+      "scopeNote": "Named in the dth-pc acknowledgements. PATH is the organization's name, not an expansion. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.path.org/"
+      }
+    },
+    {
+      "id": "openhie",
+      "prefLabel": "Open Health Information Exchange",
+      "notation": "OpenHIE",
+      "scopeNote": "A global community of practice. dth-pc's abbreviations table expands it. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalCollaboration",
+        "homepage": "https://ohie.org/"
+      }
+    },
+    {
+      "id": "gates-foundation",
+      "prefLabel": "Bill & Melinda Gates Foundation",
+      "altLabel": [
+        "Gates Foundation"
+      ],
+      "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.gatesfoundation.org/"
+      }
+    }
+  ]
+}

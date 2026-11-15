@@ -1,0 +1,86 @@
+{
+  "id": "pc-0141",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:how-to-use-this-guidance-lead-15a51a",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0141",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 141,
+      "entry": "140",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "How to use the guidance",
+      "page": "4",
+      "raw": "§How to use the guidance p.4"
+    },
+    "anchor": {
+      "targetLabel": "prose:how-to-use-this-guidance-lead-15a51a",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:how-to-use-this-guidance-lead-ee6add"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggested rewording paraphrases \"This guidance is written so that no single reader needs to read all of it\""
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "This guidance is organised in a manner that allows individual readers to avoid reading through the entire document. The cards below outline the primary benefits for each user group and provide an approximate page count for that essential pathway. The subsequent matrix delineates, by section, what is fundamental, beneficial or flexible for you. Locate your column and trace it downward through the table.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 141"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggested rewording paraphrases \"This guidance is written so that no single reader needs to read all of it\""
+      }
+    ]
+  }
+}

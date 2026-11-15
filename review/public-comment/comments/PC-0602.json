@@ -1,0 +1,82 @@
+{
+  "id": "pc-0602",
+  "summary": "Overall impression: There is a need for a multi-vendor and multi-country device interoperability infrastructure that is…",
+  "comment": "Overall impression: There is a need for a multi-vendor and multi-country device interoperability infrastructure that is free of patient identifiable information in remote care. \n\nThis is completely missing from this document and perpetuates vertically integrated silos for primary IoT data collection.\n\nThis is a major technical reason why Europe is lagging behind the USA in terms of remote patient monitoring adoption. \n\nSuch a layer needs to uncouple two highly fragmented and regulated ecosystems: home medtech and health IT.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0602",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 602,
+      "entry": "601",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6a7e47ab5f",
+      "name": "Gilles Lunzenfichter",
+      "organisation": "Medisanté Group AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression on missing device interoperability layer."
+    },
+    "type": "general",
+    "text": "Overall impression: There is a need for a multi-vendor and multi-country device interoperability infrastructure that is free of patient identifiable information in remote care. \n\nThis is completely missing from this document and perpetuates vertically integrated silos for primary IoT data collection.\n\nThis is a major technical reason why Europe is lagging behind the USA in terms of remote patient monitoring adoption. \n\nSuch a layer needs to uncouple two highly fragmented and regulated ecosystems: home medtech and health IT.",
+    "labels": {
+      "Stakeholder type": "SME innovator",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 602"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression on missing device interoperability layer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0671",
+  "summary": "Overall impression: IHE International strongly supports the direction of the DPI-H Reference Architecture and welcomes …",
+  "comment": "Overall impression: IHE International strongly supports the direction of the DPI-H Reference Architecture and welcomes its explicit alignment with IHE specifications and testing. With the revisions recommended, the guidance can go further: it can direct countries not only to use international standards, but also to participate in the international, open, consensus-based processes that close gaps, maintain specifications, and verify interoperability over time.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0671",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 671,
+      "entry": "670",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression (IHE)."
+    },
+    "type": "general",
+    "text": "Overall impression: IHE International strongly supports the direction of the DPI-H Reference Architecture and welcomes its explicit alignment with IHE specifications and testing. With the revisions recommended, the guidance can go further: it can direct countries not only to use international standards, but also to participate in the international, open, consensus-based processes that close gaps, maintain specifications, and verify interoperability over time.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 671"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression (IHE)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "pc-0651",
+  "summary": "Country / regional examples: The Kenya example is broadly accurate in describing the direction of national digital heal…",
+  "comment": "Country / regional examples: The Kenya example is broadly accurate in describing the direction of national digital health investment but does not reflect the significant implementation gaps that exist between national policy and ground-level delivery. Kenya's community health information system has faced persistent challenges with data quality, device management, and last-mile connectivity that are not captured in the example. Acknowledging these gaps alongside the achievements would make the examples more useful as honest reference points for other countries at similar stages, rather than presenting an overly optimistic picture that may not reflect what implementers will actually encounter.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2-kenya",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0651",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 651,
+      "entry": "650",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-93fcd0b606",
+      "name": "Mercy Chepngeno",
+      "organisation": "GeoApnet",
+      "country": "Kenya",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2-kenya",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About accuracy of the Kenya country example in App. D.2."
+    },
+    "type": "general",
+    "text": "Country / regional examples: The Kenya example is broadly accurate in describing the direction of national digital health investment but does not reflect the significant implementation gaps that exist between national policy and ground-level delivery. Kenya's community health information system has faced persistent challenges with data quality, device management, and last-mile connectivity that are not captured in the example. Acknowledging these gaps alongside the achievements would make the examples more useful as honest reference points for other countries at similar stages, rather than presenting an overly optimistic picture that may not reflect what implementers will actually encounter.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 651"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About accuracy of the Kenya country example in App. D.2."
+      }
+    ]
+  }
+}

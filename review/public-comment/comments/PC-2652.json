@@ -1,0 +1,73 @@
+{
+  "id": "pc-2652",
+  "summary": "Returning the entire identifier cross-reference map by default may disclose substantially more information than a reque…",
+  "comment": "Returning the entire identifier cross-reference map by default may disclose substantially more information than a requesting system requires. Identity-resolution functionality can be preserved while applying data-minimisation and least-privilege principles to downstream responses. \n\nA clinical application confirming that a patient identifier resolves to the correct person does not necessarily need every foundational, local or programme identifier ever associated with that person. \n\nThe complete mapping can remain available for authorised master-patient-index or identity-management operations.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2652",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 30,
+      "entry": "20",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Client Registry",
+      "page": "119",
+      "lines": "Identity Querie and Retrieval Table. Element 7",
+      "raw": "§Appendix C: Client Registry p.119 l.Identity Querie and Retrieval Table. Element 7"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "Returning the entire identifier cross-reference map by default may disclose substantially more information than a requesting system requires. Identity-resolution functionality can be preserved while applying data-minimisation and least-privilege principles to downstream responses. \n\nA clinical application confirming that a patient identifier resolves to the correct person does not necessarily need every foundational, local or programme identifier ever associated with that person. \n\nThe complete mapping can remain available for authorised master-patient-index or identity-management operations.",
+    "suggestedRevision": "Replace the final part with: “…receiving the authorised demographic attributes and identifier mappings necessary for the requesting transaction. Access to a complete identifier cross-reference map shall be restricted to specifically authorised identity-management functions where operationally necessary.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 30"
+      }
+    ]
+  }
+}

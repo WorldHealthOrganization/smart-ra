@@ -1,0 +1,16 @@
+# Section-title + structure audit. Dispatch only.
+#
+# A thin caller: the steps are cat-harness-tools' reusable workflow, ONE
+# copy for every harnessed repository (cat-harness-tools#1038), so this
+# repository's CI cannot drift from smart-ra's or dth-hrh's again.
+name: Section-title + structure audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    uses: litlfred/cat-harness-tools/.github/workflows/folio-section-title-audit.yml@e64799819de369df21ea05769bd1a55c705b7f3d # index.lock.json

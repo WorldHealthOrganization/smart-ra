@@ -1,0 +1,32 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-159",
+  "title": "Define workforce credential verification and status propagation",
+  "requirements": "- State the limits of registration checks versus competence, privileges and task authorisation\n- Allow signed or cached verifiable credentials that verify without a registry round-trip\n- Replace 'without delay' with risk-based propagation times and failure handling\n- Define the verification response: status, source, freshness, assurance, restrictions and failure behaviour\n- Define measurable freshness, latency and propagation limits for licence changes\n- Make critical status notifications mandatory for authorised subscribers\n- Allow recording which credential and privilege authorised a clinical transaction\n- Define degraded-mode and emergency fallback with later reconciliation",
+  "refs": [
+    "PC-0013",
+    "PC-0283",
+    "PC-1648",
+    "PC-1662",
+    "PC-1667",
+    "PC-1668",
+    "PC-1681",
+    "PC-1682",
+    "PC-1684",
+    "PC-1694",
+    "PC-1700",
+    "PC-1701",
+    "PC-1729"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 13 comment(s)"
+    }
+  ]
+}

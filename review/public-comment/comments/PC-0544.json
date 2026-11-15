@@ -1,0 +1,81 @@
+{
+  "id": "pc-0544",
+  "summary": "Section 3.2 states at lines 127–132 that \"an element shown in a view represents a capability or a type of component and…",
+  "comment": "Section 3.2 states at lines 127–132 that \"an element shown in a view represents a capability or a type of component and the role it plays, not an instruction to procure a particular system\", and that the architecture \"leaves the choice of implementation … to the country\"; line 117 describes the model as offering \"a common structure and vocabulary, not a prescription\". In Figure 3.2, however, the Lifelong Health Record element in the Shared Data Layer is annotated \"FHIR-based store\". That is an implementation prescription for the persistence of the national clinical record, and it is the only element in the figure annotated with a storage technology. The identical annotation appears a second time in Figure 3.5 on page 66, which repeats the same Shared Data Layer, so the prescription is stated twice and both occurrences need the same correction. It also sits uneasily with Appendix C page 155 lines 15–25, which states that the LHR \"is defined by its outcome, not by its implementation model\"; with section 3.6.2 line 813, which scopes HL7 FHIR to \"the exchange-oriented representation of health data\"; and with section 4.3.3 lines 319–321. Figure 3.2 is the artefact most likely to be reproduced in national architecture documents, so an annotation of this kind propagates further than the surrounding text.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-2-00e672",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0544",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 544,
+      "entry": "543",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.2 Reading the architecture / 3.3 The reference architecture in practice — Figures 3.2 and 3.5",
+      "page": "47–48; 66",
+      "lines": "127–132 (p47); Figure 3.2 (p48) and Figure 3.5 (p66), Shared Data Layer, Health Record element",
+      "caption": "Figure 3.2",
+      "raw": "§3.2 Reading the architecture / 3.3 The reference architecture in practice — Figures 3.2 and 3.5 p.47–48; 66 l.127–132 (p47); Figure 3.2 (p48) and Figure 3.5 (p66), Shared Data Layer, Health Record element"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-2-00e672",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-2-36e9a8"
+      ],
+      "note": "p.47–48; 66 l.127–132 (p47); Figure 3.2 (p48) and Figure 3.5 (p66), Shared Data Layer, Health Record element read as the printed page; section 3.2 agrees"
+    },
+    "type": "technical",
+    "text": "Section 3.2 states at lines 127–132 that \"an element shown in a view represents a capability or a type of component and the role it plays, not an instruction to procure a particular system\", and that the architecture \"leaves the choice of implementation … to the country\"; line 117 describes the model as offering \"a common structure and vocabulary, not a prescription\". In Figure 3.2, however, the Lifelong Health Record element in the Shared Data Layer is annotated \"FHIR-based store\". That is an implementation prescription for the persistence of the national clinical record, and it is the only element in the figure annotated with a storage technology. The identical annotation appears a second time in Figure 3.5 on page 66, which repeats the same Shared Data Layer, so the prescription is stated twice and both occurrences need the same correction. It also sits uneasily with Appendix C page 155 lines 15–25, which states that the LHR \"is defined by its outcome, not by its implementation model\"; with section 3.6.2 line 813, which scopes HL7 FHIR to \"the exchange-oriented representation of health data\"; and with section 4.3.3 lines 319–321. Figure 3.2 is the artefact most likely to be reproduced in national architecture documents, so an annotation of this kind propagates further than the surrounding text.",
+    "suggestedRevision": "Replace \"FHIR-based store\" in the Health Record element in both Figure 3.2 (page 48) and Figure 3.5 (page 66) with a formulation consistent with the LHR core attribute at page 157 lines 107–110. Our recommended replacement is \"openEHR / FHIR — stored in conformance with the national logical information model\", which names both options the guidance already accepts in Annex D.1; \"governed longitudinal store\" would also be acceptable if no standard is to be named in the figure. If a storage annotation is retained, apply the same treatment to the other shared data layer elements so that the figure does not single out the clinical record for an implementation constraint the text says countries are free to make themselves.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 544"
+      }
+    ]
+  }
+}

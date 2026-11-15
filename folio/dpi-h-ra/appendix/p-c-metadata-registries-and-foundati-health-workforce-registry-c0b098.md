@@ -1,0 +1,1 @@
+When a Health Workforce Registry is in place, systems that employ, pay, deploy, or regulate health workers can orient around a shared authoritative record, thus providing the enabling conditions for a health system that is both safe for patients and accountable in its use of public resources.

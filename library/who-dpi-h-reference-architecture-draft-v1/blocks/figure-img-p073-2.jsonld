@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p073-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p073-2.png",
+  "pageStart": 73,
+  "pageEnd": 73,
+  "narrative": [
+    {
+      "text": "Figure 3.4.3. 'NHDD Framework: Content Structure': five stacked bars, from reference and administrative code sets (SNOMED, ICD, HL7), through curated concept sources and interface terminologies (CIEL, IMO), country-level subsets, organisation-level dictionaries, down to facility-level dictionaries such as formularies. A downward arrow at the left says international standards are selected and customised for country use and adapted for local implementation; an upward arrow at the right reads 'Submissions / Feedback to Standards' and 'Responsive Local & National Governance'.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.4.3. « NHDD Framework: Content Structure » : cinq barres empilées, allant des jeux de codes de référence et administratifs (SNOMED, CIM, HL7), en passant par les sources de concepts organisées et les terminologies d'interface (CIEL, IMO), les sous-ensembles nationaux et les dictionnaires propres aux organisations, jusqu'aux dictionnaires des établissements tels que les formulaires. Une flèche descendante à gauche indique que les normes internationales sont sélectionnées et adaptées pour l'usage national, puis pour la mise en œuvre locale ; une flèche ascendante à droite porte les mentions « Submissions / Feedback to Standards » et « Responsive Local & National Governance ».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.4.3. «NHDD Framework: Content Structure»: cinco barras apiladas, desde los conjuntos de códigos de referencia y administrativos (SNOMED, CIE, HL7), pasando por las fuentes de conceptos curadas y las terminologías de interfaz (CIEL, IMO), los subconjuntos de ámbito nacional y los diccionarios de cada organización, hasta los diccionarios de los establecimientos, como los formularios. Una flecha descendente a la izquierda indica que los estándares internacionales se seleccionan y personalizan para su uso en el país y se adaptan a la implementación local; una flecha ascendente a la derecha dice «Submissions / Feedback to Standards» y «Responsive Local & National Governance».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.4.3. «NHDD Framework: Content Structure»: خمسة أشرطة مكدّسة، من مجموعات الرموز المرجعية والإدارية (SNOMED وICD وHL7)، مرورًا بمصادر المفاهيم المنسَّقة ومصطلحات الواجهة (CIEL وIMO) والمجموعات الفرعية على المستوى القُطري وقواميس المنظمات، وصولًا إلى قواميس المرافق مثل كتيّبات الأدوية. ويشير سهم متجه إلى الأسفل على اليسار إلى أن المعايير الدولية تُختار وتُكيَّف للاستخدام القُطري ثم تُطوَّع للتنفيذ المحلي؛ ويحمل سهم متجه إلى الأعلى على اليمين العبارتين «Submissions / Feedback to Standards» و«Responsive Local & National Governance».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.4.3. «NHDD Framework: Content Structure»: пять столбцов, расположенных друг над другом, — от эталонных и административных наборов кодов (SNOMED, МКБ, HL7) через курируемые источники понятий и интерфейсные терминологии (CIEL, IMO), страновые подмножества и словари организаций вниз до словарей учреждений, например формуляров. Стрелка вниз слева показывает, что международные стандарты отбираются и настраиваются для использования в стране и адаптируются для местного внедрения; стрелка вверх справа подписана «Submissions / Feedback to Standards» и «Responsive Local & National Governance».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.4.3。“NHDD Framework: Content Structure”：五个堆叠的条形，从参考和管理代码集（SNOMED、ICD、HL7），经由经整理的概念来源和界面术语（CIEL、IMO）、国家级子集、机构级词典，一直到处方集等卫生机构级词典。左侧的向下箭头表示国际标准经选择和定制以供国家使用，并调整以用于本地实施；右侧的向上箭头写有“Submissions / Feedback to Standards”和“Responsive Local & National Governance”。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-033",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

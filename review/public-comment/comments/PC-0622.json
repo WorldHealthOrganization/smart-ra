@@ -1,0 +1,82 @@
+{
+  "id": "pc-0622",
+  "summary": "Country / regional examples: Overall, the country and regional examples are valuable, but I do not think all of them ar…",
+  "comment": "Country / regional examples: Overall, the country and regional examples are valuable, but I do not think all of them are sufficiently precise or evidenced in their present form. The draft sometimes describes a national strategy, partial rollout or collection of separate systems as though it were already a fully integrated, nationwide capability. Each example should clearly state its implementation status, coverage and date of verification.\n\nThe most important issues I identified are:\n\n1. England:This example appears materially overstated. England centrally governs SNOMED CT UK and the dictionary of medicines and devices (dm+d), but this is not the same as centrally providing pharmaceutical decision support, including interaction checking, allergy alerts and dosage guidance, across primary and hospital care. NHS England explicitly states that dm+d does not provide decision-support functionality. It supplies terminology and information that other systems may use. NHS guidance also indicates that clinical-system configurations can differ locally. The example should therefore distinguish national terminology governance from decision-support functions implemented by vendors and individual care organisations.\n\n [NHS England: dm+d](https://digital.nhs.uk/services/terminology-and-classifications/dm-d)\n\n2. India: The description of ABDM as a federated, consent-based architecture anchored on ABHA is accurate. However, the text should not imply universal implementation. The National Health Authority confirms that participation by citizens, healthcare facilities and private providers is voluntary. Likewise, official IDSP figures for 2025–26 show reporting rates of approximately 78–83%, depending on the surveillance form, not complete reporting by every unit. India should therefore be presented as a national architecture with substantial but still uneven adoption, especially across private providers and states. \n\n[ABDM FAQ](https://abdm.gov.in/FAQ) and [NCDC/IDSP implementation figures](https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/IDSP.php)\n\n3. Kenya: The national HIE direction is correct, but its rollout status should be stated. An official Ministry of Health update reported that the Comprehensive Integrated Health Information System was operational in 17 counties in 2025, with expansion continuing. “A national HIE under phased implementation” would be more accurate than language suggesting complete national consolidation. \n\n[Kenya Ministry of Health](https://www.health.go.ke/government-scales-digital-health-reform-drive-accountability-and-efficiency)\n\n4. Rwanda: The HMIS is a strong example, but the claims combine several capabilities that should be evidenced separately. WHO reported completeness and timeliness above 90% for public facilities in 2019, while only about 70% of private facilities were then reporting. The statement should not present the high rate as applying uniformly to the entire health sector. The claims concerning an OpenHIE-aligned longitudinal record, national decision support, laboratory integration and performance-based financing also need specific, current references. Rwanda’s newer National Health Intelligence Center demonstrates integration of multiple data streams, but this is not automatically equivalent to a complete national longitudinal-record exchange. \n\n\nThe Spain, Catalonia and Tanzania examples are directionally accurate but need qualification. Spain’s HCDSNS exchanges selected clinical documents rather than providing a complete national health record. Catalonia’s HC3 and climate-health surveillance are valid examples, but access to social-care information should not be described as complete integration without current coverage evidence. Tanzania operates a national DHIS2-based HMIS, but describing it as “one of the more mature” systems is subjective and should be supported by current figures on coverage, completeness and timeliness.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0622",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 622,
+      "entry": "621",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About precision and evidence of the D.2 country examples (England, etc.)."
+    },
+    "type": "general",
+    "text": "Country / regional examples: Overall, the country and regional examples are valuable, but I do not think all of them are sufficiently precise or evidenced in their present form. The draft sometimes describes a national strategy, partial rollout or collection of separate systems as though it were already a fully integrated, nationwide capability. Each example should clearly state its implementation status, coverage and date of verification.\n\nThe most important issues I identified are:\n\n1. England:This example appears materially overstated. England centrally governs SNOMED CT UK and the dictionary of medicines and devices (dm+d), but this is not the same as centrally providing pharmaceutical decision support, including interaction checking, allergy alerts and dosage guidance, across primary and hospital care. NHS England explicitly states that dm+d does not provide decision-support functionality. It supplies terminology and information that other systems may use. NHS guidance also indicates that clinical-system configurations can differ locally. The example should therefore distinguish national terminology governance from decision-support functions implemented by vendors and individual care organisations.\n\n [NHS England: dm+d](https://digital.nhs.uk/services/terminology-and-classifications/dm-d)\n\n2. India: The description of ABDM as a federated, consent-based architecture anchored on ABHA is accurate. However, the text should not imply universal implementation. The National Health Authority confirms that participation by citizens, healthcare facilities and private providers is voluntary. Likewise, official IDSP figures for 2025–26 show reporting rates of approximately 78–83%, depending on the surveillance form, not complete reporting by every unit. India should therefore be presented as a national architecture with substantial but still uneven adoption, especially across private providers and states. \n\n[ABDM FAQ](https://abdm.gov.in/FAQ) and [NCDC/IDSP implementation figures](https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/IDSP.php)\n\n3. Kenya: The national HIE direction is correct, but its rollout status should be stated. An official Ministry of Health update reported that the Comprehensive Integrated Health Information System was operational in 17 counties in 2025, with expansion continuing. “A national HIE under phased implementation” would be more accurate than language suggesting complete national consolidation. \n\n[Kenya Ministry of Health](https://www.health.go.ke/government-scales-digital-health-reform-drive-accountability-and-efficiency)\n\n4. Rwanda: The HMIS is a strong example, but the claims combine several capabilities that should be evidenced separately. WHO reported completeness and timeliness above 90% for public facilities in 2019, while only about 70% of private facilities were then reporting. The statement should not present the high rate as applying uniformly to the entire health sector. The claims concerning an OpenHIE-aligned longitudinal record, national decision support, laboratory integration and performance-based financing also need specific, current references. Rwanda’s newer National Health Intelligence Center demonstrates integration of multiple data streams, but this is not automatically equivalent to a complete national longitudinal-record exchange. \n\n\nThe Spain, Catalonia and Tanzania examples are directionally accurate but need qualification. Spain’s HCDSNS exchanges selected clinical documents rather than providing a complete national health record. Catalonia’s HC3 and climate-health surveillance are valid examples, but access to social-care information should not be described as complete integration without current coverage evidence. Tanzania operates a national DHIS2-based HMIS, but describing it as “one of the more mature” systems is subjective and should be supported by current figures on coverage, completeness and timeliness.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 622"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About precision and evidence of the D.2 country examples (England, etc.)."
+      }
+    ]
+  }
+}

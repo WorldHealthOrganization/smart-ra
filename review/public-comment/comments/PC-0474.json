@@ -1,0 +1,78 @@
+{
+  "id": "pc-0474",
+  "summary": "This is the strongest statement on equity in the document and it stops one step short. It requires representation to be…",
+  "comment": "This is the strongest statement on equity in the document and it stops one step short. It requires representation to be more than advisory and to carry genuine weight, and it acknowledges that translating nominal representation into real influence is a persistent challenge - but the mechanism offered in 3.4.3 remains representation rather than authority.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0474",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 474,
+      "entry": "473",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "258",
+      "raw": "§3.4.2 p.54 l.258"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.54 l.258 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "general",
+    "text": "This is the strongest statement on equity in the document and it stops one step short. It requires representation to be more than advisory and to carry genuine weight, and it acknowledges that translating nominal representation into real influence is a persistent challenge - but the mechanism offered in 3.4.3 remains representation rather than authority.",
+    "suggestedRevision": "Name the mechanism that converts representation into influence: a formal vote on rule changes for the parties those rules bind, including a voting seat for citizen and patient representation, rather than consultative membership. Ostrom's third design principle makes participation in rule modification by those affected a condition for durable governance, and it is the feature most often omitted. Where a duty to participate is imposed, a vote on the rules is its proportionate counterpart.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 474"
+      }
+    ]
+  }
+}

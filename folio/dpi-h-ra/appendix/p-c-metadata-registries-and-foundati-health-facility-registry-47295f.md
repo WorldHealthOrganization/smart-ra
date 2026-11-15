@@ -1,0 +1,1 @@
+When a Health Facility Registry is in place, current and maintained, the entire health information infrastructure gains a stable geographic anchor with benefits to health service users and health systems stakeholders alike; and while it does not deliver these outcomes directly, it provides the stable reference on which they become possible. For example:

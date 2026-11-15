@@ -1,0 +1,67 @@
+{
+  "id": "pc-2736",
+  "summary": "§C, p. 193, lines 123–125. [highlight] On the text: «Finance».",
+  "comment": "§C, p. 193, lines 123–125. [highlight] On the text: «Finance».\nThe text has been using \"financial system\" as well as financing systems.\nSo I suggest to stick to at most those two, not additional ones.",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:c-business-services-components-supplier-registry-d82f54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2736",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 36,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-779b21ea19",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "C",
+      "page": "193",
+      "lines": "123–125",
+      "raw": "§C, p. 193, lines 123–125. [highlight] On the text: «Finance».\nThe text has been using \"financial system\" as well as fin"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-supplier-registry-d82f54",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.193 l.123–125 read as the printed page"
+    },
+    "text": "§C, p. 193, lines 123–125. [highlight] On the text: «Finance».\nThe text has been using \"financial system\" as well as financing systems.\nSo I suggest to stick to at most those two, not additional ones.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

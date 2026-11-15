@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-275",
+  "title": "Govern terminology mappings as artefacts with equivalence and provenance",
+  "requirements": "- State that maps between SNOMED CT, ICD-11 and LOINC are needed and governed, with context and equivalence properties\n- Require mapping purpose, equivalence, versions and validation status\n- Require each mapping to state intended purpose, equivalence, direction, source/target versions and limitations\n- Cover language variants, local extensions, unmapped concepts and context-dependent mappings with stated equivalence and limitations\n- Avoid presenting the blood-pressure codes as unqualified equivalents\n- Require human review proportionate to clinical risk for automated mappings\n- Require mapping tests against representative data, regression tests and unmapped-content reporting\n- Cite the existing LOINC-SNOMED CT interoperability solution",
+  "refs": [
+    "PC-0065",
+    "PC-0202",
+    "PC-0222",
+    "PC-0734",
+    "PC-0919",
+    "PC-0971",
+    "PC-1909",
+    "PC-1919",
+    "PC-2367",
+    "PC-2368"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 10 comment(s)"
+    }
+  ]
+}

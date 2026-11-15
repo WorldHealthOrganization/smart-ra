@@ -1,0 +1,37 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-080",
+  "title": "Define conformance assessment dimensions, evidence and results",
+  "requirements": "- Avoid an undifferentiated coverage percentage as the principal adoption measure; report by layer, capability and criticality\n- Replace the 'left implicit' verdict with an explicit, persistent assessment-result model\n- Tie 'correctly realises' to normative requirements, test assertions and accepted evidence\n- Report structural, semantic, behavioural, security and interface conformance separately\n- Break 'conformance of the architecture' into model validity, reference alignment, coverage, traceability and documented deviation, with expected evidence\n- Add objectively checkable governance criteria (designated operator, multi-year plan, published performance, transfer plan, dispute route)\n- Report mandatory/critical failures separately rather than averaging them away\n- Specify minimum fields: status values, scope, assessor/mechanism, specification and version, evidence, date, validity",
+  "refs": [
+    "PC-0300",
+    "PC-0379",
+    "PC-0467",
+    "PC-1047",
+    "PC-1050",
+    "PC-1059",
+    "PC-1061",
+    "PC-1064",
+    "PC-1077",
+    "PC-1093",
+    "PC-1094",
+    "PC-1095",
+    "PC-1101",
+    "PC-1106",
+    "PC-1108",
+    "PC-1109",
+    "PC-1115",
+    "PC-1263"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 18 comment(s)"
+    }
+  ]
+}

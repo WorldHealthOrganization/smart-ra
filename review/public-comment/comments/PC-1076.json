@@ -1,0 +1,79 @@
+{
+  "id": "pc-1076",
+  "summary": "A user-interface workflow and a machine-to-machine transaction are described as two ways of reaching the same service. …",
+  "comment": "A user-interface workflow and a machine-to-machine transaction are described as two ways of reaching the same service. The UI may implement additional business validation, user permissions, or workflow logic not exercised through the API.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-2-f7fa36",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1076",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 312,
+      "entry": "311",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.2",
+      "page": "82",
+      "lines": "Lines 1077-1083",
+      "raw": "§3.7.2 p.82 l.Lines 1077-1083"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-2-f7fa36",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-2-546ef3"
+      ],
+      "note": "p.82 l.Lines 1077-1083 read as the printed page; section 3.7.2 agrees"
+    },
+    "text": "A user-interface workflow and a machine-to-machine transaction are described as two ways of reaching the same service. The UI may implement additional business validation, user permissions, or workflow logic not exercised through the API.",
+    "suggestedRevision": "Require channel-specific test coverage and verify that core business rules, security, consent, provenance, and audit requirements are enforced consistently across all supported channels.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 312"
+      }
+    ]
+  }
+}

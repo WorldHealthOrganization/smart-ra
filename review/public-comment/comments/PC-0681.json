@@ -1,0 +1,83 @@
+{
+  "id": "pc-0681",
+  "summary": "Context assumptions: In the emerging technologies and AI section, the guidance may assume that the presence of human re…",
+  "comment": "Context assumptions: In the emerging technologies and AI section, the guidance may assume that the presence of human review is sufficient to provide meaningful oversight. In practice, human reviewers may defer excessively to AI outputs because of automation bias, perceived model authority, time pressure, or poorly calibrated trust. This is particularly important in health contexts involving vulnerable users, where formal human involvement may exist without providing an effective capacity to question, override, or correct an AI supported decision.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0681",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 681,
+      "entry": "680",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-e846db7147",
+      "name": "Onour Impram",
+      "organisation": "Marmara University",
+      "country": "Türkiye",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): About meaningful human oversight of AI; Ch.5 readiness/oversight section."
+    },
+    "type": "general",
+    "text": "Context assumptions: In the emerging technologies and AI section, the guidance may assume that the presence of human review is sufficient to provide meaningful oversight. In practice, human reviewers may defer excessively to AI outputs because of automation bias, perceived model authority, time pressure, or poorly calibrated trust. This is particularly important in health contexts involving vulnerable users, where formal human involvement may exist without providing an effective capacity to question, override, or correct an AI supported decision.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 681"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): About meaningful human oversight of AI; Ch.5 readiness/oversight section."
+      }
+    ]
+  }
+}

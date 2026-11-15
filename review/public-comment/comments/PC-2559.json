@@ -1,0 +1,75 @@
+{
+  "id": "pc-2559",
+  "summary": "can also provide information for certain indicators in Module 3 (finance and expenditure), if linked with payroll syste…",
+  "comment": "can also provide information for certain indicators in Module 3 (finance and expenditure), if linked with payroll systems (eg. total expenditure on compensation of health workforce, average entry-level wages and salaries).Wage data can also be used to do pay gap analysis (eg. gender gap, gap between public and private sector, gap between provinces of a country, etc)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-ec5ed8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2559",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 38,
+      "entry": "37",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-204787cd1e",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-workforce-registry-ec5ed8",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Adds NHWA Module 3 finance indicators to the paragraph on NHWA indicators the registry supports."
+    },
+    "text": "can also provide information for certain indicators in Module 3 (finance and expenditure), if linked with payroll systems (eg. total expenditure on compensation of health workforce, average entry-level wages and salaries).Wage data can also be used to do pay gap analysis (eg. gender gap, gap between public and private sector, gap between provinces of a country, etc)",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 38"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Adds NHWA Module 3 finance indicators to the paragraph on NHWA indicators the registry supports."
+      }
+    ]
+  }
+}

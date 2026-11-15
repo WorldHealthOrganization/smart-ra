@@ -1,0 +1,77 @@
+{
+  "id": "pc-0348",
+  "summary": "Public health campaigns are not illustrastred as an end -to-end use case. Campaigns are a major mechanism through which…",
+  "comment": "Public health campaigns are not illustrastred as an end -to-end use case. Campaigns are a major mechanism through which countries operationalize population-level health goals and typically involves planning, readiness, execution, monitoring  and response. An integrated campaign example could demostrate how the sharard DPI-H components are reused across programmes",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-3-29ac26",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0348",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 348,
+      "entry": "347",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 3.3",
+      "page": "48-52",
+      "lines": "lines 133-218",
+      "raw": "§Section 3.3 p.48-52 l.lines 133-218"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-3-29ac26",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.48-52 l.lines 133-218 read as the printed page; section 3.3 agrees"
+    },
+    "type": "general",
+    "text": "Public health campaigns are not illustrastred as an end -to-end use case. Campaigns are a major mechanism through which countries operationalize population-level health goals and typically involves planning, readiness, execution, monitoring  and response. An integrated campaign example could demostrate how the sharard DPI-H components are reused across programmes",
+    "suggestedRevision": "Consider adding an integrated public health campaign as a layered view example.The example could follow a campaign from planning and population enumeration through readiness, implementation and monitoring, showing how shared DPI-H components such as the Client Registry, Health Facility Registry, Health Workforce Registry, Product Registry, geospatial/reference data, terminology services and interoperability capabilities support the campaign.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 348"
+      }
+    ]
+  }
+}

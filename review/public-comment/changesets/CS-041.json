@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-041",
+  "title": "Broaden the architecture description method in 3.2",
+  "requirements": "- Introduce the many-to-many relation between elements and systems when the two-layer model is first described\n- Recommend views for audiences beyond function, realisation and motivation\n- Give a practical workflow for adapting, extending or setting aside reference elements\n- Clarify that considerations outside the structural views remain requirements and constraints\n- Define minimum behaviours that hold whether an element is central, federated or distributed",
+  "refs": [
+    "PC-0856",
+    "PC-0858",
+    "PC-0859",
+    "PC-0860",
+    "PC-0861"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

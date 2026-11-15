@@ -1,0 +1,79 @@
+{
+  "id": "pc-0880",
+  "summary": "The governance principles cover subsidiarity, mandate separation, representation, financing, resource use, transparency…",
+  "comment": "The governance principles cover subsidiarity, mandate separation, representation, financing, resource use, transparency, and adaptability. They do not explicitly include legality, privacy, security, clinical safety, data stewardship, conflict of interest, or independence from supplier influence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0880",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 116,
+      "entry": "115",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54-55",
+      "lines": "Lines 249-288",
+      "raw": "§3.4.2 p.54-55 l.Lines 249-288"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-2-8b9795"
+      ],
+      "note": "p.54-55 l.Lines 249-288 read as the printed page; section 3.4.2 agrees"
+    },
+    "text": "The governance principles cover subsidiarity, mandate separation, representation, financing, resource use, transparency, and adaptability. They do not explicitly include legality, privacy, security, clinical safety, data stewardship, conflict of interest, or independence from supplier influence.",
+    "suggestedRevision": "Add principles covering legal authority and rights protection, security and clinical safety, responsible data stewardship, conflict-of-interest management, supplier independence, and proportionality of controls.",
+    "labels": {
+      "Comment type": "Q15 - Completeness"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 116"
+      }
+    ]
+  }
+}

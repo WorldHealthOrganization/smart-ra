@@ -1,0 +1,86 @@
+{
+  "id": "pc-0537",
+  "summary": "Reading the guidance as a whole, the Ministry observes that three of the four layers of a health data architecture are …",
+  "comment": "Reading the guidance as a whole, the Ministry observes that three of the four layers of a health data architecture are treated substantively and one is not. Exchange is specified in detail with a named recommended framework. Coded meaning is specified with named classifications and terminologies. Logical structure is given a component, the LIMR, with named formalisms in Appendix C. Persistence — the form in which a country's clinical data is held over a lifetime — is addressed once in the body, at page 74 line 830, and only to state that the benefit of aligned models holds \"regardless of the underlying exchange or persistence technology\". Yet the guidance does make persistence commitments: the LHR core attribute at page 157 lines 107–110 requires storage in accordance with the structures published through the LIMR; a functional requirement at page 160 addresses data storage; Annex D.1 lists both a FHIR server and an openEHR clinical data repository as Lifelong Health Record implementations; and Figure 3.2 annotates the record as a \"FHIR-based store\". The commitments exist but are scattered and are not consistent with one another. In our experience persistence is the decision with the longest consequences, because clinical data outlives the applications and the exchange-standard versions that move it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0537",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 537,
+      "entry": "536",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "General — treatment of the persistence layer across the guidance",
+      "page": "Throughout",
+      "lines": "3.6 (p71–78); 2.3 (p31–35); Figure 3.2 (p48); Appendix C (p155–179)",
+      "caption": "Figure 3.2",
+      "raw": "§General — treatment of the persistence layer across the guidance p.Throughout l.3.6 (p71–78); 2.3 (p31–35); Figure 3.2 (p48); Appendix C (p155–179)"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-6",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Document-wide observation on persistence; the concrete ask is a new subsection in §3.6 parallel to 3.6.2."
+    },
+    "type": "general",
+    "text": "Reading the guidance as a whole, the Ministry observes that three of the four layers of a health data architecture are treated substantively and one is not. Exchange is specified in detail with a named recommended framework. Coded meaning is specified with named classifications and terminologies. Logical structure is given a component, the LIMR, with named formalisms in Appendix C. Persistence — the form in which a country's clinical data is held over a lifetime — is addressed once in the body, at page 74 line 830, and only to state that the benefit of aligned models holds \"regardless of the underlying exchange or persistence technology\". Yet the guidance does make persistence commitments: the LHR core attribute at page 157 lines 107–110 requires storage in accordance with the structures published through the LIMR; a functional requirement at page 160 addresses data storage; Annex D.1 lists both a FHIR server and an openEHR clinical data repository as Lifelong Health Record implementations; and Figure 3.2 annotates the record as a \"FHIR-based store\". The commitments exist but are scattered and are not consistent with one another. In our experience persistence is the decision with the longest consequences, because clinical data outlives the applications and the exchange-standard versions that move it.",
+    "suggestedRevision": "Add a short subsection to section 3.6, parallel to 3.6.2, addressing the persistence layer explicitly: what a country is deciding when it chooses how clinical data is held, why that decision has a different time horizon from exchange, the relationship between the persisted form and the logical models published in the LIMR, and the open formalisms available. Then align Figure 3.2, Principle II and the Appendix C material to it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 537"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Document-wide observation on persistence; the concrete ask is a new subsection in §3.6 parallel to 3.6.2."
+      }
+    ]
+  }
+}

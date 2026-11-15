@@ -1,0 +1,83 @@
+{
+  "id": "pc-0029",
+  "summary": "Goal 6 on health financing is framed too narrowly. It is currently described mainly in efficiency terms (e.g. claims va…",
+  "comment": "Goal 6 on health financing is framed too narrowly. It is currently described mainly in efficiency terms (e.g. claims validation, provider payment, reduced leakages). It omits other important functions of health financing such as revenue raising (e.g. contribution collection, subsidy targeting) and pooling (e.g. budget flows with PFM).  \n\nNone of the goals address ageing and long-term care.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-5-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0029",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 29,
+      "entry": "28",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Are the mappings of components to the seven priority health goals accurate and complete?",
+      "raw": "§Are the mappings of components to the seven priority health goals accurate and complete?"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-5-1",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Comments on goal 6 framing and a missing ageing goal; 1.5.1 describes the seven goals"
+    },
+    "type": "technical",
+    "text": "Goal 6 on health financing is framed too narrowly. It is currently described mainly in efficiency terms (e.g. claims validation, provider payment, reduced leakages). It omits other important functions of health financing such as revenue raising (e.g. contribution collection, subsidy targeting) and pooling (e.g. budget flows with PFM).  \n\nNone of the goals address ageing and long-term care.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 29"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Comments on goal 6 framing and a missing ageing goal; 1.5.1 describes the seven goals"
+      }
+    ]
+  }
+}

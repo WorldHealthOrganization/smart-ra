@@ -1,0 +1,86 @@
+{
+  "id": "pc-0008",
+  "summary": "The guidance names image interpretation as an AI use case but does not identify the imaging-data and workflow foundatio…",
+  "comment": "The guidance names image interpretation as an AI use case but does not identify the imaging-data and workflow foundations required for safe deployment. Generic clinical-data exchange is insufficient for large diagnostic images, imaging metadata and report-return workflows.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0008",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 8,
+      "entry": "7",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.1",
+      "page": "114",
+      "lines": "3-17",
+      "raw": "§5.1 p.114 l.3-17"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.1 only"
+    },
+    "type": "technical",
+    "text": "The guidance names image interpretation as an AI use case but does not identify the imaging-data and workflow foundations required for safe deployment. Generic clinical-data exchange is insufficient for large diagnostic images, imaging metadata and report-return workflows.",
+    "suggestedRevision": "Add diagnostic-imaging interoperability as an explicit implementation pattern, covering DICOM and DICOMweb, PACS and RIS integration, FHIR imaging references and diagnostic reports, large-object transfer, store-and-forward operation, and continuity across facilities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 8"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Reviewed\""
+      }
+    ]
+  }
+}

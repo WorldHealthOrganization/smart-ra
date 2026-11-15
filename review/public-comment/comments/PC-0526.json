@@ -1,0 +1,78 @@
+{
+  "id": "pc-0526",
+  "summary": "Both components direct countries to contribute implementation experience back to WHO governance processes, but no concr…",
+  "comment": "Both components direct countries to contribute implementation experience back to WHO governance processes, but no concrete channel is named. Experience shows the loop works when a channel exists: execution-level findings against smart-immunizations filed via the IG's public repository (issue #138 with fix PR #139, Aug 2026) demonstrate implementation-to-WHO feedback functioning at artifact level.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0526",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 526,
+      "entry": "525",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-968ed540b2",
+      "name": "Dan Heslinga, MD",
+      "organisation": "Hopena Health",
+      "country": "United States of America (Hawaii)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (LIMR gov. note 6; CDSE gov. note 7)",
+      "page": "179; 190",
+      "lines": "-",
+      "raw": "§Appendix C (LIMR gov. note 6; CDSE gov. note 7) p.179; 190 l.-"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "Both components direct countries to contribute implementation experience back to WHO governance processes, but no concrete channel is named. Experience shows the loop works when a channel exists: execution-level findings against smart-immunizations filed via the IG's public repository (issue #138 with fix PR #139, Aug 2026) demonstrate implementation-to-WHO feedback functioning at artifact level.",
+    "suggestedRevision": "Name the feedback mechanism (the public issue tracker of the relevant smart-* IG repository, or a designated WHO intake) and encourage findings to carry executable reproductions so they can become regression tests in the content's own QA.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 526"
+      }
+    ]
+  }
+}

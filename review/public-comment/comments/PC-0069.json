@@ -1,0 +1,79 @@
+{
+  "id": "pc-0069",
+  "summary": "No comment on chronology. Archiving and retrospective review of digital records require data/metadata that describe no …",
+  "comment": "No comment on chronology. Archiving and retrospective review of digital records require data/metadata that describe no only any evolution in attributes over time but also applicability where a property may be transient for example.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-1-fc548c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0069",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 69,
+      "entry": "68",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3",
+      "page": "95",
+      "lines": "274-281",
+      "raw": "§4.3 p.95 l.274-281"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-1-fc548c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.95 l.274-281 read as the printed page; section 4.3 agrees"
+    },
+    "type": "technical",
+    "text": "No comment on chronology. Archiving and retrospective review of digital records require data/metadata that describe no only any evolution in attributes over time but also applicability where a property may be transient for example.",
+    "suggestedRevision": "Include temporal/chronology component as foundational for all the core registry DPI-H components",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 69"
+      }
+    ]
+  }
+}

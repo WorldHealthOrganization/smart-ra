@@ -1,0 +1,78 @@
+{
+  "id": "pc-2485",
+  "summary": "Mortality certification-to-statistics interfaces — The present death-event API example concerns registry updates. It is…",
+  "comment": "Mortality certification-to-statistics interfaces — The present death-event API example concerns registry updates. It is an appropriate insertion point for the separate WHO classification and certification chain. Evidence: WHO Nomenclature Regulations (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967), Articles 2–6, and WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf), paragraph 1. Editorial note: the PDF has two subsections numbered 4.3.4; this amendment concerns the first, not “Interoperability Implementation Pathways” beginning at line 369 on the same page. Promoted to P1 because it operationalises the stated Goal 1 mortality commitment; coordinate with A25.01 and A25.04.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-83c937",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2485",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 28,
+      "entry": "27",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "First §4.3.4, Integration Interfaces with Foundational DPI",
+      "page": "97",
+      "lines": "B02.01",
+      "raw": "§First §4.3.4, Integration Interfaces with Foundational DPI p.97 l.B02.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-83c937",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-3-4-50e900",
+        "prose:4-3-4-fb4f87",
+        "prose:4-3-4-008180"
+      ],
+      "note": "p.97 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Mortality certification-to-statistics interfaces — The present death-event API example concerns registry updates. It is an appropriate insertion point for the separate WHO classification and certification chain. Evidence: WHO Nomenclature Regulations (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967), Articles 2–6, and WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf), paragraph 1. Editorial note: the PDF has two subsections numbered 4.3.4; this amendment concerns the first, not “Interoperability Implementation Pathways” beginning at line 369 on the same page. Promoted to P1 because it operationalises the stated Goal 1 mortality commitment; coordinate with A25.01 and A25.04.",
+    "suggestedRevision": "Insert paragraph: Death-event notification should be linked to the distinct mortality-information workflow: medical certification of cause of death, preservation of the certified causal sequence and contributing conditions, ICD coding and selection of the underlying cause, and production of vital statistics. Interfaces should retain the certificate or source statement, identifiers, amendments, coding release, and rule provenance. Updating a person's death status in a registry does not supply these mortality functions; responsibilities and exchanges among health services, civil registration, and statistical authorities should be specified explicitly.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 28"
+      }
+    ]
+  }
+}

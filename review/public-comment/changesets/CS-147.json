@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-147",
+  "title": "Model facility relationships beyond fixed hierarchies",
+  "requirements": "- Explain 'multi-axial hierarchy' in plain language\n- Rename location hierarchies to relationship types; make each conditional on national policy\n- Model administrative/operational trees separately from many-to-many referral and catchment networks\n- Offer progressive catchment options with source and confidence\n- Harmonise relationship categories across the component\n- Represent catchments and population estimates with method, source, date and confidence",
+  "refs": [
+    "PC-1565",
+    "PC-1566",
+    "PC-1567",
+    "PC-1596",
+    "PC-1597",
+    "PC-1599",
+    "PC-1622",
+    "PC-1623"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

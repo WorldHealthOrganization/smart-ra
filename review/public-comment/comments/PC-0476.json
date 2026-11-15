@@ -1,0 +1,78 @@
+{
+  "id": "pc-0476",
+  "summary": "Representation of individuals is addressed; representation of those who act on their behalf is not. For the people for …",
+  "comment": "Representation of individuals is addressed; representation of those who act on their behalf is not. For the people for whom continuity of information matters most - those living with dementia, severe mental illness or intellectual disability, and children in care - the actor role is exercised by family carers or legal representatives. The architecture has no concept of delegated authority for information actions, which is distinct from consent.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-3-1ab967",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0476",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 476,
+      "entry": "475",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.3",
+      "page": "55",
+      "lines": "299",
+      "raw": "§3.4.3 p.55 l.299"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-3-1ab967",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.55 l.299 read as the printed page; section 3.4.3 agrees"
+    },
+    "type": "general",
+    "text": "Representation of individuals is addressed; representation of those who act on their behalf is not. For the people for whom continuity of information matters most - those living with dementia, severe mental illness or intellectual disability, and children in care - the actor role is exercised by family carers or legal representatives. The architecture has no concept of delegated authority for information actions, which is distinct from consent.",
+    "suggestedRevision": "Add delegated authority as an architectural concept: a recordable, revocable, time-bounded and system-visible mandate specifying who may view, add, correct or grant access on behalf of another, with a route for cases where representatives disagree or none exists. Most legal systems, including the Dutch, provide representation for care decisions and none for information actions; in practice the gap is filled with shared login credentials, which is neither lawful nor safe.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 476"
+      }
+    ]
+  }
+}

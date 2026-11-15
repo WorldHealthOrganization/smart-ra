@@ -1,0 +1,79 @@
+{
+  "id": "pc-0362",
+  "summary": "Both the Product Registry and Supplier Registry reference being cross-sectoral, but the discussion is largely around he…",
+  "comment": "Both the Product Registry and Supplier Registry reference being cross-sectoral, but the discussion is largely around health supply chain systems.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0362",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 362,
+      "entry": "361",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "145-154; 190-198",
+      "raw": "§Appendix C p.145-154; 190-198"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-0298f8",
+        "prose:c-metadata-registries-and-foundati-product-registry-f78df9",
+        "prose:c-metadata-registries-and-foundati-product-registry-4c0041"
+      ],
+      "note": "p.145-154; 190-198 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Both the Product Registry and Supplier Registry reference being cross-sectoral, but the discussion is largely around health supply chain systems.",
+    "suggestedRevision": "Add at least one cross-sectoral use case for each to better emphasize the foundational element of these two registries.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 362"
+      }
+    ]
+  }
+}

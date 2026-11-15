@@ -1,0 +1,73 @@
+{
+  "id": "pc-2661",
+  "summary": "A global Reference Architecture should not assume that a single national public-health authority legally owns or operat…",
+  "comment": "A global Reference Architecture should not assume that a single national public-health authority legally owns or operates all surveillance functions. Public-health competence may be distributed between national and subnational authorities. The critical requirements are coherent standards, coordination, accountability and interoperability. Spain's legal framework is an example: the State Public Health Surveillance Network comprises the Ministry and the health administrations of the Autonomous Communities and Ceuta and Melilla; the Ministry coordinates the network, while Autonomous Communities organise and manage it in their territories, and the Interterritorial Council ensures cohesion and quality. Moreover, public-health processing authorised by law is not appropriately described as an emergency “override” of normal consent, because consent may not be the ordinary legal basis in the first place.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2661",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 39,
+      "entry": "29",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Public Health Surveillance Platform",
+      "page": "226",
+      "lines": "Governance",
+      "raw": "§Appendix C: Public Health Surveillance Platform p.226 l.Governance"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "A global Reference Architecture should not assume that a single national public-health authority legally owns or operates all surveillance functions. Public-health competence may be distributed between national and subnational authorities. The critical requirements are coherent standards, coordination, accountability and interoperability. Spain's legal framework is an example: the State Public Health Surveillance Network comprises the Ministry and the health administrations of the Autonomous Communities and Ceuta and Melilla; the Ministry coordinates the network, while Autonomous Communities organise and manage it in their territories, and the Interterritorial Council ensures cohesion and quality. Moreover, public-health processing authorised by law is not appropriately described as an emergency “override” of normal consent, because consent may not be the ordinary legal basis in the first place.",
+    "suggestedRevision": "Replace with: “Stewardship should be vested in the competent public-health authority or authorities under the jurisdiction's constitutional and statutory allocation of responsibilities. In decentralised systems, governance should establish clear national-subnational coordination, interoperability, common surveillance standards and accountability while respecting the responsibilities of subnational authorities. Governance should distinguish undesirable programme silos from legitimate multi-level public governance.” Replace the consent sentence with: “Where statutory public-health powers authorise identifiable-data processing without consent, the applicable purpose limitations, necessity and proportionality safeguards, confidentiality requirements, access controls, retention rules and auditing shall be explicitly defined. Emergency provisions should govern additional exceptional access beyond ordinary statutory surveillance powers.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 39"
+      }
+    ]
+  }
+}

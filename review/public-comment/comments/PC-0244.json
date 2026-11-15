@@ -1,0 +1,77 @@
+{
+  "id": "pc-0244",
+  "summary": "Provenance is currently defined by the Client, Health Facility and Health Workforce registries — that is, by which pers…",
+  "comment": "Provenance is currently defined by the Client, Health Facility and Health Workforce registries — that is, by which person, which place and which worker. Once AI-drafted clinical content can enter a record, a third dimension is required: whether an entry was machine-generated or machine-drafted, by which system and version, and which human clinician reviewed and attested it. Without this, a Lifelong Health Record silently mixes human-authored and machine-drafted content and no subsequent audit, liability determination, quality review or model evaluation can separate them. This cannot be retrofitted: if the record structure does not carry the distinction from the outset, the historical record is permanently ambiguous. Because it concerns the foundational shared data layer rather than any point-of-service application, it belongs in this architecture and not in procurement guidance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0244",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 244,
+      "entry": "243",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "2.2 REDDHI — Table 2.2, 'Longitudinal health records, with provenance and attribution'",
+      "page": "28",
+      "lines": "141 (Table 2.2)",
+      "caption": "Table 2.2",
+      "raw": "§2.2 REDDHI — Table 2.2, 'Longitudinal health records, with provenance and attribution' p.28 l.141 (Table 2.2)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "Provenance is currently defined by the Client, Health Facility and Health Workforce registries — that is, by which person, which place and which worker. Once AI-drafted clinical content can enter a record, a third dimension is required: whether an entry was machine-generated or machine-drafted, by which system and version, and which human clinician reviewed and attested it. Without this, a Lifelong Health Record silently mixes human-authored and machine-drafted content and no subsequent audit, liability determination, quality review or model evaluation can separate them. This cannot be retrofitted: if the record structure does not carry the distinction from the outset, the historical record is permanently ambiguous. Because it concerns the foundational shared data layer rather than any point-of-service application, it belongs in this architecture and not in procurement guidance.",
+    "suggestedRevision": "Add to the provenance row of Table 2.2, and to the Lifelong Health Record component description, a requirement that record entries carry machine-generated content indicators: the authoring system and version, whether the content was machine-drafted, and the identity of the human clinician who reviewed and attested it. HL7 FHIR Provenance already supports the necessary structure, so this is a conformance expectation rather than a new component.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 244"
+      }
+    ]
+  }
+}

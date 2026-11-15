@@ -1,0 +1,22 @@
+{
+  "$comment": "Settings for the review sheet's Apps Script. Build it with folio-assistant-core/tools/review-sheet-sync (skill public-comment, \"The review sheet's Apps Script\").",
+  "anchors": "folio/dpi-h-ra/review-anchors.json",
+  "lineMap": "library/who-dpi-h-reference-architecture-draft-v1/pdf-line-map.json",
+  "draftUrl": "draft/#page=",
+  "commentUrl": "en/folio-assistant-core/public-comments/folio/dpi-h-ra/index.html#",
+  "namedSections": {
+    "CR": "Client Registry",
+    "HFR": "Health Facility Registry",
+    "HWR": "Health Workforce Registry",
+    "PR": "Product Registry",
+    "LHR": "Lifelong Health Record",
+    "TS": "Terminology Service",
+    "LIMR": "Logical Information Model Repository",
+    "CDSE": "Computable Decision Support Engine",
+    "SR": "Supplier Registry",
+    "BPR": "Benefits Package Registry",
+    "HMIS": "Health Management Information System",
+    "PHSP": "Public Health Surveillance Platform"
+  },
+  "aliases": { "how to use the guidance": "How to Use This Guidance" }
+}

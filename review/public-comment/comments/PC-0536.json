@@ -1,0 +1,79 @@
+{
+  "id": "pc-0536",
+  "summary": "This comment states the Ministry's substantive recommendation in one place, so that it is not distributed across the in…",
+  "comment": "This comment states the Ministry's substantive recommendation in one place, so that it is not distributed across the individual comments that follow.\n\nThe guidance should name an open information-model formalism for the persistence of clinical data, and should recommend openEHR archetypes and templates for that role, with ISO 13606 as the ISO-ratified equivalent, in the same way that it recommends HL7 FHIR for services and transactions in section 4.3.3. HL7 FHIR should continue to be recommended for exchange, and is also appropriate for the persistence of demographic, administrative and encounter data. Slovenia applies exactly this division nationally.\n\nThe reasons are matters of design intent and lifecycle cost, not preference. FHIR is designed for data in motion, as section 3.6.2 line 813 states, and its major versions introduce breaking changes — appropriately, because both endpoints of an exchange can upgrade together. A national record that persists clinical data in that form must migrate its entire data estate on the exchange community's release schedule; data at rest cannot run on a cadence set by the needs of data in motion. A two-level model, in which a small stable reference model is separated from clinical content governed as archetypes and templates, allows clinical definitions to change without migrating stored data — which is the outcome the guidance asks for at page 173 lines 55–59, where domain experts update definitions \"without depending on software vendors to make those changes\", but for which it names no mechanism. Provenance, versioning and audit are carried structurally for every data element rather than added profile by profile, meeting the LHR core attribute at page 157 lines 119–121. And the guidance's own observation at page 96 lines 335–338, that conformance is hardest to retrofit where underlying data structures are not conformant, applies with most force to the record itself.\n\nThis is not a position peculiar to Slovenia. Catalonia, already present in Annex D.2, has adopted openEHR archetypes for the clinical information layer of its electronic clinical history platform, and a Delphi consensus commissioned by the Spanish Ministry of Health reached the same conclusion independently. Three European health systems of very different scale have converged on the same division of standards by role.\n\nThe Ministry is not asking for exclusivity, and does not propose that FHIR be excluded from persistence where a country has chosen it. We are asking that the persistence layer be given a named recommended framework, as the exchange layer already has, and that the recommendation reflect what the guidance already accepts in Annex D.1 and requires in Appendix C.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-38cad1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0536",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 536,
+      "entry": "535",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "General — recommended treatment of clinical data persistence",
+      "page": "Throughout",
+      "lines": "2.2.2 (p28–29); 2.3 II (p32); 3.6.2 (p73–74); Figures 3.2 and 3.5 (p48, p66); Appendix C (p155–179); Annex D.1 (p229–230)",
+      "caption": "Figure s",
+      "raw": "§General — recommended treatment of clinical data persistence p.Throughout l.2.2.2 (p28–29); 2.3 II (p32); 3.6.2 (p73–74); Figures 3.2 and 3.5 (p48, p66); Appendix C (p155–179); Annex D.1 (p229–230)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-38cad1",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "This comment states the Ministry's substantive recommendation in one place, so that it is not distributed across the individual comments that follow.\n\nThe guidance should name an open information-model formalism for the persistence of clinical data, and should recommend openEHR archetypes and templates for that role, with ISO 13606 as the ISO-ratified equivalent, in the same way that it recommends HL7 FHIR for services and transactions in section 4.3.3. HL7 FHIR should continue to be recommended for exchange, and is also appropriate for the persistence of demographic, administrative and encounter data. Slovenia applies exactly this division nationally.\n\nThe reasons are matters of design intent and lifecycle cost, not preference. FHIR is designed for data in motion, as section 3.6.2 line 813 states, and its major versions introduce breaking changes — appropriately, because both endpoints of an exchange can upgrade together. A national record that persists clinical data in that form must migrate its entire data estate on the exchange community's release schedule; data at rest cannot run on a cadence set by the needs of data in motion. A two-level model, in which a small stable reference model is separated from clinical content governed as archetypes and templates, allows clinical definitions to change without migrating stored data — which is the outcome the guidance asks for at page 173 lines 55–59, where domain experts update definitions \"without depending on software vendors to make those changes\", but for which it names no mechanism. Provenance, versioning and audit are carried structurally for every data element rather than added profile by profile, meeting the LHR core attribute at page 157 lines 119–121. And the guidance's own observation at page 96 lines 335–338, that conformance is hardest to retrofit where underlying data structures are not conformant, applies with most force to the record itself.\n\nThis is not a position peculiar to Slovenia. Catalonia, already present in Annex D.2, has adopted openEHR archetypes for the clinical information layer of its electronic clinical history platform, and a Delphi consensus commissioned by the Spanish Ministry of Health reached the same conclusion independently. Three European health systems of very different scale have converged on the same division of standards by role.\n\nThe Ministry is not asking for exclusivity, and does not propose that FHIR be excluded from persistence where a country has chosen it. We are asking that the persistence layer be given a named recommended framework, as the exchange layer already has, and that the recommendation reflect what the guidance already accepts in Annex D.1 and requires in Appendix C.",
+    "suggestedRevision": "Three specific changes, each proposed in detail in the comments that follow: (1) in section 2.2.2 and Figure 2.2, add an open information-model formalism — openEHR archetypes and templates, or ISO 13606 — to the Open Standards enabling condition and the full-STAC \"S\" grouping; (2) in section 2.3 principle II, express the direction of travel by layer rather than as a single family; (3) add a subsection to section 4.3, placed before 4.3.3 and parallel to it, for example \"4.3.x Clinical content and persistence: the governed information model\", since 4.3.1 already establishes that data structures are designed first. Then align Figures 3.2 and 3.5 and the Appendix C material to it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 536"
+      }
+    ]
+  }
+}

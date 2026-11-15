@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-c-metadata-registries-and-foundati-client-registry-1a1e5e",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:c-metadata-registries-and-foundati-client-registry-1a1e5e",
+  "kind": "prose",
+  "text": "p-c-metadata-registries-and-foundati-client-registry-1a1e5e.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 621,
+      "page": 127,
+      "printedPage": "116",
+      "lineStart": 88,
+      "lineEnd": 116,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

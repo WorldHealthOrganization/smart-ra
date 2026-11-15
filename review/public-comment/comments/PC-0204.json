@@ -1,0 +1,81 @@
+{
+  "id": "pc-0204",
+  "summary": "LOINC's own conventions for panels and standardized answer lists (LOINC Answer List / LL codes) are not mentioned, even…",
+  "comment": "LOINC's own conventions for panels and standardized answer lists (LOINC Answer List / LL codes) are not mentioned, even though the Value Set Management requirements (intensional/extensional value sets) apply directly to how LOINC panels and answer lists are represented and consumed in practice.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3772f0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0204",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 204,
+      "entry": "203",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-fa81b3a622",
+      "name": "Marjorie Rallins, DPM, MS, Executive Director, Health Data Standards",
+      "organisation": "Regenstrief Institute, Health Data Standards, LOINC/UCUM",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – “Value set management” and “Core attributes” (pp. 165, 167–168)",
+      "page": "165\n167-168",
+      "raw": "§Appendix C – “Value set management” and “Core attributes” (pp. 165, 167–168) p.165\n167-168"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3772f0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-405a08",
+        "prose:c-metadata-registries-and-foundati-terminology-service-6776d7",
+        "prose:c-metadata-registries-and-foundati-terminology-service-700d84"
+      ],
+      "note": "p.165\n167-168 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "LOINC's own conventions for panels and standardized answer lists (LOINC Answer List / LL codes) are not mentioned, even though the Value Set Management requirements (intensional/extensional value sets) apply directly to how LOINC panels and answer lists are represented and consumed in practice.",
+    "suggestedRevision": "Add a brief note under “Value set management” citing LOINC panels and standardized answer lists as a concrete example, alongside the existing SNOMED CT/ICD examples.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 204"
+      }
+    ]
+  }
+}

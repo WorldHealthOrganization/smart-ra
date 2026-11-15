@@ -1,0 +1,87 @@
+{
+  "id": "pc-0492",
+  "summary": "Two different subsections are both numbered 4.3.4: 'Integration Interfaces with Foundational DPI' and 'Interoperability…",
+  "comment": "Two different subsections are both numbered 4.3.4: 'Integration Interfaces with Foundational DPI' and 'Interoperability Implementation Pathways'. The duplication appears in both the table of contents and the body, and will make comment references and internal cross-references ambiguous.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0492",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 492,
+      "entry": "491",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "96",
+      "lines": "339",
+      "raw": "§4.3.4 p.96 l.339"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-4-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-4-c51a99"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Duplicate numbering: the second subsection numbered 4.3.4 (Interoperability Implementation Pathways)."
+    },
+    "type": "editorial",
+    "text": "Two different subsections are both numbered 4.3.4: 'Integration Interfaces with Foundational DPI' and 'Interoperability Implementation Pathways'. The duplication appears in both the table of contents and the body, and will make comment references and internal cross-references ambiguous.",
+    "suggestedRevision": "Renumber the second as 4.3.5 and renumber the following 'Minimum Conformance and Testing' from 4.3.5 to 4.3.6, updating the table of contents accordingly.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 492"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Duplicate numbering: the second subsection numbered 4.3.4 (Interoperability Implementation Pathways)."
+      }
+    ]
+  }
+}

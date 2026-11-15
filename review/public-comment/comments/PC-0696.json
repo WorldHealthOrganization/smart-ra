@@ -1,0 +1,73 @@
+{
+  "id": "pc-0696",
+  "summary": "Making the health–social protection connection more concrete. A worked example of a couple countries (the one I know be…",
+  "comment": "Making the health–social protection connection more concrete. A worked example of a couple countries (the one I know best is Türkiye’s Integrated Social Assistance Information System (ISAIS) with a role in income assessment for General Health Insurance)  would make the health–social protection connection even better. So one could distinguish identification, eligibility assessment and enrolment, and show how institutional coordination and digital interoperability support publicly financed coverage and responses to changing household circumstances. To inform adaptation across country settings, the example can document transferable lessons and limitations, including institutional prerequisites, remaining coverage gaps and safeguards limiting personal data exchange.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0696",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 696,
+      "entry": "695",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-05dd5656ac",
+      "organisation": "UNICEF",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Section 2.4.2; Appendix C, Benefits Package Registry; Appendix D.",
+      "raw": "§Section 2.4.2; Appendix C, Benefits Package Registry; Appendix D."
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "general",
+    "text": "Making the health–social protection connection more concrete. A worked example of a couple countries (the one I know best is Türkiye’s Integrated Social Assistance Information System (ISAIS) with a role in income assessment for General Health Insurance)  would make the health–social protection connection even better. So one could distinguish identification, eligibility assessment and enrolment, and show how institutional coordination and digital interoperability support publicly financed coverage and responses to changing household circumstances. To inform adaptation across country settings, the example can document transferable lessons and limitations, including institutional prerequisites, remaining coverage gaps and safeguards limiting personal data exchange.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 696"
+      }
+    ]
+  }
+}

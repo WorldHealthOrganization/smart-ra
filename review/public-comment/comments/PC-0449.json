@@ -1,0 +1,81 @@
+{
+  "id": "pc-0449",
+  "summary": "Data exchange DPI is treated as a national design matter. For 30 EU/EEA countries a binding supranational layer already…",
+  "comment": "Data exchange DPI is treated as a national design matter. For 30 EU/EEA countries a binding supranational layer already exists in the European Health Data Space Regulation, which mandates specific services, bodies, rights and deadlines and removes national discretion in defined areas. The EHDS is not mentioned once in the document, which is the largest single applicability gap for high-income settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-2-bd790c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0449",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 449,
+      "entry": "448",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.2.2",
+      "page": "15",
+      "lines": "210",
+      "raw": "§1.2.2 p.15 l.210"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-2-bd790c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-2-2-5d0d9f",
+        "prose:1-2-2-04fc31"
+      ],
+      "note": "p.15 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Data exchange DPI is treated as a national design matter. For 30 EU/EEA countries a binding supranational layer already exists in the European Health Data Space Regulation, which mandates specific services, bodies, rights and deadlines and removes national discretion in defined areas. The EHDS is not mentioned once in the document, which is the largest single applicability gap for high-income settings.",
+    "suggestedRevision": "Add a subsection on operating within a binding regional legal framework, using the EHDS as the worked example: the mandated national access services and health data access bodies, MyHealth@EU as an operating cross-border implementation, and the primacy of the Regulation over national architecture choices. Say how to read the reference architecture where design space is constrained from above as well as from below, and treat comparable regional instruments elsewhere the same way.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 449"
+      }
+    ]
+  }
+}

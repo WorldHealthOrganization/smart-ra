@@ -1,0 +1,78 @@
+{
+  "id": "pc-0465",
+  "summary": "Treating interoperability as a property of the whole rather than a component is one of the most useful clarifications i…",
+  "comment": "Treating interoperability as a property of the whole rather than a component is one of the most useful clarifications in the draft, and it appears as a boundary note in the component chapter. In many countries, including the Netherlands, interoperability is organised as a succession of projects with start and end dates, which is the direct cause of capability that appears and then lapses.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-1-6b7238",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0465",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 465,
+      "entry": "464",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.1",
+      "page": "65",
+      "lines": "585",
+      "raw": "§3.6.1 p.65 l.585"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-1-6b7238",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.65 l.585 read as the printed page; section 3.6.1 does NOT agree"
+    },
+    "type": "general",
+    "text": "Treating interoperability as a property of the whole rather than a component is one of the most useful clarifications in the draft, and it appears as a boundary note in the component chapter. In many countries, including the Netherlands, interoperability is organised as a succession of projects with start and end dates, which is the direct cause of capability that appears and then lapses.",
+    "suggestedRevision": "Elevate this into the DPI-H principles in section 1.4 and state the practical consequence: because interoperability is a property and not a deliverable, it cannot be financed as a project and must be funded and governed as a standing capability. This gives countries a concrete test - if interoperability has a completion date in their plan, it is being treated as a component.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 465"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0740",
+  "summary": "The same pattern in financing. The draft says \"only one genuinely new DPI-H component emerges from the financing analys…",
+  "comment": "The same pattern in financing. The draft says \"only one genuinely new DPI-H component emerges from the financing analysis: the Benefits Package Registry,\" and its appendix places the Contract & Benefits Management System — which \"processes claims and contributions\" — explicitly outside DPI-H, as a \"functional application.\" We agree the processing belongs there. But a claim also runs a lifecycle across autonomous payers and providers — coverage/eligibility, pre-authorisation, submission, adjudication, settlement — and nothing owns the shared exchange that carries it between them and flags a stall. That exchange — protocol, directory, trust, governance — is the fabric we mean; adjudication and payment stay with the parties (a DPI-H construct on the refined criterion in C2). We are not asking for the claims-processing system to be DPI-H, and this is not a central claims switch. We recommend recognising the shared claims-exchange fabric as a DPI-H construct. One fabric idea covers coordination and claims.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-4-2-e70c22",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0740",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 740,
+      "entry": "739",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§2.4.2 financing (p.39); §4.3.4 (p.98)",
+      "lines": "C3",
+      "raw": "§§2.4.2 financing (p.39); §4.3.4 (p.98) l.C3"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-2-e70c22",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "The same pattern in financing. The draft says \"only one genuinely new DPI-H component emerges from the financing analysis: the Benefits Package Registry,\" and its appendix places the Contract & Benefits Management System — which \"processes claims and contributions\" — explicitly outside DPI-H, as a \"functional application.\" We agree the processing belongs there. But a claim also runs a lifecycle across autonomous payers and providers — coverage/eligibility, pre-authorisation, submission, adjudication, settlement — and nothing owns the shared exchange that carries it between them and flags a stall. That exchange — protocol, directory, trust, governance — is the fabric we mean; adjudication and payment stay with the parties (a DPI-H construct on the refined criterion in C2). We are not asking for the claims-processing system to be DPI-H, and this is not a central claims switch. We recommend recognising the shared claims-exchange fabric as a DPI-H construct. One fabric idea covers coordination and claims.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 740"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pc-1049",
+  "summary": "Comprehensive conformance infrastructure may be difficult for lower-resource countries to operate independently.",
+  "comment": "Comprehensive conformance infrastructure may be difficult for lower-resource countries to operate independently.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1049",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 285,
+      "entry": "284",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.5",
+      "page": "78",
+      "lines": "Lines 954-959",
+      "raw": "§3.6.5 p.78 l.Lines 954-959"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.78 l.Lines 954-959 read as the printed page; section 3.6.5 agrees"
+    },
+    "text": "Comprehensive conformance infrastructure may be difficult for lower-resource countries to operate independently.",
+    "suggestedRevision": "Recommend regional or shared test services, reusable open-source validators and simulators, mutual recognition of test results, competency development, and a risk-based testing sequence focused first on high-impact interfaces.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 285"
+      }
+    ]
+  }
+}

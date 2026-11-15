@@ -1,0 +1,79 @@
+{
+  "id": "pc-0541",
+  "summary": "The Open Standards condition names HL7 FHIR as the primary framework for health data exchange alongside ICD, LOINC and …",
+  "comment": "The Open Standards condition names HL7 FHIR as the primary framework for health data exchange alongside ICD, LOINC and SNOMED CT, and the full-STAC \"S\" box in Figure 2.2 lists HL7 FHIR, ICD, SNOMED CT, LOINC and CQL. Each is an exchange or terminology standard; no formalism is named for the structure of persisted clinical data. Appendix C requires the LIMR to support openEHR archetypes and templates (page 175, functional requirement 2, status Required) and names them again at pages 172 and 174. The enabling conditions, which are where ministries and procurement teams look, do not reflect what Appendix C requires.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-2c4d7e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0541",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 541,
+      "entry": "540",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.2 The enabling conditions for REDDHI",
+      "page": "28–29",
+      "lines": "148–151; Figure 2.2 (p30)",
+      "caption": "Figure 2.2",
+      "raw": "§2.2.2 The enabling conditions for REDDHI p.28–29 l.148–151; Figure 2.2 (p30)"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-2c4d7e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.28–29 l.148–151; Figure 2.2 (p30) read as the printed page; section 2.2.2 agrees"
+    },
+    "type": "technical",
+    "text": "The Open Standards condition names HL7 FHIR as the primary framework for health data exchange alongside ICD, LOINC and SNOMED CT, and the full-STAC \"S\" box in Figure 2.2 lists HL7 FHIR, ICD, SNOMED CT, LOINC and CQL. Each is an exchange or terminology standard; no formalism is named for the structure of persisted clinical data. Appendix C requires the LIMR to support openEHR archetypes and templates (page 175, functional requirement 2, status Required) and names them again at pages 172 and 174. The enabling conditions, which are where ministries and procurement teams look, do not reflect what Appendix C requires.",
+    "suggestedRevision": "Extend line 148–151 to read, in substance: \"grounding implementation in open standards — HL7 FHIR as the primary framework for health data exchange; openEHR archetypes and templates, or ISO 13606, for the logical structure of persisted clinical data; alongside established clinical classifications and terminologies such as ICD, LOINC and SNOMED CT …\". Add the corresponding entry to the \"S\" box in Figure 2.2.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 541"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "pc-0019",
+  "summary": "Section 4.6.1 builds the investment case.",
+  "comment": "Section 4.6.1 builds the investment case.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0019",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 19,
+      "entry": "18",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.1",
+      "raw": "§4.6.1"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.6.1 only"
+    },
+    "type": "technical",
+    "text": "Section 4.6.1 builds the investment case.",
+    "suggestedRevision": "Might be a good opportunity to name a tool to operationalize (e.g. a digital health investment taxonomy), one a Ministry of Finance can act on directly.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems",
+      "Consider by TWG? Human categorisation": "Core architects/ WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 19"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Reviewed\""
+      }
+    ]
+  }
+}

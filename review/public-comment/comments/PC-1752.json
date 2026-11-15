@@ -1,0 +1,77 @@
+{
+  "id": "pc-1752",
+  "summary": "UNSPSC, GPC, and ATC serve different purposes and classify different aspects of products. Treating them as interchangea…",
+  "comment": "UNSPSC, GPC, and ATC serve different purposes and classify different aspects of products. Treating them as interchangeable product classifications risks inappropriate mappings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-9abc28",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1752",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 988,
+      "entry": "987",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry, 3",
+      "page": "146",
+      "lines": "Lines 426-428",
+      "raw": "§Product Registry, 3 p.146 l.Lines 426-428"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-9abc28",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.146 l.Lines 426-428 read as the printed page; section 3 agrees"
+    },
+    "text": "UNSPSC, GPC, and ATC serve different purposes and classify different aspects of products. Treating them as interchangeable product classifications risks inappropriate mappings.",
+    "suggestedRevision": "Identify the intended purpose and product level for each classification. Require context-specific mappings with equivalence, version, provenance, and limitations.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 988"
+      }
+    ]
+  }
+}

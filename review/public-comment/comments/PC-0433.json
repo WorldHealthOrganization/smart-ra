@@ -1,0 +1,78 @@
+{
+  "id": "pc-0433",
+  "summary": "Data provenance should cover the full biospecimen lifecycle, not only the origin of clinical data. This supports partic…",
+  "comment": "Data provenance should cover the full biospecimen lifecycle, not only the origin of clinical data. This supports participant protection, scientific validity and ISO 20387-aligned quality management.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0433",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 433,
+      "entry": "432",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "LHR core attributes",
+      "page": "157",
+      "lines": "119–121",
+      "raw": "§LHR core attributes p.157 l.119–121"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.157 l.119–121 read as the printed page"
+    },
+    "type": "technical",
+    "text": "Data provenance should cover the full biospecimen lifecycle, not only the origin of clinical data. This supports participant protection, scientific validity and ISO 20387-aligned quality management.",
+    "suggestedRevision": "Add biospecimen provenance requirements for collection, receipt, processing, parent–child and aliquot relationships, storage location, temperature excursions, quality assessment, retrieval, transfer, use, return and disposal; including actor, system, date/time and location.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 433"
+      }
+    ]
+  }
+}

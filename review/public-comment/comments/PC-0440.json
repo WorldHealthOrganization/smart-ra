@@ -1,0 +1,78 @@
+{
+  "id": "pc-0440",
+  "summary": "The draft provides useful lifecycle governance for semantic artefacts and recommends continuing national conformance mo…",
+  "comment": "The draft provides useful lifecycle governance for semantic artefacts and recommends continuing national conformance monitoring. However, it does not yet make explicit how a product-level certification result remains interpretable as the normative baseline evolves. Without an explicit binding to the versions tested, a product may remain labelled “certified” even after relevant profiles, terminology resources, test suites or product releases have materially changed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-5-92909d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0440",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 440,
+      "entry": "439",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.5; 4.4.2",
+      "page": "98–99",
+      "lines": "399–408; 445–463",
+      "raw": "§4.3.5; 4.4.2 p.98–99 l.399–408; 445–463"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-5-92909d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.98–99 l.399–408; 445–463 read as the printed page; section 4.3.5 agrees"
+    },
+    "type": "technical",
+    "text": "The draft provides useful lifecycle governance for semantic artefacts and recommends continuing national conformance monitoring. However, it does not yet make explicit how a product-level certification result remains interpretable as the normative baseline evolves. Without an explicit binding to the versions tested, a product may remain labelled “certified” even after relevant profiles, terminology resources, test suites or product releases have materially changed.",
+    "suggestedRevision": "Make each conformance statement or certificate explicitly version-scoped. At minimum, record the tested actor role(s), profile or implementation-guide version, relevant logical-model and terminology/value-set versions, test-suite version and product release. Define expiry or reassessment triggers for material specification or product changes, together with a transition policy for overlapping versions and risk-based post-deployment surveillance. This would complement, rather than duplicate, the document’s existing artefact-lifecycle governance\n\nThis is a distinct but related concern to the assurance operating model proposed in comment 5: this comment addresses what a conformance statement should record, while comment 5 addresses who should be authorised to issue it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 440"
+      }
+    ]
+  }
+}

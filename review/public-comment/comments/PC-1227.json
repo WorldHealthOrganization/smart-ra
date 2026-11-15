@@ -1,0 +1,77 @@
+{
+  "id": "pc-1227",
+  "summary": "FHIR’s alignment with web standards is said to make it accessible to a broad implementer ecosystem. Countries may still…",
+  "comment": "FHIR’s alignment with web standards is said to make it accessible to a broad implementer ecosystem. Countries may still face substantial shortages of profiling, terminology, security, and implementation expertise.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-3-99c0e8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1227",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 463,
+      "entry": "462",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.3",
+      "page": "96",
+      "lines": "Lines 321-323",
+      "raw": "§4.3.3 p.96 l.Lines 321-323"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-3-99c0e8",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96 l.Lines 321-323 read as the printed page; section 4.3.3 agrees"
+    },
+    "text": "FHIR’s alignment with web standards is said to make it accessible to a broad implementer ecosystem. Countries may still face substantial shortages of profiling, terminology, security, and implementation expertise.",
+    "suggestedRevision": "Acknowledge the capacity requirement and recommend reusable implementation guides, reference implementations, regional expertise, training, hosted test services, and gradual adoption.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 463"
+      }
+    ]
+  }
+}

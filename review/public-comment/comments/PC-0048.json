@@ -1,0 +1,86 @@
+{
+  "id": "pc-0048",
+  "summary": "The DPI approach seems to lean more to the former than the latter building or evolving existing resources rather than r…",
+  "comment": "The DPI approach seems to lean more to the former than the latter building or evolving existing resources rather than reimaging the entire ecosystem",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-3fe140",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0048",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 48,
+      "entry": "47",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "9",
+      "lines": "35-38",
+      "raw": "§1.1.2 p.9 l.35-38"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-3fe140",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.9 l.35-38 read as the printed page; section 1.1.2 agrees"
+    },
+    "type": "editorial",
+    "text": "The DPI approach seems to lean more to the former than the latter building or evolving existing resources rather than reimaging the entire ecosystem",
+    "suggestedRevision": "Make a clear distinction between interoperability as exchange as opposed to interoperability through shared/common platforms/components by specific systems used for specific delivery in the system as a whole",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 48"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Not accepted\", with no rationale; held for the editor"
+      }
+    ]
+  }
+}

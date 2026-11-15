@@ -1,0 +1,83 @@
+{
+  "id": "pc-0590",
+  "summary": "The 241-page figure is the full PDF. The narrative guidance ends at p.110; pp.111–241 are references and Appendices A–F…",
+  "comment": "The 241-page figure is the full PDF. The narrative guidance ends at p.110; pp.111–241 are references and Appendices A–F. The comment now states this so the length criticism cannot be deflected by pointing out that most of the document is reference material.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0590",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 590,
+      "entry": "589",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Row 12 (comment 2)",
+      "page": "Page-count figure clarified",
+      "raw": "§Row 12 (comment 2) p.Page-count figure clarified"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note clarifying the page-count wording of another row."
+    },
+    "text": "The 241-page figure is the full PDF. The narrative guidance ends at p.110; pp.111–241 are references and Appendices A–F. The comment now states this so the length criticism cannot be deflected by pointing out that most of the document is reference material.",
+    "suggestedRevision": "Amended. Revert if you prefer the original blunt wording.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 590"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note clarifying the page-count wording of another row."
+      }
+    ]
+  }
+}

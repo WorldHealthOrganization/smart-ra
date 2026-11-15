@@ -1,0 +1,73 @@
+{
+  "id": "pc-2675",
+  "summary": "Offline and low-connectivity operation for the PHSP is classified 'Recommended' while FHIR-based integration, terminolo…",
+  "comment": "Offline and low-connectivity operation for the PHSP is classified 'Recommended' while FHIR-based integration, terminology subscription, and audit logging are 'Required'. For archipelagic, disaster-prone, devolved contexts this polarity is inverted: surveillance infrastructure must function precisely when infrastructure fails. Post-Haiyan assessments in the Philippines documented suspension of routine ESU surveillance, with roughly seven weeks to restore reporting in Leyte; operational resilience in practice meant paper and improvised channels. A platform 'designed to manage' public health emergencies (the requirement's own wording) cannot treat emergency operating conditions as optional.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2675",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 20,
+      "entry": "10",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — PHSP",
+      "page": "226",
+      "lines": "Functional requirements table, req. 21",
+      "raw": "§Appendix C — PHSP p.226 l.Functional requirements table, req. 21"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "Offline and low-connectivity operation for the PHSP is classified 'Recommended' while FHIR-based integration, terminology subscription, and audit logging are 'Required'. For archipelagic, disaster-prone, devolved contexts this polarity is inverted: surveillance infrastructure must function precisely when infrastructure fails. Post-Haiyan assessments in the Philippines documented suspension of routine ESU surveillance, with roughly seven weeks to restore reporting in Leyte; operational resilience in practice meant paper and improvised channels. A platform 'designed to manage' public health emergencies (the requirement's own wording) cannot treat emergency operating conditions as optional.",
+    "suggestedRevision": "Reclassify req. 21 from Recommended to Required. Specify a minimum offline floor: store-and-forward case capture, SMS-compatible notification of immediately notifiable events, and reconciliation rules on synchronisation, with conflict handling for case records edited offline at multiple sites.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 20"
+      }
+    ]
+  }
+}

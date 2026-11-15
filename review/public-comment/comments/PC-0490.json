@@ -1,0 +1,80 @@
+{
+  "id": "pc-0490",
+  "summary": "Operational governance is described in terms of running the infrastructure but not the capacity required to do so. Acro…",
+  "comment": "Operational governance is described in terms of running the infrastructure but not the capacity required to do so. Across the digital health literature the recurring cause of failure is not absent design but absent implementation capacity, and capacity is typically funded as a project deliverable rather than as a standing resource.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-4-65aa9a",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0490",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 490,
+      "entry": "489",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.4",
+      "page": "56",
+      "lines": "334",
+      "raw": "§3.4.4 p.56 l.334"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-4-65aa9a",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-4-c238c3"
+      ],
+      "note": "p.56 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Operational governance is described in terms of running the infrastructure but not the capacity required to do so. Across the digital health literature the recurring cause of failure is not absent design but absent implementation capacity, and capacity is typically funded as a project deliverable rather than as a standing resource.",
+    "suggestedRevision": "Add implementation and operating capacity as an explicit governance responsibility, budgeted as capacity rather than as project output, with a stated absorption limit: the volume of change the system can absorb in a given period, published, and used to sequence the roadmap. Guidance that states no absorption limit will be read as endorsing simultaneous delivery of everything it describes, which no country can do.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 490"
+      }
+    ]
+  }
+}

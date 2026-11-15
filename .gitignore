@@ -47,3 +47,32 @@ auto-save-list
 tramp
 .\#*
 .swp
+
+# folio-assistant #
+###################
+# The built site (bun run build:site) and the private intake: returned
+# comment spreadsheets hold reviewers' emails and stay out of the repository.
+_site/
+build/
+review/public-comment/raw/
+# Kept on cat/dpi-h-ra/beans; mounted here by state:mount, never committed to main
+/beans/**
+# Kept on cat/dpi-h-ra/todos; mounted here by state:mount, never committed to main
+/todos/**
+# Kept on cat/dpi-h-ra/fsh-guts; mounted here by state:mount, never committed to main
+/fsh-guts/**
+
+# BEGIN index mounts (generated from index.config.json — do not edit)
+/who-iris/
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
+
+node_modules/
+__pycache__/
+*.pyc

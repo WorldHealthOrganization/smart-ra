@@ -1,0 +1,76 @@
+{
+  "id": "pc-0678",
+  "summary": "Clarify the complementary roles of HL7 FHIR and IHE",
+  "comment": "Clarify the complementary roles of HL7 FHIR and IHE\n\nIHE strongly supports the draft's endorsement of HL7 FHIR as a recommended exchange framework. However, HL7 FHIR conformance alone does not define an end-to-end interoperable workflow. IHE profiles apply HL7 FHIR and other standards (e.g. DICOM, IEEE) to defined use cases, actors, transactions, options, and security dependencies. Section 4.3.3 should therefore direct countries first to existing globally governed HL7 FHIR implementation guides, like the IHE Profiles on HL7 FHIR are, and IHE profiles in general. Language should be avoided that could encourage independent national recreation of equivalent specifications. The guidance should also retain a practical transition path for mature, interoperable non-FHIR implementations and mixed environments.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0678",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 678,
+      "entry": "677",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.3",
+      "raw": "§4.3.3"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.3.3 only"
+    },
+    "text": "Clarify the complementary roles of HL7 FHIR and IHE\n\nIHE strongly supports the draft's endorsement of HL7 FHIR as a recommended exchange framework. However, HL7 FHIR conformance alone does not define an end-to-end interoperable workflow. IHE profiles apply HL7 FHIR and other standards (e.g. DICOM, IEEE) to defined use cases, actors, transactions, options, and security dependencies. Section 4.3.3 should therefore direct countries first to existing globally governed HL7 FHIR implementation guides, like the IHE Profiles on HL7 FHIR are, and IHE profiles in general. Language should be avoided that could encourage independent national recreation of equivalent specifications. The guidance should also retain a practical transition path for mature, interoperable non-FHIR implementations and mixed environments.",
+    "suggestedRevision": "Proposed addition to Section 4.3.3\n\nHL7 FHIR should be treated as a foundational exchange standard, while IHE profiles and other implementation guides provide the use-case-level specification needed for interoperable workflows. Countries should adopt existing globally governed FHIR implementation guides, like HL7 FHIR based IHE profiles, wherever applicable rather than independently defining equivalent resources, terminologies, actors, operations, and transaction patterns. Any national profile should preserve a clearly identified international core and document only the additional national constraints or extensions.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 678"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "pc-0581",
+  "summary": "Equity barriers in underserved areas are not sufficiently addressed: variability in digital literacy among healthcare p…",
+  "comment": "Equity barriers in underserved areas are not sufficiently addressed: variability in digital literacy among healthcare professionals (including in Europe), illiteracy and digital illiteracy among patients, limited internet connectivity in rural and mountainous areas such as those in Italy, and cultural factors affecting acceptability.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0581",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 581,
+      "entry": "580",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4",
+      "page": "55; 109",
+      "raw": "§4 p.55; 109"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Equity barriers (literacy, connectivity, training) across implementation; cited pages 55 and 109 are not specific."
+    },
+    "type": "general",
+    "text": "Equity barriers in underserved areas are not sufficiently addressed: variability in digital literacy among healthcare professionals (including in Europe), illiteracy and digital illiteracy among patients, limited internet connectivity in rural and mountainous areas such as those in Italy, and cultural factors affecting acceptability.",
+    "suggestedRevision": "Add short guidance on minimum digital competencies and structured training for healthcare professionals, and recommendations on offline-first workflows and low-bandwidth solutions for areas with connectivity limitations. Address patient literacy and digital literacy and cultural acceptability explicitly.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 581"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Equity barriers (literacy, connectivity, training) across implementation; cited pages 55 and 109 are not specific."
+      }
+    ]
+  }
+}

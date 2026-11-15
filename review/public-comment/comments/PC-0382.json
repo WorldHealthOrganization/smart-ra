@@ -1,0 +1,78 @@
+{
+  "id": "pc-0382",
+  "summary": "Placing HMIS only in Phase 3—after registries and LHR—marginalises the principal national digital health platform in ma…",
+  "comment": "Placing HMIS only in Phase 3—after registries and LHR—marginalises the principal national digital health platform in many LMICs. DHIS2 is used by more than 80 LMICs as a government-wide health data system and supports routine reporting, surveillance, programme monitoring and other shared functions. Treating this installed base as a late business service creates a greenfield bias and may channel investment away from operational national infrastructure. Later in the document, HMIS core attributes include \"Data collection and ingestion. Reception of health data through multiple channels, including direct facility-based and community-based reporting...\" - yet its not part of the data layer. Source: https://dhis2.org/about-2/",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-f08184",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0382",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 382,
+      "entry": "381",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2–4.2.3",
+      "page": "91–92",
+      "lines": "155–184",
+      "raw": "§4.2.2–4.2.3 p.91–92 l.155–184"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-f08184",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.91–92 l.155–184 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "technical",
+    "text": "Placing HMIS only in Phase 3—after registries and LHR—marginalises the principal national digital health platform in many LMICs. DHIS2 is used by more than 80 LMICs as a government-wide health data system and supports routine reporting, surveillance, programme monitoring and other shared functions. Treating this installed base as a late business service creates a greenfield bias and may channel investment away from operational national infrastructure. Later in the document, HMIS core attributes include \"Data collection and ingestion. Reception of health data through multiple channels, including direct facility-based and community-based reporting...\" - yet its not part of the data layer. Source: https://dhis2.org/about-2/",
+    "suggestedRevision": "Allow an ‘RHIS/platform-first’ pathway. In Phase 1–2, strengthen an existing national HMIS/DHIS2 platform as shared infrastructure: harmonise organisational units and metadata, improve data quality/use, establish governance and support, expose APIs, and add aggregate/event/Tracker use cases iteratively. Develop LHR and registry services in parallel where justified.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 382"
+      }
+    ]
+  }
+}

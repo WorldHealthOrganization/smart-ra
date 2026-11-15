@@ -1,0 +1,67 @@
+{
+  "id": "pc-2723",
+  "summary": "§2.4.2, p. 39, lines 513. [note]",
+  "comment": "§2.4.2, p. 39, lines 513. [note]\nFrom line 513 onwards, the focus becomes too narrow (ie on scheme registries and claims management). The text should be broadened to reflect a wider range of DPI applications relevant to health financing, including revenue collection, FMIS, pooling, strategic purchasing and provider-level financial management.",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "tbl:2-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2723",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 23,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-e25b9292a6",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "2.4.2",
+      "page": "39",
+      "lines": "513",
+      "raw": "§2.4.2, p. 39, lines 513. [note]\nFrom line 513 onwards, the focus becomes too narrow (ie on scheme registries and claims"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-4",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.39 l.513 read as the printed page; section 2.4.2 agrees"
+    },
+    "text": "§2.4.2, p. 39, lines 513. [note]\nFrom line 513 onwards, the focus becomes too narrow (ie on scheme registries and claims management). The text should be broadened to reflect a wider range of DPI applications relevant to health financing, including revenue collection, FMIS, pooling, strategic purchasing and provider-level financial management.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

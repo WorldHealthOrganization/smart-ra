@@ -1,0 +1,86 @@
+{
+  "id": "pc-0193",
+  "summary": "The document lists financing approaches but could provide more detailed guidance on how DPI-H components integrate with…",
+  "comment": "The document lists financing approaches but could provide more detailed guidance on how DPI-H components integrate with national health insurance (NHI) and public financial management (PFM) systems. This is essential for countries implementing health financing reforms.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0193",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 193,
+      "entry": "192",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3",
+      "page": "103",
+      "lines": "475 - 486",
+      "raw": "§4.6.3 p.103 l.475 - 486"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-2-2-62927f"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 4.6.3 l.475-486 on the list of financing approaches; this block is that list"
+    },
+    "type": "general",
+    "text": "The document lists financing approaches but could provide more detailed guidance on how DPI-H components integrate with national health insurance (NHI) and public financial management (PFM) systems. This is essential for countries implementing health financing reforms.",
+    "suggestedRevision": "1) Consider adding a sub-section on integration with National Health Insurance (NHI) and Public Finance Management (PFM) systems, detailing: how the Benefits Package Registry and claims management systems interface with existing government financial systems; specific integration patterns for revenue collection, member management, and provider payment; and reference to established frameworks (e.g., WHO health financing guidance, World Bank PFM frameworks). \n2) Include a worked example of a claims flow from eligibility to payment.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 193"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites 4.6.3 l.475-486 on the list of financing approaches; this block is that list"
+      }
+    ]
+  }
+}

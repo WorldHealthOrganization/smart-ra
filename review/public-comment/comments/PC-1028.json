@@ -1,0 +1,77 @@
+{
+  "id": "pc-1028",
+  "summary": "The section presents distributed access points, central buses, gateways, and direct connections as exchange patterns, b…",
+  "comment": "The section presents distributed access points, central buses, gateways, and direct connections as exchange patterns, but these categories overlap. A distributed access point may itself use a gateway, service bus, or event broker.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-3-61768e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1028",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 264,
+      "entry": "263",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.3",
+      "page": "75-76",
+      "lines": "Lines 878-895",
+      "raw": "§3.6.3 p.75-76 l.Lines 878-895"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-3-61768e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.75-76 l.Lines 878-895 read as the printed page; section 3.6.3 agrees"
+    },
+    "text": "The section presents distributed access points, central buses, gateways, and direct connections as exchange patterns, but these categories overlap. A distributed access point may itself use a gateway, service bus, or event broker.",
+    "suggestedRevision": "Present the patterns across separate dimensions, such as control topology, transport pattern, interaction style, mediation location, and data persistence. Explain that implementations combine choices across these dimensions.",
+    "labels": {
+      "Comment type": "Q8 - Interoperability and semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 264"
+      }
+    ]
+  }
+}

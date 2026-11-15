@@ -1,0 +1,78 @@
+{
+  "id": "pc-0507",
+  "summary": "The named audiences and uses do not expressly include health-service delivery organisations such as hospital groups, pr…",
+  "comment": "The named audiences and uses do not expressly include health-service delivery organisations such as hospital groups, provider networks and facility operators. These organisations may be intended to fall within 'implementers', but their responsibility at the national-to-facility boundary is not stated, even though they operate the settings in which much of the data used by DPI-H is produced.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-4-a8e0b3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0507",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 507,
+      "entry": "506",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.4 / 4.5.1",
+      "page": "12 and 100",
+      "lines": "Lines 140-169 and 473-487",
+      "raw": "§1.1.4 / 4.5.1 p.12 and 100 l.Lines 140-169 and 473-487"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-4-a8e0b3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.12 and 100 l.Lines 140-169 and 473-487 read as the printed page; section 1.1.4 agrees"
+    },
+    "type": "general",
+    "text": "The named audiences and uses do not expressly include health-service delivery organisations such as hospital groups, provider networks and facility operators. These organisations may be intended to fall within 'implementers', but their responsibility at the national-to-facility boundary is not stated, even though they operate the settings in which much of the data used by DPI-H is produced.",
+    "suggestedRevision": "Add health-service delivery organisations as a named audience, or clarify explicitly that they are included among implementers. Describe their use of the architecture as aligning local systems, actor definitions, capture points, terminology and information models with nationally governed specifications.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 507"
+      }
+    ]
+  }
+}

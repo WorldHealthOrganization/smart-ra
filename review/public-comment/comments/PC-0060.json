@@ -1,0 +1,79 @@
+{
+  "id": "pc-0060",
+  "summary": "De-identification used appropriately but the implications of data access at scale for secondary uses can't be under emp…",
+  "comment": "De-identification used appropriately but the implications of data access at scale for secondary uses can't be under emphasised",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-4813b9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0060",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 60,
+      "entry": "59",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3",
+      "page": "36-37",
+      "lines": "436-445",
+      "raw": "§2.3 p.36-37 l.436-445"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-4813b9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.36-37 l.436-445 read as the printed page; section 2.3 agrees"
+    },
+    "type": "editorial",
+    "text": "De-identification used appropriately but the implications of data access at scale for secondary uses can't be under emphasised",
+    "suggestedRevision": "The default should be to protect privacy and given that de-identification is the best achievable situation in any patient level data more should probably be said on approaches to secondary use that prevent direct access to patient level data as well again emphasising the prioritisation of the architectural design for individual direct care over and above any other use",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 60"
+      }
+    ]
+  }
+}

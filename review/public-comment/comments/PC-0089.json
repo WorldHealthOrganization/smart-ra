@@ -1,0 +1,85 @@
+{
+  "id": "pc-0089",
+  "summary": "Investment case would benefit from further evidence.",
+  "comment": "Investment case would benefit from further evidence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0089",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 89,
+      "entry": "88",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-823d9ef50c",
+      "name": "Dr. Yahya Gulzar",
+      "organisation": "WHO",
+      "country": "Pakistan",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Financing and Sustainability",
+      "page": "Relevant Section",
+      "lines": "Relevant Lines",
+      "raw": "§Financing and Sustainability p.Relevant Section l.Relevant Lines"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-1",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Says the investment case needs more evidence; 4.6.1 The Investment Case"
+    },
+    "type": "general",
+    "text": "Investment case would benefit from further evidence.",
+    "suggestedRevision": "Provide business cases and indicative costing models.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 89"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Says the investment case needs more evidence; 4.6.1 The Investment Case"
+      }
+    ]
+  }
+}

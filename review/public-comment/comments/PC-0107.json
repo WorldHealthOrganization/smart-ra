@@ -1,0 +1,80 @@
+{
+  "id": "pc-0107",
+  "summary": "The phrase \"fall out mechanically\" is misleading and overconfident. In practice, determining whether a country element …",
+  "comment": "The phrase \"fall out mechanically\" is misleading and overconfident. In practice, determining whether a country element \"realises\" a reference element requires expert judgment, not mechanical computation. The bullet list describes an idealized process but provides no guidance on who performs the assessment, what tools they use, or how disputes are resolved when a vendor claims conformance but the MOH disagrees. The inheritance of \"Requirements, Constraints, and conformance expectations\" is also unexplained — where do these inherited criteria come from? How are they documented? How does a country test them if they lack testing infrastructure?",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-5-9cd719",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0107",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 107,
+      "entry": "106",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.5 Validating goals and adoption",
+      "page": "85",
+      "lines": "1196–1231",
+      "raw": "§3.7.5 Validating goals and adoption p.85 l.1196–1231"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-5-9cd719",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-5-d14cff"
+      ],
+      "note": "p.85 l.1196–1231 read as the printed page; section 3.7.5 agrees"
+    },
+    "type": "technical",
+    "text": "The phrase \"fall out mechanically\" is misleading and overconfident. In practice, determining whether a country element \"realises\" a reference element requires expert judgment, not mechanical computation. The bullet list describes an idealized process but provides no guidance on who performs the assessment, what tools they use, or how disputes are resolved when a vendor claims conformance but the MOH disagrees. The inheritance of \"Requirements, Constraints, and conformance expectations\" is also unexplained — where do these inherited criteria come from? How are they documented? How does a country test them if they lack testing infrastructure?",
+    "suggestedRevision": "Add Appendix X: Architecture Mapping Template",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 107"
+      }
+    ]
+  }
+}

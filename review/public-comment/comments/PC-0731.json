@@ -1,0 +1,74 @@
+{
+  "id": "pc-0731",
+  "summary": "Regenstrief Institute, LOINC's steward, is named alongside SNOMED International, SNOMED CT’s steward and WHO-FIC as an …",
+  "comment": "Regenstrief Institute, LOINC's steward, is named alongside SNOMED International, SNOMED CT’s steward and WHO-FIC as an anchor body for federation and international coordination — the only place LOINC's governing organization is identified. This requirement is classed “Recommended,” not “Required,” and the text does not describe how synchronization with LOINC releases, or submission of national term requests to Regenstrief, would work in practice.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0731",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 731,
+      "entry": "730",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc0c42fb96",
+      "organisation": "Regenstrief Institute (LOINC, UCUM)",
+      "country": "United States"
+    },
+    "citation": {
+      "section": "2. Appendix C – “Federation and alignment with international sources” (p. 166) and Governance item (5), “International coordination” (p. 171)",
+      "lines": "#2",
+      "raw": "§2. Appendix C – “Federation and alignment with international sources” (p. 166) and Governance item (5), “International coordination” (p. 171) l.#2"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "Regenstrief Institute, LOINC's steward, is named alongside SNOMED International, SNOMED CT’s steward and WHO-FIC as an anchor body for federation and international coordination — the only place LOINC's governing organization is identified. This requirement is classed “Recommended,” not “Required,” and the text does not describe how synchronization with LOINC releases, or submission of national term requests to Regenstrief, would work in practice.",
+    "suggestedRevision": "Elevate federation/synchronization for the three core terminologies (ICD-11, SNOMED CT, LOINC) from Recommended to Required, consistent with how code system and value set versioning were elevated elsewhere in the same appendix. Add a short explanatory note describing LOINC's release cadence and Regenstrief's process for receiving national/local term submissions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 731"
+      }
+    ]
+  }
+}

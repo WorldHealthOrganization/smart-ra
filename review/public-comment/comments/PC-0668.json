@@ -1,0 +1,77 @@
+{
+  "id": "pc-0668",
+  "summary": "This comment covers the same change in several sections/text/illustrations:",
+  "comment": "This comment covers the same change in several sections/text/illustrations:\n\nEmphasize the use of WHO products throughout the full document so that references to the WHO standards precede references to non-WHO terminologies by the wording. This will enhance usability of guidance to all global users, obtaining equity by including LMICs. General suggestion for alteration: suggested alteration \"WHO-standards and terminologies like (WHO-FIC and ICD, ATC, ICD-O and more), with the addition of […]when relevant\"\n\nIdentified areas for adjustment:\n\n1. Section 3.6.2 – line 812-814: ; SNOMED CT (and SNOMED GPS), ICD-11 and LOINC for clinical terminology and classification\n\n2. Table in Product registry, Appendix C, just above line 502 by the box \" Relevant standards\". This table box needs som tidying, and misses mentioning that ICD cover more than clinical indications, and the mentioneing of ATC and ICHI \n\n3.  Section 4.5.2 - line 505-506:   …(for example to SNOMED CT/GPS, ICD-11 and LOINC)\n\n4. Figure 3.3 and 3.5) DHI-H Reference Architecture Integrated wiew, under interoperability and open standards, terminology. \n\n5. Figure 3.4.3 NHDD Framework: Content Structure, upper box.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0668",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 668,
+      "entry": "667",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-06fa6918a8",
+      "name": "Information Management and Methods Division",
+      "organisation": "The Norwegian Directorate of Health",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.2 and more",
+      "lines": "812-814 and more",
+      "raw": "§3.6.2 and more l.812-814 and more"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Figure 3.3 as cited"
+    },
+    "text": "This comment covers the same change in several sections/text/illustrations:\n\nEmphasize the use of WHO products throughout the full document so that references to the WHO standards precede references to non-WHO terminologies by the wording. This will enhance usability of guidance to all global users, obtaining equity by including LMICs. General suggestion for alteration: suggested alteration \"WHO-standards and terminologies like (WHO-FIC and ICD, ATC, ICD-O and more), with the addition of […]when relevant\"\n\nIdentified areas for adjustment:\n\n1. Section 3.6.2 – line 812-814: ; SNOMED CT (and SNOMED GPS), ICD-11 and LOINC for clinical terminology and classification\n\n2. Table in Product registry, Appendix C, just above line 502 by the box \" Relevant standards\". This table box needs som tidying, and misses mentioning that ICD cover more than clinical indications, and the mentioneing of ATC and ICHI \n\n3.  Section 4.5.2 - line 505-506:   …(for example to SNOMED CT/GPS, ICD-11 and LOINC)\n\n4. Figure 3.3 and 3.5) DHI-H Reference Architecture Integrated wiew, under interoperability and open standards, terminology. \n\n5. Figure 3.4.3 NHDD Framework: Content Structure, upper box.",
+    "suggestedRevision": "Refer to numbered bullet point above, and exchange text as followed:\n\n1. Suggested change:\n\"The architecture references, rather than reinvents, established and openly governed standards, among them HL7 FHIR for the exchange-oriented representation of health data; WHO reference classifications ICD, ICF and ICHI and ICD-O for clinical terminology and classification; additionally SNOMED CT (and SNOMED GPS), and LOINC [...]\"\n\n2. Suggest change: WHO-standards and terminologies like (WHO-FIC and ICD, ICHI, ICD-O and more), with the addition of SNOMED CT/GPS ), HL7 FHIR Medication and \nMedication […]when relevant\"\n\n3. Suggested change: Terminology and semantic specialists, who curate value sets, code systems, and mappings (for example  WHO-standards and terminologies like WHO-FIC and ICD, ATC, ICD-O and more, with the addition of SNOMED CT and LOINC when relevant) and operate the \nsemantic governance processes. \n\n4. Suggested change: \"(WHO-FIC and ICD, SNOMED CT, LOINC)\"\n\n5.Suggested change: \"Reference / Administrative Code Sets (e.g. WHO-FIC/ICD/ICF/ICHI, ATC, SNOMED CT, LOINC).",
+    "labels": {
+      "Stakeholder type": "Ministry of health or national health authority",
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 668"
+      }
+    ]
+  }
+}

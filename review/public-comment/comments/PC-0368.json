@@ -1,0 +1,79 @@
+{
+  "id": "pc-0368",
+  "summary": "We see the HMIS as having inherent properties of digital infrastructure, and thus this section has a major architectura…",
+  "comment": "We see the HMIS as having inherent properties of digital infrastructure, and thus this section has a major architectural omission: the two-layer model has no category for a shared public-health information and analytics platform. Foundational resources are restricted mainly to registries/LHR/terminology, while HMIS is placed downstream as a business application (data consumer). This misses infrastructure capabilities visible in mature DHIS2 deployments: an organisational hierarchy, metadata and indicator management, health workforce registries and user management, collection and triangulation of aggregate/event/Tracker data sets, analytics and GIS, data-quality and approval workflows, offline syncing, user notifications/messaging, and APIs. These core functions or registries may be derived, in some settings, from other registries (e.g. health facility registry), but in practice, these are often are built within and coalesce around the HMIS.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-1-4a32c0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0368",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 368,
+      "entry": "367",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.1",
+      "page": "24",
+      "lines": "29–61; Figure 2.1",
+      "caption": "Figure 2.1",
+      "raw": "§2.1 p.24 l.29–61; Figure 2.1"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-1-4a32c0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.24 l.29–61; Figure 2.1 read as the printed page; section 2.1 agrees"
+    },
+    "type": "general",
+    "text": "We see the HMIS as having inherent properties of digital infrastructure, and thus this section has a major architectural omission: the two-layer model has no category for a shared public-health information and analytics platform. Foundational resources are restricted mainly to registries/LHR/terminology, while HMIS is placed downstream as a business application (data consumer). This misses infrastructure capabilities visible in mature DHIS2 deployments: an organisational hierarchy, metadata and indicator management, health workforce registries and user management, collection and triangulation of aggregate/event/Tracker data sets, analytics and GIS, data-quality and approval workflows, offline syncing, user notifications/messaging, and APIs. These core functions or registries may be derived, in some settings, from other registries (e.g. health facility registry), but in practice, these are often are built within and coalesce around the HMIS.",
+    "suggestedRevision": "Add a cross-cutting ‘Public Health Information and Analytics Platform’ capability, or recognise that a nationally shared HMIS/RHIS can itself provide infrastructural capabilities. Show that it can host reusable metadata, harmonise aggregate and event/person data, support multiple programmes, provide decentralised analytics and expose governed APIs.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 368"
+      }
+    ]
+  }
+}

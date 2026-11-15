@@ -1,0 +1,77 @@
+{
+  "id": "pc-2476",
+  "summary": "Central ICD-11 terminology and classification pathway — The main correction presents ICD-11 as a primary clinical termi…",
+  "comment": "Central ICD-11 terminology and classification pathway — The main correction presents ICD-11 as a primary clinical terminology and statistical classification, with continuity into reporting. The legal paragraph incorporates reviewer A07.02 with corrected instruments and scope: WHO Constitution, Articles 2(s), 21(b), 22 and 64 (https://apps.who.int/gb/bd/pdf_files/BD_49th-en.pdf); WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf); WHA54.21 (https://apps.who.int/gb/ebwha/pdf_files/WHA54/ea54r21.pdf). It omits the unsupported 2023 amendment claim. Clinical capabilities: WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub) and WHO ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/). The supplied data-continuity discussion paper supports the design proposal but is not an adopted WHO position.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-2-1058d2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2476",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 19,
+      "entry": "18",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.6.2, Data and health content standards",
+      "page": "74",
+      "lines": "A07.01",
+      "raw": "§§3.6.2, Data and health content standards p.74 l.A07.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-2-1058d2",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-2-5eddcf",
+        "prose:3-6-2-e2053a"
+      ],
+      "note": "p.74 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Central ICD-11 terminology and classification pathway — The main correction presents ICD-11 as a primary clinical terminology and statistical classification, with continuity into reporting. The legal paragraph incorporates reviewer A07.02 with corrected instruments and scope: WHO Constitution, Articles 2(s), 21(b), 22 and 64 (https://apps.who.int/gb/bd/pdf_files/BD_49th-en.pdf); WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf); WHA54.21 (https://apps.who.int/gb/ebwha/pdf_files/WHA54/ea54r21.pdf). It omits the unsupported 2023 amendment claim. Clinical capabilities: WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub) and WHO ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/). The supplied data-continuity discussion paper supports the design proposal but is not an adopted WHO position.",
+    "suggestedRevision": "Replace one existing paragraph with all four proposed paragraphs, in this order: Health content standards supply the shared meaning and structure on which interoperability depends. The architecture distinguishes exchange and information-model standards from clinical terminology, statistical classification, measurement identifiers, and product identification. HL7 FHIR provides an exchange-oriented representation; ICD-11 provides both clinical terminology and statistical classification; ICF addresses functioning and disability; and ICHI addresses health interventions. SNOMED CT, LOINC, GS1 and IDMP-family identifiers, DICOM, IHE profiles, and specifications such as the International Patient Summary serve their respective purposes. These standards are selected and combined according to the information and functions required.\n\nICD-11 is a viable primary semantic standard for clinical information within its scope. It provides a Foundation of identified concepts, multilingual terminology, a statistical linearization for Mortality and Morbidity Statistics, and rules for adding detail through postcoordination. Systems may capture clinical information directly in ICD-11, exchange the identified concepts and valid expressions, and reuse that information for reporting under the applicable classification rules. Implementing this route does not depend on first recording or converting the information into SNOMED CT.\n\nThe original clinical statement, its precise identifiers and coded expression, and its context should remain available when a statistical category or other derived representation is produced. A statistical grouping is not a substitute for the more detailed source meaning. Additional standards remain necessary for data outside the selected terminology's scope and for such functions as laboratory measurement, units, medicinal-product identification, imaging, and exchange structure. Countries should publish their selected profiles and demonstrate semantic preservation through conformance tests.\n\nNational standards selection should distinguish clinical implementation choices from international statistical obligations. Articles 21(b) and 22 of the WHO Constitution provide for Health Assembly regulations on disease, cause-of-death and public-health nomenclatures, with entry into force subject to the prescribed rejection and reservation procedures. The WHO Nomenclature Regulations 1967 establish ICD-based mortality and morbidity statistics, annual cause-of-death statistics, medical certification and provision of statistics to WHO within their stated scope. WHA72.15 adopted ICD-11 with effect from 1 January 2022, subject to transitional arrangements that accommodate continued reporting with earlier revisions. Architecture should therefore preserve the applicable ICD statistical reporting pathway from clinical documentation and death certification through coding to reported results. ICF was endorsed by WHA54.21 for use as appropriate; ICHI addresses interventions within WHO's nomenclature mandate. These classifications have distinct roles and legal status. Their inclusion in WHO-FIC does not itself place all three under identical reporting obligations or require them in every clinical field.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 19"
+      }
+    ]
+  }
+}

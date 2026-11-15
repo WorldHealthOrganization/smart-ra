@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-064",
+  "title": "Clarify the shared data layer's scope and data responsibilities",
+  "requirements": "- Recognise that interoperability can be achieved through data-level integration as well as exchange topology\n- Subdivide the foundational shared data layer conceptually so its distinct data responsibilities are visible\n- Say the components form part of the technical foundation for progress toward REDDHI\n- Extend the modularity test to cover data coupling (data models, shared databases, documented dependencies)",
+  "refs": [
+    "PC-0539",
+    "PC-0542",
+    "PC-0815",
+    "PC-0958",
+    "PC-0959"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

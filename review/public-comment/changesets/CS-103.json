@@ -1,0 +1,28 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-103",
+  "title": "Define service levels and operational readiness for shared components",
+  "requirements": "- Replace unquantified 'high availability, low latency' with service classes\n- Point to a national mCSD or equivalent IG; define service classes with measurable availability\n- Define minimum service-management capabilities before production\n- Make minimum monitoring and error handling mandatory\n- Define offline fallback and justify differing availability grades (e.g. Supplier Registry)",
+  "refs": [
+    "PC-0004",
+    "PC-1306",
+    "PC-1519",
+    "PC-1521",
+    "PC-1523",
+    "PC-1524",
+    "PC-1602",
+    "PC-1614",
+    "PC-1878"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 9 comment(s)"
+    }
+  ]
+}

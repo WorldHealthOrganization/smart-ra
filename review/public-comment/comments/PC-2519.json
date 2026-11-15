@@ -1,0 +1,78 @@
+{
+  "id": "pc-2519",
+  "summary": "Direct ICD-11 use with distinct surveillance case rules — Extends the direct ICD-11 route to a major downstream user wh…",
+  "comment": "Direct ICD-11 use with distinct surveillance case rules — Extends the direct ICD-11 route to a major downstream user while avoiding the unsafe inference that a diagnosis code alone establishes a confirmed surveillance case. The draft already addresses WHO and IHR reporting later on the same page; those passages should be retained.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-4efad4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2519",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 62,
+      "entry": "61",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Public Health Surveillance Platform, §4",
+      "page": "222",
+      "lines": "A23.01",
+      "raw": "§Public Health Surveillance Platform, §4 p.222 l.A23.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-4efad4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-b1e9d9",
+        "prose:c-business-services-components-public-health-surveillance-platf-b5ec1d",
+        "prose:c-business-services-components-public-health-surveillance-platf-b9630a"
+      ],
+      "note": "p.222 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Direct ICD-11 use with distinct surveillance case rules — Extends the direct ICD-11 route to a major downstream user while avoiding the unsafe inference that a diagnosis code alone establishes a confirmed surveillance case. The draft already addresses WHO and IHR reporting later on the same page; those passages should be retained.",
+    "suggestedRevision": "Replace Terminology Service paragraph: The Terminology Service enables consistent interpretation of disease concepts, pathogen identifiers, clinical findings, and other coded inputs to surveillance. ICD-11-coded diagnoses and relevant postcoordinated detail may be consumed directly where they satisfy the surveillance use case, without a mandatory intermediate terminology conversion. The PHSP shall separately govern the case definition, evidence and laboratory requirements, time window, classification of suspected or confirmed cases, and reporting rules. Terminology updates shall trigger impact assessment; they shall not silently change a case definition or retrospectively reinterpret historical cases. Original clinical and laboratory evidence, coding releases, and derivation rules shall remain traceable.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 62"
+      }
+    ]
+  }
+}

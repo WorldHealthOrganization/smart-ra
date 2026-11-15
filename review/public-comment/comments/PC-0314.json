@@ -1,0 +1,86 @@
+{
+  "id": "pc-0314",
+  "summary": "Sustaining a high-performing digital public infrastructure requires continuous, long-term operational funding to preven…",
+  "comment": "Sustaining a high-performing digital public infrastructure requires continuous, long-term operational funding to prevent system drift. This funding is only politically and economically defensible if it is mathematically justified by the avoidance of high-cost clinical complications. Treating operational maintenance as an isolated IT cost center makes infrastructure vulnerable to budget cuts that trigger technical decay.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0314",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 314,
+      "entry": "313",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-319278460d",
+      "name": "Karim Keshavjee",
+      "organisation": "Institute for Health Policy, Management and Evaluation,\nDalla Lana School of Public Health,\nUniversity of Toronto",
+      "country": "Canada",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 5",
+      "lines": "Sustainability & Business Case",
+      "raw": "§Chapter 5 l.Sustainability & Business Case"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6-1",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [
+        "chap:ch5-future-proofing-the-architecture"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 5 but is about the investment/business case for recurrent funding, in 4.6.1"
+    },
+    "type": "general",
+    "text": "Sustaining a high-performing digital public infrastructure requires continuous, long-term operational funding to prevent system drift. This funding is only politically and economically defensible if it is mathematically justified by the avoidance of high-cost clinical complications. Treating operational maintenance as an isolated IT cost center makes infrastructure vulnerable to budget cuts that trigger technical decay.",
+    "suggestedRevision": "Add to investment case guidance: “Guidelines should instruct member states to explicitly link recurring operational IT maintenance budgets to the clinical-economic savings realized through coordinated chronic disease management. Rather than treating maintenance as an isolated IT expense, the operational business case should demonstrate how closed clinical loops prevent high-cost disease endpoints—such as avoiding costly dialysis regimens through early-stage glycemic and blood pressure control.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 314"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 5 but is about the investment/business case for recurrent funding, in 4.6.1"
+      }
+    ]
+  }
+}

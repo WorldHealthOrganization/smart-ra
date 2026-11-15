@@ -1,0 +1,73 @@
+{
+  "id": "pc-2648",
+  "summary": "It would be helpful to mention that IHE has already profiled some eHealth use cases using the FHIR standard. Including …",
+  "comment": "It would be helpful to mention that IHE has already profiled some eHealth use cases using the FHIR standard. Including this information in this chapter would make readers aware that some use cases have already been defined in terms of services and transactions, which they may be able to leverage or build upon.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:4-3-3-a5243c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2648",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 26,
+      "entry": "16",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3 Profiles and Specifications for Implementation",
+      "page": "96",
+      "lines": "330",
+      "raw": "§4.3 Profiles and Specifications for Implementation p.96 l.330"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-3-a5243c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96 l.330 read as the printed page; section 4.3 agrees"
+    },
+    "type": "technical",
+    "text": "It would be helpful to mention that IHE has already profiled some eHealth use cases using the FHIR standard. Including this information in this chapter would make readers aware that some use cases have already been defined in terms of services and transactions, which they may be able to leverage or build upon.",
+    "suggestedRevision": "In the end of the current paragraph add: \"A number of widely-used digital health use-cases are profiled by IHE using the FHIR standard and RESTful APIs. Those profiles constrain FHIR in a way so that the workflows of the use-case can be optimally fulfilled by technical systems and sustainability is maximized (search parameters, content, response, …)1\"\n\nAdd as footnote: 1 See FHIR Implementation Guide Registry (select “authority” as IHE): https://www.fhir.org/guides/registry",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 26"
+      }
+    ]
+  }
+}

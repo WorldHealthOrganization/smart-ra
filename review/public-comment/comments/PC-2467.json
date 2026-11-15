@@ -1,0 +1,74 @@
+{
+  "id": "pc-2467",
+  "summary": "WHO-FIC glossary definition — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Re…",
+  "comment": "WHO-FIC glossary definition — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Readers need the modern architecture of ICD-11 before interpreting later lists. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub), ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:glossary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2467",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 10,
+      "entry": "9",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "2",
+      "lines": "A01.08",
+      "raw": "§Glossary p.2 l.A01.08"
+    },
+    "anchor": {
+      "targetLabel": "sec:glossary-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Glossary\""
+    },
+    "text": "WHO-FIC glossary definition — The glossary explains SNOMED CT and GPS but gives no comparable explanation of ICD-11. Readers need the modern architecture of ICD-11 before interpreting later lists. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO clinical documentation hub (https://www.who.int/standards/classifications/clinician-documentation-hub), ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/).",
+    "suggestedRevision": "Insert glossary entry: WHO Family of International Classifications (WHO-FIC): WHO's family of related health classifications, including ICD for diseases and related health problems, ICF for functioning and disability, and ICHI for health interventions. Their roles, implementation specifications, release status, and applicable governance are identified separately for each use case.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0709",
+  "summary": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made…",
+  "comment": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made. Current artefact standards allow too many degrees of freedom: the same clinical concept can be modelled in many valid but incompatible ways, so two fully conformant implementations may still diverge semantically. A related, unnamed risk is the boundary problem: qualifiers, modifiers and localisations can be expressed in either the terminology or the information model, and this overlap breeds divergence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-logical-information-model-reposi",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0709",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 709,
+      "entry": "708",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 3, §3.4.5 (SGI); Ch. 4, §4.3.1–4.3.3 (Data models first); Logical Information Model Repository (App. C)",
+      "raw": "§Ch. 3, §3.4.5 (SGI); Ch. 4, §4.3.1–4.3.3 (Data models first); Logical Information Model Repository (App. C)"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-logical-information-model-reposi",
+      "method": "section",
+      "confidence": "low",
+      "candidates": [
+        "sec:3-4-5",
+        "sec:4-3-1",
+        "sec:d-1-terminology-service-and-logical"
+      ],
+      "note": "section named \"Logical Information Model Repository\""
+    },
+    "text": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made. Current artefact standards allow too many degrees of freedom: the same clinical concept can be modelled in many valid but incompatible ways, so two fully conformant implementations may still diverge semantically. A related, unnamed risk is the boundary problem: qualifiers, modifiers and localisations can be expressed in either the terminology or the information model, and this overlap breeds divergence.",
+    "suggestedRevision": "Require (in §3.4.5 and App. C) that artefacts in the LIMR be produced with a declared, uniform modelling method — one generic semantic pattern from which artefacts are derived by specialisation, with mandatory context (what, where, when, who, how, why) at capture — and test that meaning survives its application. The emerging CEN/ISO 13606 part 3 (SIAMM) work is one standards-track candidate; the requirement itself should remain method-neutral, preserving the draft's neutrality between modelling schools. Explicitly name — and assign governance responsibility for — the boundary problem between coding systems and information models.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Comment type": "#10"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 709"
+      }
+    ]
+  }
+}

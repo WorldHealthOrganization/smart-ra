@@ -1,0 +1,80 @@
+{
+  "id": "pc-0515",
+  "summary": "The navigable model is described as the authoritative source for element-level detail and Phase 4 requires continuous e…",
+  "comment": "The navigable model is described as the authoritative source for element-level detail and Phase 4 requires continuous evolution of the architecture, but the guidance does not specify how the model is reconciled with the components and interfaces actually deployed. Without an explicit reconciliation process, coverage and conformance measures may be calculated against an increasingly outdated representation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-2-00e672",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0515",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 515,
+      "entry": "514",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.2 / 4.2.2 (Phase 4) / 4.2.4",
+      "page": "46-47 and 92-94",
+      "lines": "Lines 94-103, 185-196 and 230-245",
+      "raw": "§3.2 / 4.2.2 (Phase 4) / 4.2.4 p.46-47 and 92-94 l.Lines 94-103, 185-196 and 230-245"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-2-00e672",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-2-b8d99b"
+      ],
+      "note": "p.46-47 and 92-94 l.Lines 94-103, 185-196 and 230-245 read as the printed page; section 3.2 agrees"
+    },
+    "type": "technical",
+    "text": "The navigable model is described as the authoritative source for element-level detail and Phase 4 requires continuous evolution of the architecture, but the guidance does not specify how the model is reconciled with the components and interfaces actually deployed. Without an explicit reconciliation process, coverage and conformance measures may be calculated against an increasingly outdated representation.",
+    "suggestedRevision": "Require an as-built reconciliation and approval step for each material deployment or change, define the operational architecture repository as the source for progress measures, and assign an owner and review cadence. The national digital architect should be accountable for ensuring that discrepancies are resolved or formally recorded.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 515"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-269",
+  "title": "Define common patterns for identifiers, provenance, versions and validity",
+  "requirements": "- Require assigning authority, type, status, period and provenance for every identifier\n- Define cross-component patterns for identifiers, provenance, lifecycle status and effective periods\n- Add source authority, effective period, verification status, reason for change and supersession\n- Define identifier format, namespace and resolver\n- Define assurance levels across foundational ID, CRVS, biometrics and local evidence, and their appropriate uses\n- Cover source inventory, temporary crosswalks, canonical identifier assignment and duplicate resolution\n- Define creation, correction, merger, retirement, non-reuse and historical resolution\n- Apply versioning, validity and integrity requirements to all governed artefacts and registry records",
+  "refs": [
+    "PC-0069",
+    "PC-0306",
+    "PC-0415",
+    "PC-0965",
+    "PC-0966",
+    "PC-1214",
+    "PC-1216",
+    "PC-1467",
+    "PC-1468",
+    "PC-1505",
+    "PC-1540",
+    "PC-1572",
+    "PC-1583",
+    "PC-1589",
+    "PC-1595",
+    "PC-1616",
+    "PC-1654",
+    "PC-1727",
+    "PC-1751"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 19 comment(s)"
+    }
+  ]
+}

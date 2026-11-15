@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-144",
+  "title": "Preserve history in Client Registry record lifecycle and notifications",
+  "requirements": "- State that merging creates one active reference while preserving source records, identifiers and provenance\n- Specify verification, effective dates, provenance and conflict handling for propagated demographic updates\n- Make availability of new records depend on verification status, subscription, purpose and minimum data\n- Make unlink/merge reversal (or an equivalent corrective process) mandatory\n- Define deactivation, suppression and deletion separately, with retention and audit rules\n- Specify event types, payload, delivery, authorisation and handling of reversals\n- Require an accessible individual review and correction pathway with protection while disputes are pending",
+  "refs": [
+    "PC-1495",
+    "PC-1500",
+    "PC-1501",
+    "PC-1507",
+    "PC-1510",
+    "PC-1522",
+    "PC-1546"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

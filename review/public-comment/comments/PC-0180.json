@@ -1,0 +1,82 @@
+{
+  "id": "pc-0180",
+  "summary": "This draft provides a comprehensive and valuable global reference architecture for digital public infrastructure for he…",
+  "comment": "This draft provides a comprehensive and valuable global reference architecture for digital public infrastructure for health (DPI-H). However, overlapping content can be observed between the governance module and the data governance module in the current text. Without clear guidance on streamlining duplicated content, implementing practitioners may face confusion and reduced operational efficiency during national-level localization and deployment. Adding targeted reminders for content simplification will significantly improve the practical usability of the guidance for global implementers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-474cc6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0180",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 180,
+      "entry": "179",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f9ffd69fd",
+      "name": "Li Jianping",
+      "organisation": "Research Office of Guoxue Studies, Heluo Culture Research Institute, Harbin Normal University",
+      "country": "China",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "68",
+      "lines": "Exact line numbers to be confirmed from full-review-version PDF",
+      "raw": "§3.4.5 p.68 l.Exact line numbers to be confirmed from full-review-version PDF"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-474cc6",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-f2a242",
+        "prose:3-4-5-aef916"
+      ],
+      "note": "p.68 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "This draft provides a comprehensive and valuable global reference architecture for digital public infrastructure for health (DPI-H). However, overlapping content can be observed between the governance module and the data governance module in the current text. Without clear guidance on streamlining duplicated content, implementing practitioners may face confusion and reduced operational efficiency during national-level localization and deployment. Adding targeted reminders for content simplification will significantly improve the practical usability of the guidance for global implementers.",
+    "suggestedRevision": "Add the following text to the implementation guidance section:\n“During national localization and deployment, implementers are encouraged to identify and streamline overlapping content between the governance module and the data governance module, to reduce redundant work and improve operational efficiency.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 180"
+      }
+    ]
+  }
+}

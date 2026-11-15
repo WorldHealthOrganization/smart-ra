@@ -1,0 +1,73 @@
+{
+  "id": "pc-2664",
+  "summary": "The current three-component classification understates the architectural capabilities illustrated by the Spanish exampl…",
+  "comment": "The current three-component classification understates the architectural capabilities illustrated by the Spanish example. Spain provides a relevant example of a shared identity layer through BDPP-SNS/CIP-SNS; federated clinical-document exchange through HCDSNS; interoperable electronic prescription and dispensation; common semantic/modelling services; and connection to European cross-border services. Reflecting these capabilities would make the case study substantially more useful to implementers because it demonstrates how several foundational and health-specific DPI components can coexist in a decentralised national health system.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:d-2-spain-ff27c0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2664",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 42,
+      "entry": "32",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D: Country implementation examples",
+      "page": "233",
+      "lines": "153",
+      "raw": "§Appendix D: Country implementation examples p.233 l.153"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-spain-ff27c0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.233 l.153 read as the printed page; section D agrees"
+    },
+    "type": "technical",
+    "text": "The current three-component classification understates the architectural capabilities illustrated by the Spanish example. Spain provides a relevant example of a shared identity layer through BDPP-SNS/CIP-SNS; federated clinical-document exchange through HCDSNS; interoperable electronic prescription and dispensation; common semantic/modelling services; and connection to European cross-border services. Reflecting these capabilities would make the case study substantially more useful to implementers because it demonstrates how several foundational and health-specific DPI components can coexist in a decentralised national health system.",
+    "suggestedRevision": "Replace with: “Components illustrated: Client Registry / shared identity services; LHR and federated clinical-data exchange; ePrescription/eDispensation interoperability; HMIS and health-information services; LIMR / terminology and semantic services; cross-border health-data exchange.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 42"
+      }
+    ]
+  }
+}

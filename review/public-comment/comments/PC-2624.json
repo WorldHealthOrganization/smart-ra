@@ -1,0 +1,75 @@
+{
+  "id": "pc-2624",
+  "summary": "this would be multistakeholder and multisectoral, since health workforce is a multisectoral issue, requiring the involv…",
+  "comment": "this would be multistakeholder and multisectoral, since health workforce is a multisectoral issue, requiring the involvement of MOH, Labour, Finance, Education, national statistical office, licensing bodies, education bodies, professional associations, etc.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-ec36f4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2624",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 103,
+      "entry": "102",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-204787cd1e",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-ec36f4",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Multistakeholder, multisectoral governance (MoH, labour, education, ...); HWF governance box."
+    },
+    "text": "this would be multistakeholder and multisectoral, since health workforce is a multisectoral issue, requiring the involvement of MOH, Labour, Finance, Education, national statistical office, licensing bodies, education bodies, professional associations, etc.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 103"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Multistakeholder, multisectoral governance (MoH, labour, education, ...); HWF governance box."
+      }
+    ]
+  }
+}

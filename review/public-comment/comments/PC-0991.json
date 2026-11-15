@@ -1,0 +1,77 @@
+{
+  "id": "pc-0991",
+  "summary": "The section appropriately presents interoperability as a property of the architecture, but the phrase “no single system…",
+  "comment": "The section appropriately presents interoperability as a property of the architecture, but the phrase “no single system can hold all of this, and none should attempt to” is too absolute. Some national or institutional platforms may legitimately consolidate broad datasets while remaining interoperable and well governed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-00d8ed",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0991",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 227,
+      "entry": "226",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6",
+      "page": "71-72",
+      "lines": "Lines 722-742",
+      "raw": "§3.6 p.71-72 l.Lines 722-742"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-00d8ed",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.71-72 l.Lines 722-742 read as the printed page; section 3.6 agrees"
+    },
+    "text": "The section appropriately presents interoperability as a property of the architecture, but the phrase “no single system can hold all of this, and none should attempt to” is too absolute. Some national or institutional platforms may legitimately consolidate broad datasets while remaining interoperable and well governed.",
+    "suggestedRevision": "Qualify the statement: “No single system should be assumed to hold or control all relevant health information. Countries may consolidate selected datasets where justified, while preserving interoperability, proportionality, data rights, resilience, and clear governance.”",
+    "labels": {
+      "Comment type": "Q8 - Interoperability and semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 227"
+      }
+    ]
+  }
+}

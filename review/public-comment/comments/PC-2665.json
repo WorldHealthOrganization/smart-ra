@@ -1,0 +1,73 @@
+{
+  "id": "pc-2665",
+  "summary": "The current case study is broadly positive but should be corrected and expanded to describe the architecture accurately…",
+  "comment": "The current case study is broadly positive but should be corrected and expanded to describe the architecture accurately. \n\n1) “SOMSNS” should be corrected to the official name somSNS - Servidor de Objetos de Modelado del Sistema Nacional de Salud. \n\n2) HCDSNS does not itself represent the entirety of the Spanish health-information system; multiple purpose-specific clinical, administrative, registry and statistical information systems contribute to SNS information and monitoring. \n\n3) the case currently omits foundational capabilities that are especially relevant to DPI-H, including BDPP-SNS/CIP-SNS person identification and interoperable electronic prescription. \n\n4) the phrase “regional autonomy over data governance” should reflect the common legal and co-governance framework: Autonomous Community stewardship coexists with national coordination and interoperability agreements. \n\n5) describing the architecture merely as exchange across “seventeen autonomous communities” does not fully reflect SNS-wide arrangements, which also encompass the relevant health administration for Ceuta and Melilla (which have a separate healthcare service called INGESA).",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:d-2-spain-1f3e8b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2665",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 43,
+      "entry": "33",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D: Country implementation examples",
+      "page": "233",
+      "lines": "154-160",
+      "raw": "§Appendix D: Country implementation examples p.233 l.154-160"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-spain-1f3e8b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.233 l.154-160 read as the printed page; section D agrees"
+    },
+    "type": "technical",
+    "text": "The current case study is broadly positive but should be corrected and expanded to describe the architecture accurately. \n\n1) “SOMSNS” should be corrected to the official name somSNS - Servidor de Objetos de Modelado del Sistema Nacional de Salud. \n\n2) HCDSNS does not itself represent the entirety of the Spanish health-information system; multiple purpose-specific clinical, administrative, registry and statistical information systems contribute to SNS information and monitoring. \n\n3) the case currently omits foundational capabilities that are especially relevant to DPI-H, including BDPP-SNS/CIP-SNS person identification and interoperable electronic prescription. \n\n4) the phrase “regional autonomy over data governance” should reflect the common legal and co-governance framework: Autonomous Community stewardship coexists with national coordination and interoperability agreements. \n\n5) describing the architecture merely as exchange across “seventeen autonomous communities” does not fully reflect SNS-wide arrangements, which also encompass the relevant health administration for Ceuta and Melilla (which have a separate healthcare service called INGESA).",
+    "suggestedRevision": "Replace with: “Spain operates a federated, multi-level digital-health architecture across the National Health System (SNS). The Historia Clínica Digital del SNS (HCDSNS) enables citizens and authorised health professionals to access interoperable clinical documents irrespective of the SNS health service in which they were generated, while source personal health data remain in the databases of the Autonomous Communities and INGESA (regional healthcare authority of the cities of Ceuta and Melilla). Shared SNS infrastructure also includes the Protected Population Database and Individual Health Card services, with the unique CIP-SNS linking regional person identifiers; interoperable electronic prescription and dispensation across the SNS; and common semantic resources, including terminology services and somSNS (Servidor de Objetos de Modelado del Sistema Nacional de Salud). National interoperability is governed cooperatively by the Ministry of Health and the Autonomous Communities through the Interterritorial Council and its Digital Health Commission. The SNS health-information environment draws on multiple governed clinical, administrative, registry and statistical sources rather than constituting a single federated dataset. Spain therefore illustrates how common national interoperability services, standards and co-governance can coexist with distributed source systems and subnational stewardship.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 43"
+      }
+    ]
+  }
+}

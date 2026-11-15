@@ -1,0 +1,78 @@
+{
+  "id": "pc-2497",
+  "summary": "Source-specific content and software licences — A managed service cannot grant rights absent from the applicable terms.…",
+  "comment": "Source-specific content and software licences — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2497",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 40,
+      "entry": "39",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §3",
+      "page": "166",
+      "lines": "A18.02",
+      "raw": "§Terminology Service, §3 p.166 l.A18.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-13a304",
+        "prose:c-metadata-registries-and-foundati-terminology-service-638c02",
+        "prose:c-metadata-registries-and-foundati-terminology-service-ee8e2f"
+      ],
+      "note": "p.166 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Source-specific content and software licences — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+    "suggestedRevision": "Replace bullet: – Licensing management. Record and implement the applicable terms for all managed content and software, including attribution, permitted uses, access, redistribution, modifications, translations, and mappings. Maintain a clear distinction between the licence for a terminology or classification and the licence for the software that exposes it. Do not assume that a single institutional access point confers rights on every consumer.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 40"
+      }
+    ]
+  }
+}

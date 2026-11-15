@@ -1,0 +1,721 @@
+{
+  "$schema": "folio-transcript/v1",
+  "lang": "en",
+  "recording_sha256": "5cdd6c09ef690a0f516f4277fefdb000fee849292ff04ca6ef7d8c85116cabb3",
+  "recogniser": {
+    "tool": "transcribe-whisper-cpp",
+    "version": "231638a0717b7822784297e5980965ffcec05810",
+    "model": "ggml-base.bin",
+    "model_sha256": "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
+    "invocation": "ffmpeg -i uploads/output.mp4 -vn -ac 1 -ar 16000 -c:a pcm_s16le output.wav && ./build/bin/whisper-cli -m models/ggml-base.bin -f output.wav -oj -of output.whisper-base"
+  },
+  "state": "confirmed",
+  "drafted_by": {
+    "kind": "script",
+    "id": "transcribe-whisper-cpp",
+    "version": "231638a0717b7822784297e5980965ffcec05810"
+  },
+  "drafted_at": "2026-10-24",
+  "confirmed_by": {
+    "kind": "human",
+    "id": "litlfred"
+  },
+  "confirmed_at": "2026-10-30T19:39:44Z",
+  "segments": [
+    {
+      "start_ms": 0,
+      "end_ms": 9880,
+      "text": "Hi, this is Carl Leitner. I'm acting as a business analyst going through a collaborative"
+    },
+    {
+      "start_ms": 9880,
+      "end_ms": 17640,
+      "text": "requirements development methodology or CRDM with my colleague who will introduce themselves."
+    },
+    {
+      "start_ms": 17640,
+      "end_ms": 27120,
+      "text": "We are looking at developing and iterating on a feature for doing public comment review"
+    },
+    {
+      "start_ms": 27120,
+      "end_ms": 34880,
+      "text": "of a document where we had 3000 comments come in. We've had some initial features developed"
+    },
+    {
+      "start_ms": 34880,
+      "end_ms": 41460,
+      "text": "and now we're going to do a walkthrough with my colleague and want to correct some or capture"
+    },
+    {
+      "start_ms": 41460,
+      "end_ms": 47680,
+      "text": "features and requests and other things that could improve the workflow. She is serving"
+    },
+    {
+      "start_ms": 47680,
+      "end_ms": 53920,
+      "text": "as the chief editor for the reference architecture. Over to you. Do you want to introduce yourself?"
+    },
+    {
+      "start_ms": 53920,
+      "end_ms": 61100,
+      "text": "I'm [the chief editor]. I'm serving as a chief editor for the reference architecture document."
+    },
+    {
+      "start_ms": 61100,
+      "end_ms": 67240,
+      "text": "Like Carl mentioned, we have over 3000 comments and we want to be able to define the requirements"
+    },
+    {
+      "start_ms": 67240,
+      "end_ms": 75640,
+      "text": "to enable us review those comments as part of the technical working group and categorize"
+    },
+    {
+      "start_ms": 75640,
+      "end_ms": 83720,
+      "text": "the comments so that we can also have different sub-working group members look at the comments"
+    },
+    {
+      "start_ms": 83720,
+      "end_ms": 92560,
+      "text": "that pertain to that particular domain. Great. I'm putting in the chat a link to the we're"
+    },
+    {
+      "start_ms": 92560,
+      "end_ms": 98880,
+      "text": "going to be looking at. I don't know, does this also record video or not? That would be"
+    },
+    {
+      "start_ms": 98880,
+      "end_ms": 114920,
+      "text": "close. Sorry, I think I recorded the wrong thing. What did I want to share? I think this... Okay, so this is the current staging"
+    },
+    {
+      "start_ms": 114920,
+      "end_ms": 120760,
+      "text": "branch that we have for the reviewing the public comments on the reference architecture."
+    },
+    {
+      "start_ms": 120760,
+      "end_ms": 128280,
+      "text": "You can see that there's 2600 comments of which 2629 are open. I don't know why some"
+    },
+    {
+      "start_ms": 128280,
+      "end_ms": 136580,
+      "text": "are closed. That's interesting because I didn't ask them to be closed. The way that what's"
+    },
+    {
+      "start_ms": 136580,
+      "end_ms": 145840,
+      "text": "happened is all of these 2600 comments got grouped into change sets and you can see change"
+    },
+    {
+      "start_ms": 145840,
+      "end_ms": 156600,
+      "text": "sets here. These change sets are, for example, CS 001 as 14 comments that are in it. It has"
+    },
+    {
+      "start_ms": 156600,
+      "end_ms": 162620,
+      "text": "grouped all of those 14 comments to a comment set of requirements, complete sentences, define"
+    },
+    {
+      "start_ms": 162620,
+      "end_ms": 171160,
+      "text": "DPI-F at first use, simplify the flag wording. You can also go to the specific comments for that"
+    },
+    {
+      "start_ms": 171160,
+      "end_ms": 180040,
+      "text": "change set and see, you can expand to see who actually provided the comment and the details"
+    },
+    {
+      "start_ms": 180040,
+      "end_ms": 186600,
+      "text": "behind that comment. Whether decision has been made yet on that comment, the committee or who's"
+    },
+    {
+      "start_ms": 186600,
+      "end_ms": 193720,
+      "text": "actually reviewing that comment. We need to figure that out a little bit. You can also see the links"
+    },
+    {
+      "start_ms": 193720,
+      "end_ms": 202600,
+      "text": "in the document itself to see all the comments that are related to that section or that area of the"
+    },
+    {
+      "start_ms": 202600,
+      "end_ms": 211160,
+      "text": "comments. That's why I wanted to share with you. One last thing is if you're now in a comment set,"
+    },
+    {
+      "start_ms": 213960,
+      "end_ms": 220040,
+      "text": "what you can do, let's say we're looking at CS 164. There's a discuss link. What this can do"
+    },
+    {
+      "start_ms": 220040,
+      "end_ms": 227160,
+      "text": "is let's say we're in a working group call and we say, oh, we're in the product registry working"
+    },
+    {
+      "start_ms": 227160,
+      "end_ms": 235080,
+      "text": "group call with Saroop or somebody. We want to look at these changes and then we go into a"
+    },
+    {
+      "start_ms": 235080,
+      "end_ms": 241560,
+      "text": "discussion mode. This automatically creates an issue or sets up an issue that we can create and"
+    },
+    {
+      "start_ms": 241560,
+      "end_ms": 248200,
+      "text": "then provide comments during the discussion and keep notes, put attachments there and whoever"
+    },
+    {
+      "start_ms": 248200,
+      "end_ms": 258600,
+      "text": "has a GitHub account can contribute to that change set. Once that's created, then you can then,"
+    },
+    {
+      "start_ms": 258600,
+      "end_ms": 265320,
+      "text": "for example, assign a copilot or an agent to create a pull request that will go through and"
+    },
+    {
+      "start_ms": 265320,
+      "end_ms": 270920,
+      "text": "implement the changes that get approved through the discussion. That was the general workflow"
+    },
+    {
+      "start_ms": 272520,
+      "end_ms": 284680,
+      "text": "and dashboard that was a straw person for you to react to. Okay, great. I think it works fine"
+    },
+    {
+      "start_ms": 284680,
+      "end_ms": 290760,
+      "text": "in terms of the workflow, but there are a couple of additional things that I think I just wanted"
+    },
+    {
+      "start_ms": 290760,
+      "end_ms": 302280,
+      "text": "to clarify in terms of how it's categorized in the comments. One of the things that I'm concerned"
+    },
+    {
+      "start_ms": 302280,
+      "end_ms": 310040,
+      "text": "that it does is that there's consistency in the way it goes through the categorization of these"
+    },
+    {
+      "start_ms": 310040,
+      "end_ms": 321880,
+      "text": "comments. I have a couple of categories for which these comments need to be grouped under"
+    },
+    {
+      "start_ms": 322760,
+      "end_ms": 330280,
+      "text": "beyond the, you know, whether they're apart from, you know, talking about them in terms of"
+    },
+    {
+      "start_ms": 330280,
+      "end_ms": 337240,
+      "text": "the bundles and the areas that they're covering. So, for example, you have the ones that relate"
+    },
+    {
+      "start_ms": 337240,
+      "end_ms": 343880,
+      "text": "to applying editorial clarity revision to the summary. I would like that to go to an editorial"
+    },
+    {
+      "start_ms": 343880,
+      "end_ms": 351320,
+      "text": "category. Then I would, there are a couple of them that, a couple of the comments that relate more"
+    },
+    {
+      "start_ms": 351320,
+      "end_ms": 359160,
+      "text": "to things like, for example, supply chain. And I would like those comments also to be categorized"
+    },
+    {
+      "start_ms": 359160,
+      "end_ms": 369800,
+      "text": "on the supply chain. So, in reality, beyond the editorial comments, whether a review or not"
+    },
+    {
+      "start_ms": 369800,
+      "end_ms": 377320,
+      "text": "is needed, I would also like an additional set of categories that go towards core architects,"
+    },
+    {
+      "start_ms": 377960,
+      "end_ms": 386680,
+      "text": "the metadata registries group, supply chain, financial systems, clinical, and then WHO in general."
+    },
+    {
+      "start_ms": 388280,
+      "end_ms": 394200,
+      "text": "And, of course, editorial changes, like I mentioned earlier. So, those are one of the, some of the"
+    },
+    {
+      "start_ms": 394200,
+      "end_ms": 402120,
+      "text": "the first categorization that I would also like beyond grouping them into similar themes"
+    },
+    {
+      "start_ms": 403080,
+      "end_ms": 408440,
+      "text": "that, you know, you've already done in terms of this current categorization."
+    },
+    {
+      "start_ms": 409640,
+      "end_ms": 418040,
+      "text": "Okay, thanks. And to help clarify, so you would want, so you like the change sets as an approach"
+    },
+    {
+      "start_ms": 418040,
+      "end_ms": 424040,
+      "text": "that may be different tags on top of the change set for different axes related to, you know,"
+    },
+    {
+      "start_ms": 424040,
+      "end_ms": 432120,
+      "text": "for example, is it an editorial type of change or is it a specific content type of change?"
+    },
+    {
+      "start_ms": 432120,
+      "end_ms": 440120,
+      "text": "Yes. Okay. And I see that there's looking at the screen in the demo. There is already a type that"
+    },
+    {
+      "start_ms": 440120,
+      "end_ms": 446360,
+      "text": "has a drop down editorial, generic, general, and technical, which seems to be working, but before,"
+    },
+    {
+      "start_ms": 446360,
+      "end_ms": 453800,
+      "text": "but doesn't work now, or those are those the categories you want or. So, I think editorial"
+    },
+    {
+      "start_ms": 453800,
+      "end_ms": 461800,
+      "text": "absolutely fine. It's really between the general and the technical. The technical, especially,"
+    },
+    {
+      "start_ms": 462440,
+      "end_ms": 469640,
+      "text": "are the ones that would need specific categorization into whether it's the metadata registry,"
+    },
+    {
+      "start_ms": 469640,
+      "end_ms": 477240,
+      "text": "supply chain financial systems, or clinical, or core architects. General, we can leave us general"
+    },
+    {
+      "start_ms": 477240,
+      "end_ms": 485880,
+      "text": "and that can be reviewed by the editorial team in terms of WHO. Okay. So, I guess there's a"
+    },
+    {
+      "start_ms": 485880,
+      "end_ms": 491000,
+      "text": "couple of ways that we could break down the technical. One could be by working group committee that"
+    },
+    {
+      "start_ms": 491000,
+      "end_ms": 500440,
+      "text": "is focused on that area, and that could be aligned to when we looked at the actual comments. Okay."
+    },
+    {
+      "start_ms": 500440,
+      "end_ms": 507480,
+      "text": "There was a committee associated with the comments. Yes. Yes. So, if we said, oh, well, a change"
+    },
+    {
+      "start_ms": 507480,
+      "end_ms": 513160,
+      "text": "set is two or three more comments, and that comment is associated, or those two or three comments"
+    },
+    {
+      "start_ms": 513160,
+      "end_ms": 518520,
+      "text": "could be associated to, you know, one to two committees, but at least we could roll that information"
+    },
+    {
+      "start_ms": 518520,
+      "end_ms": 526840,
+      "text": "back up to the back things don't work. Then we could at least roll it back up and you could search"
+    },
+    {
+      "start_ms": 526840,
+      "end_ms": 532360,
+      "text": "at the top for chain sets that are editorial within this committee. And that would be. Okay."
+    },
+    {
+      "start_ms": 533080,
+      "end_ms": 538120,
+      "text": "That will work, absolutely. So, there's another axis, though, which is the reference"
+    },
+    {
+      "start_ms": 538120,
+      "end_ms": 543320,
+      "text": "architecture itself. And like, is it on a metadata component? Is it on a business domain"
+    },
+    {
+      "start_ms": 543320,
+      "end_ms": 549400,
+      "text": "component? Which one of those? We could do that. I think that's probably more than that's needed"
+    },
+    {
+      "start_ms": 549400,
+      "end_ms": 556520,
+      "text": "right now. Okay. I think that could be wrong. I mean, I'm asking. Yeah. I think if we start with"
+    },
+    {
+      "start_ms": 556520,
+      "end_ms": 562440,
+      "text": "what we have first, and then we'll see whether we go to that level of depth. I will trial this"
+    },
+    {
+      "start_ms": 562440,
+      "end_ms": 568200,
+      "text": "out with, or at least I'll show this to the core architect group tomorrow, and we can start seeing"
+    },
+    {
+      "start_ms": 568200,
+      "end_ms": 576120,
+      "text": "and testing whether it actually is able to work as a workflow process for us to go through this"
+    },
+    {
+      "start_ms": 576120,
+      "end_ms": 581880,
+      "text": "with the other domain groups. The other thing I wanted to also mention is because there's"
+    },
+    {
+      "start_ms": 581880,
+      "end_ms": 588520,
+      "text": "from the spreadsheet that I shared with you, I still have additional comments that have come"
+    },
+    {
+      "start_ms": 588520,
+      "end_ms": 593880,
+      "text": "through, though, are not part of that first consolidation. Okay. So there's another requirement"
+    },
+    {
+      "start_ms": 593880,
+      "end_ms": 600120,
+      "text": "around ingesting new comments. So, for example, we have the GDHP comments. Actually, to share the"
+    },
+    {
+      "start_ms": 600120,
+      "end_ms": 604600,
+      "text": "couple of ones that went into the reference architecture, I think it went to the reference architecture."
+    },
+    {
+      "start_ms": 605960,
+      "end_ms": 613080,
+      "text": "Sorry, it went to the smart email mailbox. Yeah. And some of them might not have been rooted"
+    },
+    {
+      "start_ms": 613080,
+      "end_ms": 618600,
+      "text": "properly to the mailbox that I, the sub mailbox that I created. So I'll have to look at those"
+    },
+    {
+      "start_ms": 618600,
+      "end_ms": 624840,
+      "text": "and see which ones have not already been captured. So there's also ingestion of new comments that I"
+    },
+    {
+      "start_ms": 624840,
+      "end_ms": 633240,
+      "text": "would, that's a requirement for this. So that's when we have new comments, we can also ingest into"
+    },
+    {
+      "start_ms": 633240,
+      "end_ms": 640120,
+      "text": "this workflow. Okay. No, that's good to know. And there's a couple of possibilities here. One is that"
+    },
+    {
+      "start_ms": 640120,
+      "end_ms": 647080,
+      "text": "you pre-resolve and take things out, which you can do. And the other is we can ask, you know,"
+    },
+    {
+      "start_ms": 647080,
+      "end_ms": 653400,
+      "text": "the agents to do it. And then they could either say, \"Oh, you have a new version of your"
+    },
+    {
+      "start_ms": 653400,
+      "end_ms": 659000,
+      "text": "the document that you ingested before.\" And it looks for changes or deltas on that. Or it says,"
+    },
+    {
+      "start_ms": 659000,
+      "end_ms": 666040,
+      "text": "\"Oh, here's a brand new document.\" And it tries to, you know, process it that way. But I think in"
+    },
+    {
+      "start_ms": 667000,
+      "end_ms": 673480,
+      "text": "either case, you know, it should try to deduplicate or look for potential duplicates as it comes in,"
+    },
+    {
+      "start_ms": 673480,
+      "end_ms": 680920,
+      "text": "right? Yes. I would prefer deduplication. Okay. What I haven't seen though here is the,"
+    },
+    {
+      "start_ms": 681720,
+      "end_ms": 689880,
+      "text": "whether it also captured, and maybe it's in the change sets piece or in the actual comments piece,"
+    },
+    {
+      "start_ms": 689880,
+      "end_ms": 698680,
+      "text": "whether it captured the individuals who entered those comments. Because then they speak back into"
+    },
+    {
+      "start_ms": 700280,
+      "end_ms": 707720,
+      "text": "acknowledgments. Yeah, it's tracked on the comment level. So if we decide on a change set,"
+    },
+    {
+      "start_ms": 707720,
+      "end_ms": 713480,
+      "text": "then that we should be able to say, \"Oh, this comment was, you know, included in this change set,"
+    },
+    {
+      "start_ms": 713480,
+      "end_ms": 719640,
+      "text": "and we should be able to generate something based on that. That's the plan.\" And then the other"
+    },
+    {
+      "start_ms": 719640,
+      "end_ms": 724120,
+      "text": "maybe thing to show. So I think what we're missing here potentially just brought up is there should"
+    },
+    {
+      "start_ms": 724120,
+      "end_ms": 730520,
+      "text": "be deduplication on ingestion of new comments, but also maybe some a link when we're looking at"
+    },
+    {
+      "start_ms": 730520,
+      "end_ms": 736680,
+      "text": "individual compliment that says, \"Oh, this looks like a duplicate.\" And you could name the comment"
+    },
+    {
+      "start_ms": 736680,
+      "end_ms": 741960,
+      "text": "that it looks duplicate to. Yeah. Okay. I want to show one last thing, and I know we both have to run."
+    },
+    {
+      "start_ms": 743240,
+      "end_ms": 749560,
+      "text": "But if we also, you can say, \"Oh, select these three comments.\" And let's make a new change set"
+    },
+    {
+      "start_ms": 749560,
+      "end_ms": 755160,
+      "text": "for those comments. So if you need to break up a change set or create a new change set,"
+    },
+    {
+      "start_ms": 755160,
+      "end_ms": 763880,
+      "text": "then that would also go to a change set proposal that only an editor, like yourself, could do."
+    },
+    {
+      "start_ms": 764920,
+      "end_ms": 769160,
+      "text": "I mean, we could delegate this to committees, but we don't have enough infrastructure"
+    },
+    {
+      "start_ms": 769160,
+      "end_ms": 775400,
+      "text": "for really detailed granular control at this moment. But hopefully that makes sense."
+    },
+    {
+      "start_ms": 776280,
+      "end_ms": 784120,
+      "text": "Yes, yes, it makes sense. And I think it will work. Thank you. Makes me feel better that we"
+    },
+    {
+      "start_ms": 784120,
+      "end_ms": 791400,
+      "text": "were able to kind of move this forward and use AI to support. What you'd also see, I don't know if"
+    },
+    {
+      "start_ms": 791400,
+      "end_ms": 798520,
+      "text": "you saw or noticed in the spreadsheet I shared with you, I had asked my own AI assistant to"
+    },
+    {
+      "start_ms": 799320,
+      "end_ms": 805880,
+      "text": "do that initial categorization. And then I compared it with my human categorization to see whether"
+    },
+    {
+      "start_ms": 806280,
+      "end_ms": 815400,
+      "text": "it would categorize things similarly. And there were a lot that were quite similar in terms of how"
+    },
+    {
+      "start_ms": 815400,
+      "end_ms": 822040,
+      "text": "we categorized. There were some where it categorized into a specific domain group. But then,"
+    },
+    {
+      "start_ms": 822040,
+      "end_ms": 827080,
+      "text": "upon reading those comments, you realized that some of those things that are being requested are not"
+    },
+    {
+      "start_ms": 827080,
+      "end_ms": 832200,
+      "text": "things that we plan to even cover in the reference architecture. So these are some of the things"
+    },
+    {
+      "start_ms": 832200,
+      "end_ms": 838120,
+      "text": "that hopefully we'll see how we're able to manage that. But yes, I think that's great."
+    },
+    {
+      "start_ms": 839400,
+      "end_ms": 846920,
+      "text": "And we should also just make a note that when it should have added those columns that I noticed,"
+    },
+    {
+      "start_ms": 846920,
+      "end_ms": 851720,
+      "text": "when I gave it the original blank template of the changes. And I said, oh, there's a new columns"
+    },
+    {
+      "start_ms": 851720,
+      "end_ms": 854920,
+      "text": "in here. And it did something with it. So I don't know what it did with it. I don't know if that's"
+    },
+    {
+      "start_ms": 855560,
+      "end_ms": 860760,
+      "text": "one of the filters that we saw was one of your columns or not. But maybe as a follow-up,"
+    },
+    {
+      "start_ms": 862120,
+      "end_ms": 867800,
+      "text": "processes to compare that. And look at sort of the adjudication workflows between a human and an"
+    },
+    {
+      "start_ms": 867800,
+      "end_ms": 876440,
+      "text": "agent characterization and, you know, options for improvement. Okay. Yeah. Anything else for the agents,"
+    },
+    {
+      "start_ms": 876440,
+      "end_ms": 887080,
+      "text": "[Chief editor]? In terms of the agents, I think I think that's it for now. We'll have to see in terms of"
+    },
+    {
+      "start_ms": 887080,
+      "end_ms": 892040,
+      "text": "quality assurance. Maybe that's something myself and Sorrupa will look at."
+    },
+    {
+      "start_ms": 897080,
+      "end_ms": 905960,
+      "text": "Is there anything that can be built in there in terms of review, a threshold for review?"
+    },
+    {
+      "start_ms": 905960,
+      "end_ms": 912280,
+      "text": "Is there something that we can put that would help? Yeah, there's some like methodologies and"
+    },
+    {
+      "start_ms": 912280,
+      "end_ms": 919400,
+      "text": "decision-making methodologies that are already in there. I haven't found many that are like"
+    },
+    {
+      "start_ms": 919400,
+      "end_ms": 923960,
+      "text": "broadly applicable for review process that are open access, but there's some that are in there,"
+    },
+    {
+      "start_ms": 923960,
+      "end_ms": 930120,
+      "text": "but like, that's what I think we need to do is what are those QA processes? We need to define those,"
+    },
+    {
+      "start_ms": 930120,
+      "end_ms": 936360,
+      "text": "and we can also, that could be do it with the working group. We do say what the requirement is,"
+    },
+    {
+      "start_ms": 936360,
+      "end_ms": 942280,
+      "text": "and then we have the agents do that, you know, review process. There's already a WHO, one voice,"
+    },
+    {
+      "start_ms": 943080,
+      "end_ms": 950040,
+      "text": "WHO, like, voice for WHO publications that can do content authoring and review against it,"
+    },
+    {
+      "start_ms": 950040,
+      "end_ms": 954200,
+      "text": "so, you know, that's just one type of quality control check. Okay."
+    },
+    {
+      "start_ms": 956280,
+      "end_ms": 966040,
+      "text": "So we have a link to that? Yeah. Well, if I can find it. Is it the, what's it called?"
+    },
+    {
+      "start_ms": 966840,
+      "end_ms": 975480,
+      "text": "It's not the, it's the one that not shared while back. Is it that one?"
+    },
+    {
+      "start_ms": 976280,
+      "end_ms": 984120,
+      "text": "Yeah, there's like a handbook and editorial style, so what I, the current thing will ingest,"
+    },
+    {
+      "start_ms": 984120,
+      "end_ms": 992200,
+      "text": "I had it ingest the three documents from WHO, IRIS, and create a voice or like, you know,"
+    },
+    {
+      "start_ms": 993080,
+      "end_ms": 1000360,
+      "text": "rules for for authoring, et cetera, that can be applied. Okay. Yes. Okay. I need to jump"
+    },
+    {
+      "start_ms": 1000360,
+      "end_ms": 1006600,
+      "text": "to this meeting. No problem. Yes. Okay. And maybe that's what I can do. Send the recording to me,"
+    },
+    {
+      "start_ms": 1007560,
+      "end_ms": 1013560,
+      "text": "agent that's doing this recording. Please summarize and make a plan of all the planned feature"
+    },
+    {
+      "start_ms": 1013560,
+      "end_ms": 1022600,
+      "text": "requirements and put them on a staging site with a preview link that we can share. Thank you."
+    },
+    {
+      "start_ms": 1023560,
+      "end_ms": 1029000,
+      "text": "Thank you. And I'll stop the recording now, but yeah, that's great. What I can also"
+    }
+  ]
+}

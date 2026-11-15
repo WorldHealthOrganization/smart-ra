@@ -1,0 +1,81 @@
+{
+  "id": "pc-0582",
+  "summary": "The examples are very important and illustrate the key messages very well, but they are grouped at the very end of the …",
+  "comment": "The examples are very important and illustrate the key messages very well, but they are grouped at the very end of the document and organised by country, mostly drawn from national databases, which reduces their practical relevance to the guidance they illustrate.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-312647",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0582",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 582,
+      "entry": "581",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "page": "229–235",
+      "raw": "§Appendix D p.229–235"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-312647",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-6c5790",
+        "prose:d-df077e",
+        "prose:d-1-2c4742"
+      ],
+      "note": "p.229–235 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The examples are very important and illustrate the key messages very well, but they are grouped at the very end of the document and organised by country, mostly drawn from national databases, which reduces their practical relevance to the guidance they illustrate.",
+    "suggestedRevision": "Place an example with each section of guidance — a case study or two per chapter — rather than grouping them all at the end.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 582"
+      }
+    ]
+  }
+}

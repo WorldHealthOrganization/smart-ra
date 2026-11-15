@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-267",
+  "title": "Classify CRVS and geospatial registries consistently as foundational DPI",
+  "requirements": "- Use one classification of foundational DPI, cross-sector authoritative systems and DPI-H throughout\n- Use 'geospatial registry' terminology\n- Explain the boundary between health-generated birth/death notifications and legal civil registration\n- Make integration conditional on available services, with alternatives such as periodic synchronisation\n- Allow interim health capability where foundational services are unavailable",
+  "refs": [
+    "PC-0722",
+    "PC-0945",
+    "PC-0946",
+    "PC-1232",
+    "PC-1601"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

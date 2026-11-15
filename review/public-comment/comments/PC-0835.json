@@ -1,0 +1,79 @@
+{
+  "id": "pc-0835",
+  "summary": "The chapter overview lists Sections 3.1 to 3.6 but does not mention Section 3.7 on conformance and testing, even though…",
+  "comment": "The chapter overview lists Sections 3.1 to 3.6 but does not mention Section 3.7 on conformance and testing, even though this is one of the document’s main contributions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:ch3-the-reference-architecture-for-d-lead-2aa418",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0835",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 71,
+      "entry": "70",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 3 introduction",
+      "page": "41",
+      "lines": "Lines 15-24",
+      "raw": "§Chapter 3 introduction p.41 l.Lines 15-24"
+    },
+    "anchor": {
+      "targetLabel": "prose:ch3-the-reference-architecture-for-d-lead-2aa418",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [
+        "prose:ch3-the-reference-architecture-for-d-lead-2ec420"
+      ],
+      "note": "p.41 l.Lines 15-24 read as the printed page; section 3 does NOT agree"
+    },
+    "text": "The chapter overview lists Sections 3.1 to 3.6 but does not mention Section 3.7 on conformance and testing, even though this is one of the document’s main contributions.",
+    "suggestedRevision": "Add a final bullet: “Section 3.7 describes how the architecture and its components can be assessed through conformance profiles, testing, coverage, and goal validation.”",
+    "labels": {
+      "Comment type": "Q15 - Completeness"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 71"
+      }
+    ]
+  }
+}

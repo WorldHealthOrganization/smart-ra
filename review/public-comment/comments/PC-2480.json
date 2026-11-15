@@ -1,0 +1,78 @@
+{
+  "id": "pc-2480",
+  "summary": "Consequential testing-planning phrase — Prevents procurement from treating a server's general standards claim as proof …",
+  "comment": "Consequential testing-planning phrase — Prevents procurement from treating a server's general standards claim as proof of correct ICD-11 support. Apply together with A09.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-b09317",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2480",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 23,
+      "entry": "22",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.7.4, Planning testing from the architecture",
+      "page": "84",
+      "lines": "B03.02",
+      "raw": "§§3.7.4, Planning testing from the architecture p.84 l.B03.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-b09317",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-4-7a4f40",
+        "prose:3-7-4-d096f9",
+        "prose:3-7-4-ad907b"
+      ],
+      "note": "p.84 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Consequential testing-planning phrase — Prevents procurement from treating a server's general standards claim as proof of correct ICD-11 support. Apply together with A09.",
+    "suggestedRevision": "Replace phrase; retain remaining sentence: separates reusable test assets from additional tests that need to be developed and executed",
+    "labels": {
+      "Comment type": "P3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 23"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-2471",
+  "summary": "Goal 1 includes the ICD statistical reporting pathway — Goal 1 expressly promises CRVS and mortality analytics. This ma…",
+  "comment": "Goal 1 includes the ICD statistical reporting pathway — Goal 1 expressly promises CRVS and mortality analytics. This makes the supporting pathway explicit without claiming that the draft lacks all CRVS or reporting provisions. Coordinate with B02.01, A22.01 and A25.04. Evidence: WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-69f4a6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2471",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 14,
+      "entry": "13",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§1.5.1, first health-sector goal",
+      "page": "22",
+      "lines": "A25.01",
+      "raw": "§§1.5.1, first health-sector goal p.22 l.A25.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-69f4a6",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-5-1-252744",
+        "prose:1-5-1-039759",
+        "prose:1-5-1-4acb0d"
+      ],
+      "note": "p.22 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Goal 1 includes the ICD statistical reporting pathway — Goal 1 expressly promises CRVS and mortality analytics. This makes the supporting pathway explicit without claiming that the draft lacks all CRVS or reporting provisions. Coordinate with B02.01, A22.01 and A25.04. Evidence: WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf).",
+    "suggestedRevision": "Append to the first-goal paragraph; retain existing Goal 1 wording: Trusted data foundations also preserve the mortality and morbidity statistical pathways required under the WHO Nomenclature Regulations, within their applicable scope and transition arrangements. They connect clinical documentation and death certification to ICD coding and reported statistics, with traceable responsibilities and derivations.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 14"
+      }
+    ]
+  }
+}

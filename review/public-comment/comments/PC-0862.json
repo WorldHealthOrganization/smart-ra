@@ -1,0 +1,80 @@
+{
+  "id": "pc-0862",
+  "summary": "Figure 3.2 combines goals, capabilities, functional applications, DPI-H components, cross-cutting enablers, foundationa…",
+  "comment": "Figure 3.2 combines goals, capabilities, functional applications, DPI-H components, cross-cutting enablers, foundational DPI, and technology in one view. Although comprehensive, its density may make the two-layer DPI-H structure harder rather than easier to understand.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3-8f9618",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0862",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 98,
+      "entry": "97",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3",
+      "page": "48",
+      "lines": "Figure 3.2",
+      "caption": "Figure 3.2",
+      "raw": "§3.3 p.48 l.Figure 3.2"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3-8f9618",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-3-29ac26"
+      ],
+      "note": "p.48 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Figure 3.2 combines goals, capabilities, functional applications, DPI-H components, cross-cutting enablers, foundational DPI, and technology in one view. Although comprehensive, its density may make the two-layer DPI-H structure harder rather than easier to understand.",
+    "suggestedRevision": "Provide three complementary figures: a simplified conceptual view for policy audiences, a DPI-H component-layer view for planners and procurement teams, and the full traceability view for architects. Ensure all figures use consistent layer names and visual conventions.",
+    "labels": {
+      "Comment type": "Q4 - Two-layer architecture / Figure"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 98"
+      }
+    ]
+  }
+}

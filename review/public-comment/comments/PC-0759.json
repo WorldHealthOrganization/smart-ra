@@ -1,0 +1,74 @@
+{
+  "id": "pc-0759",
+  "summary": "We agree. Interoperability, reusability, open standards, public governance, security/privacy, sovereignty — all match o…",
+  "comment": "We agree. Interoperability, reusability, open standards, public governance, security/privacy, sovereignty — all match our position.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0759",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 759,
+      "entry": "758",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§1.4 DPI-H Principles (p.20)",
+      "lines": "A1",
+      "raw": "§§1.4 DPI-H Principles (p.20) l.A1"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-4",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 1.4 only"
+    },
+    "text": "We agree. Interoperability, reusability, open standards, public governance, security/privacy, sovereignty — all match our position.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 759"
+      }
+    ]
+  }
+}

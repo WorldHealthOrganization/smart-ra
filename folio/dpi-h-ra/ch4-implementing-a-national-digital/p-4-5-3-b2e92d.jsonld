@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-4-5-3-b2e92d",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:4-5-3-b2e92d",
+  "kind": "prose",
+  "cites": [
+    "references/inglis-humphrey-2022-nhs-digital-academy"
+  ],
+  "text": "p-4-5-3-b2e92d.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 542,
+      "page": 112,
+      "printedPage": "101",
+      "lineStart": 527,
+      "lineEnd": 533,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

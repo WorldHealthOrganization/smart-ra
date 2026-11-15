@@ -1,0 +1,77 @@
+{
+  "id": "pc-0338",
+  "summary": "The description in the document of the Australian system In Appendix D is lacking many components and seems to be SNOME…",
+  "comment": "The description in the document of the Australian system In Appendix D is lacking many components and seems to be SNOMED focused only. The NCTS predominantly focuses on SNOMED CT AU, other health classifications are managed by other agencies (eg IHACPA for ICD-10-AM, ACHI and other ABF classifications).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0338",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 338,
+      "entry": "337",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "lines": "Australian note",
+      "raw": "§Appendix D l.Australian note"
+    },
+    "anchor": {
+      "targetLabel": "sec:d",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section D only"
+    },
+    "type": "technical",
+    "text": "The description in the document of the Australian system In Appendix D is lacking many components and seems to be SNOMED focused only. The NCTS predominantly focuses on SNOMED CT AU, other health classifications are managed by other agencies (eg IHACPA for ICD-10-AM, ACHI and other ABF classifications).",
+    "suggestedRevision": "• We agree that centralised metadata repositories are the best practice – ie METEOR at the AIHW\n• We agree that information regarding a patient should be accessible across multiple service providers – ie My Health Record\n• We agree that silo’d systems are problematic – ie why the AIHW created NHDH\n• We agree that when transition all existing systems need to be reviewed and possibility updated to ensure consistent metadata use and development - this is why we have the Australian ICD-11 Task Force with all agencies, states and jurisdictions involved\n• We agree that metadata should be based in internationally developed classification and terminology standards  - ADHA maintain a reference library of digital standards including health classifications and terminologies\n• We agree that a classifications / terminology service should have the governance over the content used for metadata – ie AIHW have the NHDISC, CSIRO has the NCTS and IHACPA have their committees and technical groups\n• We agree that governance should be appropriate to the service ie in Australia the ABS has legislated governance for mortality, IHACPA has legislated governance for activity based funding, CSIRO has governance for SNOMED CT AU (CSIRO), and the ACC is the central agency for contributions to the WHO-FIC classifications, and ADHA / DHDA look at  whole of government coordination",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 338"
+      }
+    ]
+  }
+}

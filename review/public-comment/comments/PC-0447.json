@@ -1,0 +1,87 @@
+{
+  "id": "pc-0447",
+  "summary": "Section 4.3.4 (lines 346–362) specifies the general and health-specific APIs connecting DPI-H to foundational DPI-  ide…",
+  "comment": "Section 4.3.4 (lines 346–362) specifies the general and health-specific APIs connecting DPI-H to foundational DPI-  identity verification, civil registration, payment gateway and data exchange APIs-  without addressing the consent or legal basis under which health data crosses this boundary into non-health foundational systems. The Lifelong Health Record's consent-governed access control (line 111) is described within the health domain; it is not stated whether, or how, that consent basis and its purpose limitation are carried across, or re-established, when data is exchanged through a foundational, cross-sector API such as a payment gateway or a whole-of-government data exchange.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0447",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 447,
+      "entry": "446",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4; Appendix C-  Lifelong Health Record",
+      "page": "96; 156",
+      "lines": "346–362; 111",
+      "raw": "§4.3.4; Appendix C-  Lifelong Health Record p.96; 156 l.346–362; 111"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-4",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-4-83c937"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §4.3.4 l.346-362, spanning both the general and health-specific API blocks; asks for a sentence in 4.3.4."
+    },
+    "type": "technical",
+    "text": "Section 4.3.4 (lines 346–362) specifies the general and health-specific APIs connecting DPI-H to foundational DPI-  identity verification, civil registration, payment gateway and data exchange APIs-  without addressing the consent or legal basis under which health data crosses this boundary into non-health foundational systems. The Lifelong Health Record's consent-governed access control (line 111) is described within the health domain; it is not stated whether, or how, that consent basis and its purpose limitation are carried across, or re-established, when data is exchanged through a foundational, cross-sector API such as a payment gateway or a whole-of-government data exchange.",
+    "suggestedRevision": "Add a sentence in 4.3.4 stating that integration interfaces to foundational DPI must carry, or be able to resolve, the individual's consent basis and purpose limitation established in the health domain, and that countries should define-  in national data-protection legislation or the interoperability governance arrangements described in 3.4-  which cross-sector data flows require a legal basis beyond the health-sector consent already obtained.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 447"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §4.3.4 l.346-362, spanning both the general and health-specific API blocks; asks for a sentence in 4.3.4."
+      }
+    ]
+  }
+}

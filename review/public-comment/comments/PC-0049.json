@@ -1,0 +1,86 @@
+{
+  "id": "pc-0049",
+  "summary": "The agnostic nature of the DPI approach is clear in the text but what is not clear is whether the recommendations inten…",
+  "comment": "The agnostic nature of the DPI approach is clear in the text but what is not clear is whether the recommendations intend (as they imply) to apply to specific delivery approachs, systems, technologies or standards in terms of the concept of building on the installed base",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-7d3738",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0049",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 49,
+      "entry": "48",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.3",
+      "page": "10",
+      "lines": "82-86",
+      "raw": "§1.1.3 p.10 l.82-86"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-7d3738",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.10 l.82-86 read as the printed page; section 1.1.3 agrees"
+    },
+    "type": "editorial",
+    "text": "The agnostic nature of the DPI approach is clear in the text but what is not clear is whether the recommendations intend (as they imply) to apply to specific delivery approachs, systems, technologies or standards in terms of the concept of building on the installed base",
+    "suggestedRevision": "Clarify to what extent the DPI approach leans towards reuse of existing specific standards, their modification or rewriting/fresh development (if desired making it clear this is where necessary to fulfil objectives without compromising but informed by any/all existing approaches)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 49"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Not accepted\", with no rationale; held for the editor"
+      }
+    ]
+  }
+}

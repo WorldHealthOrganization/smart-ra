@@ -1,0 +1,82 @@
+{
+  "id": "pc-0499",
+  "summary": "The document runs to 254 pages and its most consequential content - the governance principles, the component boundary, …",
+  "comment": "The document runs to 254 pages and its most consequential content - the governance principles, the component boundary, the financing guidance and the legal dimension - is distributed across chapters 3 and 4. Ministers and finance officials will not read it, and the officials who brief them need a version that can be acted on.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:executive-summary-lead-e900bf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0499",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 499,
+      "entry": "498",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive Summary",
+      "page": "1–3",
+      "lines": "1–102",
+      "raw": "§Executive Summary p.1–3 l.1–102"
+    },
+    "anchor": {
+      "targetLabel": "prose:executive-summary-lead-e900bf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:executive-summary-lead-7df30d",
+        "prose:executive-summary-lead-01831f",
+        "fig:1"
+      ],
+      "note": "p.1–3 l.1–102 read as the printed page"
+    },
+    "type": "general",
+    "text": "The document runs to 254 pages and its most consequential content - the governance principles, the component boundary, the financing guidance and the legal dimension - is distributed across chapters 3 and 4. Ministers and finance officials will not read it, and the officials who brief them need a version that can be acted on.",
+    "suggestedRevision": "Add a decision document at the front of no more than four to six pages, setting out the decisions a country has to take rather than summarising the guidance: what to designate as DPI-H; who operates each component; whether participation is obligatory; how it is financed and by whom the price is set; who enforces and with what sanctions; and where disputes are resolved. Each with the instrument, the deciding body and an indicative sequence. The present executive summary describes the document; a decision document would describe the choices.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 499"
+      }
+    ]
+  }
+}

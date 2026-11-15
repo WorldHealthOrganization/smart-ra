@@ -1,0 +1,86 @@
+{
+  "id": "pc-0050",
+  "summary": "The three examples govern domains/functions that are not of equal in priority from a health perspective",
+  "comment": "The three examples govern domains/functions that are not of equal in priority from a health perspective",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-a447f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0050",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 50,
+      "entry": "49",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.3",
+      "page": "11",
+      "lines": "103",
+      "raw": "§1.1.3 p.11 l.103"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-a447f2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.11 l.103 read as the printed page; section 1.1.3 agrees"
+    },
+    "type": "editorial",
+    "text": "The three examples govern domains/functions that are not of equal in priority from a health perspective",
+    "suggestedRevision": "If not clear any where else in the document I would advocate for an highlight a hierarchy of importance for different components of a complete system…..of these three (subject) ID is more foundational by several levels than a payment system and data exchange arguably sits alongside in priority terms (before getting in to whether exchange rather than access control should be the future model for the primary data of interest relating directly to the subject",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 50"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "triage",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "the log's status was \"Not accepted\", with no rationale; held for the editor"
+      }
+    ]
+  }
+}

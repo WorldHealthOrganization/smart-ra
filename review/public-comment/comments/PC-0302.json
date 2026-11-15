@@ -1,0 +1,78 @@
+{
+  "id": "pc-0302",
+  "summary": "The federated exchange model is anchored on shared standards and common identifiers from the core registries, while the…",
+  "comment": "The federated exchange model is anchored on shared standards and common identifiers from the core registries, while the guidance also supports intermittent-connectivity and store-and-forward operation. In such settings, identifier use should not depend on uninterrupted access to a central registry, and locally assigned identifiers must be reconcilable without creating collisions or ambiguous identity links.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-c0012b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0302",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 302,
+      "entry": "301",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4 / 3.5.3.1 / 4.3.4",
+      "page": "78 / 67 / 98",
+      "lines": "911-912 / 638-640 / 385-388",
+      "raw": "§3.6.4 / 3.5.3.1 / 4.3.4 p.78 / 67 / 98 l.911-912 / 638-640 / 385-388"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-c0012b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.78 / 67 / 98 l.911-912 / 638-640 / 385-388 read as the printed page; section 3.6.4 agrees"
+    },
+    "type": "technical",
+    "text": "The federated exchange model is anchored on shared standards and common identifiers from the core registries, while the guidance also supports intermittent-connectivity and store-and-forward operation. In such settings, identifier use should not depend on uninterrupted access to a central registry, and locally assigned identifiers must be reconcilable without creating collisions or ambiguous identity links.",
+    "suggestedRevision": "Add a requirement that identifier schemes used in federated or intermittently connected deployments support collision-resistant local assignment where needed, offline persistence of identifiers already issued, and deterministic reconciliation when connectivity is restored, without requiring uninterrupted access to a central registry.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 302"
+      }
+    ]
+  }
+}

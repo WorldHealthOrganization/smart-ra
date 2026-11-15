@@ -1,0 +1,81 @@
+{
+  "id": "pc-0578",
+  "summary": "It is very important that the guidance provides general principles and gives national organisations the opportunity to …",
+  "comment": "It is very important that the guidance provides general principles and gives national organisations the opportunity to design a national blueprint fit for purpose in their own setting. However, there is no process for incorporating learning from countries back into the guidance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-2-18dac0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0578",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 578,
+      "entry": "577",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4",
+      "page": "98–99",
+      "raw": "§4 p.98–99"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-2-18dac0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-3-4-2-7e2279",
+        "prose:4-3-5-92909d",
+        "prose:4-4-bf55c6"
+      ],
+      "note": "p.98–99 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "It is very important that the guidance provides general principles and gives national organisations the opportunity to design a national blueprint fit for purpose in their own setting. However, there is no process for incorporating learning from countries back into the guidance.",
+    "suggestedRevision": "Recommend that countries work through a quality circle (Plan, Do, Check, Act), and that WHO then collects the national blueprints and shares lessons learned across countries so each country can build on others' experience.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 578"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-0249",
+  "summary": "Box 1.2 correctly identifies newborns before civil registration, refugees, undocumented migrants and marginalised commu…",
+  "comment": "Box 1.2 correctly identifies newborns before civil registration, refugees, undocumented migrants and marginalised communities as populations foundational identity does not reach. These are substantially the same populations least likely to share a language with the clinician treating them. The guidance treats the identification gap structurally and thoroughly; the communication gap affecting the same people is not treated at all. Linking them would strengthen both the identity discussion and the equity principle.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-1-2a7257",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0249",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 249,
+      "entry": "248",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "1.2.1 Identity / Box 1.2 — coverage gaps",
+      "page": "14-15",
+      "lines": "197-209",
+      "raw": "§1.2.1 Identity / Box 1.2 — coverage gaps p.14-15 l.197-209"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-1-2a7257",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.14-15 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Box 1.2 correctly identifies newborns before civil registration, refugees, undocumented migrants and marginalised communities as populations foundational identity does not reach. These are substantially the same populations least likely to share a language with the clinician treating them. The guidance treats the identification gap structurally and thoroughly; the communication gap affecting the same people is not treated at all. Linking them would strengthen both the identity discussion and the equity principle.",
+    "suggestedRevision": "Add a cross-reference between the coverage gaps in Box 1.2 and the equity principle in Section 2.3, noting that the populations least reliably identified are frequently also those least reliably understood at the point of care.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 249"
+      }
+    ]
+  }
+}

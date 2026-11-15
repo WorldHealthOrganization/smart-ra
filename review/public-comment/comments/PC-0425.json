@@ -1,0 +1,78 @@
+{
+  "id": "pc-0425",
+  "summary": "The case for engagement with Ministries of Finance could potentially be strengthened by including a small number of qua…",
+  "comment": "The case for engagement with Ministries of Finance could potentially be strengthened by including a small number of quantified examples alongside the discussion of reduced leakage and efficiency gains. For this audience, concrete evidence on the scale of potential savings or improvements can help translate the broader value proposition into fiscal terms. Examples from countries that have documented benefits from government data-exchange and digital-service infrastructure could be particularly useful. Including an  example, with appropriately sourced figures and a brief explanation of the context in which the benefits were achieved, could make the section more compelling while also helping readers understand the potential magnitude of the benefits.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-1-6f998e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0425",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 425,
+      "entry": "424",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6",
+      "page": "102",
+      "lines": "548",
+      "raw": "§4.6 p.102 l.548"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-1-6f998e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.102 l.548 read as the printed page; section 4.6 agrees"
+    },
+    "type": "general",
+    "text": "The case for engagement with Ministries of Finance could potentially be strengthened by including a small number of quantified examples alongside the discussion of reduced leakage and efficiency gains. For this audience, concrete evidence on the scale of potential savings or improvements can help translate the broader value proposition into fiscal terms. Examples from countries that have documented benefits from government data-exchange and digital-service infrastructure could be particularly useful. Including an  example, with appropriately sourced figures and a brief explanation of the context in which the benefits were achieved, could make the section more compelling while also helping readers understand the potential magnitude of the benefits.",
+    "suggestedRevision": "Example addition to Sec 4.6.1: 'For example, Estonia's X-Road data-exchange infrastructure has been associated with documented reductions in administrative processing time and cost across government services (or) Singapore's APEX platform has been associated with a measurable reduction in the time required to complete government-service applications.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 425"
+      }
+    ]
+  }
+}

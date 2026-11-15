@@ -1,0 +1,1561 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:09,880"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 9880
+			},
+			"text": " Hi, this is Carl Lightner. I'm acting as a business analyst going through a collaborative"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,880",
+				"to": "00:00:17,640"
+			},
+			"offsets": {
+				"from": 9880,
+				"to": 17640
+			},
+			"text": " requirements development methodology or CRDM with my colleague who will introduce themselves."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,640",
+				"to": "00:00:27,120"
+			},
+			"offsets": {
+				"from": 17640,
+				"to": 27120
+			},
+			"text": " We are looking at developing and iterating on a feature for doing public comment review"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,120",
+				"to": "00:00:34,880"
+			},
+			"offsets": {
+				"from": 27120,
+				"to": 34880
+			},
+			"text": " of a document where we had 3000 comments come in. We've had some initial features developed"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,880",
+				"to": "00:00:41,460"
+			},
+			"offsets": {
+				"from": 34880,
+				"to": 41460
+			},
+			"text": " and now we're going to do a walkthrough with my colleague and want to correct some or capture"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,460",
+				"to": "00:00:47,680"
+			},
+			"offsets": {
+				"from": 41460,
+				"to": 47680
+			},
+			"text": " features and requests and other things that could improve the workflow. She is serving"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,680",
+				"to": "00:00:53,920"
+			},
+			"offsets": {
+				"from": 47680,
+				"to": 53920
+			},
+			"text": " as the chief editor for the reference architecture. Over to you. Do you want to introduce yourself?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,920",
+				"to": "00:01:01,100"
+			},
+			"offsets": {
+				"from": 53920,
+				"to": 61100
+			},
+			"text": " I'm Ginny Aie turn. I'm serving as a chief editor for the reference architecture document."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,100",
+				"to": "00:01:07,240"
+			},
+			"offsets": {
+				"from": 61100,
+				"to": 67240
+			},
+			"text": " Like Carl mentioned, we have over 3000 comments and we want to be able to define the requirements"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,240",
+				"to": "00:01:15,640"
+			},
+			"offsets": {
+				"from": 67240,
+				"to": 75640
+			},
+			"text": " to enable us review those comments as part of the technical working group and categorize"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,640",
+				"to": "00:01:23,720"
+			},
+			"offsets": {
+				"from": 75640,
+				"to": 83720
+			},
+			"text": " the comments so that we can also have different sub-working group members look at the comments"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,720",
+				"to": "00:01:32,560"
+			},
+			"offsets": {
+				"from": 83720,
+				"to": 92560
+			},
+			"text": " that pertain to that particular domain. Great. I'm putting in the chat a link to the we're"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,560",
+				"to": "00:01:38,880"
+			},
+			"offsets": {
+				"from": 92560,
+				"to": 98880
+			},
+			"text": " going to be looking at. I don't know, does this also record video or not? That would be"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,880",
+				"to": "00:01:54,920"
+			},
+			"offsets": {
+				"from": 98880,
+				"to": 114920
+			},
+			"text": " close. Sorry, I think I recorded the wrong thing. What did I want to share? I think this... Okay, so this is the current staging"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,920",
+				"to": "00:02:00,760"
+			},
+			"offsets": {
+				"from": 114920,
+				"to": 120760
+			},
+			"text": " branch that we have for the reviewing the public comments on the reference architecture."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,760",
+				"to": "00:02:08,280"
+			},
+			"offsets": {
+				"from": 120760,
+				"to": 128280
+			},
+			"text": " You can see that there's 2600 comments of which 2629 are open. I don't know why some"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,280",
+				"to": "00:02:16,580"
+			},
+			"offsets": {
+				"from": 128280,
+				"to": 136580
+			},
+			"text": " are closed. That's interesting because I didn't ask them to be closed. The way that what's"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,580",
+				"to": "00:02:25,840"
+			},
+			"offsets": {
+				"from": 136580,
+				"to": 145840
+			},
+			"text": " happened is all of these 2600 comments got grouped into change sets and you can see change"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,840",
+				"to": "00:02:36,600"
+			},
+			"offsets": {
+				"from": 145840,
+				"to": 156600
+			},
+			"text": " sets here. These change sets are, for example, CS 001 as 14 comments that are in it. It has"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:36,600",
+				"to": "00:02:42,620"
+			},
+			"offsets": {
+				"from": 156600,
+				"to": 162620
+			},
+			"text": " grouped all of those 14 comments to a comment set of requirements, complete sentences, define"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,620",
+				"to": "00:02:51,160"
+			},
+			"offsets": {
+				"from": 162620,
+				"to": 171160
+			},
+			"text": " DPI F at first use, simplify the flag wording. You can also go to the specific comments for that"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,160",
+				"to": "00:03:00,040"
+			},
+			"offsets": {
+				"from": 171160,
+				"to": 180040
+			},
+			"text": " change set and see, you can expand to see who actually provided the comment and the details"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,040",
+				"to": "00:03:06,600"
+			},
+			"offsets": {
+				"from": 180040,
+				"to": 186600
+			},
+			"text": " behind that comment. Whether decision has been made yet on that comment, the committee or who's"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:06,600",
+				"to": "00:03:13,720"
+			},
+			"offsets": {
+				"from": 186600,
+				"to": 193720
+			},
+			"text": " actually reviewing that comment. We need to figure that out a little bit. You can also see the links"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,720",
+				"to": "00:03:22,600"
+			},
+			"offsets": {
+				"from": 193720,
+				"to": 202600
+			},
+			"text": " in the document itself to see all the comments that are related to that section or that area of the"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:22,600",
+				"to": "00:03:31,160"
+			},
+			"offsets": {
+				"from": 202600,
+				"to": 211160
+			},
+			"text": " comments. That's why I wanted to share with you. One last thing is if you're now in a comment set,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,960",
+				"to": "00:03:40,040"
+			},
+			"offsets": {
+				"from": 213960,
+				"to": 220040
+			},
+			"text": " what you can do, let's say we're looking at CS 164. There's a discuss link. What this can do"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,040",
+				"to": "00:03:47,160"
+			},
+			"offsets": {
+				"from": 220040,
+				"to": 227160
+			},
+			"text": " is let's say we're in a working group call and we say, oh, we're in the product registry working"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,160",
+				"to": "00:03:55,080"
+			},
+			"offsets": {
+				"from": 227160,
+				"to": 235080
+			},
+			"text": " group call with Saroop or somebody. We want to look at these changes and then we go into a"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,080",
+				"to": "00:04:01,560"
+			},
+			"offsets": {
+				"from": 235080,
+				"to": 241560
+			},
+			"text": " discussion mode. This automatically creates an issue or sets up an issue that we can create and"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:01,560",
+				"to": "00:04:08,200"
+			},
+			"offsets": {
+				"from": 241560,
+				"to": 248200
+			},
+			"text": " then provide comments during the discussion and keep notes, put attachments there and whoever"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,200",
+				"to": "00:04:18,600"
+			},
+			"offsets": {
+				"from": 248200,
+				"to": 258600
+			},
+			"text": " has a GitHub account can contribute to that change set. Once that's created, then you can then,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,600",
+				"to": "00:04:25,320"
+			},
+			"offsets": {
+				"from": 258600,
+				"to": 265320
+			},
+			"text": " for example, assign a copilot or an agent to create a pull request that will go through and"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:25,320",
+				"to": "00:04:30,920"
+			},
+			"offsets": {
+				"from": 265320,
+				"to": 270920
+			},
+			"text": " implement the changes that get approved through the discussion. That was the general workflow"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,520",
+				"to": "00:04:44,680"
+			},
+			"offsets": {
+				"from": 272520,
+				"to": 284680
+			},
+			"text": " and dashboard that was a straw person for you to react to. Okay, great. I think it works fine"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:44,680",
+				"to": "00:04:50,760"
+			},
+			"offsets": {
+				"from": 284680,
+				"to": 290760
+			},
+			"text": " in terms of the workflow, but there are a couple of additional things that I think I just wanted"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:50,760",
+				"to": "00:05:02,280"
+			},
+			"offsets": {
+				"from": 290760,
+				"to": 302280
+			},
+			"text": " to clarify in terms of how it's categorized in the comments. One of the things that I'm concerned"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:02,280",
+				"to": "00:05:10,040"
+			},
+			"offsets": {
+				"from": 302280,
+				"to": 310040
+			},
+			"text": " that it does is that there's consistency in the way it goes through the categorization of these"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:10,040",
+				"to": "00:05:21,880"
+			},
+			"offsets": {
+				"from": 310040,
+				"to": 321880
+			},
+			"text": " comments. I have a couple of categories for which these comments need to be grouped under"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,760",
+				"to": "00:05:30,280"
+			},
+			"offsets": {
+				"from": 322760,
+				"to": 330280
+			},
+			"text": " beyond the, you know, whether they're apart from, you know, talking about them in terms of"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,280",
+				"to": "00:05:37,240"
+			},
+			"offsets": {
+				"from": 330280,
+				"to": 337240
+			},
+			"text": " the bundles and the areas that they're covering. So, for example, you have the ones that relate"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,240",
+				"to": "00:05:43,880"
+			},
+			"offsets": {
+				"from": 337240,
+				"to": 343880
+			},
+			"text": " to applying editorial clarity revision to the summary. I would like that to go to an editorial"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:43,880",
+				"to": "00:05:51,320"
+			},
+			"offsets": {
+				"from": 343880,
+				"to": 351320
+			},
+			"text": " category. Then I would, there are a couple of them that, a couple of the comments that relate more"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:51,320",
+				"to": "00:05:59,160"
+			},
+			"offsets": {
+				"from": 351320,
+				"to": 359160
+			},
+			"text": " to things like, for example, supply chain. And I would like those comments also to be categorized"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:59,160",
+				"to": "00:06:09,800"
+			},
+			"offsets": {
+				"from": 359160,
+				"to": 369800
+			},
+			"text": " on the supply chain. So, in reality, beyond the editorial comments, whether a review or not"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:09,800",
+				"to": "00:06:17,320"
+			},
+			"offsets": {
+				"from": 369800,
+				"to": 377320
+			},
+			"text": " is needed, I would also like an additional set of categories that go towards core architects,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,960",
+				"to": "00:06:26,680"
+			},
+			"offsets": {
+				"from": 377960,
+				"to": 386680
+			},
+			"text": " the metadata registries group, supply chain, financial systems, clinical, and then WHO in general."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,280",
+				"to": "00:06:34,200"
+			},
+			"offsets": {
+				"from": 388280,
+				"to": 394200
+			},
+			"text": " And, of course, editorial changes, like I mentioned earlier. So, those are one of the, some of the"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:34,200",
+				"to": "00:06:42,120"
+			},
+			"offsets": {
+				"from": 394200,
+				"to": 402120
+			},
+			"text": " the first categorization that I would also like beyond grouping them into similar themes"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:43,080",
+				"to": "00:06:48,440"
+			},
+			"offsets": {
+				"from": 403080,
+				"to": 408440
+			},
+			"text": " that, you know, you've already done in terms of this current categorization."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,640",
+				"to": "00:06:58,040"
+			},
+			"offsets": {
+				"from": 409640,
+				"to": 418040
+			},
+			"text": " Okay, thanks. And to help clarify, so you would want, so you like the change sets as an approach"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:58,040",
+				"to": "00:07:04,040"
+			},
+			"offsets": {
+				"from": 418040,
+				"to": 424040
+			},
+			"text": " that may be different tags on top of the change set for different axes related to, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:04,040",
+				"to": "00:07:12,120"
+			},
+			"offsets": {
+				"from": 424040,
+				"to": 432120
+			},
+			"text": " for example, is it an editorial type of change or is it a specific content type of change?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,120",
+				"to": "00:07:20,120"
+			},
+			"offsets": {
+				"from": 432120,
+				"to": 440120
+			},
+			"text": " Yes. Okay. And I see that there's looking at the screen in the demo. There is already a type that"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:20,120",
+				"to": "00:07:26,360"
+			},
+			"offsets": {
+				"from": 440120,
+				"to": 446360
+			},
+			"text": " has a drop down editorial, generic, general, and technical, which seems to be working, but before,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:26,360",
+				"to": "00:07:33,800"
+			},
+			"offsets": {
+				"from": 446360,
+				"to": 453800
+			},
+			"text": " but doesn't work now, or those are those the categories you want or. So, I think editorial"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,800",
+				"to": "00:07:41,800"
+			},
+			"offsets": {
+				"from": 453800,
+				"to": 461800
+			},
+			"text": " absolutely fine. It's really between the general and the technical. The technical, especially,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:42,440",
+				"to": "00:07:49,640"
+			},
+			"offsets": {
+				"from": 462440,
+				"to": 469640
+			},
+			"text": " are the ones that would need specific categorization into whether it's the metadata registry,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,640",
+				"to": "00:07:57,240"
+			},
+			"offsets": {
+				"from": 469640,
+				"to": 477240
+			},
+			"text": " supply chain financial systems, or clinical, or core architects. General, we can leave us general"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:57,240",
+				"to": "00:08:05,880"
+			},
+			"offsets": {
+				"from": 477240,
+				"to": 485880
+			},
+			"text": " and that can be reviewed by the editorial team in terms of WHO. Okay. So, I guess there's a"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:05,880",
+				"to": "00:08:11,000"
+			},
+			"offsets": {
+				"from": 485880,
+				"to": 491000
+			},
+			"text": " couple of ways that we could break down the technical. One could be by working group committee that"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:11,000",
+				"to": "00:08:20,440"
+			},
+			"offsets": {
+				"from": 491000,
+				"to": 500440
+			},
+			"text": " is focused on that area, and that could be aligned to when we looked at the actual comments. Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:20,440",
+				"to": "00:08:27,480"
+			},
+			"offsets": {
+				"from": 500440,
+				"to": 507480
+			},
+			"text": " There was a committee associated with the comments. Yes. Yes. So, if we said, oh, well, a change"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:27,480",
+				"to": "00:08:33,160"
+			},
+			"offsets": {
+				"from": 507480,
+				"to": 513160
+			},
+			"text": " set is two or three more comments, and that comment is associated, or those two or three comments"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:33,160",
+				"to": "00:08:38,520"
+			},
+			"offsets": {
+				"from": 513160,
+				"to": 518520
+			},
+			"text": " could be associated to, you know, one to two committees, but at least we could roll that information"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:38,520",
+				"to": "00:08:46,840"
+			},
+			"offsets": {
+				"from": 518520,
+				"to": 526840
+			},
+			"text": " back up to the back things don't work. Then we could at least roll it back up and you could search"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,840",
+				"to": "00:08:52,360"
+			},
+			"offsets": {
+				"from": 526840,
+				"to": 532360
+			},
+			"text": " at the top for chain sets that are editorial within this committee. And that would be. Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:53,080",
+				"to": "00:08:58,120"
+			},
+			"offsets": {
+				"from": 533080,
+				"to": 538120
+			},
+			"text": " That will work, absolutely. So, there's another axis, though, which is the reference"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:58,120",
+				"to": "00:09:03,320"
+			},
+			"offsets": {
+				"from": 538120,
+				"to": 543320
+			},
+			"text": " architecture itself. And like, is it on a metadata component? Is it on a business domain"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,320",
+				"to": "00:09:09,400"
+			},
+			"offsets": {
+				"from": 543320,
+				"to": 549400
+			},
+			"text": " component? Which one of those? We could do that. I think that's probably more than that's needed"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:09,400",
+				"to": "00:09:16,520"
+			},
+			"offsets": {
+				"from": 549400,
+				"to": 556520
+			},
+			"text": " right now. Okay. I think that could be wrong. I mean, I'm asking. Yeah. I think if we start with"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:16,520",
+				"to": "00:09:22,440"
+			},
+			"offsets": {
+				"from": 556520,
+				"to": 562440
+			},
+			"text": " what we have first, and then we'll see whether we go to that level of depth. I will trial this"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:22,440",
+				"to": "00:09:28,200"
+			},
+			"offsets": {
+				"from": 562440,
+				"to": 568200
+			},
+			"text": " out with, or at least I'll show this to the core architect group tomorrow, and we can start seeing"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:28,200",
+				"to": "00:09:36,120"
+			},
+			"offsets": {
+				"from": 568200,
+				"to": 576120
+			},
+			"text": " and testing whether it actually is able to work as a workflow process for us to go through this"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:36,120",
+				"to": "00:09:41,880"
+			},
+			"offsets": {
+				"from": 576120,
+				"to": 581880
+			},
+			"text": " with the other domain groups. The other thing I wanted to also mention is because there's"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:41,880",
+				"to": "00:09:48,520"
+			},
+			"offsets": {
+				"from": 581880,
+				"to": 588520
+			},
+			"text": " from the spreadsheet that I shared with you, I still have additional comments that have come"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:48,520",
+				"to": "00:09:53,880"
+			},
+			"offsets": {
+				"from": 588520,
+				"to": 593880
+			},
+			"text": " through, though, are not part of that first consolidation. Okay. So there's another requirement"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:53,880",
+				"to": "00:10:00,120"
+			},
+			"offsets": {
+				"from": 593880,
+				"to": 600120
+			},
+			"text": " around ingesting new comments. So, for example, we have the GDHP comments. Actually, to share the"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:00,120",
+				"to": "00:10:04,600"
+			},
+			"offsets": {
+				"from": 600120,
+				"to": 604600
+			},
+			"text": " couple of ones that went into the reference architecture, I think it went to the reference architecture."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:05,960",
+				"to": "00:10:13,080"
+			},
+			"offsets": {
+				"from": 605960,
+				"to": 613080
+			},
+			"text": " Sorry, it went to the smart email mailbox. Yeah. And some of them might not have been rooted"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:13,080",
+				"to": "00:10:18,600"
+			},
+			"offsets": {
+				"from": 613080,
+				"to": 618600
+			},
+			"text": " properly to the mailbox that I, the sub mailbox that I created. So I'll have to look at those"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:18,600",
+				"to": "00:10:24,840"
+			},
+			"offsets": {
+				"from": 618600,
+				"to": 624840
+			},
+			"text": " and see which ones have not already been captured. So there's also ingestion of new comments that I"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:24,840",
+				"to": "00:10:33,240"
+			},
+			"offsets": {
+				"from": 624840,
+				"to": 633240
+			},
+			"text": " would, that's a requirement for this. So that's when we have new comments, we can also ingest into"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:33,240",
+				"to": "00:10:40,120"
+			},
+			"offsets": {
+				"from": 633240,
+				"to": 640120
+			},
+			"text": " this workflow. Okay. No, that's good to know. And there's a couple of possibilities here. One is that"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:40,120",
+				"to": "00:10:47,080"
+			},
+			"offsets": {
+				"from": 640120,
+				"to": 647080
+			},
+			"text": " you pre-resolve and take things out, which you can do. And the other is we can ask, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:47,080",
+				"to": "00:10:53,400"
+			},
+			"offsets": {
+				"from": 647080,
+				"to": 653400
+			},
+			"text": " the agents to do it. And then they could either say, \"Oh, you have a new version of your"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:53,400",
+				"to": "00:10:59,000"
+			},
+			"offsets": {
+				"from": 653400,
+				"to": 659000
+			},
+			"text": " the document that you ingested before.\" And it looks for changes or deltas on that. Or it says,"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:59,000",
+				"to": "00:11:06,040"
+			},
+			"offsets": {
+				"from": 659000,
+				"to": 666040
+			},
+			"text": " \"Oh, here's a brand new document.\" And it tries to, you know, process it that way. But I think in"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:07,000",
+				"to": "00:11:13,480"
+			},
+			"offsets": {
+				"from": 667000,
+				"to": 673480
+			},
+			"text": " either case, you know, it should try to deduplicate or look for potential duplicates as it comes in,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:13,480",
+				"to": "00:11:20,920"
+			},
+			"offsets": {
+				"from": 673480,
+				"to": 680920
+			},
+			"text": " right? Yes. I would prefer deduplication. Okay. What I haven't seen though here is the,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:21,720",
+				"to": "00:11:29,880"
+			},
+			"offsets": {
+				"from": 681720,
+				"to": 689880
+			},
+			"text": " whether it also captured, and maybe it's in the change sets piece or in the actual comments piece,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:29,880",
+				"to": "00:11:38,680"
+			},
+			"offsets": {
+				"from": 689880,
+				"to": 698680
+			},
+			"text": " whether it captured the individuals who entered those comments. Because then they speak back into"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:40,280",
+				"to": "00:11:47,720"
+			},
+			"offsets": {
+				"from": 700280,
+				"to": 707720
+			},
+			"text": " acknowledgments. Yeah, it's tracked on the comment level. So if we decide on a change set,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:47,720",
+				"to": "00:11:53,480"
+			},
+			"offsets": {
+				"from": 707720,
+				"to": 713480
+			},
+			"text": " then that we should be able to say, \"Oh, this comment was, you know, included in this change set,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:53,480",
+				"to": "00:11:59,640"
+			},
+			"offsets": {
+				"from": 713480,
+				"to": 719640
+			},
+			"text": " and we should be able to generate something based on that. That's the plan.\" And then the other"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:59,640",
+				"to": "00:12:04,120"
+			},
+			"offsets": {
+				"from": 719640,
+				"to": 724120
+			},
+			"text": " maybe thing to show. So I think what we're missing here potentially just brought up is there should"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:04,120",
+				"to": "00:12:10,520"
+			},
+			"offsets": {
+				"from": 724120,
+				"to": 730520
+			},
+			"text": " be deduplication on ingestion of new comments, but also maybe some a link when we're looking at"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,520",
+				"to": "00:12:16,680"
+			},
+			"offsets": {
+				"from": 730520,
+				"to": 736680
+			},
+			"text": " individual compliment that says, \"Oh, this looks like a duplicate.\" And you could name the comment"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:16,680",
+				"to": "00:12:21,960"
+			},
+			"offsets": {
+				"from": 736680,
+				"to": 741960
+			},
+			"text": " that it looks duplicate to. Yeah. Okay. I want to show one last thing, and I know we both have to run."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,240",
+				"to": "00:12:29,560"
+			},
+			"offsets": {
+				"from": 743240,
+				"to": 749560
+			},
+			"text": " But if we also, you can say, \"Oh, select these three comments.\" And let's make a new change set"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:29,560",
+				"to": "00:12:35,160"
+			},
+			"offsets": {
+				"from": 749560,
+				"to": 755160
+			},
+			"text": " for those comments. So if you need to break up a change set or create a new change set,"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:35,160",
+				"to": "00:12:43,880"
+			},
+			"offsets": {
+				"from": 755160,
+				"to": 763880
+			},
+			"text": " then that would also go to a change set proposal that only an editor, like yourself, could do."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:44,920",
+				"to": "00:12:49,160"
+			},
+			"offsets": {
+				"from": 764920,
+				"to": 769160
+			},
+			"text": " I mean, we could delegate this to committees, but we don't have enough infrastructure"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:49,160",
+				"to": "00:12:55,400"
+			},
+			"offsets": {
+				"from": 769160,
+				"to": 775400
+			},
+			"text": " for really detailed granular control at this moment. But hopefully that makes sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:56,280",
+				"to": "00:13:04,120"
+			},
+			"offsets": {
+				"from": 776280,
+				"to": 784120
+			},
+			"text": " Yes, yes, it makes sense. And I think it will work. Thank you. Makes me feel better that we"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:04,120",
+				"to": "00:13:11,400"
+			},
+			"offsets": {
+				"from": 784120,
+				"to": 791400
+			},
+			"text": " were able to kind of move this forward and use AI to support. What you'd also see, I don't know if"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:11,400",
+				"to": "00:13:18,520"
+			},
+			"offsets": {
+				"from": 791400,
+				"to": 798520
+			},
+			"text": " you saw or noticed in the spreadsheet I shared with you, I had asked my own AI assistant to"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:19,320",
+				"to": "00:13:25,880"
+			},
+			"offsets": {
+				"from": 799320,
+				"to": 805880
+			},
+			"text": " do that initial categorization. And then I compared it with my human categorization to see whether"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:26,280",
+				"to": "00:13:35,400"
+			},
+			"offsets": {
+				"from": 806280,
+				"to": 815400
+			},
+			"text": " it would categorize things similarly. And there were a lot that were quite similar in terms of how"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:35,400",
+				"to": "00:13:42,040"
+			},
+			"offsets": {
+				"from": 815400,
+				"to": 822040
+			},
+			"text": " we categorized. There were some where it categorized into a specific domain group. But then,"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:42,040",
+				"to": "00:13:47,080"
+			},
+			"offsets": {
+				"from": 822040,
+				"to": 827080
+			},
+			"text": " upon reading those comments, you realized that some of those things that are being requested are not"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:47,080",
+				"to": "00:13:52,200"
+			},
+			"offsets": {
+				"from": 827080,
+				"to": 832200
+			},
+			"text": " things that we plan to even cover in the reference architecture. So these are some of the things"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:52,200",
+				"to": "00:13:58,120"
+			},
+			"offsets": {
+				"from": 832200,
+				"to": 838120
+			},
+			"text": " that hopefully we'll see how we're able to manage that. But yes, I think that's great."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:59,400",
+				"to": "00:14:06,920"
+			},
+			"offsets": {
+				"from": 839400,
+				"to": 846920
+			},
+			"text": " And we should also just make a note that when it should have added those columns that I noticed,"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:06,920",
+				"to": "00:14:11,720"
+			},
+			"offsets": {
+				"from": 846920,
+				"to": 851720
+			},
+			"text": " when I gave it the original blank template of the changes. And I said, oh, there's a new columns"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:11,720",
+				"to": "00:14:14,920"
+			},
+			"offsets": {
+				"from": 851720,
+				"to": 854920
+			},
+			"text": " in here. And it did something with it. So I don't know what it did with it. I don't know if that's"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:15,560",
+				"to": "00:14:20,760"
+			},
+			"offsets": {
+				"from": 855560,
+				"to": 860760
+			},
+			"text": " one of the filters that we saw was one of your columns or not. But maybe as a follow-up,"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:22,120",
+				"to": "00:14:27,800"
+			},
+			"offsets": {
+				"from": 862120,
+				"to": 867800
+			},
+			"text": " processes to compare that. And look at sort of the adjudication workflows between a human and an"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:27,800",
+				"to": "00:14:36,440"
+			},
+			"offsets": {
+				"from": 867800,
+				"to": 876440
+			},
+			"text": " agent characterization and, you know, options for improvement. Okay. Yeah. Anything else for the agents,"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:36,440",
+				"to": "00:14:47,080"
+			},
+			"offsets": {
+				"from": 876440,
+				"to": 887080
+			},
+			"text": " Ginny? In terms of the agents, I think I think that's it for now. We'll have to see in terms of"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:47,080",
+				"to": "00:14:52,040"
+			},
+			"offsets": {
+				"from": 887080,
+				"to": 892040
+			},
+			"text": " quality assurance. Maybe that's something myself and Sorrupa will look at."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:57,080",
+				"to": "00:15:05,960"
+			},
+			"offsets": {
+				"from": 897080,
+				"to": 905960
+			},
+			"text": " Is there anything that can be built in there in terms of review, a threshold for review?"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:05,960",
+				"to": "00:15:12,280"
+			},
+			"offsets": {
+				"from": 905960,
+				"to": 912280
+			},
+			"text": " Is there something that we can put that would help? Yeah, there's some like methodologies and"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:12,280",
+				"to": "00:15:19,400"
+			},
+			"offsets": {
+				"from": 912280,
+				"to": 919400
+			},
+			"text": " decision-making methodologies that are already in there. I haven't found many that are like"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:19,400",
+				"to": "00:15:23,960"
+			},
+			"offsets": {
+				"from": 919400,
+				"to": 923960
+			},
+			"text": " broadly applicable for review process that are open access, but there's some that are in there,"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:23,960",
+				"to": "00:15:30,120"
+			},
+			"offsets": {
+				"from": 923960,
+				"to": 930120
+			},
+			"text": " but like, that's what I think we need to do is what are those QA processes? We need to define those,"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:30,120",
+				"to": "00:15:36,360"
+			},
+			"offsets": {
+				"from": 930120,
+				"to": 936360
+			},
+			"text": " and we can also, that could be do it with the working group. We do say what the requirement is,"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:36,360",
+				"to": "00:15:42,280"
+			},
+			"offsets": {
+				"from": 936360,
+				"to": 942280
+			},
+			"text": " and then we have the agents do that, you know, review process. There's already a WHO, one voice,"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:43,080",
+				"to": "00:15:50,040"
+			},
+			"offsets": {
+				"from": 943080,
+				"to": 950040
+			},
+			"text": " WHO, like, voice for WHO publications that can do content authoring and review against it,"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:50,040",
+				"to": "00:15:54,200"
+			},
+			"offsets": {
+				"from": 950040,
+				"to": 954200
+			},
+			"text": " so, you know, that's just one type of quality control check. Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:56,280",
+				"to": "00:16:06,040"
+			},
+			"offsets": {
+				"from": 956280,
+				"to": 966040
+			},
+			"text": " So we have a link to that? Yeah. Well, if I can find it. Is it the, what's it called?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:06,840",
+				"to": "00:16:15,480"
+			},
+			"offsets": {
+				"from": 966840,
+				"to": 975480
+			},
+			"text": " It's not the, it's the one that not shared while back. Is it that one?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:16,280",
+				"to": "00:16:24,120"
+			},
+			"offsets": {
+				"from": 976280,
+				"to": 984120
+			},
+			"text": " Yeah, there's like a handbook and editorial style, so what I, the current thing will ingest,"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:24,120",
+				"to": "00:16:32,200"
+			},
+			"offsets": {
+				"from": 984120,
+				"to": 992200
+			},
+			"text": " I had it ingest the three documents from WHO, IRIS, and create a voice or like, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:33,080",
+				"to": "00:16:40,360"
+			},
+			"offsets": {
+				"from": 993080,
+				"to": 1000360
+			},
+			"text": " rules for for authoring, et cetera, that can be applied. Okay. Yes. Okay. I need to jump"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:40,360",
+				"to": "00:16:46,600"
+			},
+			"offsets": {
+				"from": 1000360,
+				"to": 1006600
+			},
+			"text": " to this meeting. No problem. Yes. Okay. And maybe that's what I can do. Send the recording to me,"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:47,560",
+				"to": "00:16:53,560"
+			},
+			"offsets": {
+				"from": 1007560,
+				"to": 1013560
+			},
+			"text": " agent that's doing this recording. Please summarize and make a plan of all the planned feature"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:53,560",
+				"to": "00:17:02,600"
+			},
+			"offsets": {
+				"from": 1013560,
+				"to": 1022600
+			},
+			"text": " requirements and put them on a staging site with a preview link that we can share. Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:03,560",
+				"to": "00:17:09,000"
+			},
+			"offsets": {
+				"from": 1023560,
+				"to": 1029000
+			},
+			"text": " Thank you. And I'll stop the recording now, but yeah, that's great. What I can also"
+		}
+	]
+}

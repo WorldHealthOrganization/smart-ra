@@ -1,0 +1,78 @@
+{
+  "id": "pc-0142",
+  "summary": "rephrasing to make the statement easy to understand",
+  "comment": "rephrasing to make the statement easy to understand",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-f1f11b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0142",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 142,
+      "entry": "141",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1",
+      "page": "8",
+      "lines": "4-11",
+      "raw": "§1.1 p.8 l.4-11"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-f1f11b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.8 l.4-11 read as the printed page; section 1.1 agrees"
+    },
+    "type": "editorial",
+    "text": "rephrasing to make the statement easy to understand",
+    "suggestedRevision": "The majority of countries are not beginning from scratch : by 2025, 129 countries had established national digital health strategies in accordance with universal health coverage and the Sustainable Development Goals. However, the execution frequently stays scattered, as nations lack a methodical approach to transition from broad health objectives to solid infrasructure choices. The WHO's Global Startegy on Digital Health 2020-2027 urges Member States to establish digital health frameworks employing enterprise architecture methodologies, however, detailed guidance tailored to individual needs of countries has been mostly absent until recently. This directive addresses the gap.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 142"
+      }
+    ]
+  }
+}

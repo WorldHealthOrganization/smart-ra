@@ -1,0 +1,73 @@
+{
+  "id": "pc-2656",
+  "summary": "“Export” suggests a direct LHR-to-user data-transfer model that is not appropriate for all secondary-use governance fra…",
+  "comment": "“Export” suggests a direct LHR-to-user data-transfer model that is not appropriate for all secondary-use governance frameworks. Under the EHDS, processing for secondary use is permitted only for specified purposes and, in the ordinary access model, is authorised by a health data access body. Personal electronic health data are processed in secure processing environments, and personal data cannot be downloaded from those environments. The Reference Architecture should therefore treat secondary-use infrastructure as a distinct governance layer, rather than assuming that research and analytics platforms directly receive exports from the clinical LHR. This also makes the architecture compatible with federated health-data-space implementations.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2656",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 34,
+      "entry": "24",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Lifelong Health Record",
+      "page": "161",
+      "lines": "Secondary Use and Integration Table. Element 16",
+      "raw": "§Appendix C: Lifelong Health Record p.161 l.Secondary Use and Integration Table. Element 16"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "“Export” suggests a direct LHR-to-user data-transfer model that is not appropriate for all secondary-use governance frameworks. Under the EHDS, processing for secondary use is permitted only for specified purposes and, in the ordinary access model, is authorised by a health data access body. Personal electronic health data are processed in secure processing environments, and personal data cannot be downloaded from those environments. The Reference Architecture should therefore treat secondary-use infrastructure as a distinct governance layer, rather than assuming that research and analytics platforms directly receive exports from the clinical LHR. This also makes the architecture compatible with federated health-data-space implementations.",
+    "suggestedRevision": "Replace with: “Secondary-use data provision. The LHR shall support governed interfaces through which data necessary for legally authorised secondary purposes can be made available to the applicable secondary-use infrastructure. Where the legal framework provides for an access-authorisation body, data permit and/or secure processing environment, person-level data shall be routed through that mechanism rather than exported directly to secondary users or research applications.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 34"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0737",
+  "summary": "In every list pairing the three core terminologies, LOINC consistently appears last (“SNOMED CT, ICD-11, LOINC” or “ICD…",
+  "comment": "In every list pairing the three core terminologies, LOINC consistently appears last (“SNOMED CT, ICD-11, LOINC” or “ICD-11, SNOMED CT, LOINC”). Combined with the LOINC-as-downstream-example pattern noted in Comment 4, this may cumulatively read as treating LOINC as secondary. continued leadership in developing shared digital on this draft. We would welcome the opportunity content, worked mappings, or review of subsequent direct any follow-up questions to the contact listed",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0737",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 737,
+      "entry": "736",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc0c42fb96",
+      "organisation": "Regenstrief Institute (LOINC, UCUM)",
+      "country": "United States"
+    },
+    "citation": {
+      "section": "8. General – ordering convention throughout the document Closing We appreciate WHO's opportunity to comment including example finalization. Please",
+      "lines": "#8",
+      "raw": "§8. General – ordering convention throughout the document Closing We appreciate WHO's opportunity to comment including example finalization. Please l.#8"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-5",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "In every list pairing the three core terminologies, LOINC consistently appears last (“SNOMED CT, ICD-11, LOINC” or “ICD-11, SNOMED CT, LOINC”). Combined with the LOINC-as-downstream-example pattern noted in Comment 4, this may cumulatively read as treating LOINC as secondary. continued leadership in developing shared digital on this draft. We would welcome the opportunity content, worked mappings, or review of subsequent direct any follow-up questions to the contact listed",
+    "suggestedRevision": "No substantive change needed; noted for awareness. Varying the ordering in a future revision or stating explicitly that no priority is implied by list order, would remove any ambiguity. health infrastructure and the to provide further technical input — drafts — as this guidance moves toward above.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 737"
+      }
+    ]
+  }
+}

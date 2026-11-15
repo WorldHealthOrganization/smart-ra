@@ -1,0 +1,80 @@
+{
+  "id": "pc-0283",
+  "summary": "Workforce licence verification is specified as a synchronous online query against a central registry, invoked at the po…",
+  "comment": "Workforce licence verification is specified as a synchronous online query against a central registry, invoked at the point of care and therefore availability-critical (Health Workforce Registry requirements 8 and 22). The same guidance recommends offline operation for the Lifelong Health Record, HMIS and surveillance components, and Principle VII requires that the absence of continuous connectivity reduce what is available rather than lock users out. These requirements conflict in exactly the low-connectivity settings the guidance prioritises. Chapter 5 names verifiable digital credentials as an emerging technology (lines 8-9) but never connects them to the workforce credentialing APIs in section 4.3.4, their most direct application.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-cb7690",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0283",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 283,
+      "entry": "282",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (Health Workforce Registry)",
+      "page": "138-141",
+      "lines": "Requirements 8 and 22; also Principle VII (p. 34, lines 336-340) and Chapter 5 lines 8-9",
+      "raw": "§Appendix C (Health Workforce Registry) p.138-141 l.Requirements 8 and 22; also Principle VII (p. 34, lines 336-340) and Chapter 5 lines 8-9"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-cb7690",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-facility-registry-e2c6f0"
+      ],
+      "note": "p.138-141 l.Requirements 8 and 22; also Principle VII (p. 34, lines 336-340) and Chapter 5 lines 8-9 read as the PDF page; section C agrees"
+    },
+    "type": "technical",
+    "text": "Workforce licence verification is specified as a synchronous online query against a central registry, invoked at the point of care and therefore availability-critical (Health Workforce Registry requirements 8 and 22). The same guidance recommends offline operation for the Lifelong Health Record, HMIS and surveillance components, and Principle VII requires that the absence of continuous connectivity reduce what is available rather than lock users out. These requirements conflict in exactly the low-connectivity settings the guidance prioritises. Chapter 5 names verifiable digital credentials as an emerging technology (lines 8-9) but never connects them to the workforce credentialing APIs in section 4.3.4, their most direct application.",
+    "suggestedRevision": "Make the connection normative: a worker presents a cryptographically verifiable credential that verifies against cached trust state with no registry round-trip, with the registry acting as issuer and revocation anchor rather than as a synchronous verification dependency.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 283"
+      }
+    ]
+  }
+}

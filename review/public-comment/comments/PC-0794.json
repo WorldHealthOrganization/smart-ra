@@ -1,0 +1,79 @@
+{
+  "id": "pc-0794",
+  "summary": "The section identifies a core starting point consisting of metadata registries, the Lifelong Health Record, and data ex…",
+  "comment": "The section identifies a core starting point consisting of metadata registries, the Lifelong Health Record, and data exchange. Treating the Lifelong Health Record as part of the minimum starting point may be unrealistic in countries that lack reliable digital capture, identity resolution, connectivity, or governance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-cc83da",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0794",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 30,
+      "entry": "29",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1",
+      "page": "27",
+      "lines": "Lines 117-123",
+      "raw": "§2.2.1 p.27 l.Lines 117-123"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-cc83da",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-2-1-88dd2d"
+      ],
+      "note": "p.27 l.Lines 117-123 read as the printed page; section 2.2.1 agrees"
+    },
+    "text": "The section identifies a core starting point consisting of metadata registries, the Lifelong Health Record, and data exchange. Treating the Lifelong Health Record as part of the minimum starting point may be unrealistic in countries that lack reliable digital capture, identity resolution, connectivity, or governance.",
+    "suggestedRevision": "Present the LHR as a progressively realised capability. Allow the initial foundation to begin with identity, facility and workforce reference data, minimum exchange specifications, and selected longitudinal datasets driven by priority use cases.",
+    "labels": {
+      "Comment type": "Architecture"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 30"
+      }
+    ]
+  }
+}

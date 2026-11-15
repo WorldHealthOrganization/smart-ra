@@ -1,0 +1,88 @@
+{
+  "id": "pc-0042",
+  "summary": "The measurement framework tracks component coverage, conformance, governance maturity and outcomes, but it lacks a meas…",
+  "comment": "The measurement framework tracks component coverage, conformance, governance maturity and outcomes, but it lacks a measure of successful human access. Geographic or population reach does not show whether people can authenticate, understand the interface, complete a task, use an authorised representative, or obtain redress when access fails.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-2-51501c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0042",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 42,
+      "entry": "41",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.1–4.4.2 — Measuring Progress and Impact",
+      "page": "109–110",
+      "lines": "427–460",
+      "raw": "§4.4.1–4.4.2 — Measuring Progress and Impact p.109–110 l.427–460"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-2-51501c",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-5-6a9e1b"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 4.4.1-4.4.2 and proposes a fifth tracking dimension; this block lists the dimensions"
+    },
+    "type": "technical",
+    "text": "The measurement framework tracks component coverage, conformance, governance maturity and outcomes, but it lacks a measure of successful human access. Geographic or population reach does not show whether people can authenticate, understand the interface, complete a task, use an authorised representative, or obtain redress when access fails.",
+    "suggestedRevision": "Add a fifth dimension, “equitable access and effective use”. Indicators should include successful authentication and task completion, abandonment and support requests, availability and use of assisted or delegated access, accessibility conformance, grievance resolution, and inappropriate exclusion. Results should be disaggregated by age, disability or functional-access need, language, geography and care setting while protecting privacy.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 42"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 4.4.1-4.4.2 and proposes a fifth tracking dimension; this block lists the dimensions"
+      }
+    ]
+  }
+}

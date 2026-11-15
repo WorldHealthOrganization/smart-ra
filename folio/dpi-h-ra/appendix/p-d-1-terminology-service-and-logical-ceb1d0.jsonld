@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-d-1-terminology-service-and-logical-ceb1d0",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:d-1-terminology-service-and-logical-ceb1d0",
+  "kind": "prose",
+  "cites": [
+    "references/snowstorm",
+    "references/ontoserver",
+    "references/tx-fhir-org",
+    "references/openehr-ckm"
+  ],
+  "text": "p-d-1-terminology-service-and-logical-ceb1d0.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 1020,
+      "page": 242,
+      "printedPage": "231",
+      "lineStart": 81,
+      "lineEnd": 90,
+      "method": "numbered-reordered"
+    }
+  },
+  "provenance": "authored"
+}

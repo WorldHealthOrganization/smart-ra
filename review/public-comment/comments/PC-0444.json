@@ -1,0 +1,80 @@
+{
+  "id": "pc-0444",
+  "summary": "The financing chapter distinguishes how DPI-H is financed from what digital health financing can deliver. It could also…",
+  "comment": "The financing chapter distinguishes how DPI-H is financed from what digital health financing can deliver. It could also consider routine financing workflows as one possible implementation lever for interoperability. In settings where claims, reimbursement or provider payment are central to routine operations, standards-conformant digital submission may create a recurring operational incentive for adoption. However, an immediate payment gate could shift effort toward syntactic compliance, exclude smaller providers or create risks of service disruption.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-1-31b1da",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0444",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 444,
+      "entry": "443",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.1–4.6.3",
+      "page": "102–103",
+      "lines": "548–600",
+      "raw": "§4.6.1–4.6.3 p.102–103 l.548–600"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-1-31b1da",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-6-1-6f998e"
+      ],
+      "note": "p.102–103 l.548–600 read as the printed page; section 4.6.1 agrees"
+    },
+    "type": "general",
+    "text": "The financing chapter distinguishes how DPI-H is financed from what digital health financing can deliver. It could also consider routine financing workflows as one possible implementation lever for interoperability. In settings where claims, reimbursement or provider payment are central to routine operations, standards-conformant digital submission may create a recurring operational incentive for adoption. However, an immediate payment gate could shift effort toward syntactic compliance, exclude smaller providers or create risks of service disruption.",
+    "suggestedRevision": "Add an optional, context-dependent implementation pattern in which claims, reimbursement or analogous routine financing workflows are used as a phased incentive for standards-conformant submission rather than as an immediate binary gate. Couple this approach with semantic and data-quality validation, transparent rejection feedback, grace periods, exception handling, appeals or remediation pathways, and technical support for smaller providers. The guidance should note that the choice and timing of such incentives must be aligned with national financing arrangements, legal requirements and equity safeguards.\n\n(For example, in Iran, hospitals are legally required to provide free inpatient care for accident-related injuries and subsequently submit claims to the Ministry of Health for reimbursement. Because nationwide compliance with electronic data submission was difficult to achieve immediately, the Ministry initially made reimbursement of these claims to inpatient hospital facilities contingent on submission of structured discharge data to the national electronic health record. In a second phase, basic public insurers similarly linked their hospital reimbursement to data submitted to the national EHR. This phased linkage between payment and EHR submission supported a transition to fully automated, EHR-based claims adjudication for inpatient services.)\n\n(A comparable international precedent is the United States' Medicare and Medicaid EHR Incentive Programs-  commonly known as \"Meaningful Use\"-  under which providers received payment incentives, and later payment adjustments, tied to demonstrated use of certified EHR technology and structured data submission. The programme achieved rapid national uptake of certified systems, but was also found to shift provider effort toward meeting reportable data-capture criteria rather than toward the underlying clinical objective, and increased documentation burden on clinicians. This reinforces the need, noted above, for semantic and data-quality validation rather than syntactic submission alone, and for monitoring unintended effects on clinical workflow and coding behaviour when payment is linked to data submission.)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 444"
+      }
+    ]
+  }
+}

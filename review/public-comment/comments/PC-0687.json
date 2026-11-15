@@ -1,0 +1,76 @@
+{
+  "id": "pc-0687",
+  "summary": "AI/ML lifecycle governance should be explicit across the architecture. Chapter 5 appropriately requires representative …",
+  "comment": "AI/ML lifecycle governance should be explicit across the architecture. Chapter 5 appropriately requires representative data, evaluation, human oversight and monitoring for model drift. Appendix C also provides strong lifecycle governance for computable decision logic. However, the architecture does not explicitly define how learned AI/ML models deployed through decision support, surveillance, analytics or point-of-service applications should be identified, versioned and linked to validation and monitoring evidence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0687",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 687,
+      "entry": "686",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "(not stated)",
+      "country": "(not stated)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Sections 5.3-5.4.3, pp. 107-109, especially lines 109-169; Appendix C - Computable Decision Support Engine, pp. 181-189.",
+      "raw": "§Sections 5.3-5.4.3, pp. 107-109, especially lines 109-169; Appendix C - Computable Decision Support Engine, pp. 181-189."
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "AI/ML lifecycle governance should be explicit across the architecture. Chapter 5 appropriately requires representative data, evaluation, human oversight and monitoring for model drift. Appendix C also provides strong lifecycle governance for computable decision logic. However, the architecture does not explicitly define how learned AI/ML models deployed through decision support, surveillance, analytics or point-of-service applications should be identified, versioned and linked to validation and monitoring evidence.",
+    "suggestedRevision": "Define a cross-cutting AI/ML lifecycle governance profile rather than a mandatory central AI component. Consequential AI outputs should be traceable to a unique model identifier/version, accountable owner, intended use, validation population and context, relevant performance evidence, deployment status, human-oversight requirements, monitoring/drift criteria, and suspension/rollback/decommission status. Existing CDSE versioning, audit and rollback patterns can be referenced as an architectural precedent.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "Major / Technical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 687"
+      }
+    ]
+  }
+}

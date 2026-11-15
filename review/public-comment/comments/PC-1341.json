@@ -1,0 +1,77 @@
+{
+  "id": "pc-1341",
+  "summary": "MCP is mentioned as an emerging shared-interface convention without explaining its maturity, security implications, gov…",
+  "comment": "MCP is mentioned as an emerging shared-interface convention without explaining its maturity, security implications, governance, or suitability for health settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-32e323",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1341",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 577,
+      "entry": "576",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2",
+      "page": "106",
+      "lines": "Lines 94-95",
+      "raw": "§5.2 p.106 l.Lines 94-95"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-32e323",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.106 l.Lines 94-95 read as the printed page; section 5.2 agrees"
+    },
+    "text": "MCP is mentioned as an emerging shared-interface convention without explaining its maturity, security implications, governance, or suitability for health settings.",
+    "suggestedRevision": "Present MCP only as an example of an emerging interface pattern. State that any adoption requires security review, standardisation assessment, health-sector profiling, access governance, and evidence of operational suitability.",
+    "labels": {
+      "Comment type": "Q13 - Examples and evidence"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 577"
+      }
+    ]
+  }
+}

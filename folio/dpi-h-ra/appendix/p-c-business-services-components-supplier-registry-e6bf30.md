@@ -1,0 +1,1 @@
+The following table defines the minimum dataset for a supplier record in the Supplier Registry. Status reflects the minimum requirement for a record to be published as active and usable by consuming supply chain systems.

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0643",
+  "summary": "Concerns / changes: Summary Action: Build a community of practice around the Reference Architecture",
+  "comment": "Concerns / changes: Summary Action: Build a community of practice around the Reference Architecture\n\nTo fill these translation gaps, the Asia eHealth Information Network, together with the Pacific Health Information Network, jointly announce the creation of the Asia-Pacific COIL (AP-COIL).\n\nThe goals of AP-COIL are:\n\n1. Rapid, systematic, structured dissemination of the WHO-ITU Reference Architecture. AeHIN and PHIN will host webinars and feature resource persons from WHO-ITU as speakers. The regional networks will pull in the right audience in each region and country.\n\n2. Formalizing the Asia-Pacific Community of Interoperability Labs (AP-COIL) as a community of practice aligning the global, regional, and national reference architectures. WPRO/SEARO regional experts will be invited to provide guidance and oversight.\n\n3. Empowering the AP-COIL to craft the regional implementation guides along with a regional reference implementation on Open Health Stack (tbc). This regional effort can begin from the best practices and lessons learned from the International Patient Summary for the Hajj as a use case.\n\n4. Committing the AP-COIL members to continuously connect their country's efforts to the regional interoperability blueprint and ensure alignment through continuous knowledge sharing.\n\nAttached as Part 2 are the AP-COIL Concept Note (Part 2) and the proposal for a Philippine-specific reference implementation using OpenHealthStack (annex). Both are needed to show alignment of the WHO-ITU Reference Architecture for Digital Public Infrastructure with the WPRO/SEARO Regional Action Frameworks and a national digital health strategy.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0643",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 643,
+      "entry": "642",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Announces a regional community of practice; general, not about a passage."
+    },
+    "type": "general",
+    "text": "Concerns / changes: Summary Action: Build a community of practice around the Reference Architecture\n\nTo fill these translation gaps, the Asia eHealth Information Network, together with the Pacific Health Information Network, jointly announce the creation of the Asia-Pacific COIL (AP-COIL).\n\nThe goals of AP-COIL are:\n\n1. Rapid, systematic, structured dissemination of the WHO-ITU Reference Architecture. AeHIN and PHIN will host webinars and feature resource persons from WHO-ITU as speakers. The regional networks will pull in the right audience in each region and country.\n\n2. Formalizing the Asia-Pacific Community of Interoperability Labs (AP-COIL) as a community of practice aligning the global, regional, and national reference architectures. WPRO/SEARO regional experts will be invited to provide guidance and oversight.\n\n3. Empowering the AP-COIL to craft the regional implementation guides along with a regional reference implementation on Open Health Stack (tbc). This regional effort can begin from the best practices and lessons learned from the International Patient Summary for the Hajj as a use case.\n\n4. Committing the AP-COIL members to continuously connect their country's efforts to the regional interoperability blueprint and ensure alignment through continuous knowledge sharing.\n\nAttached as Part 2 are the AP-COIL Concept Note (Part 2) and the proposal for a Philippine-specific reference implementation using OpenHealthStack (annex). Both are needed to show alignment of the WHO-ITU Reference Architecture for Digital Public Infrastructure with the WPRO/SEARO Regional Action Frameworks and a national digital health strategy.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 643"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Announces a regional community of practice; general, not about a passage."
+      }
+    ]
+  }
+}

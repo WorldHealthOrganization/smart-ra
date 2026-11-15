@@ -1,0 +1,78 @@
+{
+  "id": "pc-0293",
+  "summary": "Two consecutive sections are both numbered 4.3.4 (Integration Interfaces with Foundational DPI, and Interoperability Im…",
+  "comment": "Two consecutive sections are both numbered 4.3.4 (Integration Interfaces with Foundational DPI, and Interoperability Implementation Pathways), which shifts the numbering of the following sections.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-83c937",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0293",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 293,
+      "entry": "292",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "96-97",
+      "lines": "339 and 369",
+      "raw": "§4.3.4 p.96-97 l.339 and 369"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-83c937",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96-97 l.339 and 369 read as the printed page; section 4.3.4 agrees"
+    },
+    "type": "editorial",
+    "text": "Two consecutive sections are both numbered 4.3.4 (Integration Interfaces with Foundational DPI, and Interoperability Implementation Pathways), which shifts the numbering of the following sections.",
+    "suggestedRevision": "Renumber the second 4.3.4 and cascade the correction through 4.3.5 and the table of contents.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 293"
+      }
+    ]
+  }
+}

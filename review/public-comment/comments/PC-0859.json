@@ -1,0 +1,79 @@
+{
+  "id": "pc-0859",
+  "summary": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the …",
+  "comment": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the architecture’s structural description. This could reinforce an artificial separation between architecture and implementation, even though these factors constrain architectural choices.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-2-fe51ea",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0859",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 95,
+      "entry": "94",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.2",
+      "page": "47",
+      "lines": "Lines 121-125",
+      "raw": "§3.2 p.47 l.Lines 121-125"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-2-fe51ea",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-2-d7db38"
+      ],
+      "note": "p.47 l.Lines 121-125 read as the printed page; section 3.2 agrees"
+    },
+    "text": "Legal, governance, workforce, organisational, and change-management considerations are described as sitting beyond the architecture’s structural description. This could reinforce an artificial separation between architecture and implementation, even though these factors constrain architectural choices.",
+    "suggestedRevision": "Clarify that these considerations are not represented fully in the core structural views but remain architecture requirements and constraints that must be linked to relevant components, services, and implementation decisions.",
+    "labels": {
+      "Comment type": "Q10 - Implementation"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 95"
+      }
+    ]
+  }
+}

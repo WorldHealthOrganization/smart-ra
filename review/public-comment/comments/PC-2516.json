@@ -1,0 +1,78 @@
+{
+  "id": "pc-2516",
+  "summary": "Clinical-to-statistical HMIS pathway — The existing “capture once” principle is strong; its classification-aware mechan…",
+  "comment": "Clinical-to-statistical HMIS pathway — The existing “capture once” principle is strong; its classification-aware mechanism is missing. This is the most direct place to operationalise the supplied data-continuity paper without claiming that reuse needs no rules or information beyond terminology.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2516",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 59,
+      "entry": "58",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Health Management Information System, §4",
+      "page": "212",
+      "lines": "A22.01",
+      "raw": "§Health Management Information System, §4 p.212 l.A22.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-ce546c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-health-management-information-sy-681d79",
+        "prose:c-business-services-components-health-management-information-sy-1146af",
+        "prose:c-business-services-components-health-management-information-sy-6b844c"
+      ],
+      "note": "p.212 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Clinical-to-statistical HMIS pathway — The existing “capture once” principle is strong; its classification-aware mechanism is missing. This is the most direct place to operationalise the supplied data-continuity paper without claiming that reuse needs no rules or information beyond terminology.",
+    "suggestedRevision": "Insert paragraph: Where the source record is coded directly in ICD-11, the HMIS should reuse that representation and derive the required statistical output using the selected MMS release and applicable morbidity or mortality rules. It should retain traceability from the output to the original clinical statement, including any more detailed Foundation concept or postcoordinated expression. Where source data uses another terminology, the mapping and classification process should be identified separately, with unresolved cases and loss of detail visible. A single coded diagnosis is not, by itself, a complete case definition, episode definition, denominator, or reporting rule.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 59"
+      }
+    ]
+  }
+}

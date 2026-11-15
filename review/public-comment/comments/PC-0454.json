@@ -1,0 +1,78 @@
+{
+  "id": "pc-0454",
+  "summary": "Public governance is rightly defined as accountable stewardship under public mandate rather than public ownership. But …",
+  "comment": "Public governance is rightly defined as accountable stewardship under public mandate rather than public ownership. But the principle names no instrument that makes the accountability real, so 'accountable to public oversight' is a statement of intent that almost any arrangement can claim to satisfy.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-1298cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0454",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 454,
+      "entry": "453",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4",
+      "page": "20",
+      "lines": "394",
+      "raw": "§1.4 p.20 l.394"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-1298cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.20 l.394 read as the printed page; section 1.4 agrees"
+    },
+    "type": "technical",
+    "text": "Public governance is rightly defined as accountable stewardship under public mandate rather than public ownership. But the principle names no instrument that makes the accountability real, so 'accountable to public oversight' is a statement of intent that almost any arrangement can claim to satisfy.",
+    "suggestedRevision": "List the minimum instruments that give the principle effect: formal designation of the operator with a defined mandate and term; an approved multi-year plan; performance published and measured by a party other than the operator; a proportionate sanction available to the overseeing authority; and a transfer regime if the operator fails or exits. In the Netherlands generic national functions are operated by private-law foundations funded predominantly by one payer with none of these instruments in place - an arrangement that satisfies the principle as currently worded.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 454"
+      }
+    ]
+  }
+}

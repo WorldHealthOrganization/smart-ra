@@ -1,0 +1,79 @@
+{
+  "id": "pc-0177",
+  "summary": "The governance principles appropriately address decision authority, escalation, transparency and accountability. The Cl…",
+  "comment": "The governance principles appropriately address decision authority, escalation, transparency and accountability. The Clinical Decision Support Engine later provides a useful concrete pattern in which consequential decision logic is tied to authoritative content, transparency, accountability and documented override. Consider whether the general governance principles should identify an analogous cross-cutting traceability principle for other rules-based DPI-H decisions that materially affect individuals, providers, programmes or institutions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0177",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 177,
+      "entry": "176",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9b5d0aa903",
+      "name": "Yetunde Yusuf",
+      "organisation": "HCOS Technologies, Inc.",
+      "country": "United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "55",
+      "lines": "250–288",
+      "raw": "§3.4.2 p.55 l.250–288"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.55 l.250–288 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "The governance principles appropriately address decision authority, escalation, transparency and accountability. The Clinical Decision Support Engine later provides a useful concrete pattern in which consequential decision logic is tied to authoritative content, transparency, accountability and documented override. Consider whether the general governance principles should identify an analogous cross-cutting traceability principle for other rules-based DPI-H decisions that materially affect individuals, providers, programmes or institutions.",
+    "suggestedRevision": "Consider adding a cross-cutting governance principle that, where automated or rules-based processing materially affects an individual, provider, programme or institution, implementations should preserve sufficient traceability to reconstruct, as applicable, the authoritative requirement or rule version used, relevant evidence or data considered, resulting determination, responsible actor or system, timestamp, and any authorised exception or override.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 177"
+      }
+    ]
+  }
+}

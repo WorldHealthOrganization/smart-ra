@@ -1,0 +1,86 @@
+{
+  "id": "pc-1912",
+  "summary": "Dependency and impact analysis are not sufficiently explicit, although terminology changes can affect profiles, data mo…",
+  "comment": "Dependency and impact analysis are not sufficiently explicit, although terminology changes can affect profiles, data models, decision logic, measures, and historical data.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1912",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1148,
+      "entry": "1147",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Terminology Service, 3",
+      "page": "168",
+      "lines": "Core attributes",
+      "raw": "§Terminology Service, 3 p.168 l.Core attributes"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): TS core attributes list (lifecycle management)."
+    },
+    "text": "Dependency and impact analysis are not sufficiently explicit, although terminology changes can affect profiles, data models, decision logic, measures, and historical data.",
+    "suggestedRevision": "Make dependency management and impact analysis mandatory for changes to widely used concepts, value sets, mappings, and editions.",
+    "labels": {
+      "Comment type": "Q15 - Completeness"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1148"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): TS core attributes list (lifecycle management)."
+      }
+    ]
+  }
+}

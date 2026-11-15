@@ -1,0 +1,79 @@
+{
+  "id": "pc-0062",
+  "summary": "Implication that this is a static/piecemeal process rather than one that should be established as a live process",
+  "comment": "Implication that this is a static/piecemeal process rather than one that should be established as a live process",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-aef916",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0062",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 62,
+      "entry": "61",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57",
+      "lines": "392-394",
+      "raw": "§3.4.5 p.57 l.392-394"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-aef916",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.57 l.392-394 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "Implication that this is a static/piecemeal process rather than one that should be established as a live process",
+    "suggestedRevision": "Incorporate a view that in an ideal system the \"change requests\" like incident reports should be embedded in the operational/delivery systems that are not covered by the DPI-H architecture. A commentrary on the criticality of referencing the numan components of the system as well as the optimal human-machine interactions and the mutual interdependency of the DPI-H and serviced operational systems would be appropriate in the context of the SGI discussion (including the section that follows this one)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 62"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pc-0067",
+  "summary": "I would challenge a prior assumption that anything should be protected from re-invention including existing standards",
+  "comment": "I would challenge a prior assumption that anything should be protected from re-invention including existing standards",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-2-a1249f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0067",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 67,
+      "entry": "66",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.2",
+      "page": "73",
+      "lines": "811",
+      "raw": "§3.6.2 p.73 l.811"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-2-a1249f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-2-358434"
+      ],
+      "note": "p.73 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "I would challenge a prior assumption that anything should be protected from re-invention including existing standards",
+    "suggestedRevision": "While referring to existing established, dominant even good standards, it works against the general intentions of DPI to explicitly name anything but a proven ideal standard. The later description does mitigate somewhat but I would recommend mimising the implication that something is \"approved\"\nThe final paragraph describes adaptors but I would suggest making this explicit as an operational delivery compromise rather than the answer to the boundary/replacement challenges for an true interoperability\nAll this is particularly important where alternatives to structure are entertained as in comment #19",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 67"
+      }
+    ]
+  }
+}

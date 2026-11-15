@@ -1,0 +1,81 @@
+{
+  "id": "pc-0523",
+  "summary": "The architecture separates knowledge governance (LIMR) from execution (CDSE) but nothing attests that content executed …",
+  "comment": "The architecture separates knowledge governance (LIMR) from execution (CDSE) but nothing attests that content executed at runtime is byte-identical to content the LIMR governs. The WHO governance -> national LIMR -> CDSE trust chain is only as strong as this hand-off. Observed instance: a current knowledge-manager implementation indexes content by path reference with no copy and no checksum, so evaluation-time bytes are unattested against install-time content (reported on ohs-foundation/kotlin-fhir-knowledge PR #2, Aug 2026).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-6579aa",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0523",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 523,
+      "entry": "522",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-968ed540b2",
+      "name": "Dan Heslinga, MD",
+      "organisation": "Hopena Health",
+      "country": "United States of America (Hawaii)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (LIMR; CDSE)",
+      "page": "175; 181-190",
+      "lines": "Table (LIMR FR3/FR9); CDSE FRs",
+      "raw": "§Appendix C (LIMR; CDSE) p.175; 181-190 l.Table (LIMR FR3/FR9); CDSE FRs"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-6579aa",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-6887fa",
+        "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-709d2c"
+      ],
+      "note": "p.175; 181-190 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The architecture separates knowledge governance (LIMR) from execution (CDSE) but nothing attests that content executed at runtime is byte-identical to content the LIMR governs. The WHO governance -> national LIMR -> CDSE trust chain is only as strong as this hand-off. Observed instance: a current knowledge-manager implementation indexes content by path reference with no copy and no checksum, so evaluation-time bytes are unattested against install-time content (reported on ohs-foundation/kotlin-fhir-knowledge PR #2, Aug 2026).",
+    "suggestedRevision": "Add Required attributes: the LIMR publishes content with integrity metadata (version + hash); the CDSE verifies loaded logic against that metadata and records executed-content identity in decision audit records. This gives 'preserve fidelity' (glossary, p.2) a mechanical enforcement point.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 523"
+      }
+    ]
+  }
+}

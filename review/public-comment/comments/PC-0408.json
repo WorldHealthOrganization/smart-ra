@@ -1,0 +1,79 @@
+{
+  "id": "pc-0408",
+  "summary": "Figure 3.5 places EMR in the same tier as core registries, contradicting its point-of-service classification elsewhere …",
+  "comment": "Figure 3.5 places EMR in the same tier as core registries, contradicting its point-of-service classification elsewhere (p.52 vs. p.48).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0408",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 408,
+      "entry": "407",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "page": "52",
+      "lines": "Figure 3.5",
+      "caption": "Figure 3.5",
+      "raw": "§3.5 p.52 l.Figure 3.5"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.5 only"
+    },
+    "type": "technical",
+    "text": "Figure 3.5 places EMR in the same tier as core registries, contradicting its point-of-service classification elsewhere (p.52 vs. p.48).",
+    "suggestedRevision": "Set EMR at the correct Tier",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 408"
+      }
+    ]
+  }
+}

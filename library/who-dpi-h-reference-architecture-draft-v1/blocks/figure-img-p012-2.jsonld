@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p012-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p012-2.png",
+  "pageStart": 12,
+  "pageEnd": 12,
+  "narrative": [
+    {
+      "text": "Figure 1. A planning chart in seven coloured rows, one per phase of planning and implementing digital health: 01 assessing the current state and enabling environment, 02 establishing a shared understanding and strategic planning, 03 defining the future state, 04 planning the enterprise architecture, 05 determining health content requirements, 06 M&E of digital health implementations and fostering data use, 07 implementing, maintaining and scaling. Each row lists its steps, then the WHO, ITU and partner tools that support it (among them the WHO-ITU National eHealth Strategy Toolkit, the DIIG, OpenHIE, TOGAF, WHO SMART Guidelines' digital adaptation kits, ICD-11 and HL7 FHIR). A dashed box at the right, 'WHO-ITU Reference Architecture for DPI-H', spans the phases. A footnote expands the abbreviations HIS, ICT, ITU, M&E and SDG.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 1. Un tableau de planification en sept rangées colorées, une par phase de la planification et de la mise en œuvre de la santé numérique : 01 évaluer la situation actuelle et l'environnement favorable, 02 établir une compréhension commune et planifier de manière stratégique, 03 définir la situation future, 04 planifier l'architecture d'entreprise, 05 déterminer les exigences de contenu sanitaire, 06 suivi et évaluation des mises en œuvre de la santé numérique et promotion de l'utilisation des données, 07 mettre en œuvre, maintenir et passer à l'échelle. Chaque rangée énumère ses étapes, puis les outils de l'OMS, de l'UIT et des partenaires qui la soutiennent (parmi lesquels la boîte à outils OMS-UIT pour les stratégies nationales de cybersanté, le DIIG, OpenHIE, TOGAF, les kits d'adaptation numérique des WHO SMART Guidelines, la CIM-11 et HL7 FHIR). Un cadre en pointillés à droite, « WHO-ITU Reference Architecture for DPI-H », couvre l'ensemble des phases. Une note de bas de page développe les abréviations HIS, ICT, ITU, M&E et SDG.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 1. Un cuadro de planificación en siete filas de colores, una por cada fase de la planificación y la implementación de la salud digital: 01 evaluar la situación actual y el entorno propicio, 02 establecer un entendimiento común y la planificación estratégica, 03 definir la situación futura, 04 planificar la arquitectura empresarial, 05 determinar los requisitos de contenido sanitario, 06 seguimiento y evaluación de las implementaciones de salud digital y fomento del uso de los datos, 07 implementar, mantener y ampliar. Cada fila enumera sus pasos y, a continuación, las herramientas de la OMS, la UIT y los asociados que la respaldan (entre ellas el conjunto de herramientas OMS-UIT para estrategias nacionales de cibersalud, el DIIG, OpenHIE, TOGAF, los kits de adaptación digital de las WHO SMART Guidelines, la CIE-11 y HL7 FHIR). Un recuadro de trazo discontinuo a la derecha, «WHO-ITU Reference Architecture for DPI-H», abarca todas las fases. Una nota al pie desarrolla las abreviaturas HIS, ICT, ITU, M&E y SDG.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 1. مخطط تخطيط من سبعة صفوف ملوّنة، صف لكل مرحلة من مراحل تخطيط الصحة الرقمية وتنفيذها: 01 تقييم الوضع الراهن والبيئة التمكينية، 02 إرساء فهم مشترك والتخطيط الاستراتيجي، 03 تحديد الوضع المستقبلي، 04 تخطيط البنية المؤسسية، 05 تحديد متطلبات المحتوى الصحي، 06 رصد تنفيذ الصحة الرقمية وتقييمه وتعزيز استخدام البيانات، 07 التنفيذ والصيانة والتوسيع. يسرد كل صف خطواته، ثم أدوات منظمة الصحة العالمية والاتحاد الدولي للاتصالات والشركاء التي تدعمه (ومنها مجموعة أدوات الاستراتيجية الوطنية للصحة الإلكترونية المشتركة بين المنظمة والاتحاد، وDIIG، وOpenHIE، وTOGAF، ومجموعات التكييف الرقمي ضمن WHO SMART Guidelines، والتصنيف الدولي للأمراض ICD-11، وHL7 FHIR). ويمتد إطار متقطع على اليمين بعنوان «WHO-ITU Reference Architecture for DPI-H» عبر جميع المراحل. وتشرح حاشية سفلية الاختصارات HIS وICT وITU وM&E وSDG.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 1. Таблица планирования из семи цветных строк, по одной на каждый этап планирования и внедрения цифрового здравоохранения: 01 оценка текущего состояния и благоприятной среды, 02 формирование общего понимания и стратегическое планирование, 03 определение целевого состояния, 04 планирование архитектуры предприятия, 05 определение требований к медицинскому контенту, 06 мониторинг и оценка внедрений цифрового здравоохранения и содействие использованию данных, 07 внедрение, сопровождение и масштабирование. В каждой строке перечислены её шаги, а затем инструменты ВОЗ, МСЭ и партнёров, которые её поддерживают (среди них набор инструментов ВОЗ–МСЭ для национальной стратегии электронного здравоохранения, DIIG, OpenHIE, TOGAF, наборы цифровой адаптации WHO SMART Guidelines, МКБ-11 и HL7 FHIR). Пунктирная рамка справа, «WHO-ITU Reference Architecture for DPI-H», охватывает все этапы. В сноске расшифрованы сокращения HIS, ICT, ITU, M&E и SDG.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 1。一张由七个彩色行组成的规划图，每行对应数字卫生规划与实施的一个阶段：01 评估现状与有利环境，02 建立共识并进行战略规划，03 界定未来状态，04 规划企业架构，05 确定卫生内容需求，06 数字卫生实施的监测与评价及促进数据使用，07 实施、维护与推广。每行列出其步骤，然后列出支持该阶段的世卫组织、国际电联及合作伙伴工具（其中包括世卫组织-国际电联国家电子卫生战略工具包、DIIG、OpenHIE、TOGAF、WHO SMART Guidelines 数字适配工具包、ICD-11 和 HL7 FHIR）。右侧一个虚线框“WHO-ITU Reference Architecture for DPI-H”贯穿各个阶段。脚注解释了缩写 HIS、ICT、ITU、M&E 和 SDG。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-front-matter",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

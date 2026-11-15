@@ -1,0 +1,85 @@
+{
+  "id": "pc-0657",
+  "summary": "Context assumptions: The guidance is generally strong in recognising different levels of digital maturity, resource ava…",
+  "comment": "Context assumptions: The guidance is generally strong in recognising different levels of digital maturity, resource availability and connectivity, so I do not see a major assumption that all countries start from similar conditions.\n\nHowever, implementation may still implicitly depend on institutional capacities that are uneven across settings: sustained governance of shared national components, clear assignment of data stewardship and decision rights, technical capacity to maintain standards and information models over time, and the ability to enforce consistent access and consent policies across fragmented or federated systems.\n\nIn lower-capacity settings, reliable connectivity, mature national identity infrastructure, specialist interoperability expertise and long-term financing may also be incomplete or unstable. I therefore suggest distinguishing more explicitly between capabilities that may mature progressively and minimum non-negotiable properties-particularly security, auditability, provenance and safe handling of conflicting data-that should remain required even at early stages of implementation.\n\nOffline and federated environments deserve particular attention: \"reliable synchronisation\" is necessary, but clinically significant conflicting updates need explicit minimum conflict-resolution and reconciliation rules.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0657",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 657,
+      "entry": "656",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "Independent Researcher",
+      "country": "Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15"
+      ],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): General context-assumptions answer; not about the LHR requirements table it was quote-matched to."
+    },
+    "type": "general",
+    "text": "Context assumptions: The guidance is generally strong in recognising different levels of digital maturity, resource availability and connectivity, so I do not see a major assumption that all countries start from similar conditions.\n\nHowever, implementation may still implicitly depend on institutional capacities that are uneven across settings: sustained governance of shared national components, clear assignment of data stewardship and decision rights, technical capacity to maintain standards and information models over time, and the ability to enforce consistent access and consent policies across fragmented or federated systems.\n\nIn lower-capacity settings, reliable connectivity, mature national identity infrastructure, specialist interoperability expertise and long-term financing may also be incomplete or unstable. I therefore suggest distinguishing more explicitly between capabilities that may mature progressively and minimum non-negotiable properties-particularly security, auditability, provenance and safe handling of conflicting data-that should remain required even at early stages of implementation.\n\nOffline and federated environments deserve particular attention: \"reliable synchronisation\" is necessary, but clinically significant conflicting updates need explicit minimum conflict-resolution and reconciliation rules.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 657"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): General context-assumptions answer; not about the LHR requirements table it was quote-matched to."
+      }
+    ]
+  }
+}

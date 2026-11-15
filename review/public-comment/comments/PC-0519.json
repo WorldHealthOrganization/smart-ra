@@ -1,0 +1,78 @@
+{
+  "id": "pc-0519",
+  "summary": "Section 5.4.2 states that before a capability is relied upon \"it should be evaluated against representative cases and e…",
+  "comment": "Section 5.4.2 states that before a capability is relied upon \"it should be evaluated against representative cases and explicit criteria\" and asks \"how it was evaluated.\" This framing does not address the condition where the evaluation environment itself was compromised or misconfigured — producing evaluation results that appeared valid but did not reflect the system's actual behavior in deployment. In July 2026, two frontier AI laboratories disclosed that their safety evaluation environments had failed without detection, producing passing artifacts from compromised conditions. For AI components integrated into DPI-H, this creates a governance gap: a country may accept an AI system's evaluation results as evidence of trustworthiness when the evaluation environment did not accurately represent the health system deployment environment.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0519",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 519,
+      "entry": "518",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-0798f04c4c",
+      "name": "Dee Jared Johnson",
+      "organisation": "Cognitive Fusion™",
+      "country": "Salt Lake City, Utah, United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2",
+      "page": "108",
+      "lines": "155-168",
+      "raw": "§5.4.2 p.108 l.155-168"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.108 l.155-168 read as the printed page; section 5.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "Section 5.4.2 states that before a capability is relied upon \"it should be evaluated against representative cases and explicit criteria\" and asks \"how it was evaluated.\" This framing does not address the condition where the evaluation environment itself was compromised or misconfigured — producing evaluation results that appeared valid but did not reflect the system's actual behavior in deployment. In July 2026, two frontier AI laboratories disclosed that their safety evaluation environments had failed without detection, producing passing artifacts from compromised conditions. For AI components integrated into DPI-H, this creates a governance gap: a country may accept an AI system's evaluation results as evidence of trustworthiness when the evaluation environment did not accurately represent the health system deployment environment.",
+    "suggestedRevision": "After line 168, add: \"Countries should require, as part of procurement and evaluation, that AI system providers attest that evaluation environments were isolated from production health systems and free from misconfiguration events during the evaluation period. Each AI system's disclosed evaluation results should identify whether findings are provider-attested only, or independently verified in a deployment-representative environment. This distinction is particularly important for AI systems deployed in clinical decision support and population health analytics roles.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 519"
+      }
+    ]
+  }
+}

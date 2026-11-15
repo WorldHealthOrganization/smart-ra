@@ -1,0 +1,80 @@
+{
+  "id": "pc-0278",
+  "summary": "The architecture is federated at the data layer: Principle III warns that centralised mediators create single points of…",
+  "comment": "The architecture is federated at the data layer: Principle III warns that centralised mediators create single points of failure and concentrations of control. Trust is then assigned wholesale to the layer beneath. Figure 3.5 places National Trust Services, itemised as PKI, digital signatures, verifiable credentials, CA and GDHCN, in the foundational DPI layer, and Appendix C states the position plainly: the Client Registry may consume PKI services, 'but PKI is a foundational DPI component that sits outside the health sector'. The result is an asymmetry of specification. Each of the twelve components in Appendix C receives functional requirements carrying a SHALL, SHOULD or MAY status. The trust services on which all twelve depend receive one box in a figure and no requirements whatever. A ministry adopting this guidance can test whether its Health Workforce Registry conforms, but has nothing against which to test the national trust service that the registry's credentials rest on, and no statement of what to require if it must procure, inherit or build one.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1d17bc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0278",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 278,
+      "entry": "277",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3 (Figure 3.5)",
+      "page": "66",
+      "lines": "622-631; also Appendix C p. 118 line 179, Principle III (p. 32, lines 245-255) and Principle IX (p. 36, lines 415-418)",
+      "raw": "§3.5.3 (Figure 3.5) p.66 l.622-631; also Appendix C p. 118 line 179, Principle III (p. 32, lines 245-255) and Principle IX (p. 36, lines 415-418)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1d17bc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-5-3-f22754"
+      ],
+      "note": "p.66 l.622-631; also Appendix C p. 118 line 179, Principle III (p. 32, lines 245-255) and Principle IX (p. 36, lines 415-418) read as the printed page; section 3.5.3 agrees"
+    },
+    "type": "technical",
+    "text": "The architecture is federated at the data layer: Principle III warns that centralised mediators create single points of failure and concentrations of control. Trust is then assigned wholesale to the layer beneath. Figure 3.5 places National Trust Services, itemised as PKI, digital signatures, verifiable credentials, CA and GDHCN, in the foundational DPI layer, and Appendix C states the position plainly: the Client Registry may consume PKI services, 'but PKI is a foundational DPI component that sits outside the health sector'. The result is an asymmetry of specification. Each of the twelve components in Appendix C receives functional requirements carrying a SHALL, SHOULD or MAY status. The trust services on which all twelve depend receive one box in a figure and no requirements whatever. A ministry adopting this guidance can test whether its Health Workforce Registry conforms, but has nothing against which to test the national trust service that the registry's credentials rest on, and no statement of what to require if it must procure, inherit or build one.",
+    "suggestedRevision": "State the properties a foundational trust service must exhibit to carry health-sector use, expressed as requirements on the interface between DPI-H and DPI-F, even though the implementation sits outside the health sector. At minimum: containment of compromise as Principle IX already requires; a defined key lifecycle that includes recovery and not only revocation; verifiability where connectivity is intermittent; delegation below national-authority level, so that an institution or a practitioner can be authenticated and not only an authority; and algorithm agility. Where an inherited national PKI cannot exhibit these properties, architectures built on self-certifying identifiers with verifiable key event logs (the Trust over IP KERI specification family, used as the basis of GLEIF's verifiable LEI and codified by ISO in ISO 17442-3:2024) satisfy several of them structurally and are worth naming as an admissible route. Their open questions belong in the same sentence: governance of witness infrastructure at national scale is unsettled, and no deployment exists at the scale of a national population of natural persons.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 278"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0222",
+  "summary": "Line 814 and Table 3.5 enumerate SNOMED CT (and SNOMED GPS), ICD-11, and LOINC as required terminology standards. The d…",
+  "comment": "Line 814 and Table 3.5 enumerate SNOMED CT (and SNOMED GPS), ICD-11, and LOINC as required terminology standards. The document is silent on cross-maps between these standards, specifically the SNOMED CT to ICD-11 MMS map and the SNOMED CT-LOINC alignment. These cross-maps are operationally essential: a country using SNOMED CT for clinical data capture must map to ICD-11 MMS for administrative and statistical reporting. Without authoritative cross-maps, countries will build their own divergent, unmaintained mappings or fail to meet both requirements simultaneously. Historically, SNOMED International and WHO have collaborated on an official SNOMED CT-ICD 10 map; SNOMED International and Regenstrief collaborate on SNOMED CT-LOINC alignment via the LOINC Ontology. These resources are precisely what implementing countries will need.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0222",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 222,
+      "entry": "221",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5 / Table 3.5",
+      "page": "82",
+      "lines": "814 / Table 3.5",
+      "caption": "Table 3.5",
+      "raw": "§3.4.5 / Table 3.5 p.82 l.814 / Table 3.5"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-5",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.5 as cited"
+    },
+    "type": "technical",
+    "text": "Line 814 and Table 3.5 enumerate SNOMED CT (and SNOMED GPS), ICD-11, and LOINC as required terminology standards. The document is silent on cross-maps between these standards, specifically the SNOMED CT to ICD-11 MMS map and the SNOMED CT-LOINC alignment. These cross-maps are operationally essential: a country using SNOMED CT for clinical data capture must map to ICD-11 MMS for administrative and statistical reporting. Without authoritative cross-maps, countries will build their own divergent, unmaintained mappings or fail to meet both requirements simultaneously. Historically, SNOMED International and WHO have collaborated on an official SNOMED CT-ICD 10 map; SNOMED International and Regenstrief collaborate on SNOMED CT-LOINC alignment via the LOINC Ontology. These resources are precisely what implementing countries will need.",
+    "suggestedRevision": "We suggest the authors add to section 3.4.5 or Table 3.5: \"Cross-maps between SNOMED CT, ICD-11 MMS, and LOINC are a required component of a functional national Terminology Service, not an optional enhancement. WHO and ITU should commission a joint Mapping Governance White Paper, co-authored with SNOMED International, WHO's ICD-11 programme, and Regenstrief Institute, providing countries with authoritative guidance on deploying and maintaining cross-terminology maps within their national SGI. Official SNOMED CT-ICD 10 maps are available from SNOMED International; and the LOINC Ontology from Regenstrief and SNOMED International jointly.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 222"
+      }
+    ]
+  }
+}

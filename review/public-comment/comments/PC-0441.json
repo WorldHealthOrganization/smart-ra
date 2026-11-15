@@ -1,0 +1,78 @@
+{
+  "id": "pc-0441",
+  "summary": "The LHR requirements appropriately address source provenance and record versioning, while the LIMR and Terminology Serv…",
+  "comment": "The LHR requirements appropriately address source provenance and record versioning, while the LIMR and Terminology Service provide versioned management of semantic artefacts. However, the draft does not yet make explicit how an individual structured data item is linked to the model, profile, template or terminology context used to encode, validate, transform or migrate it. In a lifelong record spanning multiple generations of models and terminologies, this linkage is necessary to reconstruct the meaning that applied at the time of capture or transformation",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0441",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 441,
+      "entry": "440",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C-  Lifelong Health Record",
+      "page": "158",
+      "lines": "107–121",
+      "raw": "§Appendix C-  Lifelong Health Record p.158 l.107–121"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.158 l.107–121 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The LHR requirements appropriately address source provenance and record versioning, while the LIMR and Terminology Service provide versioned management of semantic artefacts. However, the draft does not yet make explicit how an individual structured data item is linked to the model, profile, template or terminology context used to encode, validate, transform or migrate it. In a lifelong record spanning multiple generations of models and terminologies, this linkage is necessary to reconstruct the meaning that applied at the time of capture or transformation",
+    "suggestedRevision": "Add a semantic-provenance requirement stating that, for structured contributions, the LHR should retain or be able to resolve the applicable model, profile or template identifier and version; the relevant terminology or value-set version, release or effective context; and any transformation or mapping lineage. This need not duplicate complete artefacts in the LHR. Persistent references to versioned content held in the LIMR or Terminology Service may be sufficient, provided that those references remain resolvable for the required retention period.\n\nThis depends on the same canonical-model/FHIR-representation distinction raised in comment 1; the two points could be addressed together in a single semantic-governance response.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 441"
+      }
+    ]
+  }
+}

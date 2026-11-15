@@ -1,0 +1,78 @@
+{
+  "id": "pc-0343",
+  "summary": "Is it possible to quantify the cost of fragmentation? we have some data on the extent of fragmentation in a few countri…",
+  "comment": "Is it possible to quantify the cost of fragmentation? we have some data on the extent of fragmentation in a few countries (# overlapping systems, #systems per health area, etc.) that we assessed with MOHs in few countries that we would be happy to share for this (with MOH permission) if helpful",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-3-1-410bc4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0343",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 343,
+      "entry": "342",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.3.1",
+      "page": "17",
+      "lines": "265 onwards",
+      "raw": "§1.3.1 p.17 l.265 onwards"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-3-1-410bc4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-3-1-6d4429"
+      ],
+      "note": "p.17 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Is it possible to quantify the cost of fragmentation? we have some data on the extent of fragmentation in a few countries (# overlapping systems, #systems per health area, etc.) that we assessed with MOHs in few countries that we would be happy to share for this (with MOH permission) if helpful",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 343"
+      }
+    ]
+  }
+}

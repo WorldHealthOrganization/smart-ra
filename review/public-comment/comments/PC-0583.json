@@ -1,0 +1,81 @@
+{
+  "id": "pc-0583",
+  "summary": "European coverage among the country and regional illustrations is thin. Appendix D includes Spain (Catalonia) at subnat…",
+  "comment": "European coverage among the country and regional illustrations is thin. Appendix D includes Spain (Catalonia) at subnational level, England in relation to pharmaceutical decision support, and an EU/EEA entry on regional surveillance, but there is no example of a national-level implementation in an EU Member State operating under the EU regulatory framework (GDPR, EHDS) — which is the setting most relevant to readers planning adoption in Europe.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-2-kenya-de109b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0583",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 583,
+      "entry": "582",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "page": "233–234",
+      "raw": "§Appendix D p.233–234"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-kenya-de109b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-3-european-union-and-european-econ-f59996-2",
+        "prose:d-2-nigeria-bedd22",
+        "prose:d-2-rwanda-b28ec2"
+      ],
+      "note": "p.233–234 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "European coverage among the country and regional illustrations is thin. Appendix D includes Spain (Catalonia) at subnational level, England in relation to pharmaceutical decision support, and an EU/EEA entry on regional surveillance, but there is no example of a national-level implementation in an EU Member State operating under the EU regulatory framework (GDPR, EHDS) — which is the setting most relevant to readers planning adoption in Europe.",
+    "suggestedRevision": "Add at least one national-level European example, such as Italy's Fascicolo Sanitario Elettronico (FSE 2.0) or MyHealth@EU, to illustrate how DPI-H principles translate into practice within the EU regulatory and infrastructural context, alongside the existing subnational and regional entries.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 583"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-0653",
+  "summary": "The component descriptions focus on facility-based and national platform levels. Community health worker workflows, whi…",
+  "comment": "The component descriptions focus on facility-based and national platform levels. Community health worker workflows, which represent the primary data collection and service delivery point for the majority of populations DPI-H is intended to reach, are not addressed as a distinct architecture concern. In Kenya and Zambia, CHW-facing applications are where most household and community-level health data originates, yet there is no component or interface description that covers this layer.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0653",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 653,
+      "entry": "652",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-93fcd0b606",
+      "name": "Mercy Chepngeno",
+      "organisation": "GeoApnet",
+      "country": "Kenya",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "raw": "§3.5"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.5 only"
+    },
+    "text": "The component descriptions focus on facility-based and national platform levels. Community health worker workflows, which represent the primary data collection and service delivery point for the majority of populations DPI-H is intended to reach, are not addressed as a distinct architecture concern. In Kenya and Zambia, CHW-facing applications are where most household and community-level health data originates, yet there is no component or interface description that covers this layer.",
+    "suggestedRevision": "Recognize CHW-facing application requirements as a distinct architecture concern, either as a component or as a defined interface layer, with guidance on how community-level data flows connect to the foundational shared data layer.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 653"
+      }
+    ]
+  }
+}

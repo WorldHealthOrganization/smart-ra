@@ -1,0 +1,78 @@
+{
+  "id": "pc-0266",
+  "summary": "The draft includes operational learning, AI evaluation and continuing stewardship, but the monitoring requirements are …",
+  "comment": "The draft includes operational learning, AI evaluation and continuing stewardship, but the monitoring requirements are dispersed. Safety, bias and representational quality can degrade after deployment through data drift, model drift, workflow change, terminology updates, local adaptation and unintended use.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-4-c238c3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0266",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 266,
+      "entry": "265",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.4; 5.4.1–5.5",
+      "page": "56–57; 108–110",
+      "lines": "359–362; 142–169; 209–223",
+      "raw": "§3.4.4; 5.4.1–5.5 p.56–57; 108–110 l.359–362; 142–169; 209–223"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-4-c238c3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.56–57; 108–110 l.359–362; 142–169; 209–223 read as the printed page; section 3.4.4 agrees"
+    },
+    "type": "technical",
+    "text": "The draft includes operational learning, AI evaluation and continuing stewardship, but the monitoring requirements are dispersed. Safety, bias and representational quality can degrade after deployment through data drift, model drift, workflow change, terminology updates, local adaptation and unintended use.",
+    "suggestedRevision": "Define a continuous learning-and-monitoring capability across safety-critical DPI-H components, not only AI, post-deployment performance and bias surveillance, data/model drift detection, incident reporting, clinician and patient feedback, outcome monitoring, version control, change impact assessment, regression testing and governed system improvement. Learning should improve implementation without weakening the protected identity, provenance, semantic, authorisation and accountability requirements.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 266"
+      }
+    ]
+  }
+}

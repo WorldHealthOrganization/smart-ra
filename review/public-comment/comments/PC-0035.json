@@ -1,0 +1,109 @@
+{
+  "id": "pc-0035",
+  "summary": "The equity principle is strong on geographic, connectivity and institutional constraints, but it does not address user-…",
+  "comment": "The equity principle is strong on geographic, connectivity and institutional constraints, but it does not address user-side capability constraints. Across the life course, people may experience changes in vision, hearing, dexterity, cognition, language, literacy and digital confidence. Unless these are treated as architectural concerns, a service may be technically available yet practically unusable. ITU-T F.780.2 already recognises accessibility requirements for telehealth services, including older persons with age-related disabilities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-5d50f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0035",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 35,
+      "entry": "34",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4 — VII. Equity and Inclusion",
+      "page": "44",
+      "lines": "325–343",
+      "raw": "§1.4 — VII. Equity and Inclusion p.44 l.325–343"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-5d50f2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-cb8583"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Equity and Inclusion principle l.325-343; this is the principle body starting l.326"
+    },
+    "type": "general",
+    "text": "The equity principle is strong on geographic, connectivity and institutional constraints, but it does not address user-side capability constraints. Across the life course, people may experience changes in vision, hearing, dexterity, cognition, language, literacy and digital confidence. Unless these are treated as architectural concerns, a service may be technically available yet practically unusable. ITU-T F.780.2 already recognises accessibility requirements for telehealth services, including older persons with age-related disabilities.",
+    "suggestedRevision": "Add after line 343: “Equity and inclusion also require the architecture to accommodate variation in functional ability, disability, language, literacy and digital capability across the life course. Countries should require age-inclusive and accessible interaction patterns, multimodal channels, low-complexity workflows and assisted-access pathways, so that participation in DPI-H does not depend on independent use of a smartphone or any single digital channel.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 35"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "decide",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the log's status was \"Accepted\""
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Equity and Inclusion principle l.325-343; this is the principle body starting l.326"
+      },
+      {
+        "at": "2026-10-05T15:18:24.978Z",
+        "transition": "incorporate",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_Incorporate",
+        "note": "merged in PR #9"
+      },
+      {
+        "at": "2026-10-07T05:19:31.272Z",
+        "transition": "reopen",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the master log's status was imported as a decision (by review-log); it was the log's, not an editor's (owner, 2026-10-07: \"nothing has been decided\"). Back to triaged; the log's status stays in this history."
+      }
+    ]
+  }
+}

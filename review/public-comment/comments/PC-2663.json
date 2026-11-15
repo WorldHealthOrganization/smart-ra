@@ -1,0 +1,82 @@
+{
+  "id": "pc-2663",
+  "summary": "Suggestion to include Canada's example",
+  "comment": "Suggestion to include Canada's example",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2663",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 41,
+      "entry": "31",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D: Country implementation examples",
+      "page": "231",
+      "lines": "91",
+      "raw": "§Appendix D: Country implementation examples p.231 l.91"
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-fe9ea4"
+      ],
+      "note": "placed by a placement agent reading the comment against the text (high): proposes a Canada country example for D.2; p.231 l.91 is the line before D.2's first example"
+    },
+    "type": "editorial",
+    "text": "Suggestion to include Canada's example",
+    "suggestedRevision": "Canada's foundational DPI-H layer is constituted at two levels of government. The metadata registries are provincial and territorial shared infrastructure and vary across provinces: Provincial Client Registries that assign and maintain the personal health number for every person who has received care in the province or serve as an enterprise master patient index, and a Provider and Location Registry as the trusted source for practitioners and care locations. Typically, these services are publicly governed, serve many programmes and clinical systems within the province, and are consumed through published interfaces. The semantic and structural components are national: the Terminology Server, based on Ontoserver, is a high-performance, FHIR-compliant terminology platform accessible via FHIR APIs operated by the national release centre for SNOMED CT, pCLOCD and HL7, maintaining the SNOMED CT Canadian Edition on a fixed cadence release cycle, while pan-Canadian FHIR profiles (CA Core+) and CACDI with its logical data model hold the shared structural definitions.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 41"
+      },
+      {
+        "at": "2026-10-15T11:15:03.495Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): proposes a Canada country example for D.2; p.231 l.91 is the line before D.2's first example"
+      }
+    ]
+  }
+}

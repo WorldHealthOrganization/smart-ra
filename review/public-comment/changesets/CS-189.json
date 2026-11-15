@@ -1,0 +1,28 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-189",
+  "title": "Restructure the Benefits Package Registry data model",
+  "requirements": "- Define a rule model with terminology bindings, distinguishing computable rules from human-interpreted policy\n- Distinguish package, scheme, item, exclusion, condition, cost-sharing and authority, with structured equity-relevant conditions and versioning\n- Note accreditation process and results, and the overlap with facility registries\n- Specify product concept levels, generics and substitution rules for medicines\n- Specify conformance artefacts (test cases, expected outcomes, API)\n- Require effective-dated, immutable versions for evaluation against past dates",
+  "refs": [
+    "PC-0532",
+    "PC-0533",
+    "PC-1993",
+    "PC-1994",
+    "PC-1998",
+    "PC-2000",
+    "PC-2005",
+    "PC-2006",
+    "PC-2008"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 9 comment(s)"
+    }
+  ]
+}

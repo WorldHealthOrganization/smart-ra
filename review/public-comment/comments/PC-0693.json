@@ -1,0 +1,76 @@
+{
+  "id": "pc-0693",
+  "summary": "Clarify consent as individual agency, not the universal legal basis for processing. The statement that 'Consent is the …",
+  "comment": "Clarify consent as individual agency, not the universal legal basis for processing. The statement that 'Consent is the primary mechanism through which individuals exercise these rights' may be read as positioning consent as the primary authority for health-data processing generally. Elsewhere, the guidance correctly recognises processing under other legal authorities, including defined clinical and public-health functions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-673e06",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0693",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 693,
+      "entry": "692",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "(not stated)",
+      "country": "(not stated)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 2.3 - Data ownership/consent discussion, p. 35, lines 352-379.",
+      "raw": "§Section 2.3 - Data ownership/consent discussion, p. 35, lines 352-379."
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-673e06",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Clarify consent as individual agency, not the universal legal basis for processing. The statement that 'Consent is the primary mechanism through which individuals exercise these rights' may be read as positioning consent as the primary authority for health-data processing generally. Elsewhere, the guidance correctly recognises processing under other legal authorities, including defined clinical and public-health functions.",
+    "suggestedRevision": "Suggested wording: 'Consent is an important mechanism through which individuals exercise agency and preferences over access to and sharing of their health information, where consent is applicable under the relevant legal and governance framework. Health-data processing may also occur under other lawful authorities, subject to appropriate safeguards, purpose limitation and individual rights.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "Major / Governance clarification"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 693"
+      }
+    ]
+  }
+}

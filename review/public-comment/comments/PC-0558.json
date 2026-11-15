@@ -1,0 +1,78 @@
+{
+  "id": "pc-0558",
+  "summary": "Goal 1 lists the shared components that the other six goals draw on as \"the client, health facility, and health workfor…",
+  "comment": "Goal 1 lists the shared components that the other six goals draw on as \"the client, health facility, and health workforce registries, the terminology service, the product registry, and the lifelong health record\". The Logical Information Model Repository is absent, although section 3.6.2 lines 802–809 identifies the Terminology Service and the LIMR as the two components that govern meaning and structure respectively and states that both are required, and page 175 lines 135–139 states that without a LIMR each component's data requirements exist in isolation. \"Captured once and reused reliably\", the goal stated at lines 227–228, depends on shared structure as much as on shared identifiers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:e-d53f92",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0558",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 558,
+      "entry": "557",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix E – Health Goals to DPI Mapping, Goal 1",
+      "page": "236",
+      "lines": "237–244",
+      "raw": "§Appendix E – Health Goals to DPI Mapping, Goal 1 p.236 l.237–244"
+    },
+    "anchor": {
+      "targetLabel": "prose:e-d53f92",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.236 l.237–244 read as the printed page; section E agrees"
+    },
+    "type": "technical",
+    "text": "Goal 1 lists the shared components that the other six goals draw on as \"the client, health facility, and health workforce registries, the terminology service, the product registry, and the lifelong health record\". The Logical Information Model Repository is absent, although section 3.6.2 lines 802–809 identifies the Terminology Service and the LIMR as the two components that govern meaning and structure respectively and states that both are required, and page 175 lines 135–139 states that without a LIMR each component's data requirements exist in isolation. \"Captured once and reused reliably\", the goal stated at lines 227–228, depends on shared structure as much as on shared identifiers.",
+    "suggestedRevision": "Add the logical information model repository to the component list at lines 238–240, and add a sentence at line 241: \"Shared structure is what allows data captured once to be interpreted the same way by every component that reuses it.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 558"
+      }
+    ]
+  }
+}

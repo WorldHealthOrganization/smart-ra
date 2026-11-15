@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-057",
+  "title": "Define the artefact types SGI governs",
+  "requirements": "- Enumerate governed artefact types (terminologies, value sets, logical models, IGs/profiles, mappings, identifier systems, indicators, computable guidelines, benefit rules)\n- Make validation, dependency/impact analysis, localisation and deprecation visible in or mapped to the five categories\n- Distinguish entity registries (client, facility, workforce, product) from terminology and information-model governance\n- Include implementation guides, profiles, mappings, data elements, measures, computable guidelines and transformation specifications in SGI scope\n- Consider an SGI capability for professional domains to define the minimum meaning that must persist across an end-to-end care process\n- Indicate which capabilities apply universally and which are artefact-specific\n- Separate monitoring of governance process, artefact quality, adoption and runtime use\n- Reserve 'metadata registry' for registries whose content is metadata, or define the broader category",
+  "refs": [
+    "PC-0253",
+    "PC-0897",
+    "PC-0905",
+    "PC-0906",
+    "PC-0912",
+    "PC-0913",
+    "PC-0915",
+    "PC-2333",
+    "PC-2362",
+    "PC-2436"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 10 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0531",
+  "summary": "In democratic countries this transparency would also mean a transparant basis for a public decision-making process on h…",
+  "comment": "In democratic countries this transparency would also mean a transparant basis for a public decision-making process on how to adjust benefits over time to changing economical and epidemiological conditions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-3ff245",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0531",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 531,
+      "entry": "530",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f380ebaaac",
+      "name": "Uwe Wahser",
+      "organisation": "Deutsche Gesellschaft für Technische Zusammenarbeit (GIZ) GmbH",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix BPR 2",
+      "page": "200",
+      "lines": "47 - 51",
+      "raw": "§Appendix BPR 2 p.200 l.47 - 51"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-3ff245",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.200 l.47 - 51 read as the printed page; section 2 does NOT agree"
+    },
+    "type": "editorial",
+    "text": "In democratic countries this transparency would also mean a transparant basis for a public decision-making process on how to adjust benefits over time to changing economical and epidemiological conditions.",
+    "suggestedRevision": "Add one bullet point about participatory policy formulation or adjust the bullet point on government.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 531"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-2680",
+  "summary": "The entry-point typology takes the country as the unit of analysis. In devolved health systems this conceals the bindin…",
+  "comment": "The entry-point typology takes the country as the unit of analysis. In devolved health systems this conceals the binding constraint: intra-national heterogeneity. The Philippines is squarely Entry Point 2 nationally (integrating existing systems), yet a large share of its 1,400+ municipalities — where surveillance operating capacity actually sits post-devolution — are functionally at Entry Point 1, with epidemiology and surveillance units that are designation-based (existing RHU staff deputised by executive order) rather than resourced, and without dedicated connectivity or hardware budgets. National-level classification will misdirect sequencing and investment in any devolved system (Philippines, Indonesia, Kenya, Nigeria).",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:4-2-1-f13e61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2680",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 25,
+      "entry": "15",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.1",
+      "page": "89–90",
+      "lines": "63–111",
+      "raw": "§4.2.1 p.89–90 l.63–111"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-1-f13e61",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-1-0863d3",
+        "prose:4-2-1-39b7e0"
+      ],
+      "note": "p.89–90 l.63–111 read as the printed page; section 4.2.1 agrees"
+    },
+    "type": "general",
+    "text": "The entry-point typology takes the country as the unit of analysis. In devolved health systems this conceals the binding constraint: intra-national heterogeneity. The Philippines is squarely Entry Point 2 nationally (integrating existing systems), yet a large share of its 1,400+ municipalities — where surveillance operating capacity actually sits post-devolution — are functionally at Entry Point 1, with epidemiology and surveillance units that are designation-based (existing RHU staff deputised by executive order) rather than resourced, and without dedicated connectivity or hardware budgets. National-level classification will misdirect sequencing and investment in any devolved system (Philippines, Indonesia, Kenya, Nigeria).",
+    "suggestedRevision": "Add a sub-national tiering paragraph to 4.2.1: countries should classify entry points at the level at which health services are governed and financed, and the national roadmap should provide differentiated pathways for sub-national units at different entry points, including a floor package for the least-resourced tier.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 25"
+      }
+    ]
+  }
+}

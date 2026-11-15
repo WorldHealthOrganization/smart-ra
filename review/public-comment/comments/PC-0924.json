@@ -1,0 +1,79 @@
+{
+  "id": "pc-0924",
+  "summary": "The recommendation that a regional strategic body should have authority to make binding decisions may not be legally or…",
+  "comment": "The recommendation that a regional strategic body should have authority to make binding decisions may not be legally or politically feasible in every regional arrangement. Some regional organisations operate through voluntary coordination or mutual recognition.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-6-b4320d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0924",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 160,
+      "entry": "159",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.6",
+      "page": "62",
+      "lines": "Lines 503-509",
+      "raw": "§3.4.6 p.62 l.Lines 503-509"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-6-b4320d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-6-12c0cd"
+      ],
+      "note": "p.62 l.Lines 503-509 read as the printed page; section 3.4.6 agrees"
+    },
+    "text": "The recommendation that a regional strategic body should have authority to make binding decisions may not be legally or politically feasible in every regional arrangement. Some regional organisations operate through voluntary coordination or mutual recognition.",
+    "suggestedRevision": "Present binding regional authority as one model. Include alternatives such as treaty-based authority, mutual-recognition arrangements, coordinated national decisions, voluntary standards adoption, and shared-service agreements.",
+    "labels": {
+      "Comment type": "Q10 - Implementation"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 160"
+      }
+    ]
+  }
+}

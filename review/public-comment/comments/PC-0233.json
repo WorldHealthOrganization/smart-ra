@@ -1,0 +1,81 @@
+{
+  "id": "pc-0233",
+  "summary": "Issue: The country implementation examples contain two omissions relevant to SNOMED CT:",
+  "comment": "Issue: The country implementation examples contain two omissions relevant to SNOMED CT:\n\nAustralia (p. 241–242): Described as illustrating \"Terminology Service\" but the text does not mention that Australia is a SNOMED International Member country with a national SNOMED CT release (the Australian Clinical Terminology, maintained by the Australian Digital Health Agency). The example focuses on Ontoserver (correctly cited in footnote 85) but omits the national SNOMED CT governance programme that makes Ontoserver useful. For a document designed to encourage other countries to adopt national terminology services, the failure to explicitly name SNOMED CT as what Australia's national TS hosts is remissed.\n\nDenmark (p. 242): Denmark's example focuses only on sundhed.dk (the patient health portal) and is categorised as illustrating only \"LHR.\" Denmark is one of the founding Members of SNOMED International with an active national SNOMED CT governance programme (NRC) and a national extension, none of which is mentioned. Denmark is frequently cited as an advanced example of national SNOMED CT governance and would strengthen the document's case for the SGI model.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0233",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 233,
+      "entry": "232",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D",
+      "page": "241–244",
+      "raw": "§Appendix D p.241–244"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-1-computable-decision-support-engi-39fe47",
+        "prose:d-1-health-management-information-se-595883",
+        "prose:d-1-public-health-surveillance-platf-92708e"
+      ],
+      "note": "p.241–244 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Issue: The country implementation examples contain two omissions relevant to SNOMED CT:\n\nAustralia (p. 241–242): Described as illustrating \"Terminology Service\" but the text does not mention that Australia is a SNOMED International Member country with a national SNOMED CT release (the Australian Clinical Terminology, maintained by the Australian Digital Health Agency). The example focuses on Ontoserver (correctly cited in footnote 85) but omits the national SNOMED CT governance programme that makes Ontoserver useful. For a document designed to encourage other countries to adopt national terminology services, the failure to explicitly name SNOMED CT as what Australia's national TS hosts is remissed.\n\nDenmark (p. 242): Denmark's example focuses only on sundhed.dk (the patient health portal) and is categorised as illustrating only \"LHR.\" Denmark is one of the founding Members of SNOMED International with an active national SNOMED CT governance programme (NRC) and a national extension, none of which is mentioned. Denmark is frequently cited as an advanced example of national SNOMED CT governance and would strengthen the document's case for the SGI model.",
+    "suggestedRevision": "Suggested addition to Australia example: \"Australia operates a national SNOMED CT programme, producing and maintaining the National Clinical Terminology Service (NCTS), run by the Australian Digital Health Agency. This is a national extension of the SNOMED CT International Edition governed by the Australian Digital Health Agency, which is hosted in Ontoserver and distributed to point-of-care systems across the country.\"\n\nSuggested addition to Denmark: Add Terminology Service to Denmark's illustrated components and note: \"Denmark operates a national SNOMED CT governance programme as a SNOMED International Member, providing a national extension of SNOMED CT that supports coded data capture across the Danish health system.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 233"
+      }
+    ]
+  }
+}

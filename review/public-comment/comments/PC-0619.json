@@ -1,0 +1,82 @@
+{
+  "id": "pc-0619",
+  "summary": "Context assumptions: In large, federated and mixed public–private health systems such as India, the guidance sometimes …",
+  "comment": "Context assumptions: In large, federated and mixed public–private health systems such as India, the guidance sometimes assumes a level of national coordination and institutional authority that may not always exist. Responsibilities are often distributed across national, state and local governments, regulators, private providers and programme agencies. A single national body may therefore find it difficult to designate authoritative registries, enforce common standards or coordinate procurement across the entire ecosystem.\n\nThe guidance also assumes reasonably mature foundational DPI, legal clarity for health-data sharing, reliable connectivity and digitised source data. In practice, many settings still depend heavily on paper records, have multiple identifiers, experience unreliable connectivity and must provide care to people without formal digital identity. Consent and privacy frameworks may also be evolving or may not yet support granular, cross-organisational exchange.\n\nAnother assumption is the availability of specialist and financial capacity. Establishing a national digital architect function, FHIR profiles, terminology services, semantic governance and conformance testing requires skills and sustained funding that many countries do not currently have. Some remain dependent on vendors or short-term donor-funded programmes, making long-term national ownership difficult.\n\nThe guidance would therefore benefit from additional pathways for federated governance, offline-first implementation, interim solutions where foundational DPI is incomplete, regional sharing of specialist services, and a clearly defined minimum viable starting point for countries with limited capacity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0619",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 619,
+      "entry": "618",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form context assumptions (federated systems such as India)."
+    },
+    "type": "general",
+    "text": "Context assumptions: In large, federated and mixed public–private health systems such as India, the guidance sometimes assumes a level of national coordination and institutional authority that may not always exist. Responsibilities are often distributed across national, state and local governments, regulators, private providers and programme agencies. A single national body may therefore find it difficult to designate authoritative registries, enforce common standards or coordinate procurement across the entire ecosystem.\n\nThe guidance also assumes reasonably mature foundational DPI, legal clarity for health-data sharing, reliable connectivity and digitised source data. In practice, many settings still depend heavily on paper records, have multiple identifiers, experience unreliable connectivity and must provide care to people without formal digital identity. Consent and privacy frameworks may also be evolving or may not yet support granular, cross-organisational exchange.\n\nAnother assumption is the availability of specialist and financial capacity. Establishing a national digital architect function, FHIR profiles, terminology services, semantic governance and conformance testing requires skills and sustained funding that many countries do not currently have. Some remain dependent on vendors or short-term donor-funded programmes, making long-term national ownership difficult.\n\nThe guidance would therefore benefit from additional pathways for federated governance, offline-first implementation, interim solutions where foundational DPI is incomplete, regional sharing of specialist services, and a clearly defined minimum viable starting point for countries with limited capacity.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 619"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form context assumptions (federated systems such as India)."
+      }
+    ]
+  }
+}

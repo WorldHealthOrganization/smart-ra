@@ -1,0 +1,78 @@
+{
+  "id": "pc-0514",
+  "summary": "The phases are described using indicative timeframes and are allowed to overlap and iterate. Phase 2 does contain a use…",
+  "comment": "The phases are described using indicative timeframes and are allowed to overlap and iterate. Phase 2 does contain a useful outcome statement—a functioning, standards-conformant foundation used by real programmes—but this is not expressed as a measurable closure test, and comparable entry and exit conditions are not provided consistently for the other phases.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-c1332c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0514",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 514,
+      "entry": "513",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "90-92",
+      "lines": "Lines 113-172",
+      "raw": "§4.2.2 p.90-92 l.Lines 113-172"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-c1332c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.90-92 l.Lines 113-172 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "technical",
+    "text": "The phases are described using indicative timeframes and are allowed to overlap and iterate. Phase 2 does contain a useful outcome statement—a functioning, standards-conformant foundation used by real programmes—but this is not expressed as a measurable closure test, and comparable entry and exit conditions are not provided consistently for the other phases.",
+    "suggestedRevision": "Convert the intended result of each phase into explicit entry conditions and closure criteria, while retaining timeframes as illustrations only. For example, formalise the Phase 2 outcome as defined components in production, conformance tested against published profiles, and used by the selected programme systems, with evidence recorded for each condition.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 514"
+      }
+    ]
+  }
+}

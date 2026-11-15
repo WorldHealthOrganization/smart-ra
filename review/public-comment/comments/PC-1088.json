@@ -1,0 +1,79 @@
+{
+  "id": "pc-1088",
+  "summary": "The architecture is described as a map of what must be tested, but this assumes that all services, requirements, option…",
+  "comment": "The architecture is described as a map of what must be tested, but this assumes that all services, requirements, options, interactions, and expected outcomes are modelled completely.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-7a4f40",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1088",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 324,
+      "entry": "323",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.4",
+      "page": "84",
+      "lines": "Lines 1132-1146",
+      "raw": "§3.7.4 p.84 l.Lines 1132-1146"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-7a4f40",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-4-b09317"
+      ],
+      "note": "p.84 l.Lines 1132-1146 read as the printed page; section 3.7.4 agrees"
+    },
+    "text": "The architecture is described as a map of what must be tested, but this assumes that all services, requirements, options, interactions, and expected outcomes are modelled completely.",
+    "suggestedRevision": "Add a test-readiness assessment that checks specification completeness before test planning begins. Identify unresolved requirements or interactions that cannot yet be tested.",
+    "labels": {
+      "Comment type": "Q10 - Implementation"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 324"
+      }
+    ]
+  }
+}

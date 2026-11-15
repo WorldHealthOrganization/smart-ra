@@ -1,0 +1,77 @@
+{
+  "id": "pc-0196",
+  "summary": "The Required/Recommended framework for code system, value set, and concept map management in Appendix C maps cleanly on…",
+  "comment": "The Required/Recommended framework for code system, value set, and concept map management in Appendix C maps cleanly onto how LOINC is actually maintained and consumed by implementers, and we support it without reservation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0196",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 196,
+      "entry": "195",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-fa81b3a622",
+      "name": "Marjorie Rallins, DPM, MS, Executive Director, Health Data Standards",
+      "organisation": "Regenstrief Institute, Health Data Standards, LOINC/UCUM",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C-Terminology",
+      "raw": "§Appendix C-Terminology"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The Required/Recommended framework for code system, value set, and concept map management in Appendix C maps cleanly onto how LOINC is actually maintained and consumed by implementers, and we support it without reservation.",
+    "suggestedRevision": "No change requested. Noted as a strength worth preserving in future revisions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 196"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0351",
+  "summary": "Many countries implementing DPI-H operate in multilingual contexts, and health workers may use languages at the point o…",
+  "comment": "Many countries implementing DPI-H operate in multilingual contexts, and health workers may use languages at the point of service that differ from those used to author national terminology, value sets and data-collection forms. Localisation therefore extends beyond language to include conventions for dates, numbers and currencies in shared content.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-f35f6f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0351",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 351,
+      "entry": "350",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 3.5.3.1",
+      "page": "67",
+      "lines": "Lines 663-667",
+      "raw": "§Section 3.5.3.1 p.67 l.Lines 663-667"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-f35f6f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "tbl:3-5"
+      ],
+      "note": "p.67 l.Lines 663-667 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "type": "technical",
+    "text": "Many countries implementing DPI-H operate in multilingual contexts, and health workers may use languages at the point of service that differ from those used to author national terminology, value sets and data-collection forms. Localisation therefore extends beyond language to include conventions for dates, numbers and currencies in shared content.",
+    "suggestedRevision": "Consider expanding the Terminology Service articulation in §3.5.3.1 and Appendix C to explicitly address multilingual and localisation requirements, including the ability to associate multiple language designations with concepts and provide translated display terms for value sets",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 351"
+      }
+    ]
+  }
+}

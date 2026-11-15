@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>As-is wireframe: ArchiMate models (dpi-h-ra)</title>
+<style>
+  :root { --ink: #222; --mute: #666; --line: #bbb; --fill: #f2f2f2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, sans-serif; color: var(--ink); background: #fff; }
+  .wf { border-bottom: 1px dashed var(--line); background: var(--fill); padding: 6px 16px; font-size: 13px; color: var(--mute); }
+  .nav { border-bottom: 2px solid var(--ink); background: var(--fill); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
+  .nav .site { font-weight: 700; }
+  main { max-width: 960px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 30px; font-weight: 400; margin: 12px 0 16px; }
+  ul.models { list-style: none; margin: 0; padding: 0; }
+  ul.models li { padding: 10px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+  ul.models a { color: var(--ink); text-decoration: underline; }
+  code { background: var(--fill); border: 1px solid var(--line); padding: 0 4px; font-size: 14px; }
+  .count { color: var(--mute); }
+  .callout { margin-top: 20px; border-left: 4px solid var(--line); background: var(--fill); padding: 8px 14px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wf">As-is wireframe of <strong>en/dpi-h-ra/archimate/</strong>, drawn from the page gen-archimate-pages.ts writes. Mid-fidelity: boxes and real labels, no styling of the site.</div>
+<div class="nav"><span class="site">DPI-H Reference Architecture</span><span>Document</span><span>Public comments</span><span>Library</span><span><strong>ArchiMate models</strong></span><span>Mapper</span></div>
+<main>
+  <h1>ArchiMate models</h1>
+  <ul class="models">
+    <li><a href="#">WHO Reference Architecture 0.2.0</a> <code>0.2.0</code> <span class="count">— 20 view(s), 258 element(s)</span></li>
+    <li><a href="#">WHO Reference Architecture 0.2.0-draft.3</a> <code>0.2.0-draft.3</code> <span class="count">— 33 view(s), 1132 element(s)</span></li>
+    <li><a href="#">WHO Reference Architecture 0.2.0-draft.2</a> <code>0.2.0-draft.2</code> <span class="count">— 32 view(s), 535 element(s)</span></li>
+    <li><a href="#">WHO Reference Architecture 0.2.0-draft.1</a> <code>0.2.0-draft.1</code> <span class="count">— 46 view(s), 611 element(s)</span></li>
+  </ul>
+  <p class="callout">Each title opens the model's page: its views, drawn as SVG, its elements by layer, and its relationships. The list is in the order of archimate/cat-archimate.config.json; nothing on the page marks which model is current.</p>
+</main>
+</body>
+</html>

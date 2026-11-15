@@ -1,0 +1,5616 @@
+{
+ "_schema": "pdf-structure/v1",
+ "doc_id": "who-dpi-h-reference-architecture-draft-v1",
+ "source": {
+  "file": "who-dpi-h-reference-architecture-draft-v1.pdf",
+  "sha256": "3bc9943fdaf76c465326ed2181858a6aa3b441ee818770f35e29cd1f621f7da8",
+  "bytes": 5223782,
+  "pages": 254,
+  "text_source": "embedded",
+  "extractor": "pypdf",
+  "mtime": "2026-10-06T14:33:25Z",
+  "mimetype_sniffed": "application/pdf",
+  "mimetype_source": "magic-bytes"
+ },
+ "metadata": {
+  "arxiv": null,
+  "doi": null,
+  "title": "DRAFT V1.0",
+  "authors_raw": "Reference Architecture and Guidance",
+  "title_lines": [
+   "DRAFT V1.0"
+  ],
+  "abstract": null,
+  "docinfo": {
+   "Author": "Aguilera Millacura, Felipe (Consultant WDC)",
+   "Creator": "Microsoft Word",
+   "CreationDate": "D:20260708170640+00'00'"
+  },
+  "title_raw": "DRAFT V1.0",
+  "title_source": "text",
+  "title_verified": false,
+  "title_evidence": {
+   "outline": "About the Reference Architecture for health Digital Public Infrastructure (DPI-H) Guidance",
+   "text": "DRAFT V1.0",
+   "corroborated_by": [],
+   "browser_print": false
+  }
+ },
+ "toc": [
+  {
+   "level": 1,
+   "title": "About the Reference Architecture for health Digital Public Infrastructure (DPI-H) Guidance",
+   "page": 19,
+   "source": "outline",
+   "number": "1.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "8"
+  },
+  {
+   "level": 2,
+   "title": "What is a reference architecture, and why does it matter for the health sector?",
+   "page": 19,
+   "source": "outline",
+   "number": "1.1.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "8"
+  },
+  {
+   "level": 2,
+   "title": "Understanding Digital Public Infrastructure (DPI) and health Digital Public Infrastructure (DPI-H)",
+   "page": 19,
+   "source": "outline",
+   "number": "1.1.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "8"
+  },
+  {
+   "level": 2,
+   "title": "Building on existing foundations",
+   "page": 21,
+   "source": "outline",
+   "number": "1.1.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "10"
+  },
+  {
+   "level": 2,
+   "title": "Who can benefit from this guidance?",
+   "page": 23,
+   "source": "outline",
+   "number": "1.1.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "12"
+  },
+  {
+   "level": 1,
+   "title": "Why health needs more than foundational DPI",
+   "page": 24,
+   "source": "outline",
+   "number": "1.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "13"
+  },
+  {
+   "level": 2,
+   "title": "Identity DPI and Identification in Healthcare",
+   "page": 24,
+   "source": "outline",
+   "number": "1.2.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "13"
+  },
+  {
+   "level": 2,
+   "title": "Data exchange DPI and Interoperability in the health sector",
+   "page": 26,
+   "source": "outline",
+   "number": "1.2.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "15"
+  },
+  {
+   "level": 2,
+   "title": "Payments DPI and financial transactions in the health sector",
+   "page": 27,
+   "source": "outline",
+   "number": "1.2.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "16"
+  },
+  {
+   "level": 1,
+   "title": "Value of DPI-H",
+   "page": 28,
+   "source": "outline",
+   "number": "1.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "17"
+  },
+  {
+   "level": 2,
+   "title": "The Cost of Fragmentation",
+   "page": 28,
+   "source": "outline",
+   "number": "1.3.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "17"
+  },
+  {
+   "level": 2,
+   "title": "What DPI-H Makes Possible",
+   "page": 29,
+   "source": "outline",
+   "number": "1.3.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "18"
+  },
+  {
+   "level": 2,
+   "title": "Value Across Stakeholders",
+   "page": 30,
+   "source": "outline",
+   "number": "1.3.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "19"
+  },
+  {
+   "level": 1,
+   "title": "DPI-H Principles",
+   "page": 31,
+   "source": "outline",
+   "number": "1.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "20"
+  },
+  {
+   "level": 1,
+   "title": "The Seven Priority Health Sector Goals",
+   "page": 32,
+   "source": "outline",
+   "number": "1.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "21"
+  },
+  {
+   "level": 2,
+   "title": "The Health Sector Goals",
+   "page": 33,
+   "source": "outline",
+   "number": "1.5.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "22"
+  },
+  {
+   "level": 1,
+   "title": "The Reference Architecture Scope",
+   "page": 35,
+   "source": "outline",
+   "number": "2.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "24"
+  },
+  {
+   "level": 2,
+   "title": "Metadata registries and foundational components",
+   "page": 36,
+   "source": "outline",
+   "number": "2.1.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "25"
+  },
+  {
+   "level": 2,
+   "title": "Business services layer",
+   "page": 36,
+   "source": "outline",
+   "number": "2.1.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "25"
+  },
+  {
+   "level": 2,
+   "title": "Relationship to foundational DPI",
+   "page": 37,
+   "source": "outline",
+   "number": "2.1.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "26"
+  },
+  {
+   "level": 1,
+   "title": "Resilient Essential Data and Digital Health Infrastructure (REDDHI)",
+   "page": 37,
+   "source": "outline",
+   "number": "2.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "26"
+  },
+  {
+   "level": 2,
+   "title": "What REDDHI is and its foundational core",
+   "page": 37,
+   "source": "outline",
+   "number": "2.2.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "26"
+  },
+  {
+   "level": 2,
+   "title": "The enabling conditions for REDDHI",
+   "page": 39,
+   "source": "outline",
+   "number": "2.2.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "28"
+  },
+  {
+   "level": 1,
+   "title": "DPI-H Reference Architecture Design Principles",
+   "page": 42,
+   "source": "outline",
+   "number": "2.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "31"
+  },
+  {
+   "level": 1,
+   "title": "Methodology: Mapping Health Goals to DPI-H",
+   "page": 48,
+   "source": "outline",
+   "number": "2.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "37"
+  },
+  {
+   "level": 2,
+   "title": "How each health goal is articulated",
+   "page": 49,
+   "source": "outline",
+   "number": "2.4.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "38"
+  },
+  {
+   "level": 2,
+   "title": "Worked example: Advance Efficient and Equitable Health Financing",
+   "page": 50,
+   "source": "outline",
+   "number": "2.4.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "39"
+  },
+  {
+   "level": 1,
+   "title": "The architecture description approach",
+   "page": 52,
+   "source": "outline",
+   "number": "3.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "41"
+  },
+  {
+   "level": 1,
+   "title": "Reading and navigating the reference architecture",
+   "page": 57,
+   "source": "outline",
+   "number": "3.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "46"
+  },
+  {
+   "level": 1,
+   "title": "The reference architecture in practice",
+   "page": 59,
+   "source": "outline",
+   "number": "3.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "48"
+  },
+  {
+   "level": 1,
+   "title": "Governance of Digital Health Architectures and DPI-H",
+   "page": 64,
+   "source": "outline",
+   "number": "3.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "53"
+  },
+  {
+   "level": 2,
+   "title": "Purpose and framing",
+   "page": 64,
+   "source": "outline",
+   "number": "3.4.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "53"
+  },
+  {
+   "level": 2,
+   "title": "Governance principles",
+   "page": 65,
+   "source": "outline",
+   "number": "3.4.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "54"
+  },
+  {
+   "level": 2,
+   "title": "Strategic governance",
+   "page": 66,
+   "source": "outline",
+   "number": "3.4.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "55"
+  },
+  {
+   "level": 2,
+   "title": "Operational governance",
+   "page": 67,
+   "source": "outline",
+   "number": "3.4.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "56"
+  },
+  {
+   "level": 2,
+   "title": "Semantic Governance Infrastructure",
+   "page": 68,
+   "source": "outline",
+   "number": "3.4.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "57"
+  },
+  {
+   "level": 2,
+   "title": "Regional governance considerations",
+   "page": 73,
+   "source": "outline",
+   "number": "3.4.6",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "62"
+  },
+  {
+   "level": 2,
+   "title": "Governance maturity considerations",
+   "page": 74,
+   "source": "outline",
+   "number": "3.4.7",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "63"
+  },
+  {
+   "level": 1,
+   "title": "DPI-H Application Components",
+   "page": 74,
+   "source": "outline",
+   "number": "3.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "63"
+  },
+  {
+   "level": 2,
+   "title": "What Distinguishes a DPI-H Application Component",
+   "page": 74,
+   "source": "outline",
+   "number": "3.5.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "63"
+  },
+  {
+   "level": 2,
+   "title": "How each component is described",
+   "page": 76,
+   "source": "outline",
+   "number": "3.5.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "65"
+  },
+  {
+   "level": 2,
+   "title": "How the components are organised",
+   "page": 77,
+   "source": "outline",
+   "number": "3.5.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "66"
+  },
+  {
+   "level": 3,
+   "title": "The foundational shared data layer",
+   "page": 78,
+   "source": "outline",
+   "number": "3.5.3.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "67"
+  },
+  {
+   "level": 3,
+   "title": "The business services layer",
+   "page": 81,
+   "source": "outline",
+   "number": "3.5.3.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "70"
+  },
+  {
+   "level": 1,
+   "title": "Interoperability Architecture within DPI-H",
+   "page": 82,
+   "source": "outline",
+   "number": "3.6",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "71"
+  },
+  {
+   "level": 2,
+   "title": "Interoperability as a capability, not just a component",
+   "page": 83,
+   "source": "outline",
+   "number": "3.6.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "72"
+  },
+  {
+   "level": 2,
+   "title": "Data and health content standards",
+   "page": 84,
+   "source": "outline",
+   "number": "3.6.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "73"
+  },
+  {
+   "level": 2,
+   "title": "Interoperability between DPI-H and foundational DPI",
+   "page": 85,
+   "source": "outline",
+   "number": "3.6.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "74"
+  },
+  {
+   "level": 2,
+   "title": "Cross-border health data flows",
+   "page": 88,
+   "source": "outline",
+   "number": "3.6.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "77"
+  },
+  {
+   "level": 2,
+   "title": "Conformance",
+   "page": 89,
+   "source": "outline",
+   "number": "3.6.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "78"
+  },
+  {
+   "level": 1,
+   "title": "Conformance and Testing across Architecture and Components",
+   "page": 89,
+   "source": "outline",
+   "number": "3.7",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "78"
+  },
+  {
+   "level": 2,
+   "title": "Purpose",
+   "page": 89,
+   "source": "outline",
+   "number": "3.7.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "78"
+  },
+  {
+   "level": 2,
+   "title": "The model",
+   "page": 90,
+   "source": "outline",
+   "number": "3.7.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "79"
+  },
+  {
+   "level": 2,
+   "title": "Alignment with IHE profiles",
+   "page": 94,
+   "source": "outline",
+   "number": "3.7.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "83"
+  },
+  {
+   "level": 2,
+   "title": "Planning testing from the architecture",
+   "page": 95,
+   "source": "outline",
+   "number": "3.7.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "84"
+  },
+  {
+   "level": 2,
+   "title": "Validating goals and adoption",
+   "page": 96,
+   "source": "outline",
+   "number": "3.7.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "85"
+  },
+  {
+   "level": 2,
+   "title": "Constructs and their counterparts",
+   "page": 97,
+   "source": "outline",
+   "number": "3.7.6",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "86"
+  },
+  {
+   "level": 1,
+   "title": "Understanding the Starting Point",
+   "page": 99,
+   "source": "outline",
+   "number": "4.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "88"
+  },
+  {
+   "level": 2,
+   "title": "No Country Starts from Zero",
+   "page": 99,
+   "source": "outline",
+   "number": "4.1.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "88"
+  },
+  {
+   "level": 2,
+   "title": "Assessing Where You Are",
+   "page": 99,
+   "source": "outline",
+   "number": "4.1.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "88"
+  },
+  {
+   "level": 1,
+   "title": "Charting a Path to REDDHI",
+   "page": 100,
+   "source": "outline",
+   "number": "4.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "89"
+  },
+  {
+   "level": 2,
+   "title": "Different Entry Points toward REDDHI",
+   "page": 100,
+   "source": "outline",
+   "number": "4.2.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "89"
+  },
+  {
+   "level": 2,
+   "title": "A Phased Implementation Approach",
+   "page": 101,
+   "source": "outline",
+   "number": "4.2.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "90"
+  },
+  {
+   "level": 2,
+   "title": "Navigating Legacy Systems",
+   "page": 104,
+   "source": "outline",
+   "number": "4.2.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "93"
+  },
+  {
+   "level": 2,
+   "title": "The Role of the National Digital Architect",
+   "page": 104,
+   "source": "outline",
+   "number": "4.2.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "93"
+  },
+  {
+   "level": 1,
+   "title": "Profiles and Specifications for Implementation",
+   "page": 105,
+   "source": "outline",
+   "number": "4.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "94"
+  },
+  {
+   "level": 2,
+   "title": "Design Data Structures and Data Models First",
+   "page": 105,
+   "source": "outline",
+   "number": "4.3.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "94"
+  },
+  {
+   "level": 2,
+   "title": "Actors and Roles: Defining Who Participates",
+   "page": 106,
+   "source": "outline",
+   "number": "4.3.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "95"
+  },
+  {
+   "level": 2,
+   "title": "Services and Transactions: FHIR as the Recommended Framework",
+   "page": 107,
+   "source": "outline",
+   "number": "4.3.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "96"
+  },
+  {
+   "level": 2,
+   "title": "Integration Interfaces with Foundational DPI",
+   "page": 107,
+   "source": "outline",
+   "number": "4.3.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "96"
+  },
+  {
+   "level": 2,
+   "title": "Interoperability Implementation Pathways",
+   "page": 108,
+   "source": "outline",
+   "number": "4.3.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "97"
+  },
+  {
+   "level": 2,
+   "title": "Minimum Conformance and Testing",
+   "page": 109,
+   "source": "outline",
+   "number": "4.3.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "98"
+  },
+  {
+   "level": 1,
+   "title": "Measuring Progress and Impact",
+   "page": 109,
+   "source": "outline",
+   "number": "4.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "98"
+  },
+  {
+   "level": 2,
+   "title": "Assessing impact: Are goals being achieved?",
+   "page": 110,
+   "source": "outline",
+   "number": "4.4.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "99"
+  },
+  {
+   "level": 2,
+   "title": "Tracking progress over time",
+   "page": 110,
+   "source": "outline",
+   "number": "4.4.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "99"
+  },
+  {
+   "level": 1,
+   "title": "Roles, Skills, and Capacity",
+   "page": 111,
+   "source": "outline",
+   "number": "4.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "100"
+  },
+  {
+   "level": 2,
+   "title": "How to Use This Architecture",
+   "page": 111,
+   "source": "outline",
+   "number": "4.5.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "100"
+  },
+  {
+   "level": 2,
+   "title": "The Roles and Skills Needed to Build and Govern the Architecture",
+   "page": 111,
+   "source": "outline",
+   "number": "4.5.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "100"
+  },
+  {
+   "level": 2,
+   "title": "Building and Sustaining National Capacity",
+   "page": 112,
+   "source": "outline",
+   "number": "4.5.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "101"
+  },
+  {
+   "level": 1,
+   "title": "Financing and Partnerships",
+   "page": 113,
+   "source": "outline",
+   "number": "4.6",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "102"
+  },
+  {
+   "level": 2,
+   "title": "The Investment Case",
+   "page": 113,
+   "source": "outline",
+   "number": "4.6.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "102"
+  },
+  {
+   "level": 2,
+   "title": "Sustainability by Design",
+   "page": 113,
+   "source": "outline",
+   "number": "4.6.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "102"
+  },
+  {
+   "level": 2,
+   "title": "Approaches to Financing",
+   "page": 114,
+   "source": "outline",
+   "number": "4.6.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "103"
+  },
+  {
+   "level": 2,
+   "title": "Partnerships",
+   "page": 114,
+   "source": "outline",
+   "number": "4.6.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "103"
+  },
+  {
+   "level": 1,
+   "title": "Emerging technologies and the foundations they depend on",
+   "page": 115,
+   "source": "outline",
+   "number": "5.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "104"
+  },
+  {
+   "level": 1,
+   "title": "Why data foundations determine what AI can deliver",
+   "page": 116,
+   "source": "outline",
+   "number": "5.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "105"
+  },
+  {
+   "level": 1,
+   "title": "Where artificial intelligence can support the health system",
+   "page": 118,
+   "source": "outline",
+   "number": "5.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "107"
+  },
+  {
+   "level": 1,
+   "title": "Readiness, oversight, and responsible adoption",
+   "page": 118,
+   "source": "outline",
+   "number": "5.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "107"
+  },
+  {
+   "level": 2,
+   "title": "What AI readiness means",
+   "page": 118,
+   "source": "outline",
+   "number": "5.4.1",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "107"
+  },
+  {
+   "level": 2,
+   "title": "Trustworthy AI in a health setting",
+   "page": 119,
+   "source": "outline",
+   "number": "5.4.2",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "108"
+  },
+  {
+   "level": 2,
+   "title": "Equity and safety",
+   "page": 120,
+   "source": "outline",
+   "number": "5.4.3",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "109"
+  },
+  {
+   "level": 2,
+   "title": "Cost, sustainability, and commercial pressure",
+   "page": 120,
+   "source": "outline",
+   "number": "5.4.4",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "109"
+  },
+  {
+   "level": 1,
+   "title": "Keeping the architecture open and adaptable",
+   "page": 120,
+   "source": "outline",
+   "number": "5.5",
+   "confidence": null,
+   "evidence": null,
+   "page_label": "109"
+  },
+  {
+   "level": 1,
+   "title": "Appendix A",
+   "page": 123,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "112"
+  },
+  {
+   "level": 1,
+   "title": "Appendix B",
+   "page": 124,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "113"
+  },
+  {
+   "level": 1,
+   "title": "Appendix C: DPI-H Application Component Descriptions",
+   "page": 125,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "114"
+  },
+  {
+   "level": 2,
+   "title": "Metadata registries and foundational components",
+   "page": 125,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "114"
+  },
+  {
+   "level": 3,
+   "title": "Client Registry",
+   "page": 126,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "115"
+  },
+  {
+   "level": 3,
+   "title": "Health Facility Registry",
+   "page": 135,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "124"
+  },
+  {
+   "level": 3,
+   "title": "Health Workforce Registry",
+   "page": 146,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "135"
+  },
+  {
+   "level": 3,
+   "title": "Product Registry",
+   "page": 156,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "145"
+  },
+  {
+   "level": 3,
+   "title": "Lifelong Health Record",
+   "page": 166,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "155"
+  },
+  {
+   "level": 3,
+   "title": "Terminology Service",
+   "page": 175,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "164"
+  },
+  {
+   "level": 3,
+   "title": "Logical Information Model Repository",
+   "page": 183,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "172"
+  },
+  {
+   "level": 2,
+   "title": "Business Services Components",
+   "page": 191,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "180"
+  },
+  {
+   "level": 3,
+   "title": "Computable Decision Support Engine",
+   "page": 192,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "181"
+  },
+  {
+   "level": 3,
+   "title": "Supplier Registry",
+   "page": 202,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "191"
+  },
+  {
+   "level": 3,
+   "title": "Benefits Package Registry",
+   "page": 210,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "199"
+  },
+  {
+   "level": 4,
+   "title": "Distinguishing the Benefits Package Registry, Contract & Benefits Management System, and Beneficiary Registry",
+   "page": 218,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "207"
+  },
+  {
+   "level": 3,
+   "title": "Health Management Information System",
+   "page": 221,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "210"
+  },
+  {
+   "level": 3,
+   "title": "Public Health Surveillance Platform",
+   "page": 229,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "218"
+  },
+  {
+   "level": 1,
+   "title": "Appendix D: Country and Regional Implementation Examples",
+   "page": 240,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "229"
+  },
+  {
+   "level": 2,
+   "title": "D.1  Illustrative tools and technologies",
+   "page": 240,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "229"
+  },
+  {
+   "level": 3,
+   "title": "Client Registry",
+   "page": 240,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "229"
+  },
+  {
+   "level": 3,
+   "title": "Lifelong Health Record",
+   "page": 240,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "229"
+  },
+  {
+   "level": 3,
+   "title": "Computable Decision Support Engine",
+   "page": 241,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "230"
+  },
+  {
+   "level": 3,
+   "title": "Health Management Information Service",
+   "page": 241,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "230"
+  },
+  {
+   "level": 3,
+   "title": "Public Health Surveillance Platform",
+   "page": 241,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "230"
+  },
+  {
+   "level": 3,
+   "title": "Terminology Service and Logical Information Model Repository",
+   "page": 242,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "231"
+  },
+  {
+   "level": 2,
+   "title": "D.2  Country implementation examples",
+   "page": 242,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "231"
+  },
+  {
+   "level": 3,
+   "title": "Australia",
+   "page": 242,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "231"
+  },
+  {
+   "level": 3,
+   "title": "Denmark",
+   "page": 243,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "232"
+  },
+  {
+   "level": 3,
+   "title": "Estonia",
+   "page": 243,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "232"
+  },
+  {
+   "level": 3,
+   "title": "India",
+   "page": 243,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "232"
+  },
+  {
+   "level": 3,
+   "title": "Kenya",
+   "page": 243,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "232"
+  },
+  {
+   "level": 3,
+   "title": "Nigeria",
+   "page": 244,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "233"
+  },
+  {
+   "level": 3,
+   "title": "Rwanda",
+   "page": 244,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "233"
+  },
+  {
+   "level": 3,
+   "title": "Spain",
+   "page": 244,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "233"
+  },
+  {
+   "level": 3,
+   "title": "Spain \u2014 Catalonia (subnational)",
+   "page": 244,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "233"
+  },
+  {
+   "level": 3,
+   "title": "Tanzania",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 3,
+   "title": "Uganda",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 3,
+   "title": "United Kingdom (England)",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 3,
+   "title": "United States",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 2,
+   "title": "D.3  Regional and multi-country examples",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 3,
+   "title": "European Union and European Economic Area \u2014 regional surveillance",
+   "page": 245,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "234"
+  },
+  {
+   "level": 3,
+   "title": "WHO SMART Guidelines pilot implementations",
+   "page": 246,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "235"
+  },
+  {
+   "level": 1,
+   "title": "Appendix E: Health Goals to DPI Mapping",
+   "page": 247,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "236"
+  },
+  {
+   "level": 1,
+   "title": "Appendix F: Semantic Governance Infrastructure: capability details",
+   "page": 252,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": "241"
+  }
+ ],
+ "toc_source": "outline",
+ "toc_undetermined_reason": null,
+ "figures": [
+  {
+   "kind": "figure",
+   "number": "1",
+   "title": "The Reference Architecture within planning and implementing a digital health enterprise",
+   "page": 12,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "1"
+  },
+  {
+   "kind": "box",
+   "number": "1.1",
+   "title": "The Seven Priority Health Sector Goals 1. Build Trusted Data Foundations \u2013 \u201cCapture once, use many times.\u201d 2. Support a Capable, Well-Distributed Health Workforce \u2013 \u201cProven Skills, Right Place, Timely Pay, Continuous Growth.\u201d 3. Ensure Quality and Continuity of Care \u2013 \u201cCare that connects, protocols",
+   "page": 22,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "11"
+  },
+  {
+   "kind": "box",
+   "number": "1.2",
+   "title": "Why foundational identity DPI is not sufficient for health on its own Foundational digital identity provides authoritative identification and authentication of individuals. The health requirements below reflect genuine gaps, others reflect capabilities that belong with health components by design \u2014",
+   "page": 25,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "14"
+  },
+  {
+   "kind": "box",
+   "number": "1.3",
+   "title": "Why foundational data exchange DPI is not sufficient for health on its own Foundational data exchange DPI provides secure, authenticated, logged, reliable transport between registered parties. Like a postal service that delivers a sealed envelope without opening it, the data exchange DPI carries dat",
+   "page": 26,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "15"
+  },
+  {
+   "kind": "box",
+   "number": "1.4",
+   "title": "Why foundational payments DPI is not sufficient for health on its own Foundational payments DPI provides secure, reliable movement and settlement of funds between parties. Its limitation for health centres on a specific requirement: that health sector payments hinge on determinations the foundationa",
+   "page": 27,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "16"
+  },
+  {
+   "kind": "table",
+   "number": "2.2",
+   "title": "REDDHI \u2014 foundational capabilities and the components that deliver them",
+   "page": 38,
+   "confidence": 0.5,
+   "evidence": [],
+   "page_label": "27"
+  },
+  {
+   "kind": "figure",
+   "number": "2.2",
+   "title": "REDDHI: resilient and essential dimensions, the full-STAC foundations, and REDDHI's role within national digital architecture",
+   "page": 41,
+   "confidence": 0.5,
+   "evidence": [],
+   "page_label": "30"
+  },
+  {
+   "kind": "figure",
+   "number": "2.3",
+   "title": "DPI-H Architecture Design Principles",
+   "page": 48,
+   "confidence": 0.5,
+   "evidence": [],
+   "page_label": "37"
+  },
+  {
+   "kind": "table",
+   "number": "2.4",
+   "title": "Health financing capabilities and the DPI-H components that supports them",
+   "page": 50,
+   "confidence": 0.5,
+   "evidence": [],
+   "page_label": "39"
+  },
+  {
+   "kind": "table",
+   "number": "3.1",
+   "title": "The element types used in the DPI-H reference architecture and what they represent",
+   "page": 54,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "43"
+  },
+  {
+   "kind": "table",
+   "number": "3.2",
+   "title": "The relationship types used in the DPI-H reference architecture and what they represent",
+   "page": 55,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "44"
+  },
+  {
+   "kind": "figure",
+   "number": "3.1",
+   "title": "Realisation relationships among architectural elements",
+   "page": 56,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "45"
+  },
+  {
+   "kind": "figure",
+   "number": "3.2",
+   "title": "The DPI-H reference architecture \u2014 a layered view showing the health goals and the cross-cutting governance that frames them; the capabilities that serve the goals; the point-of-care and other functional applications through which services are delivered; the digital public infrastructure for health,",
+   "page": 59,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "48"
+  },
+  {
+   "kind": "figure",
+   "number": "3.3",
+   "title": "Simplified view of a single health goal (Establish Trusted Personal Health Records) \u2014 its subgoals, the capabilities that enable them, the DPI-H components that support them, and the cross-cutting enablers",
+   "page": 61,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "50"
+  },
+  {
+   "kind": "figure",
+   "number": "3.4",
+   "title": "Layered view for one sub-goal relating to Establish Trusted Personal Health Records \u2014 from sub-goal and outcome, through capabilities and services, to metadata components",
+   "page": 62,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "51"
+  },
+  {
+   "kind": "figure",
+   "number": "3.5",
+   "title": "Layered view for one sub-goal relating to ensuring Quality and Continuity of Care \u2014 from subgoal and outcome, through capabilities and services, to components and data",
+   "page": 63,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "52"
+  },
+  {
+   "kind": "box",
+   "number": "3.1",
+   "title": "Criteria for DPI-H Application Components DPI-H should serve as a shared layer upon which multiple functional applications, point-ofservice and programme-specific systems depend. DPI-H application components should: \u2022 Be reusable across multiple health programmes and use cases without modification t",
+   "page": 75,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "64"
+  },
+  {
+   "kind": "table",
+   "number": "3.5",
+   "title": "Comparison of the Logical Information Model Repository and the Terminology Service",
+   "page": 79,
+   "confidence": 0.5,
+   "evidence": [],
+   "page_label": "68"
+  },
+  {
+   "kind": "figure",
+   "number": "3.6",
+   "title": "Exchange patterns that can coexist within a single country. The same set of systems may be connected through any of these mechanisms, chosen according to context; the architecture does not prescribe one",
+   "page": 87,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "76"
+  }
+ ],
+ "pages": [
+  {
+   "physical": 1,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 2,
+   "label": "1",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 3,
+   "label": "2",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 4,
+   "label": "3",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 5,
+   "label": "4",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 6,
+   "label": "5",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 7,
+   "label": "6",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 8,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 9,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 10,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 11,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 12,
+   "label": "1",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 13,
+   "label": "2",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 14,
+   "label": "3",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 15,
+   "label": "4",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 16,
+   "label": "5",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 17,
+   "label": "6",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 18,
+   "label": "7",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 19,
+   "label": "8",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 20,
+   "label": "9",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 21,
+   "label": "10",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 22,
+   "label": "11",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 23,
+   "label": "12",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 24,
+   "label": "13",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 25,
+   "label": "14",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 26,
+   "label": "15",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 27,
+   "label": "16",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 28,
+   "label": "17",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 29,
+   "label": "18",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 30,
+   "label": "19",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 31,
+   "label": "20",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 32,
+   "label": "21",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 33,
+   "label": "22",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 34,
+   "label": "23",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 35,
+   "label": "24",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 36,
+   "label": "25",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 37,
+   "label": "26",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 38,
+   "label": "27",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 39,
+   "label": "28",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 40,
+   "label": "29",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 41,
+   "label": "30",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 42,
+   "label": "31",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 43,
+   "label": "32",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 44,
+   "label": "33",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 45,
+   "label": "34",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 46,
+   "label": "35",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 47,
+   "label": "36",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 48,
+   "label": "37",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 49,
+   "label": "38",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 50,
+   "label": "39",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 51,
+   "label": "40",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 52,
+   "label": "41",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 53,
+   "label": "42",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 54,
+   "label": "43",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 55,
+   "label": "44",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 56,
+   "label": "45",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 57,
+   "label": "46",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 58,
+   "label": "47",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 59,
+   "label": "48",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 60,
+   "label": "49",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 61,
+   "label": "50",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 62,
+   "label": "51",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 63,
+   "label": "52",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 64,
+   "label": "53",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 65,
+   "label": "54",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 66,
+   "label": "55",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 67,
+   "label": "56",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 68,
+   "label": "57",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 69,
+   "label": "58",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 70,
+   "label": "59",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 71,
+   "label": "60",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 72,
+   "label": "61",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 73,
+   "label": "62",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 74,
+   "label": "63",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 75,
+   "label": "64",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 76,
+   "label": "65",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 77,
+   "label": "66",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 78,
+   "label": "67",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 79,
+   "label": "68",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 80,
+   "label": "69",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 81,
+   "label": "70",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 82,
+   "label": "71",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 83,
+   "label": "72",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 84,
+   "label": "73",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 85,
+   "label": "74",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 86,
+   "label": "75",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 87,
+   "label": "76",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 88,
+   "label": "77",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 89,
+   "label": "78",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 90,
+   "label": "79",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 91,
+   "label": "80",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 92,
+   "label": "81",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 93,
+   "label": "82",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 94,
+   "label": "83",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 95,
+   "label": "84",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 96,
+   "label": "85",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 97,
+   "label": "86",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 98,
+   "label": "87",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 99,
+   "label": "88",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 100,
+   "label": "89",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 101,
+   "label": "90",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 102,
+   "label": "91",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 103,
+   "label": "92",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 104,
+   "label": "93",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 105,
+   "label": "94",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 106,
+   "label": "95",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 107,
+   "label": "96",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 108,
+   "label": "97",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 109,
+   "label": "98",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 110,
+   "label": "99",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 111,
+   "label": "100",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 112,
+   "label": "101",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 113,
+   "label": "102",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 114,
+   "label": "103",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 115,
+   "label": "104",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 116,
+   "label": "105",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 117,
+   "label": "106",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 118,
+   "label": "107",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 119,
+   "label": "108",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 120,
+   "label": "109",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 121,
+   "label": "110",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 122,
+   "label": "111",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 123,
+   "label": "112",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 124,
+   "label": "113",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 125,
+   "label": "114",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 126,
+   "label": "115",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 127,
+   "label": "116",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 128,
+   "label": "117",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 129,
+   "label": "118",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 130,
+   "label": "119",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 131,
+   "label": "120",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 132,
+   "label": "121",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 133,
+   "label": "122",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 134,
+   "label": "123",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 135,
+   "label": "124",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 136,
+   "label": "125",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 137,
+   "label": "126",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 138,
+   "label": "127",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 139,
+   "label": "128",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 140,
+   "label": "129",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 141,
+   "label": "130",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 142,
+   "label": "131",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 143,
+   "label": "132",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 144,
+   "label": "133",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 145,
+   "label": "134",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 146,
+   "label": "135",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 147,
+   "label": "136",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 148,
+   "label": "137",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 149,
+   "label": "138",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 150,
+   "label": "139",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 151,
+   "label": "140",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 152,
+   "label": "141",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 153,
+   "label": "142",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 154,
+   "label": "143",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 155,
+   "label": "144",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 156,
+   "label": "145",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 157,
+   "label": "146",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 158,
+   "label": "147",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 159,
+   "label": "148",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 160,
+   "label": "149",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 161,
+   "label": "150",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 162,
+   "label": "151",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 163,
+   "label": "152",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 164,
+   "label": "153",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 165,
+   "label": "154",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 166,
+   "label": "155",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 167,
+   "label": "156",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 168,
+   "label": "157",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 169,
+   "label": "158",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 170,
+   "label": "159",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 171,
+   "label": "160",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 172,
+   "label": "161",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 173,
+   "label": "162",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 174,
+   "label": "163",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 175,
+   "label": "164",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 176,
+   "label": "165",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 177,
+   "label": "166",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 178,
+   "label": "167",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 179,
+   "label": "168",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 180,
+   "label": "169",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 181,
+   "label": "170",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 182,
+   "label": "171",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 183,
+   "label": "172",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 184,
+   "label": "173",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 185,
+   "label": "174",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 186,
+   "label": "175",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 187,
+   "label": "176",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 188,
+   "label": "177",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 189,
+   "label": "178",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 190,
+   "label": "179",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 191,
+   "label": "180",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 192,
+   "label": "181",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 193,
+   "label": "182",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 194,
+   "label": "183",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 195,
+   "label": "184",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 196,
+   "label": "185",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 197,
+   "label": "186",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 198,
+   "label": "187",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 199,
+   "label": "188",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 200,
+   "label": "189",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 201,
+   "label": "190",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 202,
+   "label": "191",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 203,
+   "label": "192",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 204,
+   "label": "193",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 205,
+   "label": "194",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 206,
+   "label": "195",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 207,
+   "label": "196",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 208,
+   "label": "197",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 209,
+   "label": "198",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 210,
+   "label": "199",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 211,
+   "label": "200",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 212,
+   "label": "201",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 213,
+   "label": "202",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 214,
+   "label": "203",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 215,
+   "label": "204",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 216,
+   "label": "205",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 217,
+   "label": "206",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 218,
+   "label": "207",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 219,
+   "label": "208",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 220,
+   "label": "209",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 221,
+   "label": "210",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 222,
+   "label": "211",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 223,
+   "label": "212",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 224,
+   "label": "213",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 225,
+   "label": "214",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 226,
+   "label": "215",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 227,
+   "label": "216",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 228,
+   "label": "217",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 229,
+   "label": "218",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 230,
+   "label": "219",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 231,
+   "label": "220",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 232,
+   "label": "221",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 233,
+   "label": "222",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 234,
+   "label": "223",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 235,
+   "label": "224",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 236,
+   "label": "225",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 237,
+   "label": "226",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 238,
+   "label": "227",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 239,
+   "label": "228",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 240,
+   "label": "229",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 241,
+   "label": "230",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 242,
+   "label": "231",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 243,
+   "label": "232",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 244,
+   "label": "233",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 245,
+   "label": "234",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 246,
+   "label": "235",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 247,
+   "label": "236",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 248,
+   "label": "237",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 249,
+   "label": "238",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 250,
+   "label": "239",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 251,
+   "label": "240",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 252,
+   "label": "241",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "contents"
+   ]
+  },
+  {
+   "physical": 253,
+   "label": "242",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  },
+  {
+   "physical": 254,
+   "label": "243",
+   "source": "printed",
+   "confidence": 0.7,
+   "evidence": [
+    "printed"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "sec-front-matter",
+   "number": null,
+   "title": "Front matter",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 19,
+   "n_chars": 38698,
+   "n_words": 4035,
+   "label_start": null,
+   "label_end": "8"
+  },
+  {
+   "id": "sec-000-11-about-the-reference-architecture-for-health-d",
+   "number": "1.1",
+   "title": "About the Reference Architecture for health Digital Public Infrastructure (DPI-H) Guidance",
+   "level": 1,
+   "page_start": 19,
+   "page_end": 19,
+   "n_chars": 728,
+   "n_words": 105,
+   "label_start": "8",
+   "label_end": "8"
+  },
+  {
+   "id": "sec-001-111-what-is-a-reference-architecture-and-why-doe",
+   "number": "1.1.1",
+   "title": "What is a reference architecture, and why does it matter for the health sector?",
+   "level": 2,
+   "page_start": 19,
+   "page_end": 19,
+   "n_chars": 1096,
+   "n_words": 159,
+   "label_start": "8",
+   "label_end": "8"
+  },
+  {
+   "id": "sec-002-112-understanding-digital-public-infrastructure",
+   "number": "1.1.2",
+   "title": "Understanding Digital Public Infrastructure (DPI) and health Digital Public Infrastructure (DPI-H)",
+   "level": 2,
+   "page_start": 19,
+   "page_end": 21,
+   "n_chars": 6875,
+   "n_words": 889,
+   "label_start": "8",
+   "label_end": "10"
+  },
+  {
+   "id": "sec-003-113-building-on-existing-foundations",
+   "number": "1.1.3",
+   "title": "Building on existing foundations",
+   "level": 2,
+   "page_start": 21,
+   "page_end": 23,
+   "n_chars": 6179,
+   "n_words": 855,
+   "label_start": "10",
+   "label_end": "12"
+  },
+  {
+   "id": "sec-004-114-who-can-benefit-from-this-guidance",
+   "number": "1.1.4",
+   "title": "Who can benefit from this guidance?",
+   "level": 2,
+   "page_start": 23,
+   "page_end": 24,
+   "n_chars": 2791,
+   "n_words": 366,
+   "label_start": "12",
+   "label_end": "13"
+  },
+  {
+   "id": "sec-005-12-why-health-needs-more-than-foundational-dpi",
+   "number": "1.2",
+   "title": "Why health needs more than foundational DPI",
+   "level": 1,
+   "page_start": 24,
+   "page_end": 24,
+   "n_chars": 1787,
+   "n_words": 267,
+   "label_start": "13",
+   "label_end": "13"
+  },
+  {
+   "id": "sec-006-121-identity-dpi-and-identification-in-healthcar",
+   "number": "1.2.1",
+   "title": "Identity DPI and Identification in Healthcare",
+   "level": 2,
+   "page_start": 24,
+   "page_end": 26,
+   "n_chars": 4262,
+   "n_words": 560,
+   "label_start": "13",
+   "label_end": "15"
+  },
+  {
+   "id": "sec-007-122-data-exchange-dpi-and-interoperability-in-th",
+   "number": "1.2.2",
+   "title": "Data exchange DPI and Interoperability in the health sector",
+   "level": 2,
+   "page_start": 26,
+   "page_end": 27,
+   "n_chars": 2761,
+   "n_words": 400,
+   "label_start": "15",
+   "label_end": "16"
+  },
+  {
+   "id": "sec-008-123-payments-dpi-and-financial-transactions-in-t",
+   "number": "1.2.3",
+   "title": "Payments DPI and financial transactions in the health sector",
+   "level": 2,
+   "page_start": 27,
+   "page_end": 28,
+   "n_chars": 4302,
+   "n_words": 606,
+   "label_start": "16",
+   "label_end": "17"
+  },
+  {
+   "id": "sec-009-13-value-of-dpi-h",
+   "number": "1.3",
+   "title": "Value of DPI-H",
+   "level": 1,
+   "page_start": 28,
+   "page_end": 28,
+   "n_chars": 653,
+   "n_words": 90,
+   "label_start": "17",
+   "label_end": "17"
+  },
+  {
+   "id": "sec-010-131-the-cost-of-fragmentation",
+   "number": "1.3.1",
+   "title": "The Cost of Fragmentation",
+   "level": 2,
+   "page_start": 28,
+   "page_end": 29,
+   "n_chars": 3531,
+   "n_words": 532,
+   "label_start": "17",
+   "label_end": "18"
+  },
+  {
+   "id": "sec-011-132-what-dpi-h-makes-possible",
+   "number": "1.3.2",
+   "title": "What DPI-H Makes Possible",
+   "level": 2,
+   "page_start": 29,
+   "page_end": 30,
+   "n_chars": 1166,
+   "n_words": 151,
+   "label_start": "18",
+   "label_end": "19"
+  },
+  {
+   "id": "sec-012-133-value-across-stakeholders",
+   "number": "1.3.3",
+   "title": "Value Across Stakeholders",
+   "level": 2,
+   "page_start": 30,
+   "page_end": 31,
+   "n_chars": 2865,
+   "n_words": 415,
+   "label_start": "19",
+   "label_end": "20"
+  },
+  {
+   "id": "sec-013-14-dpi-h-principles",
+   "number": "1.4",
+   "title": "DPI-H Principles",
+   "level": 1,
+   "page_start": 31,
+   "page_end": 32,
+   "n_chars": 4235,
+   "n_words": 588,
+   "label_start": "20",
+   "label_end": "21"
+  },
+  {
+   "id": "sec-014-15-the-seven-priority-health-sector-goals",
+   "number": "1.5",
+   "title": "The Seven Priority Health Sector Goals",
+   "level": 1,
+   "page_start": 32,
+   "page_end": 33,
+   "n_chars": 3755,
+   "n_words": 591,
+   "label_start": "21",
+   "label_end": "22"
+  },
+  {
+   "id": "sec-015-151-the-health-sector-goals",
+   "number": "1.5.1",
+   "title": "The Health Sector Goals",
+   "level": 2,
+   "page_start": 33,
+   "page_end": 35,
+   "n_chars": 6596,
+   "n_words": 982,
+   "label_start": "22",
+   "label_end": "24"
+  },
+  {
+   "id": "sec-016-21-the-reference-architecture-scope",
+   "number": "2.1",
+   "title": "The Reference Architecture Scope",
+   "level": 1,
+   "page_start": 35,
+   "page_end": 36,
+   "n_chars": 1425,
+   "n_words": 204,
+   "label_start": "24",
+   "label_end": "25"
+  },
+  {
+   "id": "sec-017-211-metadata-registries-and-foundational-compone",
+   "number": "2.1.1",
+   "title": "Metadata registries and foundational components",
+   "level": 2,
+   "page_start": 36,
+   "page_end": 36,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "25",
+   "label_end": "25"
+  },
+  {
+   "id": "sec-018-212-business-services-layer",
+   "number": "2.1.2",
+   "title": "Business services layer",
+   "level": 2,
+   "page_start": 36,
+   "page_end": 37,
+   "n_chars": 3547,
+   "n_words": 520,
+   "label_start": "25",
+   "label_end": "26"
+  },
+  {
+   "id": "sec-019-213-relationship-to-foundational-dpi",
+   "number": "2.1.3",
+   "title": "Relationship to foundational DPI",
+   "level": 2,
+   "page_start": 37,
+   "page_end": 37,
+   "n_chars": 983,
+   "n_words": 152,
+   "label_start": "26",
+   "label_end": "26"
+  },
+  {
+   "id": "sec-020-22-resilient-essential-data-and-digital-health-i",
+   "number": "2.2",
+   "title": "Resilient Essential Data and Digital Health Infrastructure (REDDHI)",
+   "level": 1,
+   "page_start": 37,
+   "page_end": 37,
+   "n_chars": 27,
+   "n_words": 3,
+   "label_start": "26",
+   "label_end": "26"
+  },
+  {
+   "id": "sec-021-221-what-reddhi-is-and-its-foundational-core",
+   "number": "2.2.1",
+   "title": "What REDDHI is and its foundational core",
+   "level": 2,
+   "page_start": 37,
+   "page_end": 39,
+   "n_chars": 5291,
+   "n_words": 759,
+   "label_start": "26",
+   "label_end": "28"
+  },
+  {
+   "id": "sec-022-222-the-enabling-conditions-for-reddhi",
+   "number": "2.2.2",
+   "title": "The enabling conditions for REDDHI",
+   "level": 2,
+   "page_start": 39,
+   "page_end": 48,
+   "n_chars": 23519,
+   "n_words": 3477,
+   "label_start": "28",
+   "label_end": "37"
+  },
+  {
+   "id": "sec-023-24-methodology-mapping-health-goals-to-dpi-h",
+   "number": "2.4",
+   "title": "Methodology: Mapping Health Goals to DPI-H",
+   "level": 1,
+   "page_start": 48,
+   "page_end": 49,
+   "n_chars": 3014,
+   "n_words": 422,
+   "label_start": "37",
+   "label_end": "38"
+  },
+  {
+   "id": "sec-024-241-how-each-health-goal-is-articulated",
+   "number": "2.4.1",
+   "title": "How each health goal is articulated",
+   "level": 2,
+   "page_start": 49,
+   "page_end": 50,
+   "n_chars": 942,
+   "n_words": 154,
+   "label_start": "38",
+   "label_end": "39"
+  },
+  {
+   "id": "sec-025-242-worked-example-advance-efficient-and-equitab",
+   "number": "2.4.2",
+   "title": "Worked example: Advance Efficient and Equitable Health Financing",
+   "level": 2,
+   "page_start": 50,
+   "page_end": 52,
+   "n_chars": 5594,
+   "n_words": 810,
+   "label_start": "39",
+   "label_end": "41"
+  },
+  {
+   "id": "sec-026-31-the-architecture-description-approach",
+   "number": "3.1",
+   "title": "The architecture description approach",
+   "level": 1,
+   "page_start": 52,
+   "page_end": 59,
+   "n_chars": 12307,
+   "n_words": 1875,
+   "label_start": "41",
+   "label_end": "48"
+  },
+  {
+   "id": "sec-027-33-the-reference-architecture-in-practice",
+   "number": "3.3",
+   "title": "The reference architecture in practice",
+   "level": 1,
+   "page_start": 59,
+   "page_end": 64,
+   "n_chars": 7180,
+   "n_words": 1111,
+   "label_start": "48",
+   "label_end": "53"
+  },
+  {
+   "id": "sec-028-34-governance-of-digital-health-architectures-an",
+   "number": "3.4",
+   "title": "Governance of Digital Health Architectures and DPI-H",
+   "level": 1,
+   "page_start": 64,
+   "page_end": 64,
+   "n_chars": 9,
+   "n_words": 2,
+   "label_start": "53",
+   "label_end": "53"
+  },
+  {
+   "id": "sec-029-341-purpose-and-framing",
+   "number": "3.4.1",
+   "title": "Purpose and framing",
+   "level": 2,
+   "page_start": 64,
+   "page_end": 65,
+   "n_chars": 1428,
+   "n_words": 210,
+   "label_start": "53",
+   "label_end": "54"
+  },
+  {
+   "id": "sec-030-342-governance-principles",
+   "number": "3.4.2",
+   "title": "Governance principles",
+   "level": 2,
+   "page_start": 65,
+   "page_end": 65,
+   "n_chars": 1205,
+   "n_words": 173,
+   "label_start": "54",
+   "label_end": "54"
+  },
+  {
+   "id": "sec-031-343-strategic-governance",
+   "number": "3.4.3",
+   "title": "Strategic governance",
+   "level": 2,
+   "page_start": 65,
+   "page_end": 67,
+   "n_chars": 7534,
+   "n_words": 1050,
+   "label_start": "54",
+   "label_end": "56"
+  },
+  {
+   "id": "sec-032-344-operational-governance",
+   "number": "3.4.4",
+   "title": "Operational governance",
+   "level": 2,
+   "page_start": 67,
+   "page_end": 68,
+   "n_chars": 3308,
+   "n_words": 454,
+   "label_start": "56",
+   "label_end": "57"
+  },
+  {
+   "id": "sec-033-345-semantic-governance-infrastructure",
+   "number": "3.4.5",
+   "title": "Semantic Governance Infrastructure",
+   "level": 2,
+   "page_start": 68,
+   "page_end": 73,
+   "n_chars": 11859,
+   "n_words": 1691,
+   "label_start": "57",
+   "label_end": "62"
+  },
+  {
+   "id": "sec-034-346-regional-governance-considerations",
+   "number": "3.4.6",
+   "title": "Regional governance considerations",
+   "level": 2,
+   "page_start": 73,
+   "page_end": 74,
+   "n_chars": 1996,
+   "n_words": 255,
+   "label_start": "62",
+   "label_end": "63"
+  },
+  {
+   "id": "sec-035-347-governance-maturity-considerations",
+   "number": "3.4.7",
+   "title": "Governance maturity considerations",
+   "level": 2,
+   "page_start": 74,
+   "page_end": 74,
+   "n_chars": 1378,
+   "n_words": 202,
+   "label_start": "63",
+   "label_end": "63"
+  },
+  {
+   "id": "sec-036-35-dpi-h-application-components",
+   "number": "3.5",
+   "title": "DPI-H Application Components",
+   "level": 1,
+   "page_start": 74,
+   "page_end": 74,
+   "n_chars": 651,
+   "n_words": 100,
+   "label_start": "63",
+   "label_end": "63"
+  },
+  {
+   "id": "sec-037-351-what-distinguishes-a-dpi-h-application-compo",
+   "number": "3.5.1",
+   "title": "What Distinguishes a DPI-H Application Component",
+   "level": 2,
+   "page_start": 74,
+   "page_end": 76,
+   "n_chars": 5850,
+   "n_words": 861,
+   "label_start": "63",
+   "label_end": "65"
+  },
+  {
+   "id": "sec-038-352-how-each-component-is-described",
+   "number": "3.5.2",
+   "title": "How each component is described",
+   "level": 2,
+   "page_start": 76,
+   "page_end": 77,
+   "n_chars": 744,
+   "n_words": 114,
+   "label_start": "65",
+   "label_end": "66"
+  },
+  {
+   "id": "sec-039-353-how-the-components-are-organised",
+   "number": "3.5.3",
+   "title": "How the components are organised",
+   "level": 2,
+   "page_start": 77,
+   "page_end": 78,
+   "n_chars": 669,
+   "n_words": 95,
+   "label_start": "66",
+   "label_end": "67"
+  },
+  {
+   "id": "sec-040-3531-the-foundational-shared-data-layer",
+   "number": "3.5.3.1",
+   "title": "The foundational shared data layer",
+   "level": 3,
+   "page_start": 78,
+   "page_end": 81,
+   "n_chars": 13329,
+   "n_words": 1971,
+   "label_start": "67",
+   "label_end": "70"
+  },
+  {
+   "id": "sec-041-3532-the-business-services-layer",
+   "number": "3.5.3.2",
+   "title": "The business services layer",
+   "level": 3,
+   "page_start": 81,
+   "page_end": 82,
+   "n_chars": 2576,
+   "n_words": 373,
+   "label_start": "70",
+   "label_end": "71"
+  },
+  {
+   "id": "sec-042-36-interoperability-architecture-within-dpi-h",
+   "number": "3.6",
+   "title": "Interoperability Architecture within DPI-H",
+   "level": 1,
+   "page_start": 82,
+   "page_end": 83,
+   "n_chars": 1962,
+   "n_words": 282,
+   "label_start": "71",
+   "label_end": "72"
+  },
+  {
+   "id": "sec-043-361-interoperability-as-a-capability-not-just-a",
+   "number": "3.6.1",
+   "title": "Interoperability as a capability, not just a component",
+   "level": 2,
+   "page_start": 83,
+   "page_end": 84,
+   "n_chars": 4265,
+   "n_words": 607,
+   "label_start": "72",
+   "label_end": "73"
+  },
+  {
+   "id": "sec-044-362-data-and-health-content-standards",
+   "number": "3.6.2",
+   "title": "Data and health content standards",
+   "level": 2,
+   "page_start": 84,
+   "page_end": 85,
+   "n_chars": 3880,
+   "n_words": 563,
+   "label_start": "73",
+   "label_end": "74"
+  },
+  {
+   "id": "sec-045-363-interoperability-between-dpi-h-and-foundatio",
+   "number": "3.6.3",
+   "title": "Interoperability between DPI-H and foundational DPI",
+   "level": 2,
+   "page_start": 85,
+   "page_end": 88,
+   "n_chars": 7422,
+   "n_words": 1042,
+   "label_start": "74",
+   "label_end": "77"
+  },
+  {
+   "id": "sec-046-364-cross-border-health-data-flows",
+   "number": "3.6.4",
+   "title": "Cross-border health data flows",
+   "level": 2,
+   "page_start": 88,
+   "page_end": 89,
+   "n_chars": 4553,
+   "n_words": 599,
+   "label_start": "77",
+   "label_end": "78"
+  },
+  {
+   "id": "sec-047-365-conformance",
+   "number": "3.6.5",
+   "title": "Conformance",
+   "level": 2,
+   "page_start": 89,
+   "page_end": 89,
+   "n_chars": 493,
+   "n_words": 70,
+   "label_start": "78",
+   "label_end": "78"
+  },
+  {
+   "id": "sec-048-37-conformance-and-testing-across-architecture-a",
+   "number": "3.7",
+   "title": "Conformance and Testing across Architecture and Components",
+   "level": 1,
+   "page_start": 89,
+   "page_end": 89,
+   "n_chars": 18,
+   "n_words": 3,
+   "label_start": "78",
+   "label_end": "78"
+  },
+  {
+   "id": "sec-049-371-purpose",
+   "number": "3.7.1",
+   "title": "Purpose",
+   "level": 2,
+   "page_start": 89,
+   "page_end": 90,
+   "n_chars": 1940,
+   "n_words": 285,
+   "label_start": "78",
+   "label_end": "79"
+  },
+  {
+   "id": "sec-050-372-the-model",
+   "number": "3.7.2",
+   "title": "The model",
+   "level": 2,
+   "page_start": 90,
+   "page_end": 94,
+   "n_chars": 9456,
+   "n_words": 1444,
+   "label_start": "79",
+   "label_end": "83"
+  },
+  {
+   "id": "sec-051-373-alignment-with-ihe-profiles",
+   "number": "3.7.3",
+   "title": "Alignment with IHE profiles",
+   "level": 2,
+   "page_start": 94,
+   "page_end": 95,
+   "n_chars": 1141,
+   "n_words": 179,
+   "label_start": "83",
+   "label_end": "84"
+  },
+  {
+   "id": "sec-052-374-planning-testing-from-the-architecture",
+   "number": "3.7.4",
+   "title": "Planning testing from the architecture",
+   "level": 2,
+   "page_start": 95,
+   "page_end": 96,
+   "n_chars": 3135,
+   "n_words": 478,
+   "label_start": "84",
+   "label_end": "85"
+  },
+  {
+   "id": "sec-053-375-validating-goals-and-adoption",
+   "number": "3.7.5",
+   "title": "Validating goals and adoption",
+   "level": 2,
+   "page_start": 96,
+   "page_end": 97,
+   "n_chars": 4456,
+   "n_words": 689,
+   "label_start": "85",
+   "label_end": "86"
+  },
+  {
+   "id": "sec-054-376-constructs-and-their-counterparts",
+   "number": "3.7.6",
+   "title": "Constructs and their counterparts",
+   "level": 2,
+   "page_start": 97,
+   "page_end": 99,
+   "n_chars": 2530,
+   "n_words": 348,
+   "label_start": "86",
+   "label_end": "88"
+  },
+  {
+   "id": "sec-055-41-understanding-the-starting-point",
+   "number": "4.1",
+   "title": "Understanding the Starting Point",
+   "level": 1,
+   "page_start": 99,
+   "page_end": 99,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "88",
+   "label_end": "88"
+  },
+  {
+   "id": "sec-056-411-no-country-starts-from-zero",
+   "number": "4.1.1",
+   "title": "No Country Starts from Zero",
+   "level": 2,
+   "page_start": 99,
+   "page_end": 99,
+   "n_chars": 1118,
+   "n_words": 167,
+   "label_start": "88",
+   "label_end": "88"
+  },
+  {
+   "id": "sec-057-412-assessing-where-you-are",
+   "number": "4.1.2",
+   "title": "Assessing Where You Are",
+   "level": 2,
+   "page_start": 99,
+   "page_end": 100,
+   "n_chars": 2822,
+   "n_words": 425,
+   "label_start": "88",
+   "label_end": "89"
+  },
+  {
+   "id": "sec-058-42-charting-a-path-to-reddhi",
+   "number": "4.2",
+   "title": "Charting a Path to REDDHI",
+   "level": 1,
+   "page_start": 100,
+   "page_end": 100,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "89",
+   "label_end": "89"
+  },
+  {
+   "id": "sec-059-421-different-entry-points-toward-reddhi",
+   "number": "4.2.1",
+   "title": "Different Entry Points toward REDDHI",
+   "level": 2,
+   "page_start": 100,
+   "page_end": 101,
+   "n_chars": 3818,
+   "n_words": 539,
+   "label_start": "89",
+   "label_end": "90"
+  },
+  {
+   "id": "sec-060-422-a-phased-implementation-approach",
+   "number": "4.2.2",
+   "title": "A Phased Implementation Approach",
+   "level": 2,
+   "page_start": 101,
+   "page_end": 104,
+   "n_chars": 6763,
+   "n_words": 983,
+   "label_start": "90",
+   "label_end": "93"
+  },
+  {
+   "id": "sec-061-423-navigating-legacy-systems",
+   "number": "4.2.3",
+   "title": "Navigating Legacy Systems",
+   "level": 2,
+   "page_start": 104,
+   "page_end": 104,
+   "n_chars": 1963,
+   "n_words": 298,
+   "label_start": "93",
+   "label_end": "93"
+  },
+  {
+   "id": "sec-062-424-the-role-of-the-national-digital-architect",
+   "number": "4.2.4",
+   "title": "The Role of the National Digital Architect",
+   "level": 2,
+   "page_start": 104,
+   "page_end": 105,
+   "n_chars": 1780,
+   "n_words": 273,
+   "label_start": "93",
+   "label_end": "94"
+  },
+  {
+   "id": "sec-063-43-profiles-and-specifications-for-implementatio",
+   "number": "4.3",
+   "title": "Profiles and Specifications for Implementation",
+   "level": 1,
+   "page_start": 105,
+   "page_end": 105,
+   "n_chars": 583,
+   "n_words": 86,
+   "label_start": "94",
+   "label_end": "94"
+  },
+  {
+   "id": "sec-064-431-design-data-structures-and-data-models-first",
+   "number": "4.3.1",
+   "title": "Design Data Structures and Data Models First",
+   "level": 2,
+   "page_start": 105,
+   "page_end": 106,
+   "n_chars": 2739,
+   "n_words": 388,
+   "label_start": "94",
+   "label_end": "95"
+  },
+  {
+   "id": "sec-065-432-actors-and-roles-defining-who-participates",
+   "number": "4.3.2",
+   "title": "Actors and Roles: Defining Who Participates",
+   "level": 2,
+   "page_start": 106,
+   "page_end": 107,
+   "n_chars": 2284,
+   "n_words": 336,
+   "label_start": "95",
+   "label_end": "96"
+  },
+  {
+   "id": "sec-066-433-services-and-transactions-fhir-as-the-recomm",
+   "number": "4.3.3",
+   "title": "Services and Transactions: FHIR as the Recommended Framework",
+   "level": 2,
+   "page_start": 107,
+   "page_end": 107,
+   "n_chars": 2880,
+   "n_words": 426,
+   "label_start": "96",
+   "label_end": "96"
+  },
+  {
+   "id": "sec-067-434-integration-interfaces-with-foundational-dpi",
+   "number": "4.3.4",
+   "title": "Integration Interfaces with Foundational DPI",
+   "level": 2,
+   "page_start": 107,
+   "page_end": 108,
+   "n_chars": 2689,
+   "n_words": 373,
+   "label_start": "96",
+   "label_end": "97"
+  },
+  {
+   "id": "sec-068-434-interoperability-implementation-pathways",
+   "number": "4.3.4",
+   "title": "Interoperability Implementation Pathways",
+   "level": 2,
+   "page_start": 108,
+   "page_end": 109,
+   "n_chars": 2297,
+   "n_words": 301,
+   "label_start": "97",
+   "label_end": "98"
+  },
+  {
+   "id": "sec-069-435-minimum-conformance-and-testing",
+   "number": "4.3.5",
+   "title": "Minimum Conformance and Testing",
+   "level": 2,
+   "page_start": 109,
+   "page_end": 109,
+   "n_chars": 930,
+   "n_words": 125,
+   "label_start": "98",
+   "label_end": "98"
+  },
+  {
+   "id": "sec-070-44-measuring-progress-and-impact",
+   "number": "4.4",
+   "title": "Measuring Progress and Impact",
+   "level": 1,
+   "page_start": 109,
+   "page_end": 110,
+   "n_chars": 1448,
+   "n_words": 212,
+   "label_start": "98",
+   "label_end": "99"
+  },
+  {
+   "id": "sec-071-441-assessing-impact-are-goals-being-achieved",
+   "number": "4.4.1",
+   "title": "Assessing impact: Are goals being achieved?",
+   "level": 2,
+   "page_start": 110,
+   "page_end": 110,
+   "n_chars": 1249,
+   "n_words": 187,
+   "label_start": "99",
+   "label_end": "99"
+  },
+  {
+   "id": "sec-072-442-tracking-progress-over-time",
+   "number": "4.4.2",
+   "title": "Tracking progress over time",
+   "level": 2,
+   "page_start": 110,
+   "page_end": 111,
+   "n_chars": 1394,
+   "n_words": 205,
+   "label_start": "99",
+   "label_end": "100"
+  },
+  {
+   "id": "sec-073-45-roles-skills-and-capacity",
+   "number": "4.5",
+   "title": "Roles, Skills, and Capacity",
+   "level": 1,
+   "page_start": 111,
+   "page_end": 111,
+   "n_chars": 279,
+   "n_words": 47,
+   "label_start": "100",
+   "label_end": "100"
+  },
+  {
+   "id": "sec-074-451-how-to-use-this-architecture",
+   "number": "4.5.1",
+   "title": "How to Use This Architecture",
+   "level": 2,
+   "page_start": 111,
+   "page_end": 111,
+   "n_chars": 1650,
+   "n_words": 254,
+   "label_start": "100",
+   "label_end": "100"
+  },
+  {
+   "id": "sec-075-452-the-roles-and-skills-needed-to-build-and-gov",
+   "number": "4.5.2",
+   "title": "The Roles and Skills Needed to Build and Govern the Architecture",
+   "level": 2,
+   "page_start": 111,
+   "page_end": 112,
+   "n_chars": 2354,
+   "n_words": 346,
+   "label_start": "100",
+   "label_end": "101"
+  },
+  {
+   "id": "sec-076-453-building-and-sustaining-national-capacity",
+   "number": "4.5.3",
+   "title": "Building and Sustaining National Capacity",
+   "level": 2,
+   "page_start": 112,
+   "page_end": 113,
+   "n_chars": 1546,
+   "n_words": 215,
+   "label_start": "101",
+   "label_end": "102"
+  },
+  {
+   "id": "sec-077-46-financing-and-partnerships",
+   "number": "4.6",
+   "title": "Financing and Partnerships",
+   "level": 1,
+   "page_start": 113,
+   "page_end": 113,
+   "n_chars": 340,
+   "n_words": 52,
+   "label_start": "102",
+   "label_end": "102"
+  },
+  {
+   "id": "sec-078-461-the-investment-case",
+   "number": "4.6.1",
+   "title": "The Investment Case",
+   "level": 2,
+   "page_start": 113,
+   "page_end": 113,
+   "n_chars": 1563,
+   "n_words": 229,
+   "label_start": "102",
+   "label_end": "102"
+  },
+  {
+   "id": "sec-079-462-sustainability-by-design",
+   "number": "4.6.2",
+   "title": "Sustainability by Design",
+   "level": 2,
+   "page_start": 113,
+   "page_end": 114,
+   "n_chars": 1011,
+   "n_words": 141,
+   "label_start": "102",
+   "label_end": "103"
+  },
+  {
+   "id": "sec-080-463-approaches-to-financing",
+   "number": "4.6.3",
+   "title": "Approaches to Financing",
+   "level": 2,
+   "page_start": 114,
+   "page_end": 115,
+   "n_chars": 4806,
+   "n_words": 710,
+   "label_start": "103",
+   "label_end": "104"
+  },
+  {
+   "id": "sec-081-51-emerging-technologies-and-the-foundations-the",
+   "number": "5.1",
+   "title": "Emerging technologies and the foundations they depend on",
+   "level": 1,
+   "page_start": 115,
+   "page_end": 118,
+   "n_chars": 7741,
+   "n_words": 1182,
+   "label_start": "104",
+   "label_end": "107"
+  },
+  {
+   "id": "sec-082-53-where-artificial-intelligence-can-support-the",
+   "number": "5.3",
+   "title": "Where artificial intelligence can support the health system",
+   "level": 1,
+   "page_start": 118,
+   "page_end": 118,
+   "n_chars": 2729,
+   "n_words": 405,
+   "label_start": "107",
+   "label_end": "107"
+  },
+  {
+   "id": "sec-083-54-readiness-oversight-and-responsible-adoption",
+   "number": "5.4",
+   "title": "Readiness, oversight, and responsible adoption",
+   "level": 1,
+   "page_start": 118,
+   "page_end": 118,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "107",
+   "label_end": "107"
+  },
+  {
+   "id": "sec-084-541-what-ai-readiness-means",
+   "number": "5.4.1",
+   "title": "What AI readiness means",
+   "level": 2,
+   "page_start": 118,
+   "page_end": 119,
+   "n_chars": 1104,
+   "n_words": 173,
+   "label_start": "107",
+   "label_end": "108"
+  },
+  {
+   "id": "sec-085-542-trustworthy-ai-in-a-health-setting",
+   "number": "5.4.2",
+   "title": "Trustworthy AI in a health setting",
+   "level": 2,
+   "page_start": 119,
+   "page_end": 120,
+   "n_chars": 2883,
+   "n_words": 387,
+   "label_start": "108",
+   "label_end": "109"
+  },
+  {
+   "id": "sec-086-543-equity-and-safety",
+   "number": "5.4.3",
+   "title": "Equity and safety",
+   "level": 2,
+   "page_start": 120,
+   "page_end": 120,
+   "n_chars": 525,
+   "n_words": 83,
+   "label_start": "109",
+   "label_end": "109"
+  },
+  {
+   "id": "sec-087-544-cost-sustainability-and-commercial-pressure",
+   "number": "5.4.4",
+   "title": "Cost, sustainability, and commercial pressure",
+   "level": 2,
+   "page_start": 120,
+   "page_end": 120,
+   "n_chars": 1644,
+   "n_words": 252,
+   "label_start": "109",
+   "label_end": "109"
+  },
+  {
+   "id": "sec-088-55-keeping-the-architecture-open-and-adaptable",
+   "number": "5.5",
+   "title": "Keeping the architecture open and adaptable",
+   "level": 1,
+   "page_start": 120,
+   "page_end": 123,
+   "n_chars": 2661,
+   "n_words": 393,
+   "label_start": "109",
+   "label_end": "112"
+  },
+  {
+   "id": "sec-089-appendix-a",
+   "number": null,
+   "title": "Appendix A",
+   "level": 1,
+   "page_start": 123,
+   "page_end": 124,
+   "n_chars": 1111,
+   "n_words": 138,
+   "label_start": "112",
+   "label_end": "113"
+  },
+  {
+   "id": "sec-090-appendix-b",
+   "number": null,
+   "title": "Appendix B",
+   "level": 1,
+   "page_start": 124,
+   "page_end": 125,
+   "n_chars": 889,
+   "n_words": 117,
+   "label_start": "113",
+   "label_end": "114"
+  },
+  {
+   "id": "sec-091-metadata-registries-and-foundational-components",
+   "number": null,
+   "title": "Metadata registries and foundational components",
+   "level": 2,
+   "page_start": 125,
+   "page_end": 125,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "114",
+   "label_end": "114"
+  },
+  {
+   "id": "sec-092-client-registry",
+   "number": null,
+   "title": "Client Registry",
+   "level": 3,
+   "page_start": 125,
+   "page_end": 135,
+   "n_chars": 29427,
+   "n_words": 4064,
+   "label_start": "114",
+   "label_end": "124"
+  },
+  {
+   "id": "sec-093-health-facility-registry",
+   "number": null,
+   "title": "Health Facility Registry",
+   "level": 3,
+   "page_start": 135,
+   "page_end": 146,
+   "n_chars": 37314,
+   "n_words": 5164,
+   "label_start": "124",
+   "label_end": "135"
+  },
+  {
+   "id": "sec-094-health-workforce-registry",
+   "number": null,
+   "title": "Health Workforce Registry",
+   "level": 3,
+   "page_start": 146,
+   "page_end": 156,
+   "n_chars": 28616,
+   "n_words": 3865,
+   "label_start": "135",
+   "label_end": "145"
+  },
+  {
+   "id": "sec-095-product-registry",
+   "number": null,
+   "title": "Product Registry",
+   "level": 3,
+   "page_start": 156,
+   "page_end": 166,
+   "n_chars": 30976,
+   "n_words": 4132,
+   "label_start": "145",
+   "label_end": "155"
+  },
+  {
+   "id": "sec-096-lifelong-health-record",
+   "number": null,
+   "title": "Lifelong Health Record",
+   "level": 3,
+   "page_start": 166,
+   "page_end": 175,
+   "n_chars": 31668,
+   "n_words": 4507,
+   "label_start": "155",
+   "label_end": "164"
+  },
+  {
+   "id": "sec-097-terminology-service",
+   "number": null,
+   "title": "Terminology Service",
+   "level": 3,
+   "page_start": 175,
+   "page_end": 183,
+   "n_chars": 27397,
+   "n_words": 3949,
+   "label_start": "164",
+   "label_end": "172"
+  },
+  {
+   "id": "sec-098-logical-information-model-repository",
+   "number": null,
+   "title": "Logical Information Model Repository",
+   "level": 3,
+   "page_start": 183,
+   "page_end": 191,
+   "n_chars": 25629,
+   "n_words": 3600,
+   "label_start": "172",
+   "label_end": "180"
+  },
+  {
+   "id": "sec-099-business-services-components",
+   "number": null,
+   "title": "Business Services Components",
+   "level": 2,
+   "page_start": 191,
+   "page_end": 191,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": "180",
+   "label_end": "180"
+  },
+  {
+   "id": "sec-100-computable-decision-support-engine",
+   "number": null,
+   "title": "Computable Decision Support Engine",
+   "level": 3,
+   "page_start": 191,
+   "page_end": 202,
+   "n_chars": 36579,
+   "n_words": 4973,
+   "label_start": "180",
+   "label_end": "191"
+  },
+  {
+   "id": "sec-101-supplier-registry",
+   "number": null,
+   "title": "Supplier Registry",
+   "level": 3,
+   "page_start": 202,
+   "page_end": 210,
+   "n_chars": 26543,
+   "n_words": 3585,
+   "label_start": "191",
+   "label_end": "199"
+  },
+  {
+   "id": "sec-102-benefits-package-registry",
+   "number": null,
+   "title": "Benefits Package Registry",
+   "level": 3,
+   "page_start": 210,
+   "page_end": 218,
+   "n_chars": 25657,
+   "n_words": 3427,
+   "label_start": "199",
+   "label_end": "207"
+  },
+  {
+   "id": "sec-103-distinguishing-the-benefits-package-registry-con",
+   "number": null,
+   "title": "Distinguishing the Benefits Package Registry, Contract & Benefits Management System, and Beneficiary Registry",
+   "level": 4,
+   "page_start": 218,
+   "page_end": 221,
+   "n_chars": 9833,
+   "n_words": 1357,
+   "label_start": "207",
+   "label_end": "210"
+  },
+  {
+   "id": "sec-104-health-management-information-system",
+   "number": null,
+   "title": "Health Management Information System",
+   "level": 3,
+   "page_start": 221,
+   "page_end": 229,
+   "n_chars": 27838,
+   "n_words": 3812,
+   "label_start": "210",
+   "label_end": "218"
+  },
+  {
+   "id": "sec-105-public-health-surveillance-platform",
+   "number": null,
+   "title": "Public Health Surveillance Platform",
+   "level": 3,
+   "page_start": 229,
+   "page_end": 240,
+   "n_chars": 39002,
+   "n_words": 5049,
+   "label_start": "218",
+   "label_end": "229"
+  },
+  {
+   "id": "sec-106-appendix-d-country-and-regional-implementation-e",
+   "number": null,
+   "title": "Appendix D: Country and Regional Implementation Examples",
+   "level": 1,
+   "page_start": 240,
+   "page_end": 240,
+   "n_chars": 2180,
+   "n_words": 333,
+   "label_start": "229",
+   "label_end": "229"
+  },
+  {
+   "id": "sec-107-client-registry",
+   "number": null,
+   "title": "Client Registry",
+   "level": 3,
+   "page_start": 240,
+   "page_end": 240,
+   "n_chars": 208,
+   "n_words": 31,
+   "label_start": "229",
+   "label_end": "229"
+  },
+  {
+   "id": "sec-108-lifelong-health-record",
+   "number": null,
+   "title": "Lifelong Health Record",
+   "level": 3,
+   "page_start": 240,
+   "page_end": 241,
+   "n_chars": 439,
+   "n_words": 54,
+   "label_start": "229",
+   "label_end": "230"
+  },
+  {
+   "id": "sec-109-computable-decision-support-engine",
+   "number": null,
+   "title": "Computable Decision Support Engine",
+   "level": 3,
+   "page_start": 241,
+   "page_end": 241,
+   "n_chars": 1345,
+   "n_words": 193,
+   "label_start": "230",
+   "label_end": "230"
+  },
+  {
+   "id": "sec-110-health-management-information-service",
+   "number": null,
+   "title": "Health Management Information Service",
+   "level": 3,
+   "page_start": 241,
+   "page_end": 241,
+   "n_chars": 310,
+   "n_words": 39,
+   "label_start": "230",
+   "label_end": "230"
+  },
+  {
+   "id": "sec-111-public-health-surveillance-platform",
+   "number": null,
+   "title": "Public Health Surveillance Platform",
+   "level": 3,
+   "page_start": 241,
+   "page_end": 242,
+   "n_chars": 1543,
+   "n_words": 175,
+   "label_start": "230",
+   "label_end": "231"
+  },
+  {
+   "id": "sec-112-terminology-service-and-logical-information-mode",
+   "number": null,
+   "title": "Terminology Service and Logical Information Model Repository",
+   "level": 3,
+   "page_start": 242,
+   "page_end": 242,
+   "n_chars": 244,
+   "n_words": 35,
+   "label_start": "231",
+   "label_end": "231"
+  },
+  {
+   "id": "sec-113-australia",
+   "number": null,
+   "title": "Australia",
+   "level": 3,
+   "page_start": 242,
+   "page_end": 243,
+   "n_chars": 1818,
+   "n_words": 205,
+   "label_start": "231",
+   "label_end": "232"
+  },
+  {
+   "id": "sec-114-denmark",
+   "number": null,
+   "title": "Denmark",
+   "level": 3,
+   "page_start": 243,
+   "page_end": 243,
+   "n_chars": 480,
+   "n_words": 69,
+   "label_start": "232",
+   "label_end": "232"
+  },
+  {
+   "id": "sec-115-estonia",
+   "number": null,
+   "title": "Estonia",
+   "level": 3,
+   "page_start": 243,
+   "page_end": 243,
+   "n_chars": 570,
+   "n_words": 77,
+   "label_start": "232",
+   "label_end": "232"
+  },
+  {
+   "id": "sec-116-india",
+   "number": null,
+   "title": "India",
+   "level": 3,
+   "page_start": 243,
+   "page_end": 243,
+   "n_chars": 738,
+   "n_words": 97,
+   "label_start": "232",
+   "label_end": "232"
+  },
+  {
+   "id": "sec-117-kenya",
+   "number": null,
+   "title": "Kenya",
+   "level": 3,
+   "page_start": 243,
+   "page_end": 244,
+   "n_chars": 619,
+   "n_words": 67,
+   "label_start": "232",
+   "label_end": "233"
+  },
+  {
+   "id": "sec-118-nigeria",
+   "number": null,
+   "title": "Nigeria",
+   "level": 3,
+   "page_start": 244,
+   "page_end": 244,
+   "n_chars": 596,
+   "n_words": 70,
+   "label_start": "233",
+   "label_end": "233"
+  },
+  {
+   "id": "sec-119-rwanda",
+   "number": null,
+   "title": "Rwanda",
+   "level": 3,
+   "page_start": 244,
+   "page_end": 244,
+   "n_chars": 805,
+   "n_words": 100,
+   "label_start": "233",
+   "label_end": "233"
+  },
+  {
+   "id": "sec-120-spain",
+   "number": null,
+   "title": "Spain",
+   "level": 3,
+   "page_start": 244,
+   "page_end": 244,
+   "n_chars": 672,
+   "n_words": 85,
+   "label_start": "233",
+   "label_end": "233"
+  },
+  {
+   "id": "sec-121-spain-catalonia-subnational",
+   "number": null,
+   "title": "Spain \u2014 Catalonia (subnational)",
+   "level": 3,
+   "page_start": 244,
+   "page_end": 245,
+   "n_chars": 854,
+   "n_words": 92,
+   "label_start": "233",
+   "label_end": "234"
+  },
+  {
+   "id": "sec-122-tanzania",
+   "number": null,
+   "title": "Tanzania",
+   "level": 3,
+   "page_start": 245,
+   "page_end": 245,
+   "n_chars": 612,
+   "n_words": 84,
+   "label_start": "234",
+   "label_end": "234"
+  },
+  {
+   "id": "sec-123-uganda",
+   "number": null,
+   "title": "Uganda",
+   "level": 3,
+   "page_start": 245,
+   "page_end": 245,
+   "n_chars": 626,
+   "n_words": 84,
+   "label_start": "234",
+   "label_end": "234"
+  },
+  {
+   "id": "sec-124-united-kingdom-england",
+   "number": null,
+   "title": "United Kingdom (England)",
+   "level": 3,
+   "page_start": 245,
+   "page_end": 245,
+   "n_chars": 659,
+   "n_words": 87,
+   "label_start": "234",
+   "label_end": "234"
+  },
+  {
+   "id": "sec-125-united-states",
+   "number": null,
+   "title": "United States",
+   "level": 3,
+   "page_start": 245,
+   "page_end": 245,
+   "n_chars": 607,
+   "n_words": 78,
+   "label_start": "234",
+   "label_end": "234"
+  },
+  {
+   "id": "sec-126-european-union-and-european-economic-area-region",
+   "number": null,
+   "title": "European Union and European Economic Area \u2014 regional surveillance",
+   "level": 3,
+   "page_start": 245,
+   "page_end": 246,
+   "n_chars": 746,
+   "n_words": 86,
+   "label_start": "234",
+   "label_end": "235"
+  },
+  {
+   "id": "sec-127-who-smart-guidelines-pilot-implementations",
+   "number": null,
+   "title": "WHO SMART Guidelines pilot implementations",
+   "level": 3,
+   "page_start": 246,
+   "page_end": 247,
+   "n_chars": 567,
+   "n_words": 74,
+   "label_start": "235",
+   "label_end": "236"
+  },
+  {
+   "id": "sec-128-appendix-e-health-goals-to-dpi-mapping",
+   "number": null,
+   "title": "Appendix E: Health Goals to DPI Mapping",
+   "level": 1,
+   "page_start": 247,
+   "page_end": 252,
+   "n_chars": 12936,
+   "n_words": 1972,
+   "label_start": "236",
+   "label_end": "241"
+  },
+  {
+   "id": "sec-129-appendix-f-semantic-governance-infrastructure-ca",
+   "number": null,
+   "title": "Appendix F: Semantic Governance Infrastructure: capability details",
+   "level": 1,
+   "page_start": 252,
+   "page_end": 254,
+   "n_chars": 4768,
+   "n_words": 610,
+   "label_start": "241",
+   "label_end": "243"
+  }
+ ],
+ "diagnostics": {
+  "pages_without_text": 0,
+  "likely_scanned": false,
+  "toc_entries": 138,
+  "toc_inferred_entries": 0,
+  "figure_entries": 19,
+  "figure_sequence_gaps": [
+   "figure 2.1",
+   "table 2.1",
+   "table 2.3",
+   "table 3.3",
+   "table 3.4"
+  ],
+  "page_label_conflicts": {
+   "count": 0,
+   "items": []
+  },
+  "toc_alignment": {
+   "listed_not_found": {
+    "count": 2,
+    "items": [
+     "Building on existing foundations",
+     "A Phased Implementation Approach"
+    ]
+   },
+   "found_not_listed": {
+    "count": 9,
+    "items": [
+     "19 In turn these are essential foundations for \u2018AI for health\u2019 and \u2018AI-ready data\u2019.",
+     "76 The following highlight the distinct contributions of the DPI-H Reference Architecture Guidance:",
+     "43 Within this scope, the architecture organises DPI-H across two distinct but related layers.",
+     "15 This chapter is organised as follows:",
+     "89 The comprehensive list of standard relationships is below:",
+     "90 Table 3.3: List of standard relationships used in the reference architecture",
+     "34 A national digital health architecture assessment should answer four questions.",
+     "42 DPI-H Reference Architecture | Component Articulation",
+     "7 Strengthen Climate and Epidemic Resilience"
+    ]
+   },
+   "page_mismatch": {
+    "count": 1,
+    "items": [
+     "Relationship to foundational DPI: listed p37, found p80"
+    ]
+   }
+  },
+  "sections": 131,
+  "chars_total": 736910
+ }
+}

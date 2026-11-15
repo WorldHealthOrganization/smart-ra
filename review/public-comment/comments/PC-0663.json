@@ -1,0 +1,81 @@
+{
+  "id": "pc-0663",
+  "summary": "Overall impression: This guidance provides a comprehensive overview of the desirable form of digital infrastructure in …",
+  "comment": "Overall impression: This guidance provides a comprehensive overview of the desirable form of digital infrastructure in the health sector, covering such perspectives as common data platforms, standardization, interoperability among systems, and governance. In particular, the concepts for the efficient and secure sharing and use of health information, as well as the direction of data linkage through the use of common platforms, provide useful reference points for advancing digital transformation in the health sector.\nThe guidance also highlights the importance of taking information security and the protection of personal information into account from the planning and design stages of health information systems.\nGoing forward, it is hoped that further knowledge and experience will be accumulated regarding implementation practices in different countries, including approaches to ensuring interoperability with existing systems and facilitating system migration.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0663",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 663,
+      "entry": "662",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bfd3a5944d",
+      "organisation": "International Affairs Division, Minister’s Secretariat, Ministry of Health, Labour and Welfare(MHLW) JAPAN",
+      "country": "Japan",
+      "acknowledge": false
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression."
+    },
+    "type": "general",
+    "text": "Overall impression: This guidance provides a comprehensive overview of the desirable form of digital infrastructure in the health sector, covering such perspectives as common data platforms, standardization, interoperability among systems, and governance. In particular, the concepts for the efficient and secure sharing and use of health information, as well as the direction of data linkage through the use of common platforms, provide useful reference points for advancing digital transformation in the health sector.\nThe guidance also highlights the importance of taking information security and the protection of personal information into account from the planning and design stages of health information systems.\nGoing forward, it is hoped that further knowledge and experience will be accumulated regarding implementation practices in different countries, including approaches to ensuring interoperability with existing systems and facilitating system migration.",
+    "labels": {
+      "Stakeholder type": "Ministry of health or national health authority",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 663"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression."
+      }
+    ]
+  }
+}

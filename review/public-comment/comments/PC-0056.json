@@ -1,0 +1,79 @@
+{
+  "id": "pc-0056",
+  "summary": "HL7-FIHR, SNOMED CT and LOINC are international standards and are currently perhaps the most established but not necess…",
+  "comment": "HL7-FIHR, SNOMED CT and LOINC are international standards and are currently perhaps the most established but not necessarily refined",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-2c4d7e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0056",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 56,
+      "entry": "55",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.2",
+      "page": "28-29",
+      "lines": "148-151",
+      "raw": "§2.2.2 p.28-29 l.148-151"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-2c4d7e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.28-29 l.148-151 read as the printed page; section 2.2.2 agrees"
+    },
+    "type": "editorial",
+    "text": "HL7-FIHR, SNOMED CT and LOINC are international standards and are currently perhaps the most established but not necessarily refined",
+    "suggestedRevision": "Listing them specifically implies they are optimal but would recommend rewording to make it clear none of them may be optimal or long term sustainable. Similar disclaimer to the foot note regarding the proprietary status of SNOMED-CT…..standards lock in is as potential an issue as vendor lock-in. HL7-FIHR has its own financial model that could be similarly commented on as SNOMED-CT",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 56"
+      }
+    ]
+  }
+}

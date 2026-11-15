@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-085",
+  "title": "Define a full testing taxonomy and conformance lifecycle",
+  "requirements": "- Distinguish conformance, interoperability, performance/resilience, security, clinical-safety, usability/accessibility and operational acceptance testing\n- Supplement actor-role and simulator testing with peer, multi-role and end-to-end scenario testing\n- Extend 4.3.5 beyond test beds to reuse of international test plans, validators and tooling\n- Require regression/revalidation after material changes and periodic surveillance testing\n- Add a conformance category requiring decision-support engines to load and execute published L3 artefacts faithfully\n- Cover privacy, security, resilience, accessibility, performance and clinical safety\n- Add example test scenarios for specimen traceability, consent withdrawal, provenance and correction workflows\n- For each give purpose, object under test, evidence and responsible body",
+  "refs": [
+    "PC-0420",
+    "PC-0436",
+    "PC-0521",
+    "PC-0522",
+    "PC-0634",
+    "PC-0679",
+    "PC-1046",
+    "PC-1048",
+    "PC-1055",
+    "PC-1072",
+    "PC-1078",
+    "PC-1079",
+    "PC-1081",
+    "PC-1121",
+    "PC-1254",
+    "PC-1968"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

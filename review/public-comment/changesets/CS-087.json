@@ -1,0 +1,33 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-087",
+  "title": "Commit to machine-readable conformance packages per component",
+  "requirements": "- State that each component requires a national implementation guide naming profiles, versions, actors and operations\n- State that a companion conformance package will be published (architecture profile, validation rules, test cases, simulators, result schemas)\n- Include security, events, test data and conformance tests\n- Identify which constructs are native ArchiMate and which are DPI-H conventions\n- Replace 'conventions' with specific normative profiles\n- Define permitted relationships, mandatory properties and cardinalities for automated checks\n- List the minimum interoperability conformance artefacts in 3.6.5",
+  "refs": [
+    "PC-0851",
+    "PC-1045",
+    "PC-1052",
+    "PC-1056",
+    "PC-1117",
+    "PC-1476",
+    "PC-1517",
+    "PC-1518",
+    "PC-1547",
+    "PC-1635",
+    "PC-1734",
+    "PC-1821",
+    "PC-1901",
+    "PC-1920"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 14 comment(s)"
+    }
+  ]
+}

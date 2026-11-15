@@ -1,0 +1,1 @@
+It is a reference model to be adapted, not a prescriptive architecture that countries must adhere to. It offers a common vocabulary and a set of elements from which each country composes an architecture suited to its own context — adopting, extending, or setting aside elements as local priorities and constraints require.

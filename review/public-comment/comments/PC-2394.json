@@ -1,0 +1,77 @@
+{
+  "id": "pc-2394",
+  "summary": "Free-text feedback alone is insufficient for diagnosing semantic interoperability failures.",
+  "comment": "Free-text feedback alone is insufficient for diagnosing semantic interoperability failures.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:f-404ba5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2394",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1630,
+      "entry": "1629",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix F, Monitoring",
+      "page": "243",
+      "lines": "“Implementation feedback” capability",
+      "raw": "§Appendix F, Monitoring p.243 l.“Implementation feedback” capability"
+    },
+    "anchor": {
+      "targetLabel": "prose:f-404ba5",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.243 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Free-text feedback alone is insufficient for diagnosing semantic interoperability failures.",
+    "suggestedRevision": "Require structured feedback linked to artefact identifier, version, system, profile, use case, severity, example payload, and proposed resolution.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1630"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-2640",
+  "summary": "The table appears to be incomplete, as it does not include all relationship types used in the DPI-H reference architect…",
+  "comment": "The table appears to be incomplete, as it does not include all relationship types used in the DPI-H reference architecture and what they represent.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "tbl:3-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2640",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 18,
+      "entry": "8",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.1 The architecture description approach",
+      "page": "44",
+      "lines": "Table 3.2",
+      "caption": "Table 3.2",
+      "raw": "§3.1 The architecture description approach p.44 l.Table 3.2"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.2 as cited"
+    },
+    "type": "technical",
+    "text": "The table appears to be incomplete, as it does not include all relationship types used in the DPI-H reference architecture and what they represent.",
+    "suggestedRevision": "Include 'Assignment' and 'Triggering', as they are used in the conformance table and table 3.3",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 18"
+      }
+    ]
+  }
+}

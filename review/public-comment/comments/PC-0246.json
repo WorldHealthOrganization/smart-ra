@@ -1,0 +1,79 @@
+{
+  "id": "pc-0246",
+  "summary": "Sustainability is assessed against 'whole-of-life cost and viability — to build, operate, maintain, and evolve'. Where …",
+  "comment": "Sustainability is assessed against 'whole-of-life cost and viability — to build, operate, maintain, and evolve'. Where a capability depends on external model inference, a material part of that whole-of-life cost is a per-unit price set by a third party, revisable unilaterally, and denominated in a foreign currency — a cost structure that scales with clinical volume rather than with the country's budget cycle, and that has no analogue among the other components described. Model deprecation carries the same character: a capability can be withdrawn or materially altered on a supplier's schedule.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-9f55c5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0246",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 246,
+      "entry": "245",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "2.3 Design Principles — IV. Sustainability",
+      "page": "33-34",
+      "lines": "266-283",
+      "raw": "§2.3 Design Principles — IV. Sustainability p.33-34 l.266-283"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-9f55c5",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-05f082",
+        "prose:2-3-212f92"
+      ],
+      "note": "p.33-34 l.266-283 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "Sustainability is assessed against 'whole-of-life cost and viability — to build, operate, maintain, and evolve'. Where a capability depends on external model inference, a material part of that whole-of-life cost is a per-unit price set by a third party, revisable unilaterally, and denominated in a foreign currency — a cost structure that scales with clinical volume rather than with the country's budget cycle, and that has no analogue among the other components described. Model deprecation carries the same character: a capability can be withdrawn or materially altered on a supplier's schedule.",
+    "suggestedRevision": "Note under Principle IV that capabilities dependent on externally hosted models carry a volume-linked, externally set recurring cost and a supplier-controlled deprecation risk, and that whole-of-life assessment should make both explicit.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 246"
+      }
+    ]
+  }
+}

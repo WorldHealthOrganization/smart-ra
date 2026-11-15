@@ -1,0 +1,388 @@
+{
+  "$schema": "folio-index-config/v1",
+  "instances": [
+    {
+      "name": "dpi-h-ra",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      },
+      "contentType": "document",
+      "adapter": "document",
+      "adapterModule": "./folio-assistant-core/adapters/document/index.ts",
+      "dependencies": {
+        "folioAssistant": [
+          {
+            "name": "folio-assistant-core",
+            "path": "folio-assistant-core"
+          },
+          {
+            "name": "smart-base",
+            "path": "smart-base"
+          }
+        ]
+      },
+      "feedbackDir": ".folio-feedback",
+      "skills": ".claude/skills/local",
+      "viewer": {
+        "dir": "cat-harness-tools/viewer",
+        "port": 8080
+      },
+      "readme": {
+        "linkStyle": "blob",
+        "publishRef": "gh-pages"
+      },
+      "site": {
+        "build": {
+          "pre": [
+            "check:archimate",
+            "check:kg-blocks",
+            "check:library-kg"
+          ],
+          "sourceSteps": [
+            "site:document",
+            "site:public-comment",
+            "site:library",
+            "site:review-sheet",
+            "site:archimate",
+            "site:mapper",
+            "site:redirects",
+            "site:context"
+          ],
+          "siteSteps": [
+            "site:node-kinds"
+          ]
+        }
+      },
+      "_site_comment": "`site:context` builds the JSON-LD context the KG nodes name (ns/context/v1.jsonld under iriBase) into the site, so it is published with it (cat-harness-tools#1052); nothing else writes it, so nothing is kept."
+    },
+    {
+      "name": "who-iris",
+      "source": {
+        "remote": {
+          "repository": "litlfred/who-iris",
+          "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
+          "overrides": {
+            "who-iris": {
+              "whole": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-base",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-base",
+          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+          "overrides": {
+            "smart-base": {
+              "path": "smart-base",
+              "directories": [
+                "smart-base-qa-checkers",
+                "smart-base-block-kinds",
+                "smart-base-content-adapters",
+                "smart-base-translations",
+                "library",
+                "methodologies",
+                "collab",
+                "smart-base-artifact-index",
+                "tools",
+                "smart-base-themes",
+                "smart-base-docs",
+                "smart-base-document-kinds",
+                "smart-base-findings",
+                "smart-base-platform",
+                "smart-base-typologies",
+                "smart-base-validators",
+                "smart-base-schemas",
+                "smart-base-pipeline",
+                "smart-base-scripts",
+                "smart-base-L1",
+                "smart-base-skills",
+                "smart-base-scenarios",
+                "smart-base-code-lists"
+              ]
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "dpi-h-ra",
+    "agentRun": true
+  },
+  "contentTypes": {
+    "ig": {
+      "_comment": "What this repository's FHIR IG side is, per the content types its layers register (bean folio-assistant-cz17, follow-up b; owner card 2026-10-30T12:40Z, \"A. ig section in index.config\"). `ig`: fhir-harness's `ig` content type (fhir-harness#198); `include` is everything fhir-harness's IG readers read in this repository, and nothing else is read (owner, 2026-10-30: \"harness desclares what it it pays attention to in the repo\"). It lists every `input/` entry the build used before the section existed, so nothing is dropped. The folio (`folio/`, `review/`, `library/`, `archimate/`, `documents/`, `uploads/`) is the `dpi-h-ra` document instance's, read by its own adapter and site steps, not by this list. sushi-config.yaml stays SUSHI's file. smart-immunizations#89 is the model.",
+      "include": [
+        "sushi-config.yaml",
+        "ig.ini",
+        "input/business-processes/",
+        "input/cql/",
+        "input/data/",
+        "input/decision-logic/",
+        "input/dictionary/",
+        "input/examples/",
+        "input/extensions/",
+        "input/fsh/",
+        "input/history/",
+        "input/ignoreWarnings.txt",
+        "input/images/",
+        "input/images-source/",
+        "input/indicators/",
+        "input/maps/",
+        "input/models/",
+        "input/pagecontent/",
+        "input/profiles/",
+        "input/resources/",
+        "input/scenarios/",
+        "input/scheduling-logic/",
+        "input/system-requirements/",
+        "input/testing/",
+        "input/vocabulary/",
+        "fsh-generated/"
+      ]
+    }
+  }
+}

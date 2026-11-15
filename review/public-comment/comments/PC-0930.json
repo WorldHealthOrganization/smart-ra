@@ -1,0 +1,77 @@
+{
+  "id": "pc-0930",
+  "summary": "The section introduces DPI-H application components as digital resources established once and reused by many programmes…",
+  "comment": "The section introduces DPI-H application components as digital resources established once and reused by many programmes. “Established once” may imply one national software deployment, which conflicts with the document’s support for federated, distributed, and hybrid implementations.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-ea5cb0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0930",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 166,
+      "entry": "165",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5",
+      "page": "63",
+      "lines": "Lines 536-542",
+      "raw": "§3.5 p.63 l.Lines 536-542"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-ea5cb0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.63 l.Lines 536-542 read as the printed page; section 3.5 agrees"
+    },
+    "text": "The section introduces DPI-H application components as digital resources established once and reused by many programmes. “Established once” may imply one national software deployment, which conflicts with the document’s support for federated, distributed, and hybrid implementations.",
+    "suggestedRevision": "Replace “establishes once” with “governs as a shared national capability,” clarifying that the capability may be realised by one or more coordinated systems.",
+    "labels": {
+      "Comment type": "Q1 - Purpose and scope"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 166"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-252",
+  "title": "Strengthen governed secondary use of health data",
+  "requirements": "- Qualify 'capture once, use many times' with purpose and minimisation\n- Require provenance, coverage, denominator and timeliness assurance before data is treated as ground truth\n- Consider raising SHRF-8 to Required for federated and virtual implementations\n- Require separate environments, disclosure control and approval for analytics and surveillance\n- Carry machine-readable policy metadata with reused data",
+  "refs": [
+    "PC-0263",
+    "PC-0421",
+    "PC-0692",
+    "PC-1858",
+    "PC-1877"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 5 comment(s)"
+    }
+  ]
+}

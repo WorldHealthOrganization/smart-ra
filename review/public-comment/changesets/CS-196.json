@@ -1,0 +1,23 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-196",
+  "title": "Govern inbound updates and bulk import into registries",
+  "requirements": "- Distinguish proposals from authoritative updates and define precedence and acknowledgement\n- Require staged, validated bulk import with rollback and provenance",
+  "refs": [
+    "PC-1611",
+    "PC-1612",
+    "PC-1675",
+    "PC-1677"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

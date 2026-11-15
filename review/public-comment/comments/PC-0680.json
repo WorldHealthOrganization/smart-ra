@@ -1,0 +1,82 @@
+{
+  "id": "pc-0680",
+  "summary": "Overall impression: The draft provides a strong and useful foundation for designing interoperable, trustworthy, and hum…",
+  "comment": "Overall impression: The draft provides a strong and useful foundation for designing interoperable, trustworthy, and human centred digital public infrastructure for health. I particularly value its attention to responsible AI and meaningful human oversight, while seeing scope to strengthen the behavioural and psychosocial dimensions of oversight, including trust calibration, automation bias, vulnerable users, and the conditions under which human review remains substantively effective.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0680",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 680,
+      "entry": "679",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-e846db7147",
+      "name": "Onour Impram",
+      "organisation": "Marmara University",
+      "country": "Türkiye",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression."
+    },
+    "type": "general",
+    "text": "Overall impression: The draft provides a strong and useful foundation for designing interoperable, trustworthy, and human centred digital public infrastructure for health. I particularly value its attention to responsible AI and meaningful human oversight, while seeing scope to strengthen the behavioural and psychosocial dimensions of oversight, including trust calibration, automation bias, vulnerable users, and the conditions under which human review remains substantively effective.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 680"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-150",
+  "title": "Refine facility data elements, separating readiness and financing data",
+  "requirements": "- Keep mandatory signature data distinct from conditional service-readiness attributes\n- Support multiple names, separate classification dimensions, ownership relationships and non-address locations\n- State the registry supplies facility identity and service attributes for empanelment, while contracting sits in financing systems\n- Treat workforce counts, infrastructure and populations served as derived or dated observations from their sources\n- Distinguish facility identity from legal payee and payment-account information\n- Make contact and external identifiers conditional, with only the national identifier mandatory\n- Use a structured availability model for service hours and identify reference classifications for type and ownership",
+  "refs": [
+    "PC-1575",
+    "PC-1584",
+    "PC-1585",
+    "PC-1586",
+    "PC-1592",
+    "PC-1593",
+    "PC-1617",
+    "PC-1618",
+    "PC-1619",
+    "PC-1620",
+    "PC-1624",
+    "PC-1625",
+    "PC-1626",
+    "PC-1627",
+    "PC-1628",
+    "PC-1629"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

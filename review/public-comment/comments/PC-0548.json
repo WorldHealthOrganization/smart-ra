@@ -1,0 +1,78 @@
+{
+  "id": "pc-0548",
+  "summary": "Lines 380–382 identify concepts deprecated without notice, version conflicts between systems, and national implementati…",
+  "comment": "Lines 380–382 identify concepts deprecated without notice, version conflicts between systems, and national implementation guides drifting from the models they were derived from. Slovenia has addressed the third of these by requiring that every data-quality rule enforced in an application's user interface is replicated as an executable rule on a national validation server, so that conformance is established against the national model rather than against whichever application submitted the data. We suggest the Semantic Governance Infrastructure explicitly include executable validation of submitted data against published models, since drift is otherwise detected only when analysis fails.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-474cc6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0548",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 548,
+      "entry": "547",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5 Semantic Governance Infrastructure",
+      "page": "57",
+      "lines": "380–386",
+      "raw": "§3.4.5 Semantic Governance Infrastructure p.57 l.380–386"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-474cc6",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.57 l.380–386 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "Lines 380–382 identify concepts deprecated without notice, version conflicts between systems, and national implementation guides drifting from the models they were derived from. Slovenia has addressed the third of these by requiring that every data-quality rule enforced in an application's user interface is replicated as an executable rule on a national validation server, so that conformance is established against the national model rather than against whichever application submitted the data. We suggest the Semantic Governance Infrastructure explicitly include executable validation of submitted data against published models, since drift is otherwise detected only when analysis fails.",
+    "suggestedRevision": "Add to the capabilities described in this section: \"Executable validation. The rules that constrain a published model should be maintained as executable artefacts against which contributed data can be validated at the point of submission, so that conformance is enforced by the shared infrastructure rather than by each contributing application.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 548"
+      }
+    ]
+  }
+}

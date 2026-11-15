@@ -1,0 +1,87 @@
+{
+  "id": "pc-0461",
+  "summary": "The eight criteria describe design properties of a component. They do not answer the prior question a finance ministry …",
+  "comment": "The eight criteria describe design properties of a component. They do not answer the prior question a finance ministry asks: is society dependent on this function such that public financing, supply-security obligations and holdership should attach? A component can satisfy all eight criteria and still be discretionary, and a function society cannot do without may satisfy none of them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-1-cc87a0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0461",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 461,
+      "entry": "460",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.1",
+      "page": "63",
+      "lines": "544",
+      "raw": "§3.5.1 p.63 l.544"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-1-cc87a0",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-3-ff0e0e"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): About the eight criteria, which are Box 3.1 in §3.5.1."
+    },
+    "type": "technical",
+    "text": "The eight criteria describe design properties of a component. They do not answer the prior question a finance ministry asks: is society dependent on this function such that public financing, supply-security obligations and holdership should attach? A component can satisfy all eight criteria and still be discretionary, and a function society cannot do without may satisfy none of them.",
+    "suggestedRevision": "Add a dependency test applied first and cumulatively: (1) irreplaceability - does care delivery or a statutory right stop if this function fails, with no timely alternative route; (2) norm dependence - does its value depend on others using the same rules, so unilateral choices create externalities for third parties; (3) absence of exit - can a participant switch away within a reasonable period without loss of information or continuity. All three yes: infrastructure, warranting holdership, supply security and a tariff. Norm dependence only: standard-setting without a tariff. None: market. The eight design criteria then specify what such a component must look like.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 461"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): About the eight criteria, which are Box 3.1 in §3.5.1."
+      }
+    ]
+  }
+}

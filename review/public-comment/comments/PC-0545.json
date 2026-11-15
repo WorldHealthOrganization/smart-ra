@@ -1,0 +1,81 @@
+{
+  "id": "pc-0545",
+  "summary": "Three points on the semantic and structural elements of Figure 3.2. All three apply equally to Figure 3.5 on page 66, w…",
+  "comment": "Three points on the semantic and structural elements of Figure 3.2. All three apply equally to Figure 3.5 on page 66, which repeats the same layer, and both figures require the same correction. First, the \"Syntax – Structure / Logical Info Model Repo\" element lists its structural artefacts as \"FHIR profiles · eObjects · IPS · datasets\". openEHR archetypes and templates do not appear, although Appendix C page 175, functional requirement 2, status Required, states that the LIMR \"shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates\", and page 174 lines 81–85 describe multi-formalism support as a core attribute. The figure therefore shows a single-formalism repository where the component specification requires a multi-formalism one. Second, in the Interoperability column, openEHR is listed under \"Open standards — Exchange & content\" alongside HL7 FHIR, IHE and IPS. openEHR is an information-model formalism rather than an exchange standard; classifying it as the latter is the layer confusion this guidance elsewhere works to dispel. Third, the Terminology Service and the Logical Info Model Repo are both marked \"Knowledge artefact\" while the five registries and the Health Record carry the REDDHI marker; the REDDHI capability table on page 28 lists the Terminology Service as delivering a foundational capability without qualification.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3-8f9618",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0545",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 545,
+      "entry": "544",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 The reference architecture in practice — Figures 3.2 and 3.5",
+      "page": "48; 66",
+      "lines": "Figure 3.2 (p48) and Figure 3.5 (p66) — Shared Data Layer (Syntax – Structure) and Interoperability column (Open Standards)",
+      "caption": "Figure 3.2",
+      "raw": "§3.3 The reference architecture in practice — Figures 3.2 and 3.5 p.48; 66 l.Figure 3.2 (p48) and Figure 3.5 (p66) — Shared Data Layer (Syntax – Structure) and Interoperability column (Open Standards)"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3-8f9618",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-3-29ac26"
+      ],
+      "note": "p.48; 66 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Three points on the semantic and structural elements of Figure 3.2. All three apply equally to Figure 3.5 on page 66, which repeats the same layer, and both figures require the same correction. First, the \"Syntax – Structure / Logical Info Model Repo\" element lists its structural artefacts as \"FHIR profiles · eObjects · IPS · datasets\". openEHR archetypes and templates do not appear, although Appendix C page 175, functional requirement 2, status Required, states that the LIMR \"shall support the representation of models conforming to recognised health data standards, including … openEHR archetypes and templates\", and page 174 lines 81–85 describe multi-formalism support as a core attribute. The figure therefore shows a single-formalism repository where the component specification requires a multi-formalism one. Second, in the Interoperability column, openEHR is listed under \"Open standards — Exchange & content\" alongside HL7 FHIR, IHE and IPS. openEHR is an information-model formalism rather than an exchange standard; classifying it as the latter is the layer confusion this guidance elsewhere works to dispel. Third, the Terminology Service and the Logical Info Model Repo are both marked \"Knowledge artefact\" while the five registries and the Health Record carry the REDDHI marker; the REDDHI capability table on page 28 lists the Terminology Service as delivering a foundational capability without qualification.",
+    "suggestedRevision": "Add \"openEHR archetypes and templates\" to the artefact list in the Syntax – Structure element, alongside FHIR profiles, so the figure matches functional requirement 2 in Appendix C. Move openEHR from \"Exchange & content\" to a new grouping in the Open Standards column — for example \"Information models\" — containing openEHR and ISO 13606, so the column distinguishes the layers as the text does. Mark the Terminology Service as a REDDHI component consistent with the page 28 table, and mark the Logical Info Model Repo consistently with whatever resolution is adopted for the related comment on the REDDHI capability table.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 545"
+      }
+    ]
+  }
+}

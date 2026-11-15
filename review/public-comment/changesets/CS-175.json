@@ -1,0 +1,22 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-175",
+  "title": "Define conflict resolution for offline LHR synchronisation",
+  "requirements": "- Specify detection and resolution of concurrent edits across offline or federated nodes\n- Prevent silent overwrite of clinically significant updates\n- Make safe offline or degraded operation mandatory where intermittent connectivity applies",
+  "refs": [
+    "PC-0446",
+    "PC-0689",
+    "PC-1879"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 3 comment(s)"
+    }
+  ]
+}

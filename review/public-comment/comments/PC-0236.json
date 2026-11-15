@@ -1,0 +1,80 @@
+{
+  "id": "pc-0236",
+  "summary": "Operational governance is accountable for infrastructure integrity, safe change and evaluation in use, but the monitori…",
+  "comment": "Operational governance is accountable for infrastructure integrity, safe change and evaluation in use, but the monitoring scope is not explicit at the architecture-to-care interface. Availability, data quality and standards conformance alone may miss unsafe workarounds, delayed or missed care, documentation burden, near misses, inequitable access and deterioration in clinically meaningful outcomes.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-4-c238c3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0236",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 236,
+      "entry": "235",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.4",
+      "page": "56–57",
+      "lines": "334–362",
+      "raw": "§3.4.4 p.56–57 l.334–362"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-4-c238c3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-4-65aa9a"
+      ],
+      "note": "p.56–57 l.334–362 read as the printed page; section 3.4.4 agrees"
+    },
+    "type": "technical",
+    "text": "Operational governance is accountable for infrastructure integrity, safe change and evaluation in use, but the monitoring scope is not explicit at the architecture-to-care interface. Availability, data quality and standards conformance alone may miss unsafe workarounds, delayed or missed care, documentation burden, near misses, inequitable access and deterioration in clinically meaningful outcomes.",
+    "suggestedRevision": "Expand operational monitoring to include point-of-care consequences: downtime and degraded-service effects; workarounds and override patterns; delayed or missed care; near misses and adverse events; clinical workload and usability burden; equity of access; and clinically meaningful outcome drift. Require feedback from frontline clinicians and service users, with findings feeding operational correction and strategic review.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 236"
+      }
+    ]
+  }
+}

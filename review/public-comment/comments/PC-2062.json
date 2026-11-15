@@ -1,0 +1,81 @@
+{
+  "id": "pc-2062",
+  "summary": "Terminology, model, mapping, profile, and implementation-guide governance are distributed across several sections witho…",
+  "comment": "Terminology, model, mapping, profile, and implementation-guide governance are distributed across several sections without one unified artefact lifecycle.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2062",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1298,
+      "entry": "1297",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C overall",
+      "page": "166-199",
+      "lines": "Remaining component descriptions",
+      "raw": "§Appendix C overall p.166-199 l.Remaining component descriptions"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-13a304",
+        "prose:c-metadata-registries-and-foundati-terminology-service-638c02",
+        "prose:c-metadata-registries-and-foundati-terminology-service-ee8e2f"
+      ],
+      "note": "p.166-199 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Terminology, model, mapping, profile, and implementation-guide governance are distributed across several sections without one unified artefact lifecycle.",
+    "suggestedRevision": "Add a common semantic-artefact lifecycle covering intake, authoring, review, approval, publication, distribution, adoption, monitoring, change, deprecation, and retirement.",
+    "labels": {
+      "Comment type": "Q8 - Semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1298"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0286",
+  "summary": "The conformance model defers to IHE for interoperability testing, but names only the exchange profiles. The IHE securit…",
+  "comment": "The conformance model defers to IHE for interoperability testing, but names only the exchange profiles. The IHE security and privacy profile family is not cited anywhere in the document: ATNA, IUA and XUA appear zero times against thirty-one occurrences of IHE. Section 3.6.5 wants vendor security claims testable before and during procurement, and the deferral mechanism of 3.7.3 is the natural place to make them so.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-3-bf3de7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0286",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 286,
+      "entry": "285",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.3",
+      "page": "83-84",
+      "lines": "1118-1131; also 3.6.5 (p. 78, lines 955-959)",
+      "raw": "§3.7.3 p.83-84 l.1118-1131; also 3.6.5 (p. 78, lines 955-959)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-3-bf3de7",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.83-84 l.1118-1131; also 3.6.5 (p. 78, lines 955-959) read as the printed page; section 3.7.3 agrees"
+    },
+    "type": "technical",
+    "text": "The conformance model defers to IHE for interoperability testing, but names only the exchange profiles. The IHE security and privacy profile family is not cited anywhere in the document: ATNA, IUA and XUA appear zero times against thirty-one occurrences of IHE. Section 3.6.5 wants vendor security claims testable before and during procurement, and the deferral mechanism of 3.7.3 is the natural place to make them so.",
+    "suggestedRevision": "Name the IHE security and privacy profile family in the deferral mechanism of 3.7.3 alongside the exchange profiles. Audit Trail and Node Authentication (ATNA) and Cross-Enterprise User Assertion (XUA) are Final Text; Internet User Authorization (IUA) is still a Trial Implementation supplement, which is itself worth noting where a normative document defers to it; and the current successors in the same family are Basic Audit Log Patterns (BALP) and Privacy Consent on FHIR (PCF), the latter directly relevant to the consent gap raised elsewhere in this matrix.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 286"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pc-0075",
+  "summary": "The regional governance section and its layered model are helpful. However, it assumes that each country operates its o…",
+  "comment": "The regional governance section and its layered model are helpful. However, it assumes that each country operates its own components while a regional body governs the shared arrangements. Small states often find another model more practical: operating a component once at regional level and providing it as a service to several countries. A single country will frequently lack the scale and specialist staff to run it alone. Terminology services, conformance and testing infrastructure, and the logical information model repository are strong candidates for this approach.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-6-b4320d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0075",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 75,
+      "entry": "74",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.6",
+      "page": "62–63",
+      "lines": "495–516",
+      "raw": "§3.4.6 p.62–63 l.495–516"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-6-b4320d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-6-12c0cd",
+        "prose:3-4-6-7842fb"
+      ],
+      "note": "p.62–63 l.495–516 read as the printed page; section 3.4.6 agrees"
+    },
+    "type": "technical",
+    "text": "The regional governance section and its layered model are helpful. However, it assumes that each country operates its own components while a regional body governs the shared arrangements. Small states often find another model more practical: operating a component once at regional level and providing it as a service to several countries. A single country will frequently lack the scale and specialist staff to run it alone. Terminology services, conformance and testing infrastructure, and the logical information model repository are strong candidates for this approach.",
+    "suggestedRevision": "Add a paragraph to 3.4.6 that treats shared regional operation as a separate deployment model. Distinguish between (a) components governed regionally but operated nationally and (b) components operated regionally and used by participating countries. The second model needs service levels, data residency and sovereignty, exit and continuity arrangements, and cost-sharing set out.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 75"
+      }
+    ]
+  }
+}

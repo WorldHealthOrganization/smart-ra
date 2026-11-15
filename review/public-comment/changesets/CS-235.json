@@ -1,0 +1,31 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-235",
+  "title": "Specify consent and permissions as a first-class cross-cutting capability",
+  "requirements": "- Give consent and authorisation a service profile comparable to named components: representation, lifecycle, revocation, delegated authority, audit\n- Split the combined row into distinct capabilities with their own purposes\n- Clarify that data carries or references policy and consent metadata evaluated against the current authoritative record\n- Specify consent representation, lifecycle, enforcement and interfaces across DPI-H\n- For centralised, federated and hybrid exchange, state where consent status is checked and when\n- Address purpose-of-use and attribute-based access control\n- Distinguish consent from legal basis and from authorisation\n- State whether a consent capability is a named shared component or a pattern",
+  "refs": [
+    "PC-0281",
+    "PC-0426",
+    "PC-0609",
+    "PC-0611",
+    "PC-0655",
+    "PC-0656",
+    "PC-0659",
+    "PC-0686",
+    "PC-0747",
+    "PC-0799",
+    "PC-0802",
+    "PC-0819"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 12 comment(s)"
+    }
+  ]
+}

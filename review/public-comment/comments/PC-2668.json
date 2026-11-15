@@ -1,0 +1,82 @@
+{
+  "id": "pc-2668",
+  "summary": "All four offline rows say they are meant for remote and low-resource areas, yet all four are only Recommended. In real …",
+  "comment": "All four offline rows say they are meant for remote and low-resource areas, yet all four are only Recommended. In real procurement, anything marked Recommended is usually dropped to save cost, so the feature that matters most for far-flung areas is the easiest one to skip. But making all four Required is also a problem: it would force offline support even on well-connected hospitals that do not need it, and could make the standard too hard to meet for the small local vendors who serve remote areas. Status and setting are being squeezed into one value.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2668",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 13,
+      "entry": "3",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — LHR, CDSE, HMIS, PHSP",
+      "page": "162, 189, 216, 226",
+      "lines": "Requirements #19, #25, #21, #21",
+      "raw": "§Appendix C — LHR, CDSE, HMIS, PHSP p.162, 189, 216, 226 l.Requirements #19, #25, #21, #21"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-lifelong-health-record",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-00a47d"
+      ],
+      "note": "placed by a placement agent reading the comment against the text (medium): offline requirements across LHR, CDSE, HMIS and PHSP; placed on the first one cited, the LHR"
+    },
+    "type": "technical",
+    "text": "All four offline rows say they are meant for remote and low-resource areas, yet all four are only Recommended. In real procurement, anything marked Recommended is usually dropped to save cost, so the feature that matters most for far-flung areas is the easiest one to skip. But making all four Required is also a problem: it would force offline support even on well-connected hospitals that do not need it, and could make the standard too hard to meet for the small local vendors who serve remote areas. Status and setting are being squeezed into one value.",
+    "suggestedRevision": "Make offline support Required only where the system will serve areas with weak or no internet, and Recommended elsewhere. WHO SMART Guidelines and FHIR guides already use this \"required only if\" pattern. Also spell out what \"offline\" must actually do, because the rows differ: some ask the system to hold full records and sync later (LHR, HMIS), one only asks it to keep working on saved results (CDSE). These are different levels and should be tested differently.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 13"
+      },
+      {
+        "at": "2026-10-15T11:15:03.601Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): offline requirements across LHR, CDSE, HMIS and PHSP; placed on the first one cited, the LHR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pc-2633",
+  "summary": "Low resolution does not allow a proper analysis of the pictures.",
+  "comment": "Low resolution does not allow a proper analysis of the pictures.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2633",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 11,
+      "entry": "1",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Apllicable to the full document",
+      "page": "NA",
+      "lines": "Images containing text",
+      "raw": "§Apllicable to the full document p.NA l.Images containing text"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): low-resolution images containing text, across the full document"
+    },
+    "type": "editorial",
+    "text": "Low resolution does not allow a proper analysis of the pictures.",
+    "suggestedRevision": "Consider providing the image in SVG format, as the text in the current bitmap image cannot be properly analysed due to limited resolution.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 11"
+      }
+    ]
+  }
+}

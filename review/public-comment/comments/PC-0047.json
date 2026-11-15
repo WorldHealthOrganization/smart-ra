@@ -1,0 +1,79 @@
+{
+  "id": "pc-0047",
+  "summary": "The AI equity section refers generally to representative data but does not identify age as a material dimension. Older …",
+  "comment": "The AI equity section refers generally to representative data but does not identify age as a material dimension. Older people are often under-represented in datasets and may differ in multimorbidity, medication patterns, physiology, disability, communication and care setting. Aggregate performance can therefore conceal age-related error or exclusion.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0047",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 47,
+      "entry": "46",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.3 — Equity and safety",
+      "page": "119",
+      "lines": "170–176",
+      "raw": "§5.4.3 — Equity and safety p.119 l.170–176"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.4.3 only"
+    },
+    "type": "technical",
+    "text": "The AI equity section refers generally to representative data but does not identify age as a material dimension. Older people are often under-represented in datasets and may differ in multimorbidity, medication patterns, physiology, disability, communication and care setting. Aggregate performance can therefore conceal age-related error or exclusion.",
+    "suggestedRevision": "Add: “AI evaluation datasets and performance reporting should be examined across age groups, disability and functional-access needs, sex, language and care setting, including community and long-term-care settings. Countries should test for age-related under-performance, inaccessible interaction and automation that inappropriately substitutes for human support or informed decision-making.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 47"
+      }
+    ]
+  }
+}

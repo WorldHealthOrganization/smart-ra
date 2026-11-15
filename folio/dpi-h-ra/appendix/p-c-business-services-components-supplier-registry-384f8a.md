@@ -1,0 +1,4 @@
+- Procurement systems may struggle to verify that a supplier is currently licensed and certified before issuing a purchase order
+- Regulatory authorities are likely to face difficulty quickly identifying all products from a specific manufacturer when a quality alert or recall is issued
+- Logistics systems may be unable to efficiently identify alternative suppliers when primary supply chains are disrupted
+- Cold chain management systems may lack the information needed to confirm whether a particular supplier meets the storage and handling standards required for temperature-sensitive products.

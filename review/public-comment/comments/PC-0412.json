@@ -1,0 +1,81 @@
+{
+  "id": "pc-0412",
+  "summary": "We fully support advocating for a recurrent line item in national health budget to signal government ownership of DPI-H…",
+  "comment": "We fully support advocating for a recurrent line item in national health budget to signal government ownership of DPI-H. \n\nIn addition to payment for recurrent domestic costs of running these systems, contributions to the technologies that underpin their DPI-H, particularly for digital public goods, would be strategic, cost-efficient, and risk free means for maintaining the technologies long-term. Contributions may take the form of DPG capacity building, feature suggestions, or in-kind support to the national innovation ecosystem around DPGs.\n\nOne direct contribution model, now underway through DHIS2 Shared Services Fee, offers a novel global funding strategy to sustain the digital public goods of DPI-H. If a country contributes even marginally to a pooled fund, then it directly contributes to a stake in  platform governance, security, and maintenance, which will have downstream benefits for their national DPI-H. We note tha without a durable funding stream for digital public goods, countries will either need to accept the long-term risk of product degradation, or turn to proprietary software vendors, which have been shown by evidence to be more costly on aggregate.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-93f1c3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0412",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 412,
+      "entry": "411",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6",
+      "page": "102-103",
+      "raw": "§4.6 p.102-103"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-93f1c3",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-6-1-6f998e",
+        "prose:4-6-1-31b1da",
+        "prose:4-6-2-b46bc9"
+      ],
+      "note": "p.102-103 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "We fully support advocating for a recurrent line item in national health budget to signal government ownership of DPI-H. \n\nIn addition to payment for recurrent domestic costs of running these systems, contributions to the technologies that underpin their DPI-H, particularly for digital public goods, would be strategic, cost-efficient, and risk free means for maintaining the technologies long-term. Contributions may take the form of DPG capacity building, feature suggestions, or in-kind support to the national innovation ecosystem around DPGs.\n\nOne direct contribution model, now underway through DHIS2 Shared Services Fee, offers a novel global funding strategy to sustain the digital public goods of DPI-H. If a country contributes even marginally to a pooled fund, then it directly contributes to a stake in  platform governance, security, and maintenance, which will have downstream benefits for their national DPI-H. We note tha without a durable funding stream for digital public goods, countries will either need to accept the long-term risk of product degradation, or turn to proprietary software vendors, which have been shown by evidence to be more costly on aggregate.",
+    "suggestedRevision": "Describe community contributions and pooled funding models as means to sustain DPI-H tools and capacity in the country.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 412"
+      }
+    ]
+  }
+}

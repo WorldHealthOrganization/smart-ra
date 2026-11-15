@@ -1,0 +1,78 @@
+{
+  "id": "pc-0467",
+  "summary": "The conformance model covers technical and semantic conformance thoroughly but does not test governance. A component ca…",
+  "comment": "The conformance model covers technical and semantic conformance thoroughly but does not test governance. A component can pass every technical test while having no designated holder, no independently published performance, no transfer plan and no dispute route - which are the failure modes that actually end programmes.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-1-aef1b3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0467",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 467,
+      "entry": "466",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7",
+      "page": "78",
+      "lines": "962–963",
+      "raw": "§3.7 p.78 l.962–963"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-1-aef1b3",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.78 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The conformance model covers technical and semantic conformance thoroughly but does not test governance. A component can pass every technical test while having no designated holder, no independently published performance, no transfer plan and no dispute route - which are the failure modes that actually end programmes.",
+    "suggestedRevision": "Add governance conformance as a distinct test level with objectively checkable criteria: a designated operator with defined mandate and term; an approved multi-year plan; performance published by an independent party; a maintained transfer dossier and an exercised transfer plan; a functioning dispute route; and a stated revision moment. Countries could then report governance conformance alongside technical conformance, since it is governance conformance that determines whether a capability survives a change of political attention.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 467"
+      }
+    ]
+  }
+}

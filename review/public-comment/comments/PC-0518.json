@@ -1,0 +1,78 @@
+{
+  "id": "pc-0518",
+  "summary": "The Lifelong Health Record bullet ends with the fragment 'rather than implying a single central store. person-centred t…",
+  "comment": "The Lifelong Health Record bullet ends with the fragment 'rather than implying a single central store. person-centred that', which appears to be an editing artefact.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0518",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 518,
+      "entry": "517",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1",
+      "page": "67",
+      "lines": "Line 650",
+      "raw": "§3.5.3.1 p.67 l.Line 650"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.67 l.Line 650 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "type": "editorial",
+    "text": "The Lifelong Health Record bullet ends with the fragment 'rather than implying a single central store. person-centred that', which appears to be an editing artefact.",
+    "suggestedRevision": "Delete the trailing fragment so the bullet ends at 'rather than implying a single central store.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 518"
+      }
+    ]
+  }
+}

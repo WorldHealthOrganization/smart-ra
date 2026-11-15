@@ -1,0 +1,84 @@
+{
+  "id": "pc-0566",
+  "summary": "There is room for improvement in usability. Reading and studying the document took the working group many hours, and we…",
+  "comment": "There is room for improvement in usability. Reading and studying the document took the working group many hours, and we had to write our own summary to understand the overall structure. Many figures are far too complicated. The document runs to 241 pages in total; the narrative text ends at page 110 and the remainder is appendices, but this is not evident to a reader opening the file, and a document of that apparent length means many healthcare providers (HCPs) will not read it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0566",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 566,
+      "entry": "565",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1",
+      "page": "1–110",
+      "raw": "§1 p.1–110"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Overall usability and length of the document."
+    },
+    "type": "general",
+    "text": "There is room for improvement in usability. Reading and studying the document took the working group many hours, and we had to write our own summary to understand the overall structure. Many figures are far too complicated. The document runs to 241 pages in total; the narrative text ends at page 110 and the remainder is appendices, but this is not evident to a reader opening the file, and a document of that apparent length means many healthcare providers (HCPs) will not read it.",
+    "suggestedRevision": "Shorten and simplify: reduce the length of the narrative text, simplify the more complex figures, and add a clear structural overview near the front — stating that the main guidance ends at page 110 and that the appendices are reference material — so readers can navigate the document without constructing their own summary.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 566"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Overall usability and length of the document."
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "pc-0315",
+  "summary": "Relying solely on clinician workflows to drive adoption and ensure treatment adherence is often insufficient. Without t…",
+  "comment": "Relying solely on clinician workflows to drive adoption and ensure treatment adherence is often insufficient. Without transactional visibility, patients remain passive subjects rather than active drivers of their own care loops. In chronic disease management (such as hypertension or diabetes), activating the patient as an active participant introduces a vital layer of systemic accountability and catches errors before they cause irreversible harm.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:ch3-the-reference-architecture-for-d-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0315",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 315,
+      "entry": "314",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-319278460d",
+      "name": "Karim Keshavjee",
+      "organisation": "Institute for Health Policy, Management and Evaluation,\nDalla Lana School of Public Health,\nUniversity of Toronto",
+      "country": "Canada",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 3 / Chapter 5",
+      "lines": "Adoption Layer",
+      "raw": "§Chapter 3 / Chapter 5 l.Adoption Layer"
+    },
+    "anchor": {
+      "targetLabel": "sec:ch3-the-reference-architecture-for-d-lead",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [
+        "chap:ch3-the-reference-architecture-for-d"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 3/5 adoption layer; no specific passage, placed on chapter 3"
+    },
+    "type": "technical",
+    "text": "Relying solely on clinician workflows to drive adoption and ensure treatment adherence is often insufficient. Without transactional visibility, patients remain passive subjects rather than active drivers of their own care loops. In chronic disease management (such as hypertension or diabetes), activating the patient as an active participant introduces a vital layer of systemic accountability and catches errors before they cause irreversible harm.",
+    "suggestedRevision": "Add to adoption layer guidance: “The DPI-H framework should recommend patient-visible loop closure and real-time transaction receipts as a core component of the adoption layer. Rather than treating patient portals as optional, passive viewing panes, the guidelines should encourage architectures that automatically send active transactional notifications to patients—such as alerts when a chronic disease prescription is filled or missed, or confirmations when a critical referral loop has closed.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 315"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites Chapter 3/5 adoption layer; no specific passage, placed on chapter 3"
+      }
+    ]
+  }
+}

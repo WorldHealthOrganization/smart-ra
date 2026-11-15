@@ -1,0 +1,1 @@
+The Lifelong Health Record depends on foundational components for its integrity, serves as the primary data source for a range of consuming systems, and is architecturally distinct from both the point-of-care functional applications that generate its data and the person-facing access tools through which individuals interact with it.

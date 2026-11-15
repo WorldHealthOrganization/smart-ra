@@ -1,0 +1,79 @@
+{
+  "id": "pc-0046",
+  "summary": "The governance section requires understandable consent and a documented access policy, but does not address supported d…",
+  "comment": "The governance section requires understandable consent and a documented access policy, but does not address supported decision-making, changes in decision-making capacity, guardianship, disputes over authority, safeguarding against coercion or abuse, or the end of a delegation. These are governance questions that cannot safely be left to each application.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-085ded",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0046",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 46,
+      "entry": "45",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Lifelong Health Record, Governance",
+      "page": "173",
+      "lines": "203–214 (items 3–4)",
+      "raw": "§Appendix C — Lifelong Health Record, Governance p.173 l.203–214 (items 3–4)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-logical-information-model-reposi-085ded",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.173 l.203–214 (items 3–4) read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The governance section requires understandable consent and a documented access policy, but does not address supported decision-making, changes in decision-making capacity, guardianship, disputes over authority, safeguarding against coercion or abuse, or the end of a delegation. These are governance questions that cannot safely be left to each application.",
+    "suggestedRevision": "Expand consent and access governance to require rules for creating, verifying, reviewing, suspending and terminating representative authority; recording the legal or consensual basis; handling temporary and fluctuating capacity; resolving disputes; preventing coercion and misuse; providing user-visible logs and alerts; and offering accessible complaint and redress mechanisms.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 46"
+      }
+    ]
+  }
+}

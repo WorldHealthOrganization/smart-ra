@@ -1,0 +1,25 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-247",
+  "title": "Preserve the provenance and status of AI-generated information",
+  "requirements": "- Require systems to distinguish observed, asserted, calculated and inferred information\n- Add machine-generated or machine-drafted status, with the responsible tool and reviewer, to the provenance row of Table 2.2 and to the LHR description\n- State that AI outputs affecting care, eligibility or resources need a human author of record before entering the LHR\n- State that automatically generated or AI-assisted semantic content is draft until human-reviewed and validated\n- Prevent generated content silently overwriting authoritative data; control write-back\n- Require provenance for generated content\n- Require end-to-end lineage from source through model to output",
+  "refs": [
+    "PC-0244",
+    "PC-0259",
+    "PC-0261",
+    "PC-0706",
+    "PC-1334",
+    "PC-2371"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 6 comment(s)"
+    }
+  ]
+}

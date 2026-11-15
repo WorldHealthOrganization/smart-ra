@@ -1,0 +1,82 @@
+{
+  "id": "pc-0287",
+  "summary": "Section 4.6 frames DPI-H as capital infrastructure with recurrent budget lines, but never itemises trust operations amo…",
+  "comment": "Section 4.6 frames DPI-H as capital infrastructure with recurrent budget lines, but never itemises trust operations among them: identity issuance and verification, credential lifecycle, audit infrastructure, security operations. This is the cost class whose underfunding stays invisible until a breach, and the one that project-based donor funding historically drops first. Its absence is more consequential here than elsewhere, because the guidance also places trust services outside the health sector, so no budget holder in the sector is told to plan for them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-1-31b1da",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0287",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 287,
+      "entry": "286",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6",
+      "page": "102-103",
+      "lines": "547-600",
+      "raw": "§4.6 p.102-103 l.547-600"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-1-31b1da",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-6-1-6f998e",
+        "prose:4-6-2-67c0fc",
+        "prose:4-6-2-b46bc9"
+      ],
+      "note": "p.102-103 l.547-600 read as the printed page; section 4.6 agrees"
+    },
+    "type": "general",
+    "text": "Section 4.6 frames DPI-H as capital infrastructure with recurrent budget lines, but never itemises trust operations among them: identity issuance and verification, credential lifecycle, audit infrastructure, security operations. This is the cost class whose underfunding stays invisible until a breach, and the one that project-based donor funding historically drops first. Its absence is more consequential here than elsewhere, because the guidance also places trust services outside the health sector, so no budget holder in the sector is told to plan for them.",
+    "suggestedRevision": "Name trust operations explicitly among the sustainability dimensions in 4.6.2 and the financing approaches in 4.6.3.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 287"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0088",
+  "summary": "Further practical detail is required for fragmented ecosystems.",
+  "comment": "Further practical detail is required for fragmented ecosystems.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0088",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 88,
+      "entry": "87",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-823d9ef50c",
+      "name": "Dr. Yahya Gulzar",
+      "organisation": "WHO",
+      "country": "Pakistan",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Implementation Pathways",
+      "page": "Relevant Section",
+      "lines": "Relevant Lines",
+      "raw": "§Implementation Pathways p.Relevant Section l.Relevant Lines"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-4-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Interoperability Implementation Pathways\""
+    },
+    "type": "general",
+    "text": "Further practical detail is required for fragmented ecosystems.",
+    "suggestedRevision": "Include migration strategies and implementation playbooks.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 88"
+      }
+    ]
+  }
+}

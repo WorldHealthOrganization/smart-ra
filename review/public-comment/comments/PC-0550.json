@@ -1,0 +1,80 @@
+{
+  "id": "pc-0550",
+  "summary": "This paragraph lists the standards the architecture references — HL7 FHIR, SNOMED CT and SNOMED GPS, ICD-11, LOINC, GS1…",
+  "comment": "This paragraph lists the standards the architecture references — HL7 FHIR, SNOMED CT and SNOMED GPS, ICD-11, LOINC, GS1 and IDMP identifiers, DICOM, IHE profiles and the international patient summary. Nine standards are named across exchange, terminology, product identification, imaging and content; none is named for the structure of persisted clinical data, although lines 805–807 state that the Logical Information Model Repository governs structure and lines 808–809 that both structure and meaning are required. Line 813 scopes HL7 FHIR to \"the exchange-oriented representation of health data\", which is correct and which leaves the structure layer stated as a requirement with no candidate named. A reader will reasonably conclude that FHIR answers both layers, which section 4.3.3 lines 319–321 states it does not.\n\nLines 828–830 note the benefit holds regardless of the underlying exchange or persistence technology. We agree, and suggest the guidance goes one step further, since countries must in practice choose. On the basis of a decade of national operation the Ministry would distinguish three roles: the logical structure of persisted clinical data, governed by an open information-model framework; persisted demographic, administrative and encounter data, for which HL7 FHIR is well suited and is how Slovenia uses it; and interoperability, APIs, services and transactions, for which section 4.3.3 already recommends HL7 FHIR. Making the roles explicit helps countries avoid adopting an exchange-oriented representation as a lifelong persistence format, where breaking changes between major versions of the exchange standard become migrations of the entire national data estate.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-2-1058d2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0550",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 550,
+      "entry": "549",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.2 Data and health content standards",
+      "page": "74",
+      "lines": "811–830",
+      "raw": "§3.6.2 Data and health content standards p.74 l.811–830"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-2-1058d2",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-6-2-5eddcf"
+      ],
+      "note": "p.74 l.811–830 read as the printed page; section 3.6.2 agrees"
+    },
+    "type": "technical",
+    "text": "This paragraph lists the standards the architecture references — HL7 FHIR, SNOMED CT and SNOMED GPS, ICD-11, LOINC, GS1 and IDMP identifiers, DICOM, IHE profiles and the international patient summary. Nine standards are named across exchange, terminology, product identification, imaging and content; none is named for the structure of persisted clinical data, although lines 805–807 state that the Logical Information Model Repository governs structure and lines 808–809 that both structure and meaning are required. Line 813 scopes HL7 FHIR to \"the exchange-oriented representation of health data\", which is correct and which leaves the structure layer stated as a requirement with no candidate named. A reader will reasonably conclude that FHIR answers both layers, which section 4.3.3 lines 319–321 states it does not.\n\nLines 828–830 note the benefit holds regardless of the underlying exchange or persistence technology. We agree, and suggest the guidance goes one step further, since countries must in practice choose. On the basis of a decade of national operation the Ministry would distinguish three roles: the logical structure of persisted clinical data, governed by an open information-model framework; persisted demographic, administrative and encounter data, for which HL7 FHIR is well suited and is how Slovenia uses it; and interoperability, APIs, services and transactions, for which section 4.3.3 already recommends HL7 FHIR. Making the roles explicit helps countries avoid adopting an exchange-oriented representation as a lifelong persistence format, where breaking changes between major versions of the exchange standard become migrations of the entire national data estate.",
+    "suggestedRevision": "Two changes. First, amend the standards list from line 813 to name open information-model formalisms alongside the others, e.g.: \"— among them HL7 FHIR for the exchange-oriented representation of health data; openEHR archetypes and templates, or ISO 13606, for the logical structure of persisted clinical data, within the EHR architecture requirements of ISO 18308:2011; SNOMED CT (and SNOMED GPS), ICD-11 and LOINC for clinical terminology and classification; …\". Naming candidates at this layer, as the guidance already does at every other layer, does not mandate any one of them.\n\nSecond, add after line 830: \"It is useful to distinguish the roles a standard is asked to play. The logical structure of persisted clinical data, the representation of demographic and administrative data, and the exchange of both between systems are different problems with different rates of change. Countries should select standards per role rather than adopting a single representation for all three, and record that selection in the information model and terminology components.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 550"
+      }
+    ]
+  }
+}

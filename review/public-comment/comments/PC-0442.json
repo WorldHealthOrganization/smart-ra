@@ -1,0 +1,82 @@
+{
+  "id": "pc-0442",
+  "summary": "The text appropriately states that governance begins in Phase 1 and continues throughout implementation. However, the p…",
+  "comment": "The text appropriately states that governance begins in Phase 1 and continues throughout implementation. However, the phase-specific presentation may be read as placing establishment of the Semantic Governance Infrastructure in Phase 3, after Phase 2 has already introduced the LHR, basic terminology services and interoperability into production. Because Section 4.3.1 calls for data structures and models to be defined and governed before implementation, readers could interpret the sequencing as permitting production semantic dependencies before a minimum governance baseline is in place.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-62927f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0442",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 442,
+      "entry": "441",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2; 4.3.1",
+      "page": "92; 94–95",
+      "lines": "120–123; 155–177; 257–273",
+      "raw": "§4.2.2; 4.3.1 p.92; 94–95 l.120–123; 155–177; 257–273"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-62927f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-2-17fbba",
+        "prose:4-2-2-f08184",
+        "prose:4-2-2-2e55c1"
+      ],
+      "note": "p.92; 94–95 l.120–123; 155–177; 257–273 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "technical",
+    "text": "The text appropriately states that governance begins in Phase 1 and continues throughout implementation. However, the phase-specific presentation may be read as placing establishment of the Semantic Governance Infrastructure in Phase 3, after Phase 2 has already introduced the LHR, basic terminology services and interoperability into production. Because Section 4.3.1 calls for data structures and models to be defined and governed before implementation, readers could interpret the sequencing as permitting production semantic dependencies before a minimum governance baseline is in place.",
+    "suggestedRevision": "Clarify that Phase 2 requires a minimum semantic-governance baseline before the foundational shared data layer is scaled into production. This baseline need not include a fully developed LIMR. It could comprise named semantic stewards, canonical identifiers, a version and change-management policy, terminology-binding rules, an approval workflow, and a minimum catalogue of governed semantic assets. Phase 3 could then mature these arrangements into the full Semantic Governance Infrastructure and LIMR capabilities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 442"
+      }
+    ]
+  }
+}

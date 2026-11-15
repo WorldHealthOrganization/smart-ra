@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-122",
+  "title": "Add risk-tiered AI evaluation and use-case classification",
+  "requirements": "- Define evaluation as layered (technical, clinical, human factors, security, real-world monitoring) and use plain terminology in place of 'evals'\n- Classify use cases by autonomy, reversibility, consequence of error and oversight needed\n- Clarify that trustworthiness is demonstrated through evidence and governance, and that trust should not be demanded as a substitute\n- Make evaluation risk-tiered, with reusable protocols and shared regional capacity for smaller systems\n- Expand decision-maker questions (non-AI alternatives, subgroup performance, exit) and supplier documentation duties\n- Address integrity of the evaluation environment itself",
+  "refs": [
+    "PC-0186",
+    "PC-0519",
+    "PC-1345",
+    "PC-1364",
+    "PC-1365",
+    "PC-1366",
+    "PC-1367",
+    "PC-1368",
+    "PC-1369"
+  ],
+  "anchor": "prose:5-4-2-11d943",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 9 comment(s)"
+    }
+  ]
+}

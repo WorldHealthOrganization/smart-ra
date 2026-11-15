@@ -1,0 +1,1 @@
+The LIMR's position in the DPI-H architecture is primarily as a design-time reference asset rather than an operational runtime service, though it is consulted at runtime for data validation and by the CDSE for decision logic evaluation. Its relationships define the semantic governance infrastructure of the ecosystem.

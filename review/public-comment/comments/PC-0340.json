@@ -1,0 +1,84 @@
+{
+  "id": "pc-0340",
+  "summary": "ArchiMate/TOGAF terms like \"capability\" and \"application component\" are used from page 8 onward, but the notation isn't…",
+  "comment": "ArchiMate/TOGAF terms like \"capability\" and \"application component\" are used from page 8 onward, but the notation isn't actually explained until page 42 (Section 3.1). Chapters 1, 2, and 4 are meant for non-technical readers too (ministries, donors, procurement), so this makes the early chapters harder to follow than they need to be.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0340",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 340,
+      "entry": "339",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole document (esp. Chapters 1, 2, 4, 5)",
+      "page": "n/a",
+      "lines": "n/a",
+      "raw": "§Whole document (esp. Chapters 1, 2, 4, 5) p.n/a l.n/a"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document: ArchiMate terms used before Section 3.1 explains them"
+    },
+    "type": "general",
+    "text": "ArchiMate/TOGAF terms like \"capability\" and \"application component\" are used from page 8 onward, but the notation isn't actually explained until page 42 (Section 3.1). Chapters 1, 2, and 4 are meant for non-technical readers too (ministries, donors, procurement), so this makes the early chapters harder to follow than they need to be.",
+    "suggestedRevision": "Move a short version of the Section 3.1 notation table earlier, right after the glossary, or use plainer language in Chapters 1, 2, and 4 and save the formal terminology for Chapter 3 and the Appendix C component descriptions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 340"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document: ArchiMate terms used before Section 3.1 explains them"
+      }
+    ]
+  }
+}

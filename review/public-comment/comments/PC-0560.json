@@ -1,0 +1,78 @@
+{
+  "id": "pc-0560",
+  "summary": "Annex D.2 does not include Slovenia. Slovenia is a relevant case for the Lifelong Health Record, the Logical Informatio…",
+  "comment": "Annex D.2 does not include Slovenia. Slovenia is a relevant case for the Lifelong Health Record, the Logical Information Model Repository and the Open Technologies enabling condition: a national record in production since 2015 in which persisted clinical content has been governed by an open information model throughout, while demographic and administrative data use HL7 FHIR, and in which separately procured applications from several suppliers write into one shared model. No entry currently in the annex illustrates that division of standards by role, or demonstrates supplier interchangeability against a single national model.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-2-rwanda-4227e9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0560",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 560,
+      "entry": "559",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Annex D.2 – Country implementation examples",
+      "page": "233",
+      "lines": "151",
+      "raw": "§Annex D.2 – Country implementation examples p.233 l.151"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-rwanda-4227e9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.233 l.151 read as the printed page; section D.2 agrees"
+    },
+    "type": "general",
+    "text": "Annex D.2 does not include Slovenia. Slovenia is a relevant case for the Lifelong Health Record, the Logical Information Model Repository and the Open Technologies enabling condition: a national record in production since 2015 in which persisted clinical content has been governed by an open information model throughout, while demographic and administrative data use HL7 FHIR, and in which separately procured applications from several suppliers write into one shared model. No entry currently in the annex illustrates that division of standards by role, or demonstrates supplier interchangeability against a single national model.",
+    "suggestedRevision": "Insert after line 151, before the Spain heading (alphabetical order):\n\nSlovenia\nComponents illustrated: LHR, Terminology Service, LIMR\n\nSlovenia's national Central Patient Data Registry (CRPP), governed by the National Institute of Public Health, has held structured clinical data for the national population since 2015, with participation mandatory for all providers, public and private. It now holds over 330 million documents and receives approximately 200,000 new clinical records each day. Clinical content has been persisted against a nationally governed openEHR information model since the registry opened; demographic and administrative data use HL7 FHIR and documents use IHE profiles, with national code sets maintained on a national terminology server. Health workers can use their own information system or a nationally available professional portal (zVEM+) and citizens a portal and mobile application (zVEM) with some 560,000 active users (citizens), both served from the same governed record. There are several national digital services already built like ePrescriptions, eVaccinations, eReferrals and a recent national programme has extended this model with several national applications that run on the national patient record and platform: family medicine, paediatrics, community nursing, gynaecology, diabetes care, patient-reported outcomes and clinical documents, procured as separate lots and delivered by several suppliers against one shared model. It demonstrates how governing persisted clinical structure separately from the exchange format allows a national record to outlast the applications built on it, and lets capabilities be added without renegotiating structure each time.\n\nSuggested footnote source: https://nijz.si/informatika-v-zdravstvu/ezdravje/ (National Institute of Public Health, eZdravje).\n\nAlso add \"Slovenia\" to the Annex D.2 entry list in the contents, between \"Rwanda\" and \"Spain\".",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 560"
+      }
+    ]
+  }
+}

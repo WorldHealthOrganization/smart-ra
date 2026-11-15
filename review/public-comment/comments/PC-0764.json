@@ -1,0 +1,74 @@
+{
+  "id": "pc-0764",
+  "summary": "We agree. A single authoritative source is a governance property, not a deployment topology; registries and the LHR may…",
+  "comment": "We agree. A single authoritative source is a governance property, not a deployment topology; registries and the LHR may be centralised, federated, or hybrid. Cross-border exchange follows the same pattern — data held nationally, exchanged on demand, no central supranational store (§3.6.4).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0764",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 764,
+      "entry": "763",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§3.5 registries (p.65); §3.5.3.1 LHR (p.67); Client Registry (App. C); §3.6.4 (p.77)",
+      "lines": "A6",
+      "raw": "§§3.5 registries (p.65); §3.5.3.1 LHR (p.67); Client Registry (App. C); §3.6.4 (p.77) l.A6"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.5 only"
+    },
+    "text": "We agree. A single authoritative source is a governance property, not a deployment topology; registries and the LHR may be centralised, federated, or hybrid. Cross-border exchange follows the same pattern — data held nationally, exchanged on demand, no central supranational store (§3.6.4).",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 764"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0226",
+  "summary": "The document does not reference the existing historical formal collaboration between SNOMED International and WHO on IC…",
+  "comment": "The document does not reference the existing historical formal collaboration between SNOMED International and WHO on ICD-10/SNOMED CT cross-mapping, a collaboration that produced the authoritative map between the classification and terminology standard.  required by DPI-H and that is directly relevant to the cross-terminology governance challenge identified in this document. Similarly, the Regenstrief-SNOMED International LOINC Ontology collaboration is unacknowledged.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0226",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 226,
+      "entry": "225",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 / 3.4.5",
+      "page": "26 / 57",
+      "lines": "148 / 482",
+      "raw": "§2.2.1 / 3.4.5 p.26 / 57 l.148 / 482"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.26 / 57 l.148 / 482 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "general",
+    "text": "The document does not reference the existing historical formal collaboration between SNOMED International and WHO on ICD-10/SNOMED CT cross-mapping, a collaboration that produced the authoritative map between the classification and terminology standard.  required by DPI-H and that is directly relevant to the cross-terminology governance challenge identified in this document. Similarly, the Regenstrief-SNOMED International LOINC Ontology collaboration is unacknowledged.",
+    "suggestedRevision": "Add footnote or information box: \"Historically SNOMED International and WHO collaborate on the production of authoritative cross-maps between SNOMED CT and ICD-10. These maps are available freely and are essential for a national Terminology Service supporting both clinical data capture (SNOMED CT) and administrative/statistical reporting (ICD-10). SNOMED International and Regenstrief additionally collaborate on SNOMED CT-LOINC concept-level alignment and collaboratively produce the LOINC Ontology. Countries implementing DPI-H should plan to incorporate these cross-maps into their Terminology Service rather than building custom mappings.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 226"
+      }
+    ]
+  }
+}

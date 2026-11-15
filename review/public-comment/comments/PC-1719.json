@@ -1,0 +1,77 @@
+{
+  "id": "pc-1719",
+  "summary": "Employment status and type are Mandatory although these are dynamic HR attributes and may not be authoritative in the r…",
+  "comment": "Employment status and type are Mandatory although these are dynamic HR attributes and may not be authoritative in the registry. [draft-for-...idance.pdf | PDF]",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-health-workforce-registry",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1719",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 955,
+      "entry": "954",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Workforce Registry, 6",
+      "page": "142",
+      "lines": "“Employment status”",
+      "raw": "§Health Workforce Registry, 6 p.142 l.“Employment status”"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-health-workforce-registry",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Health Workforce Registry\""
+    },
+    "text": "Employment status and type are Mandatory although these are dynamic HR attributes and may not be authoritative in the registry. [draft-for-...idance.pdf | PDF]",
+    "suggestedRevision": "Make them linked or synchronised operational attributes with source, effective period, update frequency, and confidence. Do not block publication of a professional record where employment is unknown.",
+    "labels": {
+      "Comment type": "Q5 - Component coverage"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 955"
+      }
+    ]
+  }
+}

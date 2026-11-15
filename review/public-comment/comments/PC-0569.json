@@ -1,0 +1,77 @@
+{
+  "id": "pc-0569",
+  "summary": "The DPI-F/DPI-H distinction, the two-layer architecture, the component set, REDDHI, the goal mappings, interoperability…",
+  "comment": "The DPI-F/DPI-H distinction, the two-layer architecture, the component set, REDDHI, the goal mappings, interoperability and conformance are all well explained — but in a language health scientists speak, not the language of healthcare providers or patients.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-1-4a32c0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0569",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 569,
+      "entry": "568",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2",
+      "page": "24–87",
+      "raw": "§2 p.24–87"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-1-4a32c0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.24–87 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The DPI-F/DPI-H distinction, the two-layer architecture, the component set, REDDHI, the goal mappings, interoperability and conformance are all well explained — but in a language health scientists speak, not the language of healthcare providers or patients.",
+    "suggestedRevision": "Add a plain-language layer for clinical and patient audiences: either a short non-technical companion section or plain-language summaries at the start of each architecture chapter.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 569"
+      }
+    ]
+  }
+}

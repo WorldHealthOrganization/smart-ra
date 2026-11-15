@@ -1,0 +1,78 @@
+{
+  "id": "pc-0561",
+  "summary": "Evidence published after this draft was prepared may be useful to the drafting team. In August 2026 The Lancet Digital …",
+  "comment": "Evidence published after this draft was prepared may be useful to the drafting team. In August 2026 The Lancet Digital Health published the results of a Delphi consensus commissioned by the Spanish Ministry of Health, in which 152 of 220 nominated national experts reached agreement in a single round on recommendations for a national electronic health record, externally validated by an international advisory board from seven countries. Its recommendations anchor the national architecture on ISO 18308:2011 — the standard this guidance already cites at page 156 line 43 — hold that compliance is best achieved through dual information architecture models, specifically ISO 13606 and openEHR, and recommend HL7 FHIR for the exchange of information at the technical layer with its mapping defined in conjunction with the clinical knowledge model. This is an independent national consensus reaching the same architectural conclusion as our own experience.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-2c4d7e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0561",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 561,
+      "entry": "560",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.2 The enabling conditions for REDDHI / Annex D.2 — Spain",
+      "page": "28–29; 233",
+      "lines": "148–159; 152–160",
+      "raw": "§2.2.2 The enabling conditions for REDDHI / Annex D.2 — Spain p.28–29; 233 l.148–159; 152–160"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-2c4d7e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.28–29; 233 l.148–159; 152–160 read as the printed page; section 2.2.2 agrees"
+    },
+    "type": "general",
+    "text": "Evidence published after this draft was prepared may be useful to the drafting team. In August 2026 The Lancet Digital Health published the results of a Delphi consensus commissioned by the Spanish Ministry of Health, in which 152 of 220 nominated national experts reached agreement in a single round on recommendations for a national electronic health record, externally validated by an international advisory board from seven countries. Its recommendations anchor the national architecture on ISO 18308:2011 — the standard this guidance already cites at page 156 line 43 — hold that compliance is best achieved through dual information architecture models, specifically ISO 13606 and openEHR, and recommend HL7 FHIR for the exchange of information at the technical layer with its mapping defined in conjunction with the clinical knowledge model. This is an independent national consensus reaching the same architectural conclusion as our own experience.",
+    "suggestedRevision": "Cite this evidence in support of naming an information-model framework in 2.2.2, and consider updating the Spain entry in Annex D.2 to note the national consensus process. Reference: Piera-Jiménez J, Cano I, Carot-Sans G, Cresswell K, Dunscombe R, Freriks G, et al. Recommendations for a national electronic health record in Spain: a Delphi study. Lancet Digit Health. Online first, 19 August 2026, article 101037. doi:10.1016/S2589-7500(26)00060-9.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 561"
+      }
+    ]
+  }
+}

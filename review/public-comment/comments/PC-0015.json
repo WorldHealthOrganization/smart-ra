@@ -1,0 +1,81 @@
+{
+  "id": "pc-0015",
+  "summary": "The CDSE requirements cover fail-safe behaviour, audit logging, availability and low-connectivity degradation, but they…",
+  "comment": "The CDSE requirements cover fail-safe behaviour, audit logging, availability and low-connectivity degradation, but they do not require queue persistence, manual routing or post-recovery reconciliation for safety-critical workflows.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-c7a798",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0015",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 15,
+      "entry": "14",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: CDSE §5",
+      "page": "199",
+      "lines": "22-25",
+      "raw": "§Appendix C: CDSE §5 p.199 l.22-25"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-c7a798",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-benefits-package-registry-6a97d1"
+      ],
+      "note": "p.199 l.22-25 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The CDSE requirements cover fail-safe behaviour, audit logging, availability and low-connectivity degradation, but they do not require queue persistence, manual routing or post-recovery reconciliation for safety-critical workflows.",
+    "suggestedRevision": "Require queue persistence, recovery procedures, manual routing and post-recovery reconciliation so that failed or delayed tasks cannot be silently lost during network interruption, model outage or integration failure.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 15"
+      }
+    ]
+  }
+}

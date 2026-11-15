@@ -1,0 +1,78 @@
+{
+  "id": "pc-0472",
+  "summary": "This passage explains that the foundational capabilities are interdependent - a longitudinal record has little weight w…",
+  "comment": "This passage explains that the foundational capabilities are interdependent - a longitudinal record has little weight without the registries that establish provenance and attribution. The financing chapter does not draw the consequence: if value arises from interdependence, it cannot be measured component by component, so component-level appraisal will reliably under-invest in the foundation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-b7d6bd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0472",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 472,
+      "entry": "471",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1",
+      "page": "27",
+      "lines": "131",
+      "raw": "§2.2.1 p.27 l.131"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-b7d6bd",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.27 l.131 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "general",
+    "text": "This passage explains that the foundational capabilities are interdependent - a longitudinal record has little weight without the registries that establish provenance and attribution. The financing chapter does not draw the consequence: if value arises from interdependence, it cannot be measured component by component, so component-level appraisal will reliably under-invest in the foundation.",
+    "suggestedRevision": "State explicitly that the value of DPI-H is emergent from the interdependence described here, and draw the financing consequence in 4.6.1: appraisal should be at the level of the shared foundation rather than the individual component, which is a further argument for recurrent budget lines over project appraisal. This also answers a question the draft leaves open - why health technology with demonstrated value often still fails to be financed.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 472"
+      }
+    ]
+  }
+}

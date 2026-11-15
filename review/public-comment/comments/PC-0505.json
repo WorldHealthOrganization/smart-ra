@@ -1,0 +1,78 @@
+{
+  "id": "pc-0505",
+  "summary": "The draft appropriately favours assistive AI under meaningful human oversight, but oversight is described principally a…",
+  "comment": "The draft appropriately favours assistive AI under meaningful human oversight, but oversight is described principally as a design characteristic. For outputs that require human review, oversight may become ineffective when output volume or complexity exceeds available review capacity, even though the system continues to be labelled assistive.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-3-54dd18",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0505",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 505,
+      "entry": "504",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.3 / 5.4.2",
+      "page": "107-108",
+      "lines": "Lines 134-138 and 156-168",
+      "raw": "§5.3 / 5.4.2 p.107-108 l.Lines 134-138 and 156-168"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-3-54dd18",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.107-108 l.Lines 134-138 and 156-168 read as the printed page; section 5.3 agrees"
+    },
+    "type": "technical",
+    "text": "The draft appropriately favours assistive AI under meaningful human oversight, but oversight is described principally as a design characteristic. For outputs that require human review, oversight may become ineffective when output volume or complexity exceeds available review capacity, even though the system continues to be labelled assistive.",
+    "suggestedRevision": "State that each deployment should define an operational oversight model proportionate to risk: which outputs require full review, sampling, exception review or escalation; the human capacity and competence required; and monitored thresholds indicating that oversight is no longer effective. A threshold breach should trigger re-evaluation of the deployment and its controls.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 505"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-040",
+  "title": "Correct ArchiMate element definitions and relationships in 3.1 and 3.7",
+  "requirements": "- Use composition for whole-part and access for data objects\n- Add foundational-DPI authorities, finance, procurement, data-protection bodies and civil society\n- Use an outcome example measuring access and use rather than issuance\n- Allow components that provide services without holding authoritative data\n- Remove 'capability' as a synonym for Application Service, consistent with 3.1\n- Show the correct relationship type at each step in Figure 3.1\n- Restructure Table 3.2 as source/relationship/target/meaning and use official relationship names consistently",
+  "refs": [
+    "PC-0842",
+    "PC-0843",
+    "PC-0844",
+    "PC-0846",
+    "PC-0847",
+    "PC-0849",
+    "PC-0853",
+    "PC-1111"
+  ],
+  "anchor": "tbl:3-1",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

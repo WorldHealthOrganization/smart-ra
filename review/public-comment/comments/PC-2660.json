@@ -1,0 +1,73 @@
+{
+  "id": "pc-2660",
+  "summary": "The offline-capability requirement is useful, but “central platform” unnecessarily prescribes a topology that conflicts…",
+  "comment": "The offline-capability requirement is useful, but “central platform” unnecessarily prescribes a topology that conflicts with the Guidance's otherwise stated support for centralised, federated and hybrid implementation. Surveillance in decentralised systems may involve regional operational nodes synchronising with national coordination infrastructure without one central platform functioning as the sole operational data store. The requirement concerns reliable synchronisation and continuity, not architectural centralisation, and should therefore remain topology-neutral",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2660",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 38,
+      "entry": "28",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Public Health Surveillance Platform",
+      "page": "226-227",
+      "lines": "Table Data Quality, Governance and Access Control. Element 21",
+      "raw": "§Appendix C: Public Health Surveillance Platform p.226-227 l.Table Data Quality, Governance and Access Control. Element 21"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The offline-capability requirement is useful, but “central platform” unnecessarily prescribes a topology that conflicts with the Guidance's otherwise stated support for centralised, federated and hybrid implementation. Surveillance in decentralised systems may involve regional operational nodes synchronising with national coordination infrastructure without one central platform functioning as the sole operational data store. The requirement concerns reliable synchronisation and continuity, not architectural centralisation, and should therefore remain topology-neutral",
+    "suggestedRevision": "Replace “the central platform” with “the designated surveillance platform or authorised synchronisation endpoint(s), which may be centralised, federated or hybrid according to the jurisdiction's architecture.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 38"
+      }
+    ]
+  }
+}

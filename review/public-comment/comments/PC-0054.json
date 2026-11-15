@@ -1,0 +1,79 @@
+{
+  "id": "pc-0054",
+  "summary": "Near-real time reporting, auditing and registries require the linking of  the data as conceived under a DPI approach wi…",
+  "comment": "Near-real time reporting, auditing and registries require the linking of  the data as conceived under a DPI approach with a generally missing component that should be shared namely the identified subjects of interest (whether persons or other)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-c9e50d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0054",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 54,
+      "entry": "53",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5",
+      "page": "21",
+      "lines": "440-8",
+      "raw": "§1.5 p.21 l.440-8"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-c9e50d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.21 l.440-8 read as the printed page; section 1.5 agrees"
+    },
+    "type": "technical",
+    "text": "Near-real time reporting, auditing and registries require the linking of  the data as conceived under a DPI approach with a generally missing component that should be shared namely the identified subjects of interest (whether persons or other)",
+    "suggestedRevision": "The infrastructure to maintain this could be another DPI component or is analgous to other components (such as ID, terminology registers etc)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 54"
+      }
+    ]
+  }
+}

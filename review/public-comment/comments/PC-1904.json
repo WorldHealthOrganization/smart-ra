@@ -1,0 +1,81 @@
+{
+  "id": "pc-1904",
+  "summary": "The component may be interpreted as a single national server containing every terminology required by the health system…",
+  "comment": "The component may be interpreted as a single national server containing every terminology required by the health system. Some terminologies are maintained internationally, regionally, by specialist authorities, or under licensing restrictions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1904",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1140,
+      "entry": "1139",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Terminology Service, 1",
+      "page": "166",
+      "lines": "Purpose and scope",
+      "raw": "§Terminology Service, 1 p.166 l.Purpose and scope"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-13a304",
+        "prose:c-metadata-registries-and-foundati-terminology-service-638c02",
+        "prose:c-metadata-registries-and-foundati-terminology-service-ee8e2f"
+      ],
+      "note": "p.166 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The component may be interpreted as a single national server containing every terminology required by the health system. Some terminologies are maintained internationally, regionally, by specialist authorities, or under licensing restrictions.",
+    "suggestedRevision": "Define it as a nationally governed terminology capability that may host, federate, mirror, or provide controlled access to terminology assets from multiple authoritative sources.",
+    "labels": {
+      "Comment type": "Q14 - Language and clarity"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1140"
+      }
+    ]
+  }
+}

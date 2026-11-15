@@ -1,0 +1,81 @@
+{
+  "id": "pc-2138",
+  "summary": "Rwanda is often cited for coordinated national digital-health implementation, but the entry should distinguish health-i…",
+  "comment": "Rwanda is often cited for coordinated national digital-health implementation, but the entry should distinguish health-insurance, community health, facility systems, reporting, exchange, and national registries. [cdn.who.int]",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-2-kenya-de109b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2138",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1374,
+      "entry": "1373",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "D.2, Rwanda",
+      "page": "233",
+      "lines": "Rwanda entry",
+      "raw": "§D.2, Rwanda p.233 l.Rwanda entry"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-kenya-de109b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-3-european-union-and-european-econ-f59996-2",
+        "prose:d-2-nigeria-bedd22",
+        "prose:d-2-rwanda-b28ec2"
+      ],
+      "note": "p.233 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Rwanda is often cited for coordinated national digital-health implementation, but the entry should distinguish health-insurance, community health, facility systems, reporting, exchange, and national registries. [cdn.who.int]",
+    "suggestedRevision": "Map each system or capability separately, identify implementation status, and avoid treating the ecosystem as one platform.",
+    "labels": {
+      "Comment type": "Q13 - Examples and evidence"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1374"
+      }
+    ]
+  }
+}

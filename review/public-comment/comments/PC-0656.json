@@ -1,0 +1,83 @@
+{
+  "id": "pc-0656",
+  "summary": "DPI-H components (right set): Broadly, yes. The proposed components represent a coherent and useful core set for nation…",
+  "comment": "DPI-H components (right set): Broadly, yes. The proposed components represent a coherent and useful core set for national digital health infrastructure, particularly the Client, Facility, Workforce and Product Registries, the Lifelong Health Record, Terminology Service, Logical Information Model Repository, Computable Decision Support Engine, HMIS and Public Health Surveillance Platform.\n\nI particularly support the distinction between shared foundational components and reusable business-service components, rather than treating programme-specific applications as DPI-H.\n\nMy main reservation is not that major components are missing, but that several cross-cutting capabilities need more explicit architectural treatment. Consent and permissions management is described as a foundational REDDHI capability and is required by the Lifelong Health Record, but it is not articulated with the same level of interface and lifecycle detail as the named components. Similarly, learned AI/ML models may be deployed across several components or point-of-service systems, but the architecture would benefit from a cross-cutting lifecycle profile covering model identity, versioning, validation, monitoring and accountability.\n\nI would therefore retain the proposed component set while strengthening these cross-cutting service profiles rather than necessarily adding new centralised components.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0656",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 656,
+      "entry": "655",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "Independent Researcher",
+      "country": "Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set as a whole."
+    },
+    "type": "general",
+    "text": "DPI-H components (right set): Broadly, yes. The proposed components represent a coherent and useful core set for national digital health infrastructure, particularly the Client, Facility, Workforce and Product Registries, the Lifelong Health Record, Terminology Service, Logical Information Model Repository, Computable Decision Support Engine, HMIS and Public Health Surveillance Platform.\n\nI particularly support the distinction between shared foundational components and reusable business-service components, rather than treating programme-specific applications as DPI-H.\n\nMy main reservation is not that major components are missing, but that several cross-cutting capabilities need more explicit architectural treatment. Consent and permissions management is described as a foundational REDDHI capability and is required by the Lifelong Health Record, but it is not articulated with the same level of interface and lifecycle detail as the named components. Similarly, learned AI/ML models may be deployed across several components or point-of-service systems, but the architecture would benefit from a cross-cutting lifecycle profile covering model identity, versioning, validation, monitoring and accountability.\n\nI would therefore retain the proposed component set while strengthening these cross-cutting service profiles rather than necessarily adding new centralised components.",
+    "labels": {
+      "Stakeholder type": "Academia or research",
+      "Theme": "Architecture and concepts",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 656"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set as a whole."
+      }
+    ]
+  }
+}

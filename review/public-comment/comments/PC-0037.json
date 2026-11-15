@@ -1,0 +1,88 @@
+{
+  "id": "pc-0037",
+  "summary": "At this point, the goals on continuity of care and personal health records are framed primarily around clinicians and i…",
+  "comment": "At this point, the goals on continuity of care and personal health records are framed primarily around clinicians and individuals acting independently. Although later sections refer more broadly to coordination across providers and settings, the guidance does not explicitly incorporate home and community care, rehabilitation, long-term care, social-care services or the legitimate participation of carers. Population ageing makes this omission increasingly consequential, although the requirement applies across the life course. WHO’s ICOPE approach recognises person-centred assessment, personalised care planning, community-based care, social support and support for carers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-039759",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0037",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 37,
+      "entry": "36",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5.1 — The Health Sector Goals",
+      "page": "32",
+      "lines": "477–488",
+      "raw": "§1.5.1 — The Health Sector Goals p.32 l.477–488"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-039759",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-5-c9e50d"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 1.5.1 l.477-488 and asks to revise the third goal (continuity of care); this is the third-goal paragraph"
+    },
+    "type": "general",
+    "text": "At this point, the goals on continuity of care and personal health records are framed primarily around clinicians and individuals acting independently. Although later sections refer more broadly to coordination across providers and settings, the guidance does not explicitly incorporate home and community care, rehabilitation, long-term care, social-care services or the legitimate participation of carers. Population ageing makes this omission increasingly consequential, although the requirement applies across the life course. WHO’s ICOPE approach recognises person-centred assessment, personalised care planning, community-based care, social support and support for carers.",
+    "suggestedRevision": "Revise the third goal to state that clinicians, health and care workers, individuals and appropriately authorised carers need governed access to relevant information and shared care plans across settings. State explicitly that continuity of care should extend across hospitals, primary care, rehabilitation, home and community care, long-term care and relevant social-care services.\n\nRevise the fourth goal to clarify that individuals may access and exercise control over their records directly, with support, or through an authorised representative where permitted, with access governed by consent, role and applicable legal authority.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 37"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 1.5.1 l.477-488 and asks to revise the third goal (continuity of care); this is the third-goal paragraph"
+      }
+    ]
+  }
+}

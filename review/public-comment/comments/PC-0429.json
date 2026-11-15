@@ -1,0 +1,78 @@
+{
+  "id": "pc-0429",
+  "summary": "The statement that the LHR is not a central data lake should be strengthened for research, genomic and biospecimen data…",
+  "comment": "The statement that the LHR is not a central data lake should be strengthened for research, genomic and biospecimen data. These data may be sensitive and governed by ethics approvals, participant choices and controlled-access requirements.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-b73827",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0429",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 429,
+      "entry": "428",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Lifelong Health Record",
+      "page": "155",
+      "lines": "26–30",
+      "raw": "§Lifelong Health Record p.155 l.26–30"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-b73827",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.155 l.26–30 read as the printed page"
+    },
+    "type": "general",
+    "text": "The statement that the LHR is not a central data lake should be strengthened for research, genomic and biospecimen data. These data may be sensitive and governed by ethics approvals, participant choices and controlled-access requirements.",
+    "suggestedRevision": "State that research, genomic and biospecimen data should normally remain in an authorised source system or controlled repository. The LHR may retain only minimum clinically relevant, consented information or metadata, with detailed data accessed through federated and governed mechanisms.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 429"
+      }
+    ]
+  }
+}

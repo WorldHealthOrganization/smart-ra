@@ -1,0 +1,81 @@
+{
+  "id": "pc-0220",
+  "summary": "The Semantic Governance Infrastructure (SGI) is described as a purely national governance function. The section does no…",
+  "comment": "The Semantic Governance Infrastructure (SGI) is described as a purely national governance function. The section does not address the formal relationship between national SGI bodies and the international standards development organisations (SDOs) that develop, publish, and maintain the underlying terminologies such as SNOMED International for SNOMED CT, Regenstrief Institute for LOINC, WHO for ICD-11 and ICD-11 MMS. Without a defined international dimension, national SGI processes are likely to diverge over time, producing semantic fragmentation that undermines the cross-border interoperability DPI-H is designed to achieve. Countries establishing SGI bodies will have no normative reference for how to engage SDOs for requests for change, receive versioned releases, validate localised content, or escalate governance issues internationally.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-aef916",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0220",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 220,
+      "entry": "219",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57",
+      "lines": "373–433",
+      "raw": "§3.4.5 p.57 l.373–433"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-aef916",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-474cc6",
+        "prose:3-4-5-f2a242"
+      ],
+      "note": "p.57 l.373–433 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "The Semantic Governance Infrastructure (SGI) is described as a purely national governance function. The section does not address the formal relationship between national SGI bodies and the international standards development organisations (SDOs) that develop, publish, and maintain the underlying terminologies such as SNOMED International for SNOMED CT, Regenstrief Institute for LOINC, WHO for ICD-11 and ICD-11 MMS. Without a defined international dimension, national SGI processes are likely to diverge over time, producing semantic fragmentation that undermines the cross-border interoperability DPI-H is designed to achieve. Countries establishing SGI bodies will have no normative reference for how to engage SDOs for requests for change, receive versioned releases, validate localised content, or escalate governance issues internationally.",
+    "suggestedRevision": "Suggestion to add a paragraph: \"National SGI bodies should maintain formal alignment with the international SDOs that develop the terminologies they govern. SNOMED International's National Release Centre (NRC) programme provides a tested model for this relationship, including governance templates, release pipeline tooling, and a global NRC peer network. WHO and ITU are invited to establish a formal Technical Advisory Group, comprising SNOMED International and fellow SDOs such as Regenstrief Institute for LOINC, HL7 International, and WHO, to develop SGI implementation guidance for national programmes.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 220"
+      }
+    ]
+  }
+}

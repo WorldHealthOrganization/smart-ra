@@ -1,0 +1,78 @@
+{
+  "id": "pc-0304",
+  "summary": "The guidance already makes the important point that conformance to the same exchange standard does not guarantee semant…",
+  "comment": "The guidance already makes the important point that conformance to the same exchange standard does not guarantee semantic interoperability when implementations extend it differently, and it recommends nationally governed minimum data models. The mechanism behind that observation is worth stating: conformance to an extensible base standard does not by itself guarantee conformance to the same governed semantic model, so where implementations use divergent profiles or extensions, or where exchanged instances are not validated against a shared governed profile at the exchange boundary, two systems may both be conformant to the base standard while remaining semantically incompatible. This principle could be strengthened by requiring machine-checkable conformance to that governed minimum at exchange boundaries, including assurance that local extensions do not alter or contradict the shared semantics required for national interoperability. As one openly documented implementation example of this broader pattern, the Semantic Data Charter (Axius SDC) combines standards-based structural constraints, provenance and deterministic validation; it is cited here as an implementation example, not as a proposed dependency of DPI-H.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-2-5eddcf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0304",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 304,
+      "entry": "303",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.2 / 4.3.3",
+      "page": "74 / 96",
+      "lines": "822-827 / 318-322",
+      "raw": "§3.6.2 / 4.3.3 p.74 / 96 l.822-827 / 318-322"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-2-5eddcf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.74 / 96 l.822-827 / 318-322 read as the printed page; section 3.6.2 agrees"
+    },
+    "type": "technical",
+    "text": "The guidance already makes the important point that conformance to the same exchange standard does not guarantee semantic interoperability when implementations extend it differently, and it recommends nationally governed minimum data models. The mechanism behind that observation is worth stating: conformance to an extensible base standard does not by itself guarantee conformance to the same governed semantic model, so where implementations use divergent profiles or extensions, or where exchanged instances are not validated against a shared governed profile at the exchange boundary, two systems may both be conformant to the base standard while remaining semantically incompatible. This principle could be strengthened by requiring machine-checkable conformance to that governed minimum at exchange boundaries, including assurance that local extensions do not alter or contradict the shared semantics required for national interoperability. As one openly documented implementation example of this broader pattern, the Semantic Data Charter (Axius SDC) combines standards-based structural constraints, provenance and deterministic validation; it is cited here as an implementation example, not as a proposed dependency of DPI-H.",
+    "suggestedRevision": "Add a design principle to §3.6.2: \"Local extensions may add context required by national or local use cases, but exchanged data should remain conformant to the nationally governed minimum model, and conformance should be machine-checkable at the exchange boundary so that local extensions do not alter or contradict the shared semantics required for interoperability.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 304"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "pc-0705",
+  "summary": "SGI’s feedback loop runs from consuming applications back into the governance cycle. It does not yet include feedback f…",
+  "comment": "SGI’s feedback loop runs from consuming applications back into the governance cycle. It does not yet include feedback from care outcomes and receiver comprehension — e.g. terms or models that are systematically misread at the point of care.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0705",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 705,
+      "entry": "704",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 3, §3.4.5 (SGI — governance layers and capability categories); Ch. 5, §5.2",
+      "raw": "§Ch. 3, §3.4.5 (SGI — governance layers and capability categories); Ch. 5, §5.2"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-5",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "chap:ch3-the-reference-architecture-for-d"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.5 SGI capability categories."
+    },
+    "text": "SGI’s feedback loop runs from consuming applications back into the governance cycle. It does not yet include feedback from care outcomes and receiver comprehension — e.g. terms or models that are systematically misread at the point of care.",
+    "suggestedRevision": "Add to the SGI capability categories (and Appendix F) a capability for pragmatic feedback: structured intake of evidence that governed content is misinterpreted or fails to support appropriate action in practice, feeding the authoring/publication cycle.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries",
+      "Comment type": "#6"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 705"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.4.5 SGI capability categories."
+      }
+    ]
+  }
+}

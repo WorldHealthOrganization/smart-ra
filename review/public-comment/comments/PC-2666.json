@@ -1,0 +1,73 @@
+{
+  "id": "pc-2666",
+  "summary": "Remote and online care is mentioned only once in the whole document, on p.133, as a reason to record whether a facility…",
+  "comment": "Remote and online care is mentioned only once in the whole document, on p.133, as a reason to record whether a facility has internet. It is not listed as a component, a service, or an example under any of the seven health goals. The document treats clinical apps as sitting on top of the shared foundation (Section 5.3), which is a fair reason not to make telemedicine its own component. But the shared parts still assume the patient and the health worker are in the same building: the patient is identified at a facility, the record is tied to a facility, and the worker’s credentials are checked at a facility. Remote and store-and-forward care break these assumptions. A patient may join from home, and a specialist may read a scan or photo without ever meeting the patient. The document never checks whether the shared parts still work in these cases.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-6c24d5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2666",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 11,
+      "entry": "1",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Health Facility Registry (see Section 6)",
+      "page": "133 (in relation to page 107)",
+      "lines": "Signature-domain table, \"Infrastructure attributes\" row (see Section 5.3, lines 120–123)",
+      "raw": "§Appendix C — Health Facility Registry (see Section 6) p.133 (in relation to page 107) l.Signature-domain table, \"Infrastructure attributes\" row (see Section 5.3, lines 120–123)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-6c24d5",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.133 (in relation to page 107) read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Remote and online care is mentioned only once in the whole document, on p.133, as a reason to record whether a facility has internet. It is not listed as a component, a service, or an example under any of the seven health goals. The document treats clinical apps as sitting on top of the shared foundation (Section 5.3), which is a fair reason not to make telemedicine its own component. But the shared parts still assume the patient and the health worker are in the same building: the patient is identified at a facility, the record is tied to a facility, and the worker’s credentials are checked at a facility. Remote and store-and-forward care break these assumptions. A patient may join from home, and a specialist may read a scan or photo without ever meeting the patient. The document never checks whether the shared parts still work in these cases.",
+    "suggestedRevision": "Add remote and online care as a named example under the health goal it fits best, and use it to test the shared components. State how the record shows who made an entry when a remote specialist reads a case without seeing the patient, how the client registry and consent service identify a patient connecting from home outside any facility, and how the workforce and facility registries confirm a provider’s identity across two facilities during an online consult.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 11"
+      }
+    ]
+  }
+}

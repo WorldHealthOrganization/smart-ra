@@ -1,0 +1,76 @@
+{
+  "id": "pc-2472",
+  "summary": "ICD-11 as primary semantic standard — Naming “ICD” in a list leaves its version and clinical role unclear. This wording…",
+  "comment": "ICD-11 as primary semantic standard — Naming “ICD” in a list leaves its version and clinical role unclear. This wording gives a positive alternative while preserving other valid choices. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO interoperability hub (https://www.who.int/standards/classifications/who-fic-interoperability-hub). International reporting and national implementation choices are distinguished; see WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967) and WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf). Reviewer A25.03 is incorporated here.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-e01764",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2472",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 15,
+      "entry": "14",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§2.2.2, Open Standards bullet",
+      "page": "28–29",
+      "lines": "A03.01",
+      "raw": "§§2.2.2, Open Standards bullet p.28–29 l.A03.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-e01764",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:2-2-2-2c4d7e"
+      ],
+      "note": "p.28–29 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "ICD-11 as primary semantic standard — Naming “ICD” in a list leaves its version and clinical role unclear. This wording gives a positive alternative while preserving other valid choices. Evidence: WHO ICD overview (https://www.who.int/standards/classifications/classification-of-diseases), WHO interoperability hub (https://www.who.int/standards/classifications/who-fic-interoperability-hub). International reporting and national implementation choices are distinguished; see WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967) and WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf). Reviewer A25.03 is incorporated here.",
+    "suggestedRevision": "Replace whole bullet; retain asterisk marker and apply A04.01: Open Standards: grounding implementation in publicly specified standards with transparent governance and stated terms of use. These include HL7 FHIR for health data exchange; ICD-11 as both a clinical terminology and a statistical classification; other WHO-FIC standards for their respective domains; LOINC for observations; and SNOMED CT* where selected for clinical terminology. Selection should match the intended use, required clinical detail, available implementation support, applicable Member State reporting obligations under the WHO Nomenclature Regulations, other national obligations, and sustainable operating costs. The architecture supports ICD-11 as a primary semantic choice within its scope and does not require an intervening SNOMED CT representation.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 15"
+      }
+    ]
+  }
+}

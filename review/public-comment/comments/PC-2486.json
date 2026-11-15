@@ -1,0 +1,76 @@
+{
+  "id": "pc-2486",
+  "summary": "Classification and clinical coding responsibilities — The existing example frames expertise around mappings “to” standa…",
+  "comment": "Classification and clinical coding responsibilities — The existing example frames expertise around mappings “to” standards. Direct capture and correct classification use require additional named responsibilities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-2-2a0e80",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2486",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 29,
+      "entry": "28",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§4.5.2, skills and roles",
+      "page": "101",
+      "lines": "A11.01",
+      "raw": "§§4.5.2, skills and roles p.101 l.A11.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-2-2a0e80",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-5-2-da33cf"
+      ],
+      "note": "p.101 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Classification and clinical coding responsibilities — The existing example frames expertise around mappings “to” standards. Direct capture and correct classification use require additional named responsibilities.",
+    "suggestedRevision": "Replace bullet: • Terminology, classification, and clinical coding specialists, who support direct implementation of standards such as ICD-11 and other WHO-FIC content; curate code systems and value sets; apply the relevant clinical coding and statistical rules; govern mappings where needed; and operate semantic governance processes with clinical and public-health users.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 29"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-066",
+  "title": "Correct the LIMR versus Terminology Service distinction",
+  "requirements": "- Separate governance, content repositories, authoring tools and runtime services\n- Replace syntax-versus-semantics with structure and contextual meaning versus coded concept meaning\n- Keep a concise comparison in Table 3.5 and move detailed examples to an appendix\n- State that terminology services are one enabler of semantic interoperability\n- Reword 'uncontrolled local variation' as undocumented or non-interoperable variation\n- Place the TS and LIMR within the cross-cutting Semantic Governance Infrastructure\n- Describe change impact in both directions\n- Classify capabilities as baseline, conditional or advanced",
+  "refs": [
+    "PC-0968",
+    "PC-0969",
+    "PC-0970",
+    "PC-0975",
+    "PC-0976",
+    "PC-1903",
+    "PC-1907",
+    "PC-1908",
+    "PC-2492",
+    "PC-2512"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 10 comment(s)"
+    }
+  ]
+}

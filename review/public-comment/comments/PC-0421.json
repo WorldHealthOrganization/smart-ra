@@ -1,0 +1,78 @@
+{
+  "id": "pc-0421",
+  "summary": "It may be useful to give research and public-health analysis more explicit consideration in the design of the Lifelong …",
+  "comment": "It may be useful to give research and public-health analysis more explicit consideration in the design of the Lifelong Health Record. The ability to use health data for appropriately governed secondary purposes will be an important benefit of shared digital health infrastructure. The draft allows countries to implement the Lifelong Health Record through fully federated or virtual models, which provides useful flexibility. In this context, it may be worth considering whether the secondary-use export capability described under SHRF-8 should be strengthened, particularly for federated or virtual implementations. A clearer requirement or minimum expectation for this capability could help ensure that appropriately governed health-data access for research and public-health analysis remains feasible regardless of the underlying LHR implementation model.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0421",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 421,
+      "entry": "420",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C and relevant pages",
+      "page": "161",
+      "lines": "#16\n(SHRF-8)",
+      "raw": "§Appendix C and relevant pages p.161 l.#16\n(SHRF-8)"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "general",
+    "text": "It may be useful to give research and public-health analysis more explicit consideration in the design of the Lifelong Health Record. The ability to use health data for appropriately governed secondary purposes will be an important benefit of shared digital health infrastructure. The draft allows countries to implement the Lifelong Health Record through fully federated or virtual models, which provides useful flexibility. In this context, it may be worth considering whether the secondary-use export capability described under SHRF-8 should be strengthened, particularly for federated or virtual implementations. A clearer requirement or minimum expectation for this capability could help ensure that appropriately governed health-data access for research and public-health analysis remains feasible regardless of the underlying LHR implementation model.",
+    "suggestedRevision": "Suggested revision to SHRF-8: change status from Recommended to Required, at minimum for federated, hybrid and virtual-record implementations. Suggested wording: 'The LHR shall support the ability to export data for secondary use, including for HMIS, PHSP, research and analytics purposes, in agreed formats and through agreed access governance mechanisms, without requiring parallel or duplicative data collection from source systems. (Required for federated, hybrid and virtual-record implementations; Recommended otherwise.)'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 421"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-0654",
+  "summary": "The implementation chapter does not reference widely deployed open source tools such as KoboToolbox, ODK, CommCare, and…",
+  "comment": "The implementation chapter does not reference widely deployed open source tools such as KoboToolbox, ODK, CommCare, and OpenSRP that are already in active use across Sub-Saharan Africa. Countries implementing DPI-H will frequently be building on or integrating with these existing tools rather than starting from scratch. The absence of any mapping between these tools and the architecture components leaves a significant practical gap.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0654",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 654,
+      "entry": "653",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-93fcd0b606",
+      "name": "Mercy Chepngeno",
+      "organisation": "GeoApnet",
+      "country": "Kenya",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3",
+      "raw": "§4.3"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.3 only"
+    },
+    "text": "The implementation chapter does not reference widely deployed open source tools such as KoboToolbox, ODK, CommCare, and OpenSRP that are already in active use across Sub-Saharan Africa. Countries implementing DPI-H will frequently be building on or integrating with these existing tools rather than starting from scratch. The absence of any mapping between these tools and the architecture components leaves a significant practical gap.",
+    "suggestedRevision": "Add a mapping or reference table in the implementation chapter that identifies commonly used open source and global good tools alongside the DPI-H components they fulfil, helping countries assess what they already have and what gaps remain.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 654"
+      }
+    ]
+  }
+}

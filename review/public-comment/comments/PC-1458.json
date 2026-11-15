@@ -1,0 +1,79 @@
+{
+  "id": "pc-1458",
+  "summary": "The statement that the Client Registry contains identity data rather than health data is conceptually useful, but ident…",
+  "comment": "The statement that the Client Registry contains identity data rather than health data is conceptually useful, but identity and demographic attributes can themselves be sensitive health-related information in context.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-ae597c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1458",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 694,
+      "entry": "693",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, 1",
+      "page": "115",
+      "lines": "Lines 54-58",
+      "raw": "§Client Registry, 1 p.115 l.Lines 54-58"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-ae597c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-client-registry-95ffd8"
+      ],
+      "note": "p.115 l.Lines 54-58 read as the printed page; section 1 agrees"
+    },
+    "text": "The statement that the Client Registry contains identity data rather than health data is conceptually useful, but identity and demographic attributes can themselves be sensitive health-related information in context.",
+    "suggestedRevision": "Clarify that the registry does not contain clinical records, while its identity and demographic data remain sensitive personal data subject to health-sector privacy, security, and purpose restrictions.",
+    "labels": {
+      "Comment type": "Q14 - Language and clarity"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 694"
+      }
+    ]
+  }
+}

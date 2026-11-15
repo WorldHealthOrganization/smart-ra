@@ -1,0 +1,78 @@
+{
+  "id": "pc-0308",
+  "summary": "Two distinct subsections are both numbered 4.3.4 (\"Integration Interfaces with Foundational DPI\" on p.96 and \"Interoper…",
+  "comment": "Two distinct subsections are both numbered 4.3.4 (\"Integration Interfaces with Foundational DPI\" on p.96 and \"Interoperability Implementation Pathways\" on p.97).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-83c937",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0308",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 308,
+      "entry": "307",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4",
+      "page": "96 / 97",
+      "lines": "339 / 369",
+      "raw": "§4.3.4 p.96 / 97 l.339 / 369"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-83c937",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.96 / 97 l.339 / 369 read as the printed page; section 4.3.4 agrees"
+    },
+    "type": "editorial",
+    "text": "Two distinct subsections are both numbered 4.3.4 (\"Integration Interfaces with Foundational DPI\" on p.96 and \"Interoperability Implementation Pathways\" on p.97).",
+    "suggestedRevision": "Renumber the second to 4.3.5 and cascade subsequent numbers (current 4.3.5 \"Minimum Conformance and Testing\" becomes 4.3.6).",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 308"
+      }
+    ]
+  }
+}

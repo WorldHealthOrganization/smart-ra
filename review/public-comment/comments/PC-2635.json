@@ -1,0 +1,73 @@
+{
+  "id": "pc-2635",
+  "summary": "Centralisation is an implementation topology and should not form part of the definition of a registry. The current defi…",
+  "comment": "Centralisation is an implementation topology and should not form part of the definition of a registry. The current definition is also inconsistent with the Guidance itself: p. 54 states that registries are authoritative and canonical constructs while “whether they are realised centrally, in a federated manner, or as a hybrid remains a national implementation choice.” The glossary should reflect the same topology-neutral principle.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "sec:glossary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2635",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 13,
+      "entry": "3",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "2",
+      "lines": "Registry",
+      "raw": "§Glossary p.2 l.Registry"
+    },
+    "anchor": {
+      "targetLabel": "sec:glossary-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Glossary\""
+    },
+    "type": "general",
+    "text": "Centralisation is an implementation topology and should not form part of the definition of a registry. The current definition is also inconsistent with the Guidance itself: p. 54 states that registries are authoritative and canonical constructs while “whether they are realised centrally, in a federated manner, or as a hybrid remains a national implementation choice.” The glossary should reflect the same topology-neutral principle.",
+    "suggestedRevision": "Replace with: “Registry: A governed and authoritative information capability that captures, stores and maintains, or provides authoritative access to, the identifiers and core attributes of health facilities, health service users, health products and/or the health workforce using a predefined canonical minimum dataset. A registry may be implemented centrally, in a federated manner or through a hybrid architecture, provided that authoritative sources, stewardship, identity resolution and conformance requirements are clearly defined.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 13"
+      }
+    ]
+  }
+}

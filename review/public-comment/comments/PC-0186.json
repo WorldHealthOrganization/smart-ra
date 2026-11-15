@@ -1,0 +1,86 @@
+{
+  "id": "pc-0186",
+  "summary": "This section correctly identifies the need for evluation. It however doesn't offer further practical guides nor provide…",
+  "comment": "This section correctly identifies the need for evluation. It however doesn't offer further practical guides nor provide a draft framework to countries on how to assess systems before deployment.\nThis framework is a critical step that will guide procurement teams in evaluating vendor claims and provide a basis for approving in-country AI tools for clinical decision support",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0186",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 186,
+      "entry": "185",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2",
+      "page": "107",
+      "lines": "155 - 169",
+      "raw": "§5.4.2 p.107 l.155 - 169"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.2 l.155-169; this block is exactly l.155-169 (evaluation)"
+    },
+    "type": "technical",
+    "text": "This section correctly identifies the need for evluation. It however doesn't offer further practical guides nor provide a draft framework to countries on how to assess systems before deployment.\nThis framework is a critical step that will guide procurement teams in evaluating vendor claims and provide a basis for approving in-country AI tools for clinical decision support",
+    "suggestedRevision": "1) Add a sub-section on AI evaluation and assurance, including: a tiered approach to evaluation commensurate with risk (higher scrutiny for autonomous vs assistive systems); guidance on establishing test datasets representative of local populations; requirements for performance disaggregation across population subgroups; and a protocol for ongoing monitoring of model drift. \n2) Reference existing frameworks such as WHO AI evaluation guidance and the EU AI Act conformity assessment approach.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 186"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites 5.4.2 l.155-169; this block is exactly l.155-169 (evaluation)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0364",
+  "summary": "The examples of Aadhaar, CoWIN and Estonia are presented mainly as demonstrations of scale and reuse. Because these cas…",
+  "comment": "The examples of Aadhaar, CoWIN and Estonia are presented mainly as demonstrations of scale and reuse. Because these cases have also generated concerns about exclusion, privacy, purpose expansion and dependency on digital access, a public-health guidance document should avoid a success-only narrative for these examples. Otherwise ‘scale’ may be read as sufficient evidence of public value or safety.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-a447f2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0364",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 364,
+      "entry": "363",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "11",
+      "lines": "102–124",
+      "raw": "§1.1.2 p.11 l.102–124"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-a447f2",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.11 l.102–124 read as the printed page; section 1.1.2 does NOT agree"
+    },
+    "type": "general",
+    "text": "The examples of Aadhaar, CoWIN and Estonia are presented mainly as demonstrations of scale and reuse. Because these cases have also generated concerns about exclusion, privacy, purpose expansion and dependency on digital access, a public-health guidance document should avoid a success-only narrative for these examples. Otherwise ‘scale’ may be read as sufficient evidence of public value or safety.",
+    "suggestedRevision": "For each illustrative case, add a short, balanced note on context, documented benefits, known limitations and safeguards. Explicitly state that scale does not itself establish all DPI-H design princples have been met; equity, rights protection, health impact or transferability to another country. This may be a difficult ask, politically, for a WHO document. However, you could also consider an example that has not yet scaled nationally, but has taken into strong consideration DPI-H design principles around e.g. data ownership, trust and security. How di system designers address pushback, incidents, or inflexion points?",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 364"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0443",
+  "summary": "The guidance assigns the national digital architect responsibility for architectural accountability, standards and conf…",
+  "comment": "The guidance assigns the national digital architect responsibility for architectural accountability, standards and conformance evaluation, while also recognising reviewers and assessors. It does not yet clearly distinguish responsibility for setting the normative baseline from responsibility for executing high-volume conformity assessment. In a mature national market, concentrating both functions in a small government team could create capacity bottlenecks and perceived conflicts of interest, and could limit the scalability of assurance.\nThe document's own \"Public Governance\" principle (1.4, lines 394–402) already establishes that components may be operated by public, private or non-governmental actors provided they remain accountable to public oversight - implying a distinction between the body that sets and safeguards the standard and the body that operates or is assessed against it. Section 4.2.4 does not carry this distinction through to the national digital architect role, which combines both functions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-1298cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0443",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 443,
+      "entry": "442",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4; 4.2.4; 4.3.5; 4.5.1",
+      "page": "20; 94; 98; 100",
+      "lines": "394–402; 228–241; 399–408; 473–486",
+      "raw": "§1.4; 4.2.4; 4.3.5; 4.5.1 p.20; 94; 98; 100 l.394–402; 228–241; 399–408; 473–486"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-1298cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-4-c75a90"
+      ],
+      "note": "p.20; 94; 98; 100 l.394–402; 228–241; 399–408; 473–486 read as the printed page; section 1.4 agrees"
+    },
+    "type": "technical",
+    "text": "The guidance assigns the national digital architect responsibility for architectural accountability, standards and conformance evaluation, while also recognising reviewers and assessors. It does not yet clearly distinguish responsibility for setting the normative baseline from responsibility for executing high-volume conformity assessment. In a mature national market, concentrating both functions in a small government team could create capacity bottlenecks and perceived conflicts of interest, and could limit the scalability of assurance.\nThe document's own \"Public Governance\" principle (1.4, lines 394–402) already establishes that components may be operated by public, private or non-governmental actors provided they remain accountable to public oversight - implying a distinction between the body that sets and safeguards the standard and the body that operates or is assessed against it. Section 4.2.4 does not carry this distinction through to the national digital architect role, which combines both functions.",
+    "suggestedRevision": "Retain standards ownership, acceptance criteria and regulatory accountability with the national architecture or governance authority, while describing an assurance operating model in which testing may be performed by formally qualified independent laboratories, test centres or shared testing services against nationally governed test suites. Specify requirements for oversight, assessor competence, proficiency testing, quality assurance, transparent scope of authorisation, conflict-of-interest management and periodic requalification. Final conformity approval and regulatory accountability should remain with the competent national authority.\n\nThis is a distinct but related concern to the version-scoping proposed in comment 2: that comment addresses what a conformance statement should record, this one addresses who should be authorised to issue it.\n\nThis would extend the separation the document already establishes as a governance principle in 1.4 to the specific architectural role described in 4.2.4, rather than introducing a new requirement.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 443"
+      }
+    ]
+  }
+}

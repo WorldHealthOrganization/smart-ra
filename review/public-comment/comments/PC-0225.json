@@ -1,0 +1,81 @@
+{
+  "id": "pc-0225",
+  "summary": "The SGI section addresses terminology governance within a country but does not address the international release cycle …",
+  "comment": "The SGI section addresses terminology governance within a country but does not address the international release cycle dimension: national SGI bodies must receive, validate, localise, and distribute versioned terminology releases from international SDOs on defined schedules (SNOMED CT: monthly; LOINC: biannual; ICD-11: annual). The governance of this international-to-national terminology flow (requests for change, maintenance, version management, localisation authority, and release validation), is entirely absent from the current text. Without this, countries will develop ad-hoc processes that diverge from authoritative international releases.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-aef916",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0225",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 225,
+      "entry": "224",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4f9bbc0b0e",
+      "name": "Don Sweete",
+      "organisation": "SNOMED International",
+      "country": "Global (international not-for-profit SDO)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57",
+      "lines": "373–500",
+      "raw": "§3.4.5 p.57 l.373–500"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-aef916",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-474cc6",
+        "prose:3-4-5-f2a242"
+      ],
+      "note": "p.57 l.373–500 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "general",
+    "text": "The SGI section addresses terminology governance within a country but does not address the international release cycle dimension: national SGI bodies must receive, validate, localise, and distribute versioned terminology releases from international SDOs on defined schedules (SNOMED CT: monthly; LOINC: biannual; ICD-11: annual). The governance of this international-to-national terminology flow (requests for change, maintenance, version management, localisation authority, and release validation), is entirely absent from the current text. Without this, countries will develop ad-hoc processes that diverge from authoritative international releases.",
+    "suggestedRevision": "Add paragraph: \"National SGI bodies are responsible for receiving, validating, and distributing versioned releases from international terminology organisations on their published schedules. Countries should establish formal version management processes aligned to the release cycles of each terminology. SNOMED International's NRC Release Pipeline provides a reference model for national SNOMED CT release management. Countries are encouraged to participate in SDO governance processes to receive advance notice of content changes and contribute to international content development.\" \n\nAdditionally, we encourage the WHO/ITU to work directly with SNOMED Interantional, and to establish a formal Technical Advisory Group, comprising SNOMED International and fellow SDOs such as Regenstrief Institute for LOINC, HL7 International, and WHO, to develop SGI implementation guidance for national programmes. The SNOMED International NRC model is highlighted throughout the document as a tried and true model, having our organization in the partnership will help to faciliate this framework beyond theory and into working practice.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 225"
+      }
+    ]
+  }
+}

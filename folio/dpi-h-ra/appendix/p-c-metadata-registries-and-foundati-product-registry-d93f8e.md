@@ -1,0 +1,1 @@
+Functional requirements are grouped by the business process they support. Requirements marked ‘Required’ are mandatory for conformance. Requirements marked ‘Recommended’ are strongly advised but represent capabilities that countries may implement incrementally depending on maturity and context.

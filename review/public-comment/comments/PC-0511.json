@@ -1,0 +1,81 @@
+{
+  "id": "pc-0511",
+  "summary": "Section 1.3.1 identifies structural incentives that reward programme-specific delivery over shared infrastructure. The …",
+  "comment": "Section 1.3.1 identifies structural incentives that reward programme-specific delivery over shared infrastructure. The phased plan asks the first two or three programme systems to connect to the shared foundation, but does not address the first-mover problem: integration costs are borne immediately by the connecting programme while part of the value accrues later across other programmes and the wider health system.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-3-1-6d4429",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0511",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 511,
+      "entry": "510",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.3.1 / 4.2.2",
+      "page": "18 and 91",
+      "lines": "Lines 294-314 and 146-169",
+      "raw": "§1.3.1 / 4.2.2 p.18 and 91 l.Lines 294-314 and 146-169"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-3-1-6d4429",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-3-1-88dda8",
+        "prose:1-3-1-aa6126"
+      ],
+      "note": "p.18 and 91 l.Lines 294-314 and 146-169 read as the printed page; section 1.3.1 agrees"
+    },
+    "type": "general",
+    "text": "Section 1.3.1 identifies structural incentives that reward programme-specific delivery over shared infrastructure. The phased plan asks the first two or three programme systems to connect to the shared foundation, but does not address the first-mover problem: integration costs are borne immediately by the connecting programme while part of the value accrues later across other programmes and the wider health system.",
+    "suggestedRevision": "Add guidance for the first implementation wave: select use cases in which the connecting programme is itself a principal beneficiary, fund common integration costs centrally or through a shared transformation budget, and make reuse benefits and cost allocation explicit in the business case.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 511"
+      }
+    ]
+  }
+}

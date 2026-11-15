@@ -1,0 +1,81 @@
+{
+  "id": "pc-0542",
+  "summary": "The Ministry regards this principle as correct and, as drafted, incomplete in the one respect that determines whether i…",
+  "comment": "The Ministry regards this principle as correct and, as drafted, incomplete in the one respect that determines whether it works. Modularity is defined entirely in terms of component boundaries and interfaces — components \"loosely coupled — able to be developed, deployed, replaced, or upgraded independently\". Nothing is said about the data those components operate on. In practice, applications that each hold their own clinical data structures are tightly coupled through their data however well their interfaces are specified: replacing one means migrating or re-mapping what it holds, and the independence the principle seeks is not available. Slovenia's national programme is direct evidence. Its clinical applications are procured as separate lots, delivered by different suppliers, and can be added, replaced or extended independently — but only because all of them persist clinical content against one nationally governed information model. The modularity is a property of the shared data layer beneath the applications, not of the application interfaces above it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-5b0720",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0542",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 542,
+      "entry": "541",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 Design Principles — V. Modularity",
+      "page": "33",
+      "lines": "286–301",
+      "raw": "§2.3 Design Principles — V. Modularity p.33 l.286–301"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-5b0720",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-f7c393",
+        "prose:2-3-efee80"
+      ],
+      "note": "p.33 l.286–301 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "The Ministry regards this principle as correct and, as drafted, incomplete in the one respect that determines whether it works. Modularity is defined entirely in terms of component boundaries and interfaces — components \"loosely coupled — able to be developed, deployed, replaced, or upgraded independently\". Nothing is said about the data those components operate on. In practice, applications that each hold their own clinical data structures are tightly coupled through their data however well their interfaces are specified: replacing one means migrating or re-mapping what it holds, and the independence the principle seeks is not available. Slovenia's national programme is direct evidence. Its clinical applications are procured as separate lots, delivered by different suppliers, and can be added, replaced or extended independently — but only because all of them persist clinical content against one nationally governed information model. The modularity is a property of the shared data layer beneath the applications, not of the application interfaces above it.",
+    "suggestedRevision": "Add after line 294: \"Modularity at the application layer depends on a shared data layer beneath it. Where each component holds clinical data in structures of its own, components remain coupled through their data however well their interfaces are defined, and replacing one entails migrating what it holds. Countries should therefore establish the governed information model for shared clinical data before, or alongside, the components that will write to it, so that applications can be piloted, replaced and upgraded independently against a stable record. A modular ecosystem of applications above a single standards-based patient record is the arrangement this principle is intended to produce.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 542"
+      }
+    ]
+  }
+}

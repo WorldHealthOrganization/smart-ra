@@ -1,0 +1,82 @@
+{
+  "id": "pc-0365",
+  "summary": "The principles emphasize technical and institutional properties, but omit several principles central to HISP’s socio-te…",
+  "comment": "The principles emphasize technical and institutional properties, but omit several principles central to HISP’s socio-technical approach: participatory co-design, use of information for action, incremental learning, local ownership and accessible grievance/redress. HISP describes action research, local–global feedback and long-term capacity building as core to sustainable systems: https://dhis2.org/hisp-approach These principles also align with the principles of digital developmen, e.g. \"design with people, share reuse and improve\"",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-1298cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0365",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 365,
+      "entry": "364",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4",
+      "page": "20",
+      "lines": "368–421",
+      "raw": "§1.4 p.20 l.368–421"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-1298cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-4-c75a90",
+        "prose:1-4-16fbd2",
+        "prose:1-4-53b877"
+      ],
+      "note": "p.20 l.368–421 read as the printed page; section 1.4 agrees"
+    },
+    "type": "general",
+    "text": "The principles emphasize technical and institutional properties, but omit several principles central to HISP’s socio-technical approach: participatory co-design, use of information for action, incremental learning, local ownership and accessible grievance/redress. HISP describes action research, local–global feedback and long-term capacity building as core to sustainable systems: https://dhis2.org/hisp-approach These principles also align with the principles of digital developmen, e.g. \"design with people, share reuse and improve\"",
+    "suggestedRevision": "Add a principle titled ‘Participation, learning and local ownership’. Require meaningful involvement of health workers, managers, communities and subnational authorities throughout the lifecycle; iterative learning from use; feedback to data producers; locally accountable stewardship; and accessible mechanisms to correct data and challenge harmful decisions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 365"
+      }
+    ]
+  }
+}

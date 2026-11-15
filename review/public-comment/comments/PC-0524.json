@@ -1,0 +1,82 @@
+{
+  "id": "pc-0524",
+  "summary": "The CDSE is architected as a connected shared service: it holds no clinical data and queries the Lifelong Health Record…",
+  "comment": "The CDSE is architected as a connected shared service: it holds no clinical data and queries the Lifelong Health Record at the moment of invocation, with point-of-care systems invoking it via CDS Hooks / SMART on FHIR. The community-health-worker settings WHO DAKs explicitly target are intermittently connected or offline-first; there the same L3 decision logic must execute on-device. This locus is technically demonstrated today (WHO CQL/PlanDefinition content running on offline-capable Kotlin Multiplatform ports of the HL7 CQL engine and FHIR Clinical Reasoning $apply) but is architecturally invisible in the draft.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-computable-decision-support-engi-4a479c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0524",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 524,
+      "entry": "523",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-968ed540b2",
+      "name": "Dan Heslinga, MD",
+      "organisation": "Hopena Health",
+      "country": "United States of America (Hawaii)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (CDSE)",
+      "page": "181-190",
+      "lines": "158 (p.184)",
+      "raw": "§Appendix C (CDSE) p.181-190 l.158 (p.184)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-computable-decision-support-engi-4a479c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-business-services-components-computable-decision-support-engi-53a0a5",
+        "prose:c-business-services-components-computable-decision-support-engi-c75f33",
+        "prose:c-business-services-components-computable-decision-support-engi-66fd4a"
+      ],
+      "note": "p.181-190 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The CDSE is architected as a connected shared service: it holds no clinical data and queries the Lifelong Health Record at the moment of invocation, with point-of-care systems invoking it via CDS Hooks / SMART on FHIR. The community-health-worker settings WHO DAKs explicitly target are intermittently connected or offline-first; there the same L3 decision logic must execute on-device. This locus is technically demonstrated today (WHO CQL/PlanDefinition content running on offline-capable Kotlin Multiplatform ports of the HL7 CQL engine and FHIR Clinical Reasoning $apply) but is architecturally invisible in the draft.",
+    "suggestedRevision": "Describe two deployment loci for the CDSE capability - shared service and on-device engine - consuming identical L3 artifacts from the same LIMR governance chain, with the same conformance expectations for both. Note offline content-version synchronization as an SGI distribution concern.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 524"
+      }
+    ]
+  }
+}

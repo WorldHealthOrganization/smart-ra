@@ -1,0 +1,78 @@
+{
+  "id": "pc-0554",
+  "summary": "The Ministry supports the position that centralised, federated, hybrid and virtual records are all valid expressions of…",
+  "comment": "The Ministry supports the position that centralised, federated, hybrid and virtual records are all valid expressions of the LHR capability. We note that dependence on a governed logical information model rises as implementations become more federated, not less: where data remain at source and are assembled on demand, there is no single repository in which structure can be enforced, so the comparability of the assembled record rests entirely on shared structural definitions. Readers may draw the opposite inference — that federation reduces the need for a common model — and the guidance would be strengthened by closing that gap explicitly.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0554",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 554,
+      "entry": "553",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – Lifelong Health Record, 1 What it is",
+      "page": "155",
+      "lines": "15–25",
+      "raw": "§Appendix C – Lifelong Health Record, 1 What it is p.155 l.15–25"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.155 l.15–25 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The Ministry supports the position that centralised, federated, hybrid and virtual records are all valid expressions of the LHR capability. We note that dependence on a governed logical information model rises as implementations become more federated, not less: where data remain at source and are assembled on demand, there is no single repository in which structure can be enforced, so the comparability of the assembled record rests entirely on shared structural definitions. Readers may draw the opposite inference — that federation reduces the need for a common model — and the guidance would be strengthened by closing that gap explicitly.",
+    "suggestedRevision": "Insert after line 25: \"The more federated the implementation, the greater the dependence on a governed logical information model. Where data remain at source and are assembled on demand, the comparability of the assembled record rests on shared structural definitions rather than on a common repository, and the logical information model repository correspondingly becomes more important rather than less.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 554"
+      }
+    ]
+  }
+}

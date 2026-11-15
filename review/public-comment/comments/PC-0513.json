@@ -1,0 +1,78 @@
+{
+  "id": "pc-0513",
+  "summary": "Section 3.7 explains that a structured, machine-readable architecture can be assessed rather than merely described. Sec…",
+  "comment": "Section 3.7 explains that a structured, machine-readable architecture can be assessed rather than merely described. Section 5.2 nevertheless treats publication of machine-readable specifications and metadata as a forward-looking practice that may later become a readiness criterion. This limits automation of discovery, assessment and conformance even where the architecture model itself is machine-readable.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-c51a99",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0513",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 513,
+      "entry": "512",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.4 / 5.2",
+      "page": "84 and 106",
+      "lines": "Lines 1163-1168 and 103-106",
+      "raw": "§3.7.4 / 5.2 p.84 and 106 l.Lines 1163-1168 and 103-106"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-c51a99",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.84 and 106 l.Lines 1163-1168 and 103-106 read as the printed page; section 3.7.4 agrees"
+    },
+    "type": "technical",
+    "text": "Section 3.7 explains that a structured, machine-readable architecture can be assessed rather than merely described. Section 5.2 nevertheless treats publication of machine-readable specifications and metadata as a forward-looking practice that may later become a readiness criterion. This limits automation of discovery, assessment and conformance even where the architecture model itself is machine-readable.",
+    "suggestedRevision": "Promote machine-readable publication of component specifications and metadata from a forward-looking observation to a SHOULD-level requirement, with appropriate maturity exceptions. Add the requirement to the component descriptions in Appendix C and cross-reference section 3.7.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 513"
+      }
+    ]
+  }
+}

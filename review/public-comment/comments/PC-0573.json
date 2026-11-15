@@ -1,0 +1,81 @@
+{
+  "id": "pc-0573",
+  "summary": "IPC endorses the division of responsibility: WHO provides the blueprint and national healthcare organisations design th…",
+  "comment": "IPC endorses the division of responsibility: WHO provides the blueprint and national healthcare organisations design the national architecture and guidance for digital public infrastructure for the health sector. However, the implementation approach as currently drafted is fairly top-down — national authorities are given the blueprint to apply rather than being engaged in shaping how it is implemented in their own setting.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-4fbd23",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0573",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 573,
+      "entry": "572",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3",
+      "page": "88–103",
+      "raw": "§3 p.88–103"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-4fbd23",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-4-4150dd",
+        "prose:3-6-4-ce5111",
+        "prose:3-6-4-c0012b"
+      ],
+      "note": "p.88–103 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "IPC endorses the division of responsibility: WHO provides the blueprint and national healthcare organisations design the national architecture and guidance for digital public infrastructure for the health sector. However, the implementation approach as currently drafted is fairly top-down — national authorities are given the blueprint to apply rather than being engaged in shaping how it is implemented in their own setting.",
+    "suggestedRevision": "Retain the division of responsibility between WHO and national authorities, but involve national authorities directly in developing the implementation plan, so that adoption is co-designed with the countries that will operate the infrastructure rather than handed down to them.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 573"
+      }
+    ]
+  }
+}

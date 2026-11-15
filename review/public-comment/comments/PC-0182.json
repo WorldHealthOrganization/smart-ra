@@ -1,0 +1,79 @@
+{
+  "id": "pc-0182",
+  "summary": "The current draft provides comprehensive guidance on the components of DPI-H, but does not clearly distinguish between …",
+  "comment": "The current draft provides comprehensive guidance on the components of DPI-H, but does not clearly distinguish between baseline essential components and advanced optional components for country implementation. As a global reference framework, it faces the risk of being either over-implemented by low-income countries beyond their fiscal and technical capacity, or selectively implemented with key core components omitted by some countries. Clear differentiation of implementation priorities will help countries at different development levels to adopt the framework in a more targeted and feasible way.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-1-385af7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0182",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 182,
+      "entry": "181",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f9ffd69fd",
+      "name": "Li Jianping",
+      "organisation": "Research Office of Guoxue Studies, Heluo Culture Research Institute, Harbin Normal University",
+      "country": "China",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.1 & 3.5.3",
+      "page": "74",
+      "lines": "Exact line numbers to be confirmed from full-review-version PDF",
+      "raw": "§3.5.1 & 3.5.3 p.74 l.Exact line numbers to be confirmed from full-review-version PDF"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-1-385af7",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.74 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The current draft provides comprehensive guidance on the components of DPI-H, but does not clearly distinguish between baseline essential components and advanced optional components for country implementation. As a global reference framework, it faces the risk of being either over-implemented by low-income countries beyond their fiscal and technical capacity, or selectively implemented with key core components omitted by some countries. Clear differentiation of implementation priorities will help countries at different development levels to adopt the framework in a more targeted and feasible way.",
+    "suggestedRevision": "Add the following text to the architecture and component guidance section:\n“The DPI-H components are divided into two categories: baseline essential components that all countries are encouraged to prioritize and implement first, and advanced optional components that can be deployed according to national fiscal, technical and health system conditions. This classification helps countries to formulate feasible implementation roadmaps that match their own development level.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 182"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "pc-0475",
+  "summary": "The value analysis does not distinguish value that accrues regardless of an individual's capacity from value that requi…",
+  "comment": "The value analysis does not distinguish value that accrues regardless of an individual's capacity from value that requires the individual to act. That distinction determines the distributional effect of the whole architecture: where value depends on citizen activation, it accrues disproportionately to those with the digital skills, language and health literacy to act, which correlates with income and education.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0475",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 475,
+      "entry": "474",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.3.3",
+      "page": "19",
+      "lines": "329",
+      "raw": "§1.3.3 p.19 l.329"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-3-3",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-1-2-95b13c"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): About the value analysis across stakeholders in §1.3.3 as a whole."
+    },
+    "type": "general",
+    "text": "The value analysis does not distinguish value that accrues regardless of an individual's capacity from value that requires the individual to act. That distinction determines the distributional effect of the whole architecture: where value depends on citizen activation, it accrues disproportionately to those with the digital skills, language and health literacy to act, which correlates with income and education.",
+    "suggestedRevision": "Separate two roles of the person in the architecture: as reference point, the axis along which information about one individual retains coherence, which requires nothing of them and benefits everyone equally; and as actor, which requires capacity that is unequally distributed. Recommend that the value case rest on the first. The capability approach of Sen and Nussbaum supplies the vocabulary - justify the architecture on the capability it creates, not on the extent to which people exercise it. Australia's national record illustrates the alternative: near-universal enrolment with persistently low activation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 475"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): About the value analysis across stakeholders in §1.3.3 as a whole."
+      }
+    ]
+  }
+}

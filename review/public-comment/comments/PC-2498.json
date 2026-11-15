@@ -1,0 +1,78 @@
+{
+  "id": "pc-2498",
+  "summary": "WHO-hosted and local publisher-service access — The draft already provides for federation; the correction makes the WHO…",
+  "comment": "WHO-hosted and local publisher-service access — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2498",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 41,
+      "entry": "40",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §3",
+      "page": "166",
+      "lines": "A17.01",
+      "raw": "§Terminology Service, §3 p.166 l.A17.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-13a304",
+        "prose:c-metadata-registries-and-foundati-terminology-service-638c02",
+        "prose:c-metadata-registries-and-foundati-terminology-service-ee8e2f"
+      ],
+      "note": "p.166 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "WHO-hosted and local publisher-service access — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+    "suggestedRevision": "Replace bullet: – Federation and alignment with international sources. Governed access to, synchronisation with, or reference to content from WHO and other international terminology authorities. For ICD-11, an implementation may use the WHO-hosted API or an appropriate local deployment, with the release, language, supported functions, availability arrangements, and update process declared. Local proposals shall be routed to the publisher's maintenance process; national deployment shall preserve the international source's identity and meaning.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 41"
+      }
+    ]
+  }
+}

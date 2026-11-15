@@ -1,0 +1,81 @@
+{
+  "id": "pc-0427",
+  "summary": "The draft correctly supports federated and hybrid models. It should explicitly recognise research institutions, clinica…",
+  "comment": "The draft correctly supports federated and hybrid models. It should explicitly recognise research institutions, clinical-research platforms, laboratories and biorepositories as authorised source applications that retain operational custody of their records.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0427",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 427,
+      "entry": "426",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8a11b0d866",
+      "name": "Dafala Kezimbira",
+      "organisation": "Makerere University Biomedical Research Centre",
+      "country": "Uganda",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Lifelong Health Record",
+      "page": "155",
+      "lines": "7–29",
+      "raw": "§Lifelong Health Record p.155 l.7–29"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-7c8cd5",
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-b73827"
+      ],
+      "note": "p.155 l.7–29 read as the printed page"
+    },
+    "type": "technical",
+    "text": "The draft correctly supports federated and hybrid models. It should explicitly recognise research institutions, clinical-research platforms, laboratories and biorepositories as authorised source applications that retain operational custody of their records.",
+    "suggestedRevision": "Add clinical-research management systems, LIMS, biorepository information-management systems and research-data repositories as recognised functional applications and data contributors within a federated DPI-H ecosystem.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 427"
+      }
+    ]
+  }
+}

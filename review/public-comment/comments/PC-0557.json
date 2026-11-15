@@ -1,0 +1,80 @@
+{
+  "id": "pc-0557",
+  "summary": "The observation that shared components serve many programmes at once and that pooling investment across them is therefo…",
+  "comment": "The observation that shared components serve many programmes at once and that pooling investment across them is therefore efficient matches Slovenia's experience. We would add a practical qualification: pooling is easier to sustain where the shared components are procured and governed as one programme with a single accountable authority. Slovenia is building several foundational components under one co-financed national programme with the National Institute of Public Health as steward, which is what makes a shared information model enforceable across separately procured applications. Where shared components are financed jointly but governed separately, the pooling advantage tends to be lost to divergent specification.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0557",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 557,
+      "entry": "556",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3 Approaches to Financing",
+      "page": "103",
+      "lines": "592–596",
+      "raw": "§4.6.3 Approaches to Financing p.103 l.592–596"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-6-3-29aaec"
+      ],
+      "note": "p.103 l.592–596 read as the printed page; section 4.6.3 agrees"
+    },
+    "type": "general",
+    "text": "The observation that shared components serve many programmes at once and that pooling investment across them is therefore efficient matches Slovenia's experience. We would add a practical qualification: pooling is easier to sustain where the shared components are procured and governed as one programme with a single accountable authority. Slovenia is building several foundational components under one co-financed national programme with the National Institute of Public Health as steward, which is what makes a shared information model enforceable across separately procured applications. Where shared components are financed jointly but governed separately, the pooling advantage tends to be lost to divergent specification.",
+    "suggestedRevision": "Add after line 596: \"Pooled investment is most durable where the pooled components are also governed as one programme under a single accountable authority; joint financing without joint governance tends to reproduce the divergence it was intended to avoid.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 557"
+      }
+    ]
+  }
+}

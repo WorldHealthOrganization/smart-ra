@@ -1,0 +1,88 @@
+{
+  "id": "pc-0009",
+  "summary": "The section correctly stresses trusted data foundations but does not distinguish structured clinical-data exchange from…",
+  "comment": "The section correctly stresses trusted data foundations but does not distinguish structured clinical-data exchange from the transport, storage and lifecycle management of diagnostic images.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0009",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 9,
+      "entry": "8",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2",
+      "page": "115-116",
+      "lines": "42-70",
+      "raw": "§5.2 p.115-116 l.42-70"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-2",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-client-registry-95ffd8"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 5.2 l.42-70 (trusted data foundations), spanning three blocks; current Client Registry placement was a page mismatch"
+    },
+    "type": "technical",
+    "text": "The section correctly stresses trusted data foundations but does not distinguish structured clinical-data exchange from the transport, storage and lifecycle management of diagnostic images.",
+    "suggestedRevision": "State that health-information exchange should support references to imaging studies and reports, while image transport and storage may use specialised standards and repositories. Include consent, provenance, retention and access controls across both layers.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 9"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 5.2 l.42-70 (trusted data foundations), spanning three blocks; current Client Registry placement was a page mismatch"
+      }
+    ]
+  }
+}

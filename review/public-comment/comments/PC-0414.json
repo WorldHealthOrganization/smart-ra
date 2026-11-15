@@ -1,0 +1,81 @@
+{
+  "id": "pc-0414",
+  "summary": "The national LMIS must build on the Product Registry and ensure complete alignment and compliance. In practice, DHIS2 w…",
+  "comment": "The national LMIS must build on the Product Registry and ensure complete alignment and compliance. In practice, DHIS2 will only use an item code and item description which must be completely aligned with the upstream, national LMIS such as mSupply (which must be indirectly aligned with the Product Registry). I fully support this approach. Any LMIS system in a country must categorically align to any national regulations and registries, also to ensure interoperability. Codes and names in DHIS2 must always match names on products, packing lists and any national documents. Even small discrepancies will cause confusion and mistakes in ordering, stock management and use of healthcare goods. Having several different item codes and descriptions is common and a logistics night mare.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-4c0041",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0414",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 414,
+      "entry": "413",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "145",
+      "lines": "379-478",
+      "raw": "§Appendix C p.145 l.379-478"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-4c0041",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-product-registry-f78df9",
+        "prose:c-metadata-registries-and-foundati-product-registry-a3e4b4",
+        "prose:c-metadata-registries-and-foundati-product-registry-0298f8"
+      ],
+      "note": "p.145 l.379-478 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The national LMIS must build on the Product Registry and ensure complete alignment and compliance. In practice, DHIS2 will only use an item code and item description which must be completely aligned with the upstream, national LMIS such as mSupply (which must be indirectly aligned with the Product Registry). I fully support this approach. Any LMIS system in a country must categorically align to any national regulations and registries, also to ensure interoperability. Codes and names in DHIS2 must always match names on products, packing lists and any national documents. Even small discrepancies will cause confusion and mistakes in ordering, stock management and use of healthcare goods. Having several different item codes and descriptions is common and a logistics night mare.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 414"
+      }
+    ]
+  }
+}

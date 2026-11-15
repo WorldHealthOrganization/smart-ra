@@ -1,0 +1,79 @@
+{
+  "id": "pc-1576",
+  "summary": "The relationship with the Common Geo-Registry is well described, but the use of “would” throughout makes it unclear whe…",
+  "comment": "The relationship with the Common Geo-Registry is well described, but the use of “would” throughout makes it unclear whether CGR integration is normative, recommended, or illustrative.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-e2c6f0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1576",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 812,
+      "entry": "811",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Facility Registry, 4",
+      "page": "126-127",
+      "lines": "Lines 127-153",
+      "raw": "§Health Facility Registry, 4 p.126-127 l.Lines 127-153"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-e2c6f0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-facility-registry-e9b85d"
+      ],
+      "note": "p.126-127 l.Lines 127-153 read as the printed page; section 4 agrees"
+    },
+    "text": "The relationship with the Common Geo-Registry is well described, but the use of “would” throughout makes it unclear whether CGR integration is normative, recommended, or illustrative.",
+    "suggestedRevision": "Apply explicit normative language and distinguish requirements where a nationally governed geospatial source exists from transitional arrangements where it does not.",
+    "labels": {
+      "Comment type": "Q3 - DPI-F/DPI-H distinction"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 812"
+      }
+    ]
+  }
+}

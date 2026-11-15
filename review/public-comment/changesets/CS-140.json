@@ -1,0 +1,29 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-140",
+  "title": "Revise the Client Registry minimum dataset for necessity and inclusion",
+  "requirements": "- Distinguish schema support, conditional requirement and mandatory presence; allow documented absent-data reasons\n- Reassess mandatory status of nationality, address, contact, sex at birth and gender identity against stated purposes\n- Support flexible names, date precision and estimated dates, no-fixed-address and unknown/not-disclosed values\n- Separate sex- and gender-related concepts with inclusive, governed value sets\n- Apply data-minimisation and impact assessment to the whole dataset, not only biometrics",
+  "refs": [
+    "PC-1490",
+    "PC-1526",
+    "PC-1528",
+    "PC-1529",
+    "PC-1530",
+    "PC-1531",
+    "PC-1532",
+    "PC-1533",
+    "PC-1534",
+    "PC-1541"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 10 comment(s)"
+    }
+  ]
+}

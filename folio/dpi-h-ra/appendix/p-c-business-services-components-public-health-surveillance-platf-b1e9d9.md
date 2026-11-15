@@ -1,0 +1,1 @@
+The LIMR provides the structural definitions that govern how surveillance case data, contact tracing records, and outbreak reports are organised and exchanged. Consistent data structures across surveillance programmes are a prerequisite for reliable case counting and epidemiological analysis.

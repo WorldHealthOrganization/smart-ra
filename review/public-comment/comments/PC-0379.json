@@ -1,0 +1,81 @@
+{
+  "id": "pc-0379",
+  "summary": "The separation of adoption, adaptation, and mapping is very useful. But quantifying adoption \"coverage\" as the proporti…",
+  "comment": "The separation of adoption, adaptation, and mapping is very useful. But quantifying adoption \"coverage\" as the proportion of reference elements realized turns an adaptive reference architecture into a completeness checklist. It penalizes context-appropriate omission and may create incentives to buy components that do not solve a priority health problem. Architectural coverage is an input, not an outcome or a sufficient indicator of maturity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-5-9cd719",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0379",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 379,
+      "entry": "378",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7",
+      "page": "85",
+      "lines": "1195–1231",
+      "raw": "§3.7 p.85 l.1195–1231"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-5-9cd719",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-5-d14cff",
+        "prose:3-7-5-15f685"
+      ],
+      "note": "p.85 l.1195–1231 read as the printed page; section 3.7 agrees"
+    },
+    "type": "technical",
+    "text": "The separation of adoption, adaptation, and mapping is very useful. But quantifying adoption \"coverage\" as the proportion of reference elements realized turns an adaptive reference architecture into a completeness checklist. It penalizes context-appropriate omission and may create incentives to buy components that do not solve a priority health problem. Architectural coverage is an input, not an outcome or a sufficient indicator of maturity.",
+    "suggestedRevision": "Less emphasis on component-coverage scoring, with more on goal- and capability-based fitness. Allow justified ‘not applicable/not yet’ decisions. Countries should also assess whether priority use cases work safely and equitably, whether data are used for action, and whether the architecture can evolve sustainably; report component coverage only as descriptive context.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 379"
+      }
+    ]
+  }
+}

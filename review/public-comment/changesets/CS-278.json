@@ -1,0 +1,64 @@
+{
+  "id": "CS-278",
+  "title": "Describe the role of ICD-11 and WHO-FIC where standards are named",
+  "requirements": "- Name ICD-11 (not 'ICD') and its role in the 2.2.2 open-standards list\n- Add a conditional requirement for native ICD-11 support where ICD-11 is in scope\n- Reference the WHO Nomenclature Regulations and Member State reporting obligations\n- Describe ICD-11's role in clinical recording with continuity to statistical reporting, where standards are first introduced (1.2.2, 3.6.2)\n- Add WHO ICD API/local deployment and the ICD-11 Coding Tool as illustrative terminology tools\n- Assess historical codes against the release recorded with the source\n- Require profiles to keep code-system namespace, identifiers and post-coordination intact\n- Add glossary entries for ICD-11 and its Foundation component",
+  "refs": [
+    "PC-0318",
+    "PC-0667",
+    "PC-0668",
+    "PC-0669",
+    "PC-0723",
+    "PC-2464",
+    "PC-2465",
+    "PC-2470",
+    "PC-2471",
+    "PC-2472",
+    "PC-2475",
+    "PC-2476",
+    "PC-2482",
+    "PC-2484",
+    "PC-2500",
+    "PC-2501",
+    "PC-2506",
+    "PC-2507",
+    "PC-2508",
+    "PC-2514",
+    "PC-2515",
+    "PC-2516",
+    "PC-2517",
+    "PC-2518",
+    "PC-2519",
+    "PC-2520",
+    "PC-2521"
+  ],
+  "status": "editing",
+  "issue": 17,
+  "issues": [
+    17
+  ],
+  "pr": {
+    "number": 16,
+    "branch": "claude/confident-bardeen-inaarx"
+  },
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 27 comment(s)"
+    },
+    {
+      "at": "2026-10-06T05:23:45.944Z",
+      "by": "litlfred",
+      "what": "PR #16 is making the change",
+      "url": "https://github.com/litlfred/smart-ra/pull/16"
+    },
+    {
+      "at": "2026-10-06T05:23:45.944Z",
+      "by": "litlfred",
+      "what": "issue #17 opened"
+    }
+  ],
+  "$schema": "changeset/1.0.0"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-2483",
+  "summary": "Data-workflow analysis in Phase 1 — Turns the assessment added by B01.01 into an explicit planning activity and aligns …",
+  "comment": "Data-workflow analysis in Phase 1 — Turns the assessment added by B01.01 into an explicit planning activity and aligns the body with A28.01. This is a targeted strengthening of Phase 1, not a claim that the entire architecture ignores data flows.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-c1332c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2483",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 26,
+      "entry": "25",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§4.2.2, Phase 1 — Assess, align, and plan",
+      "page": "91",
+      "lines": "A28.02",
+      "raw": "§§4.2.2, Phase 1 — Assess, align, and plan p.91 l.A28.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-c1332c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-2-2-d1ff5e",
+        "prose:4-2-2-1c4fbc",
+        "prose:4-2-2-186744"
+      ],
+      "note": "p.91 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Data-workflow analysis in Phase 1 — Turns the assessment added by B01.01 into an explicit planning activity and aligns the body with A28.01. This is a targeted strengthening of Phase 1, not a claim that the entire architecture ignores data flows.",
+    "suggestedRevision": "Insert bullet: • Analyse existing data workflows and uses alongside the systems inventory: trace priority flows from capture through clinical use, certification, coding and reporting; record the classifications and terminology releases in use, where detail is lost or re-collected, and the reporting obligations each flow serves; and use these findings to specify the required semantic services.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 26"
+      }
+    ]
+  }
+}

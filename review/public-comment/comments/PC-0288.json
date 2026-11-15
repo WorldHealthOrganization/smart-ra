@@ -1,0 +1,81 @@
+{
+  "id": "pc-0288",
+  "summary": "WHO's Global Digital Health Certification Network appears twice: as an entry in the National Trust Services box of Figu…",
+  "comment": "WHO's Global Digital Health Certification Network appears twice: as an entry in the National Trust Services box of Figure 3.5, and in the cross-border discussion of section 3.6.4. Neither states the relationship a country should expect between its own DPI-H trust services and GDHCN participation, and the distinction that matters most is left implicit. The GDHCN pattern establishes provenance for documents exchanged between national authorities. It does not authenticate live exchange participants, and it does not reach below authority level, so it does not address how a hospital verifies a foreign hospital, or how a clinician's role is verified across a border. A reader planning national trust infrastructure could reasonably take the Figure 3.5 entry to mean that GDHCN participation covers cross-border trust in general.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-c0012b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0288",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 288,
+      "entry": "287",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4",
+      "page": "77-78",
+      "lines": "926-951; also Figure 3.5 (p. 66) and section 1.1.3 (pp. 10-12)",
+      "caption": "Figure 3.5",
+      "raw": "§3.6.4 p.77-78 l.926-951; also Figure 3.5 (p. 66) and section 1.1.3 (pp. 10-12)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-c0012b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-6-4-ce5111"
+      ],
+      "note": "p.77-78 l.926-951; also Figure 3.5 (p. 66) and section 1.1.3 (pp. 10-12) read as the printed page; section 3.6.4 agrees"
+    },
+    "type": "general",
+    "text": "WHO's Global Digital Health Certification Network appears twice: as an entry in the National Trust Services box of Figure 3.5, and in the cross-border discussion of section 3.6.4. Neither states the relationship a country should expect between its own DPI-H trust services and GDHCN participation, and the distinction that matters most is left implicit. The GDHCN pattern establishes provenance for documents exchanged between national authorities. It does not authenticate live exchange participants, and it does not reach below authority level, so it does not address how a hospital verifies a foreign hospital, or how a clinician's role is verified across a border. A reader planning national trust infrastructure could reasonably take the Figure 3.5 entry to mean that GDHCN participation covers cross-border trust in general.",
+    "suggestedRevision": "State in 3.6.4, and in 1.1.3 where the guidance discusses the foundations it builds on, what GDHCN participation does and does not provide, and how national DPI-H trust services are expected to relate to it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 288"
+      }
+    ]
+  }
+}

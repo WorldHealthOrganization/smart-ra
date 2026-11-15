@@ -1,0 +1,78 @@
+{
+  "id": "pc-0551",
+  "summary": "The description of the European cross-border infrastructure is accurate. Since the entry into force of Regulation (EU) …",
+  "comment": "The description of the European cross-border infrastructure is accurate. Since the entry into force of Regulation (EU) 2025/327, cited at footnote 33, the separation of primary and secondary use that lines 922–924 describe is a legislated obligation for participating states rather than an accompanying legal framework, with consequences for how national components are specified. Countries planning for cross-border exchange may find it useful for the guidance to note that a regional legal framework can impose specification requirements on national DPI-H components, and that this is now the case in one region.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-4150dd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0551",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 551,
+      "entry": "550",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4 Cross-border health data flows",
+      "page": "77",
+      "lines": "914–924",
+      "raw": "§3.6.4 Cross-border health data flows p.77 l.914–924"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-4150dd",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.77 l.914–924 read as the printed page; section 3.6.4 agrees"
+    },
+    "type": "general",
+    "text": "The description of the European cross-border infrastructure is accurate. Since the entry into force of Regulation (EU) 2025/327, cited at footnote 33, the separation of primary and secondary use that lines 922–924 describe is a legislated obligation for participating states rather than an accompanying legal framework, with consequences for how national components are specified. Countries planning for cross-border exchange may find it useful for the guidance to note that a regional legal framework can impose specification requirements on national DPI-H components, and that this is now the case in one region.",
+    "suggestedRevision": "Amend lines 922–924 to note that in the European Union this framework is now established in regulation, and add a sentence: \"Where a regional legal framework of this kind applies, its requirements should be treated as inputs to national component specifications from the outset rather than as a later compliance exercise.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 551"
+      }
+    ]
+  }
+}

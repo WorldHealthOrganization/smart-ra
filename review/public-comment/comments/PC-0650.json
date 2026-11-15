@@ -1,0 +1,82 @@
+{
+  "id": "pc-0650",
+  "summary": "Concerns / changes: The guidance underserves the last-mile implementation context. Community health workers are the pri…",
+  "comment": "Concerns / changes: The guidance underserves the last-mile implementation context. Community health workers are the primary point of contact for the majority of people that DPI-H is intended to reach, yet the architecture is largely described from the perspective of facility-based systems and national platforms. Offline-first data synchronization, which is essential in low-connectivity field environments, receives minimal treatment. From direct experience managing data synchronization across 250,000 household records in rural field conditions, the failure modes that matter most that is partial sync conflicts, device-level data loss, bandwidth-constrained record capture  are not addressed in the current draft.\n\nThe guidance would be significantly stronger with a dedicated section on last-mile architecture considerations, covering offline-capable data collection, CHW-facing application requirements, and how community-level data flows connect to national registries. Tools like KoboToolbox, ODK, and CommCare are widely used across Sub-Saharan Africa for exactly this purpose but are not meaningfully referenced in the implementation guidance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0650",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 650,
+      "entry": "649",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-93fcd0b606",
+      "name": "Mercy Chepngeno",
+      "organisation": "GeoApnet",
+      "country": "Kenya",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Cross-cutting last-mile/CHW concern; asks for a new section, no single passage."
+    },
+    "type": "general",
+    "text": "Concerns / changes: The guidance underserves the last-mile implementation context. Community health workers are the primary point of contact for the majority of people that DPI-H is intended to reach, yet the architecture is largely described from the perspective of facility-based systems and national platforms. Offline-first data synchronization, which is essential in low-connectivity field environments, receives minimal treatment. From direct experience managing data synchronization across 250,000 household records in rural field conditions, the failure modes that matter most that is partial sync conflicts, device-level data loss, bandwidth-constrained record capture  are not addressed in the current draft.\n\nThe guidance would be significantly stronger with a dedicated section on last-mile architecture considerations, covering offline-capable data collection, CHW-facing application requirements, and how community-level data flows connect to national registries. Tools like KoboToolbox, ODK, and CommCare are widely used across Sub-Saharan Africa for exactly this purpose but are not meaningfully referenced in the implementation guidance.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 650"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Cross-cutting last-mile/CHW concern; asks for a new section, no single passage."
+      }
+    ]
+  }
+}

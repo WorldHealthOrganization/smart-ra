@@ -1,0 +1,81 @@
+{
+  "id": "pc-0388",
+  "summary": "The claim that a baseline-endline allows later change to be ‘attributed with confidence’ is too strong. A before/after …",
+  "comment": "The claim that a baseline-endline allows later change to be ‘attributed with confidence’ is too strong. A before/after baseline alone cannot distinguish DPI-H effects from policy changes, outbreaks, financing shifts, workforce changes or secular trends . A \"process evaluation\" does not cover these externalities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-1-6e4c80",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0388",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 388,
+      "entry": "387",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.2",
+      "page": "99",
+      "lines": "427–443",
+      "raw": "§4.4.2 p.99 l.427–443"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-1-6e4c80",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [
+        "prose:4-4-1-bec231",
+        "prose:4-4-1-a1fc1f"
+      ],
+      "note": "p.99 l.427–443 read as the printed page; section 4.4.2 does NOT agree"
+    },
+    "type": "technical",
+    "text": "The claim that a baseline-endline allows later change to be ‘attributed with confidence’ is too strong. A before/after baseline alone cannot distinguish DPI-H effects from policy changes, outbreaks, financing shifts, workforce changes or secular trends . A \"process evaluation\" does not cover these externalities.",
+    "suggestedRevision": "Replace ‘attributed’ with ‘assessed’ or ‘contribution examined’.  Support research and evidence for national investments, including an explicit theory of change (how DPI-H investments will lead to outcomes observed), repeated measures across implementation, qualitative process evidence and, where feasible, comparison groups or quasi-experimental methods. Report uncertainty and alternative explanations for outcomes.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 388"
+      }
+    ]
+  }
+}

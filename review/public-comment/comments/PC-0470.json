@@ -1,0 +1,78 @@
+{
+  "id": "pc-0470",
+  "summary": "Tying a contribution to use is sound in principle but creates a free-rider problem the draft does not name. Without a d…",
+  "comment": "Tying a contribution to use is sound in principle but creates a free-rider problem the draft does not name. Without a duty to connect, a use-based contribution is paid by organisations that join and avoided by those that wait, so early adopters subsidise abstainers. This makes waiting individually rational and is a common reason voluntary shared infrastructure stalls at partial coverage.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-3-a21b35",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0470",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 470,
+      "entry": "469",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.3",
+      "page": "103",
+      "lines": "585–586",
+      "raw": "§4.6.3 p.103 l.585–586"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-3-a21b35",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.103 l.585–586 read as the printed page; section 4.6.3 agrees"
+    },
+    "type": "technical",
+    "text": "Tying a contribution to use is sound in principle but creates a free-rider problem the draft does not name. Without a duty to connect, a use-based contribution is paid by organisations that join and avoided by those that wait, so early adopters subsidise abstainers. This makes waiting individually rational and is a common reason voluntary shared infrastructure stalls at partial coverage.",
+    "suggestedRevision": "State the interaction explicitly: use-based financing requires a duty to connect to be equitable, and a duty to connect requires a right to connect to be legitimate. Recommend deciding the three together rather than sequentially. The Netherlands illustrates the failure mode - successive subsidy schemes funded participation by the willing while national coverage remained partial, because nothing obliged the remainder to join.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 470"
+      }
+    ]
+  }
+}

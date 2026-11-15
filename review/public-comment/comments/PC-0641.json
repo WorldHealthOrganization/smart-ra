@@ -1,0 +1,83 @@
+{
+  "id": "pc-0641",
+  "summary": "Context assumptions: Gap 1: No regional interpretation layer.",
+  "comment": "Context assumptions: Gap 1: No regional interpretation layer.\n\nCountries are left to independently interpret the WHO–ITU DPI-H Reference Architecture with no shared regional profile, resulting in duplicated interpretation effort and divergent architectural choices across otherwise similar health systems.\n\nGap 2: The WPRO RAF domains, while significant, still lack a technical execution arm.\n\nThe WPRO Regional Action Framework's socio-technical infrastructure and digital health solutions domains describe *what* countries should achieve but not the shared technical mechanism for *how* — a role AP-COIL's member labs, tooling, and testing mandate is designed to fill.\n\nGap 3: Countries will start creating reference implementations, but without coordination, these will not be interoperable with each other.\n\nUnless organized through a transparent, regional networking approach, country-level work (such as the proposed Philippines' reference implementation on Open Health Stack – see Annex) risks remaining a single-country artifact instead of a reusable regional pattern other countries can adapt.\n\nGap 4: No feedback loop upward/region-ward. \n\nCountry and regional implementation lessons rarely reach WHO/ITU or the emerging global open-source foundations (e.g., Open Health Stack Software Foundation) in a structured way.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0641",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 641,
+      "entry": "640",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Context-assumptions answer about regional interpretation gaps; no single passage."
+    },
+    "type": "general",
+    "text": "Context assumptions: Gap 1: No regional interpretation layer.\n\nCountries are left to independently interpret the WHO–ITU DPI-H Reference Architecture with no shared regional profile, resulting in duplicated interpretation effort and divergent architectural choices across otherwise similar health systems.\n\nGap 2: The WPRO RAF domains, while significant, still lack a technical execution arm.\n\nThe WPRO Regional Action Framework's socio-technical infrastructure and digital health solutions domains describe *what* countries should achieve but not the shared technical mechanism for *how* — a role AP-COIL's member labs, tooling, and testing mandate is designed to fill.\n\nGap 3: Countries will start creating reference implementations, but without coordination, these will not be interoperable with each other.\n\nUnless organized through a transparent, regional networking approach, country-level work (such as the proposed Philippines' reference implementation on Open Health Stack – see Annex) risks remaining a single-country artifact instead of a reusable regional pattern other countries can adapt.\n\nGap 4: No feedback loop upward/region-ward. \n\nCountry and regional implementation lessons rarely reach WHO/ITU or the emerging global open-source foundations (e.g., Open Health Stack Software Foundation) in a structured way.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 641"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Context-assumptions answer about regional interpretation gaps; no single passage."
+      }
+    ]
+  }
+}

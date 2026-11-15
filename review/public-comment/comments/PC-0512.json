@@ -1,0 +1,87 @@
+{
+  "id": "pc-0512",
+  "summary": "The section identifies important safeguards, including input and output controls, representative training data, drift m…",
+  "comment": "The section identifies important safeguards, including input and output controls, representative training data, drift monitoring, evaluation, accountability and human oversight, and points to WHO's wider AI guidance. These requirements are dispersed across the narrative rather than consolidated into an operational baseline that procurement and implementation teams can test before deployment and during operation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0512",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 512,
+      "entry": "511",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4",
+      "page": "107-109",
+      "lines": "Lines 142-194",
+      "raw": "§5.4 p.107-109 l.Lines 142-194"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-2-513f61"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §5.4 lines 142-194; asks to consolidate safeguards dispersed across the section."
+    },
+    "type": "technical",
+    "text": "The section identifies important safeguards, including input and output controls, representative training data, drift monitoring, evaluation, accountability and human oversight, and points to WHO's wider AI guidance. These requirements are dispersed across the narrative rather than consolidated into an operational baseline that procurement and implementation teams can test before deployment and during operation.",
+    "suggestedRevision": "Add, or cross-reference, a concise minimum control checklist for AI operating on DPI-H data. Consolidate the safeguards already named and include validation, provenance, representativeness, drift monitoring, incident reporting, rollback or safe-disable procedures, evaluation intervals and a named accountable role. Link the checklist to a short risk/failure taxonomy across clinical, operational, financial and equity domains and to the relevant WHO AI guidance.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 512"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §5.4 lines 142-194; asks to consolidate safeguards dispersed across the section."
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+- The reporting burden on the health workforce is reduced because aggregate health information is derived from data already captured at the point of care through shared infrastructure.
+- Health system managers and policymakers receive timely, accurate, and comparable indicators that reflect the current state of the health system, consistent across facilities and administrative levels, and reliably comparable over time and across geographies.
+- Cross-programme visibility allows health authorities to understand performance across disease areas, population groups, and levels of care simultaneously.
+- Evidence-based resource allocation becomes possible when ministries of health and finance have access to current, credible performance data.
+- Population-level analytical capabilities — the ability to detect trends, identify gaps, and monitor programme outcomes — are available across the health system without requiring each programme to build and maintain its own analytical infrastructure.

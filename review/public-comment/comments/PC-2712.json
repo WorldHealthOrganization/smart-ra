@@ -1,0 +1,67 @@
+{
+  "id": "pc-2712",
+  "summary": "§1.2.3, p. 16, lines 256–258. [highlight] On the text: «budget appropriations, treasury controls, expenditure reporting…",
+  "comment": "§1.2.3, p. 16, lines 256–258. [highlight] On the text: «budget appropriations, treasury controls, expenditure reporting, and fiscal accountability mechanisms».\nour standard terminology is:\nbudget formation, budget expenditure reporting, budget monitoring",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:1-2-3-99d1f0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2712",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 12,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-961e85e542",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "1.2.3",
+      "page": "16",
+      "lines": "256–258",
+      "raw": "§1.2.3, p. 16, lines 256–258. [highlight] On the text: «budget appropriations, treasury controls, expenditure reporting,"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-3-99d1f0",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.16 l.256–258 read as the printed page; section 1.2.3 agrees"
+    },
+    "text": "§1.2.3, p. 16, lines 256–258. [highlight] On the text: «budget appropriations, treasury controls, expenditure reporting, and fiscal accountability mechanisms».\nour standard terminology is:\nbudget formation, budget expenditure reporting, budget monitoring",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

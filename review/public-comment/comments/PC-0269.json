@@ -1,0 +1,81 @@
+{
+  "id": "pc-0269",
+  "summary": "The maturity and progress sections focus appropriately on architecture coverage, conformance, governance capability and…",
+  "comment": "The maturity and progress sections focus appropriately on architecture coverage, conformance, governance capability and outcomes. However, progress in infrastructure maturity- connectivity, exchange, security, access and platform coverage- may be mistaken for equivalent progress in how faithfully clinical and professional reality is represented. A system can exchange more data while still carrying incomplete or shallow meaning.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-7-00fa03",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0269",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 269,
+      "entry": "268",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.7; 4.4.1–4.4.2",
+      "page": "63; 98–100",
+      "lines": "Governance maturity considerations; progress and impact dimensions",
+      "raw": "§3.4.7; 4.4.1–4.4.2 p.63; 98–100 l.Governance maturity considerations; progress and impact dimensions"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-7-00fa03",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-7-101ba8",
+        "prose:3-4-7-811c75"
+      ],
+      "note": "p.63; 98–100 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The maturity and progress sections focus appropriately on architecture coverage, conformance, governance capability and outcomes. However, progress in infrastructure maturity- connectivity, exchange, security, access and platform coverage- may be mistaken for equivalent progress in how faithfully clinical and professional reality is represented. A system can exchange more data while still carrying incomplete or shallow meaning.",
+    "suggestedRevision": "Measure infrastructure maturity and representational maturity as related but distinct dimensions. In addition to component coverage and technical conformance, assess whether priority clinical content is complete, professionally validated, semantically faithful, linked across the care process, usable at the point of care, and preserved during secondary use. Avoid treating the existence of a platform, profile or data flow as evidence that the underlying professional meaning is adequate.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 269"
+      }
+    ]
+  }
+}

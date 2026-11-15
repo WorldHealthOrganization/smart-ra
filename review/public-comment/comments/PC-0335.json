@@ -1,0 +1,77 @@
+{
+  "id": "pc-0335",
+  "summary": "“Terminology and semantic specialists, who curate value sets, code systems, and mappings (for example to SNOMED CT/GPS,…",
+  "comment": "“Terminology and semantic specialists, who curate value sets, code systems, and mappings (for example to SNOMED CT/GPS, ICD-11, and LOINC) and operate the semantic governance processes”. \n\nThey also need to maintain the value sets and mappings as the classifications and terminologies evolve. Metadata is not a “set and forget” process.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-5-2-2a0e80",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0335",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 335,
+      "entry": "334",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 4",
+      "page": "505",
+      "lines": "Section 4.5.2",
+      "raw": "§Chapter 4 p.505 l.Section 4.5.2"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-2-2a0e80",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "editorial",
+    "text": "“Terminology and semantic specialists, who curate value sets, code systems, and mappings (for example to SNOMED CT/GPS, ICD-11, and LOINC) and operate the semantic governance processes”. \n\nThey also need to maintain the value sets and mappings as the classifications and terminologies evolve. Metadata is not a “set and forget” process.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 335"
+      }
+    ]
+  }
+}

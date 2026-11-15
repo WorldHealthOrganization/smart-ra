@@ -1,0 +1,81 @@
+{
+  "id": "pc-0617",
+  "summary": "Reason for disagreement: 1.  I disagree Mapping to seven health goals because the the goals-first methodology is a majo…",
+  "comment": "Reason for disagreement: 1.  I disagree Mapping to seven health goals because the the goals-first methodology is a major strength, but the detailed mappings referred to in Section 2.4 and Appendix E are not present in the supplied review PDF. Appendix E contains placeholder references rather than the populated goal-to-capability-to-component matrices. This prevents reviewers from verifying traceability and determining whether the mappings are accurate and complete. Please embed the matrices or provide clearly functioning links to the complete mapping artefacts.\n\n2. Country and regional examples - I have selecteds as neither agree or disagree because, the examples are directionally useful but uneven in depth, evidence and precision. A standard case-study format should distinguish strategy, pilot, partial implementation and population-scale operation, and include architecture pattern, governance model, standards used, coverage, measurable outcomes, limitations and dated authoritative sources. The England example should be verified or narrowed, as it may conflate nationally governed medicines terminology with centrally governed pharmaceutical decision-support logic.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0617",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 617,
+      "entry": "616",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Two points: Appendix E placeholder mappings and uneven Appendix D examples; spans the document."
+    },
+    "type": "general",
+    "text": "Reason for disagreement: 1.  I disagree Mapping to seven health goals because the the goals-first methodology is a major strength, but the detailed mappings referred to in Section 2.4 and Appendix E are not present in the supplied review PDF. Appendix E contains placeholder references rather than the populated goal-to-capability-to-component matrices. This prevents reviewers from verifying traceability and determining whether the mappings are accurate and complete. Please embed the matrices or provide clearly functioning links to the complete mapping artefacts.\n\n2. Country and regional examples - I have selecteds as neither agree or disagree because, the examples are directionally useful but uneven in depth, evidence and precision. A standard case-study format should distinguish strategy, pilot, partial implementation and population-scale operation, and include architecture pattern, governance model, standards used, coverage, measurable outcomes, limitations and dated authoritative sources. The England example should be verified or narrowed, as it may conflate nationally governed medicines terminology with centrally governed pharmaceutical decision-support logic.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 617"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Two points: Appendix E placeholder mappings and uneven Appendix D examples; spans the document."
+      }
+    ]
+  }
+}

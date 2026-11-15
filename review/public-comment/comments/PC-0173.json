@@ -1,0 +1,82 @@
+{
+  "id": "pc-0173",
+  "summary": "The draft's implicit care model is episodic and programme-centric (HIV, TB, immunisation examples). Across 254 pages, '…",
+  "comment": "The draft's implicit care model is episodic and programme-centric (HIV, TB, immunisation examples). Across 254 pages, 'integrated care', 'social care' and 'long-term care' do not appear; 'caregiver' appears once; 'chronic' four times. The person with multiple chronic conditions whose care spans health and social services over years — precisely the population that most needs shared infrastructure — is absent as a design case.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-95b13c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0173",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 173,
+      "entry": "172",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Ch. 1",
+      "page": "9–23",
+      "lines": "Framing and examples; actor definitions throughout the document",
+      "raw": "§Ch. 1 p.9–23 l.Framing and examples; actor definitions throughout the document"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-95b13c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-1-2-3fe140",
+        "prose:1-1-2-87ef33",
+        "prose:1-1-2-e047b1"
+      ],
+      "note": "p.9–23 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The draft's implicit care model is episodic and programme-centric (HIV, TB, immunisation examples). Across 254 pages, 'integrated care', 'social care' and 'long-term care' do not appear; 'caregiver' appears once; 'chronic' four times. The person with multiple chronic conditions whose care spans health and social services over years — precisely the population that most needs shared infrastructure — is absent as a design case.",
+    "suggestedRevision": "Include integrated, long-term and social care explicitly in the framing and priority use cases; add social-care professionals and informal caregivers to the recognised actors; and include a worked example of a multimorbid person supported by a multi-professional, cross-organisational team over time.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 173"
+      }
+    ]
+  }
+}

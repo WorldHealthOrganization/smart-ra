@@ -1,0 +1,78 @@
+{
+  "id": "pc-2487",
+  "summary": "ICD-11 Foundation graph in AI grounding — Adds the missing explicit ICD-11 example. Does not claim that FHIR is inheren…",
+  "comment": "ICD-11 Foundation graph in AI grounding — Adds the missing explicit ICD-11 example. Does not claim that FHIR is inherently flat, that all grounding requires a graph, or that the Foundation supplies clinical recommendations. Evidence: WHO ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/); FHIR complex code systems (https://hl7.org/fhir/R4/terminologies.html#Complex). The final sentence requires checking applicable rights, without asserting unverified future licence provisions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-b8b815",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2487",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 30,
+      "entry": "29",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Chapter 5, §5.2",
+      "page": "106",
+      "lines": "A26.01",
+      "raw": "§Chapter 5, §5.2 p.106 l.A26.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-b8b815",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:5-2-d5f48a",
+        "prose:5-2-e0d91d",
+        "prose:5-2-32e323"
+      ],
+      "note": "p.106 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "ICD-11 Foundation graph in AI grounding — Adds the missing explicit ICD-11 example. Does not claim that FHIR is inherently flat, that all grounding requires a graph, or that the Foundation supplies clinical recommendations. Evidence: WHO ICD API data model (https://icd.who.int/docs/icd-api/APIDoc-Version2/); FHIR complex code systems (https://hl7.org/fhir/R4/terminologies.html#Complex). The final sentence requires checking applicable rights, without asserting unverified future licence provisions.",
+    "suggestedRevision": "Insert paragraph: Governed semantic content can also be represented as knowledge graphs: entities have persistent, resolvable identifiers and explicit relationships, with use-specific classifications derived from the underlying content. The ICD-11 Foundation provides a concrete example, including entities with more than one parent and their relationship to statistical linearizations. Entity linking and retrieval can use this content to retain the source statement, identified entity, content release and any derived statistical category. Such traceability complements the provenance and validation controls described above; a graph alone does not establish that a model's interpretation or recommendation is correct. Terminology content is not a complete clinical decision-support knowledge base. Implementations should record the applicable terms for content used in retrieval, model training and generated outputs, and test the accuracy and clinical suitability of these uses.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 30"
+      }
+    ]
+  }
+}

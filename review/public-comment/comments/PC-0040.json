@@ -1,0 +1,79 @@
+{
+  "id": "pc-0040",
+  "summary": "The proposed current-state assessment inventories systems, foundational DPI, governance and priority goals, but it does…",
+  "comment": "The proposed current-state assessment inventories systems, foundational DPI, governance and priority goals, but it does not assess whether people can actually use the resulting access channels. A country may have broad identity and connectivity coverage while still excluding older people, persons with disabilities, people with low literacy, those without suitable devices, and those who rely on trusted intermediaries.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-1-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0040",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 40,
+      "entry": "39",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.2 — Assessing Where You Are",
+      "page": "98–99",
+      "lines": "28–61",
+      "raw": "§4.1.2 — Assessing Where You Are p.98–99 l.28–61"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-1-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.1.2 only"
+    },
+    "type": "general",
+    "text": "The proposed current-state assessment inventories systems, foundational DPI, governance and priority goals, but it does not assess whether people can actually use the resulting access channels. A country may have broad identity and connectivity coverage while still excluding older people, persons with disabilities, people with low literacy, those without suitable devices, and those who rely on trusted intermediaries.",
+    "suggestedRevision": "Add a fifth assessment question: “Who can actually use the infrastructure and through which channels?” Countries should assess population age structure, disability and functional-access needs, language and literacy, digital capability, device and affordability constraints, authentication failure, availability of non-digital and assisted channels, and the capacity of trusted intermediaries. The roadmap should identify the access gaps and the investments required to close them.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 40"
+      }
+    ]
+  }
+}

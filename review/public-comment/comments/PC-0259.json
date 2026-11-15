@@ -1,0 +1,78 @@
+{
+  "id": "pc-0259",
+  "summary": "The draft correctly warns that an authoritative-looking answer may be difficult to distinguish from an unfounded one. T…",
+  "comment": "The draft correctly warns that an authoritative-looking answer may be difficult to distinguish from an unfounded one. This is a factuality-versus-fluency problem, a clear, coherent and confident output is not evidence that it is accurate, complete or supported. The architecture does not yet specify how the epistemic status of generated or inferred information should be represented and preserved.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-2-d5f48a",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0259",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 259,
+      "entry": "258",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2; 5.4.2",
+      "page": "106; 108",
+      "lines": "71–84; 154–169",
+      "raw": "§5.2; 5.4.2 p.106; 108 l.71–84; 154–169"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-2-d5f48a",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.106; 108 l.71–84; 154–169 read as the printed page; section 5.2 agrees"
+    },
+    "type": "technical",
+    "text": "The draft correctly warns that an authoritative-looking answer may be difficult to distinguish from an unfounded one. This is a factuality-versus-fluency problem, a clear, coherent and confident output is not evidence that it is accurate, complete or supported. The architecture does not yet specify how the epistemic status of generated or inferred information should be represented and preserved.",
+    "suggestedRevision": "Require systems to distinguish visibly between a directly observed/measured data; professionally asserted or verified information; deterministically calculated information; probabilistically inferred information; and AI-generated narrative or synthesis. For outputs affecting care, eligibility, financing or public-health action, preserve source evidence, provenance, generating model and version, intended use, limitations, uncertainty where meaningful, validation/review status, and correction or withdrawal mechanisms. Do not treat fluency or a confidence score alone as proof of factuality.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 259"
+      }
+    ]
+  }
+}

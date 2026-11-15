@@ -1,0 +1,77 @@
+{
+  "id": "pc-0190",
+  "summary": "The draft document flags equity risks but doesn't address the documented risk of AI models performing poorly for unders…",
+  "comment": "The draft document flags equity risks but doesn't address the documented risk of AI models performing poorly for underserved populations when trained on unrepresentative data. This is a known challenge (particular for LMICs) that requires explicit mitigation strategies, particularly in contexts where training data comes mainly from well-resourced urban settings.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-4-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0190",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 190,
+      "entry": "189",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.3",
+      "page": "108",
+      "lines": "1790 - 183",
+      "raw": "§5.4.3 p.108 l.1790 - 183"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-4-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.4.3 only"
+    },
+    "type": "technical",
+    "text": "The draft document flags equity risks but doesn't address the documented risk of AI models performing poorly for underserved populations when trained on unrepresentative data. This is a known challenge (particular for LMICs) that requires explicit mitigation strategies, particularly in contexts where training data comes mainly from well-resourced urban settings.",
+    "suggestedRevision": "Consider adding specific equity and inclusion requirements for AI systems, including: representativeness of training data (with explicit attention to rural populations, women, and marginalized communities); bias detection and mitigation protocols; the requirement that evaluation includes disaggregated performance reporting across population subgroups; and community engagement in AI governance to ensure diverse perspectives inform deployment decisions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 190"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0466",
+  "summary": "The progress measures do not say who produces them. In practice the operator of a shared component is the only party ho…",
+  "comment": "The progress measures do not say who produces them. In practice the operator of a shared component is the only party holding data about its own performance and also controls the definitions used. Where that is so, published progress cannot be verified, definitions can change between reporting periods without detection, and enforcement is impossible because the facts are not independently established.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-2-09adc4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0466",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 466,
+      "entry": "465",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.2",
+      "page": "99",
+      "lines": "445",
+      "raw": "§4.4.2 p.99 l.445"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-2-09adc4",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-4-2-51501c"
+      ],
+      "note": "p.99 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The progress measures do not say who produces them. In practice the operator of a shared component is the only party holding data about its own performance and also controls the definitions used. Where that is so, published progress cannot be verified, definitions can change between reporting periods without detection, and enforcement is impossible because the facts are not independently established.",
+    "suggestedRevision": "Require that the performance of a DPI-H component be measured and published by a party other than its operator, with definitions fixed in advance and any change disclosed. Add a minimum measurable service-level set: availability and response time at the 95th percentile; transaction success rate against attempts; connection lead time after a complete request; incident resolution time; and conformance test throughput. This is also the precondition for any tariff regulation, since no regulator can set a price on figures supplied solely by the regulated party.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 466"
+      }
+    ]
+  }
+}

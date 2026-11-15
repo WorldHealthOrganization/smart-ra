@@ -1,0 +1,74 @@
+{
+  "id": "pc-0749",
+  "summary": "The AI-foundations list leans on longitudinal data but omits the time dimension of semantics. Terminologies and models …",
+  "comment": "The AI-foundations list leans on longitudinal data but omits the time dimension of semantics. Terminologies and models change over the span longitudinal data covers; without version-aware, point-in-time semantics and cross-version mappings, models inherit drift along the time axis. We recommend adding versioning and temporal consistency as an explicit AI foundation. The draft already has the primitives — Terminology/LIMR versioning, point-in-time benefit definitions. This should also extend to deterministic services whose definitions change over time.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0749",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 749,
+      "entry": "748",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§5.2 AI foundations (p.105–106 )",
+      "lines": "C10",
+      "raw": "§§5.2 AI foundations (p.105–106 ) l.C10"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 5.2 only"
+    },
+    "text": "The AI-foundations list leans on longitudinal data but omits the time dimension of semantics. Terminologies and models change over the span longitudinal data covers; without version-aware, point-in-time semantics and cross-version mappings, models inherit drift along the time axis. We recommend adding versioning and temporal consistency as an explicit AI foundation. The draft already has the primitives — Terminology/LIMR versioning, point-in-time benefit definitions. This should also extend to deterministic services whose definitions change over time.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 749"
+      }
+    ]
+  }
+}

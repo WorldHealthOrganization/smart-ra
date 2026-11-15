@@ -1,0 +1,83 @@
+{
+  "id": "pc-2505",
+  "summary": "Authorised extensions qualification — The draft already provides for federation; the correction makes the WHO option vi…",
+  "comment": "Authorised extensions qualification — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2505",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 48,
+      "entry": "47",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "170",
+      "lines": "A17.03",
+      "raw": "§Terminology Service, §5 p.170 l.A17.03"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+    },
+    "text": "Authorised extensions qualification — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+    "suggestedRevision": "Replace phrase; retain rest of cell and coordinate with A17.02: support for authorised extensions of globally curated content where permitted by the publisher's rules and terms",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 48"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "pc-2744",
+  "summary": "Email comment, forwarded by the chief editor on litlfred/folio-assistant#197 (public consultation). Attachment: A Healt…",
+  "comment": "Email comment, forwarded by the chief editor on litlfred/folio-assistant#197 (public consultation). Attachment: A Health Geo-Registry as DPI-H, an 8-page PDF (https://github.com/user-attachments/files/33431528/A.Health.Geo-Registry.as.DPI-H.pdf).\n\nThank you for sending this reminder email. I discussed the reference architecture with Steeve Ebner, a mutual colleague of Ravi, who emphasized the importance of distinguishing between a Catchment Area and a Health Service Area:\nA health service area represents the geographic area or population that a facility is formally designated or intended to serve and should be maintained as an authoritative, temporally governed geographic relationship. A facility catchment area represents the geographic distribution of the population that actually utilizes the facility and may be derived from patient-origin or service-utilization data. Because designated service areas and observed catchment areas may differ substantially and change independently over time, the Health Facility Registry should avoid conflating the two concepts.\n\nAlso, regarding the Health Geo-Registry concept, I continue to believe, as before, that its role needs to be distinct from the Common Geo-Registry. Whether these are two separate systems or distinct roles within a single system, the CGR should manage cross-domain geographies and hierarchies (such as the administrative hierarchy), and the HGR should manage the health operational hierarchy and other geographies that cut across health systems. Attached is the document I drafted for our discussion with Ravi, for reference.",
+  "createdAt": "2026-10-15T11:14:36.898Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2744",
+    "source": {
+      "channel": "narrative",
+      "batch": "email-health-geo-registry",
+      "sha256": "a33ec99901c54a2bad9332be2e3916ecf8dfa5150c6a1f5843ca36de234fb44b",
+      "segment": 0,
+      "receivedAt": "2026-10-15T11:14:36.898Z"
+    },
+    "reviewer": {
+      "id": "r-4a7bd051c3",
+      "acknowledge": false
+    },
+    "citation": {
+      "raw": "(no citation)"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (medium): service area vs catchment area in the Health Facility Registry; its second point, a Health Geo-Registry distinct from the Common Geo-Registry, has no section of its own"
+    },
+    "type": "general",
+    "text": "Email comment, forwarded by the chief editor on litlfred/folio-assistant#197 (public consultation). Attachment: A Health Geo-Registry as DPI-H, an 8-page PDF (https://github.com/user-attachments/files/33431528/A.Health.Geo-Registry.as.DPI-H.pdf).\n\nThank you for sending this reminder email. I discussed the reference architecture with Steeve Ebner, a mutual colleague of Ravi, who emphasized the importance of distinguishing between a Catchment Area and a Health Service Area:\nA health service area represents the geographic area or population that a facility is formally designated or intended to serve and should be maintained as an authoritative, temporally governed geographic relationship. A facility catchment area represents the geographic distribution of the population that actually utilizes the facility and may be derived from patient-origin or service-utilization data. Because designated service areas and observed catchment areas may differ substantially and change independently over time, the Health Facility Registry should avoid conflating the two concepts.\n\nAlso, regarding the Health Geo-Registry concept, I continue to believe, as before, that its role needs to be distinct from the Common Geo-Registry. Whether these are two separate systems or distinct roles within a single system, the CGR should manage cross-domain geographies and hierarchies (such as the administrative hierarchy), and the HGR should manage the health operational hierarchy and other geographies that cut across health systems. Attached is the document I drafted for our discussion with Ravi, for reference.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.898Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "email-health-geo-registry"
+      },
+      {
+        "at": "2026-10-15T11:15:03.979Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (medium): service area vs catchment area in the Health Facility Registry; its second point, a Health Geo-Registry distinct from the Common Geo-Registry, has no section of its own"
+      }
+    ]
+  }
+}

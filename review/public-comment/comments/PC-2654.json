@@ -1,0 +1,75 @@
+{
+  "id": "pc-2654",
+  "summary": "The objective-preventing independent, uncoordinated identity silos-is appropriate. However, the current requirement is …",
+  "comment": "The objective-preventing independent, uncoordinated identity silos-is appropriate. However, the current requirement is too prescriptive for federated health systems. Local and regional EHR systems may legitimately maintain operational patient identifiers while a national or shared identity service provides the cross-reference required for interoperability. Requiring the LHR to have no independent identification capability could be interpreted as prohibiting this pattern.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2654",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 32,
+      "entry": "22",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Client Registry",
+      "page": "157, 161",
+      "lines": "105-106;\nIdentity, Access and Consent Element 12",
+      "raw": "§Appendix C: Client Registry p.157, 161 l.105-106;\nIdentity, Access and Consent Element 12"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-131537",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-cb62ba"
+      ],
+      "note": "p.157, 161 l.105-106;\nIdentity, Access and Consent Element 12 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The objective-preventing independent, uncoordinated identity silos-is appropriate. However, the current requirement is too prescriptive for federated health systems. Local and regional EHR systems may legitimately maintain operational patient identifiers while a national or shared identity service provides the cross-reference required for interoperability. Requiring the LHR to have no independent identification capability could be interpreted as prohibiting this pattern.",
+    "suggestedRevision": "Replace with: “The LHR shall use authoritative identity services to link records reliably to the correct individual. It may retain local, regional or source-system identifiers required for operational use and provenance, provided that these identifiers can be reconciled through the jurisdiction's shared identity framework. The architecture shall not require a single physical Client Registry to be the exclusive operational source of person identification where authoritative identity responsibility is federated.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 32"
+      }
+    ]
+  }
+}

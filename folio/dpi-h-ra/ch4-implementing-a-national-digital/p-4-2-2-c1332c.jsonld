@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-4-2-2-c1332c",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:4-2-2-c1332c",
+  "kind": "prose",
+  "text": "p-4-2-2-c1332c.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 472,
+      "page": 101,
+      "pageEnd": 102,
+      "printedPage": "90",
+      "lineStart": 114,
+      "lineEnd": 123,
+      "method": "numbered"
+    }
+  },
+  "provenance": "authored"
+}

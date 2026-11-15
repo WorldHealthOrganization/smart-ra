@@ -1,0 +1,14 @@
+{
+  "$schema": "concern-groups/v1",
+  "_comment": "The library's from-within node (placement PR0c; the #980 ruling that a nested directory is named from within its parent, never by a root declaration reaching down). It files no concern groups. It declares one directory that is NOT a library entry: dpi4health-hrh-archimate/ holds DPI4Health.archimate, an ArchiMate model (Archi's HRH model, 476 elements, 19 views) kept here as source material since 2026-10-09 (its README.md). It is a different kind from the documents beside it, so it is declared as `archimate` rather than graded as an L1 ingest missing the structure.json, sections and blocks no ingest arm makes for a model. It predates the archimate/<semver>/ line and cat-archimate.config.json does not name it, so nothing renders it; to publish it, copy it into a version folder under archimate/.",
+  "groups": [],
+  "directories": [
+    {
+      "id": "hrh-archimate-source",
+      "path": "dpi4health-hrh-archimate/",
+      "subgraph": true,
+      "graphTypologies": ["archimate"],
+      "description": "DPI4Health.archimate, the HRH ArchiMate model (476 elements, 19 views), source material uploaded 2025-12-18 and not rendered. See README.md beside it."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pc-2622",
+  "summary": "As it currently reads as very horizontale, the notion of multilayered information should be mentionned somewhere. The l…",
+  "comment": "As it currently reads as very horizontale, the notion of multilayered information should be mentionned somewhere. The legal component  is also missing from the governance to accomodate with national laws on data protection (such as GDPR in Europe).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-ec36f4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2622",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 101,
+      "entry": "100",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b1e2f66b7b",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-health-workforce-registry-ec36f4",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Legal/data-protection component missing from governance; HWF governance box."
+    },
+    "text": "As it currently reads as very horizontale, the notion of multilayered information should be mentionned somewhere. The legal component  is also missing from the governance to accomodate with national laws on data protection (such as GDPR in Europe).",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 101"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Legal/data-protection component missing from governance; HWF governance box."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0706",
+  "summary": "We strongly endorse Chapter 5’s framing. One principle deserves to be stated explicitly: an AI model must not be the te…",
+  "comment": "We strongly endorse Chapter 5’s framing. One principle deserves to be stated explicitly: an AI model must not be the terminal interpreter of clinical information. Its outputs become trustworthy data only when a human author has checked, integrated and signed them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:ch5-future-proofing-the-architecture-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0706",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 706,
+      "entry": "705",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 5 (Future proofing; AI)",
+      "raw": "§Ch. 5 (Future proofing; AI)"
+    },
+    "anchor": {
+      "targetLabel": "sec:ch5-future-proofing-the-architecture-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Future proofing the Architecture\""
+    },
+    "text": "We strongly endorse Chapter 5’s framing. One principle deserves to be stated explicitly: an AI model must not be the terminal interpreter of clinical information. Its outputs become trustworthy data only when a human author has checked, integrated and signed them.",
+    "suggestedRevision": "Add a sentence to §5.4.2 stating that AI outputs affecting care, eligibility or resources require a human author of record who verifies and signs the resulting data before it enters the Lifelong Health Record or downstream decision processes — consistent with the chapter’s auditability principle.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "#7"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 706"
+      }
+    ]
+  }
+}

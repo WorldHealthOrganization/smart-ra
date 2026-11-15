@@ -1,0 +1,1 @@
+The **Product Registry** uses the TS for product classification codes and all other Core Registries for Health use the TS for the controlled vocabularies governing coded attributes in their minimum datasets.

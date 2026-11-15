@@ -1,0 +1,78 @@
+{
+  "id": "pc-0310",
+  "summary": "The References page contains only \"[Reference list to be included before publication].\" Flagging for completeness; seve…",
+  "comment": "The References page contains only \"[Reference list to be included before publication].\" Flagging for completeness; several normative claims (e.g. standards selections, OpenHIE alignment) will need citation before publication.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:references-lead-071187",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0310",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 310,
+      "entry": "309",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "References",
+      "page": "111",
+      "lines": "(page body)",
+      "raw": "§References p.111 l.(page body)"
+    },
+    "anchor": {
+      "targetLabel": "prose:references-lead-071187",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "editorial",
+    "text": "The References page contains only \"[Reference list to be included before publication].\" Flagging for completeness; several normative claims (e.g. standards selections, OpenHIE alignment) will need citation before publication.",
+    "suggestedRevision": "Populate the reference list before publication; ensure standards and prior-art claims (HL7 UTG, OpenHIE, SNOMED NRC, IHE) are cited.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 310"
+      }
+    ]
+  }
+}

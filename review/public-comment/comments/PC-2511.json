@@ -1,0 +1,83 @@
+{
+  "id": "pc-2511",
+  "summary": "Reporting conformance and ICD release adoption — Adds the reporting consequence to release governance. An adopted ICD r…",
+  "comment": "Reporting conformance and ICD release adoption — Adds the reporting consequence to release governance. An adopted ICD revision and an annual content release are different; this does not make the newest API release immediately mandatory or impose ICD statistical obligations on every WHO-FIC member. Evidence: WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf). Coordinate with A05.01.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2511",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 54,
+      "entry": "53",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, Governance",
+      "page": "171",
+      "lines": "A25.02",
+      "raw": "§Terminology Service, Governance p.171 l.A25.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+    },
+    "text": "Reporting conformance and ICD release adoption — Adds the reporting consequence to release governance. An adopted ICD revision and an annual content release are different; this does not make the newest API release immediately mandatory or impose ICD statistical obligations on every WHO-FIC member. Evidence: WHO Nomenclature Regulations 1967 (https://www.who.int/publications/m/item/who-nomenclature-regulations-1967); WHA72.15 (https://apps.who.int/gb/ebwha/pdf_files/WHA72/A72_R15-en.pdf). Coordinate with A05.01.",
+    "suggestedRevision": "Append; retain existing release-testing and transition provisions: For ICD-based statistical reporting, this coordination should identify the applicable ICD revision, release policy, coding rules and transition arrangements needed to meet the Member State's reporting obligations. Proposed changes to WHO content should be routed through WHO's maintenance process. National adoption of a new release should be tested and documented, preserving the reproducibility of earlier reports.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 54"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0117",
+  "summary": "The four registries are each defined as \"the authoritative [index / list / record / source] of/for...\" with a different…",
+  "comment": "The four registries are each defined as \"the authoritative [index / list / record / source] of/for...\" with a different noun for each, and the document never states whether this variation reflects a deliberate architectural distinction (e.g. pointer-based index vs. full attribute record) or is incidental word choice.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0117",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 117,
+      "entry": "116",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1 The foundational shared data layer",
+      "page": "67",
+      "lines": "638-667",
+      "raw": "§3.5.3.1 The foundational shared data layer p.67 l.638-667"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-5-3-1-93723e",
+        "prose:3-5-3-1-f35f6f",
+        "prose:3-5-3-1-b3f4e0"
+      ],
+      "note": "p.67 l.638-667 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "type": "technical",
+    "text": "The four registries are each defined as \"the authoritative [index / list / record / source] of/for...\" with a different noun for each, and the document never states whether this variation reflects a deliberate architectural distinction (e.g. pointer-based index vs. full attribute record) or is incidental word choice.",
+    "suggestedRevision": "Either (a) standardise on one term (e.g. \"authoritative source of record\") across all four registries if no distinction is intended, or (b) if the distinction is deliberate, add a sentence stating so explicitly and briefly defining what \"index\" vs \"list\" vs \"record\" vs \"source\" imply for that registry's data model.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 117"
+      }
+    ]
+  }
+}

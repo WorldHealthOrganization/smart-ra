@@ -1,0 +1,81 @@
+{
+  "id": "pc-0493",
+  "summary": "An unresolved placeholder remains in the text: the mapping to WHO's six health system building blocks is said to be pro…",
+  "comment": "An unresolved placeholder remains in the text: the mapping to WHO's six health system building blocks is said to be provided in 'Annex [X]'. No such annex appears, and Appendices A and B carry no titles in the table of contents or in the body.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-567e0d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0493",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 493,
+      "entry": "492",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5",
+      "page": "21",
+      "lines": "footnote to 1.5.1",
+      "raw": "§1.5 p.21 l.footnote to 1.5.1"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-567e0d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-5-84e1dc",
+        "prose:1-5-c9e50d"
+      ],
+      "note": "p.21 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "An unresolved placeholder remains in the text: the mapping to WHO's six health system building blocks is said to be provided in 'Annex [X]'. No such annex appears, and Appendices A and B carry no titles in the table of contents or in the body.",
+    "suggestedRevision": "Resolve the cross-reference to the actual annex, and give Appendices A and B titles in both the table of contents and the body. If the building-blocks mapping is not yet drafted, note it as forthcoming rather than referencing a placeholder, since officials will use that mapping to connect the guidance to existing national planning instruments.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 493"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pc-0242",
+  "summary": "The principle states that countries 'should not be dependent on actors outside their jurisdiction for the continued ope…",
+  "comment": "The principle states that countries 'should not be dependent on actors outside their jurisdiction for the continued operation or evolution of their core digital health infrastructure'. Artificial intelligence introduces a form of cross-jurisdictional dependency that the guidance does not name. A country may own every registry, exchange layer and record described in this architecture and still have every clinical decision-support inference executed on a model hosted in another jurisdiction, under that jurisdiction's export controls, and subject to a supplier's unilateral pricing and deprecation decisions. That is the dependency this principle forbids, arriving through a door the architecture leaves undescribed. The distinction that matters architecturally is not whether AI is used but whether the model can be executed within the country's own infrastructure.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-4-ee898c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0242",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 242,
+      "entry": "241",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "1.4 DPI-H Principles — Autonomy and Sovereignty",
+      "page": "21",
+      "lines": "412-416",
+      "raw": "§1.4 DPI-H Principles — Autonomy and Sovereignty p.21 l.412-416"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-4-ee898c",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.21 l.412-416 read as the printed page; section 1.4 agrees"
+    },
+    "type": "general",
+    "text": "The principle states that countries 'should not be dependent on actors outside their jurisdiction for the continued operation or evolution of their core digital health infrastructure'. Artificial intelligence introduces a form of cross-jurisdictional dependency that the guidance does not name. A country may own every registry, exchange layer and record described in this architecture and still have every clinical decision-support inference executed on a model hosted in another jurisdiction, under that jurisdiction's export controls, and subject to a supplier's unilateral pricing and deprecation decisions. That is the dependency this principle forbids, arriving through a door the architecture leaves undescribed. The distinction that matters architecturally is not whether AI is used but whether the model can be executed within the country's own infrastructure.",
+    "suggestedRevision": "Extend the Autonomy and Sovereignty principle with a sentence to the effect: 'Where artificial intelligence forms part of a health capability, the architecture should preserve the option of in-jurisdiction inference — that is, models whose weights can be hosted and operated on national infrastructure. Dependence on a remotely hosted model that cannot be substituted or relocated is a sovereignty risk of the same class as dependence on a foreign-operated registry, and should be assessed as such.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 242"
+      }
+    ]
+  }
+}

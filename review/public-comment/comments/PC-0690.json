@@ -1,0 +1,76 @@
+{
+  "id": "pc-0690",
+  "summary": "Delegated/proxy authority should be modelled as a lifecycle, not inferred from relationships. The Client Registry model…",
+  "comment": "Delegated/proxy authority should be modelled as a lifecycle, not inferred from relationships. The Client Registry models parent-child and guardian relationships, while the LHR enforces individual consent preferences. The architecture does not explicitly distinguish a relationship record from current authority to grant, modify or withdraw permissions on another person's behalf. Relationship alone should not imply permission authority.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0690",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 690,
+      "entry": "689",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "(not stated)",
+      "country": "(not stated)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 2.3, p. 35, lines 363-379; Appendix C - Client Registry, p. 120, Requirement 14; Lifelong Health Record, p. 161, Requirement 14.",
+      "raw": "§Section 2.3, p. 35, lines 363-379; Appendix C - Client Registry, p. 120, Requirement 14; Lifelong Health Record, p. 161, Requirement 14."
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "text": "Delegated/proxy authority should be modelled as a lifecycle, not inferred from relationships. The Client Registry models parent-child and guardian relationships, while the LHR enforces individual consent preferences. The architecture does not explicitly distinguish a relationship record from current authority to grant, modify or withdraw permissions on another person's behalf. Relationship alone should not imply permission authority.",
+    "suggestedRevision": "Extend the consent/permissions profile to support delegated or proxy authority as a governed, time-bounded relationship. Represent the subject, representative/delegate, legal or governance basis, scope, purpose/data category, effective period, status, modification, expiry/revocation and audit provenance. Client Registry relationships may support identity resolution but should not themselves imply decision-making authority; national law should determine who is authorised and under what conditions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "Major / Governance / Technical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 690"
+      }
+    ]
+  }
+}

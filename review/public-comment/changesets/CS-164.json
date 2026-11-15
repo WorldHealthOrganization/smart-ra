@@ -1,0 +1,42 @@
+{
+  "id": "CS-164",
+  "title": "Clarify Product Registry authority, identifiers and submission trust",
+  "requirements": "- State whether the registry is the regulatory source, a master-data hub or a federated view\n- State that the registry records externally assigned GTINs rather than issuing them\n- Make bulk onboarding or equivalent migration capability mandatory with validation and rollback\n- Add organisational verification, submission provenance and separation of submitter and approver\n- Make regulatory status mandatory where regulation applies, with exempt/emergency categories\n- Require level-aware national-to-global mappings with mapping type\n- Make external-source integrations conditional on a country source strategy\n- Use attribute- and product-class-specific approval workflows",
+  "refs": [
+    "PC-1742",
+    "PC-1758",
+    "PC-1774",
+    "PC-1776",
+    "PC-1777",
+    "PC-1778",
+    "PC-1779",
+    "PC-1781",
+    "PC-1782",
+    "PC-1805",
+    "PC-1807",
+    "PC-1808",
+    "PC-1809"
+  ],
+  "anchor": "sec:c-metadata-registries-and-foundati-product-registry",
+  "status": "discussing",
+  "issue": 22,
+  "issues": [
+    22
+  ],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 13 comment(s)"
+    },
+    {
+      "at": "2026-10-06T10:51:50Z",
+      "by": "litlfred",
+      "what": "#22 opened as its issue",
+      "url": "https://github.com/litlfred/smart-ra/issues/22"
+    }
+  ],
+  "$schema": "changeset/1.0.0"
+}

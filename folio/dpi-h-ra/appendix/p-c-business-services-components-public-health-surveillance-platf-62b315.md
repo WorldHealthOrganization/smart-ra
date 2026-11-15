@@ -1,0 +1,1 @@
+The Health Facility Registry provides authoritative references for reporting facilities, enabling attribution of cases and events to specific locations, aggregation at defined administrative levels, and geographic analysis of disease distribution. Facility attributes including location, type, and catchment population support the spatial targeting of response activities.

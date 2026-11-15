@@ -1,0 +1,79 @@
+{
+  "id": "pc-1441",
+  "summary": "Leadership and governance is shown as addressed as a principle rather than a goal. This presentation may understate tha…",
+  "comment": "Leadership and governance is shown as addressed as a principle rather than a goal. This presentation may understate that leadership and governance are also capabilities and measurable health-system functions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:b-3025a7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1441",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 677,
+      "entry": "676",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix B",
+      "page": "113",
+      "lines": "“Leadership and governance” row",
+      "raw": "§Appendix B p.113 l.“Leadership and governance” row"
+    },
+    "anchor": {
+      "targetLabel": "prose:b-3025a7",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "tbl:b-f241d4"
+      ],
+      "note": "p.113 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Leadership and governance is shown as addressed as a principle rather than a goal. This presentation may understate that leadership and governance are also capabilities and measurable health-system functions.",
+    "suggestedRevision": "State that leadership and governance are cross-cutting prerequisites and implementation capabilities, even though they are not one of the seven outcome-oriented goals.",
+    "labels": {
+      "Comment type": "Q7 - Goal mapping"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 677"
+      }
+    ]
+  }
+}

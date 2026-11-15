@@ -1,0 +1,80 @@
+{
+  "id": "pc-0484",
+  "summary": "The section addresses commercial pressure on countries but not the reciprocal question: what a country receives in retu…",
+  "comment": "The section addresses commercial pressure on countries but not the reciprocal question: what a country receives in return when models are trained on health data its population produced collectively. Access regimes for secondary use are being established in several regions and the terms of that exchange are being set now.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-4-3957e6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0484",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 484,
+      "entry": "483",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.4",
+      "page": "109",
+      "lines": "177",
+      "raw": "§5.4.4 p.109 l.177"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-4-3957e6",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:5-4-4-a1fd66"
+      ],
+      "note": "p.109 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The section addresses commercial pressure on countries but not the reciprocal question: what a country receives in return when models are trained on health data its population produced collectively. Access regimes for secondary use are being established in several regions and the terms of that exchange are being set now.",
+    "suggestedRevision": "Recommend attaching conditions to permits for secondary use of health data for model development, rather than asserting ownership of resulting models, for which no legal vehicle exists. Workable permit conditions include publication of the model card and performance characteristics, access for independent validation by a public body, and a usage right for the public health system. Under the EU Health Data Space this is enforceable through the access permit issued by the national health data access body.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 484"
+      }
+    ]
+  }
+}

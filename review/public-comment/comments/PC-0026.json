@@ -1,0 +1,84 @@
+{
+  "id": "pc-0026",
+  "summary": "The layers may be taken by readers as a guide for sequencing, when in some cases, some component functions may be found…",
+  "comment": "The layers may be taken by readers as a guide for sequencing, when in some cases, some component functions may be foundational instead of belonging to the business service layer. For example, The Benefits Package Registry currently sits at the business services layer of the DPI-H reference architecture. In Indonesia and the Philippines where there is one national scheme or a dominant single payer that covers most/all of the population, the Benefits Package Registry determines whether a facility can be contracted or a claim can be paid and therefore behaves more like foundational reference data than a business service.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0026",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 26,
+      "entry": "25",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Is the two-layer DPI-H architecture clear and appropriate?",
+      "raw": "§Is the two-layer DPI-H architecture clear and appropriate?"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-1",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Online-form answer on the two-layer architecture; 2.1 defines the foundational and business services layers"
+    },
+    "type": "technical",
+    "text": "The layers may be taken by readers as a guide for sequencing, when in some cases, some component functions may be foundational instead of belonging to the business service layer. For example, The Benefits Package Registry currently sits at the business services layer of the DPI-H reference architecture. In Indonesia and the Philippines where there is one national scheme or a dominant single payer that covers most/all of the population, the Benefits Package Registry determines whether a facility can be contracted or a claim can be paid and therefore behaves more like foundational reference data than a business service.",
+    "suggestedRevision": "Suggest adding a line to acknowledge that in some cases, some component functions may be foundational instead of belonging to the business service layer (Suggest adding a line acknowledging this)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Financial systems/ WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 26"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Online-form answer on the two-layer architecture; 2.1 defines the foundational and business services layers"
+      }
+    ]
+  }
+}

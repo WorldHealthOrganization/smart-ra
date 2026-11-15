@@ -1,0 +1,78 @@
+{
+  "id": "pc-2522",
+  "summary": "Goal 1 realisation in Appendix E — This is the second location in reviewer A25.01, separated for allocation. The origin…",
+  "comment": "Goal 1 realisation in Appendix E — This is the second location in reviewer A25.01, separated for allocation. The original paragraph expressly says Goal 1 has no mapping of its own; the reviewer's proposed “first row” therefore cannot be used as an anchor. Preserves the shared-foundation explanation while making B02.01 and A22.01 operational. See A07.01 for the legal sources.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:e-434a9b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2522",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 65,
+      "entry": "64",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Appendix E, Goal 1 — Build Trusted Data Foundations",
+      "page": "236",
+      "lines": "A25.04",
+      "raw": "§Appendix E, Goal 1 — Build Trusted Data Foundations p.236 l.A25.04"
+    },
+    "anchor": {
+      "targetLabel": "prose:e-434a9b",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:e-40301a",
+        "prose:e-ce763f",
+        "prose:e-d53f92"
+      ],
+      "note": "p.236 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Goal 1 realisation in Appendix E — This is the second location in reviewer A25.01, separated for allocation. The original paragraph expressly says Goal 1 has no mapping of its own; the reviewer's proposed “first row” therefore cannot be used as an anchor. Preserves the shared-foundation explanation while making B02.01 and A22.01 operational. See A07.01 for the legal sources.",
+    "suggestedRevision": "Insert paragraph after the Goal 1 explanation; no Goal 1 mapping table exists: For mortality and morbidity statistics, this shared foundation supports a traceable pathway from clinical documentation and death certification to ICD coding and reporting under the applicable WHO Nomenclature Regulations and transition arrangements. The interfaces described in “Integration Interfaces with Foundational DPI” (§4.3.4) connect certification, registration and statistical responsibilities; the Terminology Service supports the declared ICD content and coding functions; the Health Management Information System supports statistical derivation; and the Public Health Surveillance Platform applies its separately governed surveillance and reporting rules. These responsibilities should be allocated and tested across the relevant components and national authorities.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 65"
+      }
+    ]
+  }
+}

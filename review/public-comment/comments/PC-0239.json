@@ -1,0 +1,80 @@
+{
+  "id": "pc-0239",
+  "summary": "The national digital architect is appropriately accountable for architectural coherence, but describing this role as th…",
+  "comment": "The national digital architect is appropriately accountable for architectural coherence, but describing this role as the accountable designer of the health system's digital infrastructure could be read as concentrating accountability for clinically consequential effects in an architectural function. Architecture authority and clinical accountability require distinct expertise and should be coupled rather than conflated.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-4-a20796",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0239",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 239,
+      "entry": "238",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.4",
+      "page": "94",
+      "lines": "226–240",
+      "raw": "§4.2.4 p.94 l.226–240"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-4-a20796",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-4-f99c3f"
+      ],
+      "note": "p.94 l.226–240 read as the printed page; section 4.2.4 agrees"
+    },
+    "type": "general",
+    "text": "The national digital architect is appropriately accountable for architectural coherence, but describing this role as the accountable designer of the health system's digital infrastructure could be read as concentrating accountability for clinically consequential effects in an architectural function. Architecture authority and clinical accountability require distinct expertise and should be coupled rather than conflated.",
+    "suggestedRevision": "Clarify that the national digital architect is accountable for architectural coherence and conformance, while a named clinical-governance or patient-safety authority is accountable for assessing effects on care delivery. Require joint review and documented approval for safety-critical designs and changes, with clear routes for disagreement and escalation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 239"
+      }
+    ]
+  }
+}

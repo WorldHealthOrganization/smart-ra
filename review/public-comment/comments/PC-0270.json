@@ -1,0 +1,78 @@
+{
+  "id": "pc-0270",
+  "summary": "The draft specifies inputs, data objects, transactions and many component-specific outputs, and the CDSE has strong str…",
+  "comment": "The draft specifies inputs, data objects, transactions and many component-specific outputs, and the CDSE has strong structured-output requirements. There is not yet a common output-specification pattern applied across all DPI-H components. Alerts, risk scores, summaries, dashboards, indicators, eligibility results, surveillance signals and patient messages may be technically generated but unsafe or unusable if the recipient, intended action, status, uncertainty and correction pathway are unclear.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0270",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 270,
+      "entry": "269",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.2; 3.7; Appendix C",
+      "page": "65; 78–86; 114–228",
+      "lines": "Component-description template; conformance model; component functional requirements",
+      "raw": "§3.5.2; 3.7; Appendix C p.65; 78–86; 114–228 l.Component-description template; conformance model; component functional requirements"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The draft specifies inputs, data objects, transactions and many component-specific outputs, and the CDSE has strong structured-output requirements. There is not yet a common output-specification pattern applied across all DPI-H components. Alerts, risk scores, summaries, dashboards, indicators, eligibility results, surveillance signals and patient messages may be technically generated but unsafe or unusable if the recipient, intended action, status, uncertainty and correction pathway are unclear.",
+    "suggestedRevision": "Add a reusable output-contract requirement for components that generate information or recommendations. Each material output should specify its intended user and purpose; expected action; data structure, coding and status; source inputs and provenance; uncertainty/limitations where relevant; timeliness; downstream write-back rules; auditability; correction, override and withdrawal processes; and accountability for acting or not acting on the output. Include output-contract checks in conformance testing.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 270"
+      }
+    ]
+  }
+}

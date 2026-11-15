@@ -1,0 +1,78 @@
+{
+  "id": "pc-0277",
+  "summary": "The guidance supports structured clinical documentation but does not explicitly reference standardized HL7 FHIR resourc…",
+  "comment": "The guidance supports structured clinical documentation but does not explicitly reference standardized HL7 FHIR resources for capturing computable clinical data at the point of documentation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-cb62ba",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0277",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 277,
+      "entry": "276",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8e24450907",
+      "name": "Chirag Tyagi",
+      "organisation": "Vectorise Global Private Limited - DiagNXT",
+      "country": "Bangalore, India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Lifelong Health Records",
+      "page": "157",
+      "lines": "3. (Core Attributes)",
+      "raw": "§Lifelong Health Records p.157 l.3. (Core Attributes)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-cb62ba",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.157 l.3. (Core Attributes) read as the printed page"
+    },
+    "type": "technical",
+    "text": "The guidance supports structured clinical documentation but does not explicitly reference standardized HL7 FHIR resources for capturing computable clinical data at the point of documentation.",
+    "suggestedRevision": "Add: “...including standardized HL7 FHIR resources (for example, Encounter and Observation), where appropriate.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 277"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0339",
+  "summary": "The guidance needs to have a clear articulation of what an Enterprise Architecture (EA) is and how this guidance is int…",
+  "comment": "The guidance needs to have a clear articulation of what an Enterprise Architecture (EA) is and how this guidance is intended to fit or complement that. Given many countries are newly developing Digital Health strategies and an Enterprise Architecture is a key component, muddling DPI-H, Enterprise Architecture, and Registries in this document will be very confusing. In places this document reads as an approach to developing an Enterprise Architecture, in other places it frames DPI-H as a registry-specific layer within the EA.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0339",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 339,
+      "entry": "338",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Whole document",
+      "raw": "§Whole document"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document framing relative to enterprise architecture"
+    },
+    "type": "general",
+    "text": "The guidance needs to have a clear articulation of what an Enterprise Architecture (EA) is and how this guidance is intended to fit or complement that. Given many countries are newly developing Digital Health strategies and an Enterprise Architecture is a key component, muddling DPI-H, Enterprise Architecture, and Registries in this document will be very confusing. In places this document reads as an approach to developing an Enterprise Architecture, in other places it frames DPI-H as a registry-specific layer within the EA.",
+    "suggestedRevision": "Agree on a clear position and framing for how this guidance fits into or complements an Enterprise Architecture, as otherwise we are adding to existing confusion regarding registry layers within EA by throwing a new \"DPI-H\" concept at Ministries of Health who have largely been socialized and encouraged to develop EAs and master facility lists most recently.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 339"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Whole document framing relative to enterprise architecture"
+      }
+    ]
+  }
+}

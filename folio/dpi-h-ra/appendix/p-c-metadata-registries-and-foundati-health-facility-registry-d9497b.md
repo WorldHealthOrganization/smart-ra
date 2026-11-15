@@ -1,0 +1,1 @@
+This embodies the principle of authoritative sources and referential integrity: geographic data should be maintained once in a CGR and referenced by the Health Facility Registry — not duplicated — so that a change in one place propagates correctly to all dependent systems rather than creating divergent copies that need to be manually reconciled.

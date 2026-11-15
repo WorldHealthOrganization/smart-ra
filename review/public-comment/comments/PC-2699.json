@@ -1,0 +1,74 @@
+{
+  "id": "pc-2699",
+  "summary": "Section D.2: Added a short description of the Austrian ELGA alongside the other countries.",
+  "comment": "Section D.2: Added a short description of the Austrian ELGA alongside the other countries.\nInserted in the .docx, as a new country example after the existing ones:\nAustria\nComponents illustrated: LHR, Terminology Service\nAustria operates a national eHealth interoperability infrastructure (elga.gv.at), with ELGA serving as the electronic health record system for its citizens. It enables authorized healthcare professionals to securely access relevant health information across healthcare providers and institutions, while the ELGA Portal provides patients with access to their own health data. ELGA is deployed nationwide, connecting virtually all healthcare providers and pharmacies across Austria. ELGA supports the exchange of information such as discharge letters, laboratory and radiology reports, e-Medication, and e-prescriptions, improving continuity of care and patient safety. The ELGA Terminology Service provides centrally managed medical terminologies, code systems, value sets, and mappings, ensuring semantic interoperability and consistent interpretation of health information across different IT systems.",
+  "createdAt": "2026-10-15T11:14:36.382Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "duplicate",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2699",
+    "source": {
+      "channel": "narrative",
+      "batch": "aut-docx-tracked-changes",
+      "sha256": "4a66493e5b6a602014d69d06fe4f17c6c23fe59e188543c59d510fbe15809be1",
+      "segment": 1,
+      "receivedAt": "2026-10-15T11:14:36.382Z"
+    },
+    "reviewer": {
+      "id": "r-9ae06011b1",
+      "country": "Austria",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "D.2",
+      "raw": "Section D.2: Added a short description of the Austrian ELGA alongside the other countries.\nInserted in the .docx, as a n"
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section D.2 only"
+    },
+    "text": "Section D.2: Added a short description of the Austrian ELGA alongside the other countries.\nInserted in the .docx, as a new country example after the existing ones:\nAustria\nComponents illustrated: LHR, Terminology Service\nAustria operates a national eHealth interoperability infrastructure (elga.gv.at), with ELGA serving as the electronic health record system for its citizens. It enables authorized healthcare professionals to securely access relevant health information across healthcare providers and institutions, while the ELGA Portal provides patients with access to their own health data. ELGA is deployed nationwide, connecting virtually all healthcare providers and pharmacies across Austria. ELGA supports the exchange of information such as discharge letters, laboratory and radiology reports, e-Medication, and e-prescriptions, improving continuity of care and patient safety. The ELGA Terminology Service provides centrally managed medical terminologies, code systems, value sets, and mappings, ensuring semantic interoperability and consistent interpretation of health information across different IT systems.",
+    "assignees": [],
+    "recommendations": [],
+    "duplicateOf": "PC-2662",
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.382Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "aut-docx-tracked-changes"
+      },
+      {
+        "at": "2026-10-30T11:34:08.972Z",
+        "transition": "duplicate",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "Chine-E's rule on folio-assistant#197 (2026-10-15): verbatim repeats are duplicates. AUT's inserted text is word-for-word GDHP's suggested revision; GDHP's copy also carries the footnote."
+      }
+    ]
+  }
+}

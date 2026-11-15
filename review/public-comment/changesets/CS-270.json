@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-270",
+  "title": "State that components are logical capabilities, not products",
+  "requirements": "- Add a note that one platform may realise several components and one component may span systems\n- Say prominently that a component is a logical capability, not a procurement or deployment unit\n- Note that components may be procured together while preserving logical boundaries and interfaces\n- Where one system realises several reference components, require separable services, data ownership and conformance scope\n- Allow centralised, federated or hybrid authoritative arrangements with assigned stewardship and reconciliation\n- Replace 'established once' with wording compatible with federated realisation\n- State the permissible forms of national adaptation (adopt, combine, federate, defer) and emphasise capability coverage over name conformity",
+  "refs": [
+    "PC-0377",
+    "PC-0776",
+    "PC-0781",
+    "PC-0930",
+    "PC-0990",
+    "PC-1107",
+    "PC-1452",
+    "PC-1453",
+    "PC-1455",
+    "PC-1553",
+    "PC-1641"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

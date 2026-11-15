@@ -1,0 +1,75 @@
+{
+  "id": "pc-2696",
+  "summary": "[Chapter 3, The Reference Architecture for DPI-H] 3. Strengthen Reference Architecture, Governance and Conformance The …",
+  "comment": "[Chapter 3, The Reference Architecture for DPI-H] 3. Strengthen Reference Architecture, Governance and Conformance The governance framework and approach to testing and conformance are well developed and address the core dimensions needed to support national digital health transformation. A few areas would nonetheless benefit from further elaboration. In particular, the guidance could:\n• Consider adding a concise visual summary of the progression health goals → capabilities → services → components → data to improve accessibility for policymakers and senior decision-makers.\n• Expand the governance framework to cover financing sustainability, stewardship arrangements, cross-ministerial decision-making (spanning health, finance, digital government, and data protection authorities), and governance approaches for AI-enabled services.\n• Give further attention to the distribution of responsibilities within a country, alongside the treatment of national and regional governance already provided.\n• Consider including examples of regional interoperability ecosystems in addition to national implementations. Regional initiatives can provide useful lessons on governance, trust frameworks, interoperability and cross-border information exchange.\n• Highlight earlier in the document that Semantic Governance Infrastructure is a national capability requiring sustained investment, stewardship, and ongoing operational management. Also, provide practical guidance on progressively establishing semantic governance capabilities, including terminology services, information models, value sets, governance structures, and change- management processes.\n• Identify a minimum viable set of DPI-H capabilities and components for countries beginning their digital health transformation journey, along with guidance on sequencing and dependencies between them.\n• Strengthen the link between the architecture, procurement, and conformance testing, so countries can verify that procured systems meet agreed standards and avoid fragmentation from proprietary approaches.\n• Clarify how national coverage is assessed in countries with layered governance.\n• Clarify the minimum foundational data and semantic capabilities needed before advancing to more sophisticated interoperability and FHIR-based exchange. These points are largely practical in nature, concerned with how the architecture will be understood, implemented, and verified once countries begin to apply it. Addressing them would help ensure that the guidance holds up equally well in centralised and federated governance contexts, and that the mechanisms for building, procuring, and validating DPI-H are as well defined.",
+  "createdAt": "2026-10-15T11:14:36.149Z",
+  "targetLabel": "chap:ch3-the-reference-architecture-for-d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2696",
+    "source": {
+      "channel": "narrative",
+      "batch": "gdhp-letter",
+      "sha256": "3224a0f9c086b1ead974bdd01dcd0e4bef33d27ee095c0dde6f1a01a498ef806",
+      "segment": 4,
+      "receivedAt": "2026-10-15T11:14:36.149Z"
+    },
+    "reviewer": {
+      "id": "r-8eb63f38b6",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3",
+      "raw": "[Chapter 3, The Reference Architecture for DPI-H] 3. Strengthen Reference Architecture, Governance and Conformance The g"
+    },
+    "anchor": {
+      "targetLabel": "chap:ch3-the-reference-architecture-for-d",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 3: reference architecture, governance and conformance, chapter 3"
+    },
+    "text": "[Chapter 3, The Reference Architecture for DPI-H] 3. Strengthen Reference Architecture, Governance and Conformance The governance framework and approach to testing and conformance are well developed and address the core dimensions needed to support national digital health transformation. A few areas would nonetheless benefit from further elaboration. In particular, the guidance could:\n• Consider adding a concise visual summary of the progression health goals → capabilities → services → components → data to improve accessibility for policymakers and senior decision-makers.\n• Expand the governance framework to cover financing sustainability, stewardship arrangements, cross-ministerial decision-making (spanning health, finance, digital government, and data protection authorities), and governance approaches for AI-enabled services.\n• Give further attention to the distribution of responsibilities within a country, alongside the treatment of national and regional governance already provided.\n• Consider including examples of regional interoperability ecosystems in addition to national implementations. Regional initiatives can provide useful lessons on governance, trust frameworks, interoperability and cross-border information exchange.\n• Highlight earlier in the document that Semantic Governance Infrastructure is a national capability requiring sustained investment, stewardship, and ongoing operational management. Also, provide practical guidance on progressively establishing semantic governance capabilities, including terminology services, information models, value sets, governance structures, and change- management processes.\n• Identify a minimum viable set of DPI-H capabilities and components for countries beginning their digital health transformation journey, along with guidance on sequencing and dependencies between them.\n• Strengthen the link between the architecture, procurement, and conformance testing, so countries can verify that procured systems meet agreed standards and avoid fragmentation from proprietary approaches.\n• Clarify how national coverage is assessed in countries with layered governance.\n• Clarify the minimum foundational data and semantic capabilities needed before advancing to more sophisticated interoperability and FHIR-based exchange. These points are largely practical in nature, concerned with how the architecture will be understood, implemented, and verified once countries begin to apply it. Addressing them would help ensure that the guidance holds up equally well in centralised and federated governance contexts, and that the mechanisms for building, procuring, and validating DPI-H are as well defined.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.149Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-letter"
+      },
+      {
+        "at": "2026-10-15T11:15:03.812Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 3: reference architecture, governance and conformance, chapter 3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0745",
+  "summary": "The counterweight to \"capture once, use many times\" is missing where it is introduced. REDDHI is Resilient Essential Da…",
+  "comment": "The counterweight to \"capture once, use many times\" is missing where it is introduced. REDDHI is Resilient Essential Data; \"Essential\" now governs only the floor (data that must exist). We suggest extending it to the ceiling too — capturing and sharing only what is essential, minimised at source. Principle VIII already makes minimisation the default \"with any departure justified\" (p.34); the goals narrative and the central-pull data flows read as unjustified departures. We recommend naming minimisation, purpose-limitation, and need-based disclosure in the \"Governed well\" framing, and preferring minimisation at source.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0745",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 745,
+      "entry": "744",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§1.5 \"Governed well\" (p.21); principle VIII (p.34)",
+      "lines": "C7",
+      "raw": "§§1.5 \"Governed well\" (p.21); principle VIII (p.34) l.C7"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-5",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 1.5 only"
+    },
+    "text": "The counterweight to \"capture once, use many times\" is missing where it is introduced. REDDHI is Resilient Essential Data; \"Essential\" now governs only the floor (data that must exist). We suggest extending it to the ceiling too — capturing and sharing only what is essential, minimised at source. Principle VIII already makes minimisation the default \"with any departure justified\" (p.34); the goals narrative and the central-pull data flows read as unjustified departures. We recommend naming minimisation, purpose-limitation, and need-based disclosure in the \"Governed well\" framing, and preferring minimisation at source.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 745"
+      }
+    ]
+  }
+}

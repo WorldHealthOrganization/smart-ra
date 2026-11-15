@@ -1,0 +1,83 @@
+{
+  "id": "pc-0589",
+  "summary": "Row 19 calls the implementation approach \"outstanding\" and endorses WHO providing the blueprint while national organisa…",
+  "comment": "Row 19 calls the implementation approach \"outstanding\" and endorses WHO providing the blueprint while national organisations design their own architecture. Row 32 says the approach is too top-down and national authorities should be involved in shaping implementation. Both are submitted as separate numbered comments and WHO reviewers will read them as inconsistent.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0589",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 589,
+      "entry": "588",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Rows 19 and 32 (comments 9 and 22)",
+      "page": "Two comments contradict each other",
+      "raw": "§Rows 19 and 32 (comments 9 and 22) p.Two comments contradict each other"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note about two contradictory rows in the submission."
+    },
+    "text": "Row 19 calls the implementation approach \"outstanding\" and endorses WHO providing the blueprint while national organisations design their own architecture. Row 32 says the approach is too top-down and national authorities should be involved in shaping implementation. Both are submitted as separate numbered comments and WHO reviewers will read them as inconsistent.",
+    "suggestedRevision": "(a) Merge into one comment — endorse the division of responsibility but ask that national authorities be engaged in shaping the implementation plan rather than receiving it; (b) keep row 19 and drop row 32; (c) keep row 32 and drop row 19. Option (a) is recommended as it preserves both points without contradiction.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 589"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note about two contradictory rows in the submission."
+      }
+    ]
+  }
+}

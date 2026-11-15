@@ -1,0 +1,77 @@
+{
+  "id": "pc-1515",
+  "summary": "The requirement again uses “pseudo-anonymised.” In addition, generating pseudonymous identifiers within the Client Regi…",
+  "comment": "The requirement again uses “pseudo-anonymised.” In addition, generating pseudonymous identifiers within the Client Registry may create a central linkability service whose misuse could enable broad surveillance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-client-registry-ee69c2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1515",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 751,
+      "entry": "750",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, 5",
+      "page": "120",
+      "lines": "Requirement 18",
+      "raw": "§Client Registry, 5 p.120 l.Requirement 18"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-client-registry-ee69c2",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.120 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "The requirement again uses “pseudo-anonymised.” In addition, generating pseudonymous identifiers within the Client Registry may create a central linkability service whose misuse could enable broad surveillance.",
+    "suggestedRevision": "Use “pseudonymised” and require strict separation, access controls, purpose-specific pseudonyms, authorised linkage processes, key governance, and re-identification safeguards.",
+    "labels": {
+      "Comment type": "Q14 - Technical accuracy"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 751"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-199",
+  "title": "Describe each listed tool with dated attributes and capability coverage",
+  "requirements": "- Add per-tool fields: supported standards/profiles, conformance evidence, version and date assessed\n- For client-registry tools, distinguish registration, matching, deduplication and inclusive-registration support\n- Replace narrow HMIS/PHSP listings with a platform-level entry mapped to the capabilities it can co-realise\n- Distinguish terminology servers from model-governance tools such as CKM\n- Add a reference table mapping tools such as ODK, CommCare and OpenSRP to components\n- Add an illustrative tool example for the Benefits Package Registry\n- Add licensing (software and content), maintainership/governance and support model\n- For LHR repositories, identify supported LHR capabilities and that access-control/consent need deployment assessment",
+  "refs": [
+    "PC-0402",
+    "PC-0528",
+    "PC-0654",
+    "PC-2073",
+    "PC-2074",
+    "PC-2075",
+    "PC-2080",
+    "PC-2081",
+    "PC-2082",
+    "PC-2083",
+    "PC-2084",
+    "PC-2085",
+    "PC-2086",
+    "PC-2087",
+    "PC-2088",
+    "PC-2093",
+    "PC-2094",
+    "PC-2098",
+    "PC-2099",
+    "PC-2100"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 20 comment(s)"
+    }
+  ]
+}

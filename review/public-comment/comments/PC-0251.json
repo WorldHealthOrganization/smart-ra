@@ -1,0 +1,78 @@
+{
+  "id": "pc-0251",
+  "summary": "The draft uses “minimum”, “core”, “foundational core”, “shared”, “minimum viable foundation”, “canonical minimum data s…",
+  "comment": "The draft uses “minimum”, “core”, “foundational core”, “shared”, “minimum viable foundation”, “canonical minimum data set” and “minimum conformance” for different kinds of concepts. These can refer to implementation feasibility, architectural centrality, shared reuse, mandatory data content or semantic necessity, but the distinctions are not defined. This may lead countries to interpret a minimum technical baseline as sufficient even where essential meaning or safety is lost.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-b7d6bd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0251",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 251,
+      "entry": "250",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary; 2.2.1; 4.3.1",
+      "page": "2; 27–28; 94–95",
+      "lines": "Registry definition; 118–137; 248–273",
+      "raw": "§Glossary; 2.2.1; 4.3.1 p.2; 27–28; 94–95 l.Registry definition; 118–137; 248–273"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-b7d6bd",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "editorial",
+    "text": "The draft uses “minimum”, “core”, “foundational core”, “shared”, “minimum viable foundation”, “canonical minimum data set” and “minimum conformance” for different kinds of concepts. These can refer to implementation feasibility, architectural centrality, shared reuse, mandatory data content or semantic necessity, but the distinctions are not defined. This may lead countries to interpret a minimum technical baseline as sufficient even where essential meaning or safety is lost.",
+    "suggestedRevision": "Add a short terminology box distinguishing: (a) minimum implementation baseline; (b) core capability or component; (c) shared core intended for reuse across programmes or systems; (d) minimum semantic core- the least meaning and relationships that must not be lost; (e) bounded core with inclusion, exclusion and governance rules; and (f) extensible framework allowing controlled national, professional and local extensions. Clarify that data minimisation asks what need not be collected, whereas a minimum semantic core asks what meaning must not be lost.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 251"
+      }
+    ]
+  }
+}

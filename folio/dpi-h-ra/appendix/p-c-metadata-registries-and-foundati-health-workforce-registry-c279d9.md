@@ -1,0 +1,5 @@
+- Clinical systems can verify prescribing authority, referral eligibility, and facility-level staffing at point of care.
+- Health coverage schemes and claims management systems can use the registry to confirm that a provider submitting a claim is legitimately registered and affiliated with the relevant facility.
+- Payroll and incentive payment systems can use it to validate worker eligibility before disbursement.
+- Health workforce planning and analytics systems can draw on it to produce supply-side workforce indicators.
+- Learning management systems can reference it to track CPD completion and update qualification records.

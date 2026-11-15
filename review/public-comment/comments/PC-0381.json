@@ -1,0 +1,81 @@
+{
+  "id": "pc-0381",
+  "summary": "Although described as adaptable, the phases remain infrastructure-first and largely waterfall. The DHIS2/HISP experienc…",
+  "comment": "Although described as adaptable, the phases remain infrastructure-first and largely waterfall. The DHIS2/HISP experience demonstrates a different pathway: start from an immediate information-use problem; configure a minimum solution on a generic platform; implement in real work; learn through action research; and progressively generalise metadata, workflows and software. This is our experience how a platform grows from a useful local system into national infrastructure.\n\nIt could be argued that DPI-H evolution is different than RHIS, in that there is not a specific high-priority health data use case to target, but rather foundational functionalities with cross-cutting purposes. However, the \"phased implementation\" piecemeal approach could still be problem-oriented -- what have been the thorniest health problems to date, what would be quick wins, are there small foundational DPI-H investments that could show short-term results? This would reinforce the coalition of supporters over 2+ years to Phase 4, and also ties in with the \"priority health goals\" identified in 4.1",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-1-f13e61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0381",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 381,
+      "entry": "380",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2",
+      "page": "89–92",
+      "lines": "63–197",
+      "raw": "§4.2 p.89–92 l.63–197"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-1-f13e61",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-1-0863d3",
+        "prose:4-2-1-39b7e0"
+      ],
+      "note": "p.89–92 l.63–197 read as the printed page; section 4.2 agrees"
+    },
+    "type": "general",
+    "text": "Although described as adaptable, the phases remain infrastructure-first and largely waterfall. The DHIS2/HISP experience demonstrates a different pathway: start from an immediate information-use problem; configure a minimum solution on a generic platform; implement in real work; learn through action research; and progressively generalise metadata, workflows and software. This is our experience how a platform grows from a useful local system into national infrastructure.\n\nIt could be argued that DPI-H evolution is different than RHIS, in that there is not a specific high-priority health data use case to target, but rather foundational functionalities with cross-cutting purposes. However, the \"phased implementation\" piecemeal approach could still be problem-oriented -- what have been the thorniest health problems to date, what would be quick wins, are there small foundational DPI-H investments that could show short-term results? This would reinforce the coalition of supporters over 2+ years to Phase 4, and also ties in with the \"priority health goals\" identified in 4.1",
+    "suggestedRevision": "Recast phases as iterative platform-building cycles: priority decision/use case → participatory configuration → minimum usable deployment → routine use and support → mixed-method evaluation → metadata/software adaptation → capacity transfer → scale or stop decision. In EP2 and EP3, explicitly allow existing platforms to be extended with new programmes and capabilities in each cycle.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 381"
+      }
+    ]
+  }
+}

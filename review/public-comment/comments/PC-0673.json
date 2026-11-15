@@ -1,0 +1,83 @@
+{
+  "id": "pc-0673",
+  "summary": "Context assumptions: Prevent National Implementation Guidance from Recreating Fragmentation",
+  "comment": "Context assumptions: Prevent National Implementation Guidance from Recreating Fragmentation\n\nThe primary concern arises as the draft moves from the global reference architecture to national implementation. Sections 3.6.2 and 4.3 state that standards selection and binding are made nationally and that countries should define minimum data models, actors, roles, services, transactions, and FHIR-based profiles. National governance is indispensable, but these passages could be interpreted as inviting every country to create its own technical specifications for requirements that are fundamentally shared across borders.\n\nThat approach would risk producing different national interpretations of the same base standards, duplicative specification and testing costs, country-by-country customization for suppliers, reduced portability of solutions, and new barriers to regional and cross-border exchange. It would also impose the greatest burden on countries with the fewest standards-development and testing resources. In practical terms, it could propagate the 'interoperable silos' that the draft itself correctly warns against. This also impacts the ability for the industry to consistently implement the specifications across different jurisdictions and for the national authorities to provide coordinated test beds to validate such implementations (e.g. at IHE Connectathons, or through Projectathons).\n\nNational programs should retain authority over law, policy, governance, consent, language, terminology localization, implementation validation, procurement, and truly jurisdiction-specific workflows. They should not independently redefine reusable actors, transactions, APIs, security patterns, or information structures and terminologies when suitable international specifications already exist. Local requirements should be implemented as governed extensions to a common international core, with clear provenance, versioning, and conformance rules.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0673",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 673,
+      "entry": "672",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Concern about national profile/specification guidance; cites 3.6.2 and 4.3, chiefly 4.3."
+    },
+    "type": "general",
+    "text": "Context assumptions: Prevent National Implementation Guidance from Recreating Fragmentation\n\nThe primary concern arises as the draft moves from the global reference architecture to national implementation. Sections 3.6.2 and 4.3 state that standards selection and binding are made nationally and that countries should define minimum data models, actors, roles, services, transactions, and FHIR-based profiles. National governance is indispensable, but these passages could be interpreted as inviting every country to create its own technical specifications for requirements that are fundamentally shared across borders.\n\nThat approach would risk producing different national interpretations of the same base standards, duplicative specification and testing costs, country-by-country customization for suppliers, reduced portability of solutions, and new barriers to regional and cross-border exchange. It would also impose the greatest burden on countries with the fewest standards-development and testing resources. In practical terms, it could propagate the 'interoperable silos' that the draft itself correctly warns against. This also impacts the ability for the industry to consistently implement the specifications across different jurisdictions and for the national authorities to provide coordinated test beds to validate such implementations (e.g. at IHE Connectathons, or through Projectathons).\n\nNational programs should retain authority over law, policy, governance, consent, language, terminology localization, implementation validation, procurement, and truly jurisdiction-specific workflows. They should not independently redefine reusable actors, transactions, APIs, security patterns, or information structures and terminologies when suitable international specifications already exist. Local requirements should be implemented as governed extensions to a common international core, with clear provenance, versioning, and conformance rules.",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 673"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Concern about national profile/specification guidance; cites 3.6.2 and 4.3, chiefly 4.3."
+      }
+    ]
+  }
+}

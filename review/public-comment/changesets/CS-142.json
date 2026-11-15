@@ -1,0 +1,23 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-142",
+  "title": "Treat biometrics and photos as high-risk optional identity mechanisms",
+  "requirements": "- Separate identity resolution, verification, authentication and biometric matching, and say which the registry provides\n- Require legal authority, necessity, proportionality, accuracy/equity testing and alternative pathways for biometrics and photos\n- Correct the description of PKI: it verifies signatures and integrity, not biometrics or identity correctness",
+  "refs": [
+    "PC-1471",
+    "PC-1472",
+    "PC-1491",
+    "PC-1539"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 4 comment(s)"
+    }
+  ]
+}

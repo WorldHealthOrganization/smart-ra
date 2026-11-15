@@ -1,0 +1,80 @@
+{
+  "id": "pc-0439",
+  "summary": "Lines 315–321 appropriately distinguish the authoritative, technology-independent logical model from its FHIR represent…",
+  "comment": "Lines 315–321 appropriately distinguish the authoritative, technology-independent logical model from its FHIR representation. However, the subsequent recommendation to align underlying data models with FHIR resource structures may be interpreted as suggesting that the canonical semantic model should mirror the FHIR resource model. At national scale, this could create representation lock-in and make support for alternative exchange, analytical or persistence models more costly.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-3-ab95cd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0439",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 439,
+      "entry": "438",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6b6371c862",
+      "name": "Somayeh Abedian",
+      "organisation": "1. Ludwig Boltzmann Institute for Digital Health and Prevention, Salzburg, Austria\n2. Institute of Health Policy, Management and Evaluation, Dalla Lana School of Public Health, University of Toronto, Canada\n3. Ministry of Health and Medical Education of Iran (Former deputy director  at statistics and Information Technology Center- eHealth center/Unpaid leave for research)",
+      "country": "Austria",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.3",
+      "page": "96",
+      "lines": "315–321;and the subsequent discussion of FHIR-based implementation profiles on pp. 331–338",
+      "raw": "§4.3.3 p.96 l.315–321;and the subsequent discussion of FHIR-based implementation profiles on pp. 331–338"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-3-ab95cd",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-3-3-99c0e8"
+      ],
+      "note": "p.96 l.315–321;and the subsequent discussion of FHIR-based implementation profiles on pp. 331–338 read as the printed page; section 4.3.3 agrees"
+    },
+    "type": "technical",
+    "text": "Lines 315–321 appropriately distinguish the authoritative, technology-independent logical model from its FHIR representation. However, the subsequent recommendation to align underlying data models with FHIR resource structures may be interpreted as suggesting that the canonical semantic model should mirror the FHIR resource model. At national scale, this could create representation lock-in and make support for alternative exchange, analytical or persistence models more costly.",
+    "suggestedRevision": "Retain FHIR as the recommended exchange framework, but clarify that FHIR readiness means preserving FHIR-mappable semantics and constraints, rather than requiring the canonical logical model to mirror FHIR resources. Define governed mappings or projections from the technology-independent model to FHIR profiles, with stable semantic identifiers, terminology bindings and mapping rules serving as the durable interoperability contract.\n\nThis distinction between the canonical, technology-independent model and its FHIR representation also underlies the semantic-provenance requirement proposed for the Lifelong Health Record (see comment 3).",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 439"
+      }
+    ]
+  }
+}

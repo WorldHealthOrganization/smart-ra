@@ -1,0 +1,77 @@
+{
+  "id": "pc-0964",
+  "summary": "The final sentence contains the fragment “person-centred that,” indicating an unfinished editing error.",
+  "comment": "The final sentence contains the fragment “person-centred that,” indicating an unfinished editing error.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0964",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 200,
+      "entry": "199",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1",
+      "page": "67",
+      "lines": "Lines 646-650",
+      "raw": "§3.5.3.1 p.67 l.Lines 646-650"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.67 l.Lines 646-650 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "text": "The final sentence contains the fragment “person-centred that,” indicating an unfinished editing error.",
+    "suggestedRevision": "Delete the fragment and proofread the paragraph before publication.",
+    "labels": {
+      "Comment type": "Q14 - Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 200"
+      }
+    ]
+  }
+}

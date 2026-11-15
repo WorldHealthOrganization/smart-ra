@@ -1,0 +1,79 @@
+{
+  "id": "pc-1004",
+  "summary": "The text repeatedly warns that a central bus creates a single point of control or failure. A properly engineered centra…",
+  "comment": "The text repeatedly warns that a central bus creates a single point of control or failure. A properly engineered central or clustered service can provide redundancy, governance, and consistent enforcement, while distributed architectures can also concentrate control through central trust services or registries.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-1-551cd7",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1004",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 240,
+      "entry": "239",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.1",
+      "page": "73",
+      "lines": "Lines 768-788",
+      "raw": "§3.6.1 p.73 l.Lines 768-788"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-1-551cd7",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-6-1-b8a5b2"
+      ],
+      "note": "p.73 l.Lines 768-788 read as the printed page; section 3.6.1 agrees"
+    },
+    "text": "The text repeatedly warns that a central bus creates a single point of control or failure. A properly engineered central or clustered service can provide redundancy, governance, and consistent enforcement, while distributed architectures can also concentrate control through central trust services or registries.",
+    "suggestedRevision": "Present the risks as design-dependent rather than inherent. Compare centralised, distributed, and hybrid patterns using governance, resilience, scalability, observability, security, cost, and operational-capacity criteria.",
+    "labels": {
+      "Comment type": "Q8 - Interoperability and semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 240"
+      }
+    ]
+  }
+}

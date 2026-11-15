@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p054-10",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p054-10.png",
+  "pageStart": 54,
+  "pageEnd": 54,
+  "narrative": [
+    {
+      "text": "The ArchiMate notation for the 'Product' element: a yellow (business) box labelled 'Product' with its type icon in the corner, as drawn in Archi. One row of Table 3.1, which lists the element types the reference architecture uses.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "La notation ArchiMate de l'élément « Product » : une boîte jaune (métier) intitulée « Product » avec l'icône de son type dans le coin, telle que dessinée dans Archi. Une ligne du tableau 3.1, qui énumère les types d'éléments utilisés par l'architecture de référence.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "La notación ArchiMate del elemento «Product»: un recuadro amarillo (negocio) con la etiqueta «Product» y el icono de su tipo en la esquina, tal como se dibuja en Archi. Una fila de la tabla 3.1, que enumera los tipos de elementos que utiliza la arquitectura de referencia.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "ترميز ArchiMate للعنصر «Product»: مربع أصفر (الأعمال) يحمل التسمية «Product» مع أيقونة نوعه في الزاوية، كما يُرسم في Archi. صف واحد من الجدول 3.1 الذي يسرد أنواع العناصر التي تستخدمها البنية المرجعية.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Нотация ArchiMate для элемента «Product»: жёлтый блок (бизнес) с подписью «Product» и значком его типа в углу, как он изображается в Archi. Одна строка таблицы 3.1, в которой перечислены типы элементов, используемые эталонной архитектурой.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "ArchiMate 中“Product”元素的表示法：一个标有“Product”的黄色（业务）方框，角上带有其类型图标，按 Archi 中的画法绘制。这是表 3.1 中的一行，该表列出了参考架构所使用的元素类型。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

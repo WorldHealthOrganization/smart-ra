@@ -1,0 +1,71 @@
+{
+  "id": "pc-0723",
+  "summary": "1. The WHO Nomenclature Regulations, and the Member State obligations they create for mortality and morbidity reporting…",
+  "comment": "1. The WHO Nomenclature Regulations, and the Member State obligations they create for mortality and morbidity reporting, are not referenced anywhere; the use of classifications is framed throughout as an elective national standards choice (p. 73).\n\n2. The first health goal promises \"population analytics including CRVS and mortality\" (p. 22), yet the document contains no death certification or cause-of-death coding pathway — the phrase \"cause of death\" does not occur in its 254 pages.\n\n3. A Required Terminology Service capability calls for the import of \"local modifications of ICD and SNOMED CT\" (TSF-1, p. 167). Modification of the international content is not permitted under either standard's licence and would undermine comparability; national extension and addition are the correct concepts.\n\n4. ICHI does not appear in the document; ICF appears twice in passing; WHO-FIC once. The ICD-11 delivery infrastructure (API, coding tool), the annual update cycle, and the cost-free availability of the WHO classifications are not mentioned, while the licensing arrangements of other terminologies are described in some detail (pp. 20, 165, 171).\n\n5. The AI chapter grounds trustworthy AI in governed terminology but does not consider knowledge-graph representations — the model on which the ICD-11 Foundation is built. The draft nowhere references the WHO Nomenclature Regulations or the Member State obligations they create — classification use is framed throughout as elective national standards selection. A floor for Member States should include the obligations Member States already stand on. TS requirement TSF-1 makes \"local modifications of ICD and SNOMED CT\" a Required import capability — something neither license permits, and which would compromise the statistical comparability the architecture promises. This is easily addressed with extension and national-addition language. Goal 1 promises \"population analytics including CRVS and mortality,\" yet the document contains no death certification or cause-of-death coding pathway; the phrase \"cause of death\" does not occur in its 254 pages.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-69f4a6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0723",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 723,
+      "entry": "722",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-09281406bc",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-69f4a6",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "1. The WHO Nomenclature Regulations, and the Member State obligations they create for mortality and morbidity reporting, are not referenced anywhere; the use of classifications is framed throughout as an elective national standards choice (p. 73).\n\n2. The first health goal promises \"population analytics including CRVS and mortality\" (p. 22), yet the document contains no death certification or cause-of-death coding pathway — the phrase \"cause of death\" does not occur in its 254 pages.\n\n3. A Required Terminology Service capability calls for the import of \"local modifications of ICD and SNOMED CT\" (TSF-1, p. 167). Modification of the international content is not permitted under either standard's licence and would undermine comparability; national extension and addition are the correct concepts.\n\n4. ICHI does not appear in the document; ICF appears twice in passing; WHO-FIC once. The ICD-11 delivery infrastructure (API, coding tool), the annual update cycle, and the cost-free availability of the WHO classifications are not mentioned, while the licensing arrangements of other terminologies are described in some detail (pp. 20, 165, 171).\n\n5. The AI chapter grounds trustworthy AI in governed terminology but does not consider knowledge-graph representations — the model on which the ICD-11 Foundation is built. The draft nowhere references the WHO Nomenclature Regulations or the Member State obligations they create — classification use is framed throughout as elective national standards selection. A floor for Member States should include the obligations Member States already stand on. TS requirement TSF-1 makes \"local modifications of ICD and SNOMED CT\" a Required import capability — something neither license permits, and which would compromise the statistical comparability the architecture promises. This is easily addressed with extension and national-addition language. Goal 1 promises \"population analytics including CRVS and mortality,\" yet the document contains no death certification or cause-of-death coding pathway; the phrase \"cause of death\" does not occur in its 254 pages.",
+    "labels": {
+      "TWG consideration? AI categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 723"
+      }
+    ]
+  }
+}

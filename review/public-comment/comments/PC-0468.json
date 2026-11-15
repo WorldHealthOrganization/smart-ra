@@ -1,0 +1,81 @@
+{
+  "id": "pc-0468",
+  "summary": "Impact assessment is framed around goal achievement and omits continuity, the property that distinguishes infrastructur…",
+  "comment": "Impact assessment is framed around goal achievement and omits continuity, the property that distinguishes infrastructure from a project. A country can meet every coverage and conformance target while each capability remains one funding decision away from disappearing.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-4-1-bec231",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0468",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 468,
+      "entry": "467",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.4.1",
+      "page": "99",
+      "lines": "427",
+      "raw": "§4.4.1 p.99 l.427"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-4-1-bec231",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-4-1-6e4c80",
+        "prose:4-4-1-a1fc1f"
+      ],
+      "note": "p.99 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "Impact assessment is framed around goal achievement and omits continuity, the property that distinguishes infrastructure from a project. A country can meet every coverage and conformance target while each capability remains one funding decision away from disappearing.",
+    "suggestedRevision": "Add continuity indicators: the proportion of essential functions with a designated holder; the proportion with a tested transfer plan; the proportion funded from a recurrent rather than project source; and the number of capabilities discontinued in the reporting period. The last is the most informative and the least often reported.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 468"
+      }
+    ]
+  }
+}

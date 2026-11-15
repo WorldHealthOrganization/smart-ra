@@ -1,0 +1,35 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-265",
+  "title": "Clarify FHIR's role relative to the logical model and technology neutrality",
+  "requirements": "- State FHIR is recommended for relevant health-information exchange, with other standards where more suitable\n- Clarify that FHIR readiness means FHIR-mappable semantics, not internal structures mirroring FHIR\n- Present standards by purpose/artefact type, with governance and licensing noted\n- Describe FHIR as a recommended standard within a broader portfolio, with stated versions and national profiles\n- Explain how technology neutrality coexists with standards endorsement\n- Present derivation from logical models as the preferred approach, not a property of all profiling\n- State that the list is illustrative; include information-model formalisms (e.g. openEHR) and other relevant standards (UCUM, CDA, HL7 v2)\n- Explain the complementary role of IHE profiles for end-to-end workflows",
+  "refs": [
+    "PC-0070",
+    "PC-0385",
+    "PC-0439",
+    "PC-0550",
+    "PC-0678",
+    "PC-0750",
+    "PC-0941",
+    "PC-0977",
+    "PC-1011",
+    "PC-1012",
+    "PC-1013",
+    "PC-1223",
+    "PC-1224",
+    "PC-1225",
+    "PC-1227",
+    "PC-1230"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

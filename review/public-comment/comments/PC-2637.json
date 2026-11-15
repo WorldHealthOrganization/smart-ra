@@ -1,0 +1,73 @@
+{
+  "id": "pc-2637",
+  "summary": "The objective of eliminating unnecessary duplicate data entry is strongly supported, but “captured once” should not be …",
+  "comment": "The objective of eliminating unnecessary duplicate data entry is strongly supported, but “captured once” should not be formulated as an unconditional rule applying to all health information. Clinical information may legitimately be generated, verified or recorded by different actors at different points in a care pathway, and provenance must be preserved. The principle is most directly applicable to authoritative reference data and to avoiding duplicate administrative/reporting collection. Similarly, data collected for one purpose cannot automatically be made available “wherever it is needed”; reuse remains subject to lawfulness, purpose limitation, data minimisation and other applicable safeguards. Finally, “consent and permissions” should not imply that consent is always the relevant legal basis. Under the GDPR, health data may also be processed for healthcare delivery and management, substantial public interest, public health, research and statistical purposes under defined conditions.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:1-5-84e1dc",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2637",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 15,
+      "entry": "5",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.5 The Seven Priority Health Sector Goals",
+      "page": "21",
+      "lines": "429-432",
+      "raw": "§1.5 The Seven Priority Health Sector Goals p.21 l.429-432"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-84e1dc",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.21 l.429-432 read as the printed page; section 1.5 agrees"
+    },
+    "type": "technical",
+    "text": "The objective of eliminating unnecessary duplicate data entry is strongly supported, but “captured once” should not be formulated as an unconditional rule applying to all health information. Clinical information may legitimately be generated, verified or recorded by different actors at different points in a care pathway, and provenance must be preserved. The principle is most directly applicable to authoritative reference data and to avoiding duplicate administrative/reporting collection. Similarly, data collected for one purpose cannot automatically be made available “wherever it is needed”; reuse remains subject to lawfulness, purpose limitation, data minimisation and other applicable safeguards. Finally, “consent and permissions” should not imply that consent is always the relevant legal basis. Under the GDPR, health data may also be processed for healthcare delivery and management, substantial public interest, public health, research and statistical purposes under defined conditions.",
+    "suggestedRevision": "Replace with: “At the heart of the architecture is the principle that, where an authoritative source exists and reuse is appropriate, data should not need to be captured repeatedly solely because systems are unable to exchange it. Authoritative data should be governed well and made available for lawful, necessary and proportionate uses under the applicable access, data-protection and governance framework.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 15"
+      }
+    ]
+  }
+}

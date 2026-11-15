@@ -1,0 +1,81 @@
+{
+  "id": "pc-0556",
+  "summary": "In answer to the consultation question on applicability across income settings, the Ministry offers the following about…",
+  "comment": "In answer to the consultation question on applicability across income settings, the Ministry offers the following about the limits of its own experience. Slovenia's ability to mandate a single national information model rests on conditions not universally available: statutory authority to require participation by all providers including private ones, a single payer, a national identity infrastructure already in place, and a population small enough for one editorial authority to govern one model. Countries without these will need different governance instruments to reach the same outcome, and the guidance should not imply that mandate is the only route. We would note, however, that the underlying recommendation is not weaker in constrained settings but stronger: a ministry with a small architecture team gains more from adapting an internationally curated, openly published model library than from authoring national specifications from first principles, which is the capability described at page 174 lines 104–108.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-971416",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0556",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 556,
+      "entry": "555",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.1 No Country Starts from Zero / 4.1.2 Assessing Where You Are",
+      "page": "88",
+      "lines": "14–33",
+      "raw": "§4.1.1 No Country Starts from Zero / 4.1.2 Assessing Where You Are p.88 l.14–33"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-971416",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-1-2-c9bb04",
+        "prose:4-1-1-237a78"
+      ],
+      "note": "p.88 l.14–33 read as the printed page; section 4.1.1 agrees"
+    },
+    "type": "general",
+    "text": "In answer to the consultation question on applicability across income settings, the Ministry offers the following about the limits of its own experience. Slovenia's ability to mandate a single national information model rests on conditions not universally available: statutory authority to require participation by all providers including private ones, a single payer, a national identity infrastructure already in place, and a population small enough for one editorial authority to govern one model. Countries without these will need different governance instruments to reach the same outcome, and the guidance should not imply that mandate is the only route. We would note, however, that the underlying recommendation is not weaker in constrained settings but stronger: a ministry with a small architecture team gains more from adapting an internationally curated, openly published model library than from authoring national specifications from first principles, which is the capability described at page 174 lines 104–108.",
+    "suggestedRevision": "Add to the assessment questions at line 34 onward a fourth consideration: \"what statutory, contractual or financing instruments are available to the authority to require conformance to shared specifications, given that few countries can rely on mandate alone\". And add to 4.5.3 a sentence noting that adaptation of internationally curated models is generally less demanding of national capacity than de novo specification.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 556"
+      }
+    ]
+  }
+}

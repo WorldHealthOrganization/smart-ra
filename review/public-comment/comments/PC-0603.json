@@ -1,0 +1,82 @@
+{
+  "id": "pc-0603",
+  "summary": "Overall impression: I am so pleased to see the multi-stated and emphasised need for a true semantic data model as part …",
+  "comment": "Overall impression: I am so pleased to see the multi-stated and emphasised need for a true semantic data model as part of the interoperability framework, while also recognising no such thing exists yet, although open standard syntactic models and vocab models do which are great starting points to build on.\nBUT, and it's a big but. When I looked for the patient-centred views of the system architecture i found very little evidence, except references to consent management and access rights control, all of which use language that assume a centrally managed method.  These are peripheral to an incredibly powerful perspective that this organisation centred view completely ignores. This model assumes an organisation first model for information management. While the data models defined and infrastructure models outlined could be utilised in a patient EMPOWERING way, the underlying theme is of a traditional org first IT style information management model. Patient empowerment in their information management is incredibly powerful as a means to deploy the infrastructure and data models you outline. Yet for a DPI for health, you miss any form of decentralised control model for information sharing, which can and should be an 'and also' mechanism for information flows, especially in countries either with highly decentralised health systems, or those, very common, legacy, highly fragmented care systems at the delivery edge made up of charities, private sector and publicly funded services.  The integration and governance burdens for small agile care providers are crushed by this reference architecture you have defined.  You have outlined many of the architecture components, it would not take much to give a nod to the need for decentralised models as an integral to this monolithic style organisational first model you have defined.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0603",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 603,
+      "entry": "602",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-628a8ce3a5",
+      "name": "Geoff Revill",
+      "organisation": "Safe Space One Ltd",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression on patient-centred views."
+    },
+    "type": "general",
+    "text": "Overall impression: I am so pleased to see the multi-stated and emphasised need for a true semantic data model as part of the interoperability framework, while also recognising no such thing exists yet, although open standard syntactic models and vocab models do which are great starting points to build on.\nBUT, and it's a big but. When I looked for the patient-centred views of the system architecture i found very little evidence, except references to consent management and access rights control, all of which use language that assume a centrally managed method.  These are peripheral to an incredibly powerful perspective that this organisation centred view completely ignores. This model assumes an organisation first model for information management. While the data models defined and infrastructure models outlined could be utilised in a patient EMPOWERING way, the underlying theme is of a traditional org first IT style information management model. Patient empowerment in their information management is incredibly powerful as a means to deploy the infrastructure and data models you outline. Yet for a DPI for health, you miss any form of decentralised control model for information sharing, which can and should be an 'and also' mechanism for information flows, especially in countries either with highly decentralised health systems, or those, very common, legacy, highly fragmented care systems at the delivery edge made up of charities, private sector and publicly funded services.  The integration and governance burdens for small agile care providers are crushed by this reference architecture you have defined.  You have outlined many of the architecture components, it would not take much to give a nod to the need for decentralised models as an integral to this monolithic style organisational first model you have defined.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 603"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression on patient-centred views."
+      }
+    ]
+  }
+}

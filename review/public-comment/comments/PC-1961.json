@@ -1,0 +1,86 @@
+{
+  "id": "pc-1961",
+  "summary": "The requirements do not clearly distinguish deterministic rules, statistical models, and AI-based decision support.",
+  "comment": "The requirements do not clearly distinguish deterministic rules, statistical models, and AI-based decision support.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-business-services-components-computable-decision-support-engi-4b7f45",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1961",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1197,
+      "entry": "1196",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "CDSE, 5",
+      "page": "179-181",
+      "lines": "Requirements table",
+      "raw": "§CDSE, 5 p.179-181 l.Requirements table"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-business-services-components-computable-decision-support-engi-4b7f45",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-business-services-components-computable-decision-support-engi"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): CDSE functional requirements table."
+    },
+    "text": "The requirements do not clearly distinguish deterministic rules, statistical models, and AI-based decision support.",
+    "suggestedRevision": "Define separate requirement profiles according to logic type, autonomy, risk, evidence, evaluation, explainability, and monitoring.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1197"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): CDSE functional requirements table."
+      }
+    ]
+  }
+}

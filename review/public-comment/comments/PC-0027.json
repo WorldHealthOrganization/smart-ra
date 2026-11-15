@@ -1,0 +1,83 @@
+{
+  "id": "pc-0027",
+  "summary": "Civil registration appears only as an illustration under the birth-event-publish-subscribe example. CRVS should be name…",
+  "comment": "Civil registration appears only as an illustration under the birth-event-publish-subscribe example. CRVS should be named as a foundational dependency. Legal identity established at birth is what allows a person to enter UHC beneficiary rolls, and death registration helps protect the system from “ghost patients.” \n\nOn cybersecurity operations: Security is treated as a design principle but not as a standing operational capability that has recurring costs. A security operations and incident-response function is an institutional requirement that ministries need to secure continuous funding for.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0027",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 27,
+      "entry": "26",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Based on your knowledge of country needs, do the DPI-H components represent the right set for national digital health infrastructure?",
+      "raw": "§Based on your knowledge of country needs, do the DPI-H components represent the right set for national digital health infrastructure?"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Online-form answer on the component set raising CRVS and security operations; spans the document"
+    },
+    "type": "technical",
+    "text": "Civil registration appears only as an illustration under the birth-event-publish-subscribe example. CRVS should be named as a foundational dependency. Legal identity established at birth is what allows a person to enter UHC beneficiary rolls, and death registration helps protect the system from “ghost patients.” \n\nOn cybersecurity operations: Security is treated as a design principle but not as a standing operational capability that has recurring costs. A security operations and incident-response function is an institutional requirement that ministries need to secure continuous funding for.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 27"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Online-form answer on the component set raising CRVS and security operations; spans the document"
+      }
+    ]
+  }
+}

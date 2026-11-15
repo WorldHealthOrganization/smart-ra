@@ -1,0 +1,82 @@
+{
+  "id": "pc-0380",
+  "summary": "This is a good set of 4 assessment questions. But the current-state assessment should go beyond applications, infrastru…",
+  "comment": "This is a good set of 4 assessment questions. But the current-state assessment should go beyond applications, infrastructure, standards and governance documents (i.e. desk review). A socio-technical baseline must examine actual work: informal workarounds, reporting burden, incentives, decision forums, support practices, data trust, power relationships, user capability and who is excluded. These factors often explain why technically functional systems are not used.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-971416",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0380",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 380,
+      "entry": "379",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1",
+      "page": "88",
+      "lines": "12–61",
+      "raw": "§4.1 p.88 l.12–61"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-971416",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-1-2-c9bb04",
+        "prose:4-1-1-237a78",
+        "prose:4-1-2-25c058"
+      ],
+      "note": "p.88 l.12–61 read as the printed page; section 4.1 agrees"
+    },
+    "type": "general",
+    "text": "This is a good set of 4 assessment questions. But the current-state assessment should go beyond applications, infrastructure, standards and governance documents (i.e. desk review). A socio-technical baseline must examine actual work: informal workarounds, reporting burden, incentives, decision forums, support practices, data trust, power relationships, user capability and who is excluded. These factors often explain why technically functional systems are not used.",
+    "suggestedRevision": "Add participatory work-practice and institutional assessment methods: observation/interviews, workflow and burden mapping, information-use assessment, stakeholder/power analysis, support-capacity mapping, equity and accessibility assessment, and identification of locally valued use cases and functioning installed-base elements to preserve.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 380"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0077",
+  "summary": "The implementation examples do not include a small island developing state or a CARICOM example. The thirteen country e…",
+  "comment": "The implementation examples do not include a small island developing state or a CARICOM example. The thirteen country examples come from large or high-income systems, and the European Union is the only regional example. This makes it harder for readers in small states to see how the guidance applies at their scale. Relevant Caribbean experience is available. ONE Caribbean Connect (Port of Spain, 2026) brought together The Bahamas, Barbados, Belize, Guyana, Jamaica, Suriname and Trinidad and Tobago. It produced the ONE Caribbean Digital Health Roadmap Commitment on governance, legal and policy frameworks, and interoperability under the IDB/PAHO Pan-American Highway for Digital Health (PH4H).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0077",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 77,
+      "entry": "76",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D (D.2 and D.3)",
+      "page": "229–235",
+      "lines": "91–219",
+      "raw": "§Appendix D (D.2 and D.3) p.229–235 l.91–219"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.229–235 l.91–219 read as the printed page; section D agrees"
+    },
+    "type": "general",
+    "text": "The implementation examples do not include a small island developing state or a CARICOM example. The thirteen country examples come from large or high-income systems, and the European Union is the only regional example. This makes it harder for readers in small states to see how the guidance applies at their scale. Relevant Caribbean experience is available. ONE Caribbean Connect (Port of Spain, 2026) brought together The Bahamas, Barbados, Belize, Guyana, Jamaica, Suriname and Trinidad and Tobago. It produced the ONE Caribbean Digital Health Roadmap Commitment on governance, legal and policy frameworks, and interoperability under the IDB/PAHO Pan-American Highway for Digital Health (PH4H).",
+    "suggestedRevision": "Add at least one small-state example to D.2 and one small-state regional grouping to D.3. D.3 could be based on ONE Caribbean Connect and the ONE Caribbean Digital Health Roadmap, showing regional coordination on interoperability and cross-border health data exchange among small states.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 77"
+      }
+    ]
+  }
+}

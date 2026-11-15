@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-026",
+  "title": "Give criteria for prioritising and sequencing components",
+  "requirements": "- Indicate which components are a baseline and which become relevant by national goals and maturity\n- Present the Client Registry as frequent but not default; selection follows use-case dependencies and risk\n- Introduce criteria such as use-case urgency and dependency centrality\n- State recurrence is one factor and add criteria such as readiness, dependency risk, equity and cost\n- Describe it as required where priority use cases need person matching, with a proportionality test\n- Qualify 'no less essential' for the business-services layer so not every country needs every component\n- Note identity reconciliation prerequisites (profiling, matching quality, adjudication)",
+  "refs": [
+    "PC-0182",
+    "PC-0373",
+    "PC-0791",
+    "PC-0871",
+    "PC-0988",
+    "PC-1151",
+    "PC-1171"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0039",
+  "summary": "The example correctly identifies comprehensive needs assessment and shared care planning, but the resulting capabilitie…",
+  "comment": "The example correctly identifies comprehensive needs assessment and shared care planning, but the resulting capabilities are described as being surfaced only to health workers. Shared care planning is incomplete when the individual, authorised caregiver and relevant health or social care worker cannot see the plan, understand assigned actions and receive updates according to their role.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0039",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 39,
+      "entry": "38",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 — Reference architecture in practice",
+      "page": "61",
+      "lines": "180–190",
+      "raw": "§3.3 — Reference architecture in practice p.61 l.180–190"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "p.61 read as the PDF page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The example correctly identifies comprehensive needs assessment and shared care planning, but the resulting capabilities are described as being surfaced only to health workers. Shared care planning is incomplete when the individual, authorised caregiver and relevant health or social care worker cannot see the plan, understand assigned actions and receive updates according to their role.",
+    "suggestedRevision": "Add after line 187: “Where care is shared across settings, relevant care-plan information, actions and notifications should also be available to the individual, authorised caregivers, and health and social care workers according to consent, role, purpose and applicable law.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 39"
+      }
+    ]
+  }
+}

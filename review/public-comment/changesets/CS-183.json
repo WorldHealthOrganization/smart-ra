@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-183",
+  "title": "Require governed indicator definitions and information-to-action in HMIS",
+  "requirements": "- Require an indicator metadata model (numerator, denominator, disaggregation, period, source)\n- Add decentralised data use, interpretation and feedback at facility and district levels to the core attributes\n- Require separation of core code from governed, versioned configuration packages\n- Add governed climate-health indicators, spatial/temporal alignment, uncertainty, thresholds and action protocols\n- Define validation by indicator and source with quality flags\n- Require versioned reference data and reproducible calculations\n- Require national indicator governance to limit proliferation",
+  "refs": [
+    "PC-0397",
+    "PC-0401",
+    "PC-0407",
+    "PC-2014",
+    "PC-2015",
+    "PC-2017",
+    "PC-2021",
+    "PC-2027"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-083",
+  "title": "Specify national profile selection, including security profiles",
+  "requirements": "- Require countries to record selected profile, version, options, national extensions and applicable tests\n- Cite the IHE security/privacy profile family (e.g. ATNA, IUA, XUA) alongside exchange profiles in 3.7.3\n- Address version pinning, deprecation and continued availability of test artefacts\n- Link to 3.6.5's call for testable vendor security claims",
+  "refs": [
+    "PC-0286",
+    "PC-1085",
+    "PC-1086"
+  ],
+  "anchor": "prose:3-7-3-bf3de7",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 3 comment(s)"
+    }
+  ]
+}

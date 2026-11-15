@@ -1,0 +1,80 @@
+{
+  "id": "pc-0722",
+  "summary": "I was again checking the HF registry section and wanted to comment on the use of the term “CGR.” At WHO, we have genera…",
+  "comment": "I was again checking the HF registry section and wanted to comment on the use of the term “CGR.” At WHO, we have generally avoided this terminology and instead use “geospatial registry,” which is a broader and more globally applicable concept. Many advanced countries may not readily adopt the CGR concept because they already have well-established and continuously updated addressing systems. In addition, geospatial registries are cross-cutting in nature and not specific to the health sector. For this reason, I would be cautious about introducing terminology that may not be fully endorsed or used across sectors beyond health. My suggestion is to replace references to CGR with “national geospatial registry” or simply “geospatial registry,” depending on the context in which the term is used. \"a national geospatial (common geo) registry\" → \"a national geospatial registry\" — page 76 \"or a common geo-registry\" → \"or a geospatial registry\" — page 117 \"The Common Geo-Registry (CGR) is a cross-sectoral foundational component…\" → \"The geospatial registry is…\" — page 135 \"…synchronised with — a Common Geo-Registry or equivalent geospatial reference source…\" → \"…a geospatial registry or equivalent reference source…\" — page 137 Heading \"Relationship with a Common Geo-Registry\" → \"Relationship with a geospatial registry\" — page 137 \"…specifically a Common Geo-Registry (CGR); a cross-sectoral…\" → \"…specifically a geospatial registry;…\" — page 137 \"…shall support integration with a Common Geo-Registry (CGR) or equivalent authoritative geospatial source.\" → \"…integration with a geospatial registry or equivalent authoritative source.\" — page 141 \"(5) Common Geo-Registry integration is introduced as a new requirement…\" → \"(5) geospatial registry integration…\" — page 143 \"…verified against a Common Geo-Registry or equivalent authoritative geospatial source…\" → \"…verified against a geospatial registry or equivalent authoritative source…\" — page 144 \"…canonical identifiers from the Common Geo-Registry (where available)…\" → \"…identifiers from the geospatial registry (where available)…\" — page 144 \"…(and foundational Common Geo Registry (CGR) where available)…\" → \"…(and foundational geospatial registry where available)…\" — page 232 (this same sentence also recurs on page 236, so change both)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0722",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 722,
+      "entry": "721",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a369ec3b21",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-5-1-6b7238"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Asks to replace 'CGR' terminology, mainly in the HF Registry section (multiple spots)."
+    },
+    "text": "I was again checking the HF registry section and wanted to comment on the use of the term “CGR.” At WHO, we have generally avoided this terminology and instead use “geospatial registry,” which is a broader and more globally applicable concept. Many advanced countries may not readily adopt the CGR concept because they already have well-established and continuously updated addressing systems. In addition, geospatial registries are cross-cutting in nature and not specific to the health sector. For this reason, I would be cautious about introducing terminology that may not be fully endorsed or used across sectors beyond health. My suggestion is to replace references to CGR with “national geospatial registry” or simply “geospatial registry,” depending on the context in which the term is used. \"a national geospatial (common geo) registry\" → \"a national geospatial registry\" — page 76 \"or a common geo-registry\" → \"or a geospatial registry\" — page 117 \"The Common Geo-Registry (CGR) is a cross-sectoral foundational component…\" → \"The geospatial registry is…\" — page 135 \"…synchronised with — a Common Geo-Registry or equivalent geospatial reference source…\" → \"…a geospatial registry or equivalent reference source…\" — page 137 Heading \"Relationship with a Common Geo-Registry\" → \"Relationship with a geospatial registry\" — page 137 \"…specifically a Common Geo-Registry (CGR); a cross-sectoral…\" → \"…specifically a geospatial registry;…\" — page 137 \"…shall support integration with a Common Geo-Registry (CGR) or equivalent authoritative geospatial source.\" → \"…integration with a geospatial registry or equivalent authoritative source.\" — page 141 \"(5) Common Geo-Registry integration is introduced as a new requirement…\" → \"(5) geospatial registry integration…\" — page 143 \"…verified against a Common Geo-Registry or equivalent authoritative geospatial source…\" → \"…verified against a geospatial registry or equivalent authoritative source…\" — page 144 \"…canonical identifiers from the Common Geo-Registry (where available)…\" → \"…identifiers from the geospatial registry (where available)…\" — page 144 \"…(and foundational Common Geo Registry (CGR) where available)…\" → \"…(and foundational geospatial registry where available)…\" — page 232 (this same sentence also recurs on page 236, so change both)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 722"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Asks to replace 'CGR' terminology, mainly in the HF Registry section (multiple spots)."
+      }
+    ]
+  }
+}

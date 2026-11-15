@@ -1,0 +1,73 @@
+{
+  "id": "pc-2659",
+  "summary": "Public-health surveillance cannot generally be reduced to a downstream use of the LHR. Surveillance architectures requi…",
+  "comment": "Public-health surveillance cannot generally be reduced to a downstream use of the LHR. Surveillance architectures require data from multiple sources, including information that may never form part of an individual clinical record. Statutory reporting and surveillance powers may also establish a different lawful-access model from ordinary clinical use.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-3feb48",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2659",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 37,
+      "entry": "27",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C: Public Health Surveillance Platform",
+      "page": "221",
+      "lines": "162",
+      "raw": "§Appendix C: Public Health Surveillance Platform p.221 l.162"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-3feb48",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.221 l.162 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "Public-health surveillance cannot generally be reduced to a downstream use of the LHR. Surveillance architectures require data from multiple sources, including information that may never form part of an individual clinical record. Statutory reporting and surveillance powers may also establish a different lawful-access model from ordinary clinical use.",
+    "suggestedRevision": "Replace with: “The LHR may be an important source of person-level clinical information for public-health surveillance, but the PHSP shall support multiple legally authorised data sources appropriate to the surveillance function, including laboratories, mandatory case notifications, disease and population registries, environmental and occupational information, administrative datasets and surveillance-specific systems. Access to identifiable data shall be governed by the statutory public-health legal basis and applicable safeguards, which may differ from the access model governing direct clinical care.”",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 37"
+      }
+    ]
+  }
+}

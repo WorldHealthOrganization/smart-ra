@@ -1,0 +1,188 @@
+{
+  "name": "dpi-h-ra",
+  "title": "Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector",
+  "version": "0.1.0",
+  "iriBase": "https://litlfred.github.io/smart-ra/",
+  "assets": [
+    {
+      "id": "agent-instructions",
+      "src": "AGENTS.md",
+      "role": "agent-instructions",
+      "title": "AGENTS.md — dpi-h-ra",
+      "description": "Cold-start instructions for agents working in the DPI-H Reference Architecture folio: the document content type, layout, site build and public-comment workflow."
+    },
+    {
+      "id": "instance-readme",
+      "src": "README.md",
+      "role": "instance-readme",
+      "title": "WHO SMART Guidelines — Reference Architecture",
+      "description": "Overview of the DPI-H Reference Architecture public-review folio, published document, ArchiMate models and public-comment workflow."
+    }
+  ],
+  "directories": [
+    {
+      "id": "folio",
+      "path": "folio/",
+      "graphTypologies": [
+        "folio"
+      ],
+      "description": "The content of Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector — its document, chapters and blocks.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/dpi-h-ra/index.html",
+            "title": "The document",
+            "writer": [
+              "folio-assistant-core/scripts/build-document-site.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "library",
+      "path": "library/",
+      "graphTypologies": [
+        "library"
+      ],
+      "description": "Source material, frozen. who-dpi-h-reference-architecture-draft-v1/ holds the review version exactly as circulated (line-numbered PDF and .docx), plus the extraction (docx-structure.json) and the page/line map (pdf-line-map.json) the folio and every public comment's anchor are derived from. Never edited to answer a comment.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/folio-assistant-core/library/index.html",
+            "title": "Library",
+            "writer": [
+              "folio-assistant-core/scripts/build-library-site.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "archimate",
+      "path": "archimate/",
+      "graphTypologies": [
+        "archimate"
+      ],
+      "description": "The ArchiMate models of the reference architecture, one folder per SemVer version (archimate/README.md), named by cat-archimate.config.json. cat-harness's archimate subgraph (skill archimate-models) gives every view, element and relationship a page and an IRI and draws every view as SVG — no Java, no Archi CLI; the site build writes them at en/dpi-h-ra/archimate/<version>/.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/dpi-h-ra/archimate/index.html",
+            "title": "ArchiMate models",
+            "writer": [
+              "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-comments",
+      "path": "review/public-comment/",
+      "graphTypologies": [
+        "todo-items",
+        "public-comments"
+      ],
+      "description": "The public-review record: one public-comment/1.0.0 file per comment (comments/PC-0042.json), one changeset/1.0.0 file per change-set (changesets/CS-012.json), one manifest per intake batch (batches/), and config.json naming the editors and review committee. A public comment is a todo kind, so anything that reads todos reads these. Moved only by folio-assistant-core/scripts/public-comment.ts. The original spreadsheets hold reviewers' emails and are NOT kept here.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/folio-assistant-core/public-comments/folio/dpi-h-ra/index.html",
+            "title": "Public comments",
+            "writer": [
+              "folio-assistant-core/scripts/public-comment-site.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "uploads",
+      "path": "uploads/",
+      "graphTypologies": [
+        "uploads"
+      ],
+      "description": "Inbox for material not yet ingested."
+    },
+    {
+      "id": "beans",
+      "path": "beans/",
+      "graphTypologies": [
+        "beans"
+      ],
+      "source": {
+        "kind": "branch",
+        "branch": "cat/dpi-h-ra/beans",
+        "keyedBy": "tip"
+      },
+      "description": "The work plan: one bean per Markdown file (prefix dpi-h-ra-, per .beans.yml). Kept on the tip-keyed state branch cat/dpi-h-ra/beans, mounted here; owner decision 2026-10-06. Until the separate cutover removes beans/ from main, main's copy is the source of truth and the branch is a seed (manifest.json: status seed, authoritative false)."
+    },
+    {
+      "id": "todos",
+      "path": "todos/",
+      "graphTypologies": [
+        "todos"
+      ],
+      "source": {
+        "kind": "branch",
+        "branch": "cat/dpi-h-ra/todos",
+        "keyedBy": "tip"
+      },
+      "description": "Todos: items, per-block feedback and review verdicts, as declared by todos/todos.json. Kept on the tip-keyed state branch cat/dpi-h-ra/todos, mounted here; owner decision 2026-10-06. Until the separate cutover removes todos/ from main, main's copy is the source of truth and the branch is a seed (manifest.json: status seed, authoritative false)."
+    },
+    {
+      "id": "fsh-guts",
+      "path": "fsh-guts/",
+      "graphTypologies": [
+        "fsh-guts"
+      ],
+      "source": {
+        "kind": "branch",
+        "branch": "cat/dpi-h-ra/fsh-guts",
+        "keyedBy": "tip"
+      },
+      "description": "The trashcan that is kept: deprecated and removed content, each node declaring itself folio-fsh-guts/v1 with where it came from. Kept on the tip-keyed state branch cat/dpi-h-ra/fsh-guts, mounted here, never rendered. Holds the snapshots of beans/ and todos/ as main last tracked them before their 2026-10-06 cutover (owner: \"cutover dirs should go to fsh-guts\")."
+    },
+    {
+      "id": "glossary",
+      "path": "glossary/",
+      "description": "This instance's glossary: folio-glossary/v1 SKOS schemes. dpi-h-ra.glossary.json is the RA's own glossary, read verbatim from its glossary table, the shared scheme the Digital Transformation Handbooks link their terms to (#133). full-stac.glossary.json holds the terms of Mehl et al. 2023 (the full-STAC paper, library/mehl-2023-full-stac-oqad018/), which the RA cites and its own scheme links to. dpi-h-ra-acronyms.glossary.json holds the RA's acronyms list, one concept per acronym (notation and expansion), from which the acronyms table is drawn; glossary-tables.json names the document tables drawn from these schemes (Tool glossary-table, #206). organizations.glossary.json holds the organizations the handbooks name (WHO, HL7, ISO, GS1, UNICEF, USAID, ...), once, as SKOS concepts with a foaf:focus to a W3C ORG organization (litlfred/folio-assistant-core#411); a handbook lists them under members.",
+      "graphTypologies": [
+        "glossary"
+      ]
+    },
+    {
+      "id": "references",
+      "path": "references/",
+      "description": "dpi-h-ra's bibliography: one folio-reference/v1 CSL-JSON entry per cited work, `<key>.json`. The paper cites them by key (`\\cite{key}` in a block's text, and `cites` on its manifest), each citation links to its entry on the KG Bibliography page (`en/folio-assistant-core/bibliography/#ref-<key>`), and the References chapter's list is generated from them by `references:render`. Footnotes are kept only for notes that explain rather than cite.",
+      "graphTypologies": [
+        "references"
+      ]
+    }
+  ],
+  "visualisers": [
+    {
+      "id": "archimate",
+      "renderedBy": "archimate-pages",
+      "covers": [
+        "archimate"
+      ],
+      "writer": [
+        "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts"
+      ]
+    }
+  ],
+  "description": "The DPI-H Reference Architecture guidance (WHO/ITU), an L1 document: the draft for public comment as an editable document folio, its frozen review version in the library, and the public-comment adjudication record.",
+  "needs": [
+    "smart-base"
+  ],
+  "_needs_comment": "An L1 document on the smart-base harness (owner, 2026-10-04: 'install a smart-base harness on smart-ra'). The FHIR IG in input/ is downstream of this document and is not part of the folio.",
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab",
+    "cat-harness.editorial"
+  ],
+  "_enableSubgraphs_comment": "smart-base's L1 knowledge-graph group only, not L2..L4 (owner, 2026-11-13: IGs and folios turn on smart-base.smart-base-L1 only). It replaces the smart-base-kg directory smart-base#360 removed."
+}

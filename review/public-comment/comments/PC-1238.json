@@ -1,0 +1,77 @@
+{
+  "id": "pc-1238",
+  "summary": "Payment systems are said to use workforce-registry credentials to confirm provider eligibility before releasing funds. …",
+  "comment": "Payment systems are said to use workforce-registry credentials to confirm provider eligibility before releasing funds. Workforce credentials alone do not establish contractual eligibility, facility empanelment, entitlement, or claim validity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-4-fb4f87",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1238",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 474,
+      "entry": "473",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.4, Integration interfaces",
+      "page": "97",
+      "lines": "Lines 357-359",
+      "raw": "§4.3.4, Integration interfaces p.97 l.Lines 357-359"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-4-fb4f87",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.97 l.Lines 357-359 read as the printed page; section 4.3.4 agrees"
+    },
+    "text": "Payment systems are said to use workforce-registry credentials to confirm provider eligibility before releasing funds. Workforce credentials alone do not establish contractual eligibility, facility empanelment, entitlement, or claim validity.",
+    "suggestedRevision": "Distinguish professional-authorisation verification from contracting, empanelment, benefit, and payment eligibility checks.",
+    "labels": {
+      "Comment type": "Q8 - Interoperability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 474"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "pc-0491",
+  "summary": "REDDHI introduces a fifth term alongside DPI, foundational DPI, DPI-H and the reference architecture, for what the text…",
+  "comment": "REDDHI introduces a fifth term alongside DPI, foundational DPI, DPI-H and the reference architecture, for what the text then describes as a condition of maturity rather than a thing. Readers are likely to treat it as a further category of system to procure, which the section explicitly says it is not. The acronym also does not translate well.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-1-88dd2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0491",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 491,
+      "entry": "490",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1",
+      "page": "27",
+      "lines": "109",
+      "raw": "§2.2.1 p.27 l.109"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-88dd2d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.27 l.109 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "editorial",
+    "text": "REDDHI introduces a fifth term alongside DPI, foundational DPI, DPI-H and the reference architecture, for what the text then describes as a condition of maturity rather than a thing. Readers are likely to treat it as a further category of system to procure, which the section explicitly says it is not. The acronym also does not translate well.",
+    "suggestedRevision": "State in the first sentence that REDDHI names a state of the system and not a set of components, and give the relationship to DPI-H in one line - DPI-H is what is built, REDDHI is the condition its maturity produces. Alternatively dispense with the acronym and use a descriptive phrase. If retained, add it to the terminology table in the front matter with that distinction stated.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 491"
+      }
+    ]
+  }
+}

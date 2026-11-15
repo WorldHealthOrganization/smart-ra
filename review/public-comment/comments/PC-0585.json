@@ -1,0 +1,84 @@
+{
+  "id": "pc-0585",
+  "summary": "A glossary is provided in the front matter, but it is limited to generic architecture terms (application component, app…",
+  "comment": "A glossary is provided in the front matter, but it is limited to generic architecture terms (application component, application service, capability, data object and similar) and does not define the specialist vocabulary the document relies on most heavily — REDDHI, STAC, DPI-F and DPI-H, or the wider acronym set. It is also placed before the main text without being signposted from the chapters where the terms first appear.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0585",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 585,
+      "entry": "584",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Front matter",
+      "page": "i–iii",
+      "raw": "§Front matter p.i–iii"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Asks to expand the front-matter glossary table with specialist terms."
+    },
+    "type": "editorial",
+    "text": "A glossary is provided in the front matter, but it is limited to generic architecture terms (application component, application service, capability, data object and similar) and does not define the specialist vocabulary the document relies on most heavily — REDDHI, STAC, DPI-F and DPI-H, or the wider acronym set. It is also placed before the main text without being signposted from the chapters where the terms first appear.",
+    "suggestedRevision": "Expand the existing glossary to cover the document's core specialist terms and acronyms (REDDHI, STAC, DPI-F, DPI-H and others), and signpost it from the executive summary and from the first use of each term so non-specialist readers can find the definitions.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 585"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Asks to expand the front-matter glossary table with specialist terms."
+      }
+    ]
+  }
+}

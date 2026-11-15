@@ -1,0 +1,82 @@
+{
+  "id": "pc-0613",
+  "summary": "Strengths: Goals-first method; clear DPI-F vs DPI-H gaps; REDDHI entry concept; LIMR vs TS clarity; interoperability as…",
+  "comment": "Strengths: Goals-first method; clear DPI-F vs DPI-H gaps; REDDHI entry concept; LIMR vs TS clarity; interoperability as a property; builds on OpenHIE/WHO–ITU DHP/DIIG.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0613",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 613,
+      "entry": "612",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bc990dab77",
+      "name": "Sivanand Lanka",
+      "organisation": "MOSIP",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths."
+    },
+    "type": "general",
+    "text": "Strengths: Goals-first method; clear DPI-F vs DPI-H gaps; REDDHI entry concept; LIMR vs TS clarity; interoperability as a property; builds on OpenHIE/WHO–ITU DHP/DIIG.",
+    "labels": {
+      "Stakeholder type": "Digital public infrastructure or digital government authority",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 613"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths."
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0004",
+  "summary": "The note beneath the Product Registry table states that \"Cross-cutting requirements (audit logging, subscription and no…",
+  "comment": "The note beneath the Product Registry table states that \"Cross-cutting requirements (audit logging, subscription and notification, performance and availability) apply consistently across all registry components\" (p.149, L481–483), and the Supplier Registry is described as completing \"the three-pillar master data foundation for health supply chain operations alongside the Product Registry and the Health Facility Registry\" (p.193, L93).\n\nTwo of those three pillars are required to be designed for high availability: the Product Registry, on the ground that supply-chain systems at all levels depend on product master data for operational transactions (p.149, requirement 16), and the Health Facility Registry, because facility identity and location data are referenced across supply chain, clinical, financial and surveillance domains (p.132, requirement 22). The Supplier Registry alone is required to be designed for \"adequate availability\" – the only occurrence of that phrase in the document – on closely parallel reasoning, adding regulatory verification (p.196, requirement 18). Where the draft grades a component lower elsewhere it gives its reason: the Logical Information Model Repository is set at \"sufficient reliability and performance\" because design-time access is typically less latency-sensitive (p.178, requirement 17). No reason is given here.\n\nThe difference may be intentional. But neither \"high\" nor \"adequate\" defines a testable service level, and recovery objectives are a different measure: the Lifelong Health Record's \"defined recovery time and recovery point objectives\" (p.162, requirement 21) address recovery from failure, not availability, response time, or how stale a cached copy may become.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-903632",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0004",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 4,
+      "entry": "3",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ecea8cd65",
+      "name": "Vsevolod Shabad",
+      "organisation": "University of Liverpool",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (Health Facility Registry; Product Registry; Supplier Registry)",
+      "page": "132 / 149 / 193 / 196",
+      "lines": "Health Facility Registry requirement 22; Product Registry requirement 16 and note at p.149 L481–483; Supplier Registry p.193 L93 and requirement 18",
+      "raw": "§Appendix C (Health Facility Registry; Product Registry; Supplier Registry) p.132 / 149 / 193 / 196 l.Health Facility Registry requirement 22; Product Registry requirement 16 and note at p.149 L481–483; Supplier Registry p.193 L93 and requirement 18"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-903632",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "The note beneath the Product Registry table states that \"Cross-cutting requirements (audit logging, subscription and notification, performance and availability) apply consistently across all registry components\" (p.149, L481–483), and the Supplier Registry is described as completing \"the three-pillar master data foundation for health supply chain operations alongside the Product Registry and the Health Facility Registry\" (p.193, L93).\n\nTwo of those three pillars are required to be designed for high availability: the Product Registry, on the ground that supply-chain systems at all levels depend on product master data for operational transactions (p.149, requirement 16), and the Health Facility Registry, because facility identity and location data are referenced across supply chain, clinical, financial and surveillance domains (p.132, requirement 22). The Supplier Registry alone is required to be designed for \"adequate availability\" – the only occurrence of that phrase in the document – on closely parallel reasoning, adding regulatory verification (p.196, requirement 18). Where the draft grades a component lower elsewhere it gives its reason: the Logical Information Model Repository is set at \"sufficient reliability and performance\" because design-time access is typically less latency-sensitive (p.178, requirement 17). No reason is given here.\n\nThe difference may be intentional. But neither \"high\" nor \"adequate\" defines a testable service level, and recovery objectives are a different measure: the Lifelong Health Record's \"defined recovery time and recovery point objectives\" (p.162, requirement 21) address recovery from failure, not availability, response time, or how stale a cached copy may become.",
+    "suggestedRevision": "Either align the Supplier Registry with the other two pillars at high availability, or state the architectural reason for the lower grade as explicitly as the Logical Information Model Repository's reason is stated. In either case, require countries to define measurable service objectives appropriate to the use case, covering availability, response time, maximum acceptable staleness where cached reference data is used, and recovery time and recovery point objectives. Section 3.6.5 asks that requirements be made testable so vendor claims can be validated in procurement; a grade expressed as an adjective cannot be.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain",
+      "Consider by TWG? Human categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 4"
+      }
+    ]
+  }
+}

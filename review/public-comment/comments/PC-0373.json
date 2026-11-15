@@ -1,0 +1,81 @@
+{
+  "id": "pc-0373",
+  "summary": "The methodology presents a Client Registry as recurrent and required. A client registry may be valuable for longitudina…",
+  "comment": "The methodology presents a Client Registry as recurrent and required. A client registry may be valuable for longitudinal care, but it is not universally required for a DPI-H entry point. Aggregate HMIS, event-based surveillance or services that must operate for unknown or undocumented persons. Labeling it required may drive premature identity-centric architecture and unnecessary linkage risk.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-4-98e953",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0373",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 373,
+      "entry": "372",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.4",
+      "page": "38",
+      "lines": "467–486",
+      "raw": "§2.4 p.38 l.467–486"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-4-98e953",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-4-611812",
+        "prose:2-4-47566f"
+      ],
+      "note": "p.38 l.467–486 read as the printed page; section 2.4 agrees"
+    },
+    "type": "technical",
+    "text": "The methodology presents a Client Registry as recurrent and required. A client registry may be valuable for longitudinal care, but it is not universally required for a DPI-H entry point. Aggregate HMIS, event-based surveillance or services that must operate for unknown or undocumented persons. Labeling it required may drive premature identity-centric architecture and unnecessary linkage risk.",
+    "suggestedRevision": "Change ‘required’ to ‘frequently useful where the priority use cases require person matching’. Require a necessity and proportionality test, identity-optional workflows, temporary/pseudonymous identifiers and a documented alternative for contexts without universal or trusted identification.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 373"
+      }
+    ]
+  }
+}

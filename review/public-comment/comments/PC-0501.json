@@ -1,0 +1,79 @@
+{
+  "id": "pc-0501",
+  "summary": "The published element palette traces goals and capabilities to application services, components and data objects, while…",
+  "comment": "The published element palette traces goals and capabilities to application services, components and data objects, while Business Process and Business Role are absent. Section 3.2 appropriately places organisational practice and change management outside the present structural description, but that boundary leaves the model unable to show where operational work produces a required data object or which role performs that work. There is also a presentation inconsistency: Table 3.3 uses Application Function even though it is not listed in Table 3.1.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:3-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0501",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 501,
+      "entry": "500",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.1 / 3.2",
+      "page": "43-47",
+      "lines": "Table 3.1; Table 3.3 (pp. 45-46); lines 82-83 and 122-126",
+      "caption": "Table 3.1",
+      "raw": "§3.1 / 3.2 p.43-47 l.Table 3.1; Table 3.3 (pp. 45-46); lines 82-83 and 122-126"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-1",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.1 as cited"
+    },
+    "type": "technical",
+    "text": "The published element palette traces goals and capabilities to application services, components and data objects, while Business Process and Business Role are absent. Section 3.2 appropriately places organisational practice and change management outside the present structural description, but that boundary leaves the model unable to show where operational work produces a required data object or which role performs that work. There is also a presentation inconsistency: Table 3.3 uses Application Function even though it is not listed in Table 3.1.",
+    "suggestedRevision": "Clarify the distinction between the core DPI-H palette and extension elements. Add Business Process and Business Role to a defined extension palette, with relationships such as Business Process realises Capability, Business Role is assigned to Business Process, and Business Process accesses Data Object. Cross-reference this extension from section 3.2 for countries that need traceability from shared infrastructure to the operational settings that produce its data, and align Tables 3.1 and 3.3 so every element used is defined.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 501"
+      }
+    ]
+  }
+}

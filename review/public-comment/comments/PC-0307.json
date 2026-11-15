@@ -1,0 +1,78 @@
+{
+  "id": "pc-0307",
+  "summary": "This section (\"the most consequential implementation decision … is … what data to capture and how to structure it\") is …",
+  "comment": "This section (\"the most consequential implementation decision … is … what data to capture and how to structure it\") is a strong, correct anchor and aligns the whole implementation chapter with a data-models-first approach. Recommend surfacing it earlier (it is the practical core of the guidance) and cross-referencing it from §3.4.5 and §3.6.1 so the architecture and implementation halves reinforce the same principle.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-3-1-2cc917",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0307",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 307,
+      "entry": "306",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-6cf7eff6a9",
+      "name": "Timothy W. Cook; Luciana Cavalini, MD, PhD (co-author)",
+      "organisation": "Axius SDC, Inc.",
+      "country": "United States (Cook); Brazil (Cavalini)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.1",
+      "page": "94-95",
+      "lines": "257-273",
+      "raw": "§4.3.1 p.94-95 l.257-273"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-1-2cc917",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.94-95 l.257-273 read as the printed page; section 4.3.1 agrees"
+    },
+    "type": "general",
+    "text": "This section (\"the most consequential implementation decision … is … what data to capture and how to structure it\") is a strong, correct anchor and aligns the whole implementation chapter with a data-models-first approach. Recommend surfacing it earlier (it is the practical core of the guidance) and cross-referencing it from §3.4.5 and §3.6.1 so the architecture and implementation halves reinforce the same principle.",
+    "suggestedRevision": "Add a forward reference from §3.4.5 and §3.6.1 to §4.3.1, and consider elevating the \"data models first\" principle into the Chapter 3 architecture narrative, not only the implementation chapter.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 307"
+      }
+    ]
+  }
+}

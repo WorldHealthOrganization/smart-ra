@@ -1,0 +1,80 @@
+{
+  "id": "pc-0126",
+  "summary": "3.7 subsections (in particular 3.7.3 Alignment with IHE profiles and 3.7.5 Validating goals and adoption) depend on con…",
+  "comment": "3.7 subsections (in particular 3.7.3 Alignment with IHE profiles and 3.7.5 Validating goals and adoption) depend on concepts introduced both in Chapter 2.4 (methodology, ~40 pages earlier) and in 3.5–3.6 (components/interoperability, just prior), requiring the reader to hold references across widely separated parts of the document within a single section.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-5-ead6d9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0126",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 126,
+      "entry": "125",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e00db0ec6",
+      "name": "Diana Wijayanti",
+      "organisation": "WHO",
+      "country": "HQ / Indonesia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7 Conformance and Testing across Architecture\n963 and Components",
+      "page": "78",
+      "lines": "964",
+      "raw": "§3.7 Conformance and Testing across Architecture\n963 and Components p.78 l.964"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-5-ead6d9",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-7-1-aef1b3"
+      ],
+      "note": "p.78 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "editorial",
+    "text": "3.7 subsections (in particular 3.7.3 Alignment with IHE profiles and 3.7.5 Validating goals and adoption) depend on concepts introduced both in Chapter 2.4 (methodology, ~40 pages earlier) and in 3.5–3.6 (components/interoperability, just prior), requiring the reader to hold references across widely separated parts of the document within a single section.",
+    "suggestedRevision": "Add a short recap paragraph at the start of 3.7 restating the key 2.4 and 3.5/3.6 concepts it depends on, so the section is more self-contained on a linear read.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 126"
+      }
+    ]
+  }
+}

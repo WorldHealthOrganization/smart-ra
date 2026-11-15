@@ -1,0 +1,79 @@
+{
+  "id": "pc-1464",
+  "summary": "The section says every connected system gains the ability to produce a longitudinal view when a Client Registry is avai…",
+  "comment": "The section says every connected system gains the ability to produce a longitudinal view when a Client Registry is available. Identity linkage is necessary but not sufficient for a longitudinal view, which also requires exchange, data availability, semantic consistency, consent, provenance, and workflow integration.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1c5280",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1464",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 700,
+      "entry": "699",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Client Registry, 2",
+      "page": "116",
+      "lines": "Lines 79-84",
+      "raw": "§Client Registry, 2 p.116 l.Lines 79-84"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-client-registry-1c5280",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-client-registry-3207d2"
+      ],
+      "note": "p.116 l.Lines 79-84 read as the printed page; section 2 agrees"
+    },
+    "text": "The section says every connected system gains the ability to produce a longitudinal view when a Client Registry is available. Identity linkage is necessary but not sufficient for a longitudinal view, which also requires exchange, data availability, semantic consistency, consent, provenance, and workflow integration.",
+    "suggestedRevision": "Replace with a sentence like: “A Client Registry provides a necessary identity-linkage foundation for creating longitudinal views when the required exchange, data, governance, and semantic capabilities are also present.”",
+    "labels": {
+      "Comment type": "Q14 - Language and accuracy"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 700"
+      }
+    ]
+  }
+}

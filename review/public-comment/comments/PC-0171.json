@@ -1,0 +1,81 @@
+{
+  "id": "pc-0171",
+  "summary": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made…",
+  "comment": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made. Current artefact standards allow too many degrees of freedom: the same clinical concept can be modelled in many valid but incompatible ways, so two fully conformant implementations may still diverge semantically. A related, unnamed risk is the boundary problem: qualifiers, modifiers and localisations can be expressed in either the terminology or the information model, and this overlap breeds divergence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-474cc6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0171",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 171,
+      "entry": "170",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "57",
+      "lines": "Whole section; also §4.3.1 (p. 94), Appendix C — LIMR (p. 172)",
+      "raw": "§3.4.5 p.57 l.Whole section; also §4.3.1 (p. 94), Appendix C — LIMR (p. 172)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-474cc6",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-f2a242",
+        "prose:3-4-5-aef916"
+      ],
+      "note": "p.57 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The architecture governs the stewardship of information models (SGI, LIMR) but does not standardise how models are made. Current artefact standards allow too many degrees of freedom: the same clinical concept can be modelled in many valid but incompatible ways, so two fully conformant implementations may still diverge semantically. A related, unnamed risk is the boundary problem: qualifiers, modifiers and localisations can be expressed in either the terminology or the information model, and this overlap breeds divergence.",
+    "suggestedRevision": "Require (in §3.4.5 and Appendix C) that artefacts in the LIMR be produced with a declared, uniform modelling method — one generic semantic pattern from which artefacts are derived by specialisation, with mandatory context (what, where, when, who, how, why) at capture — and test that meaning survives its application. The emerging CEN/ISO 13606 part 3 (SIAMM) work is one standards-track candidate; the requirement itself should remain method-neutral. Explicitly name — and assign governance responsibility for — the boundary problem between coding systems and information models.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 171"
+      }
+    ]
+  }
+}

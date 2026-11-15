@@ -1,0 +1,82 @@
+{
+  "id": "pc-0176",
+  "summary": "The distinction between system conformance, architecture conformance and outcome monitoring is helpful. The guidance ma…",
+  "comment": "The distinction between system conformance, architecture conformance and outcome monitoring is helpful. The guidance may also benefit from clarifying that these forms of assessment do not necessarily establish whether the evidence supporting a particular consequential operational decision satisfies the substantive policy, programme, financing or regulatory requirements applicable to that decision.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-1-c26122",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0176",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 176,
+      "entry": "175",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9b5d0aa903",
+      "name": "Yetunde Yusuf",
+      "organisation": "HCOS Technologies, Inc.",
+      "country": "United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.1",
+      "page": "79",
+      "lines": "976–989",
+      "raw": "§3.7.1 p.79 l.976–989"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-1-c26122",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-1-fd5750",
+        "prose:3-7-1-1a5faf"
+      ],
+      "note": "p.79 l.976–989 read as the printed page; section 3.7.1 agrees"
+    },
+    "type": "technical",
+    "text": "The distinction between system conformance, architecture conformance and outcome monitoring is helpful. The guidance may also benefit from clarifying that these forms of assessment do not necessarily establish whether the evidence supporting a particular consequential operational decision satisfies the substantive policy, programme, financing or regulatory requirements applicable to that decision.",
+    "suggestedRevision": "Consider adding after the discussion of the three forms of assessment: “Conformance of systems and architectures establishes whether required technical capabilities, services, standards and architectural relationships are correctly implemented. Where information is subsequently used to support a consequential operational, financing, regulatory or programme decision, countries may additionally need governed processes to determine whether the available evidence satisfies the applicable requirements for that specific use. Such assurance is distinct from technical conformance and should be defined according to national policy, law and programme governance.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 176"
+      }
+    ]
+  }
+}

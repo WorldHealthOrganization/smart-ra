@@ -1,0 +1,83 @@
+{
+  "id": "pc-2509",
+  "summary": "Classification expertise on governance committee — The existing example frames expertise around mappings “to” standards…",
+  "comment": "Classification expertise on governance committee — The existing example frames expertise around mappings “to” standards. Direct capture and correct classification use require additional named responsibilities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2509",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 52,
+      "entry": "51",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, Governance",
+      "page": "171",
+      "lines": "A11.02",
+      "raw": "§Terminology Service, Governance p.171 l.A11.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+    },
+    "text": "Classification expertise on governance committee — The existing example frames expertise around mappings “to” standards. Direct capture and correct classification use require additional named responsibilities.",
+    "suggestedRevision": "Add the exact phrase to the list, alongside technical terminology experts: classification and clinical coding specialists",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 52"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pc-0813",
+  "summary": "The statement that federated implementations are particularly useful where continuous central connectivity cannot be as…",
+  "comment": "The statement that federated implementations are particularly useful where continuous central connectivity cannot be assumed is only partially correct. Federated nodes may still depend on remote data sources, identity services, or online discovery. Federation does not automatically provide offline resilience.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-86952f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0813",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 49,
+      "entry": "48",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3.III",
+      "page": "32",
+      "lines": "Lines 247-254",
+      "raw": "§2.3.III p.32 l.Lines 247-254"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-86952f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.32 l.Lines 247-254 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "The statement that federated implementations are particularly useful where continuous central connectivity cannot be assumed is only partially correct. Federated nodes may still depend on remote data sources, identity services, or online discovery. Federation does not automatically provide offline resilience.",
+    "suggestedRevision": "Clarify that resilience in low-connectivity settings requires local availability, caching, asynchronous exchange, conflict resolution, and store-and-forward capabilities, regardless of whether the wider topology is federated.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 49"
+      }
+    ]
+  }
+}

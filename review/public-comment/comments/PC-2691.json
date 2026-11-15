@@ -1,0 +1,73 @@
+{
+  "id": "pc-2691",
+  "summary": "The text characterises sovereign models as \"hosted and governed within national or regional control,\" treating hosting …",
+  "comment": "The text characterises sovereign models as \"hosted and governed within national or regional control,\" treating hosting location and governance authority as a single choice. It is possible to separate hosting for countries with limited domestic compute. At the same time, hosting domestically does not guarantee sovereignty if models remain externally controlled.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:5-4-4-3957e6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2691",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 36,
+      "entry": "26",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.4",
+      "page": "109",
+      "lines": "183-186",
+      "raw": "§5.4.4 p.109 l.183-186"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-4-3957e6",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.109 l.183-186 read as the printed page; section 5.4.4 agrees"
+    },
+    "type": "technical",
+    "text": "The text characterises sovereign models as \"hosted and governed within national or regional control,\" treating hosting location and governance authority as a single choice. It is possible to separate hosting for countries with limited domestic compute. At the same time, hosting domestically does not guarantee sovereignty if models remain externally controlled.",
+    "suggestedRevision": "Distinguish data and model residency from sovereignty, and note that pooled or regional compute arrangements are a third option alongside domestic hosting and single-provider dependence.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 36"
+      }
+    ]
+  }
+}

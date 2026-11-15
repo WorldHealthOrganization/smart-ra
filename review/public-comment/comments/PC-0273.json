@@ -1,0 +1,78 @@
+{
+  "id": "pc-0273",
+  "summary": "The use of the International Patient Summary as a meaningful minimum for cross-border exchange is valuable. However, a …",
+  "comment": "The use of the International Patient Summary as a meaningful minimum for cross-border exchange is valuable. However, a generic patient summary may not contain the profession-specific or contextual meaning needed for continuity in every pathway. A minimum summary can become a ceiling if countries and implementers do not have governed extension rules and tests for preserving additional clinically essential content.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0273",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 273,
+      "entry": "272",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4; 4.3.1; Appendix C- LHR",
+      "page": "77; 94–95; 155–163",
+      "lines": "International Patient Summary discussion; minimum data models; LHR data requirements",
+      "raw": "§3.6.4; 4.3.1; Appendix C- LHR p.77; 94–95; 155–163 l.International Patient Summary discussion; minimum data models; LHR data requirements"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The use of the International Patient Summary as a meaningful minimum for cross-border exchange is valuable. However, a generic patient summary may not contain the profession-specific or contextual meaning needed for continuity in every pathway. A minimum summary can become a ceiling if countries and implementers do not have governed extension rules and tests for preserving additional clinically essential content.",
+    "suggestedRevision": "Clarify that IPS is a bounded shared minimum rather than a complete representation of care. Require governed national and professional extensions where necessary, without breaking the common core; document inclusion/exclusion rules and terminology bindings; and test that clinically significant content outside the base IPS- such as care needs, functional status, communication requirements, professional judgements, interventions and follow-up plans- can be preserved and exchanged when relevant.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 273"
+      }
+    ]
+  }
+}

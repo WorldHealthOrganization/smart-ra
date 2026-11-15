@@ -1,0 +1,74 @@
+{
+  "id": "pc-2495",
+  "summary": "Source integrity in code-system management — Unqualified “local modifications of ICD” can imply permissions the archite…",
+  "comment": "Source integrity in code-system management — Unqualified “local modifications of ICD” can imply permissions the architecture cannot confer. Technical import capability is not itself a licence breach: distinguish unchanged international content, authorised extensions and separately identified additions. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time; verify the terms in force at publication. ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4, supports international comparability and governed maintenance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2495",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 38,
+      "entry": "37",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §3",
+      "page": "165",
+      "lines": "A14.02",
+      "raw": "§Terminology Service, §3 p.165 l.A14.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Source integrity in code-system management — Unqualified “local modifications of ICD” can imply permissions the architecture cannot confer. Technical import capability is not itself a licence breach: distinguish unchanged international content, authorised extensions and separately identified additions. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time; verify the terms in force at publication. ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4, supports international comparability and governed maintenance.",
+    "suggestedRevision": "Replace bullet: – Code system management. Storage or governed access and lifecycle management of concepts, identifiers, designations, properties, relationships, and releases, including graph-structured content with persistent, resolvable entity identifiers and typed relationships. International content shall remain attributable to its publisher. National and local code systems, authorised extensions, and clearly identified supplementary metadata shall be governed separately and used within the applicable standard's rules and licence.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 38"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "CS-178",
+  "title": "Define terminology and SGI roles, decision rights and approval",
+  "requirements": "- Define domain-specific reviewer qualifications, conflict-of-interest rules and multidisciplinary review\n- Define who approves extensions, translations, value sets and mappings\n- Add a RACI-style model assigning standards, terminology, model, clinical and publication authorities to capabilities\n- Extend technical review to implementability and validation, and distinguish automated structural checks from expert judgement\n- Include classification and clinical coding specialists\n- Distinguish authoring roles (content author, domain authority, modeller, terminology specialist, reviewer, publisher) with separation of duties\n- Require privacy, legal, ethical and equity review for high-impact artefacts, and proportionate public consultation\n- Link ICD release adoption to statistical reporting",
+  "refs": [
+    "PC-1924",
+    "PC-2338",
+    "PC-2354",
+    "PC-2359",
+    "PC-2372",
+    "PC-2373",
+    "PC-2374",
+    "PC-2375",
+    "PC-2376",
+    "PC-2389",
+    "PC-2509",
+    "PC-2511"
+  ],
+  "status": "editing",
+  "issue": 19,
+  "issues": [
+    19
+  ],
+  "pr": {
+    "number": 16,
+    "branch": "claude/confident-bardeen-inaarx"
+  },
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 12 comment(s)"
+    },
+    {
+      "at": "2026-10-06T05:23:45.944Z",
+      "by": "litlfred",
+      "what": "PR #16 is making the change",
+      "url": "https://github.com/litlfred/smart-ra/pull/16"
+    },
+    {
+      "at": "2026-10-06T05:23:45.944Z",
+      "by": "litlfred",
+      "what": "issue #19 opened"
+    }
+  ],
+  "$schema": "changeset/1.0.0"
+}

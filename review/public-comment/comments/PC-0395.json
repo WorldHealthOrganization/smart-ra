@@ -1,0 +1,80 @@
+{
+  "id": "pc-0395",
+  "summary": "The LHR is described as the primary source for HMIS aggregates, which contradicts real RHIS architecture and also the f…",
+  "comment": "The LHR is described as the primary source for HMIS aggregates, which contradicts real RHIS architecture and also the first HMIS \"core attribute\". DHIS2 supports direct aggregate reporting, event data and registered Tracker data concurrently; it can analyse them together or transform Tracker indicators into aggregate values. This mixed-modality model preserves continuity while facilities and programmes transition at different speeds. Furthermore, HMIS covers a variety of inputs and outputs that are not based on shared patient records (CHW services, health facility assessments, health education services/outreach, stock availability, to name a few) Source: https://docs.dhis2.org/en/implement/maintenance-and-use/tracker-and-aggregate-data-integration.html",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-health-management-information-sy-1146af",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0395",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 395,
+      "entry": "394",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C – HMIS",
+      "page": "212",
+      "lines": "114–124",
+      "raw": "§Appendix C – HMIS p.212 l.114–124"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-health-management-information-sy-1146af",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-health-management-information-sy-6b844c"
+      ],
+      "note": "p.212 l.114–124 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The LHR is described as the primary source for HMIS aggregates, which contradicts real RHIS architecture and also the first HMIS \"core attribute\". DHIS2 supports direct aggregate reporting, event data and registered Tracker data concurrently; it can analyse them together or transform Tracker indicators into aggregate values. This mixed-modality model preserves continuity while facilities and programmes transition at different speeds. Furthermore, HMIS covers a variety of inputs and outputs that are not based on shared patient records (CHW services, health facility assessments, health education services/outreach, stock availability, to name a few) Source: https://docs.dhis2.org/en/implement/maintenance-and-use/tracker-and-aggregate-data-integration.html",
+    "suggestedRevision": "Describe HMIS as a multi-source, mixed-granularity platform. Make direct aggregate, event, Tracker/registry, laboratory, logistics, workforce, finance, CRVS, survey and imported data first-class. Allow coexistence and triangulation across modalities, with explicit provenance, completeness, source-of-truth and transition rules.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 395"
+      }
+    ]
+  }
+}

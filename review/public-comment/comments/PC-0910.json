@@ -1,0 +1,81 @@
+{
+  "id": "pc-0910",
+  "summary": "The three-layer model uses “content and application layer” for clinical systems, analytics platforms, and applications.…",
+  "comment": "The three-layer model uses “content and application layer” for clinical systems, analytics platforms, and applications. This combines governed content with the systems that consume it, although content artefacts also exist in the governance and runtime layers.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-3d9d13",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0910",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 146,
+      "entry": "145",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5",
+      "page": "58",
+      "lines": "Lines 418-430",
+      "raw": "§3.4.5 p.58 l.Lines 418-430"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-3d9d13",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-122468",
+        "prose:3-4-5-f945f5",
+        "prose:3-4-5-66c543"
+      ],
+      "note": "p.58 l.Lines 418-430 read as the printed page; section 3.4.5 agrees"
+    },
+    "text": "The three-layer model uses “content and application layer” for clinical systems, analytics platforms, and applications. This combines governed content with the systems that consume it, although content artefacts also exist in the governance and runtime layers.",
+    "suggestedRevision": "Rename the third layer Consumption, implementation, and feedback layer, and represent governed content as flowing from authoring and publication into runtime distribution and consuming implementations.",
+    "labels": {
+      "Comment type": "Q8 - Interoperability and semantic governance"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 146"
+      }
+    ]
+  }
+}

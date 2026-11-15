@@ -1,0 +1,78 @@
+{
+  "id": "pc-0133",
+  "summary": "correcting the context of sentences",
+  "comment": "correcting the context of sentences",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0133",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 133,
+      "entry": "132",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive summary",
+      "page": "1",
+      "lines": "56-57",
+      "raw": "§Executive summary p.1 l.56-57"
+    },
+    "anchor": {
+      "targetLabel": "fig:1",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.1 l.56-57 read as the printed page"
+    },
+    "type": "editorial",
+    "text": "correcting the context of sentences",
+    "suggestedRevision": "Figure 1: The Reference Architecture for planning and implementing a digital health enterprise",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 133"
+      }
+    ]
+  }
+}

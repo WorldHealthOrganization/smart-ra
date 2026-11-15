@@ -1,0 +1,74 @@
+{
+  "id": "pc-0760",
+  "summary": "We agree, strongly. REDDHI as a condition of self-sustaining maturity, not a product to procure; \"no country starts fro…",
+  "comment": "We agree, strongly. REDDHI as a condition of self-sustaining maturity, not a product to procure; \"no country starts from zero.\"",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0760",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 760,
+      "entry": "759",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§2.2 REDDHI (p.26–30)",
+      "lines": "A2",
+      "raw": "§§2.2 REDDHI (p.26–30) l.A2"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 2.2 only"
+    },
+    "text": "We agree, strongly. REDDHI as a condition of self-sustaining maturity, not a product to procure; \"no country starts from zero.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 760"
+      }
+    ]
+  }
+}

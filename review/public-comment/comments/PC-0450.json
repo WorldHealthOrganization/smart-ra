@@ -1,0 +1,82 @@
+{
+  "id": "pc-0450",
+  "summary": "The treatment of cross-border flows does not reference the most advanced operating implementation of this capability. M…",
+  "comment": "The treatment of cross-border flows does not reference the most advanced operating implementation of this capability. MyHealth@EU has exchanged patient summaries and ePrescriptions between member states for several years, with a governed terminology layer and an established legal basis. Any region planning cross-border exchange would benefit from that evidence.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-4-4fbd23",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0450",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 450,
+      "entry": "449",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.4",
+      "page": "77",
+      "lines": "905",
+      "raw": "§3.6.4 p.77 l.905"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-4-4fbd23",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-6-4-4150dd",
+        "prose:3-6-4-ce5111",
+        "prose:3-6-4-c0012b"
+      ],
+      "note": "p.77 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The treatment of cross-border flows does not reference the most advanced operating implementation of this capability. MyHealth@EU has exchanged patient summaries and ePrescriptions between member states for several years, with a governed terminology layer and an established legal basis. Any region planning cross-border exchange would benefit from that evidence.",
+    "suggestedRevision": "Cite MyHealth@EU and its central value-set governance as a worked example, including what it shows about semantic governance at scale and about legal prerequisites. Add the Dutch experience of connecting to it, where the binding constraint proved not to be the exchange specification but the absence of any national obligation on providers to make the data available in the first place.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 450"
+      }
+    ]
+  }
+}

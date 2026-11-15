@@ -1,0 +1,78 @@
+{
+  "id": "pc-0292",
+  "summary": "Several glossary entries are placeholders: 'Health Information Exchange' is marked to be included before publication, '…",
+  "comment": "Several glossary entries are placeholders: 'Health Information Exchange' is marked to be included before publication, 'Repository' is empty, and several entries are marked under review.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0292",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 292,
+      "entry": "291",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "1-2 (front matter)",
+      "lines": "n/a",
+      "raw": "§Glossary p.1-2 (front matter) l.n/a"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "editorial",
+    "text": "Several glossary entries are placeholders: 'Health Information Exchange' is marked to be included before publication, 'Repository' is empty, and several entries are marked under review.",
+    "suggestedRevision": "Complete the glossary entries before publication; the Health Information Exchange definition matters because the main text deliberately avoids a central HIE component.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 292"
+      }
+    ]
+  }
+}

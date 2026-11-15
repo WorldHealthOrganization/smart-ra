@@ -1,0 +1,79 @@
+{
+  "id": "pc-1580",
+  "summary": "Where no CGR exists, the Health Facility Registry manages geographic reference data internally. The transition to a lat…",
+  "comment": "Where no CGR exists, the Health Facility Registry manages geographic reference data internally. The transition to a later CGR could be complex if local identifiers and geometries diverge.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-71c7dd",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1580",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 816,
+      "entry": "815",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Facility Registry, 4",
+      "page": "127",
+      "lines": "Lines 148-153",
+      "raw": "§Health Facility Registry, 4 p.127 l.Lines 148-153"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-health-facility-registry-71c7dd",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-health-facility-registry-d9497b"
+      ],
+      "note": "p.127 l.Lines 148-153 read as the printed page; section 4 agrees"
+    },
+    "text": "Where no CGR exists, the Health Facility Registry manages geographic reference data internally. The transition to a later CGR could be complex if local identifiers and geometries diverge.",
+    "suggestedRevision": "Require persistent local identifiers, provenance, export, versioning, mapping readiness, separation of facility and geography data, and a future reconciliation plan.",
+    "labels": {
+      "Comment type": "Q10 - Implementation pathways"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 816"
+      }
+    ]
+  }
+}

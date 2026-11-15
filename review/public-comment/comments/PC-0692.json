@@ -1,0 +1,76 @@
+{
+  "id": "pc-0692",
+  "summary": "Reuse should remain purpose-bound and carry interoperable policy metadata. The guidance appropriately supports 'capture…",
+  "comment": "Reuse should remain purpose-bound and carry interoperable policy metadata. The guidance appropriately supports 'capture once, use many times' and elsewhere recognises purpose limitation, data minimisation and access governance. For reuse across federated systems, however, policy constraints also need a machine-readable form so that the receiving system can enforce the applicable purpose, confidentiality and handling rules.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0692",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 692,
+      "entry": "691",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-325183202d",
+      "name": "Ruslan Kurmashev",
+      "organisation": "(not stated)",
+      "country": "(not stated)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 1.5, pp. 21-22, lines 429-432; Section 2.3, pp. 35-36; Appendix C - Lifelong Health Record, pp. 161-162, Requirements 14-17.",
+      "raw": "§Section 1.5, pp. 21-22, lines 429-432; Section 2.3, pp. 35-36; Appendix C - Lifelong Health Record, pp. 161-162, Requirements 14-17."
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-lifelong-health-record-ed5e15",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Reuse should remain purpose-bound and carry interoperable policy metadata. The guidance appropriately supports 'capture once, use many times' and elsewhere recognises purpose limitation, data minimisation and access governance. For reuse across federated systems, however, policy constraints also need a machine-readable form so that the receiving system can enforce the applicable purpose, confidentiality and handling rules.",
+    "suggestedRevision": "Qualify the principle consistently as: 'Capture once, use many times - for authorised purposes, under applicable governance, and using only the data necessary for each purpose.' Add a cross-cutting requirement for standards-based policy metadata capable of expressing nationally defined confidentiality/sensitivity classes, permitted purposes, consent or other authorisation references, handling restrictions and provenance, with those constraints preserved during exchange and federated access.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "Major / Governance / Technical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 692"
+      }
+    ]
+  }
+}

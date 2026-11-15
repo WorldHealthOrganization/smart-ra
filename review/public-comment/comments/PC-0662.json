@@ -1,0 +1,77 @@
+{
+  "id": "pc-0662",
+  "summary": "I think Section 1.2 makes a strong (too strong?) case on why the health sector needs more than foundational DPI - and I…",
+  "comment": "I think Section 1.2 makes a strong (too strong?) case on why the health sector needs more than foundational DPI - and I agree that the health sector has special needs. \nHowever, i think this section neglects how the health sector can benefit even from partial foundational DPI. As far as I see, foundational DPI are being built very rapidly (i would rephrase \"DPIs do not yet exist\" on line 192 - i think this is increasingly not true (https://dpimap.org/)).\nFor the ID function of the foundational DPI, the national ID number should be used as / linked to the health identifier when available; for patients that don't have a national ID number they can get a health-only number. You say this at the end of Box 1.2, but i think this point (i.e., health should use foundational DPI to the maximum potential and utility for the health sector) should be highlighted further / more prominent.\nAs an additional specific comment, i don't think that Line198 is what the foundational ID layer of DPI is trying to do - health specific data should stay in the health sector and not be in the foundational DPI.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:1-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0662",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 662,
+      "entry": "661",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-555bd070ac",
+      "name": "Martin Bratschi",
+      "organisation": "Vital Strategies",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.2",
+      "lines": "starting from 172",
+      "raw": "§1.2 l.starting from 172"
+    },
+    "anchor": {
+      "targetLabel": "sec:1-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 1.2 only"
+    },
+    "text": "I think Section 1.2 makes a strong (too strong?) case on why the health sector needs more than foundational DPI - and I agree that the health sector has special needs. \nHowever, i think this section neglects how the health sector can benefit even from partial foundational DPI. As far as I see, foundational DPI are being built very rapidly (i would rephrase \"DPIs do not yet exist\" on line 192 - i think this is increasingly not true (https://dpimap.org/)).\nFor the ID function of the foundational DPI, the national ID number should be used as / linked to the health identifier when available; for patients that don't have a national ID number they can get a health-only number. You say this at the end of Box 1.2, but i think this point (i.e., health should use foundational DPI to the maximum potential and utility for the health sector) should be highlighted further / more prominent.\nAs an additional specific comment, i don't think that Line198 is what the foundational ID layer of DPI is trying to do - health specific data should stay in the health sector and not be in the foundational DPI.",
+    "suggestedRevision": "Add a paragraph on page 13 (before 1.2.1) to indicate how the health sector should use foundational DPI to the maximum potential and utility for the health sector.\nFor each of sections 1.2.1, 1.2.2 and 1.2.3 add to the current text (which currently just stresses how health needs extra) a paragraph to say how the health sector can use the foundational DPI to its maximum potential and utility.",
+    "labels": {
+      "Stakeholder type": "Development partner, donor or implementing agency",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 662"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-how-to-use-this-guidance-lead-fb8316-2-2",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:how-to-use-this-guidance-lead-fb8316-2-2",
+  "kind": "table",
+  "text": "t-how-to-use-this-guidance-lead-fb8316-2-2.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 29,
+      "page": 15,
+      "printedPage": "4",
+      "method": "inherited-page"
+    }
+  },
+  "provenance": "authored"
+}

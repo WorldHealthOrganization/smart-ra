@@ -1,0 +1,82 @@
+{
+  "id": "pc-0618",
+  "summary": "DPI-H components (right set): Overall, I believe the proposed components represent a strong and well-considered foundat…",
+  "comment": "DPI-H components (right set): Overall, I believe the proposed components represent a strong and well-considered foundation for national digital health infrastructure. The core registries, lifelong health record, terminology service and logical information model repository address many of the challenges countries face around fragmented data, inconsistent identification and limited interoperability. I also appreciate that operational systems such as EHRs, claims platforms and supply-chain applications are kept outside the DPI-H boundary while still being able to use the shared infrastructure.\n\nThere are, however, a few areas that could be clearer. Countries also need an authoritative way to identify healthcare organisations, not only individual workers and physical facilities, including provider groups, payers, laboratories, regulators and other participating institutions. Consent, authorisation, trust, provenance and service-discovery capabilities also need more explicit treatment, particularly where foundational national DPI cannot meet the additional privacy and consent requirements of healthcare.\n\nI would also clarify the boundaries of some business-service components. For example, computable clinical knowledge can be governed nationally as a shared asset, while the engine applying that knowledge may operate within local clinical systems. Similarly, HMIS and surveillance capabilities may be delivered through centralised, federated or hybrid arrangements rather than through one national product.\n\nTherefore, I see the proposed set as directionally right and a very strong baseline, but not necessarily a fixed or complete list for every country. It would be helpful to classify the components as foundational, context-dependent and advanced, allowing countries to sequence them according to their health priorities, existing infrastructure and level of digital maturity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0618",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 618,
+      "entry": "617",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set."
+    },
+    "type": "general",
+    "text": "DPI-H components (right set): Overall, I believe the proposed components represent a strong and well-considered foundation for national digital health infrastructure. The core registries, lifelong health record, terminology service and logical information model repository address many of the challenges countries face around fragmented data, inconsistent identification and limited interoperability. I also appreciate that operational systems such as EHRs, claims platforms and supply-chain applications are kept outside the DPI-H boundary while still being able to use the shared infrastructure.\n\nThere are, however, a few areas that could be clearer. Countries also need an authoritative way to identify healthcare organisations, not only individual workers and physical facilities, including provider groups, payers, laboratories, regulators and other participating institutions. Consent, authorisation, trust, provenance and service-discovery capabilities also need more explicit treatment, particularly where foundational national DPI cannot meet the additional privacy and consent requirements of healthcare.\n\nI would also clarify the boundaries of some business-service components. For example, computable clinical knowledge can be governed nationally as a shared asset, while the engine applying that knowledge may operate within local clinical systems. Similarly, HMIS and surveillance capabilities may be delivered through centralised, federated or hybrid arrangements rather than through one national product.\n\nTherefore, I see the proposed set as directionally right and a very strong baseline, but not necessarily a fixed or complete list for every country. It would be helpful to classify the components as foundational, context-dependent and advanced, allowing countries to sequence them according to their health priorities, existing infrastructure and level of digital maturity.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Architecture and concepts",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 618"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form answer on the component set."
+      }
+    ]
+  }
+}

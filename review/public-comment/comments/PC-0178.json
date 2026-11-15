@@ -1,0 +1,81 @@
+{
+  "id": "pc-0178",
+  "summary": "The Benefits Package Registry appropriately separates authoritative benefit definitions from operational claims and pay…",
+  "comment": "The Benefits Package Registry appropriately separates authoritative benefit definitions from operational claims and payment functions. It may be useful to make explicit that confirmation of coverage, eligibility, provider status and technical validity of a transaction does not necessarily establish that sufficient evidence exists to support a consequential claim or payment decision.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0178",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 178,
+      "entry": "177",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9b5d0aa903",
+      "name": "Yetunde Yusuf",
+      "organisation": "HCOS Technologies, Inc.",
+      "country": "United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Benefits Package Registry",
+      "page": "199–200",
+      "lines": "15–20; 41–50",
+      "raw": "§Appendix C — Benefits Package Registry p.199–200 l.15–20; 41–50"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-benefits-package-registry-6a97d1"
+      ],
+      "note": "p.199–200 l.15–20; 41–50 read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The Benefits Package Registry appropriately separates authoritative benefit definitions from operational claims and payment functions. It may be useful to make explicit that confirmation of coverage, eligibility, provider status and technical validity of a transaction does not necessarily establish that sufficient evidence exists to support a consequential claim or payment decision.",
+    "suggestedRevision": "Consider clarifying that, where claims or other financing decisions depend on evidence of service delivery or fulfilment of programme conditions, countries should define where responsibility for assessing the sufficiency and provenance of that evidence resides within the financing architecture. Confirmation of coverage, eligibility or technical validity should not, by itself, be interpreted as establishing that all substantive requirements for payment or other consequential action have been satisfied.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems",
+      "Consider by TWG? Human categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 178"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pc-0045",
+  "summary": "The functional requirements cover professional role-based access, consent integration and direct individual access, but…",
+  "comment": "The functional requirements cover professional role-based access, consent integration and direct individual access, but omit delegated and supported access. This leaves a major gap for children, adults temporarily unable to act, older people with changing capability, persons with disabilities and anyone who chooses a trusted representative.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0045",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 45,
+      "entry": "44",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Lifelong Health Record, Functional requirements",
+      "page": "171",
+      "lines": "Requirements 13–15",
+      "raw": "§Appendix C — Lifelong Health Record, Functional requirements p.171 l.Requirements 13–15"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The functional requirements cover professional role-based access, consent integration and direct individual access, but omit delegated and supported access. This leaves a major gap for children, adults temporarily unable to act, older people with changing capability, persons with disabilities and anyone who chooses a trusted representative.",
+    "suggestedRevision": "Add a Required functional requirement: “Delegated and supported access. The LHR shall support an individual granting, reviewing, limiting and revoking access to one or more authorised representatives. Delegations shall specify scope, purpose, duration and permitted actions; distinguish viewing from acting or contributing; verify both parties and the source of authority; support legal guardianship and supported decision-making where applicable; and produce a complete audit trail visible to the individual and governance authority. Implementations should use standards-based representations such as FHIR Consent and RelatedPerson where applicable.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 45"
+      }
+    ]
+  }
+}

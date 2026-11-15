@@ -1,0 +1,83 @@
+{
+  "id": "pc-2513",
+  "summary": "Binding strength and complete expression handling — Binding strength and expression handling must be declared, rather t…",
+  "comment": "Binding strength and complete expression handling — Binding strength and expression handling must be declared, rather than inferred from a permitted-value list. Evidence: FHIR coding and binding rules (https://hl7.org/fhir/R4/terminologies.html) and WHO FHIR interface documentation (https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/). The WHO FHIR interface is under active development; an implementation relying on it must declare its FHIR version, release coverage, publication status and tested operations at implementation. See C033 for the dated status check and R4/R5 compatibility distinction.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-logical-information-model-reposi-257cac",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2513",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 56,
+      "entry": "55",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Logical Information Model Repository, §5",
+      "page": "176",
+      "lines": "A19.01",
+      "raw": "§Logical Information Model Repository, §5 p.176 l.A19.01"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-logical-information-model-reposi-257cac",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-logical-information-model-reposi"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites LIMR §5; LIMR requirements table with value set binding rows."
+    },
+    "text": "Binding strength and complete expression handling — Binding strength and expression handling must be declared, rather than inferred from a permitted-value list. Evidence: FHIR coding and binding rules (https://hl7.org/fhir/R4/terminologies.html) and WHO FHIR interface documentation (https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/). The WHO FHIR interface is under active development; an implementation relying on it must declare its FHIR version, release coverage, publication status and tested operations at implementation. See C033 for the dated status check and R4/R5 compatibility distinction.",
+    "suggestedRevision": "Append; retain Required status: Each binding shall identify its strength, intended use, code-system namespace, and applicable release policy, in addition to the value-set identifier and version. For ICD-11 content, profiles shall specify the representation of Foundation identifiers, MMS codes, and complete postcoordinated expressions where applicable. Components of one expression shall not be presented as unrelated diagnoses or as equivalent alternative codings. The profile shall specify how source text, context, and any separately derived statistical or mapped representation are linked. Where a base profile permits alternative coding, any national restriction shall be explicit and justified for the use case.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 56"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites LIMR §5; LIMR requirements table with value set binding rows."
+      }
+    ]
+  }
+}

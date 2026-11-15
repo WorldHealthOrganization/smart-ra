@@ -1,0 +1,77 @@
+{
+  "id": "pc-1050",
+  "summary": "The distinction between system conformance and architecture conformance is valuable. However, “conformance of the archi…",
+  "comment": "The distinction between system conformance and architecture conformance is valuable. However, “conformance of the architecture” combines several different assessments: model validity, alignment with the reference architecture, coverage, traceability, and documentation of deviations.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-1-aef1b3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1050",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 286,
+      "entry": "285",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.1",
+      "page": "78-79",
+      "lines": "Lines 964-980",
+      "raw": "§3.7.1 p.78-79 l.Lines 964-980"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-1-aef1b3",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.78-79 l.Lines 964-980 read as the printed page; section 3.7.1 agrees"
+    },
+    "text": "The distinction between system conformance and architecture conformance is valuable. However, “conformance of the architecture” combines several different assessments: model validity, alignment with the reference architecture, coverage, traceability, and documentation of deviations.",
+    "suggestedRevision": "Separate these into clearly defined assessment dimensions: model validity, reference alignment, capability coverage, relationship completeness, traceability, and documented deviation. Define the expected evidence and assessment method for each.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 286"
+      }
+    ]
+  }
+}

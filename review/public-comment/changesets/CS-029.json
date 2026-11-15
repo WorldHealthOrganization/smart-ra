@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-029",
+  "title": "Revise Table 2.2 rows and component column",
+  "requirements": "- Reconcile Table 2.2 (LIMR as a later enabler) with 4.3.1 and the architecture-placement guidance\n- State that governance, quality and audit are architecture-wide responsibilities\n- Rename the column to cover cross-cutting capabilities as well as components\n- Distinguish a governed minimum information model, required at every starting point, from LIMR tooling built progressively\n- Explain how they are realised through component-level stewardship, reconciling 2.1's cross-cutting framing with component requirements\n- List the exchange services, gateways and trust services through which interoperability is realised",
+  "refs": [
+    "PC-0252",
+    "PC-0509",
+    "PC-0540",
+    "PC-0789",
+    "PC-0800",
+    "PC-0801"
+  ],
+  "anchor": "tbl:2-2",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 6 comment(s)"
+    }
+  ]
+}

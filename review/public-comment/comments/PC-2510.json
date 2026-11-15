@@ -1,0 +1,83 @@
+{
+  "id": "pc-2510",
+  "summary": "Institutional licensing responsibilities — A managed service cannot grant rights absent from the applicable terms. Appl…",
+  "comment": "Institutional licensing responsibilities — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2510",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 53,
+      "entry": "52",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, Governance",
+      "page": "171",
+      "lines": "A18.04",
+      "raw": "§Terminology Service, Governance p.171 l.A18.04"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-eb8233",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+    },
+    "text": "Institutional licensing responsibilities — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+    "suggestedRevision": "Replace whole item: (4) Licensing obligations. Governance should identify the applicable terms, accountable parties, and recurring costs for each selected content source and software component. WHO's published ICD-11 content and software terms should be documented alongside those of other suppliers. Free access or a royalty-free software licence should not be described as permission to alter the international classification. Licence compliance should be monitored throughout deployment and exchange.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 53"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites TS Governance; the GOVERNANCE box (expertise list, licensing item 4, release management)."
+      }
+    ]
+  }
+}

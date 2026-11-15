@@ -1,0 +1,81 @@
+{
+  "id": "pc-0546",
+  "summary": "A constructive suggestion on the structure of the Shared Data Layer. The layer currently resolves person, workforce, lo…",
+  "comment": "A constructive suggestion on the structure of the Shared Data Layer. The layer currently resolves person, workforce, location and product into separate registry elements, each with its own governance, but represents all clinical content in a single \"Health Record\" element. In national practice the clinical foundation is not homogeneous: structured clinical content, demographic and administrative data, clinical documents, and codes and value sets have different structures, different rates of change, different retention requirements and, in consequence, different appropriate standards. Slovenia's national architecture decomposes its data layer accordingly — structured clinical data governed by an open information model, demographic and administrative data in HL7 FHIR, clinical documents through IHE profiles, and codes and terminology maintained on a national terminology server — with a common service layer and standardised APIs above it. Representing this distinction in Figure 3.2 would remove the need for a single storage annotation on the Health Record element and would show countries a decision they must in any case make.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3-8f9618",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0546",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 546,
+      "entry": "545",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3 The reference architecture in practice — Figures 3.2 and 3.5",
+      "page": "48; 66",
+      "lines": "Figure 3.2 (p48) and Figure 3.5 (p66) — Shared Data Layer",
+      "caption": "Figure 3.2",
+      "raw": "§3.3 The reference architecture in practice — Figures 3.2 and 3.5 p.48; 66 l.Figure 3.2 (p48) and Figure 3.5 (p66) — Shared Data Layer"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3-8f9618",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-3-29ac26"
+      ],
+      "note": "p.48; 66 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "A constructive suggestion on the structure of the Shared Data Layer. The layer currently resolves person, workforce, location and product into separate registry elements, each with its own governance, but represents all clinical content in a single \"Health Record\" element. In national practice the clinical foundation is not homogeneous: structured clinical content, demographic and administrative data, clinical documents, and codes and value sets have different structures, different rates of change, different retention requirements and, in consequence, different appropriate standards. Slovenia's national architecture decomposes its data layer accordingly — structured clinical data governed by an open information model, demographic and administrative data in HL7 FHIR, clinical documents through IHE profiles, and codes and terminology maintained on a national terminology server — with a common service layer and standardised APIs above it. Representing this distinction in Figure 3.2 would remove the need for a single storage annotation on the Health Record element and would show countries a decision they must in any case make.",
+    "suggestedRevision": "Decompose the Health Record element in the Shared Data Layer into its constituent data types — structured clinical content (openEHR), demographic and administrative data (FHIR), and clinical documents (IHE) — shown as one governed record with three typed stores rather than three separate records, with the applicable standard noted against each and the Terminology Service supplying codes across all of them. Alternatively, retain the single element and add a sub-line reading \"comprising structured clinical content, demographic and administrative data, and documents, each governed by the standard appropriate to it\" and add a list of standards so that it is not just FHIR: openEHR, IHE.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 546"
+      }
+    ]
+  }
+}

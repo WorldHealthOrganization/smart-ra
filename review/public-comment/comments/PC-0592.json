@@ -1,0 +1,83 @@
+{
+  "id": "pc-0592",
+  "summary": "The comment previously said there are no consolidated definitions. A glossary does exist in the front matter, but it co…",
+  "comment": "The comment previously said there are no consolidated definitions. A glossary does exist in the front matter, but it covers only generic architecture terms (application component, application service, capability, data object and similar) and omits REDDHI, STAC, DPI-F, DPI-H and the wider acronym set.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:glossary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0592",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 592,
+      "entry": "591",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Row 31 (comment 21)",
+      "page": "Glossary exists — comment reframed",
+      "raw": "§Row 31 (comment 21) p.Glossary exists — comment reframed"
+    },
+    "anchor": {
+      "targetLabel": "sec:glossary-lead",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Drafting note; substance is expanding the existing glossary."
+    },
+    "text": "The comment previously said there are no consolidated definitions. A glossary does exist in the front matter, but it covers only generic architecture terms (application component, application service, capability, data object and similar) and omits REDDHI, STAC, DPI-F, DPI-H and the wider acronym set.",
+    "suggestedRevision": "Reworded to ask that the existing glossary be expanded to cover the core specialist terms and acronyms, and signposted from the chapters. Please confirm.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 592"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Drafting note; substance is expanding the existing glossary."
+      }
+    ]
+  }
+}

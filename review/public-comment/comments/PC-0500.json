@@ -1,0 +1,81 @@
+{
+  "id": "pc-0500",
+  "summary": "Figure 3.2 is a high level diagram of the Reference Architecture. Having just reviewed Section 3.1 for guidance on adop…",
+  "comment": "Figure 3.2 is a high level diagram of the Reference Architecture. Having just reviewed Section 3.1 for guidance on adoptiong ArchiMate for our own architectural documentation it was notable that this reference architecture takes a more aesthetic approach to  it's own high-level concepts and does not use the ArchiMate approach.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "fig:3-3-8f9618",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0500",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 500,
+      "entry": "499",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-37e75a8b0e",
+      "name": "Greg Farnan",
+      "organisation": "Cirdan Imaging Limited",
+      "country": "Portugal",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.3",
+      "page": "48",
+      "lines": "Figure 3.2",
+      "caption": "Figure 3.2",
+      "raw": "§3.3 p.48 l.Figure 3.2"
+    },
+    "anchor": {
+      "targetLabel": "fig:3-3-8f9618",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-3-29ac26"
+      ],
+      "note": "p.48 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Figure 3.2 is a high level diagram of the Reference Architecture. Having just reviewed Section 3.1 for guidance on adoptiong ArchiMate for our own architectural documentation it was notable that this reference architecture takes a more aesthetic approach to  it's own high-level concepts and does not use the ArchiMate approach.",
+    "suggestedRevision": "Add guidance noting that high-level, landscape diagrams and schematics can – and where appropriate should – adopt more generally consumable approaches to diagramming, in doing so acknowledging the importance of capturing high-level, landscape design concepts.. Ideally, recommend an approach and tooling.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 500"
+      }
+    ]
+  }
+}

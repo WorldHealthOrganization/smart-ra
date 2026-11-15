@@ -1,0 +1,73 @@
+{
+  "id": "pc-2692",
+  "summary": "The section identifies national training programmes as the means to develop and retain capacity in the public sector, b…",
+  "comment": "The section identifies national training programmes as the means to develop and retain capacity in the public sector, but does not address the institutional preconditions on which retention depends. Training capacity alone does not produce retention where (a) no academic pathway produces the specialist roles listed in 4.5.2, (b) the civil service has no position classification or establishment item for informatics roles, so trained staff have no post to occupy, and (c) no career progression competes with private-sector or donor-funded alternatives.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:4-5-3-b2e92d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2692",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 37,
+      "entry": "27",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.53",
+      "page": "101",
+      "lines": "526-533",
+      "raw": "§4.53 p.101 l.526-533"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-5-3-b2e92d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.101 l.526-533 read as the printed page; section 4.53 agrees"
+    },
+    "type": "general",
+    "text": "The section identifies national training programmes as the means to develop and retain capacity in the public sector, but does not address the institutional preconditions on which retention depends. Training capacity alone does not produce retention where (a) no academic pathway produces the specialist roles listed in 4.5.2, (b) the civil service has no position classification or establishment item for informatics roles, so trained staff have no post to occupy, and (c) no career progression competes with private-sector or donor-funded alternatives.",
+    "suggestedRevision": "Add brief guidance on establishing a national capacity programme that names academic pathway development, civil service position classification, and retention as explicit prerequisites; and reference competency frameworks for digital health as the bridge between role definitions and curricula. Include at least one low- or middle-income exemplar.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 37"
+      }
+    ]
+  }
+}

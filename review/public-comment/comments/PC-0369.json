@@ -1,0 +1,79 @@
+{
+  "id": "pc-0369",
+  "summary": "REDDHI makes registries and a Lifelong Health Record the common minimum, but excludes the national RHIS/HMIS platform t…",
+  "comment": "REDDHI makes registries and a Lifelong Health Record the common minimum, but excludes the national RHIS/HMIS platform that already constitutes the most mature digital health infrastructure in many LMICs. A DHIS2-based national RHIS often supplies shared organisational units, indicator metadata, aggregate data, surveillance, dashboards, APIs and a trained support ecosystem. Building new person-level foundations before strengthening this asset could delay value and fragment governance.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0369",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 369,
+      "entry": "368",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2",
+      "page": "26–28",
+      "lines": "109–173; Table 2.2",
+      "caption": "Table 2.2",
+      "raw": "§2.2 p.26–28 l.109–173; Table 2.2"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "REDDHI makes registries and a Lifelong Health Record the common minimum, but excludes the national RHIS/HMIS platform that already constitutes the most mature digital health infrastructure in many LMICs. A DHIS2-based national RHIS often supplies shared organisational units, indicator metadata, aggregate data, surveillance, dashboards, APIs and a trained support ecosystem. Building new person-level foundations before strengthening this asset could delay value and fragment governance.",
+    "suggestedRevision": "Define the REDDHI minimum through country priorities and installed capabilities. Add ‘shared RHIS/public-health information platform’ as an eligible core starting component in Table 2.2. Permit aggregate-first, surveillance-first and mixed-modality pathways, with registries/LHR added when priority use cases, lawful basis, coverage and operating capacity justify them.\n\nOur point here is twofold. First, REDDHI \"components\" described in Tbl2.2 are all \"foundational DPI\"; yet registries alone cannot capture all essential facility-level aggregate, logistics, or surveillance data (many of which are cross-cutting!).  Second, business service layers already capture, combine, analyze, and extend those data along with the core registries. Thus, building on, learning from, or drawing on an installed base RHIS in the \"business service layer\" for development of foundational DPI, should be considred a key pathway for development towards REDDHI.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 369"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-167",
+  "title": "Correct the roles of product classifications, dictionaries and coding",
+  "requirements": "- State the purpose and product level of UNSPSC, GPC, ATC and WHODrug; they are not identifiers\n- Note that shelf labels aligned to the national registry may be needed where manufacturer codes are absent or equivalent products are pooled\n- Document licensing and governance per classification\n- Define IDMP and scope it to medicinal products\n- Categorise listed standards by role and normativity",
+  "refs": [
+    "PC-0416",
+    "PC-0418",
+    "PC-1752",
+    "PC-1763",
+    "PC-1771",
+    "PC-1772",
+    "PC-1783",
+    "PC-1820"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 8 comment(s)"
+    }
+  ]
+}

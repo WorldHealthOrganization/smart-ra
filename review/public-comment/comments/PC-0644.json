@@ -1,0 +1,83 @@
+{
+  "id": "pc-0644",
+  "summary": "Country / regional examples: No inaccuracies noted. Observation: No mention was made of regional networks such as Asia …",
+  "comment": "Country / regional examples: No inaccuracies noted. Observation: No mention was made of regional networks such as Asia eHealth Information Network and multilaterals such as ASEAN and SPC, all of which enrich the experience of their member countries and can serve as effective vehicles for collaboration and knowledge sharing. Not mentioning these regional networks and their role in strengthening standards adoption as a group will be a big missed opportunity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0644",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 644,
+      "entry": "643",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:d-3",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Notes absence of regional networks among regional/multi-country examples (App. D.3)."
+    },
+    "type": "general",
+    "text": "Country / regional examples: No inaccuracies noted. Observation: No mention was made of regional networks such as Asia eHealth Information Network and multilaterals such as ASEAN and SPC, all of which enrich the experience of their member countries and can serve as effective vehicles for collaboration and knowledge sharing. Not mentioning these regional networks and their role in strengthening standards adoption as a group will be a big missed opportunity.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Examples and evidence",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 644"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Notes absence of regional networks among regional/multi-country examples (App. D.3)."
+      }
+    ]
+  }
+}

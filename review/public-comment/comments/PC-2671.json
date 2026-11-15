@@ -1,0 +1,74 @@
+{
+  "id": "pc-2671",
+  "summary": "Table 2.2 marks the shared library of agreed data structures (the Logical Information Model Repository) as optional at …",
+  "comment": "Table 2.2 marks the shared library of agreed data structures (the Logical Information Model Repository) as optional at the start, and the component write-up calls it a progressive enabler rather than a prerequisite. But Section 3.6.2 says this same library is what systems are checked against to confirm they are built correctly. If a country skips it early, there is nothing to check against, so the idea of confirming that systems \"follow the standard\" has no basis yet.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2671",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 16,
+      "entry": "6",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2 / Table 2.2 (see 3.6.2)",
+      "page": "27 (see 74)",
+      "lines": "Table 2.2 (see line 827)",
+      "caption": "Table 2.2",
+      "raw": "§2.2 / Table 2.2 (see 3.6.2) p.27 (see 74) l.Table 2.2 (see line 827)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "Table 2.2 marks the shared library of agreed data structures (the Logical Information Model Repository) as optional at the start, and the component write-up calls it a progressive enabler rather than a prerequisite. But Section 3.6.2 says this same library is what systems are checked against to confirm they are built correctly. If a country skips it early, there is nothing to check against, so the idea of confirming that systems \"follow the standard\" has no basis yet.",
+    "suggestedRevision": "Say what minimum data-structure control a country still needs early on, for example a small set of nationally agreed templates (profiles) to test against, so that checking whether systems follow the standard is not pushed entirely to a later stage.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 16"
+      }
+    ]
+  }
+}

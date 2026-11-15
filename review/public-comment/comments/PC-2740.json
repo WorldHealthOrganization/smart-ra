@@ -1,0 +1,67 @@
+{
+  "id": "pc-2740",
+  "summary": "§C, p. 199, lines 33–34. [highlight] On the text: «depends on knowing,».",
+  "comment": "§C, p. 199, lines 33–34. [highlight] On the text: «depends on knowing,».\nthis sounds as if this knowledge is the most decisive factor for progress towards UHC. \nBut this type of \"definition\" for progress is not correct. \nUHC means that people can access quality health services without financial hardship.",
+  "createdAt": "2026-10-15T11:14:36.541Z",
+  "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2740",
+    "source": {
+      "channel": "narrative",
+      "batch": "im-hb-mj-annotated-pdf",
+      "sha256": "1c67e920b4cc69952a782cfa7ff89e1f457b853f4bd939473578235a4d96d74c",
+      "segment": 40,
+      "receivedAt": "2026-10-15T11:14:36.541Z"
+    },
+    "reviewer": {
+      "id": "r-00690fad70",
+      "acknowledge": false
+    },
+    "citation": {
+      "section": "C",
+      "page": "199",
+      "lines": "33–34",
+      "raw": "§C, p. 199, lines 33–34. [highlight] On the text: «depends on knowing,».\nthis sounds as if this knowledge is the most de"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-benefits-package-registry-37d21e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.199 l.33–34 read as the printed page"
+    },
+    "text": "§C, p. 199, lines 33–34. [highlight] On the text: «depends on knowing,».\nthis sounds as if this knowledge is the most decisive factor for progress towards UHC. \nBut this type of \"definition\" for progress is not correct. \nUHC means that people can access quality health services without financial hardship.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.541Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "im-hb-mj-annotated-pdf"
+      }
+    ]
+  }
+}

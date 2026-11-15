@@ -1,0 +1,82 @@
+{
+  "id": "pc-0480",
+  "summary": "The guidance on legacy systems is technical. The best-documented evidence on why technically sound deployments fail is …",
+  "comment": "The guidance on legacy systems is technical. The best-documented evidence on why technically sound deployments fail is not about legacy interfaces: the United Kingdom's Whole System Demonstrator, a randomised trial with more than six thousand patients, found neither cost-effectiveness nor improvement in quality of life, attributed to implementation difficulty, inability to integrate into existing care practice, and the absence of a working business case.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-3-e15f8f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0480",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 480,
+      "entry": "479",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.3",
+      "page": "93",
+      "lines": "198",
+      "raw": "§4.2.3 p.93 l.198"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-3-e15f8f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-2-3-85cfac",
+        "prose:4-2-3-a088a6",
+        "prose:4-2-3-681fa7"
+      ],
+      "note": "p.93 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The guidance on legacy systems is technical. The best-documented evidence on why technically sound deployments fail is not about legacy interfaces: the United Kingdom's Whole System Demonstrator, a randomised trial with more than six thousand patients, found neither cost-effectiveness nor improvement in quality of life, attributed to implementation difficulty, inability to integrate into existing care practice, and the absence of a working business case.",
+    "suggestedRevision": "Cite the Whole System Demonstrator and comparable evaluations, and draw the lesson: technical conformance and clinical plausibility do not predict adoption, so implementation capacity should be planned and financed as a distinct standing resource rather than assumed. Add that evaluations should deliberately include the populations that stand to benefit, which that trial did not, and which remains a common design fault.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 480"
+      }
+    ]
+  }
+}

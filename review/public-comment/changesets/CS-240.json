@@ -1,0 +1,40 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-240",
+  "title": "Support package-based and offline distribution of reference content",
+  "requirements": "- Define a minimum publication package (usage guidance, examples, test data, limitations, licence, dependencies, support contact, fitness-for-purpose)\n- Provide caches, mirrors, downloadable packages and offline bundles with version and integrity controls\n- Describe distribution through downloadable packages, local mirrors and offline bundles as well as live APIs, with version and integrity control\n- State that terminology may be delivered by caches or synchronised packages, not only live calls\n- Support APIs, downloadable packages, local mirrors and offline bundles with manifests and dependency resolution\n- Require the TS to offer a complete expansion or equivalent to consumers\n- Allow maturity-appropriate terminology delivery (curated lists, versioned packages) before a national runtime service\n- Describe distributed use patterns for LIMR artefacts in lower-capacity settings",
+  "refs": [
+    "PC-0002",
+    "PC-0914",
+    "PC-0973",
+    "PC-0974",
+    "PC-1170",
+    "PC-1761",
+    "PC-1785",
+    "PC-1914",
+    "PC-1922",
+    "PC-1942",
+    "PC-2063",
+    "PC-2380",
+    "PC-2381",
+    "PC-2405",
+    "PC-2406",
+    "PC-2408",
+    "PC-2418",
+    "PC-2419",
+    "PC-2420",
+    "PC-2421",
+    "PC-2434"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 21 comment(s)"
+    }
+  ]
+}

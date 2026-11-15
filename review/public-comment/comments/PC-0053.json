@@ -1,0 +1,82 @@
+{
+  "id": "pc-0053",
+  "summary": "On both counts there is a pre-supposition that existing realities (a standard in one case and the existence of cross-bo…",
+  "comment": "On both counts there is a pre-supposition that existing realities (a standard in one case and the existence of cross-border care on the other) are immutable in theory or the long term",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-2-2-bd790c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0053",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 53,
+      "entry": "52",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.2.2",
+      "page": "15",
+      "lines": "Box 1.3",
+      "raw": "§1.2.2 p.15 l.Box 1.3"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-2-2-bd790c",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-2-2-5d0d9f",
+        "prose:1-2-2-04fc31"
+      ],
+      "note": "p.15 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "On both counts there is a pre-supposition that existing realities (a standard in one case and the existence of cross-border care on the other) are immutable in theory or the long term",
+    "suggestedRevision": "If this is conceded, make it clear that in both cases there may be compromises to enable delivery today that must either be accepted with their perpetual limitations or solved by interim approaches while alternatives are actively pursued in parallel",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 53"
+      }
+    ]
+  }
+}

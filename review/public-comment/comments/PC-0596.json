@@ -1,0 +1,82 @@
+{
+  "id": "pc-0596",
+  "summary": "Overall impression: From a Philippine perspective, it would benefit from explicitly recognizing countries with decentra…",
+  "comment": "Overall impression: From a Philippine perspective, it would benefit from explicitly recognizing countries with decentralized governance and varying digital maturity across local government units, since implementation and stewardship responsibilities are shared between national and local levels. It would also be useful to emphasize offline and low-bandwidth operation, given connectivity gaps in many areas.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0596",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 596,
+      "entry": "595",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5fe907ff08",
+      "name": "Jerico H. Bajador",
+      "organisation": "WHO Philippines",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression (decentralised governance, offline operation)."
+    },
+    "type": "general",
+    "text": "Overall impression: From a Philippine perspective, it would benefit from explicitly recognizing countries with decentralized governance and varying digital maturity across local government units, since implementation and stewardship responsibilities are shared between national and local levels. It would also be useful to emphasize offline and low-bandwidth operation, given connectivity gaps in many areas.",
+    "labels": {
+      "Stakeholder type": "UN Agency supporting Department of Health",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 596"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form overall impression (decentralised governance, offline operation)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pc-2669",
+  "summary": "The document lets a country set up its code lists and data-sharing tools first and decide who manages them later, espec…",
+  "comment": "The document lets a country set up its code lists and data-sharing tools first and decide who manages them later, especially in low-resource areas. But another part (Section 3.6.2) says the main reason health systems cannot share data is that everyone changes the standards their own way. So a country could follow the step-by-step advice, go live with no one yet in charge of the standards, and end up with the exact problem the document warns against.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:3-4-5-f44db4",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2669",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 14,
+      "entry": "4",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5 (see 3.6.2)",
+      "page": "60 (see 74)",
+      "lines": "Lines 452–464 (see 822–827)",
+      "raw": "§3.4.5 (see 3.6.2) p.60 (see 74) l.Lines 452–464 (see 822–827)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-f44db4",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-42c770"
+      ],
+      "note": "p.60 (see 74) l.Lines 452–464 (see 822–827) read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "The document lets a country set up its code lists and data-sharing tools first and decide who manages them later, especially in low-resource areas. But another part (Section 3.6.2) says the main reason health systems cannot share data is that everyone changes the standards their own way. So a country could follow the step-by-step advice, go live with no one yet in charge of the standards, and end up with the exact problem the document warns against.",
+    "suggestedRevision": "State the minimum that must exist before a country switches on its code lists or data-sharing, even at the earliest stage: one named office in charge, a written log of every change, and a way to warn other systems before a code is removed. Allow the \"set up first, govern later\" path only once this minimum is in place.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 14"
+      }
+    ]
+  }
+}

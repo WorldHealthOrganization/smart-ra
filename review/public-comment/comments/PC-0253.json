@@ -1,0 +1,81 @@
+{
+  "id": "pc-0253",
+  "summary": "The Semantic Governance Infrastructure appropriately governs terminologies, value sets and information models, but it d…",
+  "comment": "The Semantic Governance Infrastructure appropriately governs terminologies, value sets and information models, but it does not explicitly distinguish between validating individual clinical models and determining the minimum professional meaning and relationships that must remain present across an end-to-end care process. Correct isolated models can still produce an incomplete professional record if relationships among evidence, judgement, plan, intervention, evaluation, provenance and accountability are omitted.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-aef916",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0253",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 253,
+      "entry": "252",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.5; 4.3.1",
+      "page": "57–59; 94–96",
+      "lines": "373–442; 256–284",
+      "raw": "§3.4.5; 4.3.1 p.57–59; 94–96 l.373–442; 256–284"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-aef916",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-5-474cc6",
+        "prose:3-4-5-f2a242"
+      ],
+      "note": "p.57–59; 94–96 l.373–442; 256–284 read as the printed page; section 3.4.5 agrees"
+    },
+    "type": "technical",
+    "text": "The Semantic Governance Infrastructure appropriately governs terminologies, value sets and information models, but it does not explicitly distinguish between validating individual clinical models and determining the minimum professional meaning and relationships that must remain present across an end-to-end care process. Correct isolated models can still produce an incomplete professional record if relationships among evidence, judgement, plan, intervention, evaluation, provenance and accountability are omitted.",
+    "suggestedRevision": "Add a capability for professionally governed minimum semantic cores. Each professional domain should be able to define, through evidence-informed and multi-stakeholder governance, the bounded and extensible minimum concepts, relationships, context, provenance and accountability required for safe interpretation across documentation, exchange, transformation and reuse. Terminology coverage alone does not determine which professional meanings and relationships must be preserved; the guidance should therefore support explicit inclusion and exclusion criteria, clinical and technical validation, versioning, national adaptation and conformance testing for these domain-specific semantic cores.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 253"
+      }
+    ]
+  }
+}

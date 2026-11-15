@@ -1,0 +1,78 @@
+{
+  "id": "pc-0350",
+  "summary": "The concept of a DPI-H application component is central to understanding the reference architecture, particularly the d…",
+  "comment": "The concept of a DPI-H application component is central to understanding the reference architecture, particularly the distinction between shared infrastructure and functional applications. This distinction could be surfaced more prominently before the detailed component catalogue begins",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-ea5cb0",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0350",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 350,
+      "entry": "349",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 3.5",
+      "page": "63 onward",
+      "raw": "§Section 3.5 p.63 onward"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-ea5cb0",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-5-1-385af7"
+      ],
+      "note": "p.63 onward read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The concept of a DPI-H application component is central to understanding the reference architecture, particularly the distinction between shared infrastructure and functional applications. This distinction could be surfaced more prominently before the detailed component catalogue begins",
+    "suggestedRevision": "Consider adding a short \"What is and is not a DPI-H component?\" summary at the beginning of §3.5, with examples of shared registries/components versus functional programme or point-of-care applications.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 350"
+      }
+    ]
+  }
+}

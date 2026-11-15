@@ -1,0 +1,80 @@
+{
+  "id": "pc-0254",
+  "summary": "The governance chapter supports inclusive representation, subsidiarity, strategic governance and operational governance…",
+  "comment": "The governance chapter supports inclusive representation, subsidiarity, strategic governance and operational governance, but leaves composition and decision procedures largely to national implementation. Participation alone may not balance the authority of organisations that fund, procure or operate infrastructure with the authority needed to protect public legitimacy, professional meaning and technical integrity.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0254",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 254,
+      "entry": "253",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2–3.4.4",
+      "page": "54–56",
+      "lines": "239–352",
+      "raw": "§3.4.2–3.4.4 p.54–56 l.239–352"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-4-2-8b9795"
+      ],
+      "note": "p.54–56 l.239–352 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "general",
+    "text": "The governance chapter supports inclusive representation, subsidiarity, strategic governance and operational governance, but leaves composition and decision procedures largely to national implementation. Participation alone may not balance the authority of organisations that fund, procure or operate infrastructure with the authority needed to protect public legitimacy, professional meaning and technical integrity.",
+    "suggestedRevision": "Add a non-prescriptive tripartite governance pattern that countries may adapt across strategic, operational and semantic governance: (1) public authorities and multilateral institutions; (2) health professionals, patients, communities and civil society; and (3) standards organisations, technical experts, academia and implementers. Distinguish who decides public purpose and rights, clinical/professional validity, and technical conformance; identify matters requiring joint approval; and define conflict-resolution and escalation routes between global, regional, national and local levels. This would be consistent with the wider inclusive, multi-stakeholder direction of the UN Global Digital Compact, while remaining adaptable to country context.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 254"
+      }
+    ]
+  }
+}

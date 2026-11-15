@@ -1,0 +1,81 @@
+{
+  "id": "pc-0620",
+  "summary": "Strengths: To me, the greatest strength of the draft is that it treats digital health as national health-system infrast…",
+  "comment": "Strengths: To me, the greatest strength of the draft is that it treats digital health as national health-system infrastructure rather than as a collection of separate technology projects. Its goals-first approach connects the seven priority health goals to the capabilities, shared components and standards needed to achieve them. This traceability helps countries make investment and procurement decisions based on health outcomes rather than on whichever product or technology is currently available.\n\nThe distinction between foundational DPI and health-specific DPI is another major strength. The guidance encourages countries to reuse national identity, payment and data-exchange infrastructure where it exists, while recognising that healthcare requires additional capabilities such as clinical identity matching, granular consent, longitudinal records, semantic interoperability and provenance.\n\nI also value its practical and adaptable nature. REDDHI provides a direction of travel rather than imposing a rigid compliance model, and the guidance recognises that countries begin from very different levels of maturity. Its advice to assess existing systems, integrate before replacing them and progressively move away from fragmented programme-specific solutions is realistic and valuable.\n\nFinally, the draft brings architecture, governance, interoperability, equity, financing and AI readiness into one coherent framework. Treating interoperability as a cross-cutting capability, emphasising governed terminology and information models, and connecting FHIR and IHE standards with conformance testing are particularly strong. Its message that trustworthy AI depends on trusted, representative and well-governed data foundations is both timely and essential. Overall, the draft provides a strong basis for a globally aligned yet locally adaptable reference architecture that can support progress towards SDG 3 and, over time, secure interoperability across organisations and countries.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0620",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 620,
+      "entry": "619",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b427746eb2",
+      "name": "Dr. Padmavathi Roy",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths."
+    },
+    "type": "general",
+    "text": "Strengths: To me, the greatest strength of the draft is that it treats digital health as national health-system infrastructure rather than as a collection of separate technology projects. Its goals-first approach connects the seven priority health goals to the capabilities, shared components and standards needed to achieve them. This traceability helps countries make investment and procurement decisions based on health outcomes rather than on whichever product or technology is currently available.\n\nThe distinction between foundational DPI and health-specific DPI is another major strength. The guidance encourages countries to reuse national identity, payment and data-exchange infrastructure where it exists, while recognising that healthcare requires additional capabilities such as clinical identity matching, granular consent, longitudinal records, semantic interoperability and provenance.\n\nI also value its practical and adaptable nature. REDDHI provides a direction of travel rather than imposing a rigid compliance model, and the guidance recognises that countries begin from very different levels of maturity. Its advice to assess existing systems, integrate before replacing them and progressively move away from fragmented programme-specific solutions is realistic and valuable.\n\nFinally, the draft brings architecture, governance, interoperability, equity, financing and AI readiness into one coherent framework. Treating interoperability as a cross-cutting capability, emphasising governed terminology and information models, and connecting FHIR and IHE standards with conformance testing are particularly strong. Its message that trustworthy AI depends on trusted, representative and well-governed data foundations is both timely and essential. Overall, the draft provides a strong basis for a globally aligned yet locally adaptable reference architecture that can support progress towards SDG 3 and, over time, secure interoperability across organisations and countries.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 620"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths."
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pc-2677",
+  "summary": "The LHR is described as the PHSP's 'primary source of person-level clinical data'. In transitional states, surveillance…",
+  "comment": "The LHR is described as the PHSP's 'primary source of person-level clinical data'. In transitional states, surveillance data flows will precede a functioning LHR by years; facility-direct notification will remain the dominant channel. Stating the LHR as primary source risks implementers de-prioritising direct reporting channels or deferring surveillance investment pending the LHR.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-3feb48",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2677",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 22,
+      "entry": "12",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — PHSP",
+      "page": "221",
+      "lines": "Lines 162–168 ('How it connects')",
+      "raw": "§Appendix C — PHSP p.221 l.Lines 162–168 ('How it connects')"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-public-health-surveillance-platf-3feb48",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.221 l.Lines 162–168 ('How it connects') read as the printed page; section C agrees"
+    },
+    "type": "technical",
+    "text": "The LHR is described as the PHSP's 'primary source of person-level clinical data'. In transitional states, surveillance data flows will precede a functioning LHR by years; facility-direct notification will remain the dominant channel. Stating the LHR as primary source risks implementers de-prioritising direct reporting channels or deferring surveillance investment pending the LHR.",
+    "suggestedRevision": "Reframe: facility-direct case notification is the primary channel in early and transitional maturity states; LHR-derived reporting is the target-state channel that progressively reduces parallel reporting burden. Make the transition explicit rather than implied.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 22"
+      }
+    ]
+  }
+}

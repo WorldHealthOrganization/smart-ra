@@ -1,0 +1,82 @@
+{
+  "id": "pc-0257",
+  "summary": "The conformance model is strong for component services, roles, transactions and standards coverage, but it does not cle…",
+  "comment": "The conformance model is strong for component services, roles, transactions and standards coverage, but it does not clearly require tests that clinically significant meaning survives an end-to-end transformation. FHIR validity and transaction success do not by themselves detect lossy mappings, altered status or certainty, missing provenance, or broken relationships between clinical concepts.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-4-7a4f40",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0257",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 257,
+      "entry": "256",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.4; 4.3.3",
+      "page": "84; 96",
+      "lines": "1132–1168; 307–330",
+      "raw": "§3.7.4; 4.3.3 p.84; 96 l.1132–1168; 307–330"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-4-7a4f40",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-4-ad907b",
+        "prose:3-7-4-c51a99",
+        "prose:3-7-4-b09317"
+      ],
+      "note": "p.84; 96 l.1132–1168; 307–330 read as the printed page; section 3.7.4 agrees"
+    },
+    "type": "technical",
+    "text": "The conformance model is strong for component services, roles, transactions and standards coverage, but it does not clearly require tests that clinically significant meaning survives an end-to-end transformation. FHIR validity and transaction success do not by themselves detect lossy mappings, altered status or certainty, missing provenance, or broken relationships between clinical concepts.",
+    "suggestedRevision": "Extend semantic conformance testing to include preservation of provenance and authorship; status, certainty and negation; mandatory terminology bindings; units and reference systems; relationships among clinical concepts; absent/unknown/not-applicable distinctions; detection of lossy mappings; and professional review of clinically significant transformations. Include these checks in reusable reference test data and regression test packs where feasible.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 257"
+      }
+    ]
+  }
+}

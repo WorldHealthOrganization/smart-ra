@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-258",
+  "title": "Define 'actor' once and align roles with SMART Guidelines personas",
+  "requirements": "- Explain modelling an actor role as an Application Component as a deliberate IHE-compatible convention\n- Use one set of terms across SMART Guidelines, this document and the knowledge graph\n- Distinguish individuals, professional roles, organisations, devices and applications\n- Include clinical coders and data analysts among the named actors\n- Require a type/stereotype distinguishing reference component, actor role, national component, product and simulator\n- Verify the persona example against current SMART Guidelines\n- Extend actor modelling to accountability, consent, audit and safety\n- Use 'application actor role' in 3.7 and distinguish it from human/organisational actors",
+  "refs": [
+    "PC-0001",
+    "PC-0330",
+    "PC-0850",
+    "PC-1062",
+    "PC-1063",
+    "PC-1112",
+    "PC-1217",
+    "PC-1218",
+    "PC-1219",
+    "PC-1220",
+    "PC-1222"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

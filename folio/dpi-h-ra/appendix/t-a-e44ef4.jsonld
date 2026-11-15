@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/tbl-a-e44ef4",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:a-e44ef4",
+  "kind": "table",
+  "cites": [
+    "references/who-classifying-health-workers"
+  ],
+  "text": "t-a-e44ef4.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 601,
+      "page": 123,
+      "printedPage": "112",
+      "method": "unnumbered-page"
+    }
+  },
+  "provenance": "authored"
+}

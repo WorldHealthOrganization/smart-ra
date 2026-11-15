@@ -1,0 +1,79 @@
+{
+  "id": "pc-0252",
+  "summary": "Table 2.2 treats consistent data structure through the Logical Information Model Repository (LIMR) as an enabler that c…",
+  "comment": "Table 2.2 treats consistent data structure through the Logical Information Model Repository (LIMR) as an enabler that can be built as maturity grows rather than part of the minimum foundation. However, section 4.3.1 later states that countries should define and govern minimum data models before implementation. Without at least a minimum governed information-model capability, structural assumptions remain implicit and semantic fragmentation can be embedded from the start.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0252",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 252,
+      "entry": "251",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1; 4.3.1",
+      "page": "27–28; 94–95",
+      "lines": "131–137; Table 2.2; 256–273",
+      "caption": "Table 2.2",
+      "raw": "§2.2.1; 4.3.1 p.27–28; 94–95 l.131–137; Table 2.2; 256–273"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "Table 2.2 treats consistent data structure through the Logical Information Model Repository (LIMR) as an enabler that can be built as maturity grows rather than part of the minimum foundation. However, section 4.3.1 later states that countries should define and govern minimum data models before implementation. Without at least a minimum governed information-model capability, structural assumptions remain implicit and semantic fragmentation can be embedded from the start.",
+    "suggestedRevision": "Retain progressive implementation of LIMR tooling, but require every REDDHI starting point to establish a minimum governed information-model capability. This could initially be a published national data dictionary, approved model catalogue or lightweight repository covering priority components, with clear ownership, versioning and extension rules, before evolving into a fuller LIMR.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 252"
+      }
+    ]
+  }
+}

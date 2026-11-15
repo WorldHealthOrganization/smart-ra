@@ -1,0 +1,73 @@
+{
+  "id": "pc-2684",
+  "summary": "Terminology drift: 'minimum viable foundation' (2.2.1), 'foundational core' / 'essential core' (2.2.1), and 'REDDHI min…",
+  "comment": "Terminology drift: 'minimum viable foundation' (2.2.1), 'foundational core' / 'essential core' (2.2.1), and 'REDDHI minimum viable layer' (4.2.1, line 78) are used interchangeably without definition of whether they denote the same construct. Given that this construct carries the document's sequencing logic, the drift invites divergent interpretation in procurement and conformance documents.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:2-2-1-903ad9",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2684",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 29,
+      "entry": "19",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 / 4.2.1",
+      "page": "26, 89",
+      "lines": "131–135; 78",
+      "raw": "§2.2.1 / 4.2.1 p.26, 89 l.131–135; 78"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-1-903ad9",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.26, 89 l.131–135; 78 read as the printed page; section 2.2.1 agrees"
+    },
+    "type": "editorial",
+    "text": "Terminology drift: 'minimum viable foundation' (2.2.1), 'foundational core' / 'essential core' (2.2.1), and 'REDDHI minimum viable layer' (4.2.1, line 78) are used interchangeably without definition of whether they denote the same construct. Given that this construct carries the document's sequencing logic, the drift invites divergent interpretation in procurement and conformance documents.",
+    "suggestedRevision": "Standardise on one term ('minimum viable foundation'), define it once in 2.2.1 with an explicit pointer to Table 2.2, and replace the variants throughout.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 29"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0166",
+  "summary": "The individual appears primarily as a rights-holder and, 'where applicable', a data source. The person is also a knowle…",
+  "comment": "The individual appears primarily as a rights-holder and, 'where applicable', a data source. The person is also a knowledge source: the holder of context, corrections, and narrative that no provider system records — often decisive for safe care (allergies, adherence, home circumstances).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-d9712f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0166",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 166,
+      "entry": "165",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "155",
+      "lines": "Lifelong Health Record component; also Goal 4 in §1.5 (p. 21)",
+      "raw": "§Appendix C p.155 l.Lifelong Health Record component; also Goal 4 in §1.5 (p. 21)"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-d9712f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-7c8cd5",
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-b73827"
+      ],
+      "note": "p.155 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "The individual appears primarily as a rights-holder and, 'where applicable', a data source. The person is also a knowledge source: the holder of context, corrections, and narrative that no provider system records — often decisive for safe care (allergies, adherence, home circumstances).",
+    "suggestedRevision": "Extend the LHR component requirements with a governed citizen-contribution channel: the ability for individuals (and, where authorised, informal carers) to add structured and narrative contributions and corrections to their record, with provenance and review workflow, so the record reflects lived reality as well as institutional data.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 166"
+      }
+    ]
+  }
+}

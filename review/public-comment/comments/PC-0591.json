@@ -1,0 +1,83 @@
+{
+  "id": "pc-0591",
+  "summary": "The comment previously said there are no European examples. Appendix D does contain them: Spain (Catalonia) at subnatio…",
+  "comment": "The comment previously said there are no European examples. Appendix D does contain them: Spain (Catalonia) at subnational level on p.233, England on pharmaceutical decision support and an EU/EEA regional surveillance entry on p.234. As originally written the comment would have been dismissed immediately.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0591",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 591,
+      "entry": "590",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Row 29 (comment 19)",
+      "page": "Factually incorrect — corrected",
+      "raw": "§Row 29 (comment 19) p.Factually incorrect — corrected"
+    },
+    "anchor": {
+      "targetLabel": "sec:d-2",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Drafting note; substance is that Appendix D lacks a national EU Member State example."
+    },
+    "text": "The comment previously said there are no European examples. Appendix D does contain them: Spain (Catalonia) at subnational level on p.233, England on pharmaceutical decision support and an EU/EEA regional surveillance entry on p.234. As originally written the comment would have been dismissed immediately.",
+    "suggestedRevision": "Reworded to say European coverage is thin and lacks a national-level EU Member State example, and to ask for FSE 2.0 or MyHealth@EU. Please confirm this still reflects your intent.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 591"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Drafting note; substance is that Appendix D lacks a national EU Member State example."
+      }
+    ]
+  }
+}

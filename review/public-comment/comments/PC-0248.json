@@ -1,0 +1,85 @@
+{
+  "id": "pc-0248",
+  "summary": "Goal 1 refers to a single high-quality data capture supporting clinical care, facility management, population analytics…",
+  "comment": "Goal 1 refers to a single high-quality data capture supporting clinical care, facility management, population analytics, public health monitoring 'and domestic AI development simultaneously'. Throughout Chapters 1 and 2, AI appears only as a consumer of data. The reciprocal question — where the resulting AI capability is executed, and under whose control — is not posed, although Chapter 5 may address it (not reviewed here). If the ambition is domestic AI development, then domestic AI operation is the corresponding architectural requirement, and the two should be stated together.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-69f4a6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0248",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 248,
+      "entry": "247",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-bea42f5cf9",
+      "organisation": "The Blue Capital Studio",
+      "country": "Cyprus"
+    },
+    "citation": {
+      "section": "1.5.1 Health Sector Goals — first goal, 'domestic AI development'",
+      "page": "23",
+      "lines": "468-469",
+      "raw": "§1.5.1 Health Sector Goals — first goal, 'domestic AI development' p.23 l.468-469"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-69f4a6",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-1-4-a8e0b3"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites first goal l.468-469 quoting \"domestic AI development\"; this is the first-goal paragraph"
+    },
+    "type": "general",
+    "text": "Goal 1 refers to a single high-quality data capture supporting clinical care, facility management, population analytics, public health monitoring 'and domestic AI development simultaneously'. Throughout Chapters 1 and 2, AI appears only as a consumer of data. The reciprocal question — where the resulting AI capability is executed, and under whose control — is not posed, although Chapter 5 may address it (not reviewed here). If the ambition is domestic AI development, then domestic AI operation is the corresponding architectural requirement, and the two should be stated together.",
+    "suggestedRevision": "Where 'domestic AI development' is referenced, pair it with domestic operability: the ability to run the resulting capability on national infrastructure, not only to contribute the data from which it is built.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 248"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites first goal l.468-469 quoting \"domestic AI development\"; this is the first-goal paragraph"
+      }
+    ]
+  }
+}

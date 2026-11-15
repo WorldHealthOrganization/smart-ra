@@ -1,0 +1,78 @@
+{
+  "id": "pc-0284",
+  "summary": "Chapter 5, Future proofing the Architecture, discusses AI, genomics, wearables and edge computing, but the document con…",
+  "comment": "Chapter 5, Future proofing the Architecture, discusses AI, genomics, wearables and edge computing, but the document contains no mention of post-quantum cryptography or cryptographic agility anywhere in its 254 pages. NIST finalised its first post-quantum standards in August 2024 (FIPS 203, 204 and 205), and lifelong health records are a prime harvest-now-decrypt-later target: data exchanged today must remain confidential for the lifetime of the patient. The term is also used loosely in the field. Programmes that describe a key-rotation mechanism as post-quantum readiness are describing something materially different from migration to the standardised post-quantum algorithms, and joint WHO and ITU guidance is well placed to hold that distinction for countries evaluating vendor claims.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-1-ea0e4f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0284",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 284,
+      "entry": "283",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Chapter 5",
+      "page": "104-110",
+      "lines": "1-223",
+      "raw": "§Chapter 5 p.104-110 l.1-223"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-1-ea0e4f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.104-110 l.1-223 read as the printed page; section 5 agrees"
+    },
+    "type": "technical",
+    "text": "Chapter 5, Future proofing the Architecture, discusses AI, genomics, wearables and edge computing, but the document contains no mention of post-quantum cryptography or cryptographic agility anywhere in its 254 pages. NIST finalised its first post-quantum standards in August 2024 (FIPS 203, 204 and 205), and lifelong health records are a prime harvest-now-decrypt-later target: data exchanged today must remain confidential for the lifetime of the patient. The term is also used loosely in the field. Programmes that describe a key-rotation mechanism as post-quantum readiness are describing something materially different from migration to the standardised post-quantum algorithms, and joint WHO and ITU guidance is well placed to hold that distinction for countries evaluating vendor claims.",
+    "suggestedRevision": "Add cryptographic agility as a design requirement for trust and exchange infrastructure: every participant must be able to migrate keys and algorithms without changing identifiers, breaking existing trust relationships, or coordinating a simultaneous global migration. Identifiers that commit to key digests rather than to a named algorithm allow the signing algorithm to change without re-establishing identity, which is what makes an unsynchronised national migration feasible at all. Ask countries to distinguish that architectural property from algorithm migration itself, and to require both.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 284"
+      }
+    ]
+  }
+}

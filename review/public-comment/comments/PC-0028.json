@@ -1,0 +1,84 @@
+{
+  "id": "pc-0028",
+  "summary": "The fixed cost of hosting the minimum starting set of components may exceed what is affordable for small states and cou…",
+  "comment": "The fixed cost of hosting the minimum starting set of components may exceed what is affordable for small states and countries in fragile settings. \n\nAlso, there are already several acronyms in the document (e.g. DPI, DPI-F, DPI-H, full-STAC, DIIG, DHP, and now REDDHI).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0028",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 28,
+      "entry": "27",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2e819c05f5",
+      "name": "Akihito Watabe",
+      "organisation": "Asian Development Bank",
+      "country": "Multiple settings / Asia and the Pacific",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Is REDDHI — framed as a direction of travel with a minimum starting set of components — a helpful concept?",
+      "raw": "§Is REDDHI — framed as a direction of travel with a minimum starting set of components — a helpful concept?"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Online-form answer on the REDDHI concept and its minimum starting set (section 2.2)"
+    },
+    "type": "technical",
+    "text": "The fixed cost of hosting the minimum starting set of components may exceed what is affordable for small states and countries in fragile settings. \n\nAlso, there are already several acronyms in the document (e.g. DPI, DPI-F, DPI-H, full-STAC, DIIG, DHP, and now REDDHI).",
+    "suggestedRevision": "Options for a shared or regional model for REDDHI may be explored.\n\nIf the concept of REDDHI is “the minimum shared foundation of DPI-H\", then perhaps it can just be named descriptively (e.g. DPI-H foundational core) rather than introducing another acronym.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "WHO"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 28"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Online-form answer on the REDDHI concept and its minimum starting set (section 2.2)"
+      }
+    ]
+  }
+}

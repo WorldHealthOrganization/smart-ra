@@ -1,0 +1,325 @@
+{
+  "$schema": "review-log/1.0.0",
+  "id": "dpi-h-master",
+  "title": "DPI-H Public Comment Master Log",
+  "sheetId": "1TNr5VP1oiE9N0Wd-XCgmUIdishb_Yl6Rm39mNx-_GQY",
+  "url": "https://docs.google.com/spreadsheets/d/1TNr5VP1oiE9N0Wd-XCgmUIdishb_Yl6Rm39mNx-_GQY/edit",
+  "document": "dpi-h-ra",
+  "role": "master",
+  "file": "review/public-comment/logs/dpi-h-master.xlsx",
+  "sha256": "2a455b07868c1258570cc0f5af0d8b6f8718c80c9b1cd30983ae8e9c861a1edc",
+  "archivedAt": "2026-11-15T02:04:35.648Z",
+  "tabs": [
+    {
+      "name": "Review Change Sets",
+      "headerRow": 2,
+      "rows": 289,
+      "columns": [
+        {
+          "header": "Change-set",
+          "role": "script"
+        },
+        {
+          "header": "Title",
+          "role": "human"
+        },
+        {
+          "header": "Sections",
+          "role": "script"
+        },
+        {
+          "header": "Pages",
+          "role": "script"
+        },
+        {
+          "header": "Public Comments",
+          "role": "script"
+        },
+        {
+          "header": "Suggested Revisions",
+          "role": "script"
+        },
+        {
+          "header": "PC Committee Feedback",
+          "role": "script"
+        },
+        {
+          "header": "Dispositions",
+          "role": "script"
+        },
+        {
+          "header": "TWG (PCs)",
+          "role": "script"
+        },
+        {
+          "header": "TWG (CS)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (CL)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (Jordi/Rada)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (Esteban/Eric)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (Francis Umer)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (initials)",
+          "role": "human"
+        },
+        {
+          "header": "Ready for agent",
+          "role": "editor"
+        },
+        {
+          "header": "Dispositions confirmed",
+          "role": "editor"
+        },
+        {
+          "header": "Ready for merge",
+          "role": "editor"
+        },
+        {
+          "header": "Disposition (agent)",
+          "role": "agent"
+        },
+        {
+          "header": "Change Set Feedback (agent)",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic status",
+          "role": "agent"
+        },
+        {
+          "header": "Staging review",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic status (filter)",
+          "role": "agent"
+        }
+      ]
+    },
+    {
+      "name": "Review Public Comments",
+      "headerRow": 2,
+      "rows": 829,
+      "columns": [
+        {
+          "header": "No.",
+          "role": "script"
+        },
+        {
+          "header": "Sections",
+          "role": "script"
+        },
+        {
+          "header": "Page",
+          "role": "script"
+        },
+        {
+          "header": "Line no(s) / Table / Figure",
+          "role": "script"
+        },
+        {
+          "header": "Comment / issue",
+          "role": "script"
+        },
+        {
+          "header": "Suggested revision",
+          "role": "script"
+        },
+        {
+          "header": "Change Set",
+          "role": "agent"
+        },
+        {
+          "header": "Change Set (human)",
+          "role": "human"
+        },
+        {
+          "header": "TWG (agent)",
+          "role": "agent"
+        },
+        {
+          "header": "TWG (human)",
+          "role": "human"
+        },
+        {
+          "header": "Comment type",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (initials)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (initials)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (initials)",
+          "role": "human"
+        },
+        {
+          "header": "Committee Feedback (initials)",
+          "role": "human"
+        },
+        {
+          "header": "Disposition",
+          "role": "human"
+        },
+        {
+          "header": "Status",
+          "role": "human"
+        },
+        {
+          "header": "Agentic status",
+          "role": "agent"
+        },
+        {
+          "header": "Staging review",
+          "role": "agent"
+        },
+        {
+          "header": "",
+          "role": "agent"
+        }
+      ]
+    },
+    {
+      "name": "Agent - Comments",
+      "headerRow": 2,
+      "rows": 829,
+      "columns": [
+        {
+          "header": "No.",
+          "role": "script"
+        },
+        {
+          "header": "Comment ref",
+          "role": "script"
+        },
+        {
+          "header": "Agentic status",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic action taken",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic applied in (section / version)",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic handled by",
+          "role": "agent"
+        },
+        {
+          "header": "Agentic date actioned",
+          "role": "agent"
+        },
+        {
+          "header": "Change-sets",
+          "role": "script"
+        }
+      ]
+    },
+    {
+      "name": "Agent - Change Sets",
+      "headerRow": 2,
+      "rows": 289,
+      "columns": [
+        {
+          "header": "Change-set",
+          "role": "script"
+        },
+        {
+          "header": "Title",
+          "role": "agent"
+        },
+        {
+          "header": "Pull request (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Staging review page (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "What the PRs changed (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Agent completed (UTC, change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Feedback basis (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Staging built (UTC, change set)",
+          "role": "agent"
+        },
+        {
+          "header": "PR head (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Staging built from (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Staging deploy (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Disposition (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "QA gate (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "QA report (change set)",
+          "role": "agent"
+        },
+        {
+          "header": "Agent step (change set)",
+          "role": "agent"
+        }
+      ]
+    },
+    {
+      "name": "Config",
+      "headerRow": 1,
+      "rows": 16,
+      "columns": [
+        {
+          "header": "Instructions",
+          "role": "script"
+        },
+        {
+          "header": "The script's settings. Work happens on Review Public Comments and Review Change Sets; nothing here needs you unless you install the script. Do not edit this tab: the agent writes it, except EDITORS, which only the owner edits.",
+          "role": "script"
+        }
+      ]
+    }
+  ],
+  "redacted": {
+    "columns": [],
+    "emails": 14
+  }
+}

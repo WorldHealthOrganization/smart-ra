@@ -1,0 +1,77 @@
+{
+  "id": "pc-1022",
+  "summary": "Foundational data exchange is described as providing “non-repudiable” transport. Non-repudiation requires specific cryp…",
+  "comment": "Foundational data exchange is described as providing “non-repudiable” transport. Non-repudiation requires specific cryptographic, identity, evidentiary, and legal arrangements and should not be assumed for every foundational exchange platform.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-3-277f14",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1022",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 258,
+      "entry": "257",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.6.3",
+      "page": "75",
+      "lines": "Lines 851-854",
+      "raw": "§3.6.3 p.75 l.Lines 851-854"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-3-277f14",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.75 l.Lines 851-854 read as the printed page; section 3.6.3 agrees"
+    },
+    "text": "Foundational data exchange is described as providing “non-repudiable” transport. Non-repudiation requires specific cryptographic, identity, evidentiary, and legal arrangements and should not be assumed for every foundational exchange platform.",
+    "suggestedRevision": "Replace with “secure, authenticated, and auditable transport, with non-repudiation where supported by the applicable trust, signature, logging, and legal framework.”",
+    "labels": {
+      "Comment type": "Q14 - Language and technical accuracy"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 258"
+      }
+    ]
+  }
+}

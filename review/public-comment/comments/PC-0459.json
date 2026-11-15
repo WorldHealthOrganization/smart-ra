@@ -1,0 +1,87 @@
+{
+  "id": "pc-0459",
+  "summary": "The architecture assigns registries to national level but has no concept of a holder for shared objects that span organ…",
+  "comment": "The architecture assigns registries to national level but has no concept of a holder for shared objects that span organisations: a care-network record, a shared medication overview, a regional care plan. These objects have no single source system, so no participant is responsible for the whole, and in practice nobody maintains them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-5-3-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0459",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 459,
+      "entry": "458",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1",
+      "page": "67",
+      "lines": "633",
+      "raw": "§3.5.3.1 p.67 l.633"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-5-3-1",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-4-c238c3"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §3.5.3.1 l.633 (section start); proposes a holdership concept for the foundational shared data layer generally."
+    },
+    "type": "technical",
+    "text": "The architecture assigns registries to national level but has no concept of a holder for shared objects that span organisations: a care-network record, a shared medication overview, a regional care plan. These objects have no single source system, so no participant is responsible for the whole, and in practice nobody maintains them.",
+    "suggestedRevision": "Introduce holdership as an explicit architectural property: for every shared object crossing organisational boundaries, name a designated holder accountable for its integrity, availability and lifecycle, distinct from the participants contributing to it. Dutch chain-care information systems document the consequence of omitting this - functionally infrastructural objects existed, no party held them, and maintenance failed without any single actor being at fault.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 459"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites §3.5.3.1 l.633 (section start); proposes a holdership concept for the foundational shared data layer generally."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0700",
+  "summary": "Success is validated through conformance, adoption and coverage metrics. No goal or metric addresses whether the receiv…",
+  "comment": "Success is validated through conformance, adoption and coverage metrics. No goal or metric addresses whether the receiving actor acts appropriately on exchanged information. A message can arrive complete, coded and conformant, and still leave the receiver unable to decide what to do. Moreover, 'capture once, use many times' assumes reuse is free; in practice information must be transformed to fit each receiver's role and context (informational metamorphosis), and this transformation is neither designed nor governed.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-3-288187",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0700",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 700,
+      "entry": "699",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2aa47f7e23",
+      "organisation": "EN13606 Association (one co-author community)",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Ch. 1, §1.5 (Seven Priority Health Sector Goals); Ch. 3, §3.7.5 (Validating goals and adoption); Ch. 4, §4.4 (Measuring progress and impact)",
+      "raw": "§Ch. 1, §1.5 (Seven Priority Health Sector Goals); Ch. 3, §3.7.5 (Validating goals and adoption); Ch. 4, §4.4 (Measuring progress and impact)"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-3-288187",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "Success is validated through conformance, adoption and coverage metrics. No goal or metric addresses whether the receiving actor acts appropriately on exchanged information. A message can arrive complete, coded and conformant, and still leave the receiver unable to decide what to do. Moreover, 'capture once, use many times' assumes reuse is free; in practice information must be transformed to fit each receiver's role and context (informational metamorphosis), and this transformation is neither designed nor governed.",
+    "suggestedRevision": "Add to §4.4 (and reference from §3.7.5) an explicit pragmatic outcome measure: periodic, scenario-based assessment of whether receiving actors take the appropriate next action on the basis of exchanged records. Additionally, design and govern receiver-appropriate views of shared records (role- and context-specific transformations), rather than assuming one representation serves all. Position appropriateness-of-action as the ultimate validation criterion of the seven goals.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "#1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 700"
+      }
+    ]
+  }
+}

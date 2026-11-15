@@ -1,0 +1,78 @@
+{
+  "id": "pc-2496",
+  "summary": "Translation authority and concept identity — A managed service cannot grant rights absent from the applicable terms. Ap…",
+  "comment": "Translation authority and concept identity — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2496",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 39,
+      "entry": "38",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §3",
+      "page": "166",
+      "lines": "A18.05",
+      "raw": "§Terminology Service, §3 p.166 l.A18.05"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-terminology-service-3a8e2d",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-terminology-service-13a304",
+        "prose:c-metadata-registries-and-foundati-terminology-service-638c02",
+        "prose:c-metadata-registries-and-foundati-terminology-service-ee8e2f"
+      ],
+      "note": "p.166 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "Translation authority and concept identity — A managed service cannot grant rights absent from the applicable terms. Apply the published WHO terms of use for ICD-11 content and software (https://icd.who.int/en/docs/ICD11-license.pdf), as revised from time to time, separately to content and software; verify the terms in force at publication. Translations, mappings and supplementary metadata require source-specific treatment. See C037; unpublished draft agreements are not substituted for operative terms.",
+    "suggestedRevision": "Append qualification: Use official language releases where available; distinguish locally supplied designations from publisher-approved translations and obtain any authorisation required by the applicable terms. Preserve the language-independent concept identity and identify the language and source of each designation.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 39"
+      }
+    ]
+  }
+}

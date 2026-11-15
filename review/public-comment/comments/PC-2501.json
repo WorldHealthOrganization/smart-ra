@@ -1,0 +1,83 @@
+{
+  "id": "pc-2501",
+  "summary": "Mapping only when needed; classify under appropriate rules — The draft should permit an ICD-11-native pathway and avoid…",
+  "comment": "Mapping only when needed; classify under appropriate rules — The draft should permit an ICD-11-native pathway and avoid equating a vocabulary match with correct classification. These are proposed implementation controls, not claims that a particular FHIR operation performs all these checks.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2501",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 44,
+      "entry": "43",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "169",
+      "lines": "A16.02",
+      "raw": "§Terminology Service, §5 p.169 l.A16.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+    },
+    "text": "Mapping only when needed; classify under appropriate rules — The draft should permit an ICD-11-native pathway and avoid equating a vocabulary match with correct classification. These are proposed implementation controls, not claims that a particular FHIR operation performs all these checks.",
+    "suggestedRevision": "Append; retain Required status: Translation shall be requested only where a different representation is needed. It shall not be a prerequisite for data already coded in the agreed standard. Results shall retain source and target releases, mapping provenance, direction, applicability conditions, and the asserted relationship, including unmatched or non-equivalent results. ICD-11 statistical derivation shall use the applicable classification and selection rules; it shall not be assumed to be equivalent to a generic concept-map lookup. Derived results shall remain linked to the original expression.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 44"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+      }
+    ]
+  }
+}

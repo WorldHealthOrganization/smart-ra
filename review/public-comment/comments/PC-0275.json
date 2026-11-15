@@ -1,0 +1,78 @@
+{
+  "id": "pc-0275",
+  "summary": "Insert new paragraph after L162 (Sec. 5.4.2)",
+  "comment": "Insert new paragraph after L162 (Sec. 5.4.2)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-2-11d943",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0275",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 275,
+      "entry": "274",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8e24450907",
+      "name": "Chirag Tyagi",
+      "organisation": "Vectorise Global Private Limited - DiagNXT",
+      "country": "Bangalore, India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.2",
+      "page": "108",
+      "lines": "162",
+      "raw": "§5.4.2 p.108 l.162"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-2-11d943",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.108 l.162 read as the printed page; section 5.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "Insert new paragraph after L162 (Sec. 5.4.2)",
+    "suggestedRevision": "“Where distributed intelligence approaches (for example, federated learning) are adopted, governance should extend beyond individual institutions to include mechanisms for model provenance, version control, auditability, validation across participating organizations, and clearly defined accountability for model performance, updates and retirement throughout the AI lifecycle.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 275"
+      }
+    ]
+  }
+}

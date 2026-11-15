@@ -1,0 +1,81 @@
+{
+  "id": "pc-0261",
+  "summary": "The draft favours assistive AI and meaningful human oversight, but does not define non-delegable professional responsib…",
+  "comment": "The draft favours assistive AI and meaningful human oversight, but does not define non-delegable professional responsibilities or controlled write-back rules. Generated summaries, recommendations and inferred data may become indistinguishable from source facts if written back without explicit status, review and accountability.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-3-09c983",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0261",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 261,
+      "entry": "260",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.3–5.4.2",
+      "page": "107–108",
+      "lines": "109–169",
+      "raw": "§5.3–5.4.2 p.107–108 l.109–169"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-3-09c983",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-3-54dd18",
+        "prose:5-3-f30241"
+      ],
+      "note": "p.107–108 l.109–169 read as the printed page; section 5.3 agrees"
+    },
+    "type": "technical",
+    "text": "The draft favours assistive AI and meaningful human oversight, but does not define non-delegable professional responsibilities or controlled write-back rules. Generated summaries, recommendations and inferred data may become indistinguishable from source facts if written back without explicit status, review and accountability.",
+    "suggestedRevision": "State that probabilistic or generated content must not silently overwrite authoritative source information or become indistinguishable from professionally verified facts. Require output provenance, model/version, timestamp, intended user and action, uncertainty, validation status, reviewing professional, audit history, override/correction and supersession. Identify non-delegable responsibilities proportionate to risk, including professional judgement, ethical reasoning, contextual interpretation, escalation, final authorisation where required, and accountability for material clinical-record changes.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 261"
+      }
+    ]
+  }
+}

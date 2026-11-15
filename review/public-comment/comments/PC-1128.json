@@ -1,0 +1,77 @@
+{
+  "id": "pc-1128",
+  "summary": "REDDHI is again described as a continuously maturing direction of travel. The chapter does not translate this into clea…",
+  "comment": "REDDHI is again described as a continuously maturing direction of travel. The chapter does not translate this into clearly defined implementation stages or observable entry and exit conditions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-237a78",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1128",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 364,
+      "entry": "363",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.1",
+      "page": "88",
+      "lines": "Lines 22-25",
+      "raw": "§4.1.1 p.88 l.Lines 22-25"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-237a78",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.88 l.Lines 22-25 read as the printed page; section 4.1.1 agrees"
+    },
+    "text": "REDDHI is again described as a continuously maturing direction of travel. The chapter does not translate this into clearly defined implementation stages or observable entry and exit conditions.",
+    "suggestedRevision": "Define measurable REDDHI maturity states or milestones without presenting REDDHI as a one-time certification. Link each milestone to capabilities, governance, conformance, coverage, data quality, resilience, and sustainability indicators.",
+    "labels": {
+      "Comment type": "Q6 - REDDHI"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 364"
+      }
+    ]
+  }
+}

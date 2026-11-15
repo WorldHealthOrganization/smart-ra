@@ -1,0 +1,80 @@
+{
+  "id": "pc-1066",
+  "summary": "The section equates the responder with the actor offering a service and the initiator with the actor requiring it. This…",
+  "comment": "The section equates the responder with the actor offering a service and the initiator with the actor requiring it. This terminology fits request-response transactions but may be misleading for event-driven or peer-to-peer interaction.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-2-25f659",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1066",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 302,
+      "entry": "301",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.2",
+      "page": "80-81",
+      "lines": "Lines 1026-1033",
+      "raw": "§3.7.2 p.80-81 l.Lines 1026-1033"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-2-25f659",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-7-2-7e6c21",
+        "prose:3-7-2-4170b1"
+      ],
+      "note": "p.80-81 l.Lines 1026-1033 read as the printed page; section 3.7.2 agrees"
+    },
+    "text": "The section equates the responder with the actor offering a service and the initiator with the actor requiring it. This terminology fits request-response transactions but may be misleading for event-driven or peer-to-peer interaction.",
+    "suggestedRevision": "Use provider and consumer as the general service relationship, and apply initiator and responder only to transaction patterns where those roles are meaningful.",
+    "labels": {
+      "Comment type": "Q14 - Language and clarity"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 302"
+      }
+    ]
+  }
+}

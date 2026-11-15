@@ -1,0 +1,75 @@
+{
+  "id": "pc-2697",
+  "summary": "[Chapter 4, Implementing a National Digital Health Architecture] 4. Enhance the National Digital Health Architecture Th…",
+  "comment": "[Chapter 4, Implementing a National Digital Health Architecture] 4. Enhance the National Digital Health Architecture The National Digital Health Architecture chapter provides a solid foundation, though a few areas could be clarified further, particularly around legacy transition and some of the technical framing. Towards this, the following adjustments could be considered:\n• Strengthening the chapter with clearer guidance on sequencing, legacy transition, financing sustainability and capacity-building. Many countries will need to modernise fragmented legacy systems rather than build from scratch, so a staged pathway covering minimum viable capabilities, transitional coexistence, and long-term target architecture would support more practical adoption.\n• Adopt a release-neutral formulation of FHIR, distinguishing the framework from any specific release.\n• Reconsider the claim that centralised infrastructure inherently provides \"stronger\" governance, security, or accountability. Governance strength comes from clear decision rights, conformance rules, auditability, and accountability. These points suggest the value of a more flexible, technology-neutral framing that accommodates the different starting points, standards environments, and governance models that countries bring to digital health transformation.",
+  "createdAt": "2026-10-15T11:14:36.149Z",
+  "targetLabel": "chap:ch4-implementing-a-national-digital",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2697",
+    "source": {
+      "channel": "narrative",
+      "batch": "gdhp-letter",
+      "sha256": "3224a0f9c086b1ead974bdd01dcd0e4bef33d27ee095c0dde6f1a01a498ef806",
+      "segment": 5,
+      "receivedAt": "2026-10-15T11:14:36.149Z"
+    },
+    "reviewer": {
+      "id": "r-8eb63f38b6",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4",
+      "raw": "[Chapter 4, Implementing a National Digital Health Architecture] 4. Enhance the National Digital Health Architecture The"
+    },
+    "anchor": {
+      "targetLabel": "chap:ch4-implementing-a-national-digital",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 4: the national digital health architecture, chapter 4"
+    },
+    "text": "[Chapter 4, Implementing a National Digital Health Architecture] 4. Enhance the National Digital Health Architecture The National Digital Health Architecture chapter provides a solid foundation, though a few areas could be clarified further, particularly around legacy transition and some of the technical framing. Towards this, the following adjustments could be considered:\n• Strengthening the chapter with clearer guidance on sequencing, legacy transition, financing sustainability and capacity-building. Many countries will need to modernise fragmented legacy systems rather than build from scratch, so a staged pathway covering minimum viable capabilities, transitional coexistence, and long-term target architecture would support more practical adoption.\n• Adopt a release-neutral formulation of FHIR, distinguishing the framework from any specific release.\n• Reconsider the claim that centralised infrastructure inherently provides \"stronger\" governance, security, or accountability. Governance strength comes from clear decision rights, conformance rules, auditability, and accountability. These points suggest the value of a more flexible, technology-neutral framing that accommodates the different starting points, standards environments, and governance models that countries bring to digital health transformation.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.149Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-letter"
+      },
+      {
+        "at": "2026-10-15T11:15:03.868Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 4: the national digital health architecture, chapter 4"
+      }
+    ]
+  }
+}

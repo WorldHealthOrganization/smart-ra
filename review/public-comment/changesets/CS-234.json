@@ -1,0 +1,30 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-234",
+  "title": "Distinguish consent from the lawful basis for processing",
+  "requirements": "- Refer to access policy based on lawful basis, purpose and consent where relevant\n- Reword so consent is one mechanism of individual agency, not the primary basis for processing\n- State in 4.3.4 that interfaces to foundational DPI carry or reference the consent or legal basis for health data crossing them\n- Use granular, versioned consent or policy records\n- Distinguish lawful basis, authorisation, consent where applicable, and individual rights\n- Require sensitivity labelling and segmentation\n- Apply the same distinction where AI governance is described in 5.2\n- Define testable emergency-access conditions and explain limits of individual control",
+  "refs": [
+    "PC-0372",
+    "PC-0447",
+    "PC-0693",
+    "PC-0818",
+    "PC-1332",
+    "PC-1844",
+    "PC-1845",
+    "PC-1846",
+    "PC-1847",
+    "PC-1873",
+    "PC-1897"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 11 comment(s)"
+    }
+  ]
+}

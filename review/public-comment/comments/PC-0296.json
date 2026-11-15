@@ -1,0 +1,81 @@
+{
+  "id": "pc-0296",
+  "summary": "The passage on fragmentation appears twice in near-identical form, once as a prose paragraph and once as a bullet list,…",
+  "comment": "The passage on fragmentation appears twice in near-identical form, once as a prose paragraph and once as a bullet list, both opening with 'This fragmentation has direct supply chain consequences'.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-business-services-components-supplier-registry-c718c5",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0296",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 296,
+      "entry": "295",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C (Supplier Registry)",
+      "page": "192",
+      "lines": "35-50",
+      "raw": "§Appendix C (Supplier Registry) p.192 l.35-50"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-business-services-components-supplier-registry-c718c5",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-supplier-registry-384f8a",
+        "prose:c-business-services-components-supplier-registry-844669"
+      ],
+      "note": "p.192 l.35-50 read as the printed page; section C agrees"
+    },
+    "type": "editorial",
+    "text": "The passage on fragmentation appears twice in near-identical form, once as a prose paragraph and once as a bullet list, both opening with 'This fragmentation has direct supply chain consequences'.",
+    "suggestedRevision": "Remove the duplicate.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 296"
+      }
+    ]
+  }
+}

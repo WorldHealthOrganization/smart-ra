@@ -1,0 +1,75 @@
+{
+  "id": "pc-2530",
+  "summary": "The document might improve the presentation of the system approach in which instruments with specfic and independent go…",
+  "comment": "The document might improve the presentation of the system approach in which instruments with specfic and independent goals act together. The second goal speak to capable and well-distributed health workforce while HRHIS are sometimes used for such health goals, but also very often to comply with labour rights in the first place (accreditation, CPD, salary, pension,...).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-252744",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2530",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 9,
+      "entry": "8",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b1e2f66b7b",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-252744",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Explicitly about \"the second goal\" (capable, well-distributed workforce) in 1.5.1."
+    },
+    "text": "The document might improve the presentation of the system approach in which instruments with specfic and independent goals act together. The second goal speak to capable and well-distributed health workforce while HRHIS are sometimes used for such health goals, but also very often to comply with labour rights in the first place (accreditation, CPD, salary, pension,...).",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 9"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Explicitly about \"the second goal\" (capable, well-distributed workforce) in 1.5.1."
+      }
+    ]
+  }
+}

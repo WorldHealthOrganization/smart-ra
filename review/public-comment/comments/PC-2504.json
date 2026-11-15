@@ -1,0 +1,83 @@
+{
+  "id": "pc-2504",
+  "summary": "Federation as a conforming delivery arrangement — The draft already provides for federation; the correction makes the W…",
+  "comment": "Federation as a conforming delivery arrangement — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2504",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 47,
+      "entry": "46",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Terminology Service, §5",
+      "page": "170",
+      "lines": "A17.02",
+      "raw": "§Terminology Service, §5 p.170 l.A17.02"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-terminology-service-817b54",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "sec:c-metadata-registries-and-foundati-terminology-service"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+    },
+    "text": "Federation as a conforming delivery arrangement — The draft already provides for federation; the correction makes the WHO option visible and prevents compliance from being judged solely by a particular server's storage model. Evidence: WHO API local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).",
+    "suggestedRevision": "Append; retain Recommended status; also apply A17.03 in this cell: Federation shall be assessed as a delivery arrangement for the declared national TS functions. A federation-based implementation shall demonstrate how it meets each applicable mandatory requirement, including continuity during loss of external connectivity where required. It shall not be required to duplicate the entire publisher repository solely to demonstrate that those functions are available. Where a required function is not supplied by the publisher service, the national implementation shall identify and test the component that supplies it.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 47"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Terminology Service §5; TS functional requirements table."
+      }
+    ]
+  }
+}

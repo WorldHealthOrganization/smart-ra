@@ -1,0 +1,79 @@
+{
+  "id": "pc-0181",
+  "summary": "The guidance elaborates a sound framework for interoperability and semantic governance of health data. However, it larg…",
+  "comment": "The guidance elaborates a sound framework for interoperability and semantic governance of health data. However, it largely assumes that participating countries have a relatively complete existing digital health foundation. Many low- and middle-income countries face fragmented legacy systems, limited technical capacity, and weak data infrastructure, which makes the ideal full interoperability framework difficult to implement in one step. The guidance lacks a practical gradient implementation path for countries with weak foundational conditions, which may lead to the framework being shelved due to mismatched local conditions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-2-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0181",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 181,
+      "entry": "180",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-2f9ffd69fd",
+      "name": "Li Jianping",
+      "organisation": "Research Office of Guoxue Studies, Heluo Culture Research Institute, Harbin Normal University",
+      "country": "China",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.1 & 3.6.1",
+      "page": "83",
+      "lines": "Exact line numbers to be confirmed from full-review-version PDF",
+      "raw": "§4.2.1 & 3.6.1 p.83 l.Exact line numbers to be confirmed from full-review-version PDF"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-2-1",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.2.1 only"
+    },
+    "type": "general",
+    "text": "The guidance elaborates a sound framework for interoperability and semantic governance of health data. However, it largely assumes that participating countries have a relatively complete existing digital health foundation. Many low- and middle-income countries face fragmented legacy systems, limited technical capacity, and weak data infrastructure, which makes the ideal full interoperability framework difficult to implement in one step. The guidance lacks a practical gradient implementation path for countries with weak foundational conditions, which may lead to the framework being shelved due to mismatched local conditions.",
+    "suggestedRevision": "Add the following text to the interoperability and implementation sections:\n“For countries with weak digital health foundations and fragmented legacy systems, a phased implementation path is recommended: first achieve basic data interoperability within core public health institutions, then gradually expand to cross-system and cross-regional full interoperability, to ensure the framework is adaptable to local technical and capacity conditions.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 181"
+      }
+    ]
+  }
+}

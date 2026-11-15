@@ -1,0 +1,78 @@
+{
+  "id": "pc-0520",
+  "summary": "Section 5.4.3 addresses equity and safety concerns in AI deployment, focusing on training data representativeness. It d…",
+  "comment": "Section 5.4.3 addresses equity and safety concerns in AI deployment, focusing on training data representativeness. It does not address a distinct equity dimension: the evaluation integrity gap is more consequential in LMIC settings precisely because independent verification capacity is most limited there. A health ministry in an LMIC deploying an AI-enabled DPI-H component based on a developer's evaluation documentation has fewer resources to conduct independent behavioral testing in its specific national health system environment. A country with limited AI oversight infrastructure has no mechanism to detect the gap between provider-attested evaluation results and actual system behavior in deployment.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:5-4-3-f2c712",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0520",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 520,
+      "entry": "519",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-0798f04c4c",
+      "name": "Dee Jared Johnson",
+      "organisation": "Cognitive Fusion™",
+      "country": "Salt Lake City, Utah, United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.4.3",
+      "page": "109",
+      "lines": "171-176",
+      "raw": "§5.4.3 p.109 l.171-176"
+    },
+    "anchor": {
+      "targetLabel": "prose:5-4-3-f2c712",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.109 l.171-176 read as the printed page; section 5.4.3 agrees"
+    },
+    "type": "general",
+    "text": "Section 5.4.3 addresses equity and safety concerns in AI deployment, focusing on training data representativeness. It does not address a distinct equity dimension: the evaluation integrity gap is more consequential in LMIC settings precisely because independent verification capacity is most limited there. A health ministry in an LMIC deploying an AI-enabled DPI-H component based on a developer's evaluation documentation has fewer resources to conduct independent behavioral testing in its specific national health system environment. A country with limited AI oversight infrastructure has no mechanism to detect the gap between provider-attested evaluation results and actual system behavior in deployment.",
+    "suggestedRevision": "Add after line 176: \"Countries with limited independent AI evaluation capacity face a compounded equity risk: they are less able to verify that AI systems perform as evaluated for their specific population and health system context. The guidance should advise ministries and DPI authorities in these settings to: (a) require AI system providers to disclose whether evaluation results are provider-attested or independently verified; (b) prioritize independent behavioral verification for highest-consequence AI-enabled DPI-H components; and (c) request evaluation environment integrity attestation as part of procurement — confirming that the evaluation environment represented the intended deployment context.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 520"
+      }
+    ]
+  }
+}

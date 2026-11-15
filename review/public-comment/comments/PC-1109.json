@@ -1,0 +1,77 @@
+{
+  "id": "pc-1109",
+  "summary": "Coverage is defined as the proportion of reference elements realised. This gives equal weight to minor and critical ele…",
+  "comment": "Coverage is defined as the proportion of reference elements realised. This gives equal weight to minor and critical elements and can be inflated by modelling many low-level elements.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-7-5-1fb2df",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1109",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 345,
+      "entry": "344",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.7.5",
+      "page": "86",
+      "lines": "Lines 1224-1230",
+      "raw": "§3.7.5 p.86 l.Lines 1224-1230"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-7-5-1fb2df",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.86 l.Lines 1224-1230 read as the printed page; section 3.7.5 agrees"
+    },
+    "text": "Coverage is defined as the proportion of reference elements realised. This gives equal weight to minor and critical elements and can be inflated by modelling many low-level elements.",
+    "suggestedRevision": "Report coverage by layer, capability, component, criticality, and health goal. Avoid a single undifferentiated percentage as the principal adoption measure.",
+    "labels": {
+      "Comment type": "Q9 - Conformance and testing"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 345"
+      }
+    ]
+  }
+}

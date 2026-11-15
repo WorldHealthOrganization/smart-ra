@@ -1,0 +1,74 @@
+{
+  "id": "pc-0756",
+  "summary": "The bullet's second sentence describes separation of mandate and execution — the next bullet — and partly the converse …",
+  "comment": "The bullet's second sentence describes separation of mandate and execution — the next bullet — and partly the converse of subsidiarity. We recommend keeping Subsidiarity to \"authority at the lowest effective level,\" and moving the operational-vs-strategic matching into \"Separation of mandate and execution.\"",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0756",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 756,
+      "entry": "755",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§3.4.2 Subsidiarity bullet (p.54)",
+      "lines": "C17",
+      "raw": "§§3.4.2 Subsidiarity bullet (p.54) l.C17"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-4-2",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 3.4.2 only"
+    },
+    "text": "The bullet's second sentence describes separation of mandate and execution — the next bullet — and partly the converse of subsidiarity. We recommend keeping Subsidiarity to \"authority at the lowest effective level,\" and moving the operational-vs-strategic matching into \"Separation of mandate and execution.\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P3"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 756"
+      }
+    ]
+  }
+}

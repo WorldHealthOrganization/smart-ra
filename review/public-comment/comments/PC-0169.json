@@ -1,0 +1,78 @@
+{
+  "id": "pc-0169",
+  "summary": "Several glossary terms are under review and 'Health Information Exchange' is still to be included. Since the pragmatic …",
+  "comment": "Several glossary terms are under review and 'Health Information Exchange' is still to be included. Since the pragmatic level (see comments 2, 5 and 7) is currently absent from the definitions, the revision of the glossary is the natural place to anchor it.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:glossary-lead-a31853",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0169",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 169,
+      "entry": "168",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-128c35b4e8",
+      "name": "Gerard Freriks and Angelo Rossi-Mori",
+      "organisation": "Gerard Freriks is Affilated with CEN and ISO",
+      "country": "Netherlands / Europe",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Glossary",
+      "page": "PDF 8–10",
+      "lines": "Definition of interoperability; also §3.6.5 (p. 78); terms marked '[Under review]'",
+      "raw": "§Glossary p.PDF 8–10 l.Definition of interoperability; also §3.6.5 (p. 78); terms marked '[Under review]'"
+    },
+    "anchor": {
+      "targetLabel": "tbl:glossary-lead-a31853",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "type": "technical",
+    "text": "Several glossary terms are under review and 'Health Information Exchange' is still to be included. Since the pragmatic level (see comments 2, 5 and 7) is currently absent from the definitions, the revision of the glossary is the natural place to anchor it.",
+    "suggestedRevision": "When finalising the glossary, define pragmatic interoperability (shared use of exchanged information for appropriate action) alongside the existing definition of interoperability, and align the conformance chapter's vocabulary with it.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 169"
+      }
+    ]
+  }
+}

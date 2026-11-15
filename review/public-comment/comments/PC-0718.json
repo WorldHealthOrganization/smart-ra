@@ -1,0 +1,78 @@
+{
+  "id": "pc-0718",
+  "summary": "Two smaller points: Re the eight sub-goal of safeguards: reading this para, I don’t consider this as HF specific, actua…",
+  "comment": "Two smaller points: Re the eight sub-goal of safeguards: reading this para, I don’t consider this as HF specific, actually not even health sector specific. So I suggest removing this as a sub-goal and shift it to a higher level wherever it would fit best. I have also removed the distinction between PFM (budget formation and budget monitoring – PS: budget execution is missing) and health coverage management. I tried to rephrase so that we can keep the subsequent sub-tasks (not sub-goals), but as PFM cuts across HF functions, and vice versa, and given that they operate on different dimensions, presenting them as these two domains in this way doesn’t work really.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0718",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 718,
+      "entry": "717",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d1a8365eca",
+      "organisation": "WHO",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "sec:2-4-2",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Health-financing sub-goals incl. safeguarding; §2.4.2 lists them, exact draft para unclear."
+    },
+    "text": "Two smaller points: Re the eight sub-goal of safeguards: reading this para, I don’t consider this as HF specific, actually not even health sector specific. So I suggest removing this as a sub-goal and shift it to a higher level wherever it would fit best. I have also removed the distinction between PFM (budget formation and budget monitoring – PS: budget execution is missing) and health coverage management. I tried to rephrase so that we can keep the subsequent sub-tasks (not sub-goals), but as PFM cuts across HF functions, and vice versa, and given that they operate on different dimensions, presenting them as these two domains in this way doesn’t work really.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 718"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Health-financing sub-goals incl. safeguarding; §2.4.2 lists them, exact draft para unclear."
+      }
+    ]
+  }
+}

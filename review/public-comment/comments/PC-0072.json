@@ -1,0 +1,78 @@
+{
+  "id": "pc-0072",
+  "summary": "We support this methodological choice. Using TOGAF as the foundation and expressing the architecture in ArchiMate (3.1,…",
+  "comment": "We support this methodological choice. Using TOGAF as the foundation and expressing the architecture in ArchiMate (3.1, p.42, lines 34–36) creates a clear link between a health goal and the components and specifications that support it. Ministries and ICT units in small states will find this one of the guidance's most useful features. It makes the architecture practical for assessing investment proposals and drafting procurement requirements, rather than leaving it as a design reference only.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:ch2-dpi-h-reference-architecture-fra-lead-d9a961",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0072",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 72,
+      "entry": "71",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2 (chapter introduction)",
+      "page": "24",
+      "lines": "19–27",
+      "raw": "§2 (chapter introduction) p.24 l.19–27"
+    },
+    "anchor": {
+      "targetLabel": "prose:ch2-dpi-h-reference-architecture-fra-lead-d9a961",
+      "method": "page-line",
+      "confidence": "low",
+      "candidates": [],
+      "note": "p.24 l.19–27 read as the printed page; section 2 does NOT agree"
+    },
+    "type": "general",
+    "text": "We support this methodological choice. Using TOGAF as the foundation and expressing the architecture in ArchiMate (3.1, p.42, lines 34–36) creates a clear link between a health goal and the components and specifications that support it. Ministries and ICT units in small states will find this one of the guidance's most useful features. It makes the architecture practical for assessing investment proposals and drafting procurement requirements, rather than leaving it as a design reference only.",
+    "suggestedRevision": "Retain this section as drafted, and highlight the bidirectional traceability point (lines 24–26) in the executive summary. It is a strong reason for countries to use the architecture as a planning and procurement tool, not just as a technical reference.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 72"
+      }
+    ]
+  }
+}

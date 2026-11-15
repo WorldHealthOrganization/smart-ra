@@ -1,0 +1,86 @@
+{
+  "id": "pc-0191",
+  "summary": "The document correctly identifies the need for an investment case and sustainability but does not provide a specific st…",
+  "comment": "The document correctly identifies the need for an investment case and sustainability but does not provide a specific strategy for transitioning from donor-funded (project-based) models to domestically financed, service-oriented models. This transition is a critical challenge for LMICs.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-6",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0191",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 191,
+      "entry": "190",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6, 4.6.2",
+      "page": "102",
+      "lines": "461 - 473",
+      "raw": "§4.6, 4.6.2 p.102 l.461 - 473"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-6",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-5-3-466dad"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 4.6 and 4.6.2 asking for a donor-to-domestic financing transition strategy"
+    },
+    "type": "general",
+    "text": "The document correctly identifies the need for an investment case and sustainability but does not provide a specific strategy for transitioning from donor-funded (project-based) models to domestically financed, service-oriented models. This transition is a critical challenge for LMICs.",
+    "suggestedRevision": "Add a dedicated sub-section on transition planning, including: a phased roadmap for increasing domestic financing share over time, with clear milestones; guidance on engaging Ministries of Finance as strategic partners in the design and resourcing of shared infrastructure, framed around fiscal benefits rather than technology; practical advice on designing cost-recovery and shared-benefit mechanisms; and provide examples from countries that have successfully made this transition.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 191"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (medium): Cites 4.6 and 4.6.2 asking for a donor-to-domestic financing transition strategy"
+      }
+    ]
+  }
+}

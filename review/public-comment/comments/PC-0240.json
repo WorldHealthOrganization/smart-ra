@@ -1,0 +1,78 @@
+{
+  "id": "pc-0240",
+  "summary": "The partnerships section explains how relationships are coordinated but does not define accountability at the boundarie…",
+  "comment": "The partnerships section explains how relationships are coordinated but does not define accountability at the boundaries between government, donors, suppliers, implementers and care providers. Ambiguity at these boundaries can delay ownership of validation, operational readiness, incident response, corrective action and safe exit when a shared component affects clinical services.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-6-4-f3d49f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0240",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 240,
+      "entry": "239",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.6.4",
+      "page": "103",
+      "lines": "601–610",
+      "raw": "§4.6.4 p.103 l.601–610"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-6-4-f3d49f",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.103 l.601–610 read as the printed page; section 4.6.4 agrees"
+    },
+    "type": "general",
+    "text": "The partnerships section explains how relationships are coordinated but does not define accountability at the boundaries between government, donors, suppliers, implementers and care providers. Ambiguity at these boundaries can delay ownership of validation, operational readiness, incident response, corrective action and safe exit when a shared component affects clinical services.",
+    "suggestedRevision": "Recommend a documented responsibility matrix and contractual allocation covering design assurance, clinical and technical validation, deployment readiness, data stewardship, service monitoring, incident response, change control, rollback, supplier exit and data portability. State that, consistent with applicable national law, regulatory responsibilities and governance arrangements, public authorities should retain appropriate stewardship and decision authority for clinically consequential risks even where delivery functions are outsourced.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 240"
+      }
+    ]
+  }
+}

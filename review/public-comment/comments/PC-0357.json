@@ -1,0 +1,86 @@
+{
+  "id": "pc-0357",
+  "summary": "Suggest also referencing how health can strengthen/create foundational DPIs",
+  "comment": "Suggest also referencing how health can strengthen/create foundational DPIs",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:c-metadata-registries-and-foundati-client-registry-2c2640",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0357",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 357,
+      "entry": "356",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "115",
+      "lines": "45",
+      "raw": "§Appendix C p.115 l.45"
+    },
+    "anchor": {
+      "targetLabel": "tbl:c-metadata-registries-and-foundati-client-registry-2c2640",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:5-1-ea0e4f"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggested text edits the 'Where one does not...' sentence in the Client Registry architecture-placement table (App. C p.115)."
+    },
+    "type": "general",
+    "text": "Suggest also referencing how health can strengthen/create foundational DPIs",
+    "suggestedRevision": "\"Where one does not, the Client Registry provides the health sector's own identity resolution capability, and can serve as the foundational ID system that is adopted by other sectors\"",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 357"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Suggested text edits the 'Where one does not...' sentence in the Client Registry architecture-placement table (App. C p.115)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pc-0001",
+  "summary": "Section 4.3.2: We need to align Role, Actor, Persona, etc. across the WHO SMART Guidelines, this Reference Architecture…",
+  "comment": "Section 4.3.2: We need to align Role, Actor, Persona, etc. across the WHO SMART Guidelines, this Reference Architecture, and the knowledge graph.",
+  "createdAt": "2026-10-05T06:51:28.080Z",
+  "targetLabel": "prose:4-3-2-513f61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0001",
+    "source": {
+      "channel": "narrative",
+      "batch": "litlfred-2026-10-05-role-actor-persona",
+      "sha256": "9038e41dd8a089b6fc52dcf0d3bc50b62620905bf514770307a7573971254a17",
+      "segment": 0,
+      "receivedAt": "2026-10-05T06:51:28.080Z"
+    },
+    "reviewer": {
+      "id": "r-b91ad03bec",
+      "name": "litlfred",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.3.2",
+      "raw": "Section 4.3.2: We need to align Role, Actor, Persona, etc. across the WHO SMART Guidelines, this Reference Architecture,"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-3-2-513f61",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the paragraph where SMART Guidelines personas become computable actors and roles"
+    },
+    "type": "general",
+    "text": "Section 4.3.2: We need to align Role, Actor, Persona, etc. across the WHO SMART Guidelines, this Reference Architecture, and the knowledge graph.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T06:51:28.080Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "litlfred-2026-10-05-role-actor-persona"
+      },
+      {
+        "at": "2026-10-05T06:51:36.263Z",
+        "transition": "triage",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the paragraph where SMART Guidelines personas become computable actors and roles"
+      }
+    ]
+  }
+}

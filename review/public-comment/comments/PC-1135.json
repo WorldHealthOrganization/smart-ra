@@ -1,0 +1,79 @@
+{
+  "id": "pc-1135",
+  "summary": "The assessment asks whether foundational DPI supports health use cases but does not require evaluation of real-world ac…",
+  "comment": "The assessment asks whether foundational DPI supports health use cases but does not require evaluation of real-world accessibility, service reliability, assurance levels, cost, legal restrictions, or exclusion risks.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-2-3758ea",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1135",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 371,
+      "entry": "370",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.2",
+      "page": "89",
+      "lines": "Lines 39-42",
+      "raw": "§4.1.2 p.89 l.Lines 39-42"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-2-3758ea",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-1-2-a4f8e0"
+      ],
+      "note": "p.89 l.Lines 39-42 read as the printed page; section 4.1.2 agrees"
+    },
+    "text": "The assessment asks whether foundational DPI supports health use cases but does not require evaluation of real-world accessibility, service reliability, assurance levels, cost, legal restrictions, or exclusion risks.",
+    "suggestedRevision": "Add assessment of coverage, reliability, latency, service levels, security assurance, integration cost, legal basis, accessibility to public and private health providers, and effects on populations not covered by foundational identity.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 371"
+      }
+    ]
+  }
+}

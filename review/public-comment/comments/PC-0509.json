@@ -1,0 +1,79 @@
+{
+  "id": "pc-0509",
+  "summary": "Table 2.2 identifies the Logical Information Model Repository (LIMR) as an enabler that may be built as maturity grows …",
+  "comment": "Table 2.2 identifies the Logical Information Model Repository (LIMR) as an enabler that may be built as maturity grows rather than as part of the minimum foundation. Elsewhere, the LIMR is the designated home and governance mechanism for national data models, and the authoritative model from which FHIR profiles are derived and against which they are validated. This leaves unclear where required national models are governed before a LIMR exists.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0509",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 509,
+      "entry": "508",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.2.1 / 4.3.1 / 4.3.3",
+      "page": "28, 94 and 96",
+      "lines": "Table 2.2; lines 265-273 and 316-321",
+      "caption": "Table 2.2",
+      "raw": "§2.2.1 / 4.3.1 / 4.3.3 p.28, 94 and 96 l.Table 2.2; lines 265-273 and 316-321"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "Table 2.2 identifies the Logical Information Model Repository (LIMR) as an enabler that may be built as maturity grows rather than as part of the minimum foundation. Elsewhere, the LIMR is the designated home and governance mechanism for national data models, and the authoritative model from which FHIR profiles are derived and against which they are validated. This leaves unclear where required national models are governed before a LIMR exists.",
+    "suggestedRevision": "Either include a minimum LIMR capability in the foundational set or specify the interim governed mechanism that holds national information models, the authority responsible for it, and the migration path when the full LIMR is established.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 509"
+      }
+    ]
+  }
+}

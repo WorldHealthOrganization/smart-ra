@@ -1,0 +1,79 @@
+{
+  "id": "pc-0014",
+  "summary": "The India example describes federation and consent but could better address delivery of specialist capacity across hete…",
+  "comment": "The India example describes federation and consent but could better address delivery of specialist capacity across heterogeneous states and facilities.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-2-australia-49379a",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0014",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 14,
+      "entry": "13",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-944e3c3a7b",
+      "name": "Kalyan Sivasailam",
+      "organisation": "5C Network",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.2: India",
+      "page": "242",
+      "lines": "118-126",
+      "raw": "§Appendix D.2: India p.242 l.118-126"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-2-australia-49379a",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.242 l.118-126 read as the PDF page; section D agrees"
+    },
+    "type": "technical",
+    "text": "The India example describes federation and consent but could better address delivery of specialist capacity across heterogeneous states and facilities.",
+    "suggestedRevision": "Add an implementation note on federated diagnostic workflows that connect local facilities to remote qualified specialists, with consent, provenance, report return, critical-result communication and subnational policy variation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 14"
+      }
+    ]
+  }
+}

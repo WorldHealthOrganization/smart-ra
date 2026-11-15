@@ -1,0 +1,77 @@
+{
+  "id": "pc-1597",
+  "summary": "Requiring all three relationship structures may be excessive where countries do not formally define referral networks o…",
+  "comment": "Requiring all three relationship structures may be excessive where countries do not formally define referral networks or facility catchments.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1597",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 833,
+      "entry": "832",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Health Facility Registry, 5",
+      "page": "129",
+      "lines": "Requirement 6",
+      "raw": "§Health Facility Registry, 5 p.129 l.Requirement 6"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-health-facility-registry",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Health Facility Registry\""
+    },
+    "text": "Requiring all three relationship structures may be excessive where countries do not formally define referral networks or facility catchments.",
+    "suggestedRevision": "Make each structure conditional based on national policy and selected use cases, while requiring support for multiple relationship types.",
+    "labels": {
+      "Comment type": "Q12 - Applicability"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 833"
+      }
+    ]
+  }
+}

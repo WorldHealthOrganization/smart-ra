@@ -1,0 +1,79 @@
+{
+  "id": "pc-0281",
+  "summary": "Consent is well grounded in the principles: Table 2.2 names a health-sector consent service with consent enforced at th…",
+  "comment": "Consent is well grounded in the principles: Table 2.2 names a health-sector consent service with consent enforced at the point of data exchange; Principle VIII explains why the architecture does not set consent rules and anticipates a health-sector consent capability; the Lifelong Health Record is Required to integrate with consent management services (Appendix C, requirement 14). But the consent service named in Chapter 2 has no component specification. It is not among the twelve components of the Appendix C catalogue, so it has no functional requirements, no minimum data model and no conformance requirements, although every other load-bearing capability receives all three. The standards Chapter 2 points to, the IHE privacy and consent profiles and the HL7 FHIR Consent resource, are correspondingly absent from the component specifications.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "tbl:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0281",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 281,
+      "entry": "280",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 (Principle VIII)",
+      "page": "35",
+      "lines": "355-379; also Table 2.2 (p. 28) and Appendix C, Lifelong Health Record requirement 14 (p. 161)",
+      "caption": "Table 2.2",
+      "raw": "§2.3 (Principle VIII) p.35 l.355-379; also Table 2.2 (p. 28) and Appendix C, Lifelong Health Record requirement 14 (p. 161)"
+    },
+    "anchor": {
+      "targetLabel": "tbl:2-2",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 2.2 as cited"
+    },
+    "type": "technical",
+    "text": "Consent is well grounded in the principles: Table 2.2 names a health-sector consent service with consent enforced at the point of data exchange; Principle VIII explains why the architecture does not set consent rules and anticipates a health-sector consent capability; the Lifelong Health Record is Required to integrate with consent management services (Appendix C, requirement 14). But the consent service named in Chapter 2 has no component specification. It is not among the twelve components of the Appendix C catalogue, so it has no functional requirements, no minimum data model and no conformance requirements, although every other load-bearing capability receives all three. The standards Chapter 2 points to, the IHE privacy and consent profiles and the HL7 FHIR Consent resource, are correspondingly absent from the component specifications.",
+    "suggestedRevision": "Give the consent service a component specification, or assign the capability explicitly to a named component and cite the applicable standards in Appendix C. Address withdrawal semantics directly, including what becomes of authorisations already granted when consent is withdrawn after data has crossed an institutional boundary, and state whether that case is in scope for DPI-H at all. EHDS Article 71 (Regulation (EU) 2025/327) is instructive here: it gives natural persons a right to opt out of secondary use at any time, applicable from 26 March 2029 under the phased timetable in Article 105, and Article 71(3) expressly preserves data permits and health data requests issued or approved before the opt-out was exercised. Even the most developed consent regulation on the books therefore stops at the institutional boundary, which is precisely why a component specification should say how consent rules are versioned, distributed and made auditable between organisations that share no common operator, so that the question of which rules governed a given exchange remains answerable afterwards.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 281"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0504",
+  "summary": "The architecture requires actions to be attributed to an identifiable human or system actor and requires AI to be accou…",
+  "comment": "The architecture requires actions to be attributed to an identifiable human or system actor and requires AI to be accountable to identifiable people. Attribution is therefore modelled, but the relationship between a non-human executing actor and the accountable human role is not. The Health Workforce Registry provides the authoritative source for human workers, while no corresponding governed catalogue identifies automated or AI actors, their permitted functions or deployed versions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-3-1-1f0816",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0504",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 504,
+      "entry": "503",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.3.1 / 4.3.2 / 5.2 / 5.4.2",
+      "page": "67, 95, 106 and 108",
+      "lines": "Lines 643-656, 285-292, 92-96 and 156-165",
+      "raw": "§3.5.3.1 / 4.3.2 / 5.2 / 5.4.2 p.67, 95, 106 and 108 l.Lines 643-656, 285-292, 92-96 and 156-165"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-3-1-1f0816",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-5-3-1-93723e"
+      ],
+      "note": "p.67, 95, 106 and 108 l.Lines 643-656, 285-292, 92-96 and 156-165 read as the printed page; section 3.5.3.1 agrees"
+    },
+    "type": "technical",
+    "text": "The architecture requires actions to be attributed to an identifiable human or system actor and requires AI to be accountable to identifiable people. Attribution is therefore modelled, but the relationship between a non-human executing actor and the accountable human role is not. The Health Workforce Registry provides the authoritative source for human workers, while no corresponding governed catalogue identifies automated or AI actors, their permitted functions or deployed versions.",
+    "suggestedRevision": "Add a governed register or catalogue for non-human executing actors, either as a companion to the Health Workforce Registry or as part of the component and service metadata. Record each actor's identity, permitted functions, deployed version and accountable human role. Require provenance and audit records to distinguish the executing actor from the accountable human whenever the executor is not a person.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 504"
+      }
+    ]
+  }
+}

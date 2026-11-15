@@ -1,0 +1,81 @@
+{
+  "id": "pc-0361",
+  "summary": "Why are we choosing the term Lifelong Health Record vs. Shared Health Record, which is more commonly used and understoo…",
+  "comment": "Why are we choosing the term Lifelong Health Record vs. Shared Health Record, which is more commonly used and understood already?",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-d9712f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0361",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 361,
+      "entry": "360",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "155",
+      "lines": "1",
+      "raw": "§Appendix C p.155 l.1"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-lifelong-health-record-d9712f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-7c8cd5",
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-dd59dc",
+        "prose:c-metadata-registries-and-foundati-lifelong-health-record-b73827"
+      ],
+      "note": "p.155 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "Why are we choosing the term Lifelong Health Record vs. Shared Health Record, which is more commonly used and understood already?",
+    "suggestedRevision": "Change references to Lifelong Health Record to Shared Health Record",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 361"
+      }
+    ]
+  }
+}

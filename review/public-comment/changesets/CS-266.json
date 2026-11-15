@@ -1,0 +1,34 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-266",
+  "title": "Clarify the two DPI-H layers and their depiction in figures",
+  "requirements": "- State what 'two layers' covers relative to applications, foundational DPI and cross-cutting enablers in later figures\n- Visually separate and label the two DPI-H layers\n- Provide simplified audience-specific views alongside the full traceability view\n- Show and name the shared data and business-services layers in 3.3\n- Apply distinct, consistent colours with a legend in Figures 3.3–3.5\n- Clarify which enabling services (audit, consent, trust, terminology) are components and which are foundational\n- Rename 'Metadata registries' to match its contents, and replace the ambiguous 'application layer'\n- Place the EMR in the point-of-service tier consistent with its classification elsewhere",
+  "refs": [
+    "PC-0026",
+    "PC-0108",
+    "PC-0408",
+    "PC-0782",
+    "PC-0783",
+    "PC-0784",
+    "PC-0785",
+    "PC-0786",
+    "PC-0862",
+    "PC-0863",
+    "PC-0872",
+    "PC-0873",
+    "PC-0955",
+    "PC-0956",
+    "PC-0957"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 15 comment(s)"
+    }
+  ]
+}

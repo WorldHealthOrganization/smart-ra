@@ -1,0 +1,80 @@
+{
+  "id": "pc-0274",
+  "summary": "The governance section establishes governance for digital health architectures but does not explicitly address governan…",
+  "comment": "The governance section establishes governance for digital health architectures but does not explicitly address governance considerations for distributed AI operating across multiple institutions and jurisdictions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-1-0a357f",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0274",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 274,
+      "entry": "273",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8e24450907",
+      "name": "Chirag Tyagi",
+      "organisation": "Vectorise Global Private Limited - DiagNXT",
+      "country": "Bangalore, India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4",
+      "page": "53-60",
+      "lines": "(Governance of Digital Health Architectures and DPI-H)",
+      "raw": "§3.4 p.53-60 l.(Governance of Digital Health Architectures and DPI-H)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-1-0a357f",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-1-18e851"
+      ],
+      "note": "p.53-60 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The governance section establishes governance for digital health architectures but does not explicitly address governance considerations for distributed AI operating across multiple institutions and jurisdictions.",
+    "suggestedRevision": "As AI-enabled health systems increasingly operate across multiple organizations and jurisdictions, governance frameworks should address distributed intelligence environments in which data, models and decision-support capabilities may be developed, validated or updated collaboratively while remaining under decentralized institutional control. Governance arrangements should define accountability, oversight, transparency and lifecycle management across participating organizations.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 274"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-149",
+  "title": "Define the facility temporal, status and publication-state model",
+  "requirements": "- Describe the CGR as a potential cross-sector capability, with an interim path where none exists\n- Separate legal, operational, accreditation and service-availability status with controlled values and effective periods\n- Define states and their criteria; represent status and effective periods\n- Require persistent area identifiers, effective periods and versioned boundaries for historical reporting\n- Allow provisional facility records followed by time-bound completion\n- Ensure historical queries reproduce facility state at a date\n- Use explicit normative language for CGR integration and treat temporal/notification services as target capabilities\n- Define permitted transitions, authority, propagation and audit",
+  "refs": [
+    "PC-1550",
+    "PC-1558",
+    "PC-1570",
+    "PC-1576",
+    "PC-1577",
+    "PC-1578",
+    "PC-1579",
+    "PC-1580",
+    "PC-1590",
+    "PC-1594",
+    "PC-1598",
+    "PC-1606",
+    "PC-1613",
+    "PC-1615",
+    "PC-2580"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 15 comment(s)"
+    }
+  ]
+}

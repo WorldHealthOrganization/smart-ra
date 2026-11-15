@@ -1,0 +1,78 @@
+{
+  "id": "pc-0457",
+  "summary": "This principle refers to enforcement mechanisms proportionate to scale and diversity of users, but the guidance nowhere…",
+  "comment": "This principle refers to enforcement mechanisms proportionate to scale and diversity of users, but the guidance nowhere describes what enforcement consists of. Without a described ladder the only sanctions available in practice are withdrawal of funding, which punishes participants rather than abstainers, and exclusion from the infrastructure, which is unusable against a care provider.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-2-96e3ef",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0457",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 457,
+      "entry": "456",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.4.2",
+      "page": "54",
+      "lines": "273",
+      "raw": "§3.4.2 p.54 l.273"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-2-96e3ef",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.54 l.273 read as the printed page; section 3.4.2 agrees"
+    },
+    "type": "technical",
+    "text": "This principle refers to enforcement mechanisms proportionate to scale and diversity of users, but the guidance nowhere describes what enforcement consists of. Without a described ladder the only sanctions available in practice are withdrawal of funding, which punishes participants rather than abstainers, and exclusion from the infrastructure, which is unusable against a care provider.",
+    "suggestedRevision": "Describe a graduated enforcement ladder and differentiate it by participant type. For vendors and component operators the top rung can be withdrawal of certification, which excludes a product and not care. For care providers it must remain administrative and financial - formal direction with a remedy period, penalty payments, consequences in the tariff - because disconnecting a provider creates a conflict with its statutory duty to deliver safe care. For holders of shared objects the proportionate top rung is transfer of holdership. This differentiation is absent from the draft and is where enforcement provisions usually fail in practice.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 457"
+      }
+    ]
+  }
+}

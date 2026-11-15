@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p048-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p048-2.png",
+  "pageStart": 48,
+  "pageEnd": 48,
+  "narrative": [
+    {
+      "text": "Figure 2.3. 'DPI-H Architecture Design Principles': a blue semicircular fan of ten segments, each with an icon, around the title, and a short definition beside each: Governance, Open Standards, Interoperability, Sustainability, Modularity, Local Capacity, Equity and Inclusion, Data Ownership, Access and Control, Trust and Security, and Ethics.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 2.3. « DPI-H Architecture Design Principles » : un éventail semi-circulaire bleu de dix segments, chacun doté d'une icône, autour du titre, avec une courte définition à côté de chacun : gouvernance, normes ouvertes, interopérabilité, durabilité, modularité, capacités locales, équité et inclusion, propriété, accès et contrôle des données, confiance et sécurité, et éthique.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 2.3. «DPI-H Architecture Design Principles»: un abanico semicircular azul de diez segmentos, cada uno con un icono, alrededor del título, y una breve definición junto a cada uno: gobernanza, estándares abiertos, interoperabilidad, sostenibilidad, modularidad, capacidad local, equidad e inclusión, propiedad, acceso y control de los datos, confianza y seguridad, y ética.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 2.3. «DPI-H Architecture Design Principles»: مروحة نصف دائرية زرقاء من عشرة أجزاء، لكل منها أيقونة، حول العنوان، وبجانب كل جزء تعريف قصير: الحوكمة، والمعايير المفتوحة، وقابلية التشغيل البيني، والاستدامة، والنمطية، والقدرات المحلية، والإنصاف والشمول، وملكية البيانات والوصول إليها والتحكم فيها، والثقة والأمن، والأخلاقيات.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 2.3. «DPI-H Architecture Design Principles»: синий полукруглый веер из десяти сегментов, каждый со значком, вокруг заголовка, с кратким определением рядом с каждым: управление, открытые стандарты, интероперабельность, устойчивость, модульность, местный потенциал, справедливость и инклюзивность, владение данными, доступ к ним и контроль над ними, доверие и безопасность, а также этика.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 2.3。“DPI-H Architecture Design Principles”：一个由十个扇区组成的蓝色半圆扇形，围绕标题排列，每个扇区带有图标，并在旁边附有简短定义：治理、开放标准、互操作性、可持续性、模块化、本地能力、公平与包容、数据所有权、访问与控制、信任与安全，以及伦理。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pc-0642",
+  "summary": "Strengths: Thank you for publishing a landmark document on a global digital health architecture built on digital public…",
+  "comment": "Strengths: Thank you for publishing a landmark document on a global digital health architecture built on digital public infrastructure (DPI-H). The Asia eHealth Information Network (AeHIN), created by the World Health Organization in 2012, has long espoused the Mind/Fill the GAPS framework, in which “Architecture” is a key component. Our comments and suggestions are as follows:\n\nObservation 1. The WHO–ITU Reference Architecture Guidance for Digital Public Infrastructure for Health (DPI-H) gives countries advice on the TOGAF/ArchiMate-based enterprise architecture framework — organized around seven priority health goals and the REDDHI (Resilient Essential Data and Digital Health Infrastructure) concept — for moving from strategic intent to coherent technical implementation. It is explicitly designed as a technology-neutral blueprint that individual countries adapt to their own context, not a single deployable system. The work is comprehensive and solid.\n\nObservation 2. A regional framework already exists to receive it. The Regional Action Framework on Digital Health in the Western Pacific, endorsed by Member States at the 75th WHO Regional Committee for the Western Pacific (2024), organizes country actions around five domains — governance, socio-technical infrastructure, financing and economics, digital health solutions, and data — guided by principles of equity, open innovation, accountability, pragmatism, and sustainability. Member-state consultations during its formulation repeatedly surfaced standards and interoperability (the S in GAPS) and governance and leadership (the G in GAPS) as the priorities countries most need help operationalizing.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0642",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 642,
+      "entry": "641",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b83f68a3e3",
+      "name": "Alvin Valeriano de Borja Marcelo",
+      "organisation": "Asia eHealth Information Network Community of Interoperability Labs",
+      "country": "Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths statement about the whole document."
+    },
+    "type": "general",
+    "text": "Strengths: Thank you for publishing a landmark document on a global digital health architecture built on digital public infrastructure (DPI-H). The Asia eHealth Information Network (AeHIN), created by the World Health Organization in 2012, has long espoused the Mind/Fill the GAPS framework, in which “Architecture” is a key component. Our comments and suggestions are as follows:\n\nObservation 1. The WHO–ITU Reference Architecture Guidance for Digital Public Infrastructure for Health (DPI-H) gives countries advice on the TOGAF/ArchiMate-based enterprise architecture framework — organized around seven priority health goals and the REDDHI (Resilient Essential Data and Digital Health Infrastructure) concept — for moving from strategic intent to coherent technical implementation. It is explicitly designed as a technology-neutral blueprint that individual countries adapt to their own context, not a single deployable system. The work is comprehensive and solid.\n\nObservation 2. A regional framework already exists to receive it. The Regional Action Framework on Digital Health in the Western Pacific, endorsed by Member States at the 75th WHO Regional Committee for the Western Pacific (2024), organizes country actions around five domains — governance, socio-technical infrastructure, financing and economics, digital health solutions, and data — guided by principles of equity, open innovation, accountability, pragmatism, and sustainability. Member-state consultations during its formulation repeatedly surfaced standards and interoperability (the S in GAPS) and governance and leadership (the G in GAPS) as the priorities countries most need help operationalizing.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 642"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form strengths statement about the whole document."
+      }
+    ]
+  }
+}

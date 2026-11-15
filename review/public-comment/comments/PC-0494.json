@@ -1,0 +1,78 @@
+{
+  "id": "pc-0494",
+  "summary": "The definition of DPI-H is sound and will be adopted into national policy documents, where it will meet existing nation…",
+  "comment": "The definition of DPI-H is sound and will be adopted into national policy documents, where it will meet existing national vocabulary for the same concept. Without a mapping, countries will either invent a parallel vocabulary or conclude the guidance describes something other than what they already have.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-55bcec",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0494",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 494,
+      "entry": "493",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "10",
+      "lines": "62",
+      "raw": "§1.1.2 p.10 l.62"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-55bcec",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.10 l.62 read as the printed page; section 1.1.2 agrees"
+    },
+    "type": "general",
+    "text": "The definition of DPI-H is sound and will be adopted into national policy documents, where it will meet existing national vocabulary for the same concept. Without a mapping, countries will either invent a parallel vocabulary or conclude the guidance describes something other than what they already have.",
+    "suggestedRevision": "Add a short mapping table inviting countries to place national terms against the DPI-H concepts, with two or three worked examples. For the Netherlands the equivalents are 'generieke functies' for the shared foundational components, 'landelijk dekkend netwerk' for the governed exchange capability, and 'databeschikbaarheid' for the shift from point-to-point exchange to governed availability. Naming such equivalences will materially increase uptake in countries that already have a national architecture.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 494"
+      }
+    ]
+  }
+}

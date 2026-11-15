@@ -1,0 +1,77 @@
+{
+  "id": "pc-1778",
+  "summary": "Role-based access is appropriate for authoring, but manufacturer submissions and automated source integrations also req…",
+  "comment": "Role-based access is appropriate for authoring, but manufacturer submissions and automated source integrations also require organisational trust, digital signatures, delegated authority, and data segregation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c-metadata-registries-and-foundati-product-registry",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1778",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 1014,
+      "entry": "1013",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Product Registry, 5",
+      "page": "148",
+      "lines": "Requirement 8",
+      "raw": "§Product Registry, 5 p.148 l.Requirement 8"
+    },
+    "anchor": {
+      "targetLabel": "sec:c-metadata-registries-and-foundati-product-registry",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Product Registry\""
+    },
+    "text": "Role-based access is appropriate for authoring, but manufacturer submissions and automated source integrations also require organisational trust, digital signatures, delegated authority, and data segregation.",
+    "suggestedRevision": "Add organisation and credential verification, attribute-based permissions, submission provenance, digital-signature support where appropriate, and separation of submitter and approver roles.",
+    "labels": {
+      "Comment type": "Q12 - Privacy and security"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 1014"
+      }
+    ]
+  }
+}

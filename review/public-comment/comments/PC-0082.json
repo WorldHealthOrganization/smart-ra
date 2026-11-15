@@ -1,0 +1,85 @@
+{
+  "id": "pc-0082",
+  "summary": "REDDHI is a strong organizing concept but may appear ambitious for some LMICs.",
+  "comment": "REDDHI is a strong organizing concept but may appear ambitious for some LMICs.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0082",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 82,
+      "entry": "81",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-823d9ef50c",
+      "name": "Dr. Yahya Gulzar",
+      "organisation": "WHO",
+      "country": "Pakistan",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "REDDHI Framework",
+      "page": "Relevant Section",
+      "lines": "Relevant Lines",
+      "raw": "§REDDHI Framework p.Relevant Section l.Relevant Lines"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites REDDHI Framework; asks for maturity levels for REDDHI (section 2.2)"
+    },
+    "type": "technical",
+    "text": "REDDHI is a strong organizing concept but may appear ambitious for some LMICs.",
+    "suggestedRevision": "Introduce foundational, intermediate and advanced maturity levels.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 82"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites REDDHI Framework; asks for maturity levels for REDDHI (section 2.2)"
+      }
+    ]
+  }
+}

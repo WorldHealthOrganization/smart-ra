@@ -1,0 +1,80 @@
+{
+  "id": "pc-0238",
+  "summary": "Phase 1 establishes the architecture governance body, stakeholders and evaluation plan, but does not explicitly establi…",
+  "comment": "Phase 1 establishes the architecture governance body, stakeholders and evaluation plan, but does not explicitly establish clinical-safety governance before implementation. Deferring this function risks treating clinical assurance as a late implementation check rather than a design constraint carried through procurement, configuration, testing and deployment.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-2-186744",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0238",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 238,
+      "entry": "237",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-75a23ded53",
+      "name": "Dr. Samer Al-Diri",
+      "organisation": "Independent",
+      "country": "United Arab Emirates",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.2",
+      "page": "91",
+      "lines": "131–145",
+      "raw": "§4.2.2 p.91 l.131–145"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-2-186744",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-2-1c4fbc"
+      ],
+      "note": "p.91 l.131–145 read as the printed page; section 4.2.2 agrees"
+    },
+    "type": "general",
+    "text": "Phase 1 establishes the architecture governance body, stakeholders and evaluation plan, but does not explicitly establish clinical-safety governance before implementation. Deferring this function risks treating clinical assurance as a late implementation check rather than a design constraint carried through procurement, configuration, testing and deployment.",
+    "suggestedRevision": "Add a Phase 1 deliverable to establish the clinical-governance and patient-safety workstream, including a named accountable lead, a DPI-H hazard/risk log, clinical acceptance criteria, escalation and incident routes, and requirements for frontline clinical and service-user participation. Carry these controls through procurement, testing, go-live and post-deployment evaluation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Clinical"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 238"
+      }
+    ]
+  }
+}

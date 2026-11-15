@@ -1,0 +1,31 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-263",
+  "title": "Extend the interoperability definition to workflow and pragmatic levels",
+  "requirements": "- Add a concise definition of interoperability at the start of 3.6\n- State that context, provenance, time, certainty and units also carry meaning\n- Add organisational and workflow interoperability to the interoperability levels\n- Include process/workflow interoperability explicitly or define it within organisational interoperability\n- Add pragmatic interoperability, anchored in the Health Information Exchange definition\n- Replace 'clinically meaningful' with purpose-neutral wording covering non-clinical exchanges\n- Make the blood-pressure example complete (units, method, position, timing)\n- Address whether received information is understood and acted on at the point of care",
+  "refs": [
+    "PC-0161",
+    "PC-0169",
+    "PC-0707",
+    "PC-0772",
+    "PC-0991",
+    "PC-0992",
+    "PC-0993",
+    "PC-0994",
+    "PC-0995",
+    "PC-1008",
+    "PC-1009",
+    "PC-1010"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 12 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "pc-0534",
+  "summary": "The Ministry of Health of Slovenia welcomes this draft and considers it a substantial and useful piece of work. Our com…",
+  "comment": "The Ministry of Health of Slovenia welcomes this draft and considers it a substantial and useful piece of work. Our comments are offered from the position of a country that has operated a national clinical record since 2015 and is now extending it across several care settings through separately procured applications.\n\nOur substantive comments concentrate on one structural matter, and we state that openly so the shape of this submission is clear. The guidance treats exchange, coded meaning and logical structure substantively, and each is given named standards or a named component. The persistence layer — the form in which a country's clinical data is held over a lifetime, and the standard that governs it — is not treated in the same way, and the places where the guidance does touch it are not consistent with one another. Because that layer determines what a country can do for decades afterwards, and because it is the layer our own experience bears on most directly, we have commented on each place where it arises. The remaining comments address conformance, cross-border flows, financing, workforce, the goal mappings, the country examples and a number of editorial matters.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0534",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 534,
+      "entry": "533",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "General — overall assessment and scope of this submission",
+      "page": "Whole document",
+      "lines": "n/a",
+      "raw": "§General — overall assessment and scope of this submission p.Whole document l.n/a"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): General context statement from Slovenia MoH; no change proposed."
+    },
+    "type": "general",
+    "text": "The Ministry of Health of Slovenia welcomes this draft and considers it a substantial and useful piece of work. Our comments are offered from the position of a country that has operated a national clinical record since 2015 and is now extending it across several care settings through separately procured applications.\n\nOur substantive comments concentrate on one structural matter, and we state that openly so the shape of this submission is clear. The guidance treats exchange, coded meaning and logical structure substantively, and each is given named standards or a named component. The persistence layer — the form in which a country's clinical data is held over a lifetime, and the standard that governs it — is not treated in the same way, and the places where the guidance does touch it are not consistent with one another. Because that layer determines what a country can do for decades afterwards, and because it is the layer our own experience bears on most directly, we have commented on each place where it arises. The remaining comments address conformance, cross-border flows, financing, workforce, the goal mappings, the country examples and a number of editorial matters.",
+    "suggestedRevision": "No change proposed. This comment is offered as context for those that follow.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No",
+      "Consider by TWG? Human categorisation": "No but note accompanying comments"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 534"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): General context statement from Slovenia MoH; no change proposed."
+      }
+    ]
+  }
+}

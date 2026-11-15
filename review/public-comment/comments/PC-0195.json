@@ -1,0 +1,86 @@
+{
+  "id": "pc-0195",
+  "summary": "The worked example for health financing is helpful but could be expanded to include a practical scenario showing how th…",
+  "comment": "The worked example for health financing is helpful but could be expanded to include a practical scenario showing how the Benefits Package Registry interfaces with a national health insurance scheme's operational systems (claims, enrolment, payment). This would make the architectural concepts more tangible.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:2-4-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0195",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 195,
+      "entry": "194",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-53ce938630",
+      "name": "MICHAEL ODAL",
+      "country": "UGANDA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.4.2",
+      "page": "36",
+      "lines": "503 - 525",
+      "raw": "§2.4.2 p.36 l.503 - 525"
+    },
+    "anchor": {
+      "targetLabel": "sec:2-4-2",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-4813b9"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 2.4.2 worked example for health financing and asks to expand it"
+    },
+    "type": "editorial",
+    "text": "The worked example for health financing is helpful but could be expanded to include a practical scenario showing how the Benefits Package Registry interfaces with a national health insurance scheme's operational systems (claims, enrolment, payment). This would make the architectural concepts more tangible.",
+    "suggestedRevision": "Consider expanding the worked example to include a concrete scenario(s): \n - how a person's coverage is determined by querying the Benefits Package Registry  - how a claim is validated against the registry at the point of service\n - how payment is triggered to a provider\n - how the registry feeds into financial accountability. \n\nThis would bridge the gap between architecture and operational reality for non-technical readers in health financing roles.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 195"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites 2.4.2 worked example for health financing and asks to expand it"
+      }
+    ]
+  }
+}

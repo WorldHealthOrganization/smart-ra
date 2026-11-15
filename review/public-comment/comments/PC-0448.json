@@ -1,0 +1,80 @@
+{
+  "id": "pc-0448",
+  "summary": "The guidance states it serves low-, middle- and high-income settings, but the diagnosis is drawn almost entirely from L…",
+  "comment": "The guidance states it serves low-, middle- and high-income settings, but the diagnosis is drawn almost entirely from LMIC experience: 'high-income' appears twice in the whole document and no high-income federated system is analysed. High-income readers will not find their problem described and may conclude the guidance is not addressed to them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-4-08df43",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0448",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 448,
+      "entry": "447",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-a917fad68b",
+      "name": "Hans ter Brake",
+      "organisation": "HCI - Health Cloud Initiative",
+      "country": "Netherlands",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.4",
+      "page": "12",
+      "lines": "136",
+      "raw": "§1.1.4 p.12 l.136"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-4-08df43",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:1-1-4-a8e0b3"
+      ],
+      "note": "p.12 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "general",
+    "text": "The guidance states it serves low-, middle- and high-income settings, but the diagnosis is drawn almost entirely from LMIC experience: 'high-income' appears twice in the whole document and no high-income federated system is analysed. High-income readers will not find their problem described and may conclude the guidance is not addressed to them.",
+    "suggestedRevision": "Distinguish two fragmentation mechanisms. Programme-vertical fragmentation is the pattern the draft describes. Organisation- and market-driven fragmentation is the high-income pattern: thousands of autonomous providers, entrenched vendors, a dominant financier, several statutory regimes. The Netherlands is a clear case of the second, with high digital maturity, twenty years of standardisation and persistent discontinuity of information between providers. State that the remedies differ: the first needs shared components, the second needs an ordering framework over components that largely already exist.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 448"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Requirements draw on the GS1 Global Location Number (GLN) standards for supplier location identification and expert input. There is no direct equivalent of the Supplier Registry in the OpenHIE architecture specification.

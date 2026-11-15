@@ -1,0 +1,87 @@
+{
+  "id": "pc-0263",
+  "summary": "The architecture promotes capture-once/reuse-many-times and supports secondary use, but it does not provide a single as…",
+  "comment": "The architecture promotes capture-once/reuse-many-times and supports secondary use, but it does not provide a single assurance pattern for the quality of source data or the governance of controlled analysis and outputs. Registries, routine reporting, dashboards and administrative datasets may otherwise be treated as ground truth without sufficient evidence of coverage, denominator quality, timeliness or validation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:5-2",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0263",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 263,
+      "entry": "262",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9ede3b3e2f",
+      "name": "Robylin Tweetie Diya, RN, MSc Health Informatics (cand.)",
+      "organisation": "Independent reviewer; UK Registered Nurse; Health Informatics Specialist; Senior Systems Specialist (personal/professional capacity)",
+      "country": "United Kingdom",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "5.2; Appendix C- LHR; Appendix C- HMIS",
+      "page": "105–106; 161; 212–213",
+      "lines": "42–83; LHR requirement 16; 97–104; 159–167",
+      "raw": "§5.2; Appendix C- LHR; Appendix C- HMIS p.105–106; 161; 212–213 l.42–83; LHR requirement 16; 97–104; 159–167"
+    },
+    "anchor": {
+      "targetLabel": "sec:5-2",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [
+        "prose:5-2-b8b815"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites 5.2 l.42-83 plus LHR and HMIS requirements on data-source assurance; placed on 5.2"
+    },
+    "type": "technical",
+    "text": "The architecture promotes capture-once/reuse-many-times and supports secondary use, but it does not provide a single assurance pattern for the quality of source data or the governance of controlled analysis and outputs. Registries, routine reporting, dashboards and administrative datasets may otherwise be treated as ground truth without sufficient evidence of coverage, denominator quality, timeliness or validation.",
+    "suggestedRevision": "Add data-source assurance requirements covering owner, provenance and lineage, reporting pathway, denominator, coverage, completeness, timeliness, representativeness, validation method, audit history and known limitations. For secondary use, require purpose approval, public-benefit assessment, proportionate de-identification, secure processing/access controls, complete audit trails, output checking, transparency, and governance of commercial and cross-border use. Clarify whether data reflect policy intent, system availability, actual use or verified implementation.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 263"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (low): Cites 5.2 l.42-83 plus LHR and HMIS requirements on data-source assurance; placed on 5.2"
+      }
+    ]
+  }
+}

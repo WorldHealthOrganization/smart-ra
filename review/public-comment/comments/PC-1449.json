@@ -1,0 +1,77 @@
+{
+  "id": "pc-1449",
+  "summary": "Appendix C lists the foundational components but does not provide a consolidated overview of their purpose, dependencie…",
+  "comment": "Appendix C lists the foundational components but does not provide a consolidated overview of their purpose, dependencies, maturity, or relationship to the seven health goals before beginning the detailed specifications.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-809cf8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-1449",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--EY-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "EY review",
+      "row": 685,
+      "entry": "684",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5b56e4d01e",
+      "name": "Michael Anywar",
+      "organisation": "EY DHEC",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C introduction",
+      "page": "114",
+      "lines": "Lines 15-25",
+      "raw": "§Appendix C introduction p.114 l.Lines 15-25"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-809cf8",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.114 l.Lines 15-25 read as the printed page; section C agrees"
+    },
+    "text": "Appendix C lists the foundational components but does not provide a consolidated overview of their purpose, dependencies, maturity, or relationship to the seven health goals before beginning the detailed specifications.",
+    "suggestedRevision": "Add a summary matrix listing each component, architecture layer, purpose, principal services, governed data, main dependencies, relevant goals, implementation maturity, and related operational systems.",
+    "labels": {
+      "Comment type": "Q2 - Level of detail"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--EY-review row 685"
+      }
+    ]
+  }
+}

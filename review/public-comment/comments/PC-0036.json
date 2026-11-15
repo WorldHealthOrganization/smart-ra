@@ -1,0 +1,109 @@
+{
+  "id": "pc-0036",
+  "summary": "The section treats individual agency mainly as direct personal action. In practice, some people exercise agency with su…",
+  "comment": "The section treats individual agency mainly as direct personal action. In practice, some people exercise agency with support or through an authorised representative, including during temporary illness, disability, cognitive decline or other changes in functional ability. Without a standard delegation model, countries and applications will recreate proxy access inconsistently, increasing privacy, safety and exclusion risks.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-3-7d4652",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "triaged",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0036",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 36,
+      "entry": "35",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b597a4b30b",
+      "name": "Shamir Chakrabarty",
+      "organisation": "AgeTech Asia / Intellia Holdings Sdn.Bhd",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.4 — VIII. Data Ownership, Access, and Control",
+      "page": "44–45",
+      "lines": "346–360",
+      "raw": "§1.4 — VIII. Data Ownership, Access, and Control p.44–45 l.346–360"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-7d4652",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-cb8583"
+      ],
+      "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Data Ownership, Access and Control principle l.346-360; this is its body starting l.347"
+    },
+    "type": "technical",
+    "text": "The section treats individual agency mainly as direct personal action. In practice, some people exercise agency with support or through an authorised representative, including during temporary illness, disability, cognitive decline or other changes in functional ability. Without a standard delegation model, countries and applications will recreate proxy access inconsistently, increasing privacy, safety and exclusion risks.",
+    "suggestedRevision": "Add after line 370: “While the legal rules governing representation remain matters for national law and policy, the architecture should be capable of representing and enforcing supported and delegated access where permitted by law. It should distinguish assistance provided under the individual’s direction from authority exercised by an authorised representative, and support granular, purpose-limited, time-bound where appropriate, revocable and auditable permissions, including verification of the representative and the source of authority. Countries should also assess whether existing legal and regulatory frameworks adequately support these arrangements and undertake necessary reforms where gaps are identified.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 36"
+      },
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "decide",
+        "by": "review-log",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the log's status was \"Accepted\""
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (high): Cites Data Ownership, Access and Control principle l.346-360; this is its body starting l.347"
+      },
+      {
+        "at": "2026-10-05T15:18:24.978Z",
+        "transition": "incorporate",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_Incorporate",
+        "note": "merged in PR #9"
+      },
+      {
+        "at": "2026-10-07T05:19:31.365Z",
+        "transition": "reopen",
+        "by": "litlfred",
+        "task": "Process_PublicComment#Task_EditorDecides",
+        "note": "the master log's status was imported as a decision (by review-log); it was the log's, not an editor's (owner, 2026-10-07: \"nothing has been decided\"). Back to triaged; the log's status stays in this history."
+      }
+    ]
+  }
+}

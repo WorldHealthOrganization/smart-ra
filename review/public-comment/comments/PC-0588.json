@@ -1,0 +1,83 @@
+{
+  "id": "pc-0588",
+  "summary": "Your original comment 5 read \"REDDHI framework outstanding — our compliments.\" The consolidated row keeps the praise bu…",
+  "comment": "Your original comment 5 read \"REDDHI framework outstanding — our compliments.\" The consolidated row keeps the praise but reframes it as a criticism (\"not given the prominence it deserves\", tables \"need more explanation\") and types it Technical. Only rows 11 and 19 now read as pure compliments.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0588",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 588,
+      "entry": "587",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Row 16 (comment 6)",
+      "page": "Compliment became a criticism",
+      "raw": "§Row 16 (comment 6) p.Compliment became a criticism"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note to the submitter about how a REDDHI compliment was reframed, not about document text."
+    },
+    "text": "Your original comment 5 read \"REDDHI framework outstanding — our compliments.\" The consolidated row keeps the praise but reframes it as a criticism (\"not given the prominence it deserves\", tables \"need more explanation\") and types it Technical. Only rows 11 and 19 now read as pure compliments.",
+    "suggestedRevision": "(a) Restore as a pure compliment, as you originally wrote it; (b) split into two rows — one compliment on REDDHI/STAC, one Technical comment asking for more prominence and explanation; (c) leave as drafted. Please indicate preference.",
+    "labels": {
+      "TWG consideration? AI categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 588"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Drafting note to the submitter about how a REDDHI compliment was reframed, not about document text."
+      }
+    ]
+  }
+}

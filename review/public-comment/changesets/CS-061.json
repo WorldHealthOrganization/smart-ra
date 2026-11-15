@@ -1,0 +1,36 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-061",
+  "title": "Revise the criteria for designating DPI-H components",
+  "requirements": "- Define 'foundational health system functions' more precisely, e.g. with a dependency or irreplaceability test\n- Remove or reword 'non-transactional' so high-volume infrastructural services (consent, registries) are not excluded\n- Reword 'without modification to core design' to allow configuration, content and localisation while the core stays stable\n- Reword the non-transactional requirement so it does not exclude legitimate shared transactional infrastructure\n- Treat recurrence across goals as one criterion among several\n- Express the intended distinction as not owning point-of-service or programme-specific transaction processing\n- Define stability as predictable, versioned evolution of purpose and interfaces\n- Clarify whether public governance is a present or target condition",
+  "refs": [
+    "PC-0375",
+    "PC-0376",
+    "PC-0461",
+    "PC-0462",
+    "PC-0739",
+    "PC-0826",
+    "PC-0933",
+    "PC-0934",
+    "PC-0935",
+    "PC-0936",
+    "PC-0937",
+    "PC-0938",
+    "PC-0939",
+    "PC-0940",
+    "PC-0942",
+    "PC-0944"
+  ],
+  "anchor": "prose:3-5-1-6060c3",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 16 comment(s)"
+    }
+  ]
+}

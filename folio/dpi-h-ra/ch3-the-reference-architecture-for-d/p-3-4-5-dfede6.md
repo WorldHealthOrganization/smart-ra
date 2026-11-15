@@ -1,0 +1,1 @@
+Countries implementing DPI-H should treat SGI not as an optional enhancement to their metadata registries but as foundational for those registries to deliver the semantic consistency that DPI-H depends upon.

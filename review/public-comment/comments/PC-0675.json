@@ -1,0 +1,82 @@
+{
+  "id": "pc-0675",
+  "summary": "Concerns / changes: IHE strongly endorses the overall direction of the guidance and its emphasis on shared foundations,…",
+  "comment": "Concerns / changes: IHE strongly endorses the overall direction of the guidance and its emphasis on shared foundations, interoperability, and testable conformance. Our recommendations are intended to strengthen this foundation and support consistent, sustainable implementation. In particular, an explicit global-core, national-extension approach, supported by reuse of international profiles and testing resources, would help countries put the guidance into practice while reducing duplication.\n\nCore recommendation: Adopt an explicit 'global core, national extension' policy. Countries should first reuse applicable international standards and IHE profiles. When a genuine gap exists, countries and regional bodies should work with the relevant international Standards Development Organizations and established profiling organizations through open, consensus-based processes. National specifications should be limited to transparent extensions or constraints needed for jurisdiction-specific policy and practice, while preserving interoperability with the international core.\n\nPublish and maintain a living DPI-H-to-standards mapping\n\nWHO and ITU should publish a maintained companion mapping from each DPI-H component, actor, service, and interaction to applicable international standards and profiles. For each entry, the mapping should identify the relevant actor or role, transaction or operation, status and version, dependencies, conformance resources, and known gaps. The current draft's detailed use of mCSD and SVCM provides a strong model, but similarly relevant IHE assets should be surfaced for e.g. identity, document exchange, federated access, trust, audit, consent, IPS exchange, and imaging.\n\nOffer of Collaboration\n\nIHE International is ready to collaborate with WHO, ITU, GDHP international SDOs - through the JIC, OpenHIE, countries, and the vendor and clinical communities to make this architecture actionable. IHE can support a detailed mapping of DPI-H components and interactions to existing IHE profiles; route identified gaps through its international domain committees and open public-comment process; advance new or updated specifications through trial implementation; contribute test plans, tools, and reference data; coordinate global and regional Connectathons and exploratory testing events; and help countries develop procurement language grounded in verifiable interoperability requirements.\n\nThis collaboration would reduce duplication, improve the consistency and maintainability of national implementations, strengthen supplier accountability, and accelerate regional and cross-border interoperability. It would also allow investments made in one country to contribute to a reusable global public good.\n\nThe essential message is simple: national adaptation should build on a shared international core, not create a new core for every country. IHE stands ready to help WHO and ITU translate that principle into profiles, testable requirements, and a robust global implementation ecosystem.\n\nSelected References\n\nIHE International: IHE Profiles and Development Lifecycle\nhttps://www.ihe.net/resources/profiles/\n\nIHE General Introduction\nhttps://profiles.ihe.net/GeneralIntro/ch-1.html\n\nIHE Connectathon\nhttps://www.ihe.net/testing/connectathon/\n\nIHE IT Infrastructure Technical Framework and Published Profiles\nhttps://profiles.ihe.net/ITI/\n\nIHE Mobile Care Services Discovery (mCSD)\nhttps://profiles.ihe.net/ITI/mCSD/volume-1.html",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0675",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 675,
+      "entry": "674",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-29da8e40a0",
+      "name": "Aaron Goldmuntz",
+      "organisation": "IHE International",
+      "country": "United States of America",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): General 'global core, national extension' policy recommendation."
+    },
+    "type": "general",
+    "text": "Concerns / changes: IHE strongly endorses the overall direction of the guidance and its emphasis on shared foundations, interoperability, and testable conformance. Our recommendations are intended to strengthen this foundation and support consistent, sustainable implementation. In particular, an explicit global-core, national-extension approach, supported by reuse of international profiles and testing resources, would help countries put the guidance into practice while reducing duplication.\n\nCore recommendation: Adopt an explicit 'global core, national extension' policy. Countries should first reuse applicable international standards and IHE profiles. When a genuine gap exists, countries and regional bodies should work with the relevant international Standards Development Organizations and established profiling organizations through open, consensus-based processes. National specifications should be limited to transparent extensions or constraints needed for jurisdiction-specific policy and practice, while preserving interoperability with the international core.\n\nPublish and maintain a living DPI-H-to-standards mapping\n\nWHO and ITU should publish a maintained companion mapping from each DPI-H component, actor, service, and interaction to applicable international standards and profiles. For each entry, the mapping should identify the relevant actor or role, transaction or operation, status and version, dependencies, conformance resources, and known gaps. The current draft's detailed use of mCSD and SVCM provides a strong model, but similarly relevant IHE assets should be surfaced for e.g. identity, document exchange, federated access, trust, audit, consent, IPS exchange, and imaging.\n\nOffer of Collaboration\n\nIHE International is ready to collaborate with WHO, ITU, GDHP international SDOs - through the JIC, OpenHIE, countries, and the vendor and clinical communities to make this architecture actionable. IHE can support a detailed mapping of DPI-H components and interactions to existing IHE profiles; route identified gaps through its international domain committees and open public-comment process; advance new or updated specifications through trial implementation; contribute test plans, tools, and reference data; coordinate global and regional Connectathons and exploratory testing events; and help countries develop procurement language grounded in verifiable interoperability requirements.\n\nThis collaboration would reduce duplication, improve the consistency and maintainability of national implementations, strengthen supplier accountability, and accelerate regional and cross-border interoperability. It would also allow investments made in one country to contribute to a reusable global public good.\n\nThe essential message is simple: national adaptation should build on a shared international core, not create a new core for every country. IHE stands ready to help WHO and ITU translate that principle into profiles, testable requirements, and a robust global implementation ecosystem.\n\nSelected References\n\nIHE International: IHE Profiles and Development Lifecycle\nhttps://www.ihe.net/resources/profiles/\n\nIHE General Introduction\nhttps://profiles.ihe.net/GeneralIntro/ch-1.html\n\nIHE Connectathon\nhttps://www.ihe.net/testing/connectathon/\n\nIHE IT Infrastructure Technical Framework and Published Profiles\nhttps://profiles.ihe.net/ITI/\n\nIHE Mobile Care Services Discovery (mCSD)\nhttps://profiles.ihe.net/ITI/mCSD/volume-1.html",
+    "labels": {
+      "Stakeholder type": "Standards or interoperability community",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 675"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): General 'global core, national extension' policy recommendation."
+      }
+    ]
+  }
+}

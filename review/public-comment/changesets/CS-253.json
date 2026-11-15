@@ -1,0 +1,26 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-253",
+  "title": "Name the custodian, versioning and change process of the architecture",
+  "requirements": "- State where each artefact is published, its version and maintainer\n- Name a concrete channel for implementation findings\n- Name custodian, versioning scheme and revision cadence; identify the canonical machine-readable home; complete placeholder references and glossary\n- Tie each guidance version to a specific model release with change logs\n- Describe a learning cycle that collects national blueprints and shares lessons\n- Require persistent element identifiers across views and versions\n- Require as-built reconciliation of the model with deployed components",
+  "refs": [
+    "PC-0515",
+    "PC-0526",
+    "PC-0527",
+    "PC-0578",
+    "PC-0854",
+    "PC-0855",
+    "PC-0857"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 7 comment(s)"
+    }
+  ]
+}

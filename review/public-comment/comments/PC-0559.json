@@ -1,0 +1,79 @@
+{
+  "id": "pc-0559",
+  "summary": "Annex D.1 lists two illustrative implementations under Lifelong Health Record: HAPI FHIR Server, \"an open-source, FHIR-…",
+  "comment": "Annex D.1 lists two illustrative implementations under Lifelong Health Record: HAPI FHIR Server, \"an open-source, FHIR-conformant server widely used as a technical foundation for health record repositories\", and EHRbase, \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\". The annex therefore treats both a FHIR server and an openEHR repository as valid technical foundations for the LHR. Figures 3.2 and 3.5, however, both annotate the Lifelong Health Record element as a \"FHIR-based store\", and design principle II at page 32 lines 233–234 names FHIR-based approaches as the direction of travel. The illustrative annex, the figures and the design principle give countries different answers to the same question. Taken with Appendix C page 175 functional requirement 2, which makes openEHR archetypes a required LIMR formalism, the guidance accepts openEHR in three places and omits it from the three places a ministry or a procurement team will actually read.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0559",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 559,
+      "entry": "558",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-ba4e5cebbc",
+      "name": "Katarina Kralj",
+      "organisation": "Ministry of Health",
+      "country": "Slovenia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Annex D.1 — Lifelong Health Record / Figures 3.2 and 3.5 / principle II",
+      "page": "229–230; 48; 66; 32",
+      "lines": "33–37 (p229–230); Figures 3.2 and 3.5; 233–234 (p32)",
+      "caption": "Figure s",
+      "raw": "§Annex D.1 — Lifelong Health Record / Figures 3.2 and 3.5 / principle II p.229–230; 48; 66; 32 l.33–37 (p229–230); Figures 3.2 and 3.5; 233–234 (p32)"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-lifelong-health-record-3ef48b",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.229–230; 48; 66; 32 l.33–37 (p229–230); Figures 3.2 and 3.5; 233–234 (p32) read as the printed page; section D.1 agrees"
+    },
+    "type": "technical",
+    "text": "Annex D.1 lists two illustrative implementations under Lifelong Health Record: HAPI FHIR Server, \"an open-source, FHIR-conformant server widely used as a technical foundation for health record repositories\", and EHRbase, \"an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates\". The annex therefore treats both a FHIR server and an openEHR repository as valid technical foundations for the LHR. Figures 3.2 and 3.5, however, both annotate the Lifelong Health Record element as a \"FHIR-based store\", and design principle II at page 32 lines 233–234 names FHIR-based approaches as the direction of travel. The illustrative annex, the figures and the design principle give countries different answers to the same question. Taken with Appendix C page 175 functional requirement 2, which makes openEHR archetypes a required LIMR formalism, the guidance accepts openEHR in three places and omits it from the three places a ministry or a procurement team will actually read.",
+    "suggestedRevision": "Align them. If Annex D.1 is correct that both a FHIR server and an openEHR clinical data repository are valid foundations for the Lifelong Health Record — and the Ministry’s national experience is that both are — then the annotation in Figures 3.2 and 3.5 should read \"openEHR / FHIR\" rather than \"FHIR-based store\", and principle II should name both. These are small changes and they remove an inconsistency that any reader comparing the figures with the annex will find immediately.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 559"
+      }
+    ]
+  }
+}

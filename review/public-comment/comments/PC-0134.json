@@ -1,0 +1,82 @@
+{
+  "id": "pc-0134",
+  "summary": "correcting the context of sentences for phase 1 steps",
+  "comment": "correcting the context of sentences for phase 1 steps",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:executive-summary-lead-e900bf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0134",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 134,
+      "entry": "133",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5bc62b547e",
+      "name": "Dhaniah binti Abd Salam",
+      "organisation": "Hospital Sungai Buloh",
+      "country": "Malaysia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive summary",
+      "page": "1",
+      "lines": "58",
+      "raw": "§Executive summary p.1 l.58"
+    },
+    "anchor": {
+      "targetLabel": "prose:executive-summary-lead-e900bf",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:executive-summary-lead-01831f",
+        "prose:executive-summary-lead-7df30d",
+        "fig:1"
+      ],
+      "note": "p.1 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "correcting the context of sentences for phase 1 steps",
+    "suggestedRevision": "Conduct an inventory of existing or previously used software applications, ICT systems and other infrastructures to better understand the requirements for reuse and interoperability.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 134"
+      }
+    ]
+  }
+}

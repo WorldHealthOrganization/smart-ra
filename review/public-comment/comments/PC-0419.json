@@ -1,0 +1,85 @@
+{
+  "id": "pc-0419",
+  "summary": "It may be useful for the draft to give more explicit consideration to include emergency care and blood-bank services wi…",
+  "comment": "It may be useful for the draft to give more explicit consideration to include emergency care and blood-bank services within the proposed digital health architecture. Blood bank and transfusion services, as well as emergency medical response, are important areas within digital health (As reflected in WHO's classification of digital health interventions ID: 9789240081949) and could be reflected more clearly across the relevant priority goals and components. For example, the Facility Registry could consider including blood banks and ambulance/EMS stations within its illustrative facility types and services. Similarly, the Public Health Surveillance Platform and Product Registry could consider whether there are relevant use cases for these domains. It may also be worth considering whether emergency response and blood-bank services would benefit from a more explicitly defined business process or component, given their close relationship with several of the capabilities already described in the architecture. Making these linkages more explicit could help ensure that the architecture is sufficiently comprehensive across essential health-service delivery domains.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0419",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 419,
+      "entry": "418",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-34f6a75817",
+      "name": "Mohd Hussain Shaik",
+      "organisation": "Asian Development Bank",
+      "country": "India",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Across the document",
+      "page": "-",
+      "lines": "-",
+      "raw": "§Across the document p.- l.-"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Cross-cutting request to cover emergency care and blood services across goals and components; reviewer cites 'across the document'."
+    },
+    "type": "general",
+    "text": "It may be useful for the draft to give more explicit consideration to include emergency care and blood-bank services within the proposed digital health architecture. Blood bank and transfusion services, as well as emergency medical response, are important areas within digital health (As reflected in WHO's classification of digital health interventions ID: 9789240081949) and could be reflected more clearly across the relevant priority goals and components. For example, the Facility Registry could consider including blood banks and ambulance/EMS stations within its illustrative facility types and services. Similarly, the Public Health Surveillance Platform and Product Registry could consider whether there are relevant use cases for these domains. It may also be worth considering whether emergency response and blood-bank services would benefit from a more explicitly defined business process or component, given their close relationship with several of the capabilities already described in the architecture. Making these linkages more explicit could help ensure that the architecture is sufficiently comprehensive across essential health-service delivery domains.",
+    "suggestedRevision": "Suggested addition to Sec 1.5 (under the relevant priority goal): 'Illustrative examples of essential health services supported by this goal include emergency medical response and blood/transfusion services.' Suggested addition to the Facility Registry's Facility type field (p.131): extend the illustrative list to read '...health centre, dispensary, pharmacy, laboratory, mobile clinic, blood bank, ambulance/EMS station.' Suggested addition to the Type of services offered field (p.132): extend to '...emergency care, ambulance/EMS coordination, blood and transfusion services, ANC, laboratory, HIV treatment, TB, surgery, pharmacy.'",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 419"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Cross-cutting request to cover emergency care and blood services across goals and components; reviewer cites 'across the document'."
+      }
+    ]
+  }
+}

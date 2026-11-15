@@ -1,0 +1,78 @@
+{
+  "id": "pc-2521",
+  "summary": "WHO Coding Tool and Embedded Coding Tool example — Appendix D supplies named SNOMED-oriented and generic servers, but o…",
+  "comment": "WHO Coding Tool and Embedded Coding Tool example — Appendix D supplies named SNOMED-oriented and generic servers, but omits WHO's own relevant services. This is a straightforward, verifiable correction. These tools are not claimed to be a complete national governance platform or an LIMR. API documentation (https://icd.who.int/docs/icd-api/APIDoc-Version2/), local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/), FHIR interface status (https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/).",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:d-1-public-health-surveillance-platf-92708e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2521",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 64,
+      "entry": "63",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Appendix D.1, TS and LIMR tools",
+      "page": "231",
+      "lines": "A24.02",
+      "raw": "§Appendix D.1, TS and LIMR tools p.231 l.A24.02"
+    },
+    "anchor": {
+      "targetLabel": "prose:d-1-public-health-surveillance-platf-92708e",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:d-1-terminology-service-and-logical-ceb1d0",
+        "prose:d-2-australia-0e3861",
+        "prose:d-2-australia-49379a"
+      ],
+      "note": "p.231 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "WHO Coding Tool and Embedded Coding Tool example — Appendix D supplies named SNOMED-oriented and generic servers, but omits WHO's own relevant services. This is a straightforward, verifiable correction. These tools are not claimed to be a complete national governance platform or an LIMR. API documentation (https://icd.who.int/docs/icd-api/APIDoc-Version2/), local deployment (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/), FHIR interface status (https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/), Embedded Coding Tool (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/).",
+    "suggestedRevision": "Insert second WHO tools bullet; retain existing tool entries: • WHO ICD-11 Coding Tool and Embedded Coding Tool — tools supporting selection of ICD-11 concepts and applicable coding detail within clinical applications. An implementation should select the appropriate coding workflow and retain its resulting identifiers and expressions. A simplified search interface should not be represented as providing the full medical-coding workflow.",
+    "labels": {
+      "Comment type": "P1"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 64"
+      }
+    ]
+  }
+}

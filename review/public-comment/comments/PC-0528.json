@@ -1,0 +1,87 @@
+{
+  "id": "pc-0528",
+  "summary": "examples for Benefits Package Registry missing",
+  "comment": "examples for Benefits Package Registry missing",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:d-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0528",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 528,
+      "entry": "527",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f380ebaaac",
+      "name": "Uwe Wahser",
+      "organisation": "Deutsche Gesellschaft für Technische Zusammenarbeit (GIZ) GmbH",
+      "country": "Germany",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix D.1",
+      "page": "229 ff.",
+      "lines": "23 ff.",
+      "raw": "§Appendix D.1 p.229 ff. l.23 ff."
+    },
+    "anchor": {
+      "targetLabel": "sec:d-1",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:c-business-services-components-public-health-surveillance-platf-a0d870"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): D.1 illustrative tools lack a Benefits Package Registry entry (openIMIS)."
+    },
+    "type": "technical",
+    "text": "examples for Benefits Package Registry missing",
+    "suggestedRevision": "add openIMIS \"openIMIS is a digital public good which powers versatile solutions for the management of health financing and social protection programs. Designed to be interoperable with other information systems according to the FHIR standard, openIMIS draws upon and contributes to Digital Public Infrastructure.\" (www.openimis.org)",
+    "labels": {
+      "TWG consideration? AI categorisation": "Financial systems"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 528"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): D.1 illustrative tools lack a Benefits Package Registry entry (openIMIS)."
+      }
+    ]
+  }
+}

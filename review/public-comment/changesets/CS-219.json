@@ -1,0 +1,34 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-219",
+  "title": "Enrich mapped relationships with layer, status and dependencies",
+  "requirements": "- Show for each element whether it is foundational shared data layer, business-services layer, DPI-F dependency, operational application, or cross-cutting governance\n- Indicate whether each relationship is core, supporting, optional, conditional or illustrative\n- Indicate which capabilities must exist before others can be implemented, e.g. via a dependency matrix\n- Distinguish authoritative entity registries from the longitudinal clinical record within the foundational layer\n- Map goals to the specific component services needed rather than whole components where possible\n- Mark capabilities as minimum REDDHI baseline, use-case-dependent, progressive enhancement or advanced target\n- Include the principal operational application categories, kept outside the DPI-H boundary\n- Apply one consistent relationship pattern (goal, outcome, capability, service, component, data object) across all goals",
+  "refs": [
+    "PC-2197",
+    "PC-2198",
+    "PC-2200",
+    "PC-2201",
+    "PC-2204",
+    "PC-2217",
+    "PC-2225",
+    "PC-2308",
+    "PC-2309",
+    "PC-2314",
+    "PC-2320",
+    "PC-2321",
+    "PC-2323",
+    "PC-2324"
+  ],
+  "anchor": "prose:e-434a9b",
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 14 comment(s)"
+    }
+  ]
+}

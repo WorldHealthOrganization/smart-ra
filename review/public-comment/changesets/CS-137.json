@@ -1,0 +1,33 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-137",
+  "title": "Present health identifiers as options relative to foundational ID",
+  "requirements": "- State the required outcome as reliable cross-system identification, achievable by national, federated or multiple linked identifiers\n- Describe how health identity integrates with, or transitions to, foundational ID services, including where health may seed foundational ID\n- Cite the exact WHO source for the three HUID models and say whether they are adapted\n- Define authoritative sources per attribute rather than assuming one foundational system for all demographics\n- Prefer identifiers linked to, not derived from, foundational IDs; address assurance under Model B and propagation under Model C\n- Reconcile 'does not duplicate foundational data' with the minimum demographics the registry must retain\n- Allow provisional identifiers at registration and capture of identifier types only when they exist\n- Base storage of foundational identifiers on legal authority and necessity, not consent alone",
+  "refs": [
+    "PC-0357",
+    "PC-1454",
+    "PC-1466",
+    "PC-1477",
+    "PC-1478",
+    "PC-1479",
+    "PC-1480",
+    "PC-1481",
+    "PC-1482",
+    "PC-1494",
+    "PC-1496",
+    "PC-1527",
+    "PC-1535",
+    "PC-1536"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 14 comment(s)"
+    }
+  ]
+}

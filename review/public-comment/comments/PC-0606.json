@@ -1,0 +1,83 @@
+{
+  "id": "pc-0606",
+  "summary": "Context assumptions: In a care setting, such as Long term Care spanning years across multiple organisations mostly incl…",
+  "comment": "Context assumptions: In a care setting, such as Long term Care spanning years across multiple organisations mostly including care at home, where those organisations are too small/fragmented to understand how to manage their integration suppliers and insufficiently capable on information governance as a core skill (instead emphasising care and clinical skills over digital). Empowering patients through this same architectural semantic model should be covered, especially in the consent management and governance sections.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0606",
+    "source": {
+      "channel": "online-form",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 606,
+      "entry": "605",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-628a8ce3a5",
+      "name": "Geoff Revill",
+      "organisation": "Safe Space One Ltd",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "acknowledge": true
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form context assumptions (long-term care)."
+    },
+    "type": "general",
+    "text": "Context assumptions: In a care setting, such as Long term Care spanning years across multiple organisations mostly including care at home, where those organisations are too small/fragmented to understand how to manage their integration suppliers and insufficiently capable on information governance as a core skill (instead emphasising care and clinical skills over digital). Empowering patients through this same architectural semantic model should be covered, especially in the consent management and governance sections.",
+    "labels": {
+      "Stakeholder type": "Enterprise or solution architect / technical team",
+      "Theme": "Applicability and equity",
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 606"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (high): Online-form context assumptions (long-term care)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pc-2695",
+  "summary": "[Chapter 2, DPI-H Reference Architecture Framework] 2. Refine the Architecture Framework GDHP finds the Resilient Essen…",
+  "comment": "[Chapter 2, DPI-H Reference Architecture Framework] 2. Refine the Architecture Framework GDHP finds the Resilient Essential Data and Digital Health Infrastructure concept particularly valuable and suggests a few refinements to strengthen how it is presented in the guidance. In particular, the guidance could:\n• Add a maturity model or staged assessment framework, so that countries can evaluate their current capability level and track their progress toward REDDHI over time, including how specific capabilities and components evolve across maturity levels.\n• For REDDHI, clarify the notion of a “starting point”: while a country does not need the full REDDHI framework in place to begin, capabilities such as a lifelong health record and data exchange may already represent a significant achievement.\n• Acknowledge that implementing REDDHI across different jurisdictions and health authorities requires substantial change management, extending well beyond technical work to include political and governance efforts.\n• Clarify that the requirement for consistent data structures (information models) applies to how systems exchange data with one another and does not necessarily need to extend to how each system stores its data internally. On the architecture design principles, GDHP welcomes the guidance's emphasis on governance and suggests two further refinements. In particular, the guidance could:\n• Provide greater clarity on accountability and operating models across national, sub-national and regional levels, including decision rights, stewardship responsibilities and cross-sector coordination.\n• Avoid presenting consent as the main or default way of authorising the use of health data. This risks blurring three separate things: the legal basis for using data, people's rights over their own data, and consent as just one possible tool among several. Treating consent as the default could unintentionally get in the way of legitimate healthcare and public-health uses of data. Addressing these points would strengthen REDDHI and the design principles by grounding them more firmly in the practical, governance, and legal complexities.",
+  "createdAt": "2026-10-15T11:14:36.149Z",
+  "targetLabel": "chap:ch2-dpi-h-reference-architecture-fra",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2695",
+    "source": {
+      "channel": "narrative",
+      "batch": "gdhp-letter",
+      "sha256": "3224a0f9c086b1ead974bdd01dcd0e4bef33d27ee095c0dde6f1a01a498ef806",
+      "segment": 3,
+      "receivedAt": "2026-10-15T11:14:36.149Z"
+    },
+    "reviewer": {
+      "id": "r-8eb63f38b6",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2",
+      "raw": "[Chapter 2, DPI-H Reference Architecture Framework] 2. Refine the Architecture Framework GDHP finds the Resilient Essent"
+    },
+    "anchor": {
+      "targetLabel": "chap:ch2-dpi-h-reference-architecture-fra",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [],
+      "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 2: the architecture framework, chapter 2 (REDDHI, design principles)"
+    },
+    "text": "[Chapter 2, DPI-H Reference Architecture Framework] 2. Refine the Architecture Framework GDHP finds the Resilient Essential Data and Digital Health Infrastructure concept particularly valuable and suggests a few refinements to strengthen how it is presented in the guidance. In particular, the guidance could:\n• Add a maturity model or staged assessment framework, so that countries can evaluate their current capability level and track their progress toward REDDHI over time, including how specific capabilities and components evolve across maturity levels.\n• For REDDHI, clarify the notion of a “starting point”: while a country does not need the full REDDHI framework in place to begin, capabilities such as a lifelong health record and data exchange may already represent a significant achievement.\n• Acknowledge that implementing REDDHI across different jurisdictions and health authorities requires substantial change management, extending well beyond technical work to include political and governance efforts.\n• Clarify that the requirement for consistent data structures (information models) applies to how systems exchange data with one another and does not necessarily need to extend to how each system stores its data internally. On the architecture design principles, GDHP welcomes the guidance's emphasis on governance and suggests two further refinements. In particular, the guidance could:\n• Provide greater clarity on accountability and operating models across national, sub-national and regional levels, including decision rights, stewardship responsibilities and cross-sector coordination.\n• Avoid presenting consent as the main or default way of authorising the use of health data. This risks blurring three separate things: the legal basis for using data, people's rights over their own data, and consent as just one possible tool among several. Treating consent as the default could unintentionally get in the way of legitimate healthcare and public-health uses of data. Addressing these points would strengthen REDDHI and the design principles by grounding them more firmly in the practical, governance, and legal complexities.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:36.149Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-letter"
+      },
+      {
+        "at": "2026-10-15T11:15:03.758Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed by a placement agent reading the comment against the text (high): GDHP letter, suggestion 2: the architecture framework, chapter 2 (REDDHI, design principles)"
+      }
+    ]
+  }
+}

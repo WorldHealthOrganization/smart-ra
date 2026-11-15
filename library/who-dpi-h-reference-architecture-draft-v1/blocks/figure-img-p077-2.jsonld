@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p077-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p077-2.png",
+  "pageStart": 77,
+  "pageEnd": 77,
+  "narrative": [
+    {
+      "text": "Figure 3.5 (page 77). 'DPI-H Reference Architecture': the layered view without the goals: point-of-service and functional applications at the top; the government-stewarded DPI-H layer of reusable components and the shared data layer of core registries, REDDHI components starred; the foundational DPI layer at the bottom; and an interoperability column with the information mediator, open standards and integration patterns. At this resolution most of the small text is not legible.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.5 (page 77). « DPI-H Reference Architecture » : la vue en couches sans les objectifs : les applications au point de service et fonctionnelles en haut ; la couche IPN-S des composants réutilisables placés sous la responsabilité de l'État et la couche de données partagée des registres de base, les composants REDDHI étant marqués d'une étoile ; la couche IPN fondamentale en bas ; et une colonne d'interopérabilité avec le médiateur d'information, les normes ouvertes et les modèles d'intégration. À cette résolution, la plupart des petits textes ne sont pas lisibles.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.5 (página 77). «DPI-H Reference Architecture»: la vista por capas sin los objetivos: las aplicaciones en el punto de atención y funcionales arriba; la capa de IPD-S de componentes reutilizables bajo la rectoría del gobierno y la capa de datos compartida de registros básicos, con los componentes REDDHI marcados con una estrella; la capa de IPD fundamental abajo; y una columna de interoperabilidad con el mediador de información, los estándares abiertos y los patrones de integración. A esta resolución, la mayor parte del texto pequeño no es legible.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.5 (الصفحة 77). «DPI-H Reference Architecture»: العرض متعدد الطبقات من دون الأهداف: تطبيقات نقطة تقديم الخدمة والتطبيقات الوظيفية في الأعلى؛ وطبقة البنية التحتية الرقمية العامة للصحة المؤلفة من مكوّنات قابلة لإعادة الاستخدام تشرف عليها الحكومة، وطبقة البيانات المشتركة للسجلات الأساسية، مع تمييز مكوّنات REDDHI بنجمة؛ وطبقة البنية التحتية الرقمية العامة التأسيسية في الأسفل؛ وعمود لقابلية التشغيل البيني يضم وسيط المعلومات والمعايير المفتوحة وأنماط التكامل. ولا يمكن قراءة معظم النص الصغير بهذه الدقة.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.5 (страница 77). «DPI-H Reference Architecture»: многоуровневое представление без целей: вверху приложения в пунктах оказания помощи и функциональные приложения; уровень ЦОИ-З из повторно используемых компонентов под управлением государства и общий уровень данных с базовыми реестрами, где компоненты REDDHI отмечены звёздочкой; внизу базовый уровень ЦОИ; и столбец интероперабельности с информационным посредником, открытыми стандартами и шаблонами интеграции. При таком разрешении большая часть мелкого текста неразборчива.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.5（第 77 页）。“DPI-H Reference Architecture”：不含目标的分层视图：顶部是服务点应用和功能性应用；由政府管理的可复用组件构成的卫生数字公共基础设施层，以及核心登记库构成的共享数据层，其中 REDDHI 组件标有星号；底部是基础数字公共基础设施层；以及一个包含信息中介、开放标准和集成模式的互操作性栏。在此分辨率下，大部分小字无法辨认。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-038",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

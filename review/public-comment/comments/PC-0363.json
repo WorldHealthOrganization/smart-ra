@@ -1,0 +1,80 @@
+{
+  "id": "pc-0363",
+  "summary": "The definition is useful and simple but remains health-agency and asset centred. A DPI should be judged not only by reu…",
+  "comment": "The definition is useful and simple but remains health-agency and asset centred. A DPI should be judged not only by reuse across agency functions, but by whether it creates public value across a health ecosystem that includes people, communities, public and private providers, and subnational actors. The definition also omits the complementarity of assisted and non-digital routes, which are important where digital identity, literacy, connectivity or devices are uneven. This is consistent with the Universal DPI Safeguards Framework: https://www.dpi-safeguards.org/framework",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-1-2-d84c4d",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0363",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 363,
+      "entry": "362",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f53d75fd63",
+      "name": "Brian O'Donnell (on behalf of HISP-UiO)",
+      "organisation": "HISP Centre at University of Oslo",
+      "country": "Norway",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "1.1.2",
+      "page": "9",
+      "lines": "55–61",
+      "raw": "§1.1.2 p.9 l.55–61"
+    },
+    "anchor": {
+      "targetLabel": "prose:1-1-2-d84c4d",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:1-1-2-87ef33"
+      ],
+      "note": "p.9 l.55–61 read as the printed page; section 1.1.2 agrees"
+    },
+    "type": "general",
+    "text": "The definition is useful and simple but remains health-agency and asset centred. A DPI should be judged not only by reuse across agency functions, but by whether it creates public value across a health ecosystem that includes people, communities, public and private providers, and subnational actors. The definition also omits the complementarity of assisted and non-digital routes, which are important where digital identity, literacy, connectivity or devices are uneven. This is consistent with the Universal DPI Safeguards Framework: https://www.dpi-safeguards.org/framework",
+    "suggestedRevision": "Revise the definition to describe DPI-H as an evolving, publicly governed socio-technical infrastructure that enables multiple health and public-health functions across societal actors. DPI-H is complementary to equitable assisted/non-digital access functions. DPI-H should create public value across the network of health stakeholders.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 363"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dpi-h-ra/blocks/prose-how-to-use-this-guidance-lead-ee6add",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:how-to-use-this-guidance-lead-ee6add",
+  "kind": "prose",
+  "text": "p-how-to-use-this-guidance-lead-ee6add.md",
+  "meta": {
+    "source": {
+      "library": "who-dpi-h-reference-architecture-draft-v1",
+      "seq": 25,
+      "page": 15,
+      "printedPage": "4",
+      "method": "unnumbered-page"
+    }
+  },
+  "provenance": "authored"
+}

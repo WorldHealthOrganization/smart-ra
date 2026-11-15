@@ -1,0 +1,79 @@
+{
+  "id": "pc-0179",
+  "summary": "The draft already recognises governed verification before formal action in public-health surveillance and override/acco…",
+  "comment": "The draft already recognises governed verification before formal action in public-health surveillance and override/accountability mechanisms in clinical decision support. Consider articulating a broader principle for consequential automated or rules-based determinations where underlying evidence is incomplete, conflicting, ambiguous or otherwise falls outside normal decision conditions.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0179",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 179,
+      "entry": "178",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-9b5d0aa903",
+      "name": "Yetunde Yusuf",
+      "organisation": "HCOS Technologies, Inc.",
+      "country": "United States",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C — Public Health Surveillance Platform; see also Computable Decision Support Engine",
+      "page": "228; 188",
+      "lines": "PHSP 214–220; CDSE 138–140",
+      "raw": "§Appendix C — Public Health Surveillance Platform; see also Computable Decision Support Engine p.228; 188 l.PHSP 214–220; CDSE 138–140"
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "technical",
+    "text": "The draft already recognises governed verification before formal action in public-health surveillance and override/accountability mechanisms in clinical decision support. Consider articulating a broader principle for consequential automated or rules-based determinations where underlying evidence is incomplete, conflicting, ambiguous or otherwise falls outside normal decision conditions.",
+    "suggestedRevision": "Consider adding: “Where automated or rules-based determinations carry material consequences, countries should define proportionate exception and review mechanisms for situations in which evidence is incomplete, conflicting, ambiguous or otherwise falls outside normal decision conditions. Such mechanisms may include authorised review, reason capture, escalation and auditability, according to national law, policy and risk.”",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 179"
+      }
+    ]
+  }
+}

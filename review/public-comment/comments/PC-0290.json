@@ -1,0 +1,80 @@
+{
+  "id": "pc-0290",
+  "summary": "The guidance states that each component's requirements carry a status on a tiered model (SHALL, SHOULD, MAY) and that t…",
+  "comment": "The guidance states that each component's requirements carry a status on a tiered model (SHALL, SHOULD, MAY) and that the component descriptions are intended for use in planning, procurement and conformance (lines 609-610 and 618). It never defines what those keywords oblige. There is no reference to RFC 2119, RFC 8174 or any equivalent conformance-language convention; the string 'RFC' does not occur in the document, and 'normative' occurs once, in a note on ArchiMate modelling. Two further vocabularies then run alongside the first. Appendix C uses 'Required' and 'Recommended' (the Lifelong Health Record specification on page 161 alone carries nine instances of 'shall', six of 'Required' and one of 'Recommended'), and lines 1036-1044 introduce 'mandatory' and 'optional' as a support qualifier mapped to the IHE required/optional designation. That passage carefully reserves 'required' for one sense and 'mandatory' for another, which shows the drafters were alert to exactly this ambiguity in one place while leaving it open in two others. For the ministries, DPI authorities and procurement teams named as the intended audience, whether 'Required' in Appendix C is advisory or contractual once a country adopts the guidance is a first-order question.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-5-2-2ca2cf",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0290",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 290,
+      "entry": "289",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-8cb137f6be",
+      "name": "Georg Greve",
+      "organisation": "Vereign AG",
+      "country": "Switzerland",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.5.2",
+      "page": "65-66",
+      "lines": "608-620; also pp. 80-81 lines 1036-1044 and Appendix C, Lifelong Health Record (p. 161)",
+      "raw": "§3.5.2 p.65-66 l.608-620; also pp. 80-81 lines 1036-1044 and Appendix C, Lifelong Health Record (p. 161)"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-5-2-2ca2cf",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:3-5-2-16073e"
+      ],
+      "note": "p.65-66 l.608-620; also pp. 80-81 lines 1036-1044 and Appendix C, Lifelong Health Record (p. 161) read as the printed page; section 3.5.2 agrees"
+    },
+    "type": "general",
+    "text": "The guidance states that each component's requirements carry a status on a tiered model (SHALL, SHOULD, MAY) and that the component descriptions are intended for use in planning, procurement and conformance (lines 609-610 and 618). It never defines what those keywords oblige. There is no reference to RFC 2119, RFC 8174 or any equivalent conformance-language convention; the string 'RFC' does not occur in the document, and 'normative' occurs once, in a note on ArchiMate modelling. Two further vocabularies then run alongside the first. Appendix C uses 'Required' and 'Recommended' (the Lifelong Health Record specification on page 161 alone carries nine instances of 'shall', six of 'Required' and one of 'Recommended'), and lines 1036-1044 introduce 'mandatory' and 'optional' as a support qualifier mapped to the IHE required/optional designation. That passage carefully reserves 'required' for one sense and 'mandatory' for another, which shows the drafters were alert to exactly this ambiguity in one place while leaving it open in two others. For the ministries, DPI authorities and procurement teams named as the intended audience, whether 'Required' in Appendix C is advisory or contractual once a country adopts the guidance is a first-order question.",
+    "suggestedRevision": "State the document's normative status explicitly in the front matter, and add a short conformance-language key that defines SHALL, SHOULD and MAY (RFC 2119 as updated by RFC 8174 is the usual reference) and reconciles all three vocabularies: the SHALL/SHOULD/MAY tiers, the Required/Recommended labels in Appendix C, and the mandatory/optional support qualifier. Say plainly whether the requirement tiers are advisory to countries, binding on implementations that claim conformance, or intended as procurement language that countries may adopt by reference.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 290"
+      }
+    ]
+  }
+}

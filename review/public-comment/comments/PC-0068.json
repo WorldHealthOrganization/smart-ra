@@ -1,0 +1,81 @@
+{
+  "id": "pc-0068",
+  "summary": "I both completely agree that this is true and disagree that this should be accepted as a ground truth. Sometimes a blan…",
+  "comment": "I both completely agree that this is true and disagree that this should be accepted as a ground truth. Sometimes a blank slate is necessary to achieve a step change, sometimes simply to allow free thinking so the installed base can be evolved in ways that would not otherwise have been possible.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-1-1-971416",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0068",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 68,
+      "entry": "67",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-739011f6b9",
+      "name": "Basil Bekdash",
+      "organisation": "UK NHS",
+      "country": "United Kingdom (England)",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.1.1",
+      "page": "88",
+      "lines": "13",
+      "raw": "§4.1.1 p.88 l.13"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-1-1-971416",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:4-1-1-237a78"
+      ],
+      "note": "p.88 read as the printed page, no line resolved; in the cited section"
+    },
+    "type": "technical",
+    "text": "I both completely agree that this is true and disagree that this should be accepted as a ground truth. Sometimes a blank slate is necessary to achieve a step change, sometimes simply to allow free thinking so the installed base can be evolved in ways that would not otherwise have been possible.",
+    "suggestedRevision": "I would either explore this contention or remove the implied position that a blank slate approach is \"wrong\"\nI would refer again to parallel development (operational and theoretical) and would also invite the theoretical to be undertaken from the premise (if not the reality) of a blank slate and to do so with the only truly universal patient population who are (from a data perspective) essentially blank slates!\nREDDHI is too pragmatic if a better position the continuing any status quo",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Consider by TWG? Human categorisation": "No"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 68"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pc-2541",
+  "summary": "Sub goals could be articulated as 2.1 Identity and credentials for each health worker established. The credentials shou…",
+  "comment": "Sub goals could be articulated as 2.1 Identity and credentials for each health worker established. The credentials should be linked to any other existing systems such as payroll, licensing, national identifications systems etc2.2 Equitable deployment and distribution enabled.2.3 Reliable and timely remuneration. Payroll systems to be linked and synced with HWF Registry2.4 Continuous competency and development Qualifications, continuing professional development, and licensing status are tracked over a worker's career.2.5 Safety and accountability. Patients, payers, and regulators can trust that a practitioner's registration and licence status is accurate and current — protecting against fraud in payroll, and against patients receiving care from unlicensed or improperly credentialed practitioners.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:1-5-1-252744",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2541",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--HWF-review",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "HWF review",
+      "row": 20,
+      "entry": "19",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-1a248e902c",
+      "organisation": "WHO Health Workforce Dept",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "raw": ""
+    },
+    "anchor": {
+      "targetLabel": "prose:1-5-1-252744",
+      "method": "manual",
+      "confidence": "low",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (low): Proposes sub-goals 2.1-2.5 for the workforce goal; sequence suggests 1.5.1 (could also be Appendix E goal 2)."
+    },
+    "text": "Sub goals could be articulated as 2.1 Identity and credentials for each health worker established. The credentials should be linked to any other existing systems such as payroll, licensing, national identifications systems etc2.2 Equitable deployment and distribution enabled.2.3 Reliable and timely remuneration. Payroll systems to be linked and synced with HWF Registry2.4 Continuous competency and development Qualifications, continuing professional development, and licensing status are tracked over a worker's career.2.5 Safety and accountability. Patients, payers, and regulators can trust that a practitioner's registration and licence status is accurate and current — protecting against fraud in payroll, and against patients receiving care from unlicensed or improperly credentialed practitioners.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--HWF-review row 20"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (low): Proposes sub-goals 2.1-2.5 for the workforce goal; sequence suggests 1.5.1 (could also be Appendix E goal 2)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pc-0502",
+  "summary": "Point-of-service and operational applications are deliberately outside the DPI-H component boundary, and section 4.3.4 …",
+  "comment": "Point-of-service and operational applications are deliberately outside the DPI-H component boundary, and section 4.3.4 correctly states that health should express requirements to foundational DPI rather than duplicate its functions. The guidance does not state the corresponding minimum obligations of the systems and settings that produce data for DPI-H. The current conformance model therefore tests component services and interfaces more clearly than the provenance and capture conditions of the data supplied to them.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-1-2-a219ab",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0502",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 502,
+      "entry": "501",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d097920653",
+      "name": "Brian de Francesca",
+      "organisation": "Intelligent by Design (IBD)",
+      "country": "United Arab Emirates / MENA",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.1 / 2.3 (Principle I) / 3.7.2 / 4.3.4",
+      "page": "25, 31, 80 and 97",
+      "lines": "Lines 33-42, 205-215, 1009-1012 and 363-368",
+      "raw": "§2.1 / 2.3 (Principle I) / 3.7.2 / 4.3.4 p.25, 31, 80 and 97 l.Lines 33-42, 205-215, 1009-1012 and 363-368"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-1-2-a219ab",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-1-4a32c0"
+      ],
+      "note": "p.25, 31, 80 and 97 l.Lines 33-42, 205-215, 1009-1012 and 363-368 read as the printed page; section 2.1 agrees"
+    },
+    "type": "technical",
+    "text": "Point-of-service and operational applications are deliberately outside the DPI-H component boundary, and section 4.3.4 correctly states that health should express requirements to foundational DPI rather than duplicate its functions. The guidance does not state the corresponding minimum obligations of the systems and settings that produce data for DPI-H. The current conformance model therefore tests component services and interfaces more clearly than the provenance and capture conditions of the data supplied to them.",
+    "suggestedRevision": "Add a short boundary-contract subsection for data-producing and consuming systems. For each mandatory element, require alignment to the governed logical information model, attribution to an identifiable human or system actor, a defined capture or derivation point, and an accountable role. State that component conformance covers the exposed interface, while source-data conformance covers these defined producer obligations, without prescribing the internal application used by the setting.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 502"
+      }
+    ]
+  }
+}

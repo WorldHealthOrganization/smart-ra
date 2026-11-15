@@ -1,0 +1,78 @@
+{
+  "id": "pc-2474",
+  "summary": "WHO maintenance and proposals — The current paragraph describes HL7 and SNOMED governance, but gives no corresponding W…",
+  "comment": "WHO maintenance and proposals — The current paragraph describes HL7 and SNOMED governance, but gives no corresponding WHO route. Evidence: WHO interoperability hub (https://www.who.int/standards/classifications/who-fic-interoperability-hub), ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4 and maintenance material.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-4-5-40a756",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2474",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--CAT-WHO-FIC",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "CAT (WHO-FIC)",
+      "row": 17,
+      "entry": "16",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f730db994b",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "§3.4.5, Global, national and local content",
+      "page": "61",
+      "lines": "A05.01",
+      "raw": "§§3.4.5, Global, national and local content p.61 l.A05.01"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-4-5-40a756",
+      "method": "page",
+      "confidence": "medium",
+      "candidates": [
+        "prose:3-4-5-e9612c",
+        "prose:3-4-5-a69d55",
+        "fig:3-4-5-629e26"
+      ],
+      "note": "p.61 read as the printed page, no line resolved; in the cited section"
+    },
+    "text": "WHO maintenance and proposals — The current paragraph describes HL7 and SNOMED governance, but gives no corresponding WHO route. Evidence: WHO interoperability hub (https://www.who.int/standards/classifications/who-fic-interoperability-hub), ICD-11 Reference Guide (https://icdcdn.who.int/icd11referenceguide/en/refguide.pdf), §1.6.4 and maintenance material.",
+    "suggestedRevision": "Insert paragraph: WHO-FIC provides a further international governance route. For ICD-11, national implementers should use the WHO maintenance and proposal processes to request changes to international content, distinguish proposals from approved releases, and govern adoption of each published release. National deployment should preserve WHO identifiers and meaning while recording locally governed value sets, annotations, and implementation rules separately. Governance should include classification and clinical coding expertise as well as terminology and information-model expertise.",
+    "labels": {
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--CAT-WHO-FIC row 17"
+      }
+    ]
+  }
+}

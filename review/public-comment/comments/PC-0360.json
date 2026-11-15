@@ -1,0 +1,75 @@
+{
+  "id": "pc-0360",
+  "summary": "The registry should hold only the \"minimum sufficient set to unambiguously identify a product\", but the data element ta…",
+  "comment": "The registry should hold only the \"minimum sufficient set to unambiguously identify a product\", but the data element table makes attributes like volumetrics, storage requirements, and shelf life mandatory, though they aren't necessary to identify a product (e.g., volumetrics is even stated to be for transport and storage capacity planning.)",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-0298f8",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0360",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 360,
+      "entry": "359",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Appendix C",
+      "page": "150",
+      "raw": "§Appendix C p.150"
+    },
+    "anchor": {
+      "targetLabel": "prose:c-metadata-registries-and-foundati-product-registry-0298f8",
+      "method": "quote",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "quotation found in the text"
+    },
+    "text": "The registry should hold only the \"minimum sufficient set to unambiguously identify a product\", but the data element table makes attributes like volumetrics, storage requirements, and shelf life mandatory, though they aren't necessary to identify a product (e.g., volumetrics is even stated to be for transport and storage capacity planning.)",
+    "suggestedRevision": "State the criteria for what counts as foundational data, and re-check each data element against it. Elements for supply chain management only should not be in a cross-sectoral registry.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Supply chain"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 360"
+      }
+    ]
+  }
+}

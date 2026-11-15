@@ -1,0 +1,79 @@
+{
+  "id": "pc-0726",
+  "summary": "Clarifying the Distinct and Complementary Roles of Core Terminology Standards The DPI-H draft correctly identifies SNOM…",
+  "comment": "Clarifying the Distinct and Complementary Roles of Core Terminology Standards The DPI-H draft correctly identifies SNOMED CT, ICD-11, and LOINC as open terminology standards forming the semantic foundation of the Terminology Service component. We welcome this recognition. However, the current text, in particular Section 3.4.5 and the REDDHI Open Standards list, groups these standards as equivalent alternatives without articulating their distinct clinical domains and governance structures. This framing may lead countries to conclude that implementing one standard fulfills the requirement for all, which would produce functionally incomplete national Terminology Services. We recommend the framework include a brief characterisation of each standard's primary clinical scope: ● SNOMED CT provides comprehensive clinical concept coverage: diagnoses, findings, procedures, body structures, substances, and more, enabling semantic interoperability across all domains of clinical care. It is maintained by SNOMED International, an independent not-for-profit standards development organisation operating under a national member model. ● ICD-11, maintained by WHO, is the international standard for mortality and morbidity statistics, disease classification, and reimbursement coding. It is a WHO product and is already mandated in many WHO Member States. ● LOINC, stewarded by the Regenstrief Institute, is the global standard for representing health observations, measurements, survey instruments and documents. Regenstrief Institute is a local, national and global leader dedicated to a world where better information empowers people to end disease and realize true health. ● UCUM stewarded by the Regenstrief Institute is the code system intended to include all units of measures being contemporarily used in international science, engineering, and business. ● HL7 FHIR® (Fast Healthcare Interoperability Resources), published by HL7 International, is the prevailing API-based standard for health data exchange. It provides the technical architecture through which terminology standards are bound to clinical systems, including the FHIR Terminology Service specification referenced in DPI-H Section 3.4.5. We recommend Section 3.4.5 include a brief table or text passage illustrating how these standards operate together within a national Terminology Service deployment, rather than listing them as interchangeable alternatives. 2.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:2-2-2-2c4d7e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0726",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 726,
+      "entry": "725",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-d37df1fa79",
+      "organisation": "SNOMED International; Regenstrief Institute; HL7 International",
+      "country": "International"
+    },
+    "citation": {
+      "lines": "Area 1",
+      "raw": "l.Area 1"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-2-2-2c4d7e",
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites REDDHI Open Standards list grouping ICD, LOINC, SNOMED CT; this bullet."
+    },
+    "text": "Clarifying the Distinct and Complementary Roles of Core Terminology Standards The DPI-H draft correctly identifies SNOMED CT, ICD-11, and LOINC as open terminology standards forming the semantic foundation of the Terminology Service component. We welcome this recognition. However, the current text, in particular Section 3.4.5 and the REDDHI Open Standards list, groups these standards as equivalent alternatives without articulating their distinct clinical domains and governance structures. This framing may lead countries to conclude that implementing one standard fulfills the requirement for all, which would produce functionally incomplete national Terminology Services. We recommend the framework include a brief characterisation of each standard's primary clinical scope: ● SNOMED CT provides comprehensive clinical concept coverage: diagnoses, findings, procedures, body structures, substances, and more, enabling semantic interoperability across all domains of clinical care. It is maintained by SNOMED International, an independent not-for-profit standards development organisation operating under a national member model. ● ICD-11, maintained by WHO, is the international standard for mortality and morbidity statistics, disease classification, and reimbursement coding. It is a WHO product and is already mandated in many WHO Member States. ● LOINC, stewarded by the Regenstrief Institute, is the global standard for representing health observations, measurements, survey instruments and documents. Regenstrief Institute is a local, national and global leader dedicated to a world where better information empowers people to end disease and realize true health. ● UCUM stewarded by the Regenstrief Institute is the code system intended to include all units of measures being contemporarily used in international science, engineering, and business. ● HL7 FHIR® (Fast Healthcare Interoperability Resources), published by HL7 International, is the prevailing API-based standard for health data exchange. It provides the technical architecture through which terminology standards are bound to clinical systems, including the FHIR Terminology Service specification referenced in DPI-H Section 3.4.5. We recommend Section 3.4.5 include a brief table or text passage illustrating how these standards operate together within a national Terminology Service deployment, rather than listing them as interchangeable alternatives. 2.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Metadata registries"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 726"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the block, by a placement agent reading the comment against the text (medium): Cites REDDHI Open Standards list grouping ICD, LOINC, SNOMED CT; this bullet."
+      }
+    ]
+  }
+}

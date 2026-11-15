@@ -1,0 +1,77 @@
+{
+  "id": "pc-0352",
+  "summary": "Intermittent connectivity is acknowledged in 2.3 VII and 3.6.3, but is not translated into explicit architectural requi…",
+  "comment": "Intermittent connectivity is acknowledged in 2.3 VII and 3.6.3, but is not translated into explicit architectural requirements. The draft should address key offline-first considerations, including local caching, offline client matching and reconciliation, conflict/duplicate handling, and provenance for records created while disconnected. Box 1.2 identifies probabilistic matching but does not address the more challenging offline scenario.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:3-6-3-61768e",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0352",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 352,
+      "entry": "351",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "section 3.6.3",
+      "page": "75",
+      "lines": "889-895",
+      "raw": "§section 3.6.3 p.75 l.889-895"
+    },
+    "anchor": {
+      "targetLabel": "prose:3-6-3-61768e",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.75 l.889-895 read as the printed page; section 3.6.3 agrees"
+    },
+    "type": "technical",
+    "text": "Intermittent connectivity is acknowledged in 2.3 VII and 3.6.3, but is not translated into explicit architectural requirements. The draft should address key offline-first considerations, including local caching, offline client matching and reconciliation, conflict/duplicate handling, and provenance for records created while disconnected. Box 1.2 identifies probabilistic matching but does not address the more challenging offline scenario.",
+    "suggestedRevision": "Add a short subsection (e.g., 3.6.6, “Operating with Intermittent Connectivity”) outlining the requirements for shared components: value-set caching and versioning in the Terminology Service, deferred matching and reconciliation in the Client Registry, and deferred writes and conflict resolution in the Lifelong Health Record. Cross-reference this subsection from the equity and inclusion principle",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 352"
+      }
+    ]
+  }
+}

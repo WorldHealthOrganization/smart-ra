@@ -1,0 +1,76 @@
+{
+  "id": "pc-0327",
+  "summary": "Countries are unlikely to achieve their health goals through investing in isolated or siloed health 3 systems. Instead,…",
+  "comment": "Countries are unlikely to achieve their health goals through investing in isolated or siloed health 3 systems. Instead, they should build shared data and digital capabilities that support multiple 4 programmes, multiple diseases and multiple levels of care.” \n\nThey should also multiple locations of care",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:executive-summary-lead",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0327",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 327,
+      "entry": "326",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b4310d8680",
+      "name": "Filippa Pretty",
+      "organisation": "Australian Collaborating Centre for WHO-FIC",
+      "country": "Australia",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Executive summary",
+      "lines": "2",
+      "raw": "§Executive summary l.2"
+    },
+    "anchor": {
+      "targetLabel": "sec:executive-summary-lead",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section named \"Executive Summary\""
+    },
+    "type": "editorial",
+    "text": "Countries are unlikely to achieve their health goals through investing in isolated or siloed health 3 systems. Instead, they should build shared data and digital capabilities that support multiple 4 programmes, multiple diseases and multiple levels of care.” \n\nThey should also multiple locations of care",
+    "labels": {
+      "TWG consideration? AI categorisation": "Editorial"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 327"
+      }
+    ]
+  }
+}

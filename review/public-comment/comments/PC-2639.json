@@ -1,0 +1,74 @@
+{
+  "id": "pc-2639",
+  "summary": "The table appears to be incomplete and should include all element types used in the DPI-H reference architecture and th…",
+  "comment": "The table appears to be incomplete and should include all element types used in the DPI-H reference architecture and their corresponding representations.",
+  "createdAt": "2026-10-15T11:14:35.329Z",
+  "targetLabel": "tbl:3-1",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2639",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "gdhp-comment-matrix",
+      "sha256": "1f4c34624b12836b752c3d5566cfeb9d9f316f5f252d1f6ff4a71ac1d3136731",
+      "row": 17,
+      "entry": "7",
+      "receivedAt": "2026-10-15T11:14:35.329Z"
+    },
+    "reviewer": {
+      "id": "r-c12db5b41e",
+      "name": "GDHP Members (compiled by GDHP Secretariat)",
+      "organisation": "Global Digital Health Partnership (GDHP)",
+      "country": "Global",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3.1 The architecture description approach",
+      "page": "43",
+      "lines": "Table 3.1",
+      "caption": "Table 3.1",
+      "raw": "§3.1 The architecture description approach p.43 l.Table 3.1"
+    },
+    "anchor": {
+      "targetLabel": "tbl:3-1",
+      "method": "caption",
+      "confidence": "high",
+      "candidates": [],
+      "note": "Table 3.1 as cited"
+    },
+    "type": "technical",
+    "text": "The table appears to be incomplete and should include all element types used in the DPI-H reference architecture and their corresponding representations.",
+    "suggestedRevision": "Add the following elements: Application Function, Application Interaction, Application Interface, Business Role, Business Process, and Grouping element types",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.329Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "gdhp-comment-matrix row 17"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-163",
+  "title": "Define Product Registry scope and content boundary",
+  "requirements": "- State criteria for foundational data (authority, stability, reuse, identification)\n- Define 'product' up front and state whether medical equipment is in scope\n- Align the registry/catalogue boundary across placement, requirements, data table and comparison table\n- Reassess storage, shelf-life, volumetric and clinical attributes against them\n- Use a common identity core with class-specific extensions\n- Replace the stable-versus-dynamic binary with update frequency and governance authority\n- Keep batch, serial, shipment and custody events in operational systems\n- Separate meanings of 'recognised for use' into distinct statuses",
+  "refs": [
+    "PC-0358",
+    "PC-0359",
+    "PC-0360",
+    "PC-0362",
+    "PC-1736",
+    "PC-1739",
+    "PC-1740",
+    "PC-1741",
+    "PC-1743",
+    "PC-1744",
+    "PC-1760",
+    "PC-1762",
+    "PC-1765",
+    "PC-1769",
+    "PC-1811",
+    "PC-1812",
+    "PC-1813",
+    "PC-1815"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 18 comment(s)"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pc-0078",
+  "summary": "The four entry points are a useful diagnostic, but small states often fall under entry points 1 and 2 at the same time:…",
+  "comment": "The four entry points are a useful diagnostic, but small states often fall under entry points 1 and 2 at the same time: limited national governance and foundational DPI, alongside several donor-funded, programme-specific systems already in operation. The text presents the entry points as alternatives and does not explain how to sequence the work when more than one applies.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "prose:4-2-1-f13e61",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0078",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 78,
+      "entry": "77",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-4bee31f73c",
+      "name": "Utica Alves",
+      "organisation": "CARICOM Secretariat",
+      "country": "Caribbean Community (CARICOM) — Guyana",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "4.2.1",
+      "page": "89–90",
+      "lines": "63–101",
+      "raw": "§4.2.1 p.89–90 l.63–101"
+    },
+    "anchor": {
+      "targetLabel": "prose:4-2-1-f13e61",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [
+        "prose:4-2-1-0863d3",
+        "prose:4-2-1-39b7e0"
+      ],
+      "note": "p.89–90 l.63–101 read as the printed page; section 4.2.1 agrees"
+    },
+    "type": "general",
+    "text": "The four entry points are a useful diagnostic, but small states often fall under entry points 1 and 2 at the same time: limited national governance and foundational DPI, alongside several donor-funded, programme-specific systems already in operation. The text presents the entry points as alternatives and does not explain how to sequence the work when more than one applies.",
+    "suggestedRevision": "Add a sentence noting that a country can fall under more than one entry point at the same time. Explain how to sequence the work in that case; for example, establishing architectural standards and governance under entry point 1 before starting the integration work described under entry point 2.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 78"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "pc-0349",
+  "summary": "The examples are useful for explaining the architecture, but they largely demonstrate the architecture through health-s…",
+  "comment": "The examples are useful for explaining the architecture, but they largely demonstrate the architecture through health-system/clinical goals. A more operational example could help bridge the gap between the reference model and implementation.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0349",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 349,
+      "entry": "348",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-f58b760bd4",
+      "name": "Lakshmi Balachandran, Obaroene Ogidiagba, Boluwatito Adeyemi, Sameen Babur, Srikant Mohan, Lauren Theis",
+      "organisation": "Clinton Health Access Initiative",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "Section 3.3",
+      "page": "48-52",
+      "lines": "152-193",
+      "raw": "§Section 3.3 p.48-52 l.152-193"
+    },
+    "anchor": {
+      "targetLabel": "sec:3-3",
+      "method": "manual",
+      "confidence": "high",
+      "candidates": [
+        "prose:2-3-4813b9"
+      ],
+      "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.3 lines 152-193, the worked examples as a whole; asks for an additional operational example."
+    },
+    "type": "technical",
+    "text": "The examples are useful for explaining the architecture, but they largely demonstrate the architecture through health-system/clinical goals. A more operational example could help bridge the gap between the reference model and implementation.",
+    "suggestedRevision": "Consider adding one or more example based on an operational public health intervention, alongside the existing examples, to demonstrate how the architecture supports time-bound, population-level activities.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 349"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "placed on the section, by a placement agent reading the comment against the text (high): Cites §3.3 lines 152-193, the worked examples as a whole; asks for an additional operational example."
+      }
+    ]
+  }
+}

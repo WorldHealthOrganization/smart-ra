@@ -1,0 +1,84 @@
+{
+  "id": "pc-0575",
+  "summary": "Existing frameworks on aspects of digital health already operate in various areas of the world, but the document does n…",
+  "comment": "Existing frameworks on aspects of digital health already operate in various areas of the world, but the document does not articulate how DPI-H aligns with the European regulatory environment, particularly the GDPR and the European Health Data Space (EHDS), where consent, data minimisation and cross-border interoperability are legally defined.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": null,
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0575",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 575,
+      "entry": "574",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-b6196052f8",
+      "name": "Peter van de Kerkhof",
+      "organisation": "Interational Psoriasis Council",
+      "country": "Worldwide",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "3",
+      "page": "119–121",
+      "raw": "§3 p.119–121"
+    },
+    "anchor": {
+      "targetLabel": null,
+      "method": "manual",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "about the whole document, by a placement agent reading the comment against the text (medium): Requests GDPR/EHDS alignment generally; cited pages (119-121, App. C) do not match the subject."
+    },
+    "type": "technical",
+    "text": "Existing frameworks on aspects of digital health already operate in various areas of the world, but the document does not articulate how DPI-H aligns with the European regulatory environment, particularly the GDPR and the European Health Data Space (EHDS), where consent, data minimisation and cross-border interoperability are legally defined.",
+    "suggestedRevision": "Add explicit reference to GDPR and the European Health Data Space (EHDS) and explain how DPI-H aligns with them, to support implementation in EU Member States.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 575"
+      },
+      {
+        "at": "2026-10-05T10:32:41.778Z",
+        "transition": "reassign",
+        "by": "placement-agent",
+        "task": "Process_PublicComment#Task_Triage",
+        "note": "about the whole document, by a placement agent reading the comment against the text (medium): Requests GDPR/EHDS alignment generally; cited pages (119-121, App. C) do not match the subject."
+      }
+    ]
+  }
+}

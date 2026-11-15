@@ -1,0 +1,74 @@
+{
+  "id": "pc-0750",
+  "summary": "We support FHIR for records, summaries, and the LHR. Coordinating between autonomous systems is a network problem — dis…",
+  "comment": "We support FHIR for records, summaries, and the LHR. Coordinating between autonomous systems is a network problem — discovery, capability catalog, multi-party contract with state — for which network protocols can fit better than record-exchange standards. And \"open-standards compliance\" should not be read as \"FHIR\" (other open standards exist). We recommend framing interoperability as protocol-appropriate-to-function.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:4-3-3",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0750",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 750,
+      "entry": "749",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-5356a7426a",
+      "organisation": "CoWEAVE - Medtronic LABS; eGov Foundation; Open Healthcare Network Foundation",
+      "country": "International"
+    },
+    "citation": {
+      "section": "§4.3.3 FHIR (p.96); §3.6, §2.3 Open Standards (p.71–77, 32)",
+      "lines": "C11",
+      "raw": "§§4.3.3 FHIR (p.96); §3.6, §2.3 Open Standards (p.71–77, 32) l.C11"
+    },
+    "anchor": {
+      "targetLabel": "sec:4-3-3",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section 4.3.3 only"
+    },
+    "text": "We support FHIR for records, summaries, and the LHR. Coordinating between autonomous systems is a network problem — discovery, capability catalog, multi-party contract with state — for which network protocols can fit better than record-exchange standards. And \"open-standards compliance\" should not be read as \"FHIR\" (other open standards exist). We recommend framing interoperability as protocol-appropriate-to-function.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects",
+      "Comment type": "P2"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 750"
+      }
+    ]
+  }
+}

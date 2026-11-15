@@ -1,0 +1,34 @@
+{
+  "$schema": "changeset/1.0.0",
+  "id": "CS-264",
+  "title": "Treat the clinical-data persistence layer and openEHR explicitly",
+  "requirements": "- Add a subsection to 3.6 on the persistence layer and what a country decides when choosing how clinical data are held\n- Extend the open-standards condition to name a formalism for structured clinical information models (e.g. openEHR, ISO/TC 215 standards), citing supporting evidence\n- Add openEHR archetypes/templates to the structure element in Figures 3.2 and 3.5\n- Publish a standards architecture with roles and versions per exchange pattern\n- Recommend openEHR archetypes/templates, with ISO 13606 as equivalent, as FHIR is recommended for services\n- Require traceability and governed transformations between FHIR profiles and openEHR artefacts\n- Replace 'FHIR-based store' in Figures 3.2 and 3.5 with wording consistent with the technology-neutral stance\n- Align the Lifelong Health Record description with Annex D.1's acceptance of both FHIR servers and openEHR repositories",
+  "refs": [
+    "PC-0445",
+    "PC-0535",
+    "PC-0536",
+    "PC-0537",
+    "PC-0541",
+    "PC-0544",
+    "PC-0545",
+    "PC-0546",
+    "PC-0547",
+    "PC-0559",
+    "PC-0561",
+    "PC-0804",
+    "PC-1880",
+    "PC-1881",
+    "PC-1882"
+  ],
+  "status": "proposed",
+  "issues": [],
+  "proposedBy": "claude-agent",
+  "proposedAt": "2026-10-05T14:39:26.609Z",
+  "history": [
+    {
+      "at": "2026-10-05T14:39:26.609Z",
+      "by": "claude-agent",
+      "what": "proposed with 15 comment(s)"
+    }
+  ]
+}

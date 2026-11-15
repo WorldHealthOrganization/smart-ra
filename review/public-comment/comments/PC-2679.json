@@ -1,0 +1,73 @@
+{
+  "id": "pc-2679",
+  "summary": "'Degrade gracefully rather than exclude' is asserted as a structural property but is nowhere testable: no component pro…",
+  "comment": "'Degrade gracefully rather than exclude' is asserted as a structural property but is nowhere testable: no component profile states what its degraded-mode behaviour is, and the conformance section (4.3.5) does not test for it. An untestable equity principle will be designed out in implementation, and the settings least well served — the draft's own phrase — will be excluded by conformance requirements rather than by intent.",
+  "createdAt": "2026-10-15T11:14:35.826Z",
+  "targetLabel": "prose:2-3-cb8583",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "high",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-2679",
+    "source": {
+      "channel": "comment-matrix",
+      "batch": "up-manila-comment-matrix",
+      "sha256": "f3eea8214fa9ba6751db62e4840cbd1f53585a77225416b9f5b0534a84f5eb46",
+      "row": 24,
+      "entry": "14",
+      "receivedAt": "2026-10-15T11:14:35.826Z"
+    },
+    "reviewer": {
+      "id": "r-26859a3f5e",
+      "name": "Digital Health Committee",
+      "organisation": "University of the Philippines Manila",
+      "country": "The Philippines",
+      "acknowledge": true
+    },
+    "citation": {
+      "section": "2.3 (Principle VII)",
+      "page": "33–34",
+      "lines": "325–345",
+      "raw": "§2.3 (Principle VII) p.33–34 l.325–345"
+    },
+    "anchor": {
+      "targetLabel": "prose:2-3-cb8583",
+      "method": "page-line",
+      "confidence": "high",
+      "candidates": [],
+      "note": "p.33–34 l.325–345 read as the printed page; section 2.3 agrees"
+    },
+    "type": "technical",
+    "text": "'Degrade gracefully rather than exclude' is asserted as a structural property but is nowhere testable: no component profile states what its degraded-mode behaviour is, and the conformance section (4.3.5) does not test for it. An untestable equity principle will be designed out in implementation, and the settings least well served — the draft's own phrase — will be excluded by conformance requirements rather than by intent.",
+    "suggestedRevision": "Require each component profile to declare degraded-mode behaviour (what functions persist under intermittent connectivity, absent national ID, or partial registry coverage) and include degraded-mode operation in the conformance and testing framework of 4.3.5.",
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-15T11:14:35.826Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "up-manila-comment-matrix row 24"
+      }
+    ]
+  }
+}

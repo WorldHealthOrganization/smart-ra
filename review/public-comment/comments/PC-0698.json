@@ -1,0 +1,73 @@
+{
+  "id": "pc-0698",
+  "summary": "Translating rights-based principles into enforceable safeguards. The commitment to inclusive registration needs to be r…",
+  "comment": "Translating rights-based principles into enforceable safeguards. The commitment to inclusive registration needs to be reconciled with the Client Registry’s designation of address, contact information and mother’s/guardian’s name as mandatory, so that missing information cannot become a barrier to registration or care. The guidance can specify assisted and non-digital access routes, accessible explanations of adverse eligibility decisions, and timely human review and appeal mechanisms. For children, it can also address evolving capacities, adolescent confidentiality and appropriate limits on parental or guardian access to lifelong records.",
+  "createdAt": "2026-10-05T10:22:19.026Z",
+  "targetLabel": "sec:c",
+  "tags": {
+    "roles": [
+      "feedback-provider"
+    ],
+    "processes": [
+      "Process_PublicComment"
+    ],
+    "tasks": [
+      {
+        "process": "Process_PublicComment",
+        "task": "Task_Ingest"
+      }
+    ],
+    "identities": [],
+    "references": [],
+    "artefacts": []
+  },
+  "status": "received",
+  "priority": "medium",
+  "origin": "human",
+  "$schema": "public-comment/1.0.0",
+  "public": {
+    "ref": "PC-0698",
+    "source": {
+      "channel": "narrative",
+      "batch": "dpi-h-master-log--Master-log",
+      "sha256": "1b9bbe685b0d23e87e61a95caea94ccf592b71ff16961d7261d2a8d2f61442b1",
+      "sheet": "Master log",
+      "row": 698,
+      "entry": "697",
+      "series": "dpi-h-master-log",
+      "receivedAt": "2026-10-05T10:22:19.026Z"
+    },
+    "reviewer": {
+      "id": "r-05dd5656ac",
+      "organisation": "UNICEF",
+      "country": "(not stated)"
+    },
+    "citation": {
+      "section": "Section 2.3; Appendix C, Client Registry and Lifelong Health Record.",
+      "raw": "§Section 2.3; Appendix C, Client Registry and Lifelong Health Record."
+    },
+    "anchor": {
+      "targetLabel": "sec:c",
+      "method": "section",
+      "confidence": "medium",
+      "candidates": [],
+      "note": "section C only"
+    },
+    "type": "general",
+    "text": "Translating rights-based principles into enforceable safeguards. The commitment to inclusive registration needs to be reconciled with the Client Registry’s designation of address, contact information and mother’s/guardian’s name as mandatory, so that missing information cannot become a barrier to registration or care. The guidance can specify assisted and non-digital access routes, accessible explanations of adverse eligibility decisions, and timely human review and appeal mechanisms. For children, it can also address evolving capacities, adolescent confidentiality and appropriate limits on parental or guardian access to lifelong records.",
+    "labels": {
+      "TWG consideration? AI categorisation": "Core architects"
+    },
+    "assignees": [],
+    "recommendations": [],
+    "history": [
+      {
+        "at": "2026-10-05T10:22:19.026Z",
+        "transition": "ingest",
+        "by": "intake",
+        "task": "Process_PublicComment#Task_Ingest",
+        "note": "dpi-h-master-log--Master-log row 698"
+      }
+    ]
+  }
+}
