@@ -81,12 +81,12 @@ export default chapter({
           blocks: ["p-4-3-4-83c937", "p-4-3-4-50e900", "p-4-3-4-fb4f87", "p-4-3-4-008180"],
         }),
         section({
-          title: "4.3.4 Interoperability Implementation Pathways",
+          title: "4.3.5 Interoperability Implementation Pathways",
           label: "sec:4-3-4-2",
           blocks: ["p-4-3-4-2-f99f89", "p-4-3-4-2-3ae952", "p-4-3-4-2-18dac0", "p-4-3-4-2-7e2279"],
         }),
         section({
-          title: "4.3.5 Minimum Conformance and Testing",
+          title: "4.3.6 Minimum Conformance and Testing",
           label: "sec:4-3-5",
           blocks: ["p-4-3-5-92909d"],
         }),

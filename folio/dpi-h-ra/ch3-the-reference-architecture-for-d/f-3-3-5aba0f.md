@@ -1,1 +1,1 @@
-![Figure](media/image20.png)
+![Figure](media/fig-3-4.svg)
