@@ -2,5 +2,5 @@
 - Section 3.2 explains how to read and navigate the reference architecture, which is maintained as a living model rather than a fixed picture.
 - Section 3.3 illustrates the approach through worked examples for some health goals.
 - Section 3.4 sets out the governance arrangements that surround the architecture.
-- Section 3.5 introduces the DPI-H application components, whose full descriptions are provided in appendix C.
-- Section 3.6 describes the interoperability architecture within DPI-H, through which these components work together as a coherent ecosystem
+- Section 3.5 introduces the [DPI-H](../folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--health-digital-public-infrastructure) [application components](../folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--application-component), whose full descriptions are provided in appendix C.
+- Section 3.6 describes the [interoperability](../folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--interoperability) architecture within DPI-H, through which these components work together as a coherent ecosystem
