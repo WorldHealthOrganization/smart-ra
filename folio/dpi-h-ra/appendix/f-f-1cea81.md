@@ -1,1 +1,1 @@
-![Figure](media/image30.png)
+![Figure](media/fig-a-1-semantic-governance.svg)

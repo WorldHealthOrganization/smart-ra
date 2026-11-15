@@ -62,7 +62,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "90bb3f558f1f23a4d4b58c8e070e5bbc86e72695",
+          "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -86,9 +86,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "90bb3f558f1f23a4d4b58c8e070e5bbc86e72695",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -99,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
+          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -110,8 +117,7 @@
                 "smart-base-translations",
                 "library",
                 "methodologies",
-                "processes",
-                "smart-base-house-processes",
+                "collab",
                 "smart-base-artifact-index",
                 "tools",
                 "smart-base-themes",
@@ -124,7 +130,7 @@
                 "smart-base-schemas",
                 "smart-base-pipeline",
                 "smart-base-scripts",
-                "smart-base-kg",
+                "smart-base-L1",
                 "smart-base-skills",
                 "smart-base-scenarios",
                 "smart-base-code-lists"
@@ -134,9 +140,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -147,7 +160,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -156,9 +169,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -169,7 +189,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "705a2b8a75be2d20877df25b14b8c34003f02c7a",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -184,9 +204,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "705a2b8a75be2d20877df25b14b8c34003f02c7a",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -197,7 +224,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "19871a5054832432efda25715ee3f9a6741be1c2",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -212,9 +239,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-08",
-              "ref": "19871a5054832432efda25715ee3f9a6741be1c2",
-              "evidence": "Owner litlfred, 2026-11-08 18:35Z: card Q-RAC-11 A — merge cat-harness#1168 and re-pin cat-harness in smart-ra#207. Pinned to the 2026-11-05 freeze commit f5c9140 plus #1168's one change (branch pin/smart-ra-freeze-rules-family), so no other layer moves."
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -225,7 +259,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "961b4d939d7d69874f44162d12407bd3f1d96c6b",
+          "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -237,9 +271,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-08",
-              "ref": "961b4d939d7d69874f44162d12407bd3f1d96c6b",
-              "evidence": "Owner litlfred, 2026-11-08: card Q-CIB-4 A (13:23Z, release-gated CI, full rollout in phases; phase 4 = the other layers) and Q-MM-1 A (\"non-content can merge/repin + 12hr\", window to 2026-11-08 19:00Z). Tools-only re-pin to cat-harness-tools 961b4d9 (#1722): a non-release PR runs the fast tier of layer-pr-checks; cat-harness#1158."
+              "on": "2026-11-15",
+              "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -250,7 +291,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -259,9 +300,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
@@ -272,7 +320,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "9f478d4d9fcd87842e9a4f5b886232ec806e657e",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -284,9 +332,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "9f478d4d9fcd87842e9a4f5b886232ec806e657e",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+            },
+            "standing": {
+              "follows": "main",
+              "consentBy": "litlfred",
+              "consentAt": "2026-11-12",
+              "require": "green",
+              "evidence": "litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml)."
             }
           }
         }
