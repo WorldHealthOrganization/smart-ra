@@ -24,6 +24,14 @@
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An externally visible unit of functionality provided by one or more components, exposed through well-defined interfaces.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
+      "id": "archimate",
+      "prefLabel": "ArchiMate",
+      "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
+      "definition": "An open enterprise architecture modelling language, published by The Open Group, for describing and visualising an architecture across business, application and technology layers. The models in this guidance are written in ArchiMate.",
+      "status": "candidate",
+      "scopeNote": "Added to the RA glossary table in CS-001 (smart-ra#185, public comments No. 136 and No. 327), per committee feedback (CL). A candidate until the RA editors adopt it through the public review."
+    },
+    {
       "id": "capability",
       "prefLabel": "Capability",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
@@ -147,6 +155,17 @@
       "definition": "FHIR is a standard for healthcare data exchange, published by HL7®",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+    },
+    {
+      "id": "foundational-digital-public-infrastructure",
+      "prefLabel": "Foundational Digital Public Infrastructure",
+      "altLabel": [
+        "DPI-F"
+      ],
+      "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
+      "definition": "Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it.",
+      "status": "candidate",
+      "scopeNote": "Added to the RA glossary table in CS-001 (smart-ra#185, public comments No. 136 and No. 327), per committee feedback (CL). A candidate until the RA editors adopt it through the public review."
     },
     {
       "id": "functional-application",
@@ -319,6 +338,14 @@
       "altLabel": [
         "stakeholder"
       ]
+    },
+    {
+      "id": "togaf",
+      "prefLabel": "TOGAF",
+      "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
+      "definition": "The Open Group Architecture Framework, an enterprise architecture framework and method, published by The Open Group, for developing an enterprise architecture.",
+      "status": "candidate",
+      "scopeNote": "Added to the RA glossary table in CS-001 (smart-ra#185, public comments No. 136 and No. 327), per committee feedback (CL). A candidate until the RA editors adopt it through the public review."
     },
     {
       "id": "value",
