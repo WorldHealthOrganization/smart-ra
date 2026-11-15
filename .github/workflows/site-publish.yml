@@ -1,13 +1,16 @@
-# Site publish (by hand): stage-local.ts on a GitHub runner, from the steps
-# this repository's instance declares under site.build. On main it publishes
-# the gh-pages root; on any other branch, STAGING/<branch>/.
+# Site publish: stage-local.ts on a GitHub runner, from the steps this
+# repository's instance declares under site.build. It runs on every push to
+# main (a merged PR), and by hand. On main it publishes the gh-pages root; on
+# any other branch, STAGING/<branch>/.
 #
 # A thin caller: the steps are cat-harness-tools' reusable workflow, ONE
 # copy for every harnessed repository (cat-harness-tools#1038), so this
 # repository's CI cannot drift from smart-ra's or dth-hrh's again.
-name: Site publish (by hand)
+name: Site publish
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       plan:
@@ -20,6 +23,6 @@ permissions:
 
 jobs:
   publish:
-    uses: litlfred/cat-harness-tools/.github/workflows/folio-site-publish.yml@961b4d939d7d69874f44162d12407bd3f1d96c6b # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/folio-site-publish.yml@51d9a7796a3d5d864171ace40faff2dbe1c7e267 # index.lock.json
     with:
-      plan: ${{ inputs.plan }}
+      plan: ${{ inputs.plan == true }}
