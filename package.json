@@ -4,9 +4,9 @@
   "_cat_comment": "The one root script the harness assumes: its commands spawn `bun run cat <name>` from the checkout root (qa:refresh, kg:detangle, regen, ...), and run-script.ts finds <name> in whichever mounted layer declares it. Without this entry bun falls through to /usr/bin/cat and the command fails with \"No such file or directory\" (smart-ra#65; cat-harness-tools#269 adds it to the CI working copy only).",
   "scripts": {
     "cat": "bun .github/cat.ts",
-    "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/ --out",
+    "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/references/ --out",
     "site:public-comment": "bun run folio-assistant-core/scripts/public-comment-site.ts --out",
-    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --out",
+    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --layout default --out",
     "site:context": "bun run cat-harness-tools/scripts/publish-instance-context.ts build --root . --instance dpi-h-ra --site",
     "site:review-sheet": "bun run folio-assistant-core/scripts/review-sheet-site.ts --out",
     "kg:blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dpi-h-ra",
