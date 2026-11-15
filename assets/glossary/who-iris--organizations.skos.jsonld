@@ -1,0 +1,567 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": "Organizations named in the Digital Transformation Handbooks",
+      "skos:definition": "Organizations that several handbooks (dth-pc, dth-sc, dth-hrh, dth-phc, dth-sfp) name, held once here as SKOS concepts with a foaf:focus to a W3C ORG organization (owner, 2026-10-31, option B; litlfred/folio-assistant-core#411). The concept carries the name and the acronym (notation); the organization carries its ORG type, homepage and parent. A handbook lists these under members and never copies them. An organization only one handbook names, such as a national regulator, stays in that handbook's glossary. Every term is a candidate: only a person adopts a definition.",
+      "dcterms:hasVersion": "2026-10-31",
+      "dcterms:modified": "2026-10-31",
+      "dcterms:source": "who-iris/library/9789240116191-eng/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/un",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "United Nations"
+        }
+      ],
+      "skos:notation": "UN",
+      "skos:scopeNote": "The parent of the UN bodies below. Not named in dth-pc's abbreviations; added so subOrganizationOf has a target.",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/un/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/un/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "United Nations"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.un.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/who",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "World Health Organization"
+        }
+      ],
+      "skos:notation": "WHO",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/who/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/who/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "World Health Organization"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.who.int/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/paho",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Pan American Health Organization"
+        }
+      ],
+      "skos:notation": "PAHO",
+      "skos:scopeNote": "Named in the dth-pc acknowledgements. PAHO serves as WHO's Regional Office for the Americas, hence subOrganizationOf WHO.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/paho/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/paho/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "Pan American Health Organization"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.paho.org/"
+      },
+      "org:subOrganizationOf": [
+        {
+          "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/who/_focus"
+        }
+      ]
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unicef",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "United Nations Children's Fund"
+        }
+      ],
+      "skos:notation": "UNICEF",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unicef/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unicef/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "United Nations Children's Fund"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.unicef.org/"
+      },
+      "org:subOrganizationOf": [
+        {
+          "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/un/_focus"
+        }
+      ]
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unido",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "United Nations Industrial Development Organization"
+        }
+      ],
+      "skos:notation": "UNIDO",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-055.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unido/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/unido/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "United Nations Industrial Development Organization"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.unido.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/itu",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Telecommunication Union"
+        }
+      ],
+      "skos:notation": "ITU",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-013.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/itu/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/itu/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "International Telecommunication Union"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.itu.int/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/iso",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Organization for Standardization"
+        }
+      ],
+      "skos:notation": "ISO",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/iso/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/iso/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "International Organization for Standardization"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.iso.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/hl7",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Health Level Seven International"
+        }
+      ],
+      "skos:altLabel": [
+        "Health Level Seven",
+        "HL7 International"
+      ],
+      "skos:notation": "HL7",
+      "skos:scopeNote": "dth-pc's abbreviations table expands HL7 as 'Health Level Seven®'. A candidate: no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/hl7/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/hl7/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "Health Level Seven International"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.hl7.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gs1",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "GS1"
+        }
+      ],
+      "skos:notation": "GS1",
+      "skos:scopeNote": "Named in dth-pc (acknowledgements, and as the GTIN and GDSN standards body) but missing from its abbreviations table. A candidate: no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gs1/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gs1/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "GS1"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.gs1.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/usaid",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "United States Agency for International Development"
+        }
+      ],
+      "skos:notation": "USAID",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/usaid/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/usaid/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "United States Agency for International Development"
+        }
+      ]
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/umc",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Uppsala Monitoring Centre"
+        }
+      ],
+      "skos:notation": "UMC",
+      "skos:scopeNote": "dth-pc's abbreviations table names UMC as the Swedish foundation that maintains WHODrug. A candidate: no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/umc/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/umc/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "Uppsala Monitoring Centre"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://who-umc.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/global-fund",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        }
+      ],
+      "skos:altLabel": [
+        "Global Fund"
+      ],
+      "skos:notation": "Global Fund",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/global-fund/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/global-fund/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.theglobalfund.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gavi",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Gavi, the Vaccine Alliance"
+        }
+      ],
+      "skos:altLabel": [
+        "Gavi"
+      ],
+      "skos:notation": "Gavi",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gavi/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gavi/_focus",
+      "@type": "org:OrganizationalCollaboration",
+      "rdfs:label": [
+        {
+          "@value": "Gavi, the Vaccine Alliance"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.gavi.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/giz",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Deutsche Gesellschaft für Internationale Zusammenarbeit"
+        }
+      ],
+      "skos:notation": "GIZ",
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/giz/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/giz/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "Deutsche Gesellschaft für Internationale Zusammenarbeit"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.giz.de/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/path",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "PATH"
+        }
+      ],
+      "skos:notation": "PATH",
+      "skos:scopeNote": "Named in the dth-pc acknowledgements. PATH is the organization's name, not an expansion. A candidate: no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/path/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/path/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "PATH"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.path.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/openhie",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Open Health Information Exchange"
+        }
+      ],
+      "skos:notation": "OpenHIE",
+      "skos:scopeNote": "A global community of practice. dth-pc's abbreviations table expands it. A candidate: no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/openhie/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/openhie/_focus",
+      "@type": "org:OrganizationalCollaboration",
+      "rdfs:label": [
+        {
+          "@value": "Open Health Information Exchange"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://ohie.org/"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Bill & Melinda Gates Foundation"
+        }
+      ],
+      "skos:altLabel": [
+        "Gates Foundation"
+      ],
+      "skos:scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
+      "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
+      "skos:note": "candidate",
+      "foaf:focus": {
+        "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation/_focus"
+      }
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation/_focus",
+      "@type": "org:FormalOrganization",
+      "rdfs:label": [
+        {
+          "@value": "Bill & Melinda Gates Foundation"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://www.gatesfoundation.org/"
+      }
+    }
+  ]
+}

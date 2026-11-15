@@ -1,0 +1,589 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_TestPlanExecution",
+ "markers": [
+  {
+   "id": "A_Request",
+   "name": "Request certification of the system against plan P",
+   "left": 43.67,
+   "top": 1.1,
+   "box": {
+    "left": 38.45,
+    "top": 11.6,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_ResolvePlan",
+   "name": "Resolve the plan",
+   "left": 15.47,
+   "top": 18.23,
+   "box": {
+    "left": 10.25,
+    "top": 28.73,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_BindData",
+   "name": "Bind the test data",
+   "left": 26.26,
+   "top": 18.23,
+   "box": {
+    "left": 21.04,
+    "top": 28.73,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_Execute",
+   "name": "Execute every case, or skip it with a reason",
+   "left": 37.05,
+   "top": 18.23,
+   "box": {
+    "left": 31.83,
+    "top": 28.73,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_WriteRun",
+   "name": "Write the test run and the test report",
+   "left": 47.84,
+   "top": 18.23,
+   "box": {
+    "left": 42.63,
+    "top": 28.73,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_ReExecuteSample",
+   "name": "Re-execute a sample, blind to the tester's verdicts",
+   "left": 47.84,
+   "top": 33.7,
+   "box": {
+    "left": 42.63,
+    "top": 44.2,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_RecordCertification",
+   "name": "Record the certification decision",
+   "left": 59.35,
+   "top": 49.17,
+   "box": {
+    "left": 54.14,
+    "top": 59.67,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_RecordRefusal",
+   "name": "Record the refusal, with the failing cases",
+   "left": 36.69,
+   "top": 49.17,
+   "box": {
+    "left": 31.47,
+    "top": 59.67,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_RecordUndetermined",
+   "name": "Record why it could not be decided",
+   "left": 47.84,
+   "top": 64.09,
+   "box": {
+    "left": 42.63,
+    "top": 74.59,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "Call_Sign",
+   "name": "Sign the certification",
+   "left": 59.35,
+   "top": 79.56,
+   "box": {
+    "left": 54.14,
+    "top": 90.06,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "A_FileCertification",
+   "name": "File the signed certification",
+   "left": 70.14,
+   "top": 79.56,
+   "box": {
+    "left": 64.93,
+    "top": 90.06,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "left": 21.37,
+   "top": 1.1,
+   "box": {
+    "left": 16.15,
+    "top": 11.6,
+    "width": 1.73,
+    "height": 2.65
+   }
+  },
+  {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "left": 80.94,
+   "top": 79.56,
+   "box": {
+    "left": 75.72,
+    "top": 90.06,
+    "width": 1.73,
+    "height": 2.65
+   }
+  }
+ ],
+ "processHref": "test-plan-execution.html",
+ "tasks": {
+  "A_Request": {
+   "id": "A_Request",
+   "name": "Request certification of the system against plan P",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_Request",
+   "lane": "Requester / system under test",
+   "laneHref": "test-plan-execution.html#lane-Lane_Requester",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "test-requester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-test-requester",
+    "title": "Test requester",
+    "skills": [
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_ResolvePlan": {
+   "id": "A_ResolvePlan",
+   "name": "Resolve the plan",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_ResolvePlan",
+   "lane": "Tester",
+   "laneHref": "test-plan-execution.html#lane-Lane_Tester",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "tester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "title": "Tester",
+    "skills": [
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "test-data-sets",
+      "href": "../../../en/cat-harness/processes/skills/test-data-sets.html"
+     },
+     {
+      "name": "test-engineer",
+      "href": "../../../en/cat-harness/processes/skills/test-engineer.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_BindData": {
+   "id": "A_BindData",
+   "name": "Bind the test data",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_BindData",
+   "lane": "Tester",
+   "laneHref": "test-plan-execution.html#lane-Lane_Tester",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "tester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "title": "Tester",
+    "skills": [
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "test-data-sets",
+      "href": "../../../en/cat-harness/processes/skills/test-data-sets.html"
+     },
+     {
+      "name": "test-engineer",
+      "href": "../../../en/cat-harness/processes/skills/test-engineer.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_Execute": {
+   "id": "A_Execute",
+   "name": "Execute every case, or skip it with a reason",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_Execute",
+   "lane": "Tester",
+   "laneHref": "test-plan-execution.html#lane-Lane_Tester",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    },
+    {
+     "name": "test-engineer",
+     "href": "../../../en/cat-harness/processes/skills/test-engineer.html"
+    }
+   ],
+   "role": {
+    "name": "tester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "title": "Tester",
+    "skills": [
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "test-data-sets",
+      "href": "../../../en/cat-harness/processes/skills/test-data-sets.html"
+     },
+     {
+      "name": "test-engineer",
+      "href": "../../../en/cat-harness/processes/skills/test-engineer.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_WriteRun": {
+   "id": "A_WriteRun",
+   "name": "Write the test run and the test report",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_WriteRun",
+   "lane": "Tester",
+   "laneHref": "test-plan-execution.html#lane-Lane_Tester",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "tester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "title": "Tester",
+    "skills": [
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "test-data-sets",
+      "href": "../../../en/cat-harness/processes/skills/test-data-sets.html"
+     },
+     {
+      "name": "test-engineer",
+      "href": "../../../en/cat-harness/processes/skills/test-engineer.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_ReExecuteSample": {
+   "id": "A_ReExecuteSample",
+   "name": "Re-execute a sample, blind to the tester's verdicts",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_ReExecuteSample",
+   "lane": "Untainted checker",
+   "laneHref": "test-plan-execution.html#lane-Lane_Checker",
+   "skills": [
+    {
+     "name": "untainted-verification",
+     "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
+    },
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "untainted-checker",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-untainted-checker",
+    "title": "Untainted checker",
+    "skills": [
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
+     }
+    ]
+   }
+  },
+  "A_RecordCertification": {
+   "id": "A_RecordCertification",
+   "name": "Record the certification decision",
+   "type": "bpmn:UserTask",
+   "stepHref": "test-plan-execution.html#step-A_RecordCertification",
+   "lane": "Certifier",
+   "laneHref": "test-plan-execution.html#lane-Lane_Certifier",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "certifier",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "title": "Certifier",
+    "skills": [
+     {
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_RecordRefusal": {
+   "id": "A_RecordRefusal",
+   "name": "Record the refusal, with the failing cases",
+   "type": "bpmn:UserTask",
+   "stepHref": "test-plan-execution.html#step-A_RecordRefusal",
+   "lane": "Certifier",
+   "laneHref": "test-plan-execution.html#lane-Lane_Certifier",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "certifier",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "title": "Certifier",
+    "skills": [
+     {
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_RecordUndetermined": {
+   "id": "A_RecordUndetermined",
+   "name": "Record why it could not be decided",
+   "type": "bpmn:Task",
+   "stepHref": "test-plan-execution.html#step-A_RecordUndetermined",
+   "lane": "Certifier",
+   "laneHref": "test-plan-execution.html#lane-Lane_Certifier",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "certifier",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "title": "Certifier",
+    "skills": [
+     {
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "Call_Sign": {
+   "id": "Call_Sign",
+   "name": "Sign the certification",
+   "type": "bpmn:CallActivity",
+   "stepHref": "test-plan-execution.html#step-Call_Sign",
+   "lane": "Attestation service",
+   "laneHref": "test-plan-execution.html#lane-Lane_Attestation",
+   "skills": [
+    {
+     "name": "qa-report-signing",
+     "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
+    }
+   ],
+   "calls": {
+    "name": "QA report signing",
+    "href": "qa-report-signing.html",
+    "diagram": "qa-report-signing.html"
+   },
+   "role": {
+    "name": "attestation-service",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-attestation-service",
+    "title": "Attestation service",
+    "skills": [
+     {
+      "name": "qa-report-signing",
+      "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "A_FileCertification": {
+   "id": "A_FileCertification",
+   "name": "File the signed certification",
+   "type": "bpmn:ServiceTask",
+   "stepHref": "test-plan-execution.html#step-A_FileCertification",
+   "lane": "Attestation service",
+   "laneHref": "test-plan-execution.html#lane-Lane_Attestation",
+   "skills": [
+    {
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+    }
+   ],
+   "role": {
+    "name": "attestation-service",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-attestation-service",
+    "title": "Attestation service",
+    "skills": [
+     {
+      "name": "qa-report-signing",
+      "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "Call_BeanOpen": {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "type": "bpmn:CallActivity",
+   "stepHref": "test-plan-execution.html#step-Call_BeanOpen",
+   "lane": "Requester / system under test",
+   "laneHref": "test-plan-execution.html#lane-Lane_Requester",
+   "skills": [
+    {
+     "name": "bean-coordination",
+     "href": "../../../en/cat-harness/processes/skills/bean-coordination.html"
+    }
+   ],
+   "calls": {
+    "name": "Open the bean",
+    "href": "bean-open.html",
+    "diagram": "bean-open.html"
+   },
+   "role": {
+    "name": "test-requester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-test-requester",
+    "title": "Test requester",
+    "skills": [
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose": {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "stepHref": "test-plan-execution.html#step-Call_BeanClose",
+   "lane": "Attestation service",
+   "laneHref": "test-plan-execution.html#lane-Lane_Attestation",
+   "skills": [
+    {
+     "name": "todo-manager",
+     "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "bean-close.html",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "attestation-service",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-attestation-service",
+    "title": "Attestation service",
+    "skills": [
+     {
+      "name": "qa-report-signing",
+      "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
+     },
+     {
+      "name": "test-plan-execution",
+      "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,255 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": "Full-STAC: open Standards, Technologies, Architectures and Content",
+      "skos:definition": "Terms from Mehl et al., 'A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content', Oxford Open Digital Health 2023;1:oqad018 (doi:10.1093/oodh/oqad018, PMC11932414), the paper the DPI-H RA draft cites for the full-STAC approach (sec-022, footnote 14). Definitions are the paper's own words, verbatim; nothing is paraphrased or chosen. Every term is a candidate until a person confirms it. The RA's own glossary (bean S1, smart-ra#133) depends on this scheme: where the RA uses a full-STAC term it links here with a SKOS mapping rather than copying the wording.",
+      "dcterms:hasVersion": "2026-10-31",
+      "dcterms:modified": "2026-10-31",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/",
+      "dcterms:license": "CC-BY-4.0"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Open Standards"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions."
+        }
+      ],
+      "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: shared FHIR profiles with standard ontologies. The body text also says: 'OPEN STANDARDS refers to a common schema for health data, calculations and information exchange.'",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Open Technologies"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license."
+        }
+      ],
+      "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the Open Health Stack Android FHIR SDK. The body adds: 'Open technologies are open-source and use open standards.'",
+      "dcterms:requires": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+        }
+      ],
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Open Architectures"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions."
+        }
+      ],
+      "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the OpenHIE Architecture.",
+      "dcterms:requires": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
+        }
+      ],
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-content",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Open Content"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions."
+        }
+      ],
+      "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: a WHO SMART Guidelines FHIR Implementation Guide.",
+      "dcterms:requires": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
+        }
+      ],
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Full-STAC"
+        }
+      ],
+      "skos:altLabel": [
+        "Full-STAC",
+        "full-STAC",
+        "full-STAC approach",
+        "full-STAC remedy"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation."
+        }
+      ],
+      "skos:notation": "Full-STAC",
+      "skos:scopeNote": "Quoted from the abstract. The paper calls it both an approach and a remedy, and names the four as 'four factors'. The DPI-H RA draft (sec-022, footnote 14) cites this paper and presents the four as 'the enabling conditions for REDDHI'.",
+      "skos:related": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health"
+        }
+      ],
+      "dcterms:requires": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-content"
+        }
+      ],
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-front-matter.md",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Person-focused Health"
+        }
+      ],
+      "skos:scopeNote": "The centre of Figure 1, which the four factors surround. The paper does not define it; the nearest statements are the vision of health data that 'travels with them' and a 'standards-based longitudinal health record that supports the patient over time'. Recorded so the RA can decide whether it matches its own person-centred terms.",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
+      "skos:note": "could-not-extract: The paper uses the phrase but never states what it is."
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital Health Governance"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Digital health governance defines who, what and how to govern to achieve health service impact."
+        }
+      ],
+      "skos:scopeNote": "The paper cites Marcelo et al. 2018 (ADB) for this sentence, so the definition is that source's, as quoted here.",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Point Solution"
+        }
+      ],
+      "skos:scopeNote": "Used for tools 'developed for vertical health programs and financed through vertical funding allocations'. That describes how they arise, not what they are, so no definition is recorded.",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
+      "skos:note": "could-not-extract: Characterised by origin and funding only; no defining sentence."
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Longitudinal Health Record"
+        }
+      ],
+      "skos:scopeNote": "'a standards-based longitudinal health record that supports the patient over time and across places where interactions with the health system occurs' (cites Kay 2021 on the International Patient Summary). A use, not a definition.",
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
+      "skos:note": "could-not-extract: Described by what it supports, not defined."
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Clinical Quality Language"
+        }
+      ],
+      "skos:altLabel": [
+        "CQL",
+        "HL7 CQL"
+      ],
+      "skos:notation": "CQL",
+      "skos:scopeNote": "'HL7 Clinical Quality Language (CQL), a human-readable query language to encode calculations for computing indicators and clinical logic to drive decision support.' Defined by HL7, so link to the HL7 specification rather than defining it here.",
+      "rdfs:isDefinedBy": {
+        "@id": "https://cql.hl7.org/"
+      },
+      "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
+      "skos:note": "candidate"
+    }
+  ]
+}
