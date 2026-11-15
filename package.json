@@ -6,7 +6,7 @@
     "cat": "bun .github/cat.ts",
     "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/references/ --out",
     "site:public-comment": "bun run folio-assistant-core/scripts/public-comment-site.ts --out",
-    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --out",
+    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --layout default --out",
     "site:context": "bun run cat-harness-tools/scripts/publish-instance-context.ts build --root . --instance dpi-h-ra --site",
     "site:review-sheet": "bun run folio-assistant-core/scripts/review-sheet-site.ts --out",
     "kg:blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dpi-h-ra",
