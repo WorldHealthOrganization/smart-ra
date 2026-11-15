@@ -121,14 +121,14 @@ RENAMES = {
     "md-consume": "Consume",
     "md-change-requests": "Change requests",
     "md-change-management": "Change management",
-    "md-publication": "Publication / distribution",
+    "md-publication": "Publication",
     "md-monitoring": "Monitoring",
     "md-stakeholder": "Stakeholder",
     "md-content": "Content",
     "md-upstream": "Upstream content",
     "md-rules": "Management rules",
     "md-cr-tooling": "Change-request tooling",
-    "md-authoring": "Authoring tool",
+    "md-authoring": "Authoring",
     "md-repository": "Repository",
 }
 
@@ -209,8 +209,8 @@ VIEWS = [
          ("col", [("gap",), ("box", "md-change-requests"), ("box", "md-cr-tooling")]),
          ("col", [("row", [("box", "md-author"), ("box", "md-owner")]),
                   ("row", [("gap",), ("box", "md-change-management")]),
-                  # under Author, so its line to Author stays clear of Change management
-                  ("row", [("box", "md-authoring"), ("gap",)])]),
+                  # under Change management, as the draft's figure has it (Q-RAC-6 A)
+                  ("row", [("gap",), ("box", "md-authoring")])]),
          ("col", [("row", [("box", "md-content"), ("box", "md-upstream")]),
                   ("box", "md-publication"), ("box", "md-repository")]),
          ("col", [("box", "md-rules"), ("box", "md-monitoring")]),
@@ -224,7 +224,10 @@ VIEW_CONNECTIONS = {
     V341: [("Flow", "sgi-global-content", "sgi-governance-tms"),
            ("Flow", "sgi-governance-tms", "sgi-runtime-ts"),
            ("Flow", "sgi-runtime-ts", "sgi-governance-tms")],
-    VA1: [*EXISTING_RELATIONS.keys(),
+    # The draft's figure draws neither Authoring serving Author nor Content
+    # with Owner (Q-RAC-6 A): both stay in the model, off this view.
+    VA1: [*(k for k in EXISTING_RELATIONS if k not in {("Serving", "md-authoring", "md-author"),
+                                                      ("Association", "md-content", "md-owner")}),
           ("Association", "md-cr-tooling", "md-change-requests"),
           ("Serving", "md-authoring", "md-change-management"),
           ("Serving", "md-repository", "md-publication"),
