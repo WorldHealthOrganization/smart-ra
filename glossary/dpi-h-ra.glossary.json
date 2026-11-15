@@ -2,7 +2,7 @@
   "$schema": "folio-glossary/v1",
   "id": "dpi-h-ra",
   "title": "Glossary of the Reference Architecture and Guidance for DPI-H",
-  "description": "The DPI-H Reference Architecture draft's own glossary as a SKOS scheme, one concept per term, read mechanically from the glossary table (folio/dpi-h-ra/glossary/, from the review draft who-dpi-h-reference-architecture-draft-v1). Definitions are verbatim; nothing is paraphrased or chosen. This is the shared scheme the Digital Transformation Handbooks (dth-hrh, dth-phc, dth-sc, dth-pc, dth-sfp) link their terms to (smart-ra#133, task S1). Where a DTH defines a term differently, its wording is added later as a cited alternative; none is chosen.",
+  "description": "The DPI-H Reference Architecture draft's own glossary and shared Digital Transformation Handbook (DTH) concepts as a SKOS scheme, one concept per term (folio/dpi-h-ra/glossary/, from the review draft who-dpi-h-reference-architecture-draft-v1, together with shared concepts across dth-phc 9789240093362-eng, dth-sc 9789240101197-eng, dth-pc 9789240116191-eng, dth-sfp 9789240120747-eng, and dth-hrh 9789240107588-eng). KG concept prefLabels are Capitalized (owner ruling, 2026-10-31). Definitions are verbatim; where sources define a term differently, every competing wording is recorded with its source in scopeNote as a cited alternative and none is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#140, smart-ra#142, smart-ra#143).",
   "hasVersion": "2026-10-31",
   "modified": "2026-10-31",
   "source": "library/who-dpi-h-reference-architecture-draft-v1/",
@@ -21,7 +21,7 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An explicitly defined unit of application behaviour. Anch application service exposes the functionality of an application component to its environment.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An externally visible unit of functionality provided by one or more components, exposed through well-defined interfaces.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
       "id": "capability",
@@ -29,7 +29,7 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A high-level ability the health system possesses or needs in order to achieve its goals. It expresses what the health system is able to do, independently of how that ability is implemented.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An ability that an organisation, person, or system possesses — expressed in terms of what can be done, not how or by whom.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
       "id": "business-domain",
@@ -46,7 +46,7 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An end result or consequence of a set of activities; an outcome is often measurable and signals progress towards a goal.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An achieved, and often measurable, result that signals progress towards a goal.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
       "id": "product",
@@ -54,15 +54,18 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A concrete offering, bundling services and data, that is made available to stakeholders.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"A coherent offering that bundles services and data for use by stakeholders.\" Note: in the PC (9789240116191-eng) and SFP (9789240120747-eng) handbooks, the bare word 'product' is used as a synonym for `generic-product` (a health product / medicine); per owner decision 2026-10-31 (smart-ra#142), `product-master-data` and `generic-product` are separate concepts and no homonym split is needed on Product Master Data."
     },
     {
       "id": "business-services-layer",
-      "prefLabel": "Business Services layer",
+      "prefLabel": "Business Services Layer",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A layer of the reference architecture grouping the health capabilities that national health systems strive to deliver across their principal domains — clinical care, public health, the health supply chain, and health financing — together with the shared components that enable them.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review.",
+      "altLabel": [
+        "Business Services layer"
+      ]
     },
     {
       "id": "client",
@@ -78,7 +81,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "The structures and standards (policies & legal frameworks) necessary to coordinate and manage the data journey from collection, storage, sharing, analysis to use to produce trusted, secure and quality data for decision making",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review.",
+      "broader": [
+        "governance"
+      ]
     },
     {
       "id": "data-object",
@@ -94,7 +100,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "The systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Substantive and wording alternatives across the DTH corpus (smart-ra#133 S1, smart-ra#140): (1) PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8, citing WHO Global Strategy on Digital Health 2020–2025): \"Digital health is the systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness (11).\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8, citing DIIG and Global Strategy): \"The systematic application of information and communications technologies, computer science and data to support informed decision-making by individuals, the health workforce and health systems, to strengthen resilience to disease and improve health and wellness (1, 2).\" (3) SC handbook Introduction (who-iris/library/9789240101197-eng/sections/page-012.md, p. 12, quoting the WHO Global Strategy on Digital Health 2020–2025, same source cited by dth-hrh): \"the field of knowledge and practice associated with the development and use of digital technologies to improve health\". All are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "digital health"
+      ]
     },
     {
       "id": "digital-infrastructure",
@@ -113,7 +122,7 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP)",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA §1.1.2 body (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-002-112-understanding-digital-public-infrastructure.md): \"Digital Public Infrastructure (DPI) refers to shared digital systems that are secure and interoperable, built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition and respect human rights and fundamental freedoms.\" (Glossary reads \"interoperable, and can be built\"; body reads \"interoperable, built\".) Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
       "id": "enterprise-architecture",
@@ -121,7 +130,11 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "The organising logic for business processes and IT infrastructure reflecting the integration and\nstandardisation requirements of the organisation's operating model.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review. The draft marks this entry [Under review].",
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md); the draft marks this entry [Under review]. Substantive alternatives across the DTH corpus (smart-ra#133 S1, smart-ra#139, smart-ra#140): (1) PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9, citing DIIG): \"A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11).\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8, citing DIIG): \"A blueprint of business processes, data, systems and technologies that helps planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise such as a health system (1).\" (3) SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9, citing DIIG): \"A blueprint of business processes, data, systems and technologies used to help implementers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (3).\" All four are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "EA",
+        "enterprise architecture"
+      ],
       "editorialNote": "Under review"
     },
     {
@@ -137,11 +150,14 @@
     },
     {
       "id": "functional-application",
-      "prefLabel": "Functional application",
+      "prefLabel": "Functional Application",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Functional applications are application components that deliver a specific operational function within a defined domain. They are context-specific, reflecting the operational requirements of a programme, scheme, or institution that procures them.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review.",
+      "altLabel": [
+        "Functional application"
+      ]
     },
     {
       "id": "goal",
@@ -157,7 +173,7 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA §1.1.2 body (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-002-112-understanding-digital-public-infrastructure.md), which adds a second defining sentence: \"Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions. These digital resources for health — encompassing both systems and specifications — leverage foundational DPI, are interoperable, reusable, publicly governed and built on open standards.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
     {
       "id": "health-information-exchange",
@@ -191,7 +207,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Interoperability is the standards-based capability of heterogeneous information systems to communicate, exchange data, and use the exchanged information to execute functions effectively.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Substantive and internal alternatives across the DTH corpus (smart-ra#133 S1, smart-ra#139, smart-ra#140, smart-ra#142): (1) PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9), PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8), and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10): \"Ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner through the use of shared application interfaces, value sets, concepts and standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes.\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8, citing DIIG): \"The ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner, through the use of shared application interfaces, value sets, concepts and standards within and across organizational, regional and national boundaries. In the health context, this provides timely, safe and seamless portability of information to help ensure good health outcomes (1).\" (3) PHC handbook §4.4 body (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md, §4.4, pp. 56-60): \"Interoperability is the ability of different applications to access, exchange, integrate and use data in a coordinated manner through the use of shared application interfaces and standards, which should be defined by the EA and independent of a particular solution’s system architecture (22).\" (4) PHC handbook §4.4.2 body (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md, pp. 56-60): \"Interoperability is the ability of different applications to access, exchange, integrate and use data in a coordinated manner through the use of shared application interfaces and data representation standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes.\" All are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "interoperability"
+      ]
     },
     {
       "id": "logical-observation-identifiers-names-and-codes",
@@ -206,11 +225,16 @@
     },
     {
       "id": "point-of-service-applications",
-      "prefLabel": "Point-of-service applications",
+      "prefLabel": "Point-of-Service Applications",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review. The draft marks this entry [Under review].",
+      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review. The draft marks this entry [Under review]. Also categorized in SFP handbook §3.2 Fig. 3 (who-iris/library/9789240120747-eng/sections/sec-020-32-link-to-the-enterprise-architecture.md, page-034.md, p. 22, citing DIIG) into reused POS applications and unique POS applications.",
+      "altLabel": [
+        "POS",
+        "Point-of-service applications",
+        "Point of Service Application"
+      ],
       "editorialNote": "Under review"
     },
     {
@@ -219,7 +243,11 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A technology-neutral blueprint that captures the common building blocks, relationships, and design principles of a technical environment.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA §1.1.1 body (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-001-111-what-is-a-reference-architecture-and-why-doe.md): \"A reference architecture is a technology-neutral blueprint that captures the common building blocks, relationships, and design principles of a technical environment, so that organisations do not have to start from a blank page.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "altLabel": [
+        "RA",
+        "reference architecture"
+      ]
     },
     {
       "id": "registry",
@@ -227,7 +255,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health facilities, health service users, health products and/or the health workforce using a predefined canonical minimum data set.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review. The draft marks this entry [Under review].",
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md); the draft marks this entry [Under review]. Near-identical wording alternatives across the DTH corpus (smart-ra#133 S1, smart-ra#139, smart-ra#142): (1) PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11): \"A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health-care facilities, health service users, products and/or health workforce using a predefined canonical minimum data set.\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health facilities, health service users, health products and/or the health workforce using a predefined canonical minimum data set.\" (3) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-009.md, p. 9): \"A governed, authoritative and centralized information system that captures, stores, and maintains the unique attributes and identifiers of health facilities, health service users, products and/or health workforce using a predefined canonical minimum data set.\" (4) SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10, truncated in source PDF): \"A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health facilities, health service users, products and/or health workforce using predefined canonical minimum data etc.\" All five are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "registry"
+      ],
       "editorialNote": "Under review"
     },
     {
@@ -243,7 +274,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines are a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Substantive and wording alternatives across the DTH corpus (smart-ra#133 S1, smart-ra#139, smart-ra#140, smart-ra#142): (1) PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-011.md, p. 11): \"Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23).\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"The WHO guidelines for developing Standards-based, Machine-readable, Adaptive, Requirements-based and Testable components for implementing digital health capabilities. The components include interoperability standards, code libraries, algorithms, and technical and operational specifications. The SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital (12, 13).\" (3) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-009.md, p. 9): \"WHO standards-based, machine-readable, adaptive, requirements-based, and testable Guidelines are recommended digital capabilities, health and data content. They represent a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital.11, 12\" All are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "SMART guidelines"
+      ]
     },
     {
       "id": "snomed-ct",
@@ -259,7 +293,12 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "Systematized Nomenclature of Medicine – Global Patient Set is a list of basic clinical terms. It is an open and freely accessible subset of SNOMED CT terms that represents the breadth of concepts included in the SNOMED CT International Edition.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review. Expanded in PHC handbook Abbreviations (who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md, pp. 7-8) as \"SNOMED-GPS\" = \"Systematized Nomenclature of Medicine-Global Patient Set\" and cited in SFP handbook §4.4 (who-iris/library/9789240120747-eng/sections/sec-025-44-outline-data-requirements.md, page-042.md, p. 30).",
+      "altLabel": [
+        "SNOMED-GPS",
+        "Systematized Nomenclature of Medicine – Global Patient Set",
+        "Systematized Nomenclature of Medicine-Global Patient Set"
+      ]
     },
     {
       "id": "solution-architecture",
@@ -276,7 +315,10 @@
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An individual, role, or organisation with an interest in the outcomes of the architecture.",
       "status": "candidate",
-      "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+      "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Substantive and wording alternatives across the corpus (smart-ra#133 S1, smart-ra#140): (1) RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An individual, team, or organisation with interests in, or concerns relative to, the architecture.\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"In the context of digital health transformation, anyone who is affected by or interested in the consequences of the efforts, including the planning team, end users, beneficiaries and funders.\" (4) DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-141.md, p. 129): \"Any person who is affected by or interested in the consequences of the digital health implementation; stakeholders include the planning team, end-users, beneficiaries and funders.\" (Also enumerated in SFP handbook §1.1, who-iris/library/9789240120747-eng/sections/sec-009-11-analyse-key-stakeholders.md, page-020.md, p. 8.) All are recorded as candidates; none is chosen.",
+      "altLabel": [
+        "stakeholder"
+      ]
     },
     {
       "id": "value",
@@ -285,6 +327,609 @@
       "definition": "The benefit or utility a stakeholder gains from using a service, product, or capability.",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
+    },
+    {
+      "id": "actor-conformance-model",
+      "prefLabel": "Actor (Conformance Model)",
+      "altLabel": [
+        "Actor",
+        "actor (conformance model)"
+      ],
+      "definition": "An Actor is an abstract, well-bounded role in the health information ecosystem that is defined entirely by the information-processing responsibilities it assumes and the interactions it participates in. An Actor is neither a software product nor an organisational unit.",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md",
+      "scopeNote": "Defined in RA §3.7.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md, p. 111–116). Substantive distinction from the platform's `actor` concept in folio-assistant-core/glossary/cat-harness.glossary.json (\"A concrete participant, human, agentic or mechanical, that persists across every process and takes on roles\"): the RA's conformance-model Actor is an abstract information-processing role realised by concrete systems, closer to IHE's Actor or the platform's Role (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "adverse-events-following-immunization",
+      "prefLabel": "Adverse Events Following Immunization",
+      "notation": "AEFI",
+      "altLabel": [
+        "AEFI",
+        "Adverse effects following immunisation"
+      ],
+      "definition": "Adverse effects following immunisation",
+      "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
+      "scopeNote": "Recorded per smart-ra#142 item 4: the PC handbook abbreviations list (who-iris/library/9789240116191-eng/sections/page-006.md, p. 6) expands AEFI as \"Adverse effects following immunisation\", whereas standard WHO immunization terminology expands AEFI as \"Adverse events following immunization\" (an 'event' is any untoward medical occurrence following immunization and does not presuppose a causal 'effect'). Both expansions are recorded as candidates; neither is silently altered.",
+      "status": "candidate"
+    },
+    {
+      "id": "business-process",
+      "prefLabel": "Business Process",
+      "altLabel": [
+        "business process"
+      ],
+      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternative in SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9, citing DIIG): \"A set of related activities or tasks performed together to achieve the objectives of the health programme area, such as registration, counselling and referrals (3).\" Both are recorded as candidates; neither is chosen.",
+      "status": "candidate"
+    },
+    {
+      "id": "data-dictionary",
+      "prefLabel": "Data Dictionary",
+      "altLabel": [
+        "data dictionary"
+      ],
+      "definition": "A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternative in SFP handbook §4.4 body (who-iris/library/9789240120747-eng/sections/sec-025-44-outline-data-requirements.md, page-042.md, p. 30): \"A data dictionary is a repository of information about the data elements such as description, data type and other characteristics.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 P2).",
+      "related": [
+        "data-element"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "data-element",
+      "prefLabel": "Data Element",
+      "altLabel": [
+        "data element"
+      ],
+      "definition": "A unit of data that has a specific and precise meaning.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "Identical wording in PHC handbook glossary (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8), PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8), and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9, citing ref. 4). Recorded as a shared candidate concept (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "deploy",
+      "prefLabel": "Deploy",
+      "altLabel": [
+        "deployment",
+        "Deployment"
+      ],
+      "definition": "Make the software available for use beyond testing purposes.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording under 'Deploy' (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternative in SC handbook glossary under 'deployment' (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"Making a software system available for use beyond testing purposes.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-transformation",
+      "prefLabel": "Digital Transformation",
+      "altLabel": [
+        "digital transformation"
+      ],
+      "definition": "The process of digitally optimizing and driving systems-level changes by leveraging innovation, analytics and feedback mechanisms to improve person-centred health systems. Digital technologies are used to fundamentally change and improve how health services are delivered and accessed across all health programme areas (12,14,15).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8); identical wording (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9). Wording alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8), which inverts the two sentences: \"In the health context, using digital technologies to fundamentally change and improve how health services are delivered and accessed across all health programme areas (3, 4, 5). The process involves using innovation, analytics and feedback mechanisms to achieve systems-level changes.\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
+      "related": [
+        "digitization",
+        "digitalization"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "digitalization",
+      "prefLabel": "Digitalization",
+      "altLabel": [
+        "digitalization"
+      ],
+      "definition": "The process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency (12,13).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"In the health context, the process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency. Digitalization is the second step in digital transformation (3, 6).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The process of digitally automating and simplifying processes to streamline individual health programmes and reducing manual efforts for greater efficiency. Digitalization is the second step towards digital transformation.\" All are recorded as candidates; none is chosen.",
+      "related": [
+        "digitization",
+        "digital-transformation"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "digitization",
+      "prefLabel": "Digitization",
+      "altLabel": [
+        "digitization"
+      ],
+      "definition": "The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval (12,16).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"The process of converting and organizing data from manual paper records into a digital format for easier entry, storage and retrieval. Digitization is the initial step in digital transformation (3, 7).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval. Digitization is the initial step towards digital transformation.\" All are recorded as candidates; none is chosen.",
+      "related": [
+        "digitalization",
+        "digital-transformation"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "end-user",
+      "prefLabel": "End-User",
+      "altLabel": [
+        "End user",
+        "end user",
+        "end users"
+      ],
+      "definition": "People who will be using the digital system(s).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "Identical wording in PHC handbook glossary ('End-user', who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8), PC handbook glossary ('End user', who-iris/library/9789240116191-eng/sections/page-008.md, p. 8), and SFP handbook glossary ('End user', who-iris/library/9789240120747-eng/sections/page-009.md, p. 9). Wording alternative in SC handbook glossary ('end users', who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"People who will be using the digital systems.\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "features",
+      "prefLabel": "Features",
+      "altLabel": [
+        "features"
+      ],
+      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Wording alternatives across the DTH corpus, differing only in domain example and 'a system' vs 'your system' (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"The characteristics of a system that include look and feel as well as what the system can do (e.g., “order processing” can be a feature of an order management solution).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The characteristics of your system that include look and feel as well as what the system can do (e.g., “approval workflow” can be a feature of a product master data management solution).\" All are recorded as candidates; none is chosen.",
+      "related": [
+        "functions",
+        "functional-requirements"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "full-stac",
+      "prefLabel": "Full-STAC",
+      "altLabel": [
+        "full-STAC",
+        "Full Standards, Technologies, Architectures, and Content"
+      ],
+      "definition": "An ecosystem specifying open standards, open technologies, open architectures, and open content (full-STAC).",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/full-stac"
+      ],
+      "related": [
+        "open-standards",
+        "open-technologies",
+        "open-architectures",
+        "open-content"
+      ],
+      "scopeNote": "Cites Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json) in RA §2.2.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md). Linked via exactMatch to the full-STAC scheme (smart-ra#143).",
+      "status": "candidate"
+    },
+    {
+      "id": "functional-requirements",
+      "prefLabel": "Functional Requirements",
+      "altLabel": [
+        "functional requirements",
+        "Functional requirements"
+      ],
+      "definition": "Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Wording and substantive alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"A description of what the digital system needs to do to support the tasks that make up the business process and address the identified challenges.\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8): \"Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified challenges (e.g., a product master data management solution must be able to define categories and attributes to organize product information).\" (3) SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"Capabilities the system must have to meet the end users’ needs and achieve tasks within the business process.\" All four are recorded as candidates; none is chosen.",
+      "related": [
+        "non-functional-requirements",
+        "features",
+        "functions"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "functions",
+      "prefLabel": "Functions",
+      "altLabel": [
+        "functions"
+      ],
+      "definition": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Substantive alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"Business processes within a system that help the system perform (e.g., “receiving inventory” and “picking inventory” are functions of the “warehousing” feature of a warehouse management system).\" (PHC defines functions as \"how features are implemented\"; SC defines them as \"Business processes within a system that help the system perform\".) Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "related": [
+        "features",
+        "functional-requirements"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "generic-product",
+      "prefLabel": "Generic Product",
+      "altLabel": [
+        "Generic product or product information",
+        "product information",
+        "generic national product code"
+      ],
+      "definition": "In this handbook, the terms ‘generic product,’ ‘product,’ or ‘product information’ pertain to the general identifying details of a health product, excluding any manufacturer-specific information.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-008.md",
+      "scopeNote": "PC handbook glossary wording, verbatim (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8), identical in SFP handbook glossary (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-010.md, p. 10). Internal wording alternative in PC handbook Ch. 2 body (who-iris/library/9789240116191-eng/sections/page-028.md, p. 28): \"Generic products can be described as generic items that conceal the brand or manufacturer information.\" Distinct from the RA's architectural `product` concept; both wordings are recorded as candidates and neither is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#142).",
+      "related": [
+        "trade-item",
+        "product-master-data"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "governance",
+      "prefLabel": "Governance",
+      "altLabel": [
+        "governance",
+        "governance (health supply chain)"
+      ],
+      "definition": "Governance is the set of arrangements through which decision authority is distributed, exercised and accounted for across all those who depend upon, contribute to, or are served by the shared infrastructure.",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/digital-health-governance",
+        "data-governance"
+      ],
+      "scopeNote": "RA §3.4.1 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md, p. 64–65). Substantive alternative in SC handbook Ch. 3 boxed definition (who-iris/library/9789240101197-eng/sections/page-045.md, p. 45): \"In the context of the health supply chain, governance is the process of establishing and implementing policies, procedures and mechanisms to ensure that the supply chain processes and the systems to manage those processes are managed effectively, ethically and in alignment with established objectives and stakeholders’ interests.\" (RA defines governance as the distribution, exercise, and accountability of decision authority across shared infrastructure; SC defines it as the process of establishing and implementing policies, procedures, and mechanisms for supply chain processes and systems.) Also related to `digital-health-governance` in Mehl et al. 2023 (glossary/full-stac.glossary.json, smart-ra#143 P8). Also framed in SFP handbook §2.3 (who-iris/library/9789240120747-eng/sections/sec-015-23-establish-governance-and-leadership.md, page-028.md, p. 16) as a structure for coordinating multiple stakeholders, defining clear roles and responsibilities, enhancing transparency, and creating a stable platform for decision-making. Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, smart-ra#140, dth-sfp#1 P2).",
+      "status": "candidate"
+    },
+    {
+      "id": "international-telecommunication-union",
+      "prefLabel": "International Telecommunication Union",
+      "notation": "ITU",
+      "altLabel": [
+        "ITU",
+        "International Telecommunications Union"
+      ],
+      "definition": "International Telecommunication Union",
+      "source": "who-iris/library/9789240101197-eng/sections/page-007.md",
+      "scopeNote": "Singular 'Telecommunication' (the official UN agency name) in SC abbreviations (who-iris/library/9789240101197-eng/sections/page-007.md, p. 7), PC (who-iris/library/9789240116191-eng/sections/page-013.md, \"ITU = International Telecommunication Union\"), and RA front matter (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-front-matter.md). Wording variant in PHC abbreviations (who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md, pp. 7-8): \"International Telecommunications Union\" (plural). Recorded per smart-ra#133 S1 and smart-ra#200.",
+      "status": "candidate"
+    },
+    {
+      "id": "non-functional-requirements",
+      "prefLabel": "Non-Functional Requirements",
+      "altLabel": [
+        "Non-functional requirements",
+        "nonfunctional requirements"
+      ],
+      "definition": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (without section cross-reference) in SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10). Substantive alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary ('nonfunctional requirements', who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"A description of how the digital system needs to operate and perform in order to support the tasks that make up the business process.\" (2) PC handbook glossary ('Non-functional requirements', who-iris/library/9789240116191-eng/sections/page-008.md, p. 8): \"Description of the attributes and constraints that the system must have to ensure its quality and performance. These requirements do not specify what the system should do, but rather how the system should perform its functions. (e.g., a product master data management solution must be able to support offline mode when network connectivity is not available)\" All are recorded as candidates; none is chosen.",
+      "related": [
+        "functional-requirements"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "open-architectures",
+      "prefLabel": "Open Architectures",
+      "altLabel": [
+        "open architectures"
+      ],
+      "definition": "Open architectures refer to high-level specifications of technical designs that provide blueprints for creating open ecosystems structured into reusable and shareable components.",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-architectures"
+      ],
+      "related": [
+        "full-stac",
+        "open-standards",
+        "open-technologies",
+        "open-content"
+      ],
+      "scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"High-level specifications of technical designs that provide blueprints for creating open ecosystems structured into reusable and shareable components, such as within a health information exchange.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
+      "status": "candidate"
+    },
+    {
+      "id": "open-content",
+      "prefLabel": "Open Content",
+      "altLabel": [
+        "open content"
+      ],
+      "definition": "Open content refers to domain ideas and synthesized knowledge clearly documented without restrictions inhibiting readability or usage.",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
+      ],
+      "related": [
+        "full-stac",
+        "open-standards",
+        "open-technologies",
+        "open-architectures"
+      ],
+      "scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"Domain ideas and synthesized knowledge clearly documented without restrictions inhibiting readability or usage, such as health guidelines, workflows, core data elements, terminology mappings, and test cases aligned to standards.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
+      "status": "candidate"
+    },
+    {
+      "id": "open-source",
+      "prefLabel": "Open Source",
+      "altLabel": [
+        "Open-source software",
+        "open-source software",
+        "open source"
+      ],
+      "definition": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open-source software must have a license approved by the Open Source Initiative (19).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+      ],
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10). Wording alternative in SC handbook glossary under 'open-source software' (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8), which adds \"within set guidelines\": \"Software with source code that is published and made freely available to the public so anyone can inspect, modify and enhance the code within set guidelines (8). While the source code is open to everyone, the implementation of the software is not necessarily without costs. Open-source software must have a license approved by the Open Source Initiative (9).\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "open-standards",
+      "prefLabel": "Open Standards",
+      "altLabel": [
+        "open standards",
+        "Open standards"
+      ],
+      "definition": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+      ],
+      "related": [
+        "full-stac",
+        "open-technologies",
+        "open-architectures",
+        "open-content"
+      ],
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10), and near-identical (two sentences) in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"Standards that are documented and made freely available to the public. Open standards are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (10).\" Substantive/complementary alternative in RA §2.2.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, linked via exactMatch to glossary/full-stac.glossary.json): \"Open standards are validated and vetted specifications, repeatedly reusableacross contexts, that address common requirements, processes, and interactions and enable fidelity metrics.\" All are recorded as candidates; none is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#142 item 3, smart-ra#143).",
+      "status": "candidate"
+    },
+    {
+      "id": "open-technologies",
+      "prefLabel": "Open Technologies",
+      "altLabel": [
+        "open technologies"
+      ],
+      "definition": "Open technologies denote components of configurable and extensible source code — often curated as digital public goods — that perform distinct functions while adhering to open standards.",
+      "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+      ],
+      "related": [
+        "full-stac",
+        "open-standards",
+        "open-architectures",
+        "open-content",
+        "open-source"
+      ],
+      "scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"Components of configurable and extensible source code, often curated as 'global goods' or 'digital public goods', that perform a distinct function while adhering to open standards.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
+      "status": "candidate"
+    },
+    {
+      "id": "organogram",
+      "prefLabel": "Organogram",
+      "altLabel": [
+        "organogram"
+      ],
+      "definition": "A visual representation of an organization’s structure that shows the hierarchy of various roles and reporting relationships.",
+      "source": "who-iris/library/9789240101197-eng/sections/page-009.md",
+      "scopeNote": "SC handbook glossary wording, verbatim (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9). Wording alternative in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-010.md, p. 10): \"A visual representation of the organization structure showing the hierarchy of various roles and their reporting relationships.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "product-master-data",
+      "prefLabel": "Product Master Data",
+      "notation": "PMD",
+      "altLabel": [
+        "PMD",
+        "product master data"
+      ],
+      "definition": "Product master data consists of standardized information that accurately describes a health product’s characteristics. This data remains consistent across all instances of a product.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-010.md",
+      "related": [
+        "generic-product",
+        "trade-item"
+      ],
+      "scopeNote": "PC handbook Introduction wording, verbatim (who-iris/library/9789240116191-eng/sections/page-010.md, p. 10). Shared concept across PC (9789240116191-eng), SC (9789240101197-eng), and SFP (9789240120747-eng). Per owner decision 2026-10-31 (smart-ra#141, smart-ra#142): one concept, with no homonym split needed against the RA's architectural `product` concept.",
+      "status": "candidate"
+    },
+    {
+      "id": "request-for-quotation",
+      "prefLabel": "Request for Quotation",
+      "notation": "RFQ",
+      "altLabel": [
+        "RFQ"
+      ],
+      "definition": "Request for quotation",
+      "source": "who-iris/library/9789240101197-eng/sections/page-007.md",
+      "scopeNote": "SC handbook abbreviations expansion ('request for quotation', who-iris/library/9789240101197-eng/sections/page-007.md, p. 7). The PHC handbook abbreviations list (who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md) has no RFQ entry (checked for smart-ra#200).",
+      "status": "candidate"
+    },
+    {
+      "id": "supply-chain-information-system-maturity-model",
+      "prefLabel": "Supply Chain Information System Maturity Model",
+      "notation": "SCISMM",
+      "altLabel": [
+        "SCISMM",
+        "Supply Chain Information System Maturity Model (USAID)",
+        "Supply Chain Information Systems Maturity Model"
+      ],
+      "definition": "Supply Chain Information System Maturity Model (USAID)",
+      "source": "who-iris/library/9789240101197-eng/sections/page-007.md",
+      "scopeNote": "SC handbook abbreviations expansion (who-iris/library/9789240101197-eng/sections/page-007.md, p. 7). Wording alternative in PC handbook abbreviations (who-iris/library/9789240116191-eng/sections/page-007.md, p. 7): \"Supply Chain Information Systems Maturity Model\" (plural 'Systems', without '(USAID)'). Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "sustainable-development-goal",
+      "prefLabel": "Sustainable Development Goal",
+      "notation": "SDG",
+      "altLabel": [
+        "SDG",
+        "Sustainable Development Goals"
+      ],
+      "definition": "Sustainable Development Goal",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "scopeNote": "PHC handbook abbreviations expansion ('Sustainable Development Goal', singular, who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md, p. 7). Wording alternative in SC handbook abbreviations (who-iris/library/9789240101197-eng/sections/page-007.md, p. 7): \"Sustainable Development Goals\" (plural). Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "systems-architecture",
+      "prefLabel": "Systems Architecture",
+      "altLabel": [
+        "systems architecture",
+        "system architecture"
+      ],
+      "definition": "The technical framework of the system depicted in a conceptual model that defines how the system is structured and how its elements are connected.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "solution-architecture",
+        "enterprise-architecture"
+      ],
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Wording alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"A technical framework based on a conceptual model that defines how the system should be structured and how its elements should be connected.\" Internal alternative in PHC handbook §4.4 body under 'system architecture' (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md, pp. 56-60): \"A system architecture is a conceptual model that depicts how the PCPOSS will be structured and how it functions and includes all the software and hardware components that comprise the system.\" All are recorded as candidates; none is chosen (smart-ra#133 S1, smart-ra#200).",
+      "status": "candidate"
+    },
+    {
+      "id": "total-cost-of-ownership",
+      "prefLabel": "Total Cost of Ownership",
+      "notation": "TCO",
+      "altLabel": [
+        "TCO",
+        "total cost of ownership"
+      ],
+      "definition": "The resources required to support a digital health intervention throughout its life cycle.",
+      "source": "who-iris/library/9789240101197-eng/sections/page-009.md",
+      "scopeNote": "SC handbook glossary wording, verbatim (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9). Shared concept across SC (Ch. 3 Fig. 23, p. 49) and SFP (p. 49); recorded as a candidate.",
+      "status": "candidate"
+    },
+    {
+      "id": "traceability",
+      "prefLabel": "Traceability",
+      "altLabel": [
+        "traceability"
+      ],
+      "definition": "The ability to trace something. In some cases, it is interpreted as the ability to verify the history, location or application of an item by means of documented identification (14).",
+      "source": "who-iris/library/9789240101197-eng/sections/page-009.md",
+      "scopeNote": "SC handbook glossary wording, verbatim (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9, citing the WHO policy paper on traceability of medical products, ref. 14). Internal/substantive alternative in SC handbook Ch. 4 boxed definition (who-iris/library/9789240101197-eng/sections/page-054.md, p. 54, citing GS1): \"Traceability is the ability to trace the history, application or location of an object. In a supply chain context, it is the ability to see the movement of health products across the supply chain.\" Shared across dth-sc, dth-pc, and dth-sfp; both definitions are recorded as candidates and neither is chosen (smart-ra#133 S1, smart-ra#140).",
+      "status": "candidate"
+    },
+    {
+      "id": "trade-item",
+      "prefLabel": "Trade Item",
+      "altLabel": [
+        "trade item",
+        "Trade item"
+      ],
+      "definition": "Trade items are manufacturer-specific branded health products that are identifiable and unique to a particular brand or manufacturer.",
+      "source": "who-iris/library/9789240116191-eng/sections/page-028.md",
+      "broadMatch": [
+        "https://www.gs1.org/standards/id-keys/gtin"
+      ],
+      "related": [
+        "generic-product",
+        "product-master-data"
+      ],
+      "scopeNote": "Owner decision 2026-10-31 (smart-ra#142 item 1, smart-ra#139): Trade Item is the shared WHO concept with this narrow definition from the Product Catalogue handbook Ch. 2 body (who-iris/library/9789240116191-eng/sections/page-028.md, p. 28). The GS1 trade item is a separate external concept and the WHO term's broadMatch (every WHO Trade Item is a GS1 trade item, not the reverse: GS1's also covers services). The PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-009.md, p. 9) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-011.md, p. 11) print the GS1 wording — \"Products or services that are priced, ordered or invoiced at any point in the supply chain\" — citing GS1 (PC ref. 13, SFP ref. 19); that sentence is recorded here as a note citing GS1, not as the WHO concept's definition.",
+      "status": "candidate"
+    },
+    {
+      "id": "use-case",
+      "prefLabel": "Use Case",
+      "altLabel": [
+        "use case"
+      ],
+      "definition": "A use case is an example scenario of how the end-user will use the system.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Wording alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"An example scenario of how the end user will use a system.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
+      "status": "candidate"
+    },
+    {
+      "id": "user-acceptance-testing",
+      "prefLabel": "User Acceptance Testing",
+      "notation": "UAT",
+      "altLabel": [
+        "UAT",
+        "User acceptance testing",
+        "User acceptance testing (UAT)"
+      ],
+      "definition": "User acceptance testing (UAT) is conducted to see whether the end-users are satisfied with the end product (24).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Wording alternatives across the DTH corpus (smart-ra#133 S1): (1) PC handbook glossary ('User acceptance testing (UAT)', who-iris/library/9789240116191-eng/sections/page-009.md, p. 9): \"UAT is done to see whether the end-users are satisfied with the end product.14\" (2) SFP handbook glossary ('User acceptance testing (UAT)', who-iris/library/9789240120747-eng/sections/page-011.md, p. 11): \"User acceptance testing is done to see whether the end users are satisfied with the end product (20).\" All three are recorded as candidates; none is chosen.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-persona",
+      "prefLabel": "User Persona",
+      "altLabel": [
+        "Persona",
+        "persona",
+        "user persona"
+      ],
+      "definition": "A generic or archetypical profile of an end-user that is representative of a single type of end-user.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording under 'User persona', verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Internal and cross-DTH alternatives (smart-ra#133 S1): (1) PHC handbook §3.2.1 body (who-iris/library/9789240093362-eng/sections/sec-013-32-get-to-know-the-users.md, pp. 33-35): \"A user persona is a generic depiction of a relevant stakeholder, or end-user of the system who would be interacting with the PCPOSS.\" (2) SFP handbook glossary under 'Persona' (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10): \"A generic aggregate description of a person involved in or benefiting from a health programme.\" All three are recorded as candidates; none is chosen.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-story",
+      "prefLabel": "User Story (Requirements)",
+      "altLabel": [
+        "User Story",
+        "user story"
+      ],
+      "definition": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Internal and platform alternatives (smart-ra#133 S1): (1) PHC handbook §3.2.3 body (who-iris/library/9789240093362-eng/sections/sec-013-32-get-to-know-the-users.md, pp. 33-35): \"User stories are the start of generating a long list of requirements, in non-technical terms, that will help the technical team to determine the more specific functional requirements of the system.\" and the template \"“As a… [user persona], I want to… [do what I want to be able to do differently using an electronic system], so that… [reason for wanting that functionality].”\" (2) Platform glossary `user-story` (folio-assistant-core/glossary/cat-harness.glossary.json), which binds the story to a Role rather than a user persona: \"What a reader acting in a Role is trying to do, told as that role: as a <role>, I want <want>, so that <so that>.\" Also used as the functional requirements template (\"As a … / I want … / So that ...\") in SFP handbook §4.5 Table 12 (who-iris/library/9789240120747-eng/sections/sec-026-45-gather-requirements.md, page-043.md, p. 31).",
+      "status": "candidate"
+    },
+    {
+      "id": "workflow",
+      "prefLabel": "Workflow",
+      "altLabel": [
+        "workflow"
+      ],
+      "definition": "The sequence of activities from one task to another (see section 3.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Internal and cross-DTH alternatives (smart-ra#133 S1): (1) PHC handbook §3.3 body (who-iris/library/9789240093362-eng/sections/sec-014-33-map-business-processes-and-workflows.md, pp. 35-39): \"Workflows are a visual representation of the progression of activities (tasks, events, interactions) performed within a business process (45).\" (2) SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-011.md, p. 11, citing DIIG/DAK): \"A visual representation of the progression of activities (tasks, events, decision points) in a logical flow illustrating the interactions within the business process (21).\" (PHC glossary defines a workflow as the sequence of activities itself; PHC §3.3 and SFP glossary define it as the visual representation of that progression.) All are recorded as candidates; none is chosen.",
+      "status": "candidate"
+    },
+    {
+      "id": "enabling-environment",
+      "prefLabel": "Enabling Environment",
+      "altLabel": [
+        "enabling environment"
+      ],
+      "definition": "Attitudes, actions, policies and practices that stimulate and support effective and efficient functioning of organizations, individuals and programmes. The enabling environment includes legal, regulatory and policy frameworks and political, sociocultural, institutional and economic factors (3).",
+      "source": "who-iris/library/9789240120747-eng/sections/sec-002-glossary.md",
+      "scopeNote": "SFP handbook glossary wording, verbatim (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-009.md, p. 9, citing DIIG), matching DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-139.md, p. 127). Shared DIIG Phase 1 concept across DTHs (smart-ra#133 S1, dth-sfp#1 §2.1 Cluster B1); recorded as a candidate.",
+      "status": "candidate"
+    },
+    {
+      "id": "evaluation",
+      "prefLabel": "Evaluation",
+      "altLabel": [
+        "evaluation"
+      ],
+      "definition": "The systematic and objective assessment of an ongoing or completed intervention with the aim of determining the fulfilment of objectives, efficiency, effectiveness, impact and sustainability (8).",
+      "source": "who-iris/library/9789240120747-eng/sections/sec-002-glossary.md",
+      "related": [
+        "monitoring"
+      ],
+      "scopeNote": "SFP handbook glossary wording, verbatim (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-009.md, p. 9, citing Monitoring and evaluating digital health interventions, WHO 2016). Wording alternative in DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-140.md, p. 128, citing WHO evaluation practice handbook, 2013): \"The systematic assessment of an ongoing or completed intervention to determine whether the intervention is fulfilling its objectives and to demonstrate an effect on health outcomes.\" Also contrasted with monitoring in SFP §6.1 (who-iris/library/9789240120747-eng/sections/sec-029-61-develop-a-monitoring-and-evaluation-plan.md, page-051.md, p. 39, quoting Pritchett et al. 2013): \"Evaluation asks whether the project is doing the right things, while monitoring asks whether the project is doing things right.\" Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 §2.1 Cluster B1).",
+      "status": "candidate"
+    },
+    {
+      "id": "health-information-system",
+      "prefLabel": "Health Information System",
+      "notation": "HIS",
+      "altLabel": [
+        "HIS",
+        "health information system",
+        "Health Information System (HIS)",
+        "Health Information Systems"
+      ],
+      "definition": "A system that integrates data collection, processing, reporting, and use of the information necessary for improving health service effectiveness and efficiency through better management at all levels of health services.",
+      "source": "who-iris/library/9789240010567-eng/sections/page-140.md",
+      "related": [
+        "health-digital-public-infrastructure",
+        "health-information-exchange"
+      ],
+      "scopeNote": "DIIG Annex 1.1 Glossary wording, verbatim (who-iris/library/9789240010567-eng/sections/page-140.md, p. 128, citing WHO 2004 Developing health management information systems; also abbreviated in DIIG page-011.md and HRH handbook who-iris/library/9789240062627-eng/sections/page-006.md). The PHC handbook (who-iris/library/9789240093362-eng) has no HIS abbreviation or definition; a wording earlier attributed to it here is not in its text and was removed (smart-ra#200). Referenced in SFP handbook glossary under SMART Guidelines (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-011.md, p. 11) and Ch. 4 (who-iris/library/9789240120747-eng/sections/sec-021-4-determine-the-requirements.md, page-035.md, p. 23). The definition is recorded as a candidate (smart-ra#133 S1, dth-sfp#1 P2).",
+      "status": "candidate"
+    },
+    {
+      "id": "monitoring",
+      "prefLabel": "Monitoring",
+      "altLabel": [
+        "monitoring"
+      ],
+      "definition": "The continuous process of collecting and analysing data to compare how well an intervention is being implemented against expected results (8).",
+      "source": "who-iris/library/9789240120747-eng/sections/sec-002-glossary.md",
+      "related": [
+        "evaluation"
+      ],
+      "scopeNote": "SFP handbook glossary wording, verbatim (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-010.md, p. 10, citing Monitoring and evaluating digital health interventions, WHO 2016). Wording alternative in DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-141.md, p. 129, citing WHO evaluation practice handbook, 2013): \"The process of collecting and analysing routinely collected data to compare how well an intervention is being implemented against expected results and measure changes in performance over time.\" Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 §2.1 Cluster B1).",
+      "status": "candidate"
     }
   ]
 }
