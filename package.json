@@ -17,7 +17,8 @@
     "check:archimate": "bun run cat-harness-tools/archimate/scripts/check-archimate.ts --instance .",
     "site:archimate": "bun run cat-harness-tools/archimate/scripts/gen-archimate-pages.ts --instance . --out",
     "site:mapper": "bash tools/ra-mapper/build-site.sh",
-    "site:redirects": "bash tools/site-redirects.sh"
+    "site:redirects": "bash tools/site-redirects.sh",
+    "site:glossary": "bun run folio-assistant-core/scripts/glossary-page.ts --instance dpi-h-ra --site"
   },
   "_workspaces_comment": "The mounted code layers, as workspaces, as folio-assistant's root package.json lists them: they import each other by package name (@litlfred/cat-harness, ...), and nothing publishes those packages, so a bare `bun install` in a mount fails with a 404. Owner, 2026-10-14: \"Repo declares workspaces\". The mounts are laid down from index.lock.json and gitignored; smart-base and bootstrap declare no dependencies, so they are not listed; smart-base's scripts still import packages (zod, @litlfred/bootstrap-tools), which reach it through the ONE root node_modules that bunfig.toml's hoisted linker lays out, as in folio-assistant.",
   "workspaces": [
