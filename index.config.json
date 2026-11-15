@@ -57,7 +57,7 @@
           ]
         }
       },
-      "_site_comment": "`site:context` builds the JSON-LD context the KG nodes name (ns/context/v1.jsonld under iriBase) into the site, so it is published with it (cat-harness-tools#1052); nothing else writes it, so nothing is kept."
+      "_site_comment": "`site:glossary` and `site:bibliography` build the glossary term pages and the reference pages the document links to (smart-ra#48). `site:context` builds the JSON-LD context the KG nodes name (ns/context/v1.jsonld under iriBase) into the site, so it is published with it (cat-harness-tools#1052); nothing else writes it, so nothing is kept."
     },
     {
       "name": "who-iris",
