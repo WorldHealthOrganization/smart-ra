@@ -1023,7 +1023,10 @@
       "definition": "The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Client Registry, 1 What It Is). Also abbreviated CR in the OpenHIE requirement identifiers (CRF-*, CRWF-*) and downstream Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-client-registry-95ffd8.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "health-facility-registry",
@@ -1037,7 +1040,10 @@
       "definition": "The Health Facility Registry is the national authoritative source of identity, location, and classification data for all facilities, locations, and organisations through which health services are delivered or that are otherwise relevant to health system operations.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Health Facility Registry, 1 What It Is). Abbreviated FR in the OpenHIE Facility Registry specification references (FRF-*, FRWF-*) and FR / HFR across the Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-health-facility-registry-069302.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "health-workforce-registry",
@@ -1050,7 +1056,10 @@
       "definition": "The Health Workforce Registry is the national authoritative record of identity, credential, and classification data for all health workers recognised as part of the national health workforce — including licensed or certified clinical professionals, community health workers, allied health personnel, and administrative and management staff in health-related roles.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Health Workforce Registry, 1 What It Is). Also called Health Worker Registry (HWR) in OpenHIE alignment notes and downstream Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-health-workforce-registry-d1c167.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "product-registry",
@@ -1062,7 +1071,10 @@
       "definition": "The Product Registry is the national authoritative source of core identity and classification data for health products — medicines, vaccines, medical devices, diagnostics, and health commodities — recognised for use within a jurisdiction.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Product Registry, 1 What It Is). Also abbreviated PR across the Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-product-registry-a3e4b4.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "terminology-service",
@@ -1074,7 +1086,10 @@
       "definition": "The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Terminology Service, 1 What It Is). Abbreviated TS throughout the RA draft and downstream Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-terminology-service-6c5267.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "logical-information-model-repository",
@@ -1086,7 +1101,10 @@
       "definition": "The Logical Information Model Repository is a governed, publicly accessible repository and management platform for computable clinical and administrative information models that define the logical structure, semantics, and terminology bindings of health data objects across a national digital health ecosystem.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Logical Information Model Repository, 1 What It Is). Abbreviated LIMR throughout the RA draft. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-logical-information-model-reposi-73f642.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "lifelong-health-record",
@@ -1098,7 +1116,10 @@
       "definition": "The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual's key health information across care settings and over their lifetime.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Lifelong Health Record, 1 What It Is). Abbreviated LHR throughout the RA draft. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-metadata-registries-and-foundati-lifelong-health-record-7c8cd5.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "semantic-governance-infrastructure",
@@ -1122,7 +1143,10 @@
       "definition": "The Computable Decision Support Engine is a governed, shared application component that delivers context-appropriate, evidence-based guidance at the point of clinical decision-making by applying computable clinical rules and knowledge artefacts to person-specific health data.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Computable Decision Support Engine, 1 What It Is). Abbreviated CDSE throughout the RA draft. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-business-services-components-computable-decision-support-engi-53a0a5.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "supplier-registry",
@@ -1134,7 +1158,10 @@
       "definition": "The Supplier Registry is the authoritative master data source for identity, classification, and regulatory status of suppliers engaged in the health supply chain — including manufacturers, distributors, wholesalers, third-party logistics providers, importers, and procurement agents.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Supplier Registry, 1 What It Is). A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-business-services-components-supplier-registry-c1132a.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "benefits-package-registry",
@@ -1146,7 +1173,10 @@
       "definition": "The Benefits Package Registry is the national authoritative record of all health benefit packages offered within a country's health financing ecosystem. It holds the definitive description of what each package covers, who is eligible in general terms, which scheme or schemes offer it, and under what rules and conditions benefits may be accessed.",
       "scopeNote": "Verbatim lead sentences from Appendix C (Benefits Package Registry, 1 What It Is). Abbreviated BPR in the Appendix C comparison table. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-business-services-components-benefits-package-registry-d5d162.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "contract-and-benefits-management-system",
@@ -1170,7 +1200,10 @@
       "definition": "The Health Management Information System is a governed, shared application component responsible for the systematic collection, aggregation, analysis, and dissemination of population-level and facility-level health data to support health system planning, performance monitoring, resource allocation, and policy decision-making.",
       "scopeNote": "Lead sentence from Appendix C (Health Management Information System, 1 What It Is). Abbreviated HMIS throughout the RA draft and downstream Digital Transformation Handbooks. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-business-services-components-health-management-information-sy-9dea8c.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "public-health-surveillance-platform",
@@ -1182,7 +1215,10 @@
       "definition": "The Public Health Surveillance Platform is a governed, shared application component for the systematic, ongoing collection, analysis, interpretation, and dissemination of health data to detect, monitor, and respond to public health threats and events.",
       "scopeNote": "Verbatim lead sentence from Appendix C (Public Health Surveillance Platform, 1 What It Is). Abbreviated PHSP throughout the RA draft. A candidate until the RA editors adopt it through the public review.",
       "source": "folio/dpi-h-ra/appendix/p-c-business-services-components-public-health-surveillance-platf-fdef8d.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "archimate": "ApplicationComponent"
+      }
     },
     {
       "id": "artificial-intelligence",

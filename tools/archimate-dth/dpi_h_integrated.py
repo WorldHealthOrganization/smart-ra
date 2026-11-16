@@ -321,6 +321,25 @@ for k in ("client-registry-for-health", "lifelong-health-record", "health-workfo
           "facility-registry", "product-registry"):
     PROPERTIES[k]["reddhi"] = "true"
 
+# Each Appendix C component names its glossary term (Q-IV-8 A: definitions live in the
+# glossary, long text in the section marked `defines`; core glossary-archimate.ts reads this).
+SKOS_CONCEPTS = {
+    'client-registry-for-health': 'client-registry',
+    'facility-registry': 'health-facility-registry',
+    'health-workforce-registry': 'health-workforce-registry',
+    'product-registry': 'product-registry',
+    'lifelong-health-record': 'lifelong-health-record',
+    'terminology-service': 'terminology-service',
+    'logical-info-model-repo': 'logical-information-model-repository',
+    'computable-decision-support-engine': 'computable-decision-support-engine',
+    'supplier-registry': 'supplier-registry',
+    'benefits-package-registry': 'benefits-package-registry',
+    'hmis': 'health-management-information-system',
+    'ph-surveillance-platform': 'public-health-surveillance-platform',
+}
+for k, term in SKOS_CONCEPTS.items():
+    PROPERTIES.setdefault(k, {})["skosConcept"] = f"dpi-h-ra.glossary.json#{term}"
+
 RELATIONS = [("Aggregation", g, m) for g, ms in MEMBERS.items() for m in ms]
 
 
