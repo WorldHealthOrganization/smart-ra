@@ -1,1 +1,1 @@
-There is a need for solid foundations based on common structures and standards, that are applicable and adaptable to local contexts, to strengthen data and digital infrastructure and architecture. These foundations should promote:
+There is a need for solid foundations based on common structures and standards, that are applicable and adaptable to local contexts, to strengthen data and [digital infrastructure](../folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--digital-infrastructure) and architecture. These foundations should promote:
