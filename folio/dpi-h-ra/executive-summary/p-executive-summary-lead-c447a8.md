@@ -7,7 +7,7 @@
 - Introduction of additional components not previously described as part of a digital health architecture — Logical Information Model Repository (LIMR), Computable Decision Support Engine, Benefits Package Registry, Public Health Surveillance Platform, Supplier Registry
 - Reconceptualisation of the shared health record as the **Lifelong Health Record**, a capability-based framing that reflects the person-centred, longitudinal nature of health information, without prescribing how countries implement it
 - Introduction of a **Semantic Governance Infrastructure**
-- Introduction of SMART Guidelines as a standard for computable clinical and health content that connect clinical guidelines to DPI-H
+- Introduction of [SMART Guidelines](../folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--smart-guidelines) as a standard for computable clinical and health content that connect clinical guidelines to DPI-H
 - A structured framework and methodology that countries can adopt and adapt to their context to make architecture decisions
 - Detailed ArchiMate models to support technical teams’ implementation
 - A testable architecture, whose structured, machine-readable elements enable conformance to the reference to be verified against published profiles rather than only described.
