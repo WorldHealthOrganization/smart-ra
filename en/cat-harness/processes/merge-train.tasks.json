@@ -1,0 +1,1184 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_MergeTrain",
+ "markers": [
+  {
+   "id": "Task_ReadLive",
+   "name": "Read each queued PR's live facts",
+   "left": 19.06,
+   "top": 19.54,
+   "box": {
+    "left": 13.85,
+    "top": 30.46,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_TakeNext",
+   "name": "Take the next PR in queue order",
+   "left": 29.86,
+   "top": 19.54,
+   "box": {
+    "left": 24.64,
+    "top": 30.46,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_Admit",
+   "name": "Admit it to the train, record the train id",
+   "left": 46.76,
+   "top": 36.21,
+   "box": {
+    "left": 41.55,
+    "top": 47.13,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_HandBack",
+   "name": "Hand it back",
+   "left": 47.84,
+   "top": 21.84,
+   "box": {
+    "left": 42.27,
+    "top": 28.16,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_SiblingFix",
+   "name": "Fix the PR, then re-signal ready",
+   "left": 58.63,
+   "top": 4.6,
+   "box": {
+    "left": 53.06,
+    "top": 10.92,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_ChecksPresent",
+   "name": "Find members with no CI on their head",
+   "left": 38.49,
+   "top": 55.17,
+   "box": {
+    "left": 33.27,
+    "top": 66.09,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_MergeMembers",
+   "name": "Merge each member onto the base",
+   "left": 50,
+   "top": 55.17,
+   "box": {
+    "left": 44.78,
+    "top": 66.09,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_Gates",
+   "name": "Run the gate set on the train",
+   "left": 69.06,
+   "top": 55.17,
+   "box": {
+    "left": 63.85,
+    "top": 66.09,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_RetryFlaky",
+   "name": "Retry a declared-flaky gate once",
+   "left": 85.61,
+   "top": 65.52,
+   "box": {
+    "left": 80.4,
+    "top": 76.44,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_Attribute",
+   "name": "Attribute the failure: each member's own CI first",
+   "left": 96.76,
+   "top": 38.51,
+   "box": {
+    "left": 91.19,
+    "top": 44.83,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_Bisect",
+   "name": "Bisect the train",
+   "left": 86.69,
+   "top": 19.54,
+   "box": {
+    "left": 81.47,
+    "top": 30.46,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_Eject",
+   "name": "Eject the culprit, record why",
+   "left": 77.34,
+   "top": 38.51,
+   "box": {
+    "left": 71.76,
+    "top": 44.83,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_EjectHandBack",
+   "name": "Hand the culprit back",
+   "left": 66.19,
+   "top": 24.71,
+   "box": {
+    "left": 60.25,
+    "top": 31.03,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Call_MergeToMain",
+   "name": "Land each member",
+   "left": 96.76,
+   "top": 19.54,
+   "box": {
+    "left": 91.55,
+    "top": 30.46,
+    "width": 1.73,
+    "height": 2.76
+   }
+  },
+  {
+   "id": "Task_Override",
+   "name": "Place it by hand, with a reason",
+   "left": 20.14,
+   "top": 83.91,
+   "box": {
+    "left": 14.93,
+    "top": 94.83,
+    "width": 1.73,
+    "height": 2.76
+   }
+  }
+ ],
+ "processHref": "merge-train.html",
+ "tasks": {
+  "Task_ReadLive": {
+   "id": "Task_ReadLive",
+   "name": "Read each queued PR's live facts",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_ReadLive",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_TakeNext": {
+   "id": "Task_TakeNext",
+   "name": "Take the next PR in queue order",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_TakeNext",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_Admit": {
+   "id": "Task_Admit",
+   "name": "Admit it to the train, record the train id",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_Admit",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Call_HandBack": {
+   "id": "Call_HandBack",
+   "name": "Hand it back",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_HandBack",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-conflict-patterns",
+     "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+    }
+   ],
+   "calls": {
+    "name": "A refused merge-train member",
+    "href": "merge-refusal.html",
+    "diagram": "merge-refusal.html"
+   },
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_SiblingFix": {
+   "id": "Task_SiblingFix",
+   "name": "Fix the PR, then re-signal ready",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_SiblingFix",
+   "lane": "Sibling session",
+   "laneHref": "merge-train.html#lane-Lane_Sibling",
+   "skills": [
+    {
+     "name": "bean-coordination",
+     "href": "../../../en/cat-harness/processes/skills/bean-coordination.html"
+    }
+   ],
+   "role": {
+    "name": "sibling-session",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-sibling-session",
+    "title": "Sibling session",
+    "skills": [
+     {
+      "name": "bean-coordination",
+      "href": "../../../en/cat-harness/processes/skills/bean-coordination.html"
+     }
+    ]
+   }
+  },
+  "Call_ChecksPresent": {
+   "id": "Call_ChecksPresent",
+   "name": "Find members with no CI on their head",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_ChecksPresent",
+   "lane": "Build pipeline",
+   "laneHref": "merge-train.html#lane-Lane_Pipeline",
+   "skills": [
+    {
+     "name": "ci-health",
+     "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+    }
+   ],
+   "calls": {
+    "name": "Which open pull requests have no CI run on their head?",
+    "href": "pr-checks-present.html",
+    "diagram": "pr-checks-present.html"
+   },
+   "role": {
+    "name": "build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "title": "Build pipeline",
+    "skills": [
+     {
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+     },
+     {
+      "name": "compiled-artefact-cache",
+      "href": "../../../en/cat-harness/processes/skills/compiled-artefact-cache.html"
+     },
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "content-validate",
+      "href": "../../../en/cat-harness/processes/skills/content-validate.html"
+     },
+     {
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+     },
+     {
+      "name": "harness-projections",
+      "href": "../../../en/cat-harness/processes/skills/harness-projections.html"
+     },
+     {
+      "name": "kg-separation",
+      "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
+     },
+     {
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+     },
+     {
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+     },
+     {
+      "name": "remote-mount",
+      "href": "../../../en/cat-harness/processes/skills/remote-mount.html"
+     },
+     {
+      "name": "render-kg-to-cdn",
+      "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
+     },
+     {
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+     },
+     {
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
+     }
+    ]
+   }
+  },
+  "Call_MergeMembers": {
+   "id": "Call_MergeMembers",
+   "name": "Merge each member onto the base",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_MergeMembers",
+   "lane": "Build pipeline",
+   "laneHref": "merge-train.html#lane-Lane_Pipeline",
+   "skills": [
+    {
+     "name": "prepare-merge",
+     "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+    }
+   ],
+   "calls": {
+    "name": "Merge the base branch in",
+    "href": "merge-base.html",
+    "diagram": "merge-base.html"
+   },
+   "role": {
+    "name": "build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "title": "Build pipeline",
+    "skills": [
+     {
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+     },
+     {
+      "name": "compiled-artefact-cache",
+      "href": "../../../en/cat-harness/processes/skills/compiled-artefact-cache.html"
+     },
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "content-validate",
+      "href": "../../../en/cat-harness/processes/skills/content-validate.html"
+     },
+     {
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+     },
+     {
+      "name": "harness-projections",
+      "href": "../../../en/cat-harness/processes/skills/harness-projections.html"
+     },
+     {
+      "name": "kg-separation",
+      "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
+     },
+     {
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+     },
+     {
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+     },
+     {
+      "name": "remote-mount",
+      "href": "../../../en/cat-harness/processes/skills/remote-mount.html"
+     },
+     {
+      "name": "render-kg-to-cdn",
+      "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
+     },
+     {
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+     },
+     {
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
+     }
+    ]
+   }
+  },
+  "Call_Gates": {
+   "id": "Call_Gates",
+   "name": "Run the gate set on the train",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_Gates",
+   "lane": "Build pipeline",
+   "laneHref": "merge-train.html#lane-Lane_Pipeline",
+   "skills": [
+    {
+     "name": "platform-gates",
+     "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+    }
+   ],
+   "calls": {
+    "name": "The gates a change must pass before it can merge",
+    "href": "code-quality-gates.html",
+    "diagram": "code-quality-gates.html"
+   },
+   "role": {
+    "name": "build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "title": "Build pipeline",
+    "skills": [
+     {
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+     },
+     {
+      "name": "compiled-artefact-cache",
+      "href": "../../../en/cat-harness/processes/skills/compiled-artefact-cache.html"
+     },
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "content-validate",
+      "href": "../../../en/cat-harness/processes/skills/content-validate.html"
+     },
+     {
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+     },
+     {
+      "name": "harness-projections",
+      "href": "../../../en/cat-harness/processes/skills/harness-projections.html"
+     },
+     {
+      "name": "kg-separation",
+      "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
+     },
+     {
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+     },
+     {
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+     },
+     {
+      "name": "remote-mount",
+      "href": "../../../en/cat-harness/processes/skills/remote-mount.html"
+     },
+     {
+      "name": "render-kg-to-cdn",
+      "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
+     },
+     {
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+     },
+     {
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
+     }
+    ]
+   }
+  },
+  "Task_RetryFlaky": {
+   "id": "Task_RetryFlaky",
+   "name": "Retry a declared-flaky gate once",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_RetryFlaky",
+   "lane": "Build pipeline",
+   "laneHref": "merge-train.html#lane-Lane_Pipeline",
+   "skills": [
+    {
+     "name": "ci-health",
+     "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+    }
+   ],
+   "role": {
+    "name": "build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "title": "Build pipeline",
+    "skills": [
+     {
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+     },
+     {
+      "name": "compiled-artefact-cache",
+      "href": "../../../en/cat-harness/processes/skills/compiled-artefact-cache.html"
+     },
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "content-validate",
+      "href": "../../../en/cat-harness/processes/skills/content-validate.html"
+     },
+     {
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+     },
+     {
+      "name": "harness-projections",
+      "href": "../../../en/cat-harness/processes/skills/harness-projections.html"
+     },
+     {
+      "name": "kg-separation",
+      "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
+     },
+     {
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+     },
+     {
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+     },
+     {
+      "name": "remote-mount",
+      "href": "../../../en/cat-harness/processes/skills/remote-mount.html"
+     },
+     {
+      "name": "render-kg-to-cdn",
+      "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
+     },
+     {
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+     },
+     {
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
+     }
+    ]
+   }
+  },
+  "Task_Attribute": {
+   "id": "Task_Attribute",
+   "name": "Attribute the failure: each member's own CI first",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_Attribute",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_Bisect": {
+   "id": "Task_Bisect",
+   "name": "Bisect the train",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_Bisect",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_Eject": {
+   "id": "Task_Eject",
+   "name": "Eject the culprit, record why",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_Eject",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-queue",
+     "href": "../../../en/cat-harness/processes/skills/merge-queue.html",
+     "methodologies": [
+      {
+       "name": "agentic-pre-merge-review"
+      }
+     ]
+    }
+   ],
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Call_EjectHandBack": {
+   "id": "Call_EjectHandBack",
+   "name": "Hand the culprit back",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_EjectHandBack",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-conflict-patterns",
+     "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+    }
+   ],
+   "calls": {
+    "name": "A refused merge-train member",
+    "href": "merge-refusal.html",
+    "diagram": "merge-refusal.html"
+   },
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Call_MergeToMain": {
+   "id": "Call_MergeToMain",
+   "name": "Land each member",
+   "type": "bpmn:CallActivity",
+   "stepHref": "merge-train.html#step-Call_MergeToMain",
+   "lane": "Merge steward",
+   "laneHref": "merge-train.html#lane-Lane_Steward",
+   "skills": [
+    {
+     "name": "merge-to-main",
+     "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+    }
+   ],
+   "calls": {
+    "name": "Merge to main",
+    "href": "merge-to-main.html",
+    "diagram": "merge-to-main.html"
+   },
+   "role": {
+    "name": "merge-steward",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-merge-steward",
+    "title": "Merge steward",
+    "skills": [
+     {
+      "name": "merge-conflict-patterns",
+      "href": "../../../en/cat-harness/processes/skills/merge-conflict-patterns.html"
+     },
+     {
+      "name": "merge-manager-watcher",
+      "href": "../../../en/cat-harness/processes/skills/merge-manager-watcher.html"
+     },
+     {
+      "name": "merge-queue",
+      "href": "../../../en/cat-harness/processes/skills/merge-queue.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+     },
+     {
+      "name": "ref-stewardship",
+      "href": "../../../en/cat-harness/processes/skills/ref-stewardship.html"
+     },
+     {
+      "name": "saturation-meta-merge",
+      "href": "../../../en/cat-harness/processes/skills/saturation-meta-merge.html"
+     }
+    ]
+   }
+  },
+  "Task_Override": {
+   "id": "Task_Override",
+   "name": "Place it by hand, with a reason",
+   "type": "bpmn:Task",
+   "stepHref": "merge-train.html#step-Task_Override",
+   "lane": "Owner",
+   "laneHref": "merge-train.html#lane-Lane_Owner",
+   "skills": [
+    {
+     "name": "interaction-modality",
+     "href": "../../../en/cat-harness/processes/skills/interaction-modality.html"
+    }
+   ],
+   "role": {
+    "name": "user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
+    "title": "User",
+    "skills": [
+     {
+      "name": "adjudication",
+      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+     },
+     {
+      "name": "agent-permissions",
+      "href": "../../../en/cat-harness/processes/skills/agent-permissions.html"
+     },
+     {
+      "name": "dispatch-agent",
+      "href": "../../../en/cat-harness/processes/skills/dispatch-agent.html"
+     },
+     {
+      "name": "folio-init",
+      "href": "../../../en/cat-harness/processes/skills/folio-init.html"
+     },
+     {
+      "name": "getting-started",
+      "href": "../../../en/cat-harness/processes/skills/getting-started.html"
+     },
+     {
+      "name": "interaction-modality",
+      "href": "../../../en/cat-harness/processes/skills/interaction-modality.html"
+     },
+     {
+      "name": "kg-affordances",
+      "href": "../../../en/cat-harness/processes/skills/kg-affordances.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "merge-to-main",
+      "href": "../../../en/cat-harness/processes/skills/merge-to-main.html"
+     },
+     {
+      "name": "repo-conversion",
+      "href": "../../../en/cat-harness/processes/skills/repo-conversion.html"
+     }
+    ]
+   }
+  }
+ }
+}

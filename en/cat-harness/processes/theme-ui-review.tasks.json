@@ -1,0 +1,402 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_ThemeUIReview",
+ "markers": [
+  {
+   "id": "A_Inventory",
+   "name": "Inventory the ingested assets",
+   "left": 19.85,
+   "top": 57.14,
+   "box": {
+    "left": 14.52,
+    "top": 84.29,
+    "width": 1.76,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Accessibility",
+   "name": "Accessibility: measure, do not assert",
+   "left": 31.25,
+   "top": 57.14,
+   "box": {
+    "left": 25.92,
+    "top": 84.29,
+    "width": 1.76,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Branding",
+   "name": "Branding: does it read as this layer?",
+   "left": 42.65,
+   "top": 57.14,
+   "box": {
+    "left": 37.32,
+    "top": 84.29,
+    "width": 1.76,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Locales",
+   "name": "Languages: extracted, rendered, and RTL",
+   "left": 54.04,
+   "top": 57.14,
+   "box": {
+    "left": 48.71,
+    "top": 84.29,
+    "width": 1.76,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "R_Judge",
+   "name": "Judge the assets in their design",
+   "left": 66.54,
+   "top": 8.57,
+   "box": {
+    "left": 61.21,
+    "top": 35.71,
+    "width": 1.76,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_RaiseFindings",
+   "name": "Raise findings before the assets land",
+   "left": 87.13,
+   "top": 57.14,
+   "box": {
+    "left": 81.8,
+    "top": 84.29,
+    "width": 1.76,
+    "height": 6.86
+   }
+  }
+ ],
+ "processHref": "theme-ui-review.html",
+ "tasks": {
+  "A_Inventory": {
+   "id": "A_Inventory",
+   "name": "Inventory the ingested assets",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-A_Inventory",
+   "lane": "Agent",
+   "laneHref": "theme-ui-review.html#lane-Lane_Agent",
+   "skills": [
+    {
+     "name": "theme-ui-review",
+     "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+    }
+   ],
+   "role": {
+    "name": "ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "title": "Ingestion engine",
+    "skills": [
+     {
+      "name": "asset-extraction",
+      "href": "../../../en/cat-harness/processes/skills/asset-extraction.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "library-ingestion",
+      "href": "../../../en/cat-harness/processes/skills/library-ingestion.html"
+     },
+     {
+      "name": "materialize-on-demand",
+      "href": "../../../en/cat-harness/processes/skills/materialize-on-demand.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "theme-art-intake",
+      "href": "../../../en/cat-harness/processes/skills/theme-art-intake.html"
+     },
+     {
+      "name": "theme-ui-review",
+      "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+     },
+     {
+      "name": "upload-naming",
+      "href": "../../../en/cat-harness/processes/skills/upload-naming.html"
+     }
+    ]
+   }
+  },
+  "A_Accessibility": {
+   "id": "A_Accessibility",
+   "name": "Accessibility: measure, do not assert",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-A_Accessibility",
+   "lane": "Agent",
+   "laneHref": "theme-ui-review.html#lane-Lane_Agent",
+   "skills": [
+    {
+     "name": "theme-ui-review",
+     "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+    }
+   ],
+   "role": {
+    "name": "ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "title": "Ingestion engine",
+    "skills": [
+     {
+      "name": "asset-extraction",
+      "href": "../../../en/cat-harness/processes/skills/asset-extraction.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "library-ingestion",
+      "href": "../../../en/cat-harness/processes/skills/library-ingestion.html"
+     },
+     {
+      "name": "materialize-on-demand",
+      "href": "../../../en/cat-harness/processes/skills/materialize-on-demand.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "theme-art-intake",
+      "href": "../../../en/cat-harness/processes/skills/theme-art-intake.html"
+     },
+     {
+      "name": "theme-ui-review",
+      "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+     },
+     {
+      "name": "upload-naming",
+      "href": "../../../en/cat-harness/processes/skills/upload-naming.html"
+     }
+    ]
+   }
+  },
+  "A_Branding": {
+   "id": "A_Branding",
+   "name": "Branding: does it read as this layer?",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-A_Branding",
+   "lane": "Agent",
+   "laneHref": "theme-ui-review.html#lane-Lane_Agent",
+   "skills": [
+    {
+     "name": "theme-ui-review",
+     "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+    }
+   ],
+   "role": {
+    "name": "ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "title": "Ingestion engine",
+    "skills": [
+     {
+      "name": "asset-extraction",
+      "href": "../../../en/cat-harness/processes/skills/asset-extraction.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "library-ingestion",
+      "href": "../../../en/cat-harness/processes/skills/library-ingestion.html"
+     },
+     {
+      "name": "materialize-on-demand",
+      "href": "../../../en/cat-harness/processes/skills/materialize-on-demand.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "theme-art-intake",
+      "href": "../../../en/cat-harness/processes/skills/theme-art-intake.html"
+     },
+     {
+      "name": "theme-ui-review",
+      "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+     },
+     {
+      "name": "upload-naming",
+      "href": "../../../en/cat-harness/processes/skills/upload-naming.html"
+     }
+    ]
+   }
+  },
+  "A_Locales": {
+   "id": "A_Locales",
+   "name": "Languages: extracted, rendered, and RTL",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-A_Locales",
+   "lane": "Agent",
+   "laneHref": "theme-ui-review.html#lane-Lane_Agent",
+   "skills": [
+    {
+     "name": "theme-ui-review",
+     "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+    }
+   ],
+   "role": {
+    "name": "ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "title": "Ingestion engine",
+    "skills": [
+     {
+      "name": "asset-extraction",
+      "href": "../../../en/cat-harness/processes/skills/asset-extraction.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "library-ingestion",
+      "href": "../../../en/cat-harness/processes/skills/library-ingestion.html"
+     },
+     {
+      "name": "materialize-on-demand",
+      "href": "../../../en/cat-harness/processes/skills/materialize-on-demand.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "theme-art-intake",
+      "href": "../../../en/cat-harness/processes/skills/theme-art-intake.html"
+     },
+     {
+      "name": "theme-ui-review",
+      "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+     },
+     {
+      "name": "upload-naming",
+      "href": "../../../en/cat-harness/processes/skills/upload-naming.html"
+     }
+    ]
+   }
+  },
+  "R_Judge": {
+   "id": "R_Judge",
+   "name": "Judge the assets in their design",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-R_Judge",
+   "lane": "Reviewer",
+   "laneHref": "theme-ui-review.html#lane-Lane_Reviewer",
+   "skills": [],
+   "role": {
+    "name": "reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "title": "Reviewer / SME",
+    "skills": [
+     {
+      "name": "adjudication",
+      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+     },
+     {
+      "name": "content-feedback",
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+     },
+     {
+      "name": "content-review",
+      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+     },
+     {
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+     },
+     {
+      "name": "narrative-asserts-code",
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+     },
+     {
+      "name": "rendered-impact",
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+     },
+     {
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "visual-diff",
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+     },
+     {
+      "name": "voice-overlay-review",
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     }
+    ]
+   }
+  },
+  "A_RaiseFindings": {
+   "id": "A_RaiseFindings",
+   "name": "Raise findings before the assets land",
+   "type": "bpmn:Task",
+   "stepHref": "theme-ui-review.html#step-A_RaiseFindings",
+   "lane": "Agent",
+   "laneHref": "theme-ui-review.html#lane-Lane_Agent",
+   "skills": [
+    {
+     "name": "theme-ui-review",
+     "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+    }
+   ],
+   "role": {
+    "name": "ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "title": "Ingestion engine",
+    "skills": [
+     {
+      "name": "asset-extraction",
+      "href": "../../../en/cat-harness/processes/skills/asset-extraction.html"
+     },
+     {
+      "name": "kg-subscription",
+      "href": "../../../en/cat-harness/processes/skills/kg-subscription.html"
+     },
+     {
+      "name": "library-ingestion",
+      "href": "../../../en/cat-harness/processes/skills/library-ingestion.html"
+     },
+     {
+      "name": "materialize-on-demand",
+      "href": "../../../en/cat-harness/processes/skills/materialize-on-demand.html"
+     },
+     {
+      "name": "materialize-remote",
+      "href": "../../../en/cat-harness/processes/skills/materialize-remote.html"
+     },
+     {
+      "name": "theme-art-intake",
+      "href": "../../../en/cat-harness/processes/skills/theme-art-intake.html"
+     },
+     {
+      "name": "theme-ui-review",
+      "href": "../../../en/cat-harness/processes/skills/theme-ui-review.html"
+     },
+     {
+      "name": "upload-naming",
+      "href": "../../../en/cat-harness/processes/skills/upload-naming.html"
+     }
+    ]
+   }
+  }
+ }
+}

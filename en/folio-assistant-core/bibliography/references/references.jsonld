@@ -1,0 +1,1228 @@
+{
+  "@context": {
+    "@base": "https://litlfred.github.io/folio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms:source": {
+      "@type": "@id"
+    },
+    "dcterms:hasVersion": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "references/full-stac-2023",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "dcterms:issued": "2023",
+      "dcterms:isPartOf": "Oxford Open Digital Health",
+      "bibo:doi": "10.1093/oodh/oqad018",
+      "dcterms:identifier": "https://doi.org/10.1093/oodh/oqad018"
+    },
+    {
+      "@id": "references/ahrq-electronic-medical-record-systems",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Electronic medical record systems",
+      "dcterms:creator": [
+        "Agency for Healthcare Research and Quality"
+      ],
+      "dcterms:identifier": "https://digital.ahrq.gov/electronic-medical-record-systems"
+    },
+    {
+      "@id": "references/au-my-health-record",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "My Health Record",
+      "dcterms:creator": [
+        "Australian Digital Health Agency"
+      ],
+      "dcterms:identifier": "https://www.myhealthrecord.gov.au/"
+    },
+    {
+      "@id": "references/bahmni",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Bahmni",
+      "dcterms:identifier": "https://www.bahmni.org/"
+    },
+    {
+      "@id": "references/cgdev-supply-chain-traceability",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Improving global health supply chains through traceability",
+      "dcterms:creator": [
+        "Center for Global Development"
+      ],
+      "dcterms:identifier": "https://www.cgdev.org/sites/default/files/improving-global-health-supply-chains-through-traceability.pdf"
+    },
+    {
+      "@id": "references/cdc-cdsi",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Clinical Decision Support for Immunization (CDSi)",
+      "dcterms:creator": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "dcterms:identifier": "https://www.cdc.gov/vaccines/programs/iis/cdsi.html"
+    },
+    {
+      "@id": "references/cdc-epi-info",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Epi Info",
+      "dcterms:creator": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "dcterms:identifier": "https://www.cdc.gov/epiinfo/"
+    },
+    {
+      "@id": "references/cdc-nssp",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "National Syndromic Surveillance Program (NSSP)",
+      "dcterms:creator": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "dcterms:identifier": "https://www.cdc.gov/nssp/"
+    },
+    {
+      "@id": "references/cms-ehealth-records",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "E-health records",
+      "dcterms:creator": [
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "dcterms:identifier": "https://www.cms.gov/priorities/key-initiatives/e-health/records"
+    },
+    {
+      "@id": "references/clark-2025-dpi-and-development",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Digital Public Infrastructure and Development",
+      "dcterms:creator": [
+        "Clark, J",
+        "Marin, G",
+        "Ardic Alper, OP",
+        "Galicia Rabadan, GA"
+      ],
+      "dcterms:publisher": "World Bank",
+      "bibo:volume": "1",
+      "dcterms:identifier": "https://documents1.worldbank.org/curated/en/099031025172027713/pdf/P505739-84c5073b-9d40-4b83-a211-98b2263e87dd.pdf"
+    },
+    {
+      "@id": "references/coe-cets-225-ai-convention",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+      "dcterms:creator": [
+        "Council of Europe"
+      ],
+      "dcterms:issued": "2024-09-05",
+      "dcterms:identifier": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+    },
+    {
+      "@id": "references/ontoserver",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Ontoserver",
+      "dcterms:creator": [
+        "CSIRO"
+      ],
+      "dcterms:identifier": "https://ontoserver.csiro.au/"
+    },
+    {
+      "@id": "references/dhis2",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "DHIS2",
+      "dcterms:identifier": "https://dhis2.org/"
+    },
+    {
+      "@id": "references/ehn-guidelines-eprescriptions",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "eHealth Network guidelines on ePrescriptions",
+      "dcterms:creator": [
+        "eHealth Network"
+      ],
+      "dcterms:identifier": "https://health.ec.europa.eu/document/download/b744f30b-a05e-4b9c-9630-ad96ebd0b2f0_en?filename=ehn_guidelines_eprescriptions_en.pdf"
+    },
+    {
+      "@id": "references/ehn-guidelines-patient-summary",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "eHealth Network guidelines on the Patient Summary",
+      "dcterms:creator": [
+        "eHealth Network"
+      ],
+      "dcterms:identifier": "https://health.ec.europa.eu/document/download/e020f311-c35b-45ae-ba3d-03212b57fa65_en?filename=ehn_guidelines_patientsummary_en.pdf"
+    },
+    {
+      "@id": "references/ehrbase",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "EHRbase",
+      "dcterms:identifier": "https://ehrbase.org/"
+    },
+    {
+      "@id": "references/ecdc",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "European Centre for Disease Prevention and Control",
+      "dcterms:identifier": "https://www.ecdc.europa.eu/"
+    },
+    {
+      "@id": "references/ec-cross-border-health-services",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Electronic cross-border health services",
+      "dcterms:creator": [
+        "European Commission"
+      ],
+      "dcterms:identifier": "https://health.ec.europa.eu/ehealth-digital-health-and-care/digital-health-and-care/electronic-cross-border-health-services_en"
+    },
+    {
+      "@id": "references/ec-interoperability-test-bed",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Interoperability Test Bed",
+      "dcterms:creator": [
+        "European Commission, Interoperable Europe"
+      ],
+      "dcterms:identifier": "https://interoperable-europe.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed"
+    },
+    {
+      "@id": "references/eu-2024-1689-ai-act",
+      "@type": [
+        "fabio:Work",
+        "bibo:Legislation"
+      ],
+      "dcterms:title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "dcterms:creator": [
+        "European Parliament and Council of the European Union"
+      ],
+      "dcterms:issued": "2024-07-12",
+      "dcterms:isPartOf": "Official Journal of the European Union, L series",
+      "dcterms:identifier": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "@id": "references/eu-2025-327-ehds",
+      "@type": [
+        "fabio:Work",
+        "bibo:Legislation"
+      ],
+      "dcterms:title": "Regulation (EU) 2025/327 of the European Parliament and of the Council of 11 February 2025 on the European Health Data Space and amending Directive 2011/24/EU and Regulation (EU) 2024/2847",
+      "dcterms:creator": [
+        "European Parliament and Council of the European Union"
+      ],
+      "dcterms:issued": "2025-03-05",
+      "dcterms:isPartOf": "Official Journal of the European Union",
+      "dcterms:identifier": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+    },
+    {
+      "@id": "references/exemplars-cowin-india",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "CoWIN in India",
+      "dcterms:creator": [
+        "Exemplars in Global Health"
+      ],
+      "dcterms:publisher": "Gates Ventures / Exemplars in Global Health",
+      "dcterms:identifier": "https://www.exemplars.health/emerging-topics/epidemic-preparedness-and-response/digital-health-tools/cowin-in-india"
+    },
+    {
+      "@id": "references/fetter-2025-state-of-dpi",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "2025 State of Digital Public Infrastructure Report",
+      "dcterms:creator": [
+        "Fetter, J",
+        "Rao, K",
+        "Eaves, D"
+      ],
+      "dcterms:issued": "2025",
+      "dcterms:publisher": "UCL Institute for Innovation and Public Purpose",
+      "dcterms:identifier": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/2025-state-digital-public-infrastructure-report"
+    },
+    {
+      "@id": "references/firely",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Firely",
+      "dcterms:identifier": "https://fire.ly/"
+    },
+    {
+      "@id": "references/g20-2023-digital-economy-ministers",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "G20 Digital Economy Ministers' Meeting Outcome Document and Chair's Summary, Bengaluru, India, 19 August 2023",
+      "dcterms:creator": [
+        "G20 Digital Economy Working Group, India Presidency"
+      ],
+      "dcterms:issued": "2023",
+      "dcterms:identifier": "https://g7g20-documents.org/database/document/2023-g20-india-sherpa-track-digital-economy-ministers-ministers-language-g20-digital-economy-ministers-meeting-outcome-document-and-chair-summary"
+    },
+    {
+      "@id": "references/salut-publica-catalunya",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Salut Pública",
+      "dcterms:creator": [
+        "Generalitat de Catalunya"
+      ],
+      "dcterms:identifier": "https://salutpublica.gencat.cat/"
+    },
+    {
+      "@id": "references/es-ministerio-sanidad",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Ministerio de Sanidad",
+      "dcterms:creator": [
+        "Government of Spain, Ministerio de Sanidad"
+      ],
+      "dcterms:identifier": "https://www.sanidad.gob.es/"
+    },
+    {
+      "@id": "references/greenhalgh-2017-beyond-adoption",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies",
+      "dcterms:creator": [
+        "Greenhalgh, T",
+        "et al."
+      ],
+      "dcterms:issued": "2017",
+      "dcterms:isPartOf": "Journal of Medical Internet Research",
+      "bibo:volume": "19",
+      "bibo:issue": "11",
+      "bibo:pages": "e367"
+    },
+    {
+      "@id": "references/gs1-traceability-medicines",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Implementation of GS1 standards for traceability of medicines in the healthcare supply chain",
+      "dcterms:creator": [
+        "GS1 Belgium & Luxembourg"
+      ],
+      "dcterms:identifier": "https://www.gs1belu.org/sites/gs1belu/files/2020-07/20191029_implementation_gs1_standards_traceability_medicines_hc_supply_chain_v20_0.pdf"
+    },
+    {
+      "@id": "references/hapi-fhir",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "HAPI FHIR",
+      "dcterms:identifier": "https://hapifhir.io/"
+    },
+    {
+      "@id": "references/hardin-1968-tragedy-commons",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "The Tragedy of the Commons",
+      "dcterms:creator": [
+        "Hardin, G"
+      ],
+      "dcterms:issued": "1968",
+      "dcterms:isPartOf": "Science",
+      "bibo:volume": "162",
+      "bibo:issue": "3859",
+      "bibo:pages": "1243–1248"
+    },
+    {
+      "@id": "references/healthgeolab-common-geo-registry",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Guidance on the Common Geo-registry",
+      "dcterms:creator": [
+        "Health GeoLab"
+      ],
+      "dcterms:identifier": "https://healthgeolab.net/DOCUMENTS/Guidance_Common_Geo-registry_Ve2.pdf"
+    },
+    {
+      "@id": "references/cds-hooks",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "CDS Hooks",
+      "dcterms:creator": [
+        "HL7 International"
+      ],
+      "dcterms:identifier": "https://cds-hooks.org/"
+    },
+    {
+      "@id": "references/hl7-cql",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Clinical Quality Language (CQL)",
+      "dcterms:creator": [
+        "HL7 International"
+      ],
+      "dcterms:identifier": "https://cql.hl7.org/"
+    },
+    {
+      "@id": "references/tx-fhir-org",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "tx.fhir.org",
+      "dcterms:creator": [
+        "HL7 International"
+      ],
+      "dcterms:identifier": "https://tx.fhir.org/"
+    },
+    {
+      "@id": "references/hl7-fhir-r5",
+      "@type": [
+        "fabio:Work",
+        "bibo:Standard"
+      ],
+      "dcterms:title": "HL7 FHIR Release 5",
+      "dcterms:creator": [
+        "HL7 International"
+      ],
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "Health Level Seven International",
+      "dcterms:identifier": "https://hl7.org/fhir/"
+    },
+    {
+      "@id": "references/huang-2017-beyond-pilotitis",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Beyond pilotitis: taking digital health interventions to the national level in China and Uganda",
+      "dcterms:creator": [
+        "Huang, F",
+        "Blaschke, S",
+        "Lucas, H"
+      ],
+      "dcterms:issued": "2017",
+      "dcterms:isPartOf": "Globalization and Health",
+      "bibo:volume": "13",
+      "bibo:pages": "49"
+    },
+    {
+      "@id": "references/ibm-interoperability-healthcare",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "What is interoperability in healthcare?",
+      "dcterms:creator": [
+        "IBM"
+      ],
+      "dcterms:identifier": "https://www.ibm.com/think/topics/interoperability-in-healthcare"
+    },
+    {
+      "@id": "references/inglis-humphrey-2022-nhs-digital-academy",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "The NHS Digital Academy Digital Health Leadership Programme",
+      "dcterms:creator": [
+        "Inglis Humphrey, W",
+        "Smithies, A",
+        "Prestt, J",
+        "Fletcher, M",
+        "Cresswell, K"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "IOS Press",
+      "dcterms:isPartOf": "Digital Professionalism in Health and Care: Developing the Workforce, Building the Future — Proceedings of the EFMI Special Topic Conference 2022 (Studies in Health Technology and Informatics, vol. 298)",
+      "bibo:pages": "24–28",
+      "bibo:doi": "10.3233/SHTI220901",
+      "dcterms:identifier": "https://journals.sagepub.com/doi/epdf/10.3233/SHTI220901"
+    },
+    {
+      "@id": "references/ihip",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Integrated Health Information Platform",
+      "dcterms:identifier": "https://ihip.nhp.gov.in/"
+    },
+    {
+      "@id": "references/jmir-2024-e58933",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:issued": "2024",
+      "dcterms:isPartOf": "Journal of Medical Internet Research",
+      "bibo:pages": "e58933",
+      "dcterms:identifier": "https://www.jmir.org/2024/1/e58933"
+    },
+    {
+      "@id": "references/karippacheril-2024-social-protection-playbook",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Playbook on Digital Social Protection Delivery Systems: Towards Dynamic Inclusion and Interoperability",
+      "dcterms:creator": [
+        "Karippacheril, Tina George",
+        "Alberro Encinas, Luis Iñaki",
+        "Cardenas Martinez, Ana Lucia",
+        "Daly, Conrad",
+        "Suri, Satyajit"
+      ],
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "World Bank",
+      "dcterms:identifier": "http://hdl.handle.net/10986/41527"
+    },
+    {
+      "@id": "references/labrique-2018-best-practices-scaling",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Best practices in scaling digital health in low and middle income countries",
+      "dcterms:creator": [
+        "Labrique, AB",
+        "et al."
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:isPartOf": "Globalization and Health",
+      "bibo:volume": "14",
+      "bibo:pages": "103"
+    },
+    {
+      "@id": "references/lefevre-2021-road-to-nowhere",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Avoiding the road to nowhere: policy insights on scaling up and sustaining digital health",
+      "dcterms:creator": [
+        "LeFevre, AE",
+        "et al."
+      ],
+      "dcterms:issued": "2021",
+      "dcterms:isPartOf": "Global Policy",
+      "bibo:volume": "12",
+      "bibo:issue": "S6",
+      "bibo:pages": "110–114"
+    },
+    {
+      "@id": "references/nist-sp-500-292",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "NIST Cloud Computing Reference Architecture",
+      "dcterms:creator": [
+        "Liu, F",
+        "Tong, J",
+        "Mao, J",
+        "Bohn, R",
+        "Messina, J",
+        "Badger, M",
+        "Leaf, D"
+      ],
+      "dcterms:issued": "2011",
+      "dcterms:publisher": "National Institute of Standards and Technology",
+      "bibo:doi": "10.6028/NIST.SP.500-292",
+      "dcterms:identifier": "https://doi.org/10.6028/NIST.SP.500-292"
+    },
+    {
+      "@id": "references/magoba-2025-sierra-leone-surveillance",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Digitalizing disease surveillance: experience from Sierra Leone",
+      "dcterms:creator": [
+        "Magoba, Bridget",
+        "Gebru, Gebrekrstos Negash",
+        "Odongo, George S",
+        "Hedberg, Calle",
+        "Elduma, Adel Hussein",
+        "Kanu, Joseph Sam",
+        "Bangura, James",
+        "Squire, James Sylvester",
+        "Foster, Monique A"
+      ],
+      "dcterms:issued": "2025-01",
+      "dcterms:isPartOf": "Health Policy and Planning",
+      "bibo:volume": "40",
+      "bibo:issue": "1",
+      "bibo:pages": "85–96",
+      "bibo:doi": "10.1093/heapol/czae039"
+    },
+    {
+      "@id": "references/metsallik-2018-estonia-ehealth",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Ten Years of the e-Health System in Estonia",
+      "dcterms:creator": [
+        "Metsallik, J",
+        "Ross, P",
+        "Draheim, D",
+        "Piho, G"
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:isPartOf": "CEUR Workshop Proceedings",
+      "bibo:volume": "2336",
+      "dcterms:identifier": "https://ceur-ws.org/Vol-2336/MMHS2018_invited.pdf"
+    },
+    {
+      "@id": "references/mugasha-2025-uganda-eidsr",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Scaling Up and Enhancing the Functionality of the Electronic Integrated Diseases Surveillance and Response System in Uganda, 2020-2022: Description of the Journey, Challenges, and Lessons Learned",
+      "dcterms:creator": [
+        "Mugasha, R",
+        "Kwiringira, A",
+        "Ntono, V",
+        "Nakiire, L",
+        "Ayebazibwe, I",
+        "Kyozira, C",
+        "Muruta, AN",
+        "Kasule, JN",
+        "Byonanebye, DM",
+        "Nanyondo, J",
+        "Walwema, R",
+        "Kakooza, F",
+        "Lamorde, M"
+      ],
+      "dcterms:issued": "2025-04-14",
+      "dcterms:isPartOf": "JMIR Public Health and Surveillance",
+      "bibo:volume": "11",
+      "bibo:pages": "e59783",
+      "bibo:doi": "10.2196/59783"
+    },
+    {
+      "@id": "references/abdm",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Ayushman Bharat Digital Mission",
+      "dcterms:creator": [
+        "National Health Authority, India"
+      ],
+      "dcterms:identifier": "https://abdm.gov.in/"
+    },
+    {
+      "@id": "references/opencr",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Open Client Registry (OpenCR)",
+      "dcterms:identifier": "https://www.openclientregistry.org/"
+    },
+    {
+      "@id": "references/ocl-2024-nhdd-framework",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "NHDD conceptual framework and NHDD use cases",
+      "dcterms:creator": [
+        "Open Concept Lab"
+      ],
+      "dcterms:issued": "2024-08-01",
+      "dcterms:identifier": "https://openconceptlab.org/2024/08/01/nhdd-conceptual-framework-nhdd-use-cases/"
+    },
+    {
+      "@id": "references/opencds",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenCDS",
+      "dcterms:identifier": "https://www.opencds.org/"
+    },
+    {
+      "@id": "references/openehr",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "openEHR",
+      "dcterms:creator": [
+        "openEHR Foundation"
+      ],
+      "dcterms:identifier": "https://www.openehr.org/"
+    },
+    {
+      "@id": "references/openehr-ckm",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "openEHR Clinical Knowledge Manager",
+      "dcterms:creator": [
+        "openEHR Foundation"
+      ],
+      "dcterms:identifier": "https://ckm.openehr.org/ckm/"
+    },
+    {
+      "@id": "references/openelis-global",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenELIS Global",
+      "dcterms:identifier": "https://openelis-global.org/"
+    },
+    {
+      "@id": "references/openhie-architecture-specification",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Open Health Information Exchange (OpenHIE) Specification and Architecture",
+      "dcterms:creator": [
+        "OpenHIE"
+      ],
+      "dcterms:identifier": "https://guides.ohie.org/arch-spec/architecture-specification/overview-of-the-architecture"
+    },
+    {
+      "@id": "references/openhie-fis",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenHIE Finance and Insurance Service (FIS) component specification",
+      "dcterms:creator": [
+        "OpenHIE"
+      ],
+      "dcterms:identifier": "https://guides.ohie.org/arch-spec/openhie-component-specifications-1/openhie-finance-and-insurance-service"
+    },
+    {
+      "@id": "references/openhie-iol",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenHIE Interoperability Layer (IOL) component specification",
+      "dcterms:creator": [
+        "OpenHIE"
+      ],
+      "dcterms:identifier": "https://guides.ohie.org/arch-spec/openhie-component-specifications-1/openhie-interoperability-layer-iol"
+    },
+    {
+      "@id": "references/openhie-terminology-maturity-model-2018",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "OpenHIE terminology management maturity model",
+      "dcterms:creator": [
+        "OpenHIE"
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:identifier": "https://wiki.ohie.org/download/attachments/9437189/Terminology_Services_%20Maturity%20Model-2018.pptx?version=1&modificationDate=1550671780655&api=v2"
+    },
+    {
+      "@id": "references/openmrs",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenMRS",
+      "dcterms:identifier": "https://openmrs.org/"
+    },
+    {
+      "@id": "references/ostrom-1990-governing-commons",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "dcterms:creator": [
+        "Ostrom, E"
+      ],
+      "dcterms:issued": "1990",
+      "dcterms:publisher": "Cambridge University Press"
+    },
+    {
+      "@id": "references/korea-2025-ai-basic-act",
+      "@type": [
+        "fabio:Work",
+        "bibo:Legislation"
+      ],
+      "dcterms:title": "Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act), Act No. 20676",
+      "dcterms:creator": [
+        "Republic of Korea"
+      ],
+      "dcterms:issued": "2025-01-21",
+      "dcterms:identifier": "https://www.law.go.kr"
+    },
+    {
+      "@id": "references/peru-2023-ley-31814",
+      "@type": [
+        "fabio:Work",
+        "bibo:Legislation"
+      ],
+      "dcterms:title": "Ley N.º 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+      "dcterms:creator": [
+        "Republic of Peru"
+      ],
+      "dcterms:issued": "2023-07-05",
+      "dcterms:isPartOf": "Diario Oficial El Peruano",
+      "dcterms:identifier": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf",
+      "dcterms:language": "es"
+    },
+    {
+      "@id": "references/rhie",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Rwanda Health Information Exchange",
+      "dcterms:identifier": "https://www.rhie.rw/"
+    },
+    {
+      "@id": "references/snowstorm",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Snowstorm",
+      "dcterms:creator": [
+        "SNOMED International"
+      ],
+      "dcterms:identifier": "https://github.com/IHTSDO/snowstorm"
+    },
+    {
+      "@id": "references/somsns",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "SOMSNS",
+      "dcterms:identifier": "https://www.somsns.es/som/"
+    },
+    {
+      "@id": "references/sormas",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "SORMAS",
+      "dcterms:identifier": "https://sormas.org/"
+    },
+    {
+      "@id": "references/tehik",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "TEHIK — Health and Welfare Information Systems Centre",
+      "dcterms:identifier": "https://www.tehik.ee/"
+    },
+    {
+      "@id": "references/togaf-9-2",
+      "@type": [
+        "fabio:Work",
+        "bibo:Standard"
+      ],
+      "dcterms:title": "The TOGAF® Standard, Version 9.2",
+      "dcterms:creator": [
+        "The Open Group"
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:publisher": "The Open Group",
+      "dcterms:identifier": "https://pubs.opengroup.org/architecture/togaf9-doc/arch/"
+    },
+    {
+      "@id": "references/archimate-3-2",
+      "@type": [
+        "fabio:Work",
+        "bibo:Standard"
+      ],
+      "dcterms:title": "ArchiMate® 3.2 Specification",
+      "dcterms:creator": [
+        "The Open Group"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "The Open Group"
+    },
+    {
+      "@id": "references/togaf-10",
+      "@type": [
+        "fabio:Work",
+        "bibo:Standard"
+      ],
+      "dcterms:title": "The TOGAF® Standard, 10th Edition",
+      "dcterms:creator": [
+        "The Open Group"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "The Open Group",
+      "dcterms:identifier": "https://www.opengroup.org/togaf"
+    },
+    {
+      "@id": "references/usaid-2020-ghsc-psm-pmdm",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Product Master Data Management Reference Guide",
+      "dcterms:creator": [
+        "USAID Global Health Supply Chain Program – Procurement and Supply Management (GHSC-PSM)"
+      ],
+      "dcterms:issued": "2020",
+      "dcterms:identifier": "https://www.ghsupplychain.org/sites/default/files/2021-11/2021_GHSC-PSM%20PMDM%20Reference%20Guide_Final.pdf"
+    },
+    {
+      "@id": "references/who-smart-guidelines-lancet-2021",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age",
+      "dcterms:issued": "2021",
+      "dcterms:isPartOf": "The Lancet Digital Health"
+    },
+    {
+      "@id": "references/wilton-park-2026-dpi-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Leveraging digital public infrastructure for sustainable health system transformation",
+      "dcterms:creator": [
+        "Wilton Park"
+      ],
+      "dcterms:issued": "2026-02",
+      "dcterms:publisher": "Wilton Park",
+      "dcterms:identifier": "https://www.wiltonpark.org.uk/app/uploads/2026/03/WP3673-Report-web.pdf"
+    },
+    {
+      "@id": "references/who-classifying-health-workers",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Classifying health workers",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/publications/m/item/classifying-health-workers"
+    },
+    {
+      "@id": "references/who-gdhcn",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Global Digital Health Certification Network (GDHCN)",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/publications/m/item/global-digital-health-certification-network-(gdhcn)"
+    },
+    {
+      "@id": "references/who-global-health-facilities-database",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Global health facilities database (questions and answers)",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/news-room/questions-and-answers/item/global-health-facilities-database"
+    },
+    {
+      "@id": "references/who-global-strategy-digital-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Global Strategy on Digital Health 2020-2027",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://iris.who.int/server/api/core/bitstreams/a64d584f-015b-471f-9d86-9ea263cfb516/content"
+    },
+    {
+      "@id": "references/who-go-data",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Go.Data",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/tools/godata"
+    },
+    {
+      "@id": "references/9789241548960-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Handbook for guideline development",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "bibo:isbn": "9789241548960",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/9789241548960"
+    },
+    {
+      "@id": "references/9789241580496-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "International Health Regulations (2005)",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "bibo:isbn": "9789241580496",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/9789241580496"
+    },
+    {
+      "@id": "references/smart-ig-starter-kit-references",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "References section of the SMART IG starter kit",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://worldhealthorganization.github.io/smart-ig-starter-kit/references.html#2"
+    },
+    {
+      "@id": "references/who-smart-guidelines",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "SMART Guidelines",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/teams/digital-health-and-innovation/smart-guidelines"
+    },
+    {
+      "@id": "references/who-data-platforms",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "WHO data platforms",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/data/platforms"
+    },
+    {
+      "@id": "references/who-eis-operational-standards",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "WHO Event Information System (EIS) operational standards",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://iris.who.int/server/api/core/bitstreams/1e38533c-30b3-419e-89b5-94d63b30df6f/content"
+    },
+    {
+      "@id": "references/who-integrated-data-platform",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "WHO Integrated Data Platform",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:identifier": "https://www.who.int/tools/who-integrated-data-platform"
+    },
+    {
+      "@id": "references/who-afro-2019-idsr-guidelines",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Integrated Disease Surveillance and Response (IDSR) technical guidelines",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:issued": "2019",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/WHO-AF-WHE-CPI-01-2019"
+    },
+    {
+      "@id": "references/who-2019-mfl-resource-package",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Master Facility List Resource Package",
+      "dcterms:creator": [
+        "World Health Organization",
+        "USAID"
+      ],
+      "dcterms:issued": "2019",
+      "dcterms:identifier": "https://iris.who.int/server/api/core/bitstreams/d895078b-b45b-4b2c-b216-b82c07b2d4f7/content"
+    },
+    {
+      "@id": "references/9789240013728-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital health platform handbook: building a digital information infrastructure (infostructure) for health",
+      "dcterms:creator": [
+        "World Health Organization",
+        "International Telecommunication Union"
+      ],
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240013728",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/9789240013728"
+    },
+    {
+      "@id": "references/9789240010567-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital implementation investment guide (DIIG): integrating digital interventions into health programmes",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240010567",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/9789240010567"
+    },
+    {
+      "@id": "references/who-2021-ai-ethics-governance",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Ethics and governance of artificial intelligence for health: WHO guidance",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization"
+    },
+    {
+      "@id": "references/9789240084759-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Ethics and governance of artificial intelligence for health: guidance on large multi-modal models",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240084759",
+      "dcterms:identifier": "https://www.who.int/publications/i/item/9789240084759"
+    },
+    {
+      "@id": "references/who-2025-wha-gdhs-extension",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "World Health Assembly endorses extension of the Global Digital Health Strategy to 2027",
+      "dcterms:creator": [
+        "World Health Organization"
+      ],
+      "dcterms:issued": "2025-05-23",
+      "dcterms:identifier": "https://www.who.int/news/item/23-05-2025-world-health-assembly-endorses-extension-of-the-global-digital-health-strategy-to-2027"
+    },
+    {
+      "@id": "references/who-harnessing-ai-for-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Harnessing artificial intelligence for health",
+      "dcterms:creator": [
+        "World Health Organization, Department of Digital Health and Innovation"
+      ],
+      "dcterms:identifier": "https://www.who.int/teams/digital-health-and-innovation/harnessing-artificial-intelligence-for-health"
+    }
+  ]
+}
