@@ -20,7 +20,11 @@ A spec (e.g. dth_sc.py) is a Python file defining:
   VIEWS     [(name, documentation, layout)]  layout: a tree of
             ("box", key) | ("group", key, cols, [children])
             | ("row", [children]) | ("col", [children])
+            | ("gap",) an empty leaf-sized space, to line columns up
   VIEW_CONNECTIONS {view name: [(type, sourceKey, targetKey)]}  drawn lines
+  EXISTING_RELATIONS optional {(type, sourceKey, targetKey): archi id}
+            relationships already in the base model, so a new view can
+            draw them through VIEW_CONNECTIONS without copying them
   RENAMES   optional {key: new name} for EXISTING elements; the old name is
             kept as property formerName, and a renamed element is left alone
   PROPERTIES optional {key: {property: value}} for any element, new or
@@ -105,7 +109,7 @@ def folder_for(t):
 
 
 def size(node):
-    if node[0] == "box":
+    if node[0] in ("box", "gap"):
         return LEAF_W, LEAF_H
     if node[0] == "col":
         sizes = [size(k) for k in node[1]]
@@ -124,6 +128,8 @@ def size(node):
 def place(node, x, y, ids, view, idx, out, depth):
     """Write node's <child> XML at (x, y) relative to its parent; return its XML."""
     ind = "  " * depth
+    if node[0] == "gap":
+        return ""
     if node[0] == "col":
         parts, cy = [], y
         for k in node[1]:
@@ -209,7 +215,10 @@ def main(argv):
             xml, done = add_property(xml, idx[key], k, v)
             added += done
 
-    rel_ids = {}
+    rel_ids = dict(getattr(s, "EXISTING_RELATIONS", {}))
+    for (rtype, a, b), rid in rel_ids.items():
+        if f'id="{rid}"' not in xml:
+            raise SystemExit(f"EXISTING_RELATIONS {rtype} {a}->{b} = {rid} is not in the base model")
     for rtype, a, b, *rest in s.RELATIONS:
         rid = ids("rel", rtype, a, b)
         rel_ids[(rtype, a, b)] = rid

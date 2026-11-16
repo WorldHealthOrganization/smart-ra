@@ -4,9 +4,9 @@
   "_cat_comment": "The one root script the harness assumes: its commands spawn `bun run cat <name>` from the checkout root (qa:refresh, kg:detangle, regen, ...), and run-script.ts finds <name> in whichever mounted layer declares it. Without this entry bun falls through to /usr/bin/cat and the command fails with \"No such file or directory\" (smart-ra#65; cat-harness-tools#269 adds it to the CI working copy only).",
   "scripts": {
     "cat": "bun .github/cat.ts",
-    "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/ --out",
+    "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/references/ --out",
     "site:public-comment": "bun run folio-assistant-core/scripts/public-comment-site.ts --out",
-    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --out",
+    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --layout default --out",
     "site:context": "bun run cat-harness-tools/scripts/publish-instance-context.ts build --root . --instance dpi-h-ra --site",
     "site:review-sheet": "bun run folio-assistant-core/scripts/review-sheet-site.ts --out",
     "kg:blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dpi-h-ra",
@@ -17,7 +17,8 @@
     "check:archimate": "bun run cat-harness-tools/archimate/scripts/check-archimate.ts --instance .",
     "site:archimate": "bun run cat-harness-tools/archimate/scripts/gen-archimate-pages.ts --instance . --out",
     "site:mapper": "bash tools/ra-mapper/build-site.sh",
-    "site:redirects": "bash tools/site-redirects.sh"
+    "site:redirects": "bash tools/site-redirects.sh",
+    "site:glossary": "bun run folio-assistant-core/scripts/glossary-page.ts --instance dpi-h-ra --site"
   },
   "_workspaces_comment": "The mounted code layers, as workspaces, as folio-assistant's root package.json lists them: they import each other by package name (@litlfred/cat-harness, ...), and nothing publishes those packages, so a bare `bun install` in a mount fails with a 404. Owner, 2026-10-14: \"Repo declares workspaces\". The mounts are laid down from index.lock.json and gitignored; smart-base and bootstrap declare no dependencies, so they are not listed; smart-base's scripts still import packages (zod, @litlfred/bootstrap-tools), which reach it through the ONE root node_modules that bunfig.toml's hoisted linker lays out, as in folio-assistant.",
   "workspaces": [
