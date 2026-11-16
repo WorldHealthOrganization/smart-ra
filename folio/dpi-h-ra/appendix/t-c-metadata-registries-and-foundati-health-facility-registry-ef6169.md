@@ -13,7 +13,7 @@
 | **Record date** | Date the record was created and date of last update. | **Mandatory** |
 | **Contact information** | Telephone number(s), email address, and where applicable postal address. | **Mandatory** |
 | **Common and mapped identifiers** | All known identifiers assigned to the facility by other systems, maintained as cross-references to the canonical identifier. | **Mandatory** |
-| **Type of services offered** | Services available at the facility (e.g., emergency care, ANC, laboratory, HIV treatment, TB, surgery, pharmacy), using standardised service classification codes from the Terminology Service. | **Recommended** |
+| **Type of services offered** | Services available at the facility (e.g., emergency care, ANC, laboratory, HIV treatment, TB, surgery, pharmacy), using standardized service classification codes from the Terminology Service. | **Recommended** |
 | **Human resources for health — numbers by cadre** | Count of health workers deployed at the facility by cadre, linked to the Health Workforce Registry. Supports workforce distribution analysis. | **Recommended** |
 | **Infrastructure attributes** | Key infrastructure indicators including availability of electricity, water, sanitation, and internet connectivity. Relevant for cold chain siting, telemedicine eligibility, and service readiness assessments. | **Recommended** |
 | **Opening and closing times** | Regular operating hours, including any service-specific hours that differ from general hours. | **Recommended** |

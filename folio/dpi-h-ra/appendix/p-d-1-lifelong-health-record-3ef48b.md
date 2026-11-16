@@ -1,2 +1,2 @@
-- **HAPI FHIR Server —** an open-source, FHIR-conformant server widely used as a technical foundation for health record repositories, configurable across centralised and federated record models. \cite{hapi-fhir}
+- **HAPI FHIR Server —** an open-source, FHIR-conformant server widely used as a technical foundation for health record repositories, configurable across centralized and federated record models. \cite{hapi-fhir}
 - **EHRbase** **—** an open-source, openEHR-conformant clinical data repository that stores and queries health data against openEHR archetypes and templates. \cite{ehrbase}

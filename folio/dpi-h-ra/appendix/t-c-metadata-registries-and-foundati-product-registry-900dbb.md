@@ -1,8 +1,8 @@
 | **Data element** | **Description** | **Requirement Status** |
 | --- | --- | --- |
 | **Generic product identifier** | The canonical, system-independent identifier for a product at generic level (e.g., amoxicillin 500mg capsule), independent of brand or manufacturer. | **Mandatory** |
-| **Generic product description** | Human-readable description of the generic product, including key clinical attributes in standardised form. | **Mandatory** |
-| **Item identifier (GTIN)** | Global Trade Item Number or equivalent standardised trade item identifier assigned at the specific product/brand/pack level. | **Mandatory** |
+| **Generic product description** | Human-readable description of the generic product, including key clinical attributes in standardized form. | **Mandatory** |
+| **Item identifier (GTIN)** | Global Trade Item Number or equivalent standardized trade item identifier assigned at the specific product/brand/pack level. | **Mandatory** |
 | **Brand name** | Proprietary or trade name of the product as registered by the manufacturer. | **Mandatory** |
 | **Unit of measure** | The base unit in which the product is counted, dispensed, or issued (e.g., tablet, vial, sachet). | **Mandatory** |
 | **Product classification** | Classification of the product under applicable schemes such as UNSPSC (pharmaceuticals), GPC (medical devices), or ATC (medicines). For medicinal products, alignment with the WHODrug data dictionary is recommended. Supports multi-classification. | **Mandatory** |
@@ -17,4 +17,4 @@
 | **Packaging hierarchy level** | Definition of the packaging levels (unit, inner pack, case, pallet) with the applicable GTIN and quantity conversion for each level. | **Mandatory** |
 | **Generic product to item mapping** | The relationship between the generic product definition and the specific branded item(s) that fulfil it, supporting substitution and equivalence management. | **Mandatory** |
 | **Brand mappings** | Cross-references between a generic product identifier and all known brand/trade names under which it is marketed. | **Recommended** |
-| **Item registration details** | Regulatory registration or marketing authorisation details for the product, including registration number, registering authority, and expiry date. | **Recommended** |
+| **Item registration details** | Regulatory registration or marketing authorization details for the product, including registration number, registering authority, and expiry date. | **Recommended** |

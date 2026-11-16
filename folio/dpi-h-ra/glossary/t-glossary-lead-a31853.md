@@ -14,11 +14,11 @@
 | Digital Health (digital health) | The systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness. |
 | Digital Infrastructure | Infrastructures in the digital domain are digital resources, such as systems and specifications, built as shared means to achieve many ends |
 | Digital Public Infrastructure (DPI) | A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP) |
-| Enterprise Architecture (EA, enterprise architecture) | The organising logic for business processes and IT infrastructure reflecting the integration and<br>standardisation requirements of the organisation's operating model. [Under review] |
+| Enterprise Architecture (EA, enterprise architecture) | The organizing logic for business processes and IT infrastructure reflecting the integration and<br>standardization requirements of the organization's operating model. [Under review] |
 | Fast Healthcare Interoperability Resources (FHIR, HL7 FHIR, HL7 FHIR®, FHIR®) | FHIR is a standard for healthcare data exchange, published by HL7® |
 | Foundational Digital Public Infrastructure (DPI-F) | Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it. |
 | Functional Application (Functional application) | Functional applications are application components that deliver a specific operational function within a defined domain. They are context-specific, reflecting the operational requirements of a programme, scheme, or institution that procures them. |
-| Goal | A high-level statement of intent, direction, or desired state for an organisation and its stakeholders. |
+| Goal | A high-level statement of intent, direction, or desired state for an organization and its stakeholders. |
 | Health Digital Public Infrastructure (DPI-H, HDPI) | Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions. |
 | Health Information Exchange (HIE) | [To be included before publication] |
 | Health Programme | Health programmes are structured and coordinated interventions and services, delivered to defined populations or patient groups, to prevent disease, promote health, and address specific health needs. |
@@ -33,11 +33,11 @@
 | SNOMED CT (SNOMED, CT, SNOMED-CT, Systematized Nomenclature of Medicine - Clinical Terms, Systematized Nomenclature of Medicine – Clinical Terms) | Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records. |
 | SNOMED GPS (SNOMED-GPS, Systematized Nomenclature of Medicine – Global Patient Set, Systematized Nomenclature of Medicine-Global Patient Set, GPS) | Systematized Nomenclature of Medicine – Global Patient Set is a list of basic clinical terms. It is an open and freely accessible subset of SNOMED CT terms that represents the breadth of concepts included in the SNOMED CT International Edition. |
 | Solution Architecture | The design of a specific application component or HDPI expressed through specifications and diagrams [Under review] |
-| Stakeholder (stakeholder) | An individual, role, or organisation with an interest in the outcomes of the architecture. |
+| Stakeholder (stakeholder) | An individual, role, or organization with an interest in the outcomes of the architecture. |
 | TOGAF | The Open Group Architecture Framework, an enterprise architecture framework and method, published by The Open Group, for developing an enterprise architecture. |
 | Value | The benefit or utility a stakeholder gains from using a service, product, or capability. |
-| Actor (Conformance Model) (Actor, actor (conformance model)) | An Actor is an abstract, well-bounded role in the health information ecosystem that is defined entirely by the information-processing responsibilities it assumes and the interactions it participates in. An Actor is neither a software product nor an organisational unit. |
-| Adverse Events Following Immunization (AEFI, Adverse effects following immunisation) | Adverse effects following immunisation |
+| Actor (Conformance Model) (Actor, actor (conformance model)) | An Actor is an abstract, well-bounded role in the health information ecosystem that is defined entirely by the information-processing responsibilities it assumes and the interactions it participates in. An Actor is neither a software product nor an organizational unit. |
+| Adverse Events Following Immunization (AEFI, Adverse effects following immunization) | Adverse effects following immunization |
 | Business Process (business process) | A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3). |
 | Data Dictionary (data dictionary) | A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use. |
 | Data Element (data element) | A unit of data that has a specific and precise meaning. |
@@ -78,10 +78,10 @@
 | Health Information System (HIS, health information system, Health Information System (HIS), Health Information Systems) | A system that integrates data collection, processing, reporting, and use of the information necessary for improving health service effectiveness and efficiency through better management at all levels of health services. |
 | Monitoring (monitoring) | The continuous process of collecting and analysing data to compare how well an intervention is being implemented against expected results (8). |
 | Client Registry (CR) | The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction. |
-| Health Facility Registry (FR, Facility Registry, HFR) | The Health Facility Registry is the national authoritative source of identity, location, and classification data for all facilities, locations, and organisations through which health services are delivered or that are otherwise relevant to health system operations. |
-| Health Workforce Registry (HWR, Health Worker Registry) | The Health Workforce Registry is the national authoritative record of identity, credential, and classification data for all health workers recognised as part of the national health workforce — including licensed or certified clinical professionals, community health workers, allied health personnel, and administrative and management staff in health-related roles. |
-| Product Registry (PR) | The Product Registry is the national authoritative source of core identity and classification data for health products — medicines, vaccines, medical devices, diagnostics, and health commodities — recognised for use within a jurisdiction. |
-| Terminology Service (TS) | The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem. |
+| Health Facility Registry (FR, Facility Registry, HFR) | The Health Facility Registry is the national authoritative source of identity, location, and classification data for all facilities, locations, and organizations through which health services are delivered or that are otherwise relevant to health system operations. |
+| Health Workforce Registry (HWR, Health Worker Registry) | The Health Workforce Registry is the national authoritative record of identity, credential, and classification data for all health workers recognized as part of the national health workforce — including licensed or certified clinical professionals, community health workers, allied health personnel, and administrative and management staff in health-related roles. |
+| Product Registry (PR) | The Product Registry is the national authoritative source of core identity and classification data for health products — medicines, vaccines, medical devices, diagnostics, and health commodities — recognized for use within a jurisdiction. |
+| Terminology Service (TS) | The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardized terminologies, code systems, value sets, and concept maps used across the digital health ecosystem. |
 | Logical Information Model Repository (LIMR) | The Logical Information Model Repository is a governed, publicly accessible repository and management platform for computable clinical and administrative information models that define the logical structure, semantics, and terminology bindings of health data objects across a national digital health ecosystem. |
 | Lifelong Health Record (LHR) | The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual's key health information across care settings and over their lifetime. |
 | Semantic Governance Infrastructure (SGI) | The Semantic Governance Infrastructure (SGI) is the cross-cutting capability that keeps the metadata registry components accurate, consistent and trustworthy, so that the semantic consistency they are intended to provide does not degrade as the health digital ecosystem grows. |
@@ -100,7 +100,7 @@
 | Resilient Essential Data and Digital Health Infrastructure (REDDHI) |   |
 | The Open Group Architecture Framework (TOGAF, The Open Group Architectural Framework) |   |
 | Electronic Health Record (EHR) |   |
-| Electronic Medical Record (EMR) | An electronic record of health-related information that can be created, gathered, managed, and consulted by authorised clinicians and staff within one health care organisation. |
+| Electronic Medical Record (EMR) | An electronic record of health-related information that can be created, gathered, managed, and consulted by authorized clinicians and staff within one health care organization. |
 | Personal Health Record (PHR) |   |
 | Shared Health Record (SHR) |   |
 | SMART Health Links (SHL, Smart Health Links) |   |
@@ -129,7 +129,7 @@
 | Electronic Integrated Disease Surveillance and Response (eIDSR) |   |
 | United Nations Standard Products and Services Code (UNSPSC) |   |
 | Global Health Facilities Database (GHFD) |   |
-| Global Data Synchronisation Network (GDSN, Global Data Synchronization Network) |   |
+| Global Data Synchronization Network (GDSN, Global Data Synchronization Network) |   |
 | Public Key Infrastructure (PKI) |   |
 | Patient Master Identity Registry (PMIR) |   |
 | WHODrug Global (WHODrug, WHO Drug) |   |
@@ -148,7 +148,7 @@
 | Unique Device Identification (UDI, Unique Device Identifier) |   |
 | Aggregate Data Exchange (ADX) |   |
 | Antenatal Care (ANC) |   |
-| Access Point (AP) | A participating organisation's own connection point in a distributed model. |
+| Access Point (AP) | A participating organization's own connection point in a distributed model. |
 | Clinical Document Architecture (CDA, HL7 CDA) |   |
 | Care Services Directory (CSD, Care Services Discovery) |   |
 | Digital Health Supply Chain (DHSC) |   |
@@ -165,10 +165,10 @@
 | Application Programming Interface (API) |   |
 | Model Context Protocol (MCP) |   |
 | Ministry of Health (MoH, MOH) |   |
-| Non-Governmental Organization (NGO, Non-governmental organisation) |   |
+| Non-Governmental Organization (NGO, Non-governmental organization) |   |
 | National Health Data Dictionary (NHDD) |   |
 | Routine Health Information System (RHIS) |   |
-| Standards Development Organization (SDO, Standards Development Organisations) |   |
+| Standards Development Organization (SDO, Standards Development Organizations) |   |
 | Technical Working Group (TWG) |   |
 | Unified Terminology Governance (UTG) |   |
 | Integrating the Healthcare Enterprise (IHE) |   |

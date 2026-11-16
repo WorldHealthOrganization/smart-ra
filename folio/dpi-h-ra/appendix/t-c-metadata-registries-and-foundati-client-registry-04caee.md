@@ -4,7 +4,7 @@
 | **First / given name** | The person's first or given name as recorded. | **Mandatory** |
 | **Family / surname** | The person's family name or surname. | **Mandatory** |
 | **Date of birth** | Full date of birth (year, month, day) or estimated date where exact date is unknown. | **Mandatory** |
-| **Sex at birth** | Biological sex recorded at birth, using standardised coded values. | **Mandatory** |
+| **Sex at birth** | Biological sex recorded at birth, using standardized coded values. | **Mandatory** |
 | **Gender** | Self-reported gender identity, captured separately from sex at birth to support inclusive care. | **Recommended** |
 | **Nationality / citizenship** | The country of which the person is a national or resident, including stateless or refugee status where applicable. | **Mandatory** |
 | **Current address** | Physical residential address at the time of registration, including administrative unit hierarchy. | **Mandatory** |

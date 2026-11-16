@@ -1,1 +1,1 @@
-This chapter is organised as follows:
+This chapter is organized as follows:

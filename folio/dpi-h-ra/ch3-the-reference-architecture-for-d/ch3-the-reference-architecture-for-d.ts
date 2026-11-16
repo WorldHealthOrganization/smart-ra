@@ -84,7 +84,7 @@ export default chapter({
           blocks: ["p-3-5-2-16073e", "p-3-5-2-2ca2cf"],
         }),
         section({
-          title: "3.5.3 How the components are organised",
+          title: "3.5.3 How the components are organized",
           label: "sec:3-5-3",
           blocks: ["p-3-5-3-f22754", "f-3-5-3-93e90c", "p-3-5-3-1d17bc"],
           subsections: [
