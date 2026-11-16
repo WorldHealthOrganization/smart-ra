@@ -1,11 +1,11 @@
 | **Data element** | **Description** | **Requirement Status** |
 | --- | --- | --- |
-| **Generic product identifier** | The canonical, system-independent identifier for a product at generic level (e.g., amoxicillin 500mg capsule), independent of brand or manufacturer. | **Mandatory** |
+| **Generic product identifier** | The canonical, system-independent identifier for a product at generic level (e.g., amoxicillin 500mg capsule), independent of brand or manufacturer, where a generic concept applies to the product class. | **Mandatory** |
 | **Generic product description** | Human-readable description of the generic product, including key clinical attributes in standardised form. | **Mandatory** |
-| **Item identifier (GTIN)** | Global Trade Item Number or equivalent standardised trade item identifier assigned at the specific product/brand/pack level. | **Mandatory** |
+| **Item identifier (GTIN / UDI / national code)** | Externally assigned Global Trade Item Number (issued under GS1 rules) or equivalent standardised global trade item identifier (such as ISO UDI) recorded and validated at the specific product/brand/pack level, together with any nationally assigned product code (issued under national governance) and level-aware cross-reference metadata (mapping type, target hierarchy level, purpose, validity, supporting evidence, and provenance). | **Mandatory** |
 | **Brand name** | Proprietary or trade name of the product as registered by the manufacturer. | **Mandatory** |
 | **Unit of measure** | The base unit in which the product is counted, dispensed, or issued (e.g., tablet, vial, sachet). | **Mandatory** |
-| **Product classification** | Classification of the product under applicable schemes such as UNSPSC (pharmaceuticals), GPC (medical devices), or ATC (medicines). For medicinal products, alignment with the WHODrug data dictionary is recommended. Supports multi-classification. | **Mandatory** |
+| **Product classification** | Classification of the product under applicable schemes such as UNSPSC (pharmaceuticals), GPC (medical devices), or ATC (medicines). For medicinal products, alignment with the WHODrug data dictionary is recommended where adopted under the country source strategy. Supports multi-classification. | **Mandatory** |
 | **Dosage form** | Physical form of the product (e.g., tablet, capsule, oral solution, injection). | **Mandatory** |
 | **Strength** | Quantity of active ingredient per unit of the product (e.g., 500mg, 10mg/mL). | **Mandatory** |
 | **Manufacturer name** | Name of the legal manufacturer responsible for production of the item. | **Mandatory** |
@@ -14,7 +14,7 @@
 | **Shelf life from production** | The maximum shelf life of the product from date of manufacture, expressed in months. | **Mandatory** |
 | **Storage requirements** | Conditions under which the product must be stored, particularly temperature range (min/max) and humidity where applicable. | **Mandatory** |
 | **Volumetrics** | Physical dimensions and weight of the product and its packaging levels, used for transport and storage capacity planning. | **Mandatory** |
-| **Packaging hierarchy level** | Definition of the packaging levels (unit, inner pack, case, pallet) with the applicable GTIN and quantity conversion for each level. | **Mandatory** |
-| **Generic product to item mapping** | The relationship between the generic product definition and the specific branded item(s) that fulfil it, supporting substitution and equivalence management. | **Mandatory** |
+| **Packaging hierarchy level** | Definition of the packaging levels (unit, inner pack, case, pallet) with the applicable externally assigned GTIN (or national packaging identifier) and quantity conversion for each level. | **Mandatory** |
+| **Generic product to item mapping** | Conditional identity-grouping relationship between a generic product definition and the specific branded trade item(s) associated with it, required where a meaningful generic concept exists for the product class (some medical devices, diagnostics, and unique products have no generic-to-item relationship). Distinguishes identity grouping from therapeutic, functional, procurement, or regulatory equivalence, serving as an input to — rather than proof of — clinical interchangeability or procurement suitability. | **Mandatory** |
 | **Brand mappings** | Cross-references between a generic product identifier and all known brand/trade names under which it is marketed. | **Recommended** |
-| **Item registration details** | Regulatory registration or marketing authorisation details for the product, including registration number, registering authority, and expiry date. | **Recommended** |
+| **Item registration details and regulatory status** | Regulatory status and marketing authorisation details for the product, mandatory where regulation applies and explicitly supporting exempt, unregistered/unregulated, emergency-use, donated, investigational, or pending categories alongside registered/authorised status, registration number (where applicable), registering authority, and validity/expiry date. | **Mandatory** |
