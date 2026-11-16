@@ -7,14 +7,14 @@
   "modified": "2026-10-31",
   "source": "library/who-dpi-h-reference-architecture-draft-v1/",
   "members": [
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/who",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/itu",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/unicef",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/iso",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/hl7",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/gs1",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/usaid",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/openhie"
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/who",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/itu",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/unicef",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/iso",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/hl7",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/gs1",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/usaid",
+    "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/openhie"
   ],
   "terms": [
     {
@@ -563,7 +563,7 @@
       "definition": "An ecosystem specifying open standards, open technologies, open architectures, and open content (full-STAC).",
       "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/full-stac"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/full-stac"
       ],
       "related": [
         "open-standards",
@@ -634,7 +634,7 @@
       "definition": "Governance is the set of arrangements through which decision authority is distributed, exercised and accounted for across all those who depend upon, contribute to, or are served by the shared infrastructure.",
       "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md",
       "related": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/digital-health-governance",
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/digital-health-governance",
         "data-governance"
       ],
       "scopeNote": "RA §3.4.1 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md, p. 64–65). Substantive alternative in SC handbook Ch. 3 boxed definition (who-iris/library/9789240101197-eng/sections/page-045.md, p. 45): \"In the context of the health supply chain, governance is the process of establishing and implementing policies, procedures and mechanisms to ensure that the supply chain processes and the systems to manage those processes are managed effectively, ethically and in alignment with established objectives and stakeholders’ interests.\" (RA defines governance as the distribution, exercise, and accountability of decision authority across shared infrastructure; SC defines it as the process of establishing and implementing policies, procedures, and mechanisms for supply chain processes and systems.) Also related to `digital-health-governance` in Mehl et al. 2023 (glossary/full-stac.glossary.json, smart-ra#143 P8). Also framed in SFP handbook §2.3 (who-iris/library/9789240120747-eng/sections/sec-015-23-establish-governance-and-leadership.md, page-028.md, p. 16) as a structure for coordinating multiple stakeholders, defining clear roles and responsibilities, enhancing transparency, and creating a stable platform for decision-making. Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, smart-ra#140, dth-sfp#1 P2).",
@@ -679,7 +679,7 @@
       "definition": "Open architectures refer to high-level specifications of technical designs that provide blueprints for creating open ecosystems structured into reusable and shareable components.",
       "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-architectures"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-architectures"
       ],
       "related": [
         "full-stac",
@@ -699,7 +699,7 @@
       "definition": "Open content refers to domain ideas and synthesized knowledge clearly documented without restrictions inhibiting readability or usage.",
       "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
       ],
       "related": [
         "full-stac",
@@ -721,7 +721,7 @@
       "definition": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open-source software must have a license approved by the Open Source Initiative (19).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
       ],
       "scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10). Wording alternative in SC handbook glossary under 'open-source software' (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8), which adds \"within set guidelines\": \"Software with source code that is published and made freely available to the public so anyone can inspect, modify and enhance the code within set guidelines (8). While the source code is open to everyone, the implementation of the software is not necessarily without costs. Open-source software must have a license approved by the Open Source Initiative (9).\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
       "status": "candidate"
@@ -736,7 +736,7 @@
       "definition": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
       ],
       "related": [
         "full-stac",
@@ -756,7 +756,7 @@
       "definition": "Open technologies denote components of configurable and extensible source code — often curated as digital public goods — that perform distinct functions while adhering to open standards.",
       "source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+        "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
       ],
       "related": [
         "full-stac",
