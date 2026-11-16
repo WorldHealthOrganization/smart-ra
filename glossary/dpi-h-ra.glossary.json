@@ -22,6 +22,7 @@
       "prefLabel": "Application Component",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A deployable, modular piece of software that provides a defined set of functionality and holds the data it manages, exposing both through services.",
+      "example": "The Client Registry; a terminology service.",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
     },
@@ -30,6 +31,7 @@
       "prefLabel": "Application Service",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An explicitly defined unit of application behaviour. Anch application service exposes the functionality of an application component to its environment.",
+      "example": "Resolving and matching a person’s identity across systems.",
       "status": "candidate",
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An externally visible unit of functionality provided by one or more components, exposed through well-defined interfaces.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
@@ -46,6 +48,7 @@
       "prefLabel": "Capability",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A high-level ability the health system possesses or needs in order to achieve its goals. It expresses what the health system is able to do, independently of how that ability is implemented.",
+      "example": "Medication prescribing and dispensing; clinical decision support.",
       "status": "candidate",
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An ability that an organisation, person, or system possesses — expressed in terms of what can be done, not how or by whom.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
@@ -63,6 +66,7 @@
       "prefLabel": "Outcome",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An end result or consequence of a set of activities; an outcome is often measurable and signals progress towards a goal.",
+      "example": "A defined share of citizens issued with a verifiable health record.",
       "status": "candidate",
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An achieved, and often measurable, result that signals progress towards a goal.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1)."
     },
@@ -71,6 +75,7 @@
       "prefLabel": "Product",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A concrete offering, bundling services and data, that is made available to stakeholders.",
+      "example": "A digital health wallet.",
       "status": "candidate",
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Wording alternative in RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"A coherent offering that bundles services and data for use by stakeholders.\" Note: in the PC (9789240116191-eng) and SFP (9789240120747-eng) handbooks, the bare word 'product' is used as a synonym for `generic-product` (a health product / medicine); per owner decision 2026-10-31 (smart-ra#142), `product-master-data` and `generic-product` are separate concepts and no homonym split is needed on Product Master Data."
     },
@@ -109,6 +114,7 @@
       "prefLabel": "Data Object",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A defined unit of structured data used or produced by an application component.",
+      "example": "A client identity record; a coded entry in the lifelong health record.",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
     },
@@ -200,6 +206,7 @@
       "prefLabel": "Goal",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "A high-level statement of intent, direction, or desired state for an organisation and its stakeholders.",
+      "example": "Universal access to a trusted personal health record.",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
     },
@@ -376,6 +383,7 @@
       "prefLabel": "Stakeholder",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "An individual, role, or organisation with an interest in the outcomes of the architecture.",
+      "example": "A patient/ health service user, a health worker, a public-health agency, a regulator.",
       "status": "candidate",
       "scopeNote": "The RA draft's own glossary wording, verbatim (folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md). Substantive and wording alternatives across the corpus (smart-ra#133 S1, smart-ra#140): (1) RA Table 3.1 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026-31-the-architecture-description-approach.md): \"An individual, team, or organisation with interests in, or concerns relative to, the architecture.\" (2) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"In the context of digital health transformation, anyone who is affected by or interested in the consequences of the efforts, including the planning team, end users, beneficiaries and funders.\" (4) DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-141.md, p. 129): \"Any person who is affected by or interested in the consequences of the digital health implementation; stakeholders include the planning team, end-users, beneficiaries and funders.\" (Also enumerated in SFP handbook §1.1, who-iris/library/9789240120747-eng/sections/sec-009-11-analyse-key-stakeholders.md, page-020.md, p. 8.) All are recorded as candidates; none is chosen.",
       "altLabel": [
@@ -395,6 +403,7 @@
       "prefLabel": "Value",
       "source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "definition": "The benefit or utility a stakeholder gains from using a service, product, or capability.",
+      "example": "A clinician’s access to a complete clinical history at the point of care.",
       "status": "candidate",
       "scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review."
     },
