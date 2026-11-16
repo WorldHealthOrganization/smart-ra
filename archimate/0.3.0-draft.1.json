@@ -4,186 +4,186 @@
     "schema": "https://schema.org/",
     "dcterms": "http://purl.org/dc/terms/"
   },
-  "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1",
+  "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1",
   "@type": "archimate:Model",
   "schema:identifier": "0.3.0-draft.1",
   "schema:name": "WHO Reference Architecture 0.3.0-draft.1",
   "schema:description": "0.2.0 plus the supply chain views and elements from the DTH for health supply chain architecture (dth-sc), made by tools/archimate-dth/add_views.py with dth_sc.py, plus the RA's Integrated View (Figs. 3.2 and 3.5) with dpi_h_integrated.py, and the views for Figs. 2.2, 2.3, 3.1, 3.4.1 and A.1 with dpi_h_figures.py. Draft: the product catalogue views (dth-pc) are to be added to the same folder.",
   "dcterms:identifier": "id-9153c9dfd2314fc79ca46e015fd59169",
-  "schema:contentUrl": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/WHOBaseFile.archimate",
+  "schema:contentUrl": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/WHOBaseFile.archimate",
   "schema:hasPart": [
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-2aa7a2e239e8406988adff73e76dcd88",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-2aa7a2e239e8406988adff73e76dcd88",
       "@type": "archimate:Diagram",
       "schema:name": "Default View"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-84f16b3860924939af7b99e625a96e5a",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-84f16b3860924939af7b99e625a96e5a",
       "@type": "archimate:Diagram",
       "schema:name": "Metamodel"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-f6a9d019b02a4865a75ae76a8282fa1d",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-f6a9d019b02a4865a75ae76a8282fa1d",
       "@type": "archimate:Diagram",
       "schema:name": "Metamodel vs EIRA"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b16aba0577295090bd77388f73c61239",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b16aba0577295090bd77388f73c61239",
       "@type": "archimate:Diagram",
       "schema:name": "DPI-H Reference Architecture — Integrated View (Fig. 3.2)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-76c0e5d33b895f68af49f8590466474b",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-76c0e5d33b895f68af49f8590466474b",
       "@type": "archimate:Diagram",
       "schema:name": "DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-a1d1097c63345308b872f2850ea4d281",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-a1d1097c63345308b872f2850ea4d281",
       "@type": "archimate:Diagram",
       "schema:name": "REDDHI and its full-STAC foundations (Fig. 2.2)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0bdd20aac2155fb18f8414f1c861151d",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0bdd20aac2155fb18f8414f1c861151d",
       "@type": "archimate:Diagram",
       "schema:name": "DPI-H architecture design principles (Fig. 2.3)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-5b0878cbb0b4571a84d7d78dc72c23ff",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-5b0878cbb0b4571a84d7d78dc72c23ff",
       "@type": "archimate:Diagram",
       "schema:name": "Realisation relationships among architectural elements (Fig. 3.1)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-69a9d2fa4a075b6485c75cdb8b1a664b",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-69a9d2fa4a075b6485c75cdb8b1a664b",
       "@type": "archimate:Diagram",
       "schema:name": "Semantic Governance Infrastructure (Fig. 3.4.1)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-54fbf81cb8595ec784c6d87d566a05e9",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-54fbf81cb8595ec784c6d87d566a05e9",
       "@type": "archimate:Diagram",
       "schema:name": "Semantic governance capabilities, roles and tools (Fig. A.1)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b60195e9c8fa582da84d9c6e0851e59b",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b60195e9c8fa582da84d9c6e0851e59b",
       "@type": "archimate:Diagram",
       "schema:name": "TPHR Sub-goal #1 Layered View (Fig. 3.3)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0319425523045a7abe716deafafcb8f3",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0319425523045a7abe716deafafcb8f3",
       "@type": "archimate:Diagram",
       "schema:name": "TPHR High Level Layered View (Fig. 3.4)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-fa51088658f351b1a2214fb09004e9be",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-fa51088658f351b1a2214fb09004e9be",
       "@type": "archimate:Diagram",
       "schema:name": "Q&CC Sub-goal #1 Layered View (Fig. 3.5)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-19be800d18a34a618d6e1955cf58e956",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-19be800d18a34a618d6e1955cf58e956",
       "@type": "archimate:Diagram",
       "schema:name": "ALL High Level - Health Workforce"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-007936f8c2424b96ad1893ef0ff66059",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-007936f8c2424b96ad1893ef0ff66059",
       "@type": "archimate:Diagram",
       "schema:name": "1. Central Health Workforce Registry"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-47ad69becbb84be59434bf289bd24a20",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-47ad69becbb84be59434bf289bd24a20",
       "@type": "archimate:Diagram",
       "schema:name": "ALL HRH Conceptual View - Stakeholder"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-6702871f89b641d4823ad05fbd2a4bdb",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-6702871f89b641d4823ad05fbd2a4bdb",
       "@type": "archimate:Diagram",
       "schema:name": "SUB-GOAL 1. Central Health Workforce Registry "
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-9528f400d14d4ad6b5273a8db4b83a44",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-9528f400d14d4ad6b5273a8db4b83a44",
       "@type": "archimate:Diagram",
       "schema:name": "Components draft"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-455051f03d504b2e8e6e430bb9719792",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-455051f03d504b2e8e6e430bb9719792",
       "@type": "archimate:Diagram",
       "schema:name": "Business (draft)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-4e6e25746e8d4398add06fcbc4fb5a4e",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-4e6e25746e8d4398add06fcbc4fb5a4e",
       "@type": "archimate:Diagram",
       "schema:name": "Capabilities-Goals"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-3ad41900b17d47f78129e16d32ed2f38",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-3ad41900b17d47f78129e16d32ed2f38",
       "@type": "archimate:Diagram",
       "schema:name": "Components"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-92267636cc42566ca5d2cff0e81be8c9",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-92267636cc42566ca5d2cff0e81be8c9",
       "@type": "archimate:Diagram",
       "schema:name": "DHSC Architecture Framework (DTH SC Fig. 14)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-bea56e01c8345fbc803dee47a17ccfd3",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-bea56e01c8345fbc803dee47a17ccfd3",
       "@type": "archimate:Diagram",
       "schema:name": "Track and Trace through DHSC Components (DTH SC Fig. 24)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-2d524cffba25509e82684f47d624cc42",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-2d524cffba25509e82684f47d624cc42",
       "@type": "archimate:Diagram",
       "schema:name": "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-053fa0e33f6b5b0bb218195486c05160",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-053fa0e33f6b5b0bb218195486c05160",
       "@type": "archimate:Diagram",
       "schema:name": "Product Master Data Information Model (DTH PC Figs. 8-9)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-02175c6feb9155618981ff120f954420",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-02175c6feb9155618981ff120f954420",
       "@type": "archimate:Diagram",
       "schema:name": "National Product Catalogue (DTH PC Fig. 2, Ch. 2-3)"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-dbcfb8e417294161ac0b1614c2e18cc5",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-dbcfb8e417294161ac0b1614c2e18cc5",
       "@type": "archimate:Diagram",
       "schema:name": "LMIR Overview"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-f7a5524bbac84f1a9cf424754750819d",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-f7a5524bbac84f1a9cf424754750819d",
       "@type": "archimate:Diagram",
       "schema:name": "Metadata Registry Governance"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-cefde7ed0dcd47d3bb214657ac3e5725",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-cefde7ed0dcd47d3bb214657ac3e5725",
       "@type": "archimate:Diagram",
       "schema:name": "SHR"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-4c98f10e0a244315acddaf5257c7822e",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-4c98f10e0a244315acddaf5257c7822e",
       "@type": "archimate:Diagram",
       "schema:name": "CDS"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-8c5dd12b8d4e425184f6003d0513d569",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-8c5dd12b8d4e425184f6003d0513d569",
       "@type": "archimate:Diagram",
       "schema:name": "Interoperability Layer"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0e97a3f6a8f545f5bd90e123c11a2545",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-0e97a3f6a8f545f5bd90e123c11a2545",
       "@type": "archimate:Diagram",
       "schema:name": "Testing"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b44f768c54ea493c8b33499e5d2e2d33",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-b44f768c54ea493c8b33499e5d2e2d33",
       "@type": "archimate:Diagram",
       "schema:name": "Conformance"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-d7e3215f6d3d4e5e8b39ee521f8248c2",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-d7e3215f6d3d4e5e8b39ee521f8248c2",
       "@type": "archimate:Diagram",
       "schema:name": "B"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-ba6aa15d5d84416dab9fbd8a9f9fea14",
+      "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/view/id-ba6aa15d5d84416dab9fbd8a9f9fea14",
       "@type": "archimate:Diagram",
       "schema:name": "D"
     }

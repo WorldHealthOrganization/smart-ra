@@ -1317,9 +1317,20 @@
   right: -999px;
 }
 
+/* THE SIDEBAR SLIDES, THE PAGE STEPS (owner, 2026-11-15: "open and closing
+ * the LHS navbar is not smooth", cat-harness-tools#2343). Animating `.main`'s
+ * margin re-lays out and re-wraps the whole document on every frame, which on
+ * a large page is most of a second of layout and style per open. So only the
+ * sidebar's width animates, and the page moves ONCE: at once on open, so the
+ * sidebar slides into the space it left, and after the sidebar has finished
+ * on close, so the two never overlap. A 0s transition with a delay is that one
+ * step. The viewer rail's `navbarCss()` does the same with `body`'s padding. */
 @media (min-width: 50rem) and (prefers-reduced-motion: no-preference) {
   .side-bar { transition: width .14s ease; }
-  .side-bar + .main { transition: margin-left .14s ease, margin-right .14s ease; }
+  .side-bar + .main { transition: margin-left 0s linear .14s, margin-right 0s linear .14s; }
+  .side-bar:hover + .main,
+  .side-bar:focus-within + .main,
+  .side-bar:has(.fa-nav-open:checked) + .main { transition-delay: 0s; }
 }
 
 /* BELOW 50rem the phone menu is the theme's own ☰. */

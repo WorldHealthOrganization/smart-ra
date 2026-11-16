@@ -7,7 +7,7 @@
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": "Full-STAC: open Standards, Technologies, Architectures and Content",
       "skos:definition": "Terms from Mehl et al., 'A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content', Oxford Open Digital Health 2023;1:oqad018 (doi:10.1093/oodh/oqad018, PMC11932414), the paper the DPI-H RA draft cites for the full-STAC approach (sec-022, footnote 14). Definitions are the paper's own words, verbatim; nothing is paraphrased or chosen. Every term is a candidate until a person confirms it. The RA's own glossary (bean S1, smart-ra#133) depends on this scheme: where the RA uses a full-STAC term it links here with a SKOS mapping rather than copying the wording.",
@@ -17,10 +17,10 @@
       "dcterms:license": "CC-BY-4.0"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -37,10 +37,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -55,17 +55,17 @@
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the Open Health Stack Android FHIR SDK. The body adds: 'Open technologies are open-source and use open standards.'",
       "dcterms:requires": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
         }
       ],
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -80,20 +80,20 @@
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the OpenHIE Architecture.",
       "dcterms:requires": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
         }
       ],
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-content",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -108,20 +108,20 @@
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: a WHO SMART Guidelines FHIR Implementation Guide.",
       "dcterms:requires": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
         }
       ],
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -143,31 +143,31 @@
       "skos:scopeNote": "Quoted from the abstract. The paper calls it both an approach and a remedy, and names the four as 'four factors'. The DPI-H RA draft (sec-022, footnote 14) cites this paper and presents the four as 'the enabling conditions for REDDHI'.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health"
         }
       ],
       "dcterms:requires": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content"
         }
       ],
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-front-matter.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -179,10 +179,10 @@
       "skos:note": "could-not-extract: The paper uses the phrase but never states what it is."
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -199,10 +199,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -214,10 +214,10 @@
       "skos:note": "could-not-extract: Characterised by origin and funding only; no defining sentence."
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {
@@ -229,10 +229,10 @@
       "skos:note": "could-not-extract: Described by what it supports, not defined."
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/full-stac"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac"
       },
       "skos:prefLabel": [
         {

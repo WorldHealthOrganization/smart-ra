@@ -7,7 +7,7 @@
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": "Glossary of the Reference Architecture and Guidance for DPI-H",
       "skos:definition": "The DPI-H Reference Architecture draft's own glossary and shared Digital Transformation Handbook (DTH) concepts as a SKOS scheme, one concept per term (folio/dpi-h-ra/glossary/, from the review draft who-dpi-h-reference-architecture-draft-v1, together with shared concepts across dth-phc 9789240093362-eng, dth-sc 9789240101197-eng, dth-pc 9789240116191-eng, dth-sfp 9789240120747-eng, and dth-hrh 9789240107588-eng). KG concept prefLabels are Capitalized (owner ruling, 2026-10-31). Definitions are verbatim; where sources define a term differently, every competing wording is recorded with its source in scopeNote as a cited alternative and none is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#140, smart-ra#142, smart-ra#143).",
@@ -16,10 +16,10 @@
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -41,10 +41,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-service",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-service",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -66,10 +66,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/archimate",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/archimate",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -86,10 +86,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/capability",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/capability",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -111,10 +111,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-domain",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-domain",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -132,10 +132,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/outcome",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/outcome",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -157,10 +157,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -182,10 +182,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-services-layer",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-services-layer",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -205,10 +205,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -225,10 +225,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-governance",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-governance",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -243,17 +243,17 @@
       "skos:scopeNote": "The RA draft's own wording, verbatim. A candidate until the RA editors adopt it through the public review.",
       "skos:broader": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/governance"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/governance"
         }
       ],
       "dcterms:source": "folio/dpi-h-ra/glossary/t-glossary-lead-a31853.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-object",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-object",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -275,10 +275,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -298,10 +298,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -318,10 +318,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -342,10 +342,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -368,10 +368,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -395,10 +395,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -419,10 +419,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -442,10 +442,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/goal",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/goal",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -467,10 +467,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -492,10 +492,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -512,10 +512,10 @@
       "skos:note": "could-not-extract: The draft lists the term with no definition."
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-programme",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-programme",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -532,10 +532,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integration",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integration",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -553,10 +553,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -576,10 +576,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -600,10 +600,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -628,10 +628,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -653,10 +653,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -677,10 +677,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/repository",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/repository",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -691,10 +691,10 @@
       "skos:note": "could-not-extract: The draft lists the term with no definition."
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -717,10 +717,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -745,10 +745,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-gps",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-gps",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -772,10 +772,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -793,10 +793,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -821,10 +821,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/togaf",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/togaf",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -841,10 +841,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/value",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/value",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -866,10 +866,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -890,10 +890,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -915,10 +915,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-process",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/business-process",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -938,10 +938,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-dictionary",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-dictionary",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -959,17 +959,17 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternative in SFP handbook §4.4 body (who-iris/library/9789240120747-eng/sections/sec-025-44-outline-data-requirements.md, page-042.md, p. 30): \"A data dictionary is a repository of information about the data elements such as description, data type and other characteristics.\" Both are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 P2).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-element"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-element"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-element",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-element",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -989,10 +989,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/deploy",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/deploy",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1013,10 +1013,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1034,20 +1034,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8); identical wording (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9). Wording alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8), which inverts the two sentences: \"In the health context, using digital technologies to fundamentally change and improve how health services are delivered and accessed across all health programme areas (3, 4, 5). The process involves using innovation, analytics and feedback mechanisms to achieve systems-level changes.\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1065,20 +1065,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"In the health context, the process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency. Digitalization is the second step in digital transformation (3, 6).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The process of digitally automating and simplifying processes to streamline individual health programmes and reducing manual efforts for greater efficiency. Digitalization is the second step towards digital transformation.\" All are recorded as candidates; none is chosen.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitization",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1096,20 +1096,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 8). Wording alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"The process of converting and organizing data from manual paper records into a digital format for easier entry, storage and retrieval. Digitization is the initial step in digital transformation (3, 7).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval. Digitization is the initial step towards digital transformation.\" All are recorded as candidates; none is chosen.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digitalization"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-transformation"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/end-user",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/end-user",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1131,10 +1131,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1152,20 +1152,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Wording alternatives across the DTH corpus, differing only in domain example and 'a system' vs 'your system' (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"The characteristics of a system that include look and feel as well as what the system can do (e.g., “order processing” can be a feature of an order management solution).\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"The characteristics of your system that include look and feel as well as what the system can do (e.g., “approval workflow” can be a feature of a product master data management solution).\" All are recorded as candidates; none is chosen.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1185,31 +1185,31 @@
       "skos:scopeNote": "Cites Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json) in RA §2.2.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md). Linked via exactMatch to the full-STAC scheme (smart-ra#143).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
         }
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/full-stac"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/full-stac"
         }
       ],
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1228,23 +1228,23 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Wording and substantive alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"A description of what the digital system needs to do to support the tasks that make up the business process and address the identified challenges.\" (2) PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8): \"Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified challenges (e.g., a product master data management solution must be able to define categories and attributes to organize product information).\" (3) SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-009.md, p. 9): \"Capabilities the system must have to meet the end users’ needs and achieve tasks within the business process.\" All four are recorded as candidates; none is chosen.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-functional-requirements"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-functional-requirements"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functions",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1262,20 +1262,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 9). Substantive alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"Business processes within a system that help the system perform (e.g., “receiving inventory” and “picking inventory” are functions of the “warehousing” feature of a warehouse management system).\" (PHC defines functions as \"how features are implemented\"; SC defines them as \"Business processes within a system that help the system perform\".) Both are recorded as candidates; neither is chosen (smart-ra#133 S1).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/features"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1295,20 +1295,20 @@
       "skos:scopeNote": "PC handbook glossary wording, verbatim (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8), identical in SFP handbook glossary (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-010.md, p. 10). Internal wording alternative in PC handbook Ch. 2 body (who-iris/library/9789240116191-eng/sections/page-028.md, p. 28): \"Generic products can be described as generic items that conceal the brand or manufacturer information.\" Distinct from the RA's architectural `product` concept; both wordings are recorded as candidates and neither is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#142).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data"
         }
       ],
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-008.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/governance",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/governance",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1327,20 +1327,20 @@
       "skos:scopeNote": "RA §3.4.1 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md, p. 64–65). Substantive alternative in SC handbook Ch. 3 boxed definition (who-iris/library/9789240101197-eng/sections/page-045.md, p. 45): \"In the context of the health supply chain, governance is the process of establishing and implementing policies, procedures and mechanisms to ensure that the supply chain processes and the systems to manage those processes are managed effectively, ethically and in alignment with established objectives and stakeholders’ interests.\" (RA defines governance as the distribution, exercise, and accountability of decision authority across shared infrastructure; SC defines it as the process of establishing and implementing policies, procedures, and mechanisms for supply chain processes and systems.) Also related to `digital-health-governance` in Mehl et al. 2023 (glossary/full-stac.glossary.json, smart-ra#143 P8). Also framed in SFP handbook §2.3 (who-iris/library/9789240120747-eng/sections/sec-015-23-establish-governance-and-leadership.md, page-028.md, p. 16) as a structure for coordinating multiple stakeholders, defining clear roles and responsibilities, enhancing transparency, and creating a stable platform for decision-making. Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, smart-ra#140, dth-sfp#1 P2).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/digital-health-governance"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/digital-health-governance"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-governance"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-governance"
         }
       ],
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-029-341-purpose-and-framing.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-telecommunication-union",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-telecommunication-union",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1362,10 +1362,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-functional-requirements",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-functional-requirements",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1386,17 +1386,17 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (without section cross-reference) in SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10). Substantive alternatives across the DTH corpus (smart-ra#133 S1): (1) SC handbook glossary ('nonfunctional requirements', who-iris/library/9789240101197-eng/sections/page-008.md, p. 8): \"A description of how the digital system needs to operate and perform in order to support the tasks that make up the business process.\" (2) PC handbook glossary ('Non-functional requirements', who-iris/library/9789240116191-eng/sections/page-008.md, p. 8): \"Description of the attributes and constraints that the system must have to ensure its quality and performance. These requirements do not specify what the system should do, but rather how the system should perform its functions. (e.g., a product master data management solution must be able to support offline mode when network connectivity is not available)\" All are recorded as candidates; none is chosen.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-requirements"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1414,31 +1414,31 @@
       "skos:scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"High-level specifications of technical designs that provide blueprints for creating open ecosystems structured into reusable and shareable components, such as within a health information exchange.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
         }
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-architectures"
         }
       ],
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1456,31 +1456,31 @@
       "skos:scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"Domain ideas and synthesized knowledge clearly documented without restrictions inhibiting readability or usage, such as health guidelines, workflows, core data elements, terminology mappings, and test cases aligned to standards.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
         }
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
         }
       ],
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-source",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-source",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1500,17 +1500,17 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10). Wording alternative in SC handbook glossary under 'open-source software' (who-iris/library/9789240101197-eng/sections/page-008.md, p. 8), which adds \"within set guidelines\": \"Software with source code that is published and made freely available to the public so anyone can inspect, modify and enhance the code within set guidelines (8). While the source code is open to everyone, the implementation of the software is not necessarily without costs. Open-source software must have a license approved by the Open Source Initiative (9).\" All are recorded as candidates; none is chosen (smart-ra#133 S1).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1529,31 +1529,31 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 10), identical (with minor punctuation/citation differences) in PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-008.md, p. 8) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/page-010.md, p. 10), and near-identical (two sentences) in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"Standards that are documented and made freely available to the public. Open standards are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (10).\" Substantive/complementary alternative in RA §2.2.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, linked via exactMatch to glossary/full-stac.glossary.json): \"Open standards are validated and vetted specifications, repeatedly reusableacross contexts, that address common requirements, processes, and interactions and enable fidelity metrics.\" All are recorded as candidates; none is chosen (smart-ra#133 S1, smart-ra#139, smart-ra#142 item 3, smart-ra#143).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
         }
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-technologies",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1571,34 +1571,34 @@
       "skos:scopeNote": "RA §2.2.2 body wording, verbatim (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md, p. 35–39), citing Mehl et al. 2023 (library/mehl-2023-full-stac-oqad018/, glossary/full-stac.glossary.json: \"Components of configurable and extensible source code, often curated as 'global goods' or 'digital public goods', that perform a distinct function while adhering to open standards.\"). Linked via exactMatch to the full-STAC scheme (smart-ra#133 S1, smart-ra#143).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-stac"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-architectures"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-content"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-source"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-source"
         }
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
         }
       ],
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-022-222-the-enabling-conditions-for-reddhi.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/organogram",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/organogram",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1618,10 +1618,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1641,20 +1641,20 @@
       "skos:scopeNote": "PC handbook Introduction wording, verbatim (who-iris/library/9789240116191-eng/sections/page-010.md, p. 10). Shared concept across PC (9789240116191-eng), SC (9789240101197-eng), and SFP (9789240120747-eng). Per owner decision 2026-10-31 (smart-ra#141, smart-ra#142): one concept, with no homonym split needed against the RA's architectural `product` concept.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item"
         }
       ],
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-010.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/request-for-quotation",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/request-for-quotation",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1675,10 +1675,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/supply-chain-information-system-maturity-model",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/supply-chain-information-system-maturity-model",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1701,10 +1701,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sustainable-development-goal",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sustainable-development-goal",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1726,10 +1726,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/systems-architecture",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/systems-architecture",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1748,20 +1748,20 @@
       "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Wording alternative in SC handbook glossary (who-iris/library/9789240101197-eng/sections/page-009.md, p. 9): \"A technical framework based on a conceptual model that defines how the system should be structured and how its elements should be connected.\" Internal alternative in PHC handbook §4.4 body under 'system architecture' (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md, pp. 56-60): \"A system architecture is a conceptual model that depicts how the PCPOSS will be structured and how it functions and includes all the software and hardware components that comprise the system.\" All are recorded as candidates; none is chosen (smart-ra#133 S1, smart-ra#200).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
         }
       ],
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1783,10 +1783,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/traceability",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/traceability",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1806,10 +1806,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/trade-item",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1828,10 +1828,10 @@
       "skos:scopeNote": "Owner decision 2026-10-31 (smart-ra#142 item 1, smart-ra#139): Trade Item is the shared WHO concept with this narrow definition from the Product Catalogue handbook Ch. 2 body (who-iris/library/9789240116191-eng/sections/page-028.md, p. 28). The GS1 trade item is a separate external concept and the WHO term's broadMatch (every WHO Trade Item is a GS1 trade item, not the reverse: GS1's also covers services). The PC handbook glossary (who-iris/library/9789240116191-eng/sections/page-009.md, p. 9) and SFP handbook glossary (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-011.md, p. 11) print the GS1 wording — \"Products or services that are priced, ordered or invoiced at any point in the supply chain\" — citing GS1 (PC ref. 13, SFP ref. 19); that sentence is recorded here as a note citing GS1, not as the WHO concept's definition.",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/generic-product"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-master-data"
         }
       ],
       "skos:broadMatch": [
@@ -1843,10 +1843,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/use-case",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/use-case",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1866,10 +1866,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-acceptance-testing",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-acceptance-testing",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1892,10 +1892,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-persona",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-persona",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1917,10 +1917,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1941,10 +1941,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/workflow",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/workflow",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1964,10 +1964,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enabling-environment",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enabling-environment",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -1987,10 +1987,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/evaluation",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/evaluation",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2008,17 +2008,17 @@
       "skos:scopeNote": "SFP handbook glossary wording, verbatim (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-009.md, p. 9, citing Monitoring and evaluating digital health interventions, WHO 2016). Wording alternative in DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-140.md, p. 128, citing WHO evaluation practice handbook, 2013): \"The systematic assessment of an ongoing or completed intervention to determine whether the intervention is fulfilling its objectives and to demonstrate an effect on health outcomes.\" Also contrasted with monitoring in SFP §6.1 (who-iris/library/9789240120747-eng/sections/sec-029-61-develop-a-monitoring-and-evaluation-plan.md, page-051.md, p. 39, quoting Pritchett et al. 2013): \"Evaluation asks whether the project is doing the right things, while monitoring asks whether the project is doing things right.\" Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 §2.1 Cluster B1).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/monitoring"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/monitoring"
         }
       ],
       "dcterms:source": "who-iris/library/9789240120747-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2040,20 +2040,20 @@
       "skos:scopeNote": "DIIG Annex 1.1 Glossary wording, verbatim (who-iris/library/9789240010567-eng/sections/page-140.md, p. 128, citing WHO 2004 Developing health management information systems; also abbreviated in DIIG page-011.md and HRH handbook who-iris/library/9789240062627-eng/sections/page-006.md). The PHC handbook (who-iris/library/9789240093362-eng) has no HIS abbreviation or definition; a wording earlier attributed to it here is not in its text and was removed (smart-ra#200). Referenced in SFP handbook glossary under SMART Guidelines (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-011.md, p. 11) and Ch. 4 (who-iris/library/9789240120747-eng/sections/sec-021-4-determine-the-requirements.md, page-035.md, p. 23). The definition is recorded as a candidate (smart-ra#133 S1, dth-sfp#1 P2).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange"
         }
       ],
       "dcterms:source": "who-iris/library/9789240010567-eng/sections/page-140.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/monitoring",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/monitoring",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2071,17 +2071,17 @@
       "skos:scopeNote": "SFP handbook glossary wording, verbatim (who-iris/library/9789240120747-eng/sections/sec-002-glossary.md, page-010.md, p. 10, citing Monitoring and evaluating digital health interventions, WHO 2016). Wording alternative in DIIG Annex 1.1 Glossary (who-iris/library/9789240010567-eng/sections/page-141.md, p. 129, citing WHO evaluation practice handbook, 2013): \"The process of collecting and analysing routinely collected data to compare how well an intervention is being implemented against expected results and measure changes in performance over time.\" Both definitions are recorded as candidates; neither is chosen (smart-ra#133 S1, dth-sfp#1 §2.1 Cluster B1).",
       "skos:related": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/evaluation"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/evaluation"
         }
       ],
       "dcterms:source": "who-iris/library/9789240120747-eng/sections/sec-002-glossary.md",
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2102,10 +2102,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-facility-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-facility-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2128,10 +2128,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-workforce-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-workforce-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2153,10 +2153,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2177,10 +2177,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2201,10 +2201,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-information-model-repository",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-information-model-repository",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2225,10 +2225,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2249,10 +2249,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/semantic-governance-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/semantic-governance-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2273,10 +2273,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2297,10 +2297,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/supplier-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/supplier-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2321,10 +2321,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/benefits-package-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/benefits-package-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2345,10 +2345,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/contract-and-benefits-management-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/contract-and-benefits-management-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2365,10 +2365,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2389,10 +2389,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-health-surveillance-platform",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-health-surveillance-platform",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2413,10 +2413,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/artificial-intelligence",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/artificial-intelligence",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2432,10 +2432,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-implementation-investment-guide",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-implementation-investment-guide",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2451,10 +2451,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-diseases-11th-revision",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-diseases-11th-revision",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2472,10 +2472,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-certificate-of-vaccination-or-prophylaxis",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-certificate-of-vaccination-or-prophylaxis",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2491,10 +2491,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-patient-summary",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-patient-summary",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2510,10 +2510,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/low-and-middle-income-country",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/low-and-middle-income-country",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2530,10 +2530,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/resilient-essential-data-and-digital-health-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/resilient-essential-data-and-digital-health-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2549,10 +2549,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/the-open-group-architecture-framework",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/the-open-group-architecture-framework",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2569,10 +2569,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-health-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-health-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2588,10 +2588,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-medical-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-medical-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2612,10 +2612,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/personal-health-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/personal-health-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2631,10 +2631,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/shared-health-record",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/shared-health-record",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2650,10 +2650,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-health-links",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-health-links",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2670,10 +2670,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-adaptation-kit",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-adaptation-kit",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2690,10 +2690,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-and-interoperability",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-and-interoperability",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2710,10 +2710,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2729,10 +2729,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-workforce-accounts",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-workforce-accounts",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2748,10 +2748,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-standard-classification-of-occupations",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-standard-classification-of-occupations",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2769,10 +2769,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-health-interventions",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-health-interventions",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2788,10 +2788,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-functioning-disability-and-health",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-functioning-disability-and-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2807,10 +2807,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-primary-care",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-primary-care",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2826,10 +2826,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/who-family-of-international-classifications",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/who-family-of-international-classifications",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2845,10 +2845,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-unique-identifier",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-unique-identifier",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2864,10 +2864,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/common-geo-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/common-geo-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2884,10 +2884,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-facility-list",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-facility-list",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2903,10 +2903,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-trade-item-number",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-trade-item-number",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2923,10 +2923,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/anatomical-therapeutic-chemical-classification",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/anatomical-therapeutic-chemical-classification",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2943,10 +2943,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/clinical-decision-support",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/clinical-decision-support",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2964,10 +2964,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-location-number",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-location-number",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -2983,10 +2983,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/mobile-care-services-discovery",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/mobile-care-services-discovery",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3002,10 +3002,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-health-regulations",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-health-regulations",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3022,10 +3022,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/continuing-professional-development",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/continuing-professional-development",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3041,10 +3041,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/civil-registration-and-vital-statistics",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/civil-registration-and-vital-statistics",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3060,10 +3060,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-product-classification",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-product-classification",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3079,10 +3079,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integrated-disease-surveillance-and-response",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integrated-disease-surveillance-and-response",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3098,10 +3098,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-integrated-disease-surveillance-and-response",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/electronic-integrated-disease-surveillance-and-response",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3117,10 +3117,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/united-nations-standard-products-and-services-code",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/united-nations-standard-products-and-services-code",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3136,10 +3136,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-health-facilities-database",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-health-facilities-database",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3155,10 +3155,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-data-synchronisation-network",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-data-synchronisation-network",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3175,10 +3175,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3194,10 +3194,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/patient-master-identity-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/patient-master-identity-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3213,10 +3213,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/whodrug",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/whodrug",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3233,10 +3233,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-platform",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-platform",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3252,10 +3252,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/patient-identifier-cross-referencing",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/patient-identifier-cross-referencing",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3272,10 +3272,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/social-health-protection",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/social-health-protection",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3291,10 +3291,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-master-patient-index",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-master-patient-index",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3310,10 +3310,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-patient-index",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-patient-index",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3329,10 +3329,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/finance-and-insurance-service",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/finance-and-insurance-service",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3348,10 +3348,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3368,10 +3368,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/identification-of-medicinal-products",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/identification-of-medicinal-products",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3388,10 +3388,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/learning-management-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/learning-management-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3407,10 +3407,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-catalogue-management-tool",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-catalogue-management-tool",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3426,10 +3426,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-financial-management",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-financial-management",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3445,10 +3445,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sharing-value-sets-codes-and-maps",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sharing-value-sets-codes-and-maps",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3464,10 +3464,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/unique-device-identification",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/unique-device-identification",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3484,10 +3484,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/aggregate-data-exchange",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/aggregate-data-exchange",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3503,10 +3503,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/antenatal-care",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/antenatal-care",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3522,10 +3522,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/access-point",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/access-point",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3546,10 +3546,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/clinical-document-architecture",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/clinical-document-architecture",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3566,10 +3566,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/care-services-directory",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/care-services-directory",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3586,10 +3586,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-supply-chain",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health-supply-chain",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3605,10 +3605,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-imaging-and-communications-in-medicine",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-imaging-and-communications-in-medicine",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3624,10 +3624,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/event-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/event-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3643,10 +3643,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-time-equivalent",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/full-time-equivalent",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3662,10 +3662,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/government-to-person",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/government-to-person",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3681,10 +3681,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/geographic-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/geographic-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3700,10 +3700,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources-for-health",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources-for-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3719,10 +3719,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/human-resources",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3738,10 +3738,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/information-and-communications-technology",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/information-and-communications-technology",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3757,10 +3757,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/implementation-guide",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/implementation-guide",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3776,10 +3776,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/information-technology",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/information-technology",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3795,10 +3795,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-programming-interface",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-programming-interface",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3814,10 +3814,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/model-context-protocol",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/model-context-protocol",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3833,10 +3833,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/ministry-of-health",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/ministry-of-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3853,10 +3853,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-governmental-organization",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/non-governmental-organization",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3873,10 +3873,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-data-dictionary",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-data-dictionary",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3892,10 +3892,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/routine-health-information-system",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/routine-health-information-system",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3911,10 +3911,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/standards-development-organization",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/standards-development-organization",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3931,10 +3931,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/technical-working-group",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/technical-working-group",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3950,10 +3950,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/unified-terminology-governance",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/unified-terminology-governance",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3969,10 +3969,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integrating-the-healthcare-enterprise",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/integrating-the-healthcare-enterprise",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -3988,10 +3988,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/dhis2",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/dhis2",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4007,10 +4007,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-client-registry",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-client-registry",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4026,10 +4026,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/opencds",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/opencds",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4045,10 +4045,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/openelis",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/openelis",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4064,10 +4064,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/openmrs",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/openmrs",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4083,10 +4083,10 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sormas",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/sormas",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
       },
       "skos:prefLabel": [
         {
@@ -4102,33 +4102,33 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra#members",
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra#members",
       "@type": "skos:Collection",
       "skos:prefLabel": "Glossary of the Reference Architecture and Guidance for DPI-H: external terms",
       "skos:member": [
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/who"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/who"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/itu"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/itu"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/unicef"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/unicef"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/iso"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/iso"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/hl7"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/hl7"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/gs1"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/gs1"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/usaid"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/usaid"
         },
         {
-          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns#glossary/organizations/openhie"
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/openhie"
         }
       ]
     }
