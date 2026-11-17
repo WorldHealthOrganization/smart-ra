@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://worldhealthorganization.github.io/smart-ra/en/cat-harness/harness/folio-assistant-core/",
+  "url": "https://worldhealthorganization.github.io/smart-ra/en/cat-harness/harness/folio-assistant-core/",
+  "@type": "WebPage",
+  "name": "Folio Assistant Core on Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector",
+  "about": {
+    "@id": "https://litlfred.github.io/folio-assistant-core/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "folio-assistant-core",
+    "name": "Folio Assistant Core",
+    "description": "What a folio IS — the content-object model, the block kinds, the adapters, and the `folio` graph typology itself.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/folio-assistant-core",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/cat-harness/"
+      },
+      {
+        "identifier": "cat-harness-tools"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "08a4c3ea648a5731135850bf9844638985791267"
+    },
+    "keywords": [
+      "document"
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://worldhealthorganization.github.io/smart-ra/",
+    "name": "Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/folio-assistant-core/",
+    "https://github.com/litlfred/folio-assistant-core/tree/08a4c3ea648a5731135850bf9844638985791267",
+    "https://github.com/litlfred/folio-assistant-core/blob/08a4c3ea648a5731135850bf9844638985791267/README.md",
+    "https://github.com/litlfred/folio-assistant-core/blob/08a4c3ea648a5731135850bf9844638985791267/AGENTS.md"
+  ]
+}
