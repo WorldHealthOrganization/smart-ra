@@ -165,6 +165,14 @@
       "graphTypologies": [
         "references"
       ]
+    },
+    {
+      "id": "dpi-h-ra-translations",
+      "path": "translations/",
+      "description": "The gettext side of the DPI-H RA, one directory per target locale (ar, es, fr, ru, zh): a .pot template per document chapter, extracted once from folio/dpi-h-ra/ with the platform's extractor (pot-extract.ts), and the locale's .po drafts beside them. Every catalogue is UNOFFICIAL (agent drafts, no human sign-off; owner, 2026-11-18, option A). The glossary's translations are language-tagged labels in glossary/*.glossary.json instead (owner, 2026-11-18, card Q1 option 1), because the platform's glossary extractor takes authored terms only and every dpi-h-ra term is a candidate.",
+      "graphTypologies": [
+        "translation-sources"
+      ]
     }
   ],
   "visualisers": [

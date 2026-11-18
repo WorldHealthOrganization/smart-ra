@@ -11,6 +11,20 @@
       "contentType": "document",
       "adapter": "document",
       "adapterModule": "./folio-assistant-core/adapters/document/index.ts",
+      "translation": {
+        "defaultLocale": "en",
+        "supportedLocales": [
+          "ar",
+          "zh",
+          "en",
+          "fr",
+          "ru",
+          "es"
+        ],
+        "translationDir": "translations",
+        "officialOnly": false
+      },
+      "_translation_comment": "The five UN target locales beside the English source, all UNOFFICIAL: agent drafts with no human sign-off (owner, 2026-11-18, option A: 'Turn on translation for litlfred/smart-ra'). officialOnly false renders unofficial text with the platform's unverified banner. Nothing here is official; only a person's sign-off (human-translation-workflow) makes a catalogue official.",
       "dependencies": {
         "folioAssistant": [
           {
