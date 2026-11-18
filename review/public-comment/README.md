@@ -15,9 +15,12 @@ Part of [Reference Architecture and Guidance for Digital Public Infrastructure f
 |---|---|---|
 | [`config.json`](config.json) | DPI-H [Reference](https://litlfred.github.io/bootstrap/schemas/#reference) Architecture (draft v1.0, public review) |  |
 | [`routing.json`](routing.json) | TWG sub-group routing for comments the master log did not categorise (DPI-H comment categorisation skill requirements v0.1, uploads/). |  |
+| [`sheet-sync.json`](sheet-sync.json) | Settings for the review sheet's Apps Script. |  |
 | [`batches/`](batches/) | _nothing declares what this holds_ | |
 | [`changesets/`](changesets/) | _nothing declares what this holds_ | |
 | [`comments/`](comments/) | _nothing declares what this holds_ | |
+| [`draft/`](draft/) | _nothing declares what this holds_ | |
+| [`logs/`](logs/) | _nothing declares what this holds_ | |
 | [`routing/`](routing/) | _nothing declares what this holds_ | |
 
 <!-- kg:subgraph:end -->
