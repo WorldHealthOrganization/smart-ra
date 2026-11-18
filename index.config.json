@@ -62,7 +62,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
+          "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -86,9 +86,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-17",
+              "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+              "evidence": "litlfred 2026-11-17 ~18:30Z in session session_01EucfRqYSWYLZDQCayeryd8: 'Do the repinning and then update'; re-pin every layer to its current main so the avatar PR picks up the merged gate fixes (cat-harness-tools#2421, #2415, #2419), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+          "ref": "c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -140,9 +140,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-18",
+              "ref": "c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b",
+              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -160,7 +160,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+          "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -169,9 +169,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-18",
+              "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
+              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -189,7 +189,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+          "ref": "1fa2a0981023c550067fc9c6e24937d114e07d2e",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-18",
+              "ref": "1fa2a0981023c550067fc9c6e24937d114e07d2e",
+              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -224,7 +224,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+          "ref": "9770b20ca6b34060fbbbc0e899a376bb710f424e",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -239,9 +239,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-18",
+              "ref": "9770b20ca6b34060fbbbc0e899a376bb710f424e",
+              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -259,7 +259,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
+          "ref": "db55d2da5d4cc5947a5c03c9638d18ac3a8546f6",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -271,9 +271,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "e64799819de369df21ea05769bd1a55c705b7f3d",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-18",
+              "ref": "db55d2da5d4cc5947a5c03c9638d18ac3a8546f6",
+              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -291,7 +291,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+          "ref": "417192bef3ca2b9d6f3481b41c39f1f747cae57f",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -300,9 +300,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-17",
+              "ref": "417192bef3ca2b9d6f3481b41c39f1f747cae57f",
+              "evidence": "litlfred 2026-11-17 ~18:30Z in session session_01EucfRqYSWYLZDQCayeryd8: 'Do the repinning and then update'; re-pin every layer to its current main so the avatar PR picks up the merged gate fixes (cat-harness-tools#2421, #2415, #2419), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
@@ -320,7 +320,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+          "ref": "60e5ffc23b88137c0d9eaef00601da89237df094",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -332,9 +332,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
-              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+              "on": "2026-11-17",
+              "ref": "60e5ffc23b88137c0d9eaef00601da89237df094",
+              "evidence": "litlfred 2026-11-17 ~18:30Z in session session_01EucfRqYSWYLZDQCayeryd8: 'Do the repinning and then update'; re-pin every layer to its current main so the avatar PR picks up the merged gate fixes (cat-harness-tools#2421, #2415, #2419), as lock:freshness requires"
             },
             "standing": {
               "follows": "main",
