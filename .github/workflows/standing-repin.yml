@@ -6,9 +6,11 @@
 # The reusable workflow is litlfred/cat-harness-tools standing-repin.yml.
 name: Standing repin
 
+# No schedule (owner, 2026-11-16 card "Turn it off"): smart-ra development
+# moved to WorldHealthOrganization/smart-ra, and every scheduled run here
+# failed because Actions may not open PRs in this repository and no
+# REPIN_TOKEN is set. It still runs on an upstream dispatch or by hand.
 on:
-  schedule:
-    - cron: "17 */6 * * *"
   repository_dispatch:
     types: [upstream-merged]
   workflow_dispatch:
@@ -24,7 +26,7 @@ permissions:
 
 jobs:
   repin:
-    uses: litlfred/cat-harness-tools/.github/workflows/standing-repin.yml@4a96ee15dd9acf5f8d203ede34e8d07106c621f8 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/standing-repin.yml@36a4d9c11ca45d8f3e416f04db13584c206c852e # index.lock.json
     with:
       dry-run: ${{ inputs.dry_run == true }}
     secrets:

@@ -6,7 +6,10 @@ name: Move a sandbox's layers cache ref
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    # ready_for_review and labeled let a PR whose first push came before its
+    # layers cache branch existed move the ref without a lock change
+    # (cat-harness-tools#2451).
+    types: [opened, synchronize, reopened, ready_for_review, labeled]
     paths: [index.lock.json]
 
 permissions:
@@ -14,4 +17,4 @@ permissions:
 
 jobs:
   move:
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-layers-move.yml@4a96ee15dd9acf5f8d203ede34e8d07106c621f8 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-layers-move.yml@36a4d9c11ca45d8f3e416f04db13584c206c852e # index.lock.json

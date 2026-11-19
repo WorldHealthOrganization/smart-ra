@@ -166,3 +166,78 @@ downstream of this document and is not part of the folio.
 - **Returned spreadsheets hold reviewers' emails.** Import them from
   `review/public-comment/raw/` (gitignored) or from outside the repository.
   Never commit them.
+
+## Translations
+
+Owner, 2026-11-18 (option A, widened to A + B + C): the five UN target locales
+`ar`, `es`, `fr`, `ru`, `zh`, beside the English source. The platform's
+process is `multi-locale-translation` (cat-harness `translation-manager`,
+`translation-refresh`); this section is what that process asks the layer to
+name.
+
+- **Everything is UNOFFICIAL.** Agent drafts, no human sign-off. Never write
+  `official: true`, `X-Folio-Official: yes` or a `translationStatus` of
+  `official`; a person does that (`human-translation-workflow`).
+- **Declared in** `index.config.json` (`translation`, on the `dpi-h-ra`
+  entry) and `dpi-h-ra.json` (`dpi-h-ra-translations`, `translations/`,
+  graph typology `translation-sources`). Declaring it is what makes the site
+  build publish `assets/translation-status/review.json`, which a block's 🌐
+  pane reads (`publish-translation-review.ts`, run by `build-instance-site.ts`).
+- **Templates** are one `.pot` per document chapter, per target locale:
+  `translations/<locale>/<chapter-dir>.pot`, plus `dpi-h-ra.pot` (the
+  document's title). That is the chapter level of the platform's `.po`
+  resolution (`po-resolve.ts`). They are written by the platform's extractor,
+  the `translation_extract` MCP tool (`pot-extract.ts`): call it with the
+  chapter directory and the target `locale`, once per locale. **The
+  `glossary` chapter is the exception**: `translations/<locale>/glossary.po`
+  is the platform's terminology-hints file for translation QA, so that
+  chapter is extracted per block (`t-glossary-lead-a31853`,
+  `t-acronyms-lead-bf4749`), with `translation_extract` on each block's `.md`.
+- **The glossary** is translated in `glossary/*.glossary.json` itself, as
+  language-tagged `prefLabel` and `definition` (`{"en": …, "fr": …}`), with
+  `translationStatus` per locale `unofficial` (owner card Q1, 2026-11-18).
+  The platform's glossary extractor (`glossary-pot.ts`) takes `authored`
+  terms only, and every term here is a `candidate`. A term's `status` is not
+  changed by translating it. `altLabel` is plain strings in `folio-glossary/v1`
+  and cannot carry a language, so alternative labels stay English.
+- **Merge policy: open only.** A translation PR is sent to the merge manager;
+  no translation session merges.
+- **Pages.** `/<locale>/` chapter pages need the document site builder to
+  render a locale (folio-assistant-core `build-document-site.ts` renders
+  `/en/` only today). Until it does, the catalogues are drafts for review on
+  the 🌐 pane and the review page.
+
+### UNTERM: official candidates drop in here
+
+UNTERM (unterm.un.org) is not reachable from a cloud session; its lookup is
+bean `folio-assistant-untm`, worked by the owner's local agent. **Never fake
+or guess an UNTERM entry.** What it writes, through the platform's one
+candidate writer (`addCandidates`, `scripts/lib/translation-candidates.ts`):
+
+- into `translations/<locale>/<catalogue>.candidates.json`
+  (`translation-candidates/v1`), one candidate per matched string:
+  `source: {kind: "official", id: "unterm:<entry>"}`, and `sourceText`, the
+  English exactly as UNTERM prints it;
+- the platform auto-picks it as official only when `sourceText` equals the
+  msgid exactly; any other match is a candidate for a person to adjudicate;
+- for a glossary term, the catalogues are the glossary chapter's
+  (`t-glossary-lead-a31853`, `t-acronyms-lead-bf4749`), whose msgids carry the
+  term names; the language-tagged label in the glossary JSON is replaced by
+  the UNTERM text only after that adjudication.
+
+Likely UNTERM matches, to look up (unverified; a list of what to ask, not an
+answer): the UN-system organisation names (United Nations, World Health
+Organization, Pan American Health Organization, United Nations Children's
+Fund, United Nations Industrial Development Organization, International
+Telecommunication Union, International Organization for Standardization,
+Global Fund to Fight AIDS, Tuberculosis and Malaria, Gavi, the Vaccine
+Alliance), and the general terms Artificial Intelligence, Sustainable
+Development Goal, Digital Public Infrastructure, Interoperability, Digital
+Health, Digital Transformation, Health Information System, International
+Health Regulations, International Classification of Diseases, Civil
+Registration and Vital Statistics, Low-and-Middle-Income Country,
+Non-Governmental Organization, Ministry of Health, Public Key Infrastructure,
+Information and Communications Technology, Monitoring, Evaluation,
+Governance, Stakeholder, Human Resources for Health, Antenatal Care, United
+Nations Standard Products and Services Code. Product names (FHIR, SNOMED CT,
+LOINC, DHIS2, OpenMRS, ArchiMate, TOGAF) are unlikely to have UNTERM entries.
