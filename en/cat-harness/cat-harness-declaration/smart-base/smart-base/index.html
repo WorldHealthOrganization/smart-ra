@@ -494,7 +494,7 @@
     &quot;description&quot;: &quot;The checkout scripts this instance&#39;s code runs, under `checkoutScripts`, each relative to the downstream checkout root. A downstream that mounts this instance reads them with `bun run cat` and `check:script-placement` only while this file&#39;s sha256 matches the mount lock.&quot;
   }
 ]</pre></dd>
-<dt>_visualisers_comment</dt><dd>The visualisers this harness declares. `artifact-index` is the artefact index of the SMART IGs, drawn by fhir-harness&#39;s `ig-pages` Tool per layer: &lt;base&gt;/smart-base/artifact-index/ opens this IG&#39;s own artifacts page, and &lt;base&gt;/smart-base/artifact-index/&lt;instance&gt;/ each covered IG&#39;s (smart-trust, smart-immunizations). `l1-extraction` is this layer&#39;s own kind, drawn by smart-base&#39;s `l1-extraction-pages` Tool per layer (in the always-on `tools/`, not the opt-in `L1/tools/`, so a layer that does not enable `smart-base-L1` still resolves it): &lt;base&gt;/smart-base/l1-extraction/&lt;instance&gt;/ shows what each declared extraction holds, or unknown where the directory is not in the build. Routes are computed by visualiserRoute. Not `artifacts`: the IG already publishes artifacts.html beside it, and check:visualiser-routes refuses a route a harness&#39;s own served directory also answers.</dd>
+<dt>_visualisers_comment</dt><dd>The visualisers this harness declares. `artifact-index` is the artefact index of the SMART IGs, drawn by fhir-harness&#39;s `ig-pages` Tool per layer: &lt;base&gt;/smart-base/artifact-index/ opens this IG&#39;s own artifacts page, and &lt;base&gt;/smart-base/artifact-index/&lt;instance&gt;/ each covered IG&#39;s (smart-trust, smart-immunizations). `l1-extraction` is this layer&#39;s own kind, drawn by smart-base&#39;s `l1-extraction-pages` Tool per layer (in the always-on `tools/`, not the opt-in `L1/tools/`, so a layer that does not enable `smart-base-L1` still resolves it): &lt;base&gt;/smart-base/l1-extraction/&lt;instance&gt;/ shows what each declared extraction holds, or unknown where the directory is not in the build. It is `builtOnHostSite`: the pages are built on whichever site hosts the subjects, so a downstream layer (a DTH such as dth-sfp) that declares `l1-extraction` directories gets the viewer on its own site, and `check:subgraph-coverage` credits it there; its Tool&#39;s `invoke.shell` is therefore `bun run cat smart-base:l1-extraction:pages`, the only form `hostSiteArtefacts` accepts. It also names that script as its `writer`, which is what credits it at cat-harness-tools pins before #2401 (where `viewersOf` does not yet read `builtOnHostSite`), and which wins over the Tool-derived writer after. Routes are computed by visualiserRoute. Not `artifacts`: the IG already publishes artifacts.html beside it, and check:visualiser-routes refuses a route a harness&#39;s own served directory also answers.</dd>
 <dt>visualisers</dt><dd><pre>[
   {
     &quot;id&quot;: &quot;artifact-index&quot;,
@@ -512,7 +512,11 @@
       &quot;l1-extraction&quot;
     ],
     &quot;subgraphs&quot;: &quot;instance&quot;,
-    &quot;title&quot;: &quot;L1 extraction&quot;
+    &quot;title&quot;: &quot;L1 extraction&quot;,
+    &quot;writer&quot;: [
+      &quot;scripts/gen-l1-extraction-pages.ts&quot;
+    ],
+    &quot;builtOnHostSite&quot;: {}
   }
 ]</pre></dd>
 <dt>needs</dt><dd><pre>[

@@ -24,12 +24,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Standards"
+          "@value": "Open Standards",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions."
+          "@value": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: shared FHIR profiles with standard ontologies. The body text also says: 'OPEN STANDARDS refers to a common schema for health data, calculations and information exchange.'",
@@ -44,12 +46,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Technologies"
+          "@value": "Open Technologies",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license."
+          "@value": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the Open Health Stack Android FHIR SDK. The body adds: 'Open technologies are open-source and use open standards.'",
@@ -69,12 +73,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Architectures"
+          "@value": "Open Architectures",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions."
+          "@value": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the OpenHIE Architecture.",
@@ -97,12 +103,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Content"
+          "@value": "Open Content",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions."
+          "@value": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: a WHO SMART Guidelines FHIR Implementation Guide.",
@@ -125,18 +133,32 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Full-STAC"
+          "@value": "Full-STAC",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Full-STAC",
-        "full-STAC",
-        "full-STAC approach",
-        "full-STAC remedy"
+        {
+          "@value": "Full-STAC",
+          "@language": "en"
+        },
+        {
+          "@value": "full-STAC",
+          "@language": "en"
+        },
+        {
+          "@value": "full-STAC approach",
+          "@language": "en"
+        },
+        {
+          "@value": "full-STAC remedy",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation."
+          "@value": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation.",
+          "@language": "en"
         }
       ],
       "skos:notation": "Full-STAC",
@@ -171,7 +193,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Person-focused Health"
+          "@value": "Person-focused Health",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "The centre of Figure 1, which the four factors surround. The paper does not define it; the nearest statements are the vision of health data that 'travels with them' and a 'standards-based longitudinal health record that supports the patient over time'. Recorded so the RA can decide whether it matches its own person-centred terms.",
@@ -186,12 +209,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Health Governance"
+          "@value": "Digital Health Governance",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Digital health governance defines who, what and how to govern to achieve health service impact."
+          "@value": "Digital health governance defines who, what and how to govern to achieve health service impact.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "The paper cites Marcelo et al. 2018 (ADB) for this sentence, so the definition is that source's, as quoted here.",
@@ -206,7 +231,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Point Solution"
+          "@value": "Point Solution",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Used for tools 'developed for vertical health programs and financed through vertical funding allocations'. That describes how they arise, not what they are, so no definition is recorded.",
@@ -221,7 +247,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Longitudinal Health Record"
+          "@value": "Longitudinal Health Record",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "'a standards-based longitudinal health record that supports the patient over time and across places where interactions with the health system occurs' (cites Kay 2021 on the International Patient Summary). A use, not a definition.",
@@ -236,12 +263,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Clinical Quality Language"
+          "@value": "Clinical Quality Language",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "CQL",
-        "HL7 CQL"
+        {
+          "@value": "CQL",
+          "@language": "en"
+        },
+        {
+          "@value": "HL7 CQL",
+          "@language": "en"
+        }
       ],
       "skos:notation": "CQL",
       "skos:scopeNote": "'HL7 Clinical Quality Language (CQL), a human-readable query language to encode calculations for computing indicators and clinical logic to drive decision support.' Defined by HL7, so link to the HL7 specification rather than defining it here.",

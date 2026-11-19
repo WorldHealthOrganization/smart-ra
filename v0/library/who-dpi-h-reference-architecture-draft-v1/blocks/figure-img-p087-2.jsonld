@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p087-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p087-2.png",
+  "pageStart": 87,
+  "pageEnd": 87,
+  "narrative": [
+    {
+      "text": "Figure 3.6. Five exchange patterns, each drawn with the same small systems: direct point-to-point connections; a central service bus; gateways protecting each component; distributed access points with a central registry and oversight; and publish-subscribe through an event broker that notifies subscribers.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.6. Cinq modèles d'échange, chacun dessiné avec les mêmes petits systèmes : des connexions directes point à point ; un bus de services central ; des passerelles protégeant chaque composant ; des points d'accès distribués avec un registre central et une supervision ; et la publication-abonnement par l'intermédiaire d'un courtier d'événements qui notifie les abonnés.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.6. Cinco patrones de intercambio, cada uno dibujado con los mismos sistemas pequeños: conexiones directas punto a punto; un bus de servicios central; pasarelas que protegen cada componente; puntos de acceso distribuidos con un registro central y supervisión; y publicación-suscripción a través de un intermediario de eventos que notifica a los suscriptores.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.6. خمسة أنماط للتبادل، يُرسم كل منها بالأنظمة الصغيرة نفسها: اتصالات مباشرة من نقطة إلى نقطة؛ وناقل خدمات مركزي؛ وبوابات تحمي كل مكوّن؛ ونقاط وصول موزعة مع سجل مركزي وإشراف؛ والنشر والاشتراك عبر وسيط أحداث يُخطر المشتركين.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.6. Пять шаблонов обмена, каждый из которых изображён с одними и теми же небольшими системами: прямые соединения «точка-точка»; центральная сервисная шина; шлюзы, защищающие каждый компонент; распределённые точки доступа с центральным реестром и надзором; и публикация-подписка через брокер событий, который уведомляет подписчиков.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.6。五种交换模式，每种都用同样的几个小系统绘制：直接点对点连接；中央服务总线；保护各组件的网关；带有中央登记库和监督的分布式接入点；以及通过向订阅者发送通知的事件代理进行的发布-订阅。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-045",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

@@ -10907,7 +10907,10 @@
         // width known the stylesheet falls back to the column instead.
         (art0 && art0.tagName.toLowerCase() === "img" && !/\.svg($|[?#])/i.test(art0.getAttribute("src") || "")
           ? art0.naturalWidth : 0) ||
-        (art0 ? parseFloat(art0.getAttribute("width") || "") || 0 : 0);
+        // A `width` attribute is a natural size only in pixels: parseFloat
+        // reads width="100%" as 100, which would draw the figure at 100px.
+        (art0 && /^\s*[\d.]+\s*(px)?\s*$/i.test(art0.getAttribute("width") || "")
+          ? parseFloat(art0.getAttribute("width")) : 0);
       if (natural > 0) scope.style.setProperty("--fa-natural", natural + "px");
     } else {
       fitTextToBody(scope);

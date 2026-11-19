@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p059-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p059-2.png",
+  "pageStart": 59,
+  "pageEnd": 59,
+  "narrative": [
+    {
+      "text": "Figure 3.2. 'DPI-H Reference Architecture — Integrated View': a dense layered poster. From the top: strategic health goals (G1 trusted data foundations to G7 climate and epidemic resilience); cross-cutting governance; stakeholders; capabilities; the point-of-service and functional applications layer; the DPI-H layer of government-stewarded reusable components and the shared data layer of core registries (client, health record, workforce, location, products, terminology and logical information models), REDDHI components starred; the foundational DPI layer (identity, trust services, payments, data exchange, CRVS, geo-location); and the technology layer. An interoperability column at the right lists the information mediator, open standards and integration patterns. At this resolution most of the small text is not legible.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.2. « DPI-H Reference Architecture — Integrated View » : une affiche dense en couches. De haut en bas : les objectifs stratégiques de santé (de G1, fondations de données de confiance, à G7, résilience climatique et épidémique) ; la gouvernance transversale ; les parties prenantes ; les capacités ; la couche des applications au point de service et fonctionnelles ; la couche IPN-S des composants réutilisables placés sous la responsabilité de l'État et la couche de données partagée des registres de base (client, dossier de santé, personnel, lieux, produits, terminologie et modèles d'information logiques), les composants REDDHI étant marqués d'une étoile ; la couche IPN fondamentale (identité, services de confiance, paiements, échange de données, ESEC, géolocalisation) ; et la couche technologique. Une colonne d'interopérabilité à droite énumère le médiateur d'information, les normes ouvertes et les modèles d'intégration. À cette résolution, la plupart des petits textes ne sont pas lisibles.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.2. «DPI-H Reference Architecture — Integrated View»: un póster denso por capas. De arriba abajo: los objetivos estratégicos de salud (de G1, bases de datos fiables, a G7, resiliencia climática y epidémica); la gobernanza transversal; las partes interesadas; las capacidades; la capa de aplicaciones en el punto de atención y funcionales; la capa de IPD-S de componentes reutilizables bajo la rectoría del gobierno y la capa de datos compartida de registros básicos (cliente, historia clínica, personal sanitario, ubicación, productos, terminología y modelos lógicos de información), con los componentes REDDHI marcados con una estrella; la capa de IPD fundamental (identidad, servicios de confianza, pagos, intercambio de datos, RCEV, geolocalización); y la capa tecnológica. Una columna de interoperabilidad a la derecha enumera el mediador de información, los estándares abiertos y los patrones de integración. A esta resolución, la mayor parte del texto pequeño no es legible.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.2. «DPI-H Reference Architecture — Integrated View»: ملصق كثيف متعدد الطبقات. من الأعلى: الأهداف الصحية الاستراتيجية (من G1 أسس بيانات موثوقة إلى G7 القدرة على الصمود أمام المناخ والأوبئة)؛ والحوكمة الشاملة لعدة مجالات؛ وأصحاب المصلحة؛ والقدرات؛ وطبقة تطبيقات نقطة تقديم الخدمة والتطبيقات الوظيفية؛ وطبقة البنية التحتية الرقمية العامة للصحة المؤلفة من مكوّنات قابلة لإعادة الاستخدام تشرف عليها الحكومة، وطبقة البيانات المشتركة للسجلات الأساسية (العميل، والسجل الصحي، والقوى العاملة، والموقع، والمنتجات، والمصطلحات، ونماذج المعلومات المنطقية)، مع تمييز مكوّنات REDDHI بنجمة؛ وطبقة البنية التحتية الرقمية العامة التأسيسية (الهوية، وخدمات الثقة، والمدفوعات، وتبادل البيانات، والتسجيل المدني والإحصاءات الحيوية، وتحديد الموقع الجغرافي)؛ وطبقة التكنولوجيا. ويسرد عمود قابلية التشغيل البيني على اليمين وسيط المعلومات والمعايير المفتوحة وأنماط التكامل. ولا يمكن قراءة معظم النص الصغير بهذه الدقة.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.2. «DPI-H Reference Architecture — Integrated View»: плотный многоуровневый плакат. Сверху вниз: стратегические цели в области здравоохранения (от G1 — надёжные основы данных — до G7 — устойчивость к изменению климата и эпидемиям); сквозное управление; заинтересованные стороны; возможности; уровень приложений в пунктах оказания помощи и функциональных приложений; уровень ЦОИ-З из повторно используемых компонентов под управлением государства и общий уровень данных с базовыми реестрами (клиент, медицинская карта, кадры, местоположение, продукция, терминология и логические информационные модели), где компоненты REDDHI отмечены звёздочкой; базовый уровень ЦОИ (идентификация, доверенные сервисы, платежи, обмен данными, ГРАГС, геолокация); и технологический уровень. Столбец интероперабельности справа перечисляет информационного посредника, открытые стандарты и шаблоны интеграции. При таком разрешении большая часть мелкого текста неразборчива.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.2。“DPI-H Reference Architecture — Integrated View”：一幅密集的分层海报。从上到下依次为：战略卫生目标（从 G1 可信数据基础到 G7 气候与疫情韧性）；跨领域治理；利益相关方；能力；服务点应用和功能性应用层；由政府管理的可复用组件构成的卫生数字公共基础设施层，以及核心登记库（服务对象、健康记录、卫生人力、地点、产品、术语和逻辑信息模型）构成的共享数据层，其中 REDDHI 组件标有星号；基础数字公共基础设施层（身份、信任服务、支付、数据交换、民事登记和人口动态统计、地理定位）；以及技术层。右侧的互操作性栏列出了信息中介、开放标准和集成模式。在此分辨率下，大部分小字无法辨认。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p094-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p094-2.png",
+  "pageStart": 94,
+  "pageEnd": 94,
+  "narrative": [
+    {
+      "text": "Figure 3.7.2. A conformance-testing view: a System Under Test, with a Document Capture UI, realises the Document Source actor and a Simulator realises the Document Repository; a Test Operator triggers 'Create and submit document', which drives the 'Provide and Register Document Set [ITI-41]' interaction between them.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.7.2. Une vue des tests de conformité : un système à l'essai (System Under Test), doté d'une interface de saisie de documents, réalise l'acteur Document Source et un simulateur réalise le Document Repository ; un opérateur de test déclenche « Create and submit document », qui pilote l'interaction « Provide and Register Document Set [ITI-41] » entre eux.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.7.2. Una vista de pruebas de conformidad: un sistema sometido a prueba (System Under Test), con una interfaz de captura de documentos, realiza el actor Document Source y un simulador realiza el Document Repository; un operador de pruebas desencadena «Create and submit document», que impulsa la interacción «Provide and Register Document Set [ITI-41]» entre ambos.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.7.2. عرض لاختبار المطابقة: نظام قيد الاختبار (System Under Test) مزوّد بواجهة لالتقاط المستندات يحقق الفاعل Document Source، ومحاكٍ يحقق Document Repository؛ ويُطلق مشغّل الاختبار «Create and submit document»، الذي يقود التفاعل «Provide and Register Document Set [ITI-41]» بينهما.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.7.2. Представление для тестирования на соответствие: тестируемая система (System Under Test) с интерфейсом ввода документов реализует актора Document Source, а симулятор реализует Document Repository; оператор тестирования запускает «Create and submit document», что приводит в действие взаимодействие «Provide and Register Document Set [ITI-41]» между ними.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.7.2。一致性测试视图：带有文档采集界面的被测系统（System Under Test）实现参与者 Document Source，一个模拟器实现 Document Repository；测试操作员触发“Create and submit document”，由此驱动二者之间的“Provide and Register Document Set [ITI-41]”交互。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

@@ -44,6 +44,14 @@ body:has(.fa-page-bar) .fa-glass-band:not([data-fa-band-tools]){display:none!imp
 /* Not stuck, on a narrow screen the bar's title would sit under the Folio tab (top middle): the bar leaves the tab its row, as a viewer reserves it. */
 @media (max-width:49.99rem){body:has(.fa-glass-handle):not(:has(.fa-nav-icons .fa-nav-folio)) .fa-page-bar{padding-top:2.25rem}}
 @media (max-width:40rem){.fa-page-bar{padding:.5rem .75rem}.fa-page-main{padding:.75rem .75rem 2rem}.fa-page-main h1{font-size:var(--fa-text-lg,1.25rem)}.fa-page-foot{padding:1rem .75rem}}
+/* THE RAIL SCROLLS ITSELF, NEVER THE PAGE (owner, 2026-11-17: "When the pointer is over the navbar/rail and you scroll, the page scrolls, not the
+   navbar"). The rail (`navbar.css`) is `overflow:hidden` with only its middle region scrolling, so a wheel over its top or bottom, or past the end of
+   its middle, went on to the page, and a rail taller than the window could not be scrolled to its last rows. The rail is its own scroll container,
+   and it and every scroller inside it CONTAIN their scroll, so the wheel and touch scroll the rail while the pointer is over it and stop there.
+   Here, in the one layout every railed page links, until `navbarCss()` carries it (a change there moves cat-harness's committed navbar.css).
+   `:root` lifts the rule over navbar.css's `.fa-nav{overflow:hidden}` whichever of the two a page links first. */
+:root .fa-nav{overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}
+:root .fa-nav :is(.fa-nav-graphs,.fa-nav-pop){overscroll-behavior:contain}
 /* THE SITE BAR (lib/site-bar.ts; owner, 2026-10-15: "Top bar, like IG sites"): every page's top bar on a site the rail is drawn on — the site's name
    home, the site's search, the language picker's slot. On a just-the-docs page it is the theme's own #main-header, kept for its search script; the
    theme hides that header below its nav breakpoint and gives it a fixed height, so both are undone here. The theme's side bar is gone, and so is its

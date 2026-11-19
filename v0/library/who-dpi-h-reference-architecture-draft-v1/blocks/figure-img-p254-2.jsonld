@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p254-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p254-2.png",
+  "pageStart": 254,
+  "pageEnd": 254,
+  "narrative": [
+    {
+      "text": "'Semantic governance capabilities, roles and supporting tools': five capabilities in sequence (Consume, Change requests, Change management, Publication, Monitoring). Above them are the roles and information objects each involves (Stakeholder, Author, Owner, Content, Upstream content, Management rules), and below them the supporting tools (change-request tooling, authoring, repository). A legend distinguishes capability, role or information object, and supporting tool.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "« Semantic governance capabilities, roles and supporting tools » : cinq capacités successives (Consume, Change requests, Change management, Publication, Monitoring). Au-dessus figurent les rôles et objets d'information impliqués dans chacune (Stakeholder, Author, Owner, Content, Upstream content, Management rules), et en dessous les outils d'appui (outils de demande de modification, élaboration, référentiel). Une légende distingue capacité, rôle ou objet d'information, et outil d'appui.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "«Semantic governance capabilities, roles and supporting tools»: cinco capacidades en secuencia (Consume, Change requests, Change management, Publication, Monitoring). Encima se muestran los roles y objetos de información que intervienen en cada una (Stakeholder, Author, Owner, Content, Upstream content, Management rules) y, debajo, las herramientas de apoyo (herramientas de solicitud de cambios, elaboración, repositorio). Una leyenda distingue capacidad, rol u objeto de información y herramienta de apoyo.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "«Semantic governance capabilities, roles and supporting tools»: خمس قدرات متتابعة (Consume وChange requests وChange management وPublication وMonitoring). وفوقها الأدوار وكائنات المعلومات المعنية بكل منها (Stakeholder وAuthor وOwner وContent وUpstream content وManagement rules)، وتحتها الأدوات الداعمة (أدوات طلبات التغيير، والتأليف، والمستودع). ويميّز مفتاح الرموز بين القدرة، والدور أو كائن المعلومات، والأداة الداعمة.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "«Semantic governance capabilities, roles and supporting tools»: пять последовательных возможностей (Consume, Change requests, Change management, Publication, Monitoring). Над ними — роли и информационные объекты, задействованные в каждой (Stakeholder, Author, Owner, Content, Upstream content, Management rules), а под ними — вспомогательные инструменты (инструменты запросов на изменение, разработка, репозиторий). Легенда различает возможность, роль или информационный объект и вспомогательный инструмент.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "“Semantic governance capabilities, roles and supporting tools”：按顺序排列的五项能力（Consume、Change requests、Change management、Publication、Monitoring）。其上方是每项能力涉及的角色和信息对象（Stakeholder、Author、Owner、Content、Upstream content、Management rules），下方是支持工具（变更请求工具、编写工具、存储库）。图例区分了能力、角色或信息对象以及支持工具。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-129",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

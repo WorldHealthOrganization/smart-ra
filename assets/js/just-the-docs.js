@@ -6,7 +6,9 @@
 // "Search everywhere" button that widens to the whole site, and a link to
 // each identifier lookup the manifest names (bean `1br0`). A scope the
 // manifest publishes with a PREBUILT index is loaded rather than built (bean
-// `lrzn`).
+// `lrzn`). Enter with no result highlighted opens a full, scrollable panel of
+// every result with a filter by knowledge graph (layer), instead of opening
+// the first result (`fa-search-panel`; owner, 2026-11-17).
 //
 // Why. Measured 2026-10-03 on a local build in headless Chromium: the theme
 // fetched `search-data.json` (12,040 entries, 13.7 MB raw, 2.8 MB gzip) and
@@ -17,7 +19,7 @@
 //
 // Keeping it in step. `remote_theme` in `_config.yml` pins v0.12.0; when that
 // pin moves, re-copy the new version's file and re-apply every hunk marked
-// `2tfy`, `mm2n`, `1br0`, `lrzn` or `fa-theme-switch` (cat-harness#820) — `initSearch` and the helpers above it, the setter at the top of
+// `2tfy`, `mm2n`, `1br0`, `lrzn`, `fa-search-panel`, `fa-lazy-lunr` or `fa-theme-switch` (cat-harness#820) — `initSearch` and the helpers above it, the setter at the top of
 // `searchLoaded`, and the focus trigger in `jtd.onReady`. Everything else must
 // stay byte-identical to the gem.
 (function (jtd, undefined) {
@@ -242,8 +244,243 @@ function offerRemote(manifest) {
   results.parentNode.appendChild(box);
 }
 
+// fa-search-panel (owner, 2026-11-17): "When you search for something in the
+// navigation bar and hit enter, it doesn't show you the full page of results
+// but selects the first one even if you haven't moved the arrow down. [...]
+// you should be able to open up a fuller panel and see the results and
+// scroll down and navigate them. If there are filters, for example which
+// knowledge graph a result came from, that should apply."
+//
+// So Enter opens the first result only when the reader highlighted one with
+// the arrow keys; otherwise it opens this panel. The panel draws the same
+// lunr results the dropdown does, with the theme's own row (`addResult`,
+// handed over by `update` as `jtd.searchFeed`), PANEL_PAGE at a time, and a
+// filter per knowledge graph: the layer a result's page belongs to, by the
+// same URL rule the scopes use (`/<layer>/…` or `/<locale>/<layer>/…`).
+// Which names are layers is the manifest's `layers`, else its instance
+// scopes; a page under no layer is "This site". Its highlighted row is
+// `.fa-active`, never the theme's `.active`: the theme's Enter handler opens
+// the first `.search-result.active` anywhere in the document.
+var PANEL_PAGE = 50;
+
+function facetOf(relUrl, layers) {
+  var seg = String(relUrl || '').split('#')[0].split('/').filter(function(s){ return s.length > 0; });
+  if (seg[0] && layers[seg[0]]) return seg[0];
+  if (seg[1] && layers[seg[1]]) return seg[1];
+  return '';
+}
+
+function initSearchPanel(manifest) {
+  var input = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  if (!input || !results || document.querySelector('.fa-search-panel')) return;
+  var layers = {};
+  ((manifest && manifest.layers) || []).forEach(function(l){ layers[l] = true; });
+  ((manifest && manifest.scopes) || []).forEach(function(s){ if (s.kind === 'instance') layers[s.id] = true; });
+
+  var el = function(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+  var panel = el('div', 'fa-search-panel');
+  panel.hidden = true;
+  panel.setAttribute('role', 'dialog');
+  panel.setAttribute('aria-modal', 'true');
+  panel.setAttribute('aria-labelledby', 'fa-search-panel-title');
+  var box = el('div', 'fa-search-panel-box');
+  var head = el('div', 'fa-search-panel-head');
+  var title = el('h2', 'fa-search-panel-title');
+  title.id = 'fa-search-panel-title';
+  var close = el('button', 'fa-search-panel-close', '×');
+  close.type = 'button';
+  close.setAttribute('aria-label', 'Close search results (Esc)');
+  head.appendChild(title);
+  head.appendChild(close);
+  var facets = el('div', 'fa-search-panel-facets');
+  facets.setAttribute('role', 'group');
+  facets.setAttribute('aria-label', 'Filter by knowledge graph');
+  var list = el('ul', 'search-results-list fa-search-panel-list');
+  var foot = el('div', 'fa-search-panel-foot');
+  var more = el('button', 'fa-search-panel-more btn btn-outline');
+  more.type = 'button';
+  var wider = el('button', 'fa-search-panel-everywhere btn btn-outline');
+  wider.type = 'button';
+  foot.appendChild(more);
+  foot.appendChild(wider);
+  // The site's knowledge-graph search, when the build published it (the
+  // manifest's `kgSearch`, written by cat-harness-tools' search-split): a
+  // page of its own that downloads the KG slice only when opened, never
+  // here. It carries the reader's query.
+  var kg = null;
+  if (manifest && typeof manifest.kgSearch === 'string') {
+    kg = el('a', 'fa-search-panel-kg');
+    kg.setAttribute('data-base', searchUrl(manifest.kgSearch));
+    foot.appendChild(kg);
+  }
+  box.appendChild(head);
+  box.appendChild(facets);
+  box.appendChild(list);
+  box.appendChild(foot);
+  panel.appendChild(box);
+  document.body.appendChild(panel);
+
+  // The dropdown's own way in, for a reader who does not press Enter.
+  var showAll = el('button', 'search-show-all btn btn-outline');
+  showAll.type = 'button';
+  showAll.hidden = true;
+  results.parentNode.insertBefore(showAll, results.nextSibling);
+
+  var facet = null;   // null: every knowledge graph
+  var shown = 0;
+  var lastFocus = null;
+
+  var feed = function() {
+    var f = jtd.searchFeed;
+    return f && f.query === input.value && input.value !== '' ? f : null;
+  };
+  var matching = function(f) {
+    if (!f) return [];
+    if (facet === null) return f.results;
+    return f.results.filter(function(r){ return facetOf((f.docs()[r.ref] || {}).relUrl, layers) === facet; });
+  };
+  var label = function(id) { return id === '' ? 'This site' : id; };
+
+  var drawFacets = function(f) {
+    facets.innerHTML = '';
+    if (!f) return;
+    var counts = {}, order = [];
+    f.results.forEach(function(r){
+      var id = facetOf((f.docs()[r.ref] || {}).relUrl, layers);
+      if (!(id in counts)) { counts[id] = 0; order.push(id); }
+      counts[id]++;
+    });
+    if (facet !== null && !(facet in counts)) facet = null;
+    order.sort(function(a, b){ return counts[b] - counts[a] || label(a).localeCompare(label(b)); });
+    var chip = function(id, text) {
+      var b = el('button', 'fa-search-panel-facet', text);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(facet === id));
+      b.addEventListener('click', function(){ facet = id; render(); });
+      facets.appendChild(b);
+    };
+    chip(null, 'All (' + f.results.length + ')');
+    order.forEach(function(id){ chip(id, label(id) + ' (' + counts[id] + ')'); });
+  };
+
+  var drawMore = function(rows) {
+    var f = feed();
+    var stop = Math.min(rows.length, shown + PANEL_PAGE);
+    for (var i = shown; i < stop; i++) f.draw(list, rows[i]);
+    shown = stop;
+    var left = rows.length - shown;
+    more.hidden = left <= 0;
+    more.textContent = 'Show ' + Math.min(left, PANEL_PAGE) + ' more (' + left + ' not shown)';
+  };
+
+  var render = function() {
+    var f = feed();
+    var rows = matching(f);
+    drawFacets(f);
+    list.innerHTML = '';
+    shown = 0;
+    if (!f) title.textContent = 'Type in the search box to search';
+    else title.textContent = rows.length + (rows.length === 1 ? ' result' : ' results') + ' for “' + input.value + '”' + (facet === null ? '' : ' in ' + label(facet));
+    if (f) drawMore(rows); else more.hidden = true;
+    var everywhere = document.querySelector('.search-everywhere');
+    wider.hidden = !everywhere;
+    if (everywhere) wider.textContent = everywhere.textContent;
+    if (kg) {
+      var q = input.value.trim();
+      kg.href = kg.getAttribute('data-base') + (q ? '&q=' + encodeURIComponent(q) : '');
+      kg.textContent = q ? 'Search the knowledge graph for \u201c' + q + '\u201d \u2192' : 'Search the knowledge graph \u2192';
+    }
+  };
+
+  var refreshShowAll = function() {
+    var f = feed();
+    showAll.hidden = !f || f.results.length === 0;
+    if (f) showAll.textContent = 'Show all ' + f.results.length + ' results, by knowledge graph (Enter)';
+  };
+
+  jtd.searchPanelRefresh = function() {
+    refreshShowAll();
+    if (!panel.hidden) render();
+  };
+  jtd.openSearchPanel = function() {
+    lastFocus = document.activeElement;
+    facet = null;
+    panel.hidden = false;
+    document.documentElement.classList.add('fa-search-panel-open');
+    render();
+    var first = list.querySelector('.search-result');
+    (first || close).focus();
+    if (first) first.classList.add('fa-active');
+  };
+  var closePanel = function() {
+    panel.hidden = true;
+    document.documentElement.classList.remove('fa-search-panel-open');
+    (lastFocus && lastFocus.focus ? lastFocus : input).focus();
+  };
+
+  showAll.addEventListener('click', function(){ jtd.openSearchPanel(); });
+  close.addEventListener('click', closePanel);
+  more.addEventListener('click', function(){ drawMore(matching(feed())); });
+  wider.addEventListener('click', function(){
+    var everywhere = document.querySelector('.search-everywhere');
+    if (everywhere) everywhere.click();
+    wider.hidden = true;
+  });
+  panel.addEventListener('click', function(e){ if (e.target === panel) closePanel(); });
+  // Escape closes on KEYUP: closing on keydown gives the field its focus back
+  // before the key is released, and the theme's keyup handler clears the
+  // field on Escape.
+  panel.addEventListener('keyup', function(e){
+    if (e.key === 'Escape') { e.preventDefault(); closePanel(); }
+  });
+  panel.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') { e.preventDefault(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+    var rows = Array.prototype.slice.call(list.querySelectorAll('.search-result'));
+    if (!rows.length) return;
+    e.preventDefault();
+    var at = rows.indexOf(document.activeElement);
+    var next = e.key === 'ArrowDown' ? Math.min(rows.length - 1, at + 1) : Math.max(0, at - 1);
+    if (e.key === 'ArrowDown' && at === rows.length - 1 && !more.hidden) {
+      more.click();
+      rows = Array.prototype.slice.call(list.querySelectorAll('.search-result'));
+      next = at + 1;
+    }
+    rows.forEach(function(r){ r.classList.remove('fa-active'); });
+    rows[next].classList.add('fa-active');
+    rows[next].focus();
+  });
+}
+
+// fa-lazy-lunr (owner, 2026-11-18: "lazy load the search indices"): the
+// indices were already fetched on first use (`2tfy`), but lunr itself was a
+// <script> in every page's head, fetched and parsed on pages where nobody
+// searches. The site's `_includes/head.html` no longer writes that tag, and
+// the site bar no longer writes it on pages the theme did not lay out; the
+// library is loaded here, once, when the reader first reaches for search, in
+// parallel with the manifest. A page that still carries the tag (an older
+// build) has `lunr` already and loads nothing more.
+var lunrWaiting = null;
+function withLunr(done) {
+  if (typeof window.lunr !== 'undefined') return done();
+  if (lunrWaiting) { lunrWaiting.push(done); return; }
+  lunrWaiting = [done];
+  var tag = document.createElement('script');
+  tag.src = searchUrl('assets/js/vendor/lunr.min.js');
+  tag.onload = function(){ var w = lunrWaiting; lunrWaiting = null; w.forEach(function(f){ f(); }); };
+  tag.onerror = function(){ lunrWaiting = null; };
+  document.head.appendChild(tag);
+}
+
 function initSearch() {
-  getJson(searchUrl('assets/js/search/manifest.json'), function(manifest){
+  withLunr(function(){}); // start the download now, beside the manifest's
+  getJson(searchUrl('assets/js/search/manifest.json'), function(manifest){ withLunr(function(){
     var scope = manifest ? scopeForPage(manifest) : null;
     var url = scope ? searchUrl(scope.path) : '/smart-ra/assets/js/search-data.json';
     var ready = function(index, docs){
@@ -251,6 +488,7 @@ function initSearch() {
       replaySearch();
       if (scope && scope.entries < manifest.source.entries) offerEverywhere(manifest, scope);
       if (manifest) offerRemote(manifest);
+      initSearchPanel(manifest); // fa-search-panel
     };
     getJson(url, function(docs){
       if (!docs) return;
@@ -262,7 +500,7 @@ function initSearch() {
         ready(index || buildSearchIndex(docs), docs);
       });
     });
-  });
+  }); });
 }
 
 function searchLoaded(index, docs) {
@@ -344,6 +582,10 @@ function searchLoaded(index, docs) {
 
       addResults(resultsList, results, 0, 10, 100, currentSearchIndex);
     }
+
+    // fa-search-panel: the panel draws these same results with the theme's own row.
+    jtd.searchFeed = { query: input, results: results, draw: addResult, docs: function(){ return docs; } };
+    if (jtd.searchPanelRefresh) jtd.searchPanelRefresh();
 
     function addResults(resultsList, results, start, batchSize, batchMillis, searchIndex) {
       if (searchIndex != currentSearchIndex) {
@@ -603,6 +845,10 @@ function searchLoaded(index, docs) {
         var active = document.querySelector('.search-result.active');
         if (active) {
           active.click();
+        } else if (jtd.openSearchPanel && searchInput.value) {
+          // fa-search-panel: nothing highlighted, so show every result rather
+          // than open the first one.
+          jtd.openSearchPanel();
         } else {
           var first = document.querySelector('.search-result');
           if (first) {

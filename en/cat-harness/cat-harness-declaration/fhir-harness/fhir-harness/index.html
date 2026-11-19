@@ -337,6 +337,27 @@
 <dt>enableSubgraphs</dt><dd><pre>[
   &quot;fhir-harness.collab&quot;
 ]</pre></dd>
+<dt>_remoteGraphs_comment</dt><dd>Graphs this layer knows and does not hold (cat-harness RemoteGraph: referenced, never materialised). cqf-skills is the litlfred fork of cqframework/cqf-skills harnessed as a knowledge graph (owner, 2026-11-17: &#39;in fhir harness reference it as external subgraph&#39;); both URLs are pinned to the same commit (cqf-skills main after litlfred/cqf-skills#1 merged), so a re-pin moves them together.</dd>
+<dt>remoteGraphs</dt><dd><pre>[
+  {
+    &quot;id&quot;: &quot;cqf-skills&quot;,
+    &quot;url&quot;: &quot;https://github.com/litlfred/cqf-skills/tree/5d086d03ff8aa39f9087f0ee21aa7fcefac6e5a3/harness/skills&quot;,
+    &quot;graphTypologies&quot;: [
+      &quot;skills&quot;
+    ],
+    &quot;title&quot;: &quot;CQF Skills: skills for CQL, FHIR, Clinical Reasoning and content IGs&quot;,
+    &quot;description&quot;: &quot;The cqframework Agent Skills (cql, cql-ig, us-cql-ig, cms-qmd, vscode-cql, madie, fhir, fhir-extensions, uscore, usqualitycore, terminology, terminology, crmi, cpg, plan-definition, questionnaire, measure, cds-hooks, immunization-cds, fsh, ig-publisher, and the fork&#39;s further skills) as the litlfred/cqf-skills fork lays them out for the graph: one package per marketplace plugin under harness/skills/, each node pointing at its skills/&lt;name&gt;/SKILL.md. Pinned to a commit. Referenced, never held: this layer&#39;s own fhir-ig-authoring and fhir-ig-base skills stay the pipeline&#39;s; these are where an IG author goes for the CQL, Measure, PlanDefinition, Questionnaire, FSH and IG Publisher detail.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;cqf-skills-processes&quot;,
+    &quot;url&quot;: &quot;https://github.com/litlfred/cqf-skills/tree/5d086d03ff8aa39f9087f0ee21aa7fcefac6e5a3/processes&quot;,
+    &quot;graphTypologies&quot;: [
+      &quot;processes&quot;
+    ],
+    &quot;title&quot;: &quot;CQF Skills: knowledge-artifact processes&quot;,
+    &quot;description&quot;: &quot;BPMN of the fork&#39;s processes whose tasks name the cqf-skills skills: authoring a CQL library, developing a quality measure, building and publishing a content IG, turning guideline content into computable artifacts, and adding a skill. Lanes are the roles in its scenarios/roles.json. Referenced, never held.&quot;
+  }
+]</pre></dd>
 <dt>liquid</dt><dd><pre>{
   &quot;prefix&quot;: &quot;site.data&quot;,
   &quot;passThrough&quot;: true

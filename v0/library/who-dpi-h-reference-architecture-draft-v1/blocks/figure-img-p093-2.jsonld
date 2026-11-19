@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p093-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p093-2.png",
+  "pageStart": 93,
+  "pageEnd": 93,
+  "narrative": [
+    {
+      "text": "Figure 3.7.1. An ArchiMate view of an IHE transaction: two vendor EHR products realise the actors Document Source and Document Repository, which are connected through the interaction 'Provide and Register Document Set [ITI-41]' and the service 'Register Document Set'.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.7.1. Une vue ArchiMate d'une transaction IHE : deux produits DSE de fournisseurs réalisent les acteurs Document Source et Document Repository, reliés par l'interaction « Provide and Register Document Set [ITI-41] » et le service « Register Document Set ».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.7.1. Una vista ArchiMate de una transacción IHE: dos productos de HCE de proveedores realizan los actores Document Source y Document Repository, que están conectados mediante la interacción «Provide and Register Document Set [ITI-41]» y el servicio «Register Document Set».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.7.1. عرض ArchiMate لمعاملة IHE: منتجان لسجلات صحية إلكترونية من مورّدَين يحققان الفاعلين Document Source وDocument Repository، المتصلين عبر التفاعل «Provide and Register Document Set [ITI-41]» والخدمة «Register Document Set».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.7.1. Представление ArchiMate для транзакции IHE: два продукта ЭМК от поставщиков реализуют акторов Document Source и Document Repository, связанных через взаимодействие «Provide and Register Document Set [ITI-41]» и сервис «Register Document Set».",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.7.1。一项 IHE 事务的 ArchiMate 视图：两款供应商电子健康记录产品分别实现参与者 Document Source 和 Document Repository，二者通过交互“Provide and Register Document Set [ITI-41]”和服务“Register Document Set”相连。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

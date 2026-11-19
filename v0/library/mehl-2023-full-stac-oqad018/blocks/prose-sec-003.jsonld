@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/mehl-2023-full-stac-oqad018/blocks/prose-sec-003",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "DATA AVAILABILITY",
+  "pageStart": 4,
+  "pageEnd": 5,
+  "text": "../sections/sec-003-data-availability.md",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/mehl-2023-full-stac-oqad018",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/mehl-2023-full-stac-oqad018",
+  "provenance": "ingested"
+}

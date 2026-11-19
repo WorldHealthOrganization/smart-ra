@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/smart-ra/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/smart-ra/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-dpi-h-reference-architecture-draft-v1/blocks/figure-img-p056-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p056-2.png",
+  "pageStart": 56,
+  "pageEnd": 56,
+  "narrative": [
+    {
+      "text": "Figure 3.1. A worked chain of realisation relationships, top to bottom: a Business Capability ('Identity maintained across services') is realised by an Application Service ('Resolving and matching identity'), which is realised by an Application Function ('Identity matching'), which is realised by an Application Component ('Client Registry'). Each link is a dashed 'realises' arrow, and a note beside each element gives the example.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    },
+    {
+      "text": "Figure 3.1. Une chaîne illustrée de relations de réalisation, de haut en bas : une capacité métier (« Identity maintained across services ») est réalisée par un service applicatif (« Resolving and matching identity »), lui-même réalisé par une fonction applicative (« Identity matching »), elle-même réalisée par un composant applicatif (« Client Registry »). Chaque lien est une flèche « réalise » en tirets, et une note à côté de chaque élément en donne l'exemple.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "fr"
+    },
+    {
+      "text": "Figura 3.1. Una cadena de ejemplo de relaciones de realización, de arriba abajo: una capacidad de negocio («Identity maintained across services») es realizada por un servicio de aplicación («Resolving and matching identity»), que es realizado por una función de aplicación («Identity matching»), que a su vez es realizada por un componente de aplicación («Client Registry»). Cada vínculo es una flecha discontinua «realiza», y una nota junto a cada elemento ofrece el ejemplo.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "es"
+    },
+    {
+      "text": "الشكل 3.1. سلسلة مُطبَّقة من علاقات التحقيق، من الأعلى إلى الأسفل: قدرة أعمال («Identity maintained across services») تُحقِّقها خدمة تطبيق («Resolving and matching identity»)، وتُحقِّقها بدورها وظيفة تطبيق («Identity matching»)، ويُحقِّقها مكوّن تطبيق («Client Registry»). كل رابط سهم متقطع «يُحقِّق»، وبجانب كل عنصر ملاحظة تعطي المثال.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ar"
+    },
+    {
+      "text": "Рисунок 3.1. Разобранная цепочка отношений реализации сверху вниз: бизнес-возможность («Identity maintained across services») реализуется прикладным сервисом («Resolving and matching identity»), который реализуется прикладной функцией («Identity matching»), которая, в свою очередь, реализуется прикладным компонентом («Client Registry»). Каждая связь — пунктирная стрелка «реализует», а примечание рядом с каждым элементом приводит пример.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "ru"
+    },
+    {
+      "text": "图 3.1。一条自上而下的实现关系示例链：一项业务能力（“Identity maintained across services”）由一项应用服务（“Resolving and matching identity”）实现，该服务由一项应用功能（“Identity matching”）实现，该功能又由一个应用组件（“Client Registry”）实现。每条链接都是一支虚线“实现”箭头，每个元素旁的注释给出了示例。",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "claude-opus-5-5",
+        "session": "https://claude.ai/code/session_013ZJ1uYnvBifNcPaVPVJbUS"
+      },
+      "drafted_at": "2026-10-30",
+      "lang": "zh"
+    }
+  ],
+  "derivedFrom": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-026",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/dpi-h-ra/source/who-dpi-h-reference-architecture-draft-v1",
+  "provenance": "ingested"
+}

@@ -2579,6 +2579,25 @@ button.fa-qa-badge[aria-busy="true"] { opacity: 0.6; }
 .fa-trf .fa-trf-state[data-fa-tr-state="reviewed"],
 .fa-trf .fa-trf-state[data-fa-tr-state="official"] { border-style: double; border-width: 3px; }
 .fa-trf-dim { opacity: 0.85; font-size: var(--fa-text-sm); }
+/* Every locale's translation of a block's strings (owner, 2026-11-18): the status is a word, and
+   its border says the same thing again for those who scan: dashed = nobody with authority chose it,
+   double = a collaborator or an official source did, dotted = missing or stale. */
+.fa-trf .fa-trf-head { font-weight: 600; margin: 0.6em 0 0.2em; }
+.fa-trf .fa-trf-every { padding-left: 1.4em; margin: 0; }
+.fa-trf .fa-trf-every > li { margin: 0 0 0.6em; }
+.fa-trf .fa-trf-loc { margin: 0.2em 0; overflow-wrap: anywhere; }
+.fa-trf .fa-trf-loc .fa-trf-state { font-weight: normal; font-size: var(--fa-text-sm); }
+.fa-trf .fa-trf-state[data-fa-tr-state="proposed"],
+.fa-trf .fa-trf-state[data-fa-tr-state="agent"],
+.fa-trf .fa-trf-state[data-fa-tr-state="mt"],
+.fa-trf .fa-trf-state[data-fa-tr-state="unattributed"] { border-style: dashed; border-width: 2px; }
+.fa-trf .fa-trf-state[data-fa-tr-state="adjudicated"] { border-style: double; border-width: 3px; }
+.fa-trf .fa-trf-state[data-fa-tr-state="missing"],
+.fa-trf .fa-trf-state[data-fa-tr-state="stale"] { border-style: dotted; border-width: 2px; }
+.fa-trf-cand[data-fa-tr-stale="true"], .fa-trf-cand[data-fa-tr-qa="fail"] { opacity: 0.8; }
+.fa-trf .fa-trf-others summary { min-height: 44px; line-height: 44px; cursor: pointer; }
+.fa-trf-choose-row { margin: 0.4em 0 0; }
+.fa-trf-choose { width: 1.4rem; height: 1.4rem; flex: none; }
 .fa-trf-why { margin: 0.3em 0 0; }
 .fa-trf-warn { font-weight: 600; }
 .fa-trf-actions { display: flex; flex-wrap: wrap; gap: 0.5em; margin: 0.5em 0 0; }
@@ -8207,6 +8226,7 @@ a.fa-harness-tab__body:focus-visible {
 }
 .fa-search-drop > * { pointer-events: auto; }
 .fa-search-drop > .search-results { order: 2; }
+.fa-search-drop > .search-show-all { order: 3; }
 
 .fa-search-home .search-everywhere,
 .fa-search-home .search-remote,
@@ -8252,6 +8272,140 @@ a.fa-harness-tab__body:focus-visible {
   background: #ffffff;
   color: #1f2933;
 }
+
+/* ── THE FULL RESULTS PANEL (`fa-search-panel` in `just-the-docs.js`) ─────
+ *
+ * Owner, 2026-11-17: Enter "should [let you] open up a fuller panel and see
+ * the results and scroll down and navigate them", with a filter for "which
+ * knowledge graph a result came from". A modal over the page: its own
+ * scroll, the theme's result rows, one chip per knowledge graph. Colours are
+ * the search drop's, which `--fa-search-*` above measured for contrast; the
+ * panel sits outside `.fa-tiles`, so it sets them itself. */
+.fa-search-panel {
+  --fa-search-bg: #1c2029;
+  --fa-search-fg: #e6e9ee;
+  --fa-search-muted: #9aa4b2;
+  --fa-search-border: #6b7684;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4vh 1rem;
+  background: rgba(0, 0, 0, 0.55);
+}
+:root[data-fa-scheme="light"] .fa-search-panel {
+  --fa-search-bg: #ffffff;
+  --fa-search-fg: #1f2933;
+  --fa-search-muted: #5a6472;
+  --fa-search-border: #767d88;
+}
+.fa-search-panel[hidden] { display: none; }
+:root.fa-search-panel-open { overflow: hidden; }
+.fa-search-panel-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: min(56rem, 100%);
+  max-height: 92vh;
+  border: 1px solid var(--fa-search-border);
+  border-radius: 6px;
+  background: var(--fa-search-bg);
+  color: var(--fa-search-fg);
+}
+.fa-search-panel-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--fa-search-border);
+}
+.fa-search-panel-title { flex: 1; margin: 0; font-size: 1rem; }
+.fa-search-panel-close {
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.fa-search-panel-facets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid var(--fa-search-border);
+}
+.fa-search-panel-facet {
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--fa-search-border);
+  border-radius: 999px;
+  background: none;
+  color: inherit;
+  font-size: var(--fa-text-xs, 0.8rem);
+  cursor: pointer;
+}
+.fa-search-panel-facet[aria-pressed="true"] {
+  background: var(--fa-search-fg);
+  color: var(--fa-search-bg);
+}
+.fa-search-panel-list {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}
+.fa-search-panel-list .search-results-list-item { margin: 0; padding: 0; }
+.fa-search-panel-list .search-result {
+  display: block;
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  color: var(--fa-search-fg);
+  text-decoration: none;
+}
+.fa-search-panel-list .search-result:hover,
+.fa-search-panel-list .search-result:focus-visible,
+.fa-search-panel-list .search-result.fa-active {
+  background: rgba(128, 128, 128, 0.22);
+}
+.fa-search-panel-list .search-result-rel-url,
+.fa-search-panel-list .search-result-previews {
+  display: block;
+  color: var(--fa-search-muted);
+  font-size: var(--fa-text-xs, 0.8rem);
+}
+.fa-search-panel-list .search-result-highlight { font-weight: 700; }
+.fa-search-panel-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+}
+.fa-search-panel-foot [hidden] { display: none; }
+.fa-search-panel-kg {
+  align-self: center;
+  margin-inline-start: auto;
+  color: var(--link-color, #7253ed);
+  font-size: var(--fa-text-xs, 0.8rem);
+}
+.fa-search-home .search-show-all {
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--fa-search-border);
+  border-radius: 4px;
+  background: var(--fa-search-page-bg);
+  box-shadow: none;
+  color: var(--link-color, #7253ed);
+  font-size: var(--fa-text-xs);
+  text-align: start;
+}
+.search-show-all[hidden] { display: none; }
 
 /* ── A board nested in the sticky panel has no chrome of its own ──────────
  *
@@ -9410,17 +9564,21 @@ table[data-fa-filtered] tr[hidden] { display: none !important; }
  * should be centered", "above also applies to tables".
  *
  * Hover and a fine pointer means a laptop or desktop: there the controls
- * float over the figure's top-right corner, take no row of their own, and
- * show while the pointer is over the figure or focus is inside it (so the
+ * sit in a strip of space reserved above the drawing (owner, 2026-11-17:
+ * the toolbar must not cover the figure), at its top-right corner, and show
+ * while the pointer is over the figure or focus is inside it (so the
  * keyboard still reaches them). A touch screen has no hover, so it keeps the
  * row above the figure. */
 .fa-figure-host {
   position: relative;
 }
 @media (hover: hover) and (pointer: fine) {
+  .fa-figure-host {
+    padding-top: 2.1rem;
+  }
   .fa-figure-host > .fa-figure-tools {
     position: absolute;
-    top: 0.3rem;
+    top: 0;
     right: 0.3rem;
     z-index: 3;
     margin: 0;
@@ -9443,14 +9601,18 @@ table[data-fa-filtered] tr[hidden] { display: none !important; }
 
 /* Every figure, diagram and table block of a document sits in one frame
  * (render-markdown.ts, `.fa-numbered`), so all document sites share this
- * look: the drawing centred, and its title and caption lines centred at no
- * more than two thirds of the column. Tables are the exception (below). */
+ * look: the drawing centred, and its title and caption lines below it,
+ * centred at no more than 67% of the column (owner, 2026-11-17). Tables are
+ * the exception (below). */
 .fa-numbered {
   margin: 0.75em 0;
 }
 .fa-numbered > p {
-  max-width: 66%;
-  margin: 0.2em auto;
+  max-width: 67%;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .fa-numbered > p:has(> img),
