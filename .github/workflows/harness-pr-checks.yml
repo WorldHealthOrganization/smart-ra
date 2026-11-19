@@ -34,12 +34,12 @@ permissions:
 
 concurrency:
   group: harness-pr-checks-${{ (github.event.action == 'labeled' && github.event.label.name != 'release' && github.event.label.name != 'preview') && format('noop-label-{0}', github.run_id) || github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name != 'pull_request' || (github.event.action == 'opened' || github.event.action == 'synchronize' || github.event.action == 'reopened' || github.event.action == 'labeled' || github.event.action == 'closed') }}
 
 jobs:
   checks:
     if: github.event.action != 'labeled' || github.event.label.name == 'release' || github.event.label.name == 'preview'
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@db55d2da5d4cc5947a5c03c9638d18ac3a8546f6 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@15fc205d356eda5aeb95af379216076606c23904 # index.lock.json
     with:
       # On a draft PR: prepare and typecheck only; the full tier runs on ready_for_review.
       draft-fast-tier: true

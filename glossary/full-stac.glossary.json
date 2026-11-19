@@ -10,51 +10,149 @@
   "terms": [
     {
       "id": "open-standards",
-      "prefLabel": "Open Standards",
-      "definition": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions.",
+      "prefLabel": {
+        "en": "Open Standards",
+        "ar": "المعايير المفتوحة",
+        "es": "Estándares abiertos",
+        "fr": "Normes ouvertes",
+        "ru": "Открытые стандарты",
+        "zh": "开放标准"
+      },
+      "definition": {
+        "en": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions.",
+        "ar": "نماذج دلالية ونحوية لتمثيل البيانات وتبادلها ومعالجتها، تضمن أن يكون المعنى الدقيق للمعلومات المتبادلة قابلًا للتفسير دون لبس من جانب أي نظام أو خدمة أو مستخدم آخر. وتُطوَّر المعايير المفتوحة وتُصان من خلال عمليات تعاونية قائمة على توافق الآراء، وهي متاحة مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+        "es": "Modelos semánticos y sintácticos para la representación, el intercambio y el procesamiento de datos que garantizan que el significado preciso de la información intercambiada pueda ser interpretado sin ambigüedad por cualquier otro sistema, servicio o usuario. Los estándares abiertos se elaboran y mantienen mediante procesos colaborativos y basados en el consenso, y están disponibles libremente para su uso y adaptación sin restricciones de licencia.",
+        "fr": "Modèles sémantiques et syntaxiques de représentation, d'échange et de traitement des données qui garantissent que la signification précise des informations échangées est interprétable sans ambiguïté par tout autre système, service ou utilisateur. Les normes ouvertes sont élaborées et tenues à jour au moyen de processus collaboratifs et fondés sur le consensus, et peuvent être librement utilisées et adaptées sans restriction de licence.",
+        "ru": "Семантические и синтаксические модели представления, обмена и обработки данных, которые обеспечивают однозначную интерпретируемость точного смысла передаваемой информации любой другой системой, сервисом или пользователем. Открытые стандарты разрабатываются и поддерживаются в рамках совместных процессов, основанных на консенсусе, и находятся в свободном доступе для использования и адаптации без лицензионных ограничений.",
+        "zh": "用于数据表示、交换和处理的语义和句法模型，确保所交换信息的确切含义能被任何其他系统、服务或用户明确无误地解读。开放标准通过协作、共识驱动的过程制定和维护，可免费使用和改编，不受许可限制。"
+      },
       "scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: shared FHIR profiles with standard ontologies. The body text also says: 'OPEN STANDARDS refers to a common schema for health data, calculations and information exchange.'",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
-      "status": "candidate"
+      "status": "candidate",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "open-technologies",
-      "prefLabel": "Open Technologies",
-      "definition": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license.",
+      "prefLabel": {
+        "en": "Open Technologies",
+        "ar": "التكنولوجيات المفتوحة",
+        "es": "Tecnologías abiertas",
+        "fr": "Technologies ouvertes",
+        "ru": "Открытые технологии",
+        "zh": "开放技术"
+      },
+      "definition": {
+        "en": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license.",
+        "ar": "أدوات برمجية نمطية وقائمة على المعايير ومتاحة، تساعد المطورين والمستخدمين على جمع البيانات الممثَّلة بمعايير مفتوحة أو تخزينها أو إرسالها أو تحليلها. وتُطوَّر التكنولوجيات المفتوحة وتُصان من خلال عمليات شفافة قائمة على المجتمع، وتُرخَّص بموجب رخصة برمجيات مفتوحة المصدر.",
+        "es": "Herramientas de software modulares, basadas en estándares y accesibles que ayudan a los desarrolladores y usuarios a recopilar, almacenar, transmitir o analizar datos representados en estándares abiertos. Las tecnologías abiertas se desarrollan y mantienen mediante procesos transparentes y comunitarios, y se distribuyen con una licencia de software de código abierto.",
+        "fr": "Outils logiciels modulaires, fondés sur des normes et accessibles, qui aident les développeurs et les utilisateurs à collecter, stocker, transmettre ou analyser des données représentées selon des normes ouvertes. Les technologies ouvertes sont élaborées et tenues à jour au moyen de processus transparents et communautaires, et sont diffusées sous une licence de logiciel à code source ouvert.",
+        "ru": "Модульные, основанные на стандартах и доступные программные инструменты, которые помогают разработчикам и пользователям собирать, хранить, передавать или анализировать данные, представленные в открытых стандартах. Открытые технологии разрабатываются и поддерживаются в рамках прозрачных процессов на базе сообществ и распространяются по лицензии на программное обеспечение с открытым исходным кодом.",
+        "zh": "模块化、基于标准且易于获取的软件工具，帮助开发者和用户收集、存储、传输或分析以开放标准表示的数据。开放技术通过透明的、基于社区的过程开发和维护，并采用开源软件许可证授权。"
+      },
       "scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the Open Health Stack Android FHIR SDK. The body adds: 'Open technologies are open-source and use open standards.'",
       "requires": [
         "open-standards"
       ],
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
-      "status": "candidate"
+      "status": "candidate",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "open-architectures",
-      "prefLabel": "Open Architectures",
-      "definition": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions.",
+      "prefLabel": {
+        "en": "Open Architectures",
+        "ar": "البنى المفتوحة",
+        "es": "Arquitecturas abiertas",
+        "fr": "Architectures ouvertes",
+        "ru": "Открытые архитектуры",
+        "zh": "开放架构"
+      },
+      "definition": {
+        "en": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions.",
+        "ar": "توثيق، باستخدام معايير مفتوحة، لأنماط قابلة لإعادة الاستخدام لبنية المؤسسة الخاصة بالنظم الصحية، يصف الترابطات الرقمية المتنوعة بين النظم والقدرات (بما في ذلك شبكات الثقة والخدمات والسجلات وضوابط الوصول). وتُصمَّم البنى المفتوحة بحيث يمكن تجسيدها من خلال التكنولوجيات المفتوحة؛ وتوفر بنية تحتية أساسية تعزز منظومة من أدوات الصحة الرقمية؛ وتُطوَّر وتُصان من خلال عمليات تعاونية قائمة على توافق الآراء؛ وهي متاحة مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+        "es": "Documentación, mediante estándares abiertos, de patrones reutilizables de arquitectura empresarial para los sistemas de salud, que describe las diversas interconexiones digitales de sistemas y capacidades (incluidas redes de confianza, servicios, registros y controles de acceso). Las arquitecturas abiertas están diseñadas para poder instanciarse mediante tecnologías abiertas; proporcionan una infraestructura básica que fomenta un ecosistema de herramientas de salud digital; se elaboran y mantienen mediante procesos colaborativos y basados en el consenso; y están disponibles libremente para su uso y adaptación sin restricciones de licencia.",
+        "fr": "Documentation, au moyen de normes ouvertes, de modèles d'architecture d'entreprise réutilisables pour les systèmes de santé, décrivant les diverses interconnexions numériques entre systèmes et capacités (y compris les réseaux de confiance, les services, les registres et les contrôles d'accès). Les architectures ouvertes sont conçues pour pouvoir être instanciées au moyen de technologies ouvertes ; elles fournissent une infrastructure de base qui favorise un écosystème d'outils de santé numérique ; elles sont élaborées et tenues à jour au moyen de processus collaboratifs et fondés sur le consensus ; et elles peuvent être librement utilisées et adaptées sans restriction de licence.",
+        "ru": "Документация многократно используемых шаблонов архитектуры предприятия для систем здравоохранения, выполненная с использованием открытых стандартов и описывающая разнообразные цифровые взаимосвязи систем и возможностей (включая сети доверия, сервисы, реестры, средства управления доступом). Открытые архитектуры проектируются так, чтобы их можно было реализовать с помощью открытых технологий; обеспечивают базовую инфраструктуру, способствующую формированию экосистемы инструментов цифрового здравоохранения; разрабатываются и поддерживаются в рамках совместных процессов, основанных на консенсусе; и находятся в свободном доступе для использования и адаптации без лицензионных ограничений.",
+        "zh": "使用开放标准对卫生系统可重用企业架构模式所作的文档记录，描述系统与能力之间多样的数字互连（包括信任网络、服务、登记库、访问控制）。开放架构的设计目标是：可通过开放技术实例化；提供促进数字卫生工具生态系统的核心基础设施；通过协作、共识驱动的过程制定和维护；并可免费使用和改编，不受许可限制。"
+      },
       "scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the OpenHIE Architecture.",
       "requires": [
         "open-standards",
         "open-technologies"
       ],
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
-      "status": "candidate"
+      "status": "candidate",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "open-content",
-      "prefLabel": "Open Content",
-      "definition": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions.",
+      "prefLabel": {
+        "en": "Open Content",
+        "ar": "المحتوى المفتوح",
+        "es": "Contenido abierto",
+        "fr": "Contenu ouvert",
+        "ru": "Открытый контент",
+        "zh": "开放内容"
+      },
+      "definition": {
+        "en": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions.",
+        "ar": "تمثيلات لمعارف الصحة العامة أو النظام الصحي أو المعارف السريرية، تُطوَّر لتلبية احتياجات الأعمال التي تصفها بنية مفتوحة، وتصف باستخدام معايير مفتوحة أصولًا مثل مجموعات البيانات الدنيا، ومنطق دعم القرار، وبروتوكولات الرعاية، ومقاييس الأداء، وسير العمل، وقوالب الإبلاغ. ويُطوَّر المحتوى المفتوح ويُتحقق من صحته ويُصان من خلال مجتمعات الخبراء، وهو متاح مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+        "es": "Representaciones de conocimientos de salud pública, del sistema de salud o clínicos, elaboradas para satisfacer las necesidades de negocio descritas por una arquitectura abierta, y que describen, mediante estándares abiertos, recursos como conjuntos mínimos de datos, lógica de apoyo a la decisión, protocolos de atención, métricas de desempeño, flujos de trabajo y plantillas de notificación. El contenido abierto se elabora, valida y mantiene a través de comunidades de expertos, y está disponible libremente para su uso y adaptación sin restricciones de licencia.",
+        "fr": "Représentations de connaissances en santé publique, sur les systèmes de santé ou cliniques, élaborées pour répondre aux besoins métier décrits par une architecture ouverte, et qui décrivent, au moyen de normes ouvertes, des ressources telles que des ensembles minimaux de données, une logique d'aide à la décision, des protocoles de soins, des indicateurs de performance, des flux de travail et des modèles de rapport. Le contenu ouvert est élaboré, validé et tenu à jour par des communautés d'experts, et peut être librement utilisé et adapté sans restriction de licence.",
+        "ru": "Представления знаний в области общественного здравоохранения, системы здравоохранения или клинических знаний, которые разрабатываются для удовлетворения бизнес-потребностей, описанных открытой архитектурой, и которые описывают с использованием открытых стандартов такие активы, как минимальные наборы данных, логика поддержки принятия решений, протоколы оказания помощи, показатели эффективности, рабочие процессы и шаблоны отчетности. Открытый контент разрабатывается, валидируется и поддерживается экспертными сообществами и находится в свободном доступе для использования и адаптации без лицензионных ограничений.",
+        "zh": "公共卫生、卫生系统或临床知识的表示形式，其开发旨在满足开放架构所描述的业务需求，并使用开放标准描述诸如最小数据集、决策支持逻辑、照护规程、绩效指标、工作流程和报告模板等资产。开放内容由专家社区开发、验证和维护，可免费使用和改编，不受许可限制。"
+      },
       "scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: a WHO SMART Guidelines FHIR Implementation Guide.",
       "requires": [
         "open-standards",
         "open-architectures"
       ],
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
-      "status": "candidate"
+      "status": "candidate",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "full-stac",
-      "prefLabel": "Full-STAC",
-      "definition": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation.",
+      "prefLabel": {
+        "en": "Full-STAC",
+        "ar": "Full-STAC",
+        "es": "Full-STAC",
+        "fr": "Full-STAC",
+        "ru": "Full-STAC",
+        "zh": "Full-STAC"
+      },
+      "definition": {
+        "en": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation.",
+        "ar": "تمثل المعايير المفتوحة والتكنولوجيات المفتوحة والبنى المفتوحة والمحتوى المفتوح مجتمعةً علاجًا من الجيل التالي يُعرف بـ «full-STAC» للتحول في مجال الصحة الرقمية.",
+        "es": "En conjunto, los Estándares abiertos, las Tecnologías abiertas, las Arquitecturas abiertas y el Contenido abierto representan una solución ‘full-STAC’ de nueva generación para la transformación de la salud digital.",
+        "fr": "Ensemble, les normes ouvertes, les technologies ouvertes, les architectures ouvertes et les contenus ouverts constituent une solution « full-STAC » de nouvelle génération pour la transformation de la santé numérique.",
+        "ru": "Вместе открытые стандарты, открытые технологии, открытые архитектуры и открытый контент представляют собой средство нового поколения — «full-STAC» — для цифровой трансформации здравоохранения.",
+        "zh": "开放标准（open Standards）、开放技术（open Technologies）、开放架构（open Architectures）和开放内容（open Content）共同构成数字卫生转型的新一代“full-STAC”解决方案。"
+      },
       "scopeNote": "Quoted from the abstract. The paper calls it both an approach and a remedy, and names the four as 'four factors'. The DPI-H RA draft (sec-022, footnote 14) cites this paper and presents the four as 'the enabling conditions for REDDHI'.",
       "altLabel": [
         "Full-STAC",
@@ -73,43 +171,120 @@
       ],
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-front-matter.md",
       "status": "candidate",
-      "notation": "Full-STAC"
+      "notation": "Full-STAC",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "person-focused-health",
-      "prefLabel": "Person-focused Health",
+      "prefLabel": {
+        "en": "Person-focused Health",
+        "ar": "الصحة المتمحورة حول الشخص",
+        "es": "Salud centrada en la persona",
+        "fr": "Santé centrée sur la personne",
+        "ru": "Здравоохранение, ориентированное на человека",
+        "zh": "以人为本的卫生"
+      },
       "scopeNote": "The centre of Figure 1, which the four factors surround. The paper does not define it; the nearest statements are the vision of health data that 'travels with them' and a 'standards-based longitudinal health record that supports the patient over time'. Recorded so the RA can decide whether it matches its own person-centred terms.",
       "reason": "The paper uses the phrase but never states what it is.",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
-      "status": "could-not-extract"
+      "status": "could-not-extract",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "digital-health-governance",
-      "prefLabel": "Digital Health Governance",
-      "definition": "Digital health governance defines who, what and how to govern to achieve health service impact.",
+      "prefLabel": {
+        "en": "Digital Health Governance",
+        "ar": "حوكمة الصحة الرقمية",
+        "es": "Gobernanza de la salud digital",
+        "fr": "Gouvernance de la santé numérique",
+        "ru": "Управление цифровым здравоохранением",
+        "zh": "数字卫生治理"
+      },
+      "definition": {
+        "en": "Digital health governance defines who, what and how to govern to achieve health service impact.",
+        "ar": "تحدد حوكمة الصحة الرقمية مَن يتولى الحوكمة، وما الذي يخضع لها، وكيف تُمارَس، من أجل تحقيق أثر على الخدمات الصحية.",
+        "es": "La gobernanza de la salud digital define a quién, qué y cómo gobernar para lograr un impacto en los servicios de salud.",
+        "fr": "La gouvernance de la santé numérique définit qui, quoi et comment gouverner pour obtenir un impact sur les services de santé.",
+        "ru": "Управление цифровым здравоохранением определяет, кто управляет, чем и каким образом, для достижения воздействия на услуги здравоохранения.",
+        "zh": "数字卫生治理界定由谁治理、治理什么以及如何治理，以实现卫生服务影响。"
+      },
       "scopeNote": "The paper cites Marcelo et al. 2018 (ADB) for this sentence, so the definition is that source's, as quoted here.",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
-      "status": "candidate"
+      "status": "candidate",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "point-solution",
-      "prefLabel": "Point Solution",
+      "prefLabel": {
+        "en": "Point Solution",
+        "ar": "الحل النقطي",
+        "es": "Solución puntual",
+        "fr": "Solution ponctuelle",
+        "ru": "Точечное решение",
+        "zh": "单点解决方案"
+      },
       "scopeNote": "Used for tools 'developed for vertical health programs and financed through vertical funding allocations'. That describes how they arise, not what they are, so no definition is recorded.",
       "reason": "Characterised by origin and funding only; no defining sentence.",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
-      "status": "could-not-extract"
+      "status": "could-not-extract",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "longitudinal-health-record",
-      "prefLabel": "Longitudinal Health Record",
+      "prefLabel": {
+        "en": "Longitudinal Health Record",
+        "ar": "السجل الصحي الطولي",
+        "es": "Historia de salud longitudinal",
+        "fr": "Dossier de santé longitudinal",
+        "ru": "Лонгитюдная запись о здоровье",
+        "zh": "纵向健康档案"
+      },
       "scopeNote": "'a standards-based longitudinal health record that supports the patient over time and across places where interactions with the health system occurs' (cites Kay 2021 on the International Patient Summary). A use, not a definition.",
       "reason": "Described by what it supports, not defined.",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
-      "status": "could-not-extract"
+      "status": "could-not-extract",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "clinical-quality-language",
-      "prefLabel": "Clinical Quality Language",
+      "prefLabel": {
+        "en": "Clinical Quality Language",
+        "ar": "Clinical Quality Language",
+        "es": "Clinical Quality Language",
+        "fr": "Clinical Quality Language",
+        "ru": "Clinical Quality Language",
+        "zh": "Clinical Quality Language"
+      },
       "scopeNote": "'HL7 Clinical Quality Language (CQL), a human-readable query language to encode calculations for computing indicators and clinical logic to drive decision support.' Defined by HL7, so link to the HL7 specification rather than defining it here.",
       "altLabel": [
         "CQL",
@@ -118,7 +293,14 @@
       "isDefinedBy": "https://cql.hl7.org/",
       "source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
       "status": "candidate",
-      "notation": "CQL"
+      "notation": "CQL",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     }
   ]
 }
