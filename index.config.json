@@ -122,7 +122,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "9edab5ef67b78fbd3aceba41bb993a82d5071800",
+          "ref": "0b45b934abf523a21faed6328cccde4a367b7131",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -156,9 +156,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "9edab5ef67b78fbd3aceba41bb993a82d5071800",
-              "evidence": "litlfred 2026-11-18 ~22:55Z in session session_01EucfRpyUsXExuan5hpWcJ6: 'Re-pin all to main' for WHO smart-ra#86, after lock:freshness refused the single cat-harness-tools re-pin to 5440f5d0 (cat-harness-tools#2451, self-healing layers-move)"
+              "on": "2026-11-19",
+              "ref": "0b45b934abf523a21faed6328cccde4a367b7131",
+              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
             },
             "standing": {
               "follows": "main",
@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
+          "ref": "8075551c0541bc5ecb5bcb7d579fe1a889641e00",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -185,9 +185,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
-              "evidence": "litlfred 2026-11-18 in session session_01EucfRqYSWYLZDQCayeryd8: 'send PRs to merge manager when green and ready'; re-pin every layer to its current main so the avatar PR picks up cat-harness-tools#2340 (canonical site-publish caller, main only), as lock:freshness requires"
+              "on": "2026-11-19",
+              "ref": "8075551c0541bc5ecb5bcb7d579fe1a889641e00",
+              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
             },
             "standing": {
               "follows": "main",
@@ -205,7 +205,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "419d59505a971a36d7e2e0162705be1828296188",
+          "ref": "97b3461c369edb0877d9be4ed8fdb63e0e8a3c2b",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -220,9 +220,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "419d59505a971a36d7e2e0162705be1828296188",
-              "evidence": "litlfred 2026-11-18 ~22:55Z in session session_01EucfRpyUsXExuan5hpWcJ6: 'Re-pin all to main' for WHO smart-ra#86, after lock:freshness refused the single cat-harness-tools re-pin to 5440f5d0 (cat-harness-tools#2451, self-healing layers-move)"
+              "on": "2026-11-19",
+              "ref": "97b3461c369edb0877d9be4ed8fdb63e0e8a3c2b",
+              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
             },
             "standing": {
               "follows": "main",
@@ -240,7 +240,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
+          "ref": "44f3c050ce5565cab593436a2450004e6dc7a4bb",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -255,9 +255,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
-              "evidence": "litlfred 2026-11-18 ~22:55Z in session session_01EucfRpyUsXExuan5hpWcJ6: 'Re-pin all to main' for WHO smart-ra#86, after lock:freshness refused the single cat-harness-tools re-pin to 5440f5d0 (cat-harness-tools#2451, self-healing layers-move)"
+              "on": "2026-11-19",
+              "ref": "44f3c050ce5565cab593436a2450004e6dc7a4bb",
+              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
             },
             "standing": {
               "follows": "main",
@@ -275,7 +275,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "36a4d9c11ca45d8f3e416f04db13584c206c852e",
+          "ref": "15fc205d356eda5aeb95af379216076606c23904",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -287,9 +287,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "36a4d9c11ca45d8f3e416f04db13584c206c852e",
-              "evidence": "litlfred 2026-11-18 ~22:55Z in session session_01EucfRpyUsXExuan5hpWcJ6: 'Re-pin all to main' for WHO smart-ra#86, after lock:freshness refused the single cat-harness-tools re-pin to 5440f5d0 (cat-harness-tools#2451, self-healing layers-move)"
+              "on": "2026-11-19",
+              "ref": "15fc205d356eda5aeb95af379216076606c23904",
+              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
             },
             "standing": {
               "follows": "main",
