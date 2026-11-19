@@ -9,18 +9,39 @@
   "terms": [
     {
       "id": "un",
-      "prefLabel": "United Nations",
+      "prefLabel": {
+        "en": "United Nations",
+        "ar": "الأمم المتحدة",
+        "es": "Naciones Unidas",
+        "fr": "Organisation des Nations Unies",
+        "ru": "Организация Объединенных Наций",
+        "zh": "联合国"
+      },
       "notation": "UN",
       "scopeNote": "The parent of the UN bodies below. Not named in dth-pc's abbreviations; added so subOrganizationOf has a target.",
       "status": "candidate",
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.un.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "who",
-      "prefLabel": "World Health Organization",
+      "prefLabel": {
+        "en": "World Health Organization",
+        "ar": "منظمة الصحة العالمية",
+        "es": "Organización Mundial de la Salud",
+        "fr": "Organisation mondiale de la Santé",
+        "ru": "Всемирная организация здравоохранения",
+        "zh": "世界卫生组织"
+      },
       "notation": "WHO",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
@@ -28,11 +49,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.who.int/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "paho",
-      "prefLabel": "Pan American Health Organization",
+      "prefLabel": {
+        "en": "Pan American Health Organization",
+        "ar": "منظمة الصحة للبلدان الأمريكية",
+        "es": "Organización Panamericana de la Salud",
+        "fr": "Organisation panaméricaine de la Santé",
+        "ru": "Панамериканская организация здравоохранения",
+        "zh": "泛美卫生组织"
+      },
       "notation": "PAHO",
       "scopeNote": "Named in the dth-pc acknowledgements. PAHO serves as WHO's Regional Office for the Americas, hence subOrganizationOf WHO.",
       "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
@@ -43,11 +78,25 @@
         "subOrganizationOf": [
           "who"
         ]
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "unicef",
-      "prefLabel": "United Nations Children's Fund",
+      "prefLabel": {
+        "en": "United Nations Children's Fund",
+        "ar": "منظمة الأمم المتحدة للطفولة",
+        "es": "Fondo de las Naciones Unidas para la Infancia",
+        "fr": "Fonds des Nations Unies pour l'enfance",
+        "ru": "Детский фонд Организации Объединенных Наций",
+        "zh": "联合国儿童基金会"
+      },
       "notation": "UNICEF",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
@@ -58,11 +107,25 @@
         "subOrganizationOf": [
           "un"
         ]
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "unido",
-      "prefLabel": "United Nations Industrial Development Organization",
+      "prefLabel": {
+        "en": "United Nations Industrial Development Organization",
+        "ar": "منظمة الأمم المتحدة للتنمية الصناعية",
+        "es": "Organización de las Naciones Unidas para el Desarrollo Industrial",
+        "fr": "Organisation des Nations Unies pour le développement industriel",
+        "ru": "Организация Объединенных Наций по промышленному развитию",
+        "zh": "联合国工业发展组织"
+      },
       "notation": "UNIDO",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-055.md",
@@ -70,11 +133,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.unido.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "itu",
-      "prefLabel": "International Telecommunication Union",
+      "prefLabel": {
+        "en": "International Telecommunication Union",
+        "ar": "الاتحاد الدولي للاتصالات",
+        "es": "Unión Internacional de Telecomunicaciones",
+        "fr": "Union internationale des télécommunications",
+        "ru": "Международный союз электросвязи",
+        "zh": "国际电信联盟"
+      },
       "notation": "ITU",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-013.md",
@@ -82,11 +159,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.itu.int/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "iso",
-      "prefLabel": "International Organization for Standardization",
+      "prefLabel": {
+        "en": "International Organization for Standardization",
+        "ar": "المنظمة الدولية للتوحيد القياسي",
+        "es": "Organización Internacional de Normalización",
+        "fr": "Organisation internationale de normalisation",
+        "ru": "Международная организация по стандартизации",
+        "zh": "国际标准化组织"
+      },
       "notation": "ISO",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
@@ -94,11 +185,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.iso.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "hl7",
-      "prefLabel": "Health Level Seven International",
+      "prefLabel": {
+        "en": "Health Level Seven International",
+        "ar": "Health Level Seven International",
+        "es": "Health Level Seven International",
+        "fr": "Health Level Seven International",
+        "ru": "Health Level Seven International",
+        "zh": "Health Level Seven International"
+      },
       "altLabel": [
         "Health Level Seven",
         "HL7 International"
@@ -110,11 +215,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.hl7.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "gs1",
-      "prefLabel": "GS1",
+      "prefLabel": {
+        "en": "GS1",
+        "ar": "GS1",
+        "es": "GS1",
+        "fr": "GS1",
+        "ru": "GS1",
+        "zh": "GS1"
+      },
       "notation": "GS1",
       "scopeNote": "Named in dth-pc (acknowledgements, and as the GTIN and GDSN standards body) but missing from its abbreviations table. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
@@ -122,22 +241,50 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.gs1.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "usaid",
-      "prefLabel": "United States Agency for International Development",
+      "prefLabel": {
+        "en": "United States Agency for International Development",
+        "ar": "الوكالة الأمريكية للتنمية الدولية",
+        "es": "Agencia de los Estados Unidos para el Desarrollo Internacional",
+        "fr": "Agence des États-Unis pour le développement international",
+        "ru": "Агентство США по международному развитию",
+        "zh": "美国国际开发署"
+      },
       "notation": "USAID",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
       "status": "candidate",
       "focus": {
         "type": "FormalOrganization"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "umc",
-      "prefLabel": "Uppsala Monitoring Centre",
+      "prefLabel": {
+        "en": "Uppsala Monitoring Centre",
+        "ar": "مركز أوبسالا للرصد",
+        "es": "Uppsala Monitoring Centre",
+        "fr": "Uppsala Monitoring Centre",
+        "ru": "Уппсальский центр мониторинга",
+        "zh": "乌普萨拉监测中心"
+      },
       "notation": "UMC",
       "scopeNote": "dth-pc's abbreviations table names UMC as the Swedish foundation that maintains WHODrug. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-007.md",
@@ -145,11 +292,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://who-umc.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "global-fund",
-      "prefLabel": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "prefLabel": {
+        "en": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+        "ar": "الصندوق العالمي لمكافحة الإيدز والسل والملاريا",
+        "es": "Fondo Mundial de Lucha contra el Sida, la Tuberculosis y la Malaria",
+        "fr": "Fonds mondial de lutte contre le sida, la tuberculose et le paludisme",
+        "ru": "Глобальный фонд для борьбы со СПИДом, туберкулезом и малярией",
+        "zh": "抗击艾滋病、结核病和疟疾全球基金"
+      },
       "altLabel": [
         "Global Fund"
       ],
@@ -160,11 +321,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.theglobalfund.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "gavi",
-      "prefLabel": "Gavi, the Vaccine Alliance",
+      "prefLabel": {
+        "en": "Gavi, the Vaccine Alliance",
+        "ar": "Gavi، التحالف العالمي من أجل اللقاحات",
+        "es": "Gavi, la Alianza para las Vacunas",
+        "fr": "Gavi, l'Alliance du Vaccin",
+        "ru": "Gavi, Альянс по вакцинам",
+        "zh": "Gavi疫苗联盟"
+      },
       "altLabel": [
         "Gavi"
       ],
@@ -175,11 +350,25 @@
       "focus": {
         "type": "OrganizationalCollaboration",
         "homepage": "https://www.gavi.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "giz",
-      "prefLabel": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+      "prefLabel": {
+        "en": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+        "ar": "الوكالة الألمانية للتعاون الدولي",
+        "es": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+        "fr": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+        "ru": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+        "zh": "德国国际合作机构"
+      },
       "notation": "GIZ",
       "scopeNote": "Named in the WHO health product catalogue handbook (dth-pc). A candidate: the name and acronym are the handbook's, and no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
@@ -187,11 +376,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.giz.de/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "path",
-      "prefLabel": "PATH",
+      "prefLabel": {
+        "en": "PATH",
+        "ar": "PATH",
+        "es": "PATH",
+        "fr": "PATH",
+        "ru": "PATH",
+        "zh": "PATH"
+      },
       "notation": "PATH",
       "scopeNote": "Named in the dth-pc acknowledgements. PATH is the organization's name, not an expansion. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-005.md",
@@ -199,11 +402,25 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.path.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "openhie",
-      "prefLabel": "Open Health Information Exchange",
+      "prefLabel": {
+        "en": "Open Health Information Exchange",
+        "ar": "Open Health Information Exchange",
+        "es": "Open Health Information Exchange",
+        "fr": "Open Health Information Exchange",
+        "ru": "Open Health Information Exchange",
+        "zh": "Open Health Information Exchange"
+      },
       "notation": "OpenHIE",
       "scopeNote": "A global community of practice. dth-pc's abbreviations table expands it. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240116191-eng/sections/page-006.md",
@@ -211,11 +428,25 @@
       "focus": {
         "type": "OrganizationalCollaboration",
         "homepage": "https://ohie.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     },
     {
       "id": "gates-foundation",
-      "prefLabel": "Bill & Melinda Gates Foundation",
+      "prefLabel": {
+        "en": "Bill & Melinda Gates Foundation",
+        "ar": "مؤسسة بيل وميليندا غيتس",
+        "es": "Fundación Bill y Melinda Gates",
+        "fr": "Fondation Bill & Melinda Gates",
+        "ru": "Фонд Билла и Мелинды Гейтс",
+        "zh": "比尔及梅琳达·盖茨基金会"
+      },
       "altLabel": [
         "Gates Foundation"
       ],
@@ -225,6 +456,13 @@
       "focus": {
         "type": "FormalOrganization",
         "homepage": "https://www.gatesfoundation.org/"
+      },
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
       }
     }
   ]

@@ -7,129 +7,381 @@
   "terms": [
     {
       "id": "ai",
-      "prefLabel": "Artificial Intelligence",
+      "prefLabel": {
+        "en": "Artificial Intelligence",
+        "ar": "الذكاء الاصطناعي",
+        "es": "Inteligencia artificial",
+        "fr": "Intelligence artificielle",
+        "ru": "Искусственный интеллект",
+        "zh": "人工智能"
+      },
       "notation": "AI",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "diig",
-      "prefLabel": "Digital Implementation Investment Guide",
+      "prefLabel": {
+        "en": "Digital Implementation Investment Guide",
+        "ar": "دليل الاستثمار في التنفيذ الرقمي",
+        "es": "Guía de inversión en la implementación digital",
+        "fr": "Guide d'investissement pour la mise en œuvre du numérique",
+        "ru": "Руководство по инвестициям во внедрение цифровых технологий",
+        "zh": "数字实施投资指南"
+      },
       "notation": "DIIG",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "dpi",
-      "prefLabel": "Digital Public Infrastructure",
+      "prefLabel": {
+        "en": "Digital Public Infrastructure",
+        "ar": "البنية التحتية الرقمية العامة",
+        "es": "Infraestructura pública digital",
+        "fr": "Infrastructure publique numérique",
+        "ru": "Цифровая общественная инфраструктура",
+        "zh": "数字公共基础设施"
+      },
       "notation": "DPI",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "dpi-f",
-      "prefLabel": "Foundational Digital Public Infrastructure",
+      "prefLabel": {
+        "en": "Foundational Digital Public Infrastructure",
+        "ar": "البنية التحتية الرقمية العامة التأسيسية",
+        "es": "Infraestructura pública digital fundacional",
+        "fr": "Infrastructure publique numérique fondamentale",
+        "ru": "Базовая цифровая общественная инфраструктура",
+        "zh": "基础性数字公共基础设施"
+      },
       "notation": "DPI-F",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "dpi-h",
-      "prefLabel": "Health Digital Public Infrastructure",
+      "prefLabel": {
+        "en": "Health Digital Public Infrastructure",
+        "ar": "البنية التحتية الرقمية العامة للصحة",
+        "es": "Infraestructura pública digital para la salud",
+        "fr": "Infrastructure publique numérique pour la santé",
+        "ru": "Цифровая общественная инфраструктура здравоохранения",
+        "zh": "卫生数字公共基础设施"
+      },
       "notation": "DPI-H",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "hl7-fhir",
-      "prefLabel": "Health Level Seven Fast Healthcare Interoperability Resources",
+      "prefLabel": {
+        "en": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "ar": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "es": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "fr": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "ru": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "zh": "Health Level Seven Fast Healthcare Interoperability Resources"
+      },
       "notation": "HL7 FHIR®",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "icd-11",
-      "prefLabel": "International Classification of Diseases 11th Revision",
+      "prefLabel": {
+        "en": "International Classification of Diseases 11th Revision",
+        "ar": "المراجعة الحادية عشرة للتصنيف الدولي للأمراض",
+        "es": "Clasificación Internacional de Enfermedades, 11.ª revisión",
+        "fr": "Classification internationale des maladies, 11e révision",
+        "ru": "Международная классификация болезней 11-го пересмотра",
+        "zh": "国际疾病分类第十一次修订本"
+      },
       "notation": "ICD-11",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "icvp",
-      "prefLabel": "International Certificate of Vaccination or Prophylaxis",
+      "prefLabel": {
+        "en": "International Certificate of Vaccination or Prophylaxis",
+        "ar": "الشهادة الدولية للتطعيم أو الاتقاء",
+        "es": "Certificado Internacional de Vacunación o Profilaxis",
+        "fr": "Certificat international de vaccination ou de prophylaxie",
+        "ru": "Международное свидетельство о вакцинации или профилактике",
+        "zh": "国际预防接种或预防措施证书"
+      },
       "notation": "ICVP",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "ips",
-      "prefLabel": "International Patient Summary",
+      "prefLabel": {
+        "en": "International Patient Summary",
+        "ar": "International Patient Summary",
+        "es": "Resumen internacional del paciente",
+        "fr": "Résumé international du patient",
+        "ru": "International Patient Summary",
+        "zh": "国际患者摘要"
+      },
       "notation": "IPS",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "lmic",
-      "prefLabel": "Low-and-Middle-Income Country",
+      "prefLabel": {
+        "en": "Low-and-Middle-Income Country",
+        "ar": "بلد منخفض الدخل ومتوسط الدخل",
+        "es": "País de ingresos bajos y medianos",
+        "fr": "Pays à revenu faible ou intermédiaire",
+        "ru": "Страна с низким и средним уровнем дохода",
+        "zh": "低收入和中等收入国家"
+      },
       "notation": "LMIC",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "loinc",
-      "prefLabel": "Logical Observation Identifiers Names and Codes",
+      "prefLabel": {
+        "en": "Logical Observation Identifiers Names and Codes",
+        "ar": "Logical Observation Identifiers Names and Codes",
+        "es": "Logical Observation Identifiers Names and Codes",
+        "fr": "Logical Observation Identifiers Names and Codes",
+        "ru": "Logical Observation Identifiers Names and Codes",
+        "zh": "Logical Observation Identifiers Names and Codes"
+      },
       "notation": "LOINC",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "openhie",
-      "prefLabel": "Open Health Information Exchange",
+      "prefLabel": {
+        "en": "Open Health Information Exchange",
+        "ar": "Open Health Information Exchange",
+        "es": "Open Health Information Exchange",
+        "fr": "Open Health Information Exchange",
+        "ru": "Open Health Information Exchange",
+        "zh": "Open Health Information Exchange"
+      },
       "notation": "OpenHIE",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "reddhi",
-      "prefLabel": "Resilient Essential Data and Digital Health Infrastructure",
+      "prefLabel": {
+        "en": "Resilient Essential Data and Digital Health Infrastructure",
+        "ar": "البنية التحتية الأساسية القادرة على الصمود للبيانات والصحة الرقمية",
+        "es": "Infraestructura resiliente de datos esenciales y de salud digital",
+        "fr": "Infrastructure résiliente de données essentielles et de santé numérique",
+        "ru": "Устойчивая базовая инфраструктура данных и цифрового здравоохранения",
+        "zh": "韧性基本数据和数字卫生基础设施"
+      },
       "notation": "REDDHI",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "sdg",
-      "prefLabel": "Sustainable Development Goal",
+      "prefLabel": {
+        "en": "Sustainable Development Goal",
+        "ar": "هدف التنمية المستدامة",
+        "es": "Objetivo de Desarrollo Sostenible",
+        "fr": "Objectif de développement durable",
+        "ru": "Цель в области устойчивого развития",
+        "zh": "可持续发展目标"
+      },
       "notation": "SDG",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "smart-guidelines",
-      "prefLabel": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+      "prefLabel": {
+        "en": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "ar": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "es": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "fr": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "ru": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "zh": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines"
+      },
       "notation": "SMART Guidelines",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "snomed-ct",
-      "prefLabel": "Systematized Nomenclature of Medicine - Clinical Terms",
+      "prefLabel": {
+        "en": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "ar": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "es": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "fr": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "ru": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "zh": "Systematized Nomenclature of Medicine - Clinical Terms"
+      },
       "notation": "SNOMED CT",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "snomed-gps",
-      "prefLabel": "Systematized Nomenclature of Medicine – Global Patient Set",
+      "prefLabel": {
+        "en": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "ar": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "es": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "fr": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "ru": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "zh": "Systematized Nomenclature of Medicine – Global Patient Set"
+      },
       "notation": "SNOMED GPS",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     },
     {
       "id": "togaf",
-      "prefLabel": "The Open Group Architecture Framework",
+      "prefLabel": {
+        "en": "The Open Group Architecture Framework",
+        "ar": "The Open Group Architecture Framework",
+        "es": "The Open Group Architecture Framework",
+        "fr": "The Open Group Architecture Framework",
+        "ru": "The Open Group Architecture Framework",
+        "zh": "The Open Group Architecture Framework"
+      },
       "notation": "TOGAF",
       "status": "candidate",
-      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md"
+      "source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
+      "translationStatus": {
+        "ar": "unofficial",
+        "es": "unofficial",
+        "fr": "unofficial",
+        "ru": "unofficial",
+        "zh": "unofficial"
+      }
     }
   ]
 }
