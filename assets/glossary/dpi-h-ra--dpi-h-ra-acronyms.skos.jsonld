@@ -2,7 +2,9 @@
   "@context": {
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dcterms": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "fa": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
   },
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
@@ -23,11 +25,93 @@
         {
           "@value": "Artificial Intelligence",
           "@language": "en"
+        },
+        {
+          "@value": "الذكاء الاصطناعي",
+          "@language": "ar"
+        },
+        {
+          "@value": "Inteligencia artificial",
+          "@language": "es"
+        },
+        {
+          "@value": "Intelligence artificielle",
+          "@language": "fr"
+        },
+        {
+          "@value": "Искусственный интеллект",
+          "@language": "ru"
+        },
+        {
+          "@value": "人工智能",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh"
         }
       ],
       "skos:notation": "AI",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "الذكاء الاصطناعي",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Inteligencia artificial",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Intelligence artificielle",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Искусственный интеллект",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "人工智能",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig",
@@ -39,11 +123,93 @@
         {
           "@value": "Digital Implementation Investment Guide",
           "@language": "en"
+        },
+        {
+          "@value": "دليل الاستثمار في التنفيذ الرقمي",
+          "@language": "ar"
+        },
+        {
+          "@value": "Guía de inversión en la implementación digital",
+          "@language": "es"
+        },
+        {
+          "@value": "Guide d'investissement pour la mise en œuvre du numérique",
+          "@language": "fr"
+        },
+        {
+          "@value": "Руководство по инвестициям во внедрение цифровых технологий",
+          "@language": "ru"
+        },
+        {
+          "@value": "数字实施投资指南",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh"
         }
       ],
       "skos:notation": "DIIG",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "دليل الاستثمار في التنفيذ الرقمي",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Guía de inversión en la implementación digital",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Guide d'investissement pour la mise en œuvre du numérique",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Руководство по инвестициям во внедрение цифровых технологий",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "数字实施投资指南",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi",
@@ -55,11 +221,93 @@
         {
           "@value": "Digital Public Infrastructure",
           "@language": "en"
+        },
+        {
+          "@value": "البنية التحتية الرقمية العامة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Infraestructura pública digital",
+          "@language": "es"
+        },
+        {
+          "@value": "Infrastructure publique numérique",
+          "@language": "fr"
+        },
+        {
+          "@value": "Цифровая общественная инфраструктура",
+          "@language": "ru"
+        },
+        {
+          "@value": "数字公共基础设施",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh"
         }
       ],
       "skos:notation": "DPI",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "البنية التحتية الرقمية العامة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infraestructura pública digital",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infrastructure publique numérique",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Цифровая общественная инфраструктура",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "数字公共基础设施",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f",
@@ -71,11 +319,93 @@
         {
           "@value": "Foundational Digital Public Infrastructure",
           "@language": "en"
+        },
+        {
+          "@value": "البنية التحتية الرقمية العامة التأسيسية",
+          "@language": "ar"
+        },
+        {
+          "@value": "Infraestructura pública digital fundacional",
+          "@language": "es"
+        },
+        {
+          "@value": "Infrastructure publique numérique fondamentale",
+          "@language": "fr"
+        },
+        {
+          "@value": "Базовая цифровая общественная инфраструктура",
+          "@language": "ru"
+        },
+        {
+          "@value": "基础性数字公共基础设施",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh"
         }
       ],
       "skos:notation": "DPI-F",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "البنية التحتية الرقمية العامة التأسيسية",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infraestructura pública digital fundacional",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infrastructure publique numérique fondamentale",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Базовая цифровая общественная инфраструктура",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "基础性数字公共基础设施",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h",
@@ -87,11 +417,93 @@
         {
           "@value": "Health Digital Public Infrastructure",
           "@language": "en"
+        },
+        {
+          "@value": "البنية التحتية الرقمية العامة للصحة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Infraestructura pública digital para la salud",
+          "@language": "es"
+        },
+        {
+          "@value": "Infrastructure publique numérique pour la santé",
+          "@language": "fr"
+        },
+        {
+          "@value": "Цифровая общественная инфраструктура здравоохранения",
+          "@language": "ru"
+        },
+        {
+          "@value": "卫生数字公共基础设施",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh"
         }
       ],
       "skos:notation": "DPI-H",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "البنية التحتية الرقمية العامة للصحة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infraestructura pública digital para la salud",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infrastructure publique numérique pour la santé",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Цифровая общественная инфраструктура здравоохранения",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "卫生数字公共基础设施",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir",
@@ -103,11 +515,93 @@
         {
           "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
           "@language": "en"
+        },
+        {
+          "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+          "@language": "ar"
+        },
+        {
+          "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+          "@language": "es"
+        },
+        {
+          "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+          "@language": "fr"
+        },
+        {
+          "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+          "@language": "ru"
+        },
+        {
+          "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh"
         }
       ],
       "skos:notation": "HL7 FHIR®",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11",
@@ -119,11 +613,93 @@
         {
           "@value": "International Classification of Diseases 11th Revision",
           "@language": "en"
+        },
+        {
+          "@value": "المراجعة الحادية عشرة للتصنيف الدولي للأمراض",
+          "@language": "ar"
+        },
+        {
+          "@value": "Clasificación Internacional de Enfermedades, 11.ª revisión",
+          "@language": "es"
+        },
+        {
+          "@value": "Classification internationale des maladies, 11e révision",
+          "@language": "fr"
+        },
+        {
+          "@value": "Международная классификация болезней 11-го пересмотра",
+          "@language": "ru"
+        },
+        {
+          "@value": "国际疾病分类第十一次修订本",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh"
         }
       ],
       "skos:notation": "ICD-11",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "المراجعة الحادية عشرة للتصنيف الدولي للأمراض",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clasificación Internacional de Enfermedades, 11.ª revisión",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Classification internationale des maladies, 11e révision",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Международная классификация болезней 11-го пересмотра",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "国际疾病分类第十一次修订本",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp",
@@ -135,11 +711,93 @@
         {
           "@value": "International Certificate of Vaccination or Prophylaxis",
           "@language": "en"
+        },
+        {
+          "@value": "الشهادة الدولية للتطعيم أو الاتقاء",
+          "@language": "ar"
+        },
+        {
+          "@value": "Certificado Internacional de Vacunación o Profilaxis",
+          "@language": "es"
+        },
+        {
+          "@value": "Certificat international de vaccination ou de prophylaxie",
+          "@language": "fr"
+        },
+        {
+          "@value": "Международное свидетельство о вакцинации или профилактике",
+          "@language": "ru"
+        },
+        {
+          "@value": "国际预防接种或预防措施证书",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh"
         }
       ],
       "skos:notation": "ICVP",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "الشهادة الدولية للتطعيم أو الاتقاء",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Certificado Internacional de Vacunación o Profilaxis",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Certificat international de vaccination ou de prophylaxie",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Международное свидетельство о вакцинации или профилактике",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "国际预防接种或预防措施证书",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips",
@@ -151,11 +809,93 @@
         {
           "@value": "International Patient Summary",
           "@language": "en"
+        },
+        {
+          "@value": "International Patient Summary",
+          "@language": "ar"
+        },
+        {
+          "@value": "Resumen internacional del paciente",
+          "@language": "es"
+        },
+        {
+          "@value": "Résumé international du patient",
+          "@language": "fr"
+        },
+        {
+          "@value": "International Patient Summary",
+          "@language": "ru"
+        },
+        {
+          "@value": "国际患者摘要",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh"
         }
       ],
       "skos:notation": "IPS",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "International Patient Summary",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Resumen internacional del paciente",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Résumé international du patient",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "International Patient Summary",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "国际患者摘要",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic",
@@ -167,11 +907,93 @@
         {
           "@value": "Low-and-Middle-Income Country",
           "@language": "en"
+        },
+        {
+          "@value": "بلد منخفض الدخل ومتوسط الدخل",
+          "@language": "ar"
+        },
+        {
+          "@value": "País de ingresos bajos y medianos",
+          "@language": "es"
+        },
+        {
+          "@value": "Pays à revenu faible ou intermédiaire",
+          "@language": "fr"
+        },
+        {
+          "@value": "Страна с низким и средним уровнем дохода",
+          "@language": "ru"
+        },
+        {
+          "@value": "低收入和中等收入国家",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh"
         }
       ],
       "skos:notation": "LMIC",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "بلد منخفض الدخل ومتوسط الدخل",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "País de ingresos bajos y medianos",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Pays à revenu faible ou intermédiaire",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Страна с низким и средним уровнем дохода",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "低收入和中等收入国家",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc",
@@ -183,11 +1005,93 @@
         {
           "@value": "Logical Observation Identifiers Names and Codes",
           "@language": "en"
+        },
+        {
+          "@value": "Logical Observation Identifiers Names and Codes",
+          "@language": "ar"
+        },
+        {
+          "@value": "Logical Observation Identifiers Names and Codes",
+          "@language": "es"
+        },
+        {
+          "@value": "Logical Observation Identifiers Names and Codes",
+          "@language": "fr"
+        },
+        {
+          "@value": "Logical Observation Identifiers Names and Codes",
+          "@language": "ru"
+        },
+        {
+          "@value": "Logical Observation Identifiers Names and Codes",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh"
         }
       ],
       "skos:notation": "LOINC",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Logical Observation Identifiers Names and Codes",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Logical Observation Identifiers Names and Codes",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Logical Observation Identifiers Names and Codes",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Logical Observation Identifiers Names and Codes",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Logical Observation Identifiers Names and Codes",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie",
@@ -199,11 +1103,93 @@
         {
           "@value": "Open Health Information Exchange",
           "@language": "en"
+        },
+        {
+          "@value": "Open Health Information Exchange",
+          "@language": "ar"
+        },
+        {
+          "@value": "Open Health Information Exchange",
+          "@language": "es"
+        },
+        {
+          "@value": "Open Health Information Exchange",
+          "@language": "fr"
+        },
+        {
+          "@value": "Open Health Information Exchange",
+          "@language": "ru"
+        },
+        {
+          "@value": "Open Health Information Exchange",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh"
         }
       ],
       "skos:notation": "OpenHIE",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Open Health Information Exchange",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Open Health Information Exchange",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Open Health Information Exchange",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Open Health Information Exchange",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Open Health Information Exchange",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi",
@@ -215,11 +1201,93 @@
         {
           "@value": "Resilient Essential Data and Digital Health Infrastructure",
           "@language": "en"
+        },
+        {
+          "@value": "البنية التحتية الأساسية القادرة على الصمود للبيانات والصحة الرقمية",
+          "@language": "ar"
+        },
+        {
+          "@value": "Infraestructura resiliente de datos esenciales y de salud digital",
+          "@language": "es"
+        },
+        {
+          "@value": "Infrastructure résiliente de données essentielles et de santé numérique",
+          "@language": "fr"
+        },
+        {
+          "@value": "Устойчивая базовая инфраструктура данных и цифрового здравоохранения",
+          "@language": "ru"
+        },
+        {
+          "@value": "韧性基本数据和数字卫生基础设施",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh"
         }
       ],
       "skos:notation": "REDDHI",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "البنية التحتية الأساسية القادرة على الصمود للبيانات والصحة الرقمية",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infraestructura resiliente de datos esenciales y de salud digital",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Infrastructure résiliente de données essentielles et de santé numérique",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Устойчивая базовая инфраструктура данных и цифрового здравоохранения",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "韧性基本数据和数字卫生基础设施",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg",
@@ -231,11 +1299,93 @@
         {
           "@value": "Sustainable Development Goal",
           "@language": "en"
+        },
+        {
+          "@value": "هدف التنمية المستدامة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Objetivo de Desarrollo Sostenible",
+          "@language": "es"
+        },
+        {
+          "@value": "Objectif de développement durable",
+          "@language": "fr"
+        },
+        {
+          "@value": "Цель в области устойчивого развития",
+          "@language": "ru"
+        },
+        {
+          "@value": "可持续发展目标",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh"
         }
       ],
       "skos:notation": "SDG",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "هدف التنمية المستدامة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Objetivo de Desarrollo Sostenible",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Objectif de développement durable",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Цель в области устойчивого развития",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "可持续发展目标",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines",
@@ -247,11 +1397,93 @@
         {
           "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
           "@language": "en"
+        },
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+          "@language": "ar"
+        },
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+          "@language": "es"
+        },
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+          "@language": "fr"
+        },
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+          "@language": "ru"
+        },
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh"
         }
       ],
       "skos:notation": "SMART Guidelines",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct",
@@ -263,11 +1495,93 @@
         {
           "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
           "@language": "en"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+          "@language": "ar"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+          "@language": "es"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+          "@language": "fr"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+          "@language": "ru"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh"
         }
       ],
       "skos:notation": "SNOMED CT",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps",
@@ -279,11 +1593,93 @@
         {
           "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
           "@language": "en"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+          "@language": "ar"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+          "@language": "es"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+          "@language": "fr"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+          "@language": "ru"
+        },
+        {
+          "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh"
         }
       ],
       "skos:notation": "SNOMED GPS",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf",
@@ -295,11 +1691,93 @@
         {
           "@value": "The Open Group Architecture Framework",
           "@language": "en"
+        },
+        {
+          "@value": "The Open Group Architecture Framework",
+          "@language": "ar"
+        },
+        {
+          "@value": "The Open Group Architecture Framework",
+          "@language": "es"
+        },
+        {
+          "@value": "The Open Group Architecture Framework",
+          "@language": "fr"
+        },
+        {
+          "@value": "The Open Group Architecture Framework",
+          "@language": "ru"
+        },
+        {
+          "@value": "The Open Group Architecture Framework",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh"
         }
       ],
       "skos:notation": "TOGAF",
       "dcterms:source": "folio/dpi-h-ra/glossary/t-acronyms-lead-bf4749.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "The Open Group Architecture Framework",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "The Open Group Architecture Framework",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "The Open Group Architecture Framework",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "The Open Group Architecture Framework",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "The Open Group Architecture Framework",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     }
   ]
 }

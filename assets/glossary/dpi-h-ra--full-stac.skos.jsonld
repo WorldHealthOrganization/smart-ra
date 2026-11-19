@@ -2,7 +2,9 @@
   "@context": {
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dcterms": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "fa": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
   },
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
@@ -26,17 +28,119 @@
         {
           "@value": "Open Standards",
           "@language": "en"
+        },
+        {
+          "@value": "المعايير المفتوحة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Estándares abiertos",
+          "@language": "es"
+        },
+        {
+          "@value": "Normes ouvertes",
+          "@language": "fr"
+        },
+        {
+          "@value": "Открытые стандарты",
+          "@language": "ru"
+        },
+        {
+          "@value": "开放标准",
+          "@language": "zh"
         }
       ],
       "skos:definition": [
         {
           "@value": "Semantic and syntactic models for data representation, exchange, and processing that ensure the precise meaning of exchanged information is unambiguously interpretable by any other system, service, or user. Open standards are developed and maintained through collaborative, consensus-driven processes, and are freely available for use and adaptation without license restrictions.",
           "@language": "en"
+        },
+        {
+          "@value": "نماذج دلالية ونحوية لتمثيل البيانات وتبادلها ومعالجتها، تضمن أن يكون المعنى الدقيق للمعلومات المتبادلة قابلًا للتفسير دون لبس من جانب أي نظام أو خدمة أو مستخدم آخر. وتُطوَّر المعايير المفتوحة وتُصان من خلال عمليات تعاونية قائمة على توافق الآراء، وهي متاحة مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+          "@language": "ar"
+        },
+        {
+          "@value": "Modelos semánticos y sintácticos para la representación, el intercambio y el procesamiento de datos que garantizan que el significado preciso de la información intercambiada pueda ser interpretado sin ambigüedad por cualquier otro sistema, servicio o usuario. Los estándares abiertos se elaboran y mantienen mediante procesos colaborativos y basados en el consenso, y están disponibles libremente para su uso y adaptación sin restricciones de licencia.",
+          "@language": "es"
+        },
+        {
+          "@value": "Modèles sémantiques et syntaxiques de représentation, d'échange et de traitement des données qui garantissent que la signification précise des informations échangées est interprétable sans ambiguïté par tout autre système, service ou utilisateur. Les normes ouvertes sont élaborées et tenues à jour au moyen de processus collaboratifs et fondés sur le consensus, et peuvent être librement utilisées et adaptées sans restriction de licence.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Семантические и синтаксические модели представления, обмена и обработки данных, которые обеспечивают однозначную интерпретируемость точного смысла передаваемой информации любой другой системой, сервисом или пользователем. Открытые стандарты разрабатываются и поддерживаются в рамках совместных процессов, основанных на консенсусе, и находятся в свободном доступе для использования и адаптации без лицензионных ограничений.",
+          "@language": "ru"
+        },
+        {
+          "@value": "用于数据表示、交换和处理的语义和句法模型，确保所交换信息的确切含义能被任何其他系统、服务或用户明确无误地解读。开放标准通过协作、共识驱动的过程制定和维护，可免费使用和改编，不受许可限制。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-zh"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: shared FHIR profiles with standard ontologies. The body text also says: 'OPEN STANDARDS refers to a common schema for health data, calculations and information exchange.'",
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "المعايير المفتوحة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Estándares abiertos",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Normes ouvertes",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Открытые стандарты",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "开放标准",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies",
@@ -48,12 +152,69 @@
         {
           "@value": "Open Technologies",
           "@language": "en"
+        },
+        {
+          "@value": "التكنولوجيات المفتوحة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Tecnologías abiertas",
+          "@language": "es"
+        },
+        {
+          "@value": "Technologies ouvertes",
+          "@language": "fr"
+        },
+        {
+          "@value": "Открытые технологии",
+          "@language": "ru"
+        },
+        {
+          "@value": "开放技术",
+          "@language": "zh"
         }
       ],
       "skos:definition": [
         {
           "@value": "Modular, standards-based, and accessible software tools that help developers and users to collect, store, transmit, or analyze data represented in open standards. Open technologies are developed and maintained through transparent, community-based processes, and are licensed under an open-source software license.",
           "@language": "en"
+        },
+        {
+          "@value": "أدوات برمجية نمطية وقائمة على المعايير ومتاحة، تساعد المطورين والمستخدمين على جمع البيانات الممثَّلة بمعايير مفتوحة أو تخزينها أو إرسالها أو تحليلها. وتُطوَّر التكنولوجيات المفتوحة وتُصان من خلال عمليات شفافة قائمة على المجتمع، وتُرخَّص بموجب رخصة برمجيات مفتوحة المصدر.",
+          "@language": "ar"
+        },
+        {
+          "@value": "Herramientas de software modulares, basadas en estándares y accesibles que ayudan a los desarrolladores y usuarios a recopilar, almacenar, transmitir o analizar datos representados en estándares abiertos. Las tecnologías abiertas se desarrollan y mantienen mediante procesos transparentes y comunitarios, y se distribuyen con una licencia de software de código abierto.",
+          "@language": "es"
+        },
+        {
+          "@value": "Outils logiciels modulaires, fondés sur des normes et accessibles, qui aident les développeurs et les utilisateurs à collecter, stocker, transmettre ou analyser des données représentées selon des normes ouvertes. Les technologies ouvertes sont élaborées et tenues à jour au moyen de processus transparents et communautaires, et sont diffusées sous une licence de logiciel à code source ouvert.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Модульные, основанные на стандартах и доступные программные инструменты, которые помогают разработчикам и пользователям собирать, хранить, передавать или анализировать данные, представленные в открытых стандартах. Открытые технологии разрабатываются и поддерживаются в рамках прозрачных процессов на базе сообществ и распространяются по лицензии на программное обеспечение с открытым исходным кодом.",
+          "@language": "ru"
+        },
+        {
+          "@value": "模块化、基于标准且易于获取的软件工具，帮助开发者和用户收集、存储、传输或分析以开放标准表示的数据。开放技术通过透明的、基于社区的过程开发和维护，并采用开源软件许可证授权。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-zh"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the Open Health Stack Android FHIR SDK. The body adds: 'Open technologies are open-source and use open standards.'",
@@ -66,6 +227,51 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "التكنولوجيات المفتوحة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Tecnologías abiertas",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Technologies ouvertes",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Открытые технологии",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "开放技术",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -75,12 +281,69 @@
         {
           "@value": "Open Architectures",
           "@language": "en"
+        },
+        {
+          "@value": "البنى المفتوحة",
+          "@language": "ar"
+        },
+        {
+          "@value": "Arquitecturas abiertas",
+          "@language": "es"
+        },
+        {
+          "@value": "Architectures ouvertes",
+          "@language": "fr"
+        },
+        {
+          "@value": "Открытые архитектуры",
+          "@language": "ru"
+        },
+        {
+          "@value": "开放架构",
+          "@language": "zh"
         }
       ],
       "skos:definition": [
         {
           "@value": "Documentation, using open standards, of reusable enterprise architecture patterns for health systems, describing the diverse digital interconnections of systems and capabilities (including trust networks, services, registries, access controls). Open architectures are designed to be instantiable via open technologies; provide a core infrastructure that fosters an ecosystem of digital health tools; are developed and maintained through collaborative, consensus-driven processes; and are freely available for use and adaptation without license restrictions.",
           "@language": "en"
+        },
+        {
+          "@value": "توثيق، باستخدام معايير مفتوحة، لأنماط قابلة لإعادة الاستخدام لبنية المؤسسة الخاصة بالنظم الصحية، يصف الترابطات الرقمية المتنوعة بين النظم والقدرات (بما في ذلك شبكات الثقة والخدمات والسجلات وضوابط الوصول). وتُصمَّم البنى المفتوحة بحيث يمكن تجسيدها من خلال التكنولوجيات المفتوحة؛ وتوفر بنية تحتية أساسية تعزز منظومة من أدوات الصحة الرقمية؛ وتُطوَّر وتُصان من خلال عمليات تعاونية قائمة على توافق الآراء؛ وهي متاحة مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+          "@language": "ar"
+        },
+        {
+          "@value": "Documentación, mediante estándares abiertos, de patrones reutilizables de arquitectura empresarial para los sistemas de salud, que describe las diversas interconexiones digitales de sistemas y capacidades (incluidas redes de confianza, servicios, registros y controles de acceso). Las arquitecturas abiertas están diseñadas para poder instanciarse mediante tecnologías abiertas; proporcionan una infraestructura básica que fomenta un ecosistema de herramientas de salud digital; se elaboran y mantienen mediante procesos colaborativos y basados en el consenso; y están disponibles libremente para su uso y adaptación sin restricciones de licencia.",
+          "@language": "es"
+        },
+        {
+          "@value": "Documentation, au moyen de normes ouvertes, de modèles d'architecture d'entreprise réutilisables pour les systèmes de santé, décrivant les diverses interconnexions numériques entre systèmes et capacités (y compris les réseaux de confiance, les services, les registres et les contrôles d'accès). Les architectures ouvertes sont conçues pour pouvoir être instanciées au moyen de technologies ouvertes ; elles fournissent une infrastructure de base qui favorise un écosystème d'outils de santé numérique ; elles sont élaborées et tenues à jour au moyen de processus collaboratifs et fondés sur le consensus ; et elles peuvent être librement utilisées et adaptées sans restriction de licence.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Документация многократно используемых шаблонов архитектуры предприятия для систем здравоохранения, выполненная с использованием открытых стандартов и описывающая разнообразные цифровые взаимосвязи систем и возможностей (включая сети доверия, сервисы, реестры, средства управления доступом). Открытые архитектуры проектируются так, чтобы их можно было реализовать с помощью открытых технологий; обеспечивают базовую инфраструктуру, способствующую формированию экосистемы инструментов цифрового здравоохранения; разрабатываются и поддерживаются в рамках совместных процессов, основанных на консенсусе; и находятся в свободном доступе для использования и адаптации без лицензионных ограничений.",
+          "@language": "ru"
+        },
+        {
+          "@value": "使用开放标准对卫生系统可重用企业架构模式所作的文档记录，描述系统与能力之间多样的数字互连（包括信任网络、服务、登记库、访问控制）。开放架构的设计目标是：可通过开放技术实例化；提供促进数字卫生工具生态系统的核心基础设施；通过协作、共识驱动的过程制定和维护；并可免费使用和改编，不受许可限制。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-zh"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: the OpenHIE Architecture.",
@@ -96,6 +359,51 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "البنى المفتوحة",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Arquitecturas abiertas",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Architectures ouvertes",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Открытые архитектуры",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-architectures#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "开放架构",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -105,12 +413,69 @@
         {
           "@value": "Open Content",
           "@language": "en"
+        },
+        {
+          "@value": "المحتوى المفتوح",
+          "@language": "ar"
+        },
+        {
+          "@value": "Contenido abierto",
+          "@language": "es"
+        },
+        {
+          "@value": "Contenu ouvert",
+          "@language": "fr"
+        },
+        {
+          "@value": "Открытый контент",
+          "@language": "ru"
+        },
+        {
+          "@value": "开放内容",
+          "@language": "zh"
         }
       ],
       "skos:definition": [
         {
           "@value": "Representations of public health, health system, or clinical knowledge, which are developed to meet the business needs described by an open architecture, and which describe, using open standards, assets such as minimum datasets, decision-support logic, care protocols, performance metrics, workflows, and reporting templates. Open content is developed, validated, and maintained through expert communities, and is freely available for use and adaptation without license restrictions.",
           "@language": "en"
+        },
+        {
+          "@value": "تمثيلات لمعارف الصحة العامة أو النظام الصحي أو المعارف السريرية، تُطوَّر لتلبية احتياجات الأعمال التي تصفها بنية مفتوحة، وتصف باستخدام معايير مفتوحة أصولًا مثل مجموعات البيانات الدنيا، ومنطق دعم القرار، وبروتوكولات الرعاية، ومقاييس الأداء، وسير العمل، وقوالب الإبلاغ. ويُطوَّر المحتوى المفتوح ويُتحقق من صحته ويُصان من خلال مجتمعات الخبراء، وهو متاح مجانًا للاستخدام والتكييف دون قيود ترخيص.",
+          "@language": "ar"
+        },
+        {
+          "@value": "Representaciones de conocimientos de salud pública, del sistema de salud o clínicos, elaboradas para satisfacer las necesidades de negocio descritas por una arquitectura abierta, y que describen, mediante estándares abiertos, recursos como conjuntos mínimos de datos, lógica de apoyo a la decisión, protocolos de atención, métricas de desempeño, flujos de trabajo y plantillas de notificación. El contenido abierto se elabora, valida y mantiene a través de comunidades de expertos, y está disponible libremente para su uso y adaptación sin restricciones de licencia.",
+          "@language": "es"
+        },
+        {
+          "@value": "Représentations de connaissances en santé publique, sur les systèmes de santé ou cliniques, élaborées pour répondre aux besoins métier décrits par une architecture ouverte, et qui décrivent, au moyen de normes ouvertes, des ressources telles que des ensembles minimaux de données, une logique d'aide à la décision, des protocoles de soins, des indicateurs de performance, des flux de travail et des modèles de rapport. Le contenu ouvert est élaboré, validé et tenu à jour par des communautés d'experts, et peut être librement utilisé et adapté sans restriction de licence.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Представления знаний в области общественного здравоохранения, системы здравоохранения или клинических знаний, которые разрабатываются для удовлетворения бизнес-потребностей, описанных открытой архитектурой, и которые описывают с использованием открытых стандартов такие активы, как минимальные наборы данных, логика поддержки принятия решений, протоколы оказания помощи, показатели эффективности, рабочие процессы и шаблоны отчетности. Открытый контент разрабатывается, валидируется и поддерживается экспертными сообществами и находится в свободном доступе для использования и адаптации без лицензионных ограничений.",
+          "@language": "ru"
+        },
+        {
+          "@value": "公共卫生、卫生系统或临床知识的表示形式，其开发旨在满足开放架构所描述的业务需求，并使用开放标准描述诸如最小数据集、决策支持逻辑、照护规程、绩效指标、工作流程和报告模板等资产。开放内容由专家社区开发、验证和维护，可免费使用和改编，不受许可限制。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-zh"
         }
       ],
       "skos:scopeNote": "Transcribed from Figure 1 (p. 2). The figure's text is drawn as outlines, so the ingest could not extract it (vector-figures.json: vfig-p002 unrendered); the transcription was read off a 220 dpi render of the page on 2026-10-31 and needs a person to confirm it. Example given in the figure: a WHO SMART Guidelines FHIR Implementation Guide.",
@@ -126,6 +491,51 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "المحتوى المفتوح",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Contenido abierto",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Contenu ouvert",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Открытый контент",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "开放内容",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -135,6 +545,26 @@
         {
           "@value": "Full-STAC",
           "@language": "en"
+        },
+        {
+          "@value": "Full-STAC",
+          "@language": "ar"
+        },
+        {
+          "@value": "Full-STAC",
+          "@language": "es"
+        },
+        {
+          "@value": "Full-STAC",
+          "@language": "fr"
+        },
+        {
+          "@value": "Full-STAC",
+          "@language": "ru"
+        },
+        {
+          "@value": "Full-STAC",
+          "@language": "zh"
         }
       ],
       "skos:altLabel": [
@@ -159,6 +589,43 @@
         {
           "@value": "Together, open Standards, open Technologies, open Architectures and open Content represent a next-generation ‘full-STAC’ remedy for digital health transformation.",
           "@language": "en"
+        },
+        {
+          "@value": "تمثل المعايير المفتوحة والتكنولوجيات المفتوحة والبنى المفتوحة والمحتوى المفتوح مجتمعةً علاجًا من الجيل التالي يُعرف بـ «full-STAC» للتحول في مجال الصحة الرقمية.",
+          "@language": "ar"
+        },
+        {
+          "@value": "En conjunto, los Estándares abiertos, las Tecnologías abiertas, las Arquitecturas abiertas y el Contenido abierto representan una solución ‘full-STAC’ de nueva generación para la transformación de la salud digital.",
+          "@language": "es"
+        },
+        {
+          "@value": "Ensemble, les normes ouvertes, les technologies ouvertes, les architectures ouvertes et les contenus ouverts constituent une solution « full-STAC » de nouvelle génération pour la transformation de la santé numérique.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Вместе открытые стандарты, открытые технологии, открытые архитектуры и открытый контент представляют собой средство нового поколения — «full-STAC» — для цифровой трансформации здравоохранения.",
+          "@language": "ru"
+        },
+        {
+          "@value": "开放标准（open Standards）、开放技术（open Technologies）、开放架构（open Architectures）和开放内容（open Content）共同构成数字卫生转型的新一代“full-STAC”解决方案。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-zh"
         }
       ],
       "skos:notation": "Full-STAC",
@@ -186,6 +653,51 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Full-STAC",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Full-STAC",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Full-STAC",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Full-STAC",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/full-stac#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Full-STAC",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -195,11 +707,93 @@
         {
           "@value": "Person-focused Health",
           "@language": "en"
+        },
+        {
+          "@value": "الصحة المتمحورة حول الشخص",
+          "@language": "ar"
+        },
+        {
+          "@value": "Salud centrada en la persona",
+          "@language": "es"
+        },
+        {
+          "@value": "Santé centrée sur la personne",
+          "@language": "fr"
+        },
+        {
+          "@value": "Здравоохранение, ориентированное на человека",
+          "@language": "ru"
+        },
+        {
+          "@value": "以人为本的卫生",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-zh"
         }
       ],
       "skos:scopeNote": "The centre of Figure 1, which the four factors surround. The paper does not define it; the nearest statements are the vision of health data that 'travels with them' and a 'standards-based longitudinal health record that supports the patient over time'. Recorded so the RA can decide whether it matches its own person-centred terms.",
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md#figure-1",
       "skos:note": "could-not-extract: The paper uses the phrase but never states what it is."
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "الصحة المتمحورة حول الشخص",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Salud centrada en la persona",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Santé centrée sur la personne",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Здравоохранение, ориентированное на человека",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "以人为本的卫生",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance",
@@ -211,17 +805,119 @@
         {
           "@value": "Digital Health Governance",
           "@language": "en"
+        },
+        {
+          "@value": "حوكمة الصحة الرقمية",
+          "@language": "ar"
+        },
+        {
+          "@value": "Gobernanza de la salud digital",
+          "@language": "es"
+        },
+        {
+          "@value": "Gouvernance de la santé numérique",
+          "@language": "fr"
+        },
+        {
+          "@value": "Управление цифровым здравоохранением",
+          "@language": "ru"
+        },
+        {
+          "@value": "数字卫生治理",
+          "@language": "zh"
         }
       ],
       "skos:definition": [
         {
           "@value": "Digital health governance defines who, what and how to govern to achieve health service impact.",
           "@language": "en"
+        },
+        {
+          "@value": "تحدد حوكمة الصحة الرقمية مَن يتولى الحوكمة، وما الذي يخضع لها، وكيف تُمارَس، من أجل تحقيق أثر على الخدمات الصحية.",
+          "@language": "ar"
+        },
+        {
+          "@value": "La gobernanza de la salud digital define a quién, qué y cómo gobernar para lograr un impacto en los servicios de salud.",
+          "@language": "es"
+        },
+        {
+          "@value": "La gouvernance de la santé numérique définit qui, quoi et comment gouverner pour obtenir un impact sur les services de santé.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Управление цифровым здравоохранением определяет, кто управляет, чем и каким образом, для достижения воздействия на услуги здравоохранения.",
+          "@language": "ru"
+        },
+        {
+          "@value": "数字卫生治理界定由谁治理、治理什么以及如何治理，以实现卫生服务影响。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-zh"
         }
       ],
       "skos:scopeNote": "The paper cites Marcelo et al. 2018 (ADB) for this sentence, so the definition is that source's, as quoted here.",
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "حوكمة الصحة الرقمية",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Gobernanza de la salud digital",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Gouvernance de la santé numérique",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Управление цифровым здравоохранением",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/digital-health-governance#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "数字卫生治理",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution",
@@ -233,11 +929,93 @@
         {
           "@value": "Point Solution",
           "@language": "en"
+        },
+        {
+          "@value": "الحل النقطي",
+          "@language": "ar"
+        },
+        {
+          "@value": "Solución puntual",
+          "@language": "es"
+        },
+        {
+          "@value": "Solution ponctuelle",
+          "@language": "fr"
+        },
+        {
+          "@value": "Точечное решение",
+          "@language": "ru"
+        },
+        {
+          "@value": "单点解决方案",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-zh"
         }
       ],
       "skos:scopeNote": "Used for tools 'developed for vertical health programs and financed through vertical funding allocations'. That describes how they arise, not what they are, so no definition is recorded.",
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
       "skos:note": "could-not-extract: Characterised by origin and funding only; no defining sentence."
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "الحل النقطي",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Solución puntual",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Solution ponctuelle",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Точечное решение",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/point-solution#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "单点解决方案",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record",
@@ -249,11 +1027,93 @@
         {
           "@value": "Longitudinal Health Record",
           "@language": "en"
+        },
+        {
+          "@value": "السجل الصحي الطولي",
+          "@language": "ar"
+        },
+        {
+          "@value": "Historia de salud longitudinal",
+          "@language": "es"
+        },
+        {
+          "@value": "Dossier de santé longitudinal",
+          "@language": "fr"
+        },
+        {
+          "@value": "Лонгитюдная запись о здоровье",
+          "@language": "ru"
+        },
+        {
+          "@value": "纵向健康档案",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-zh"
         }
       ],
       "skos:scopeNote": "'a standards-based longitudinal health record that supports the patient over time and across places where interactions with the health system occurs' (cites Kay 2021 on the International Patient Summary). A use, not a definition.",
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
       "skos:note": "could-not-extract: Described by what it supports, not defined."
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "السجل الصحي الطولي",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Historia de salud longitudinal",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Dossier de santé longitudinal",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Лонгитюдная запись о здоровье",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "纵向健康档案",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     },
     {
       "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language",
@@ -265,6 +1125,26 @@
         {
           "@value": "Clinical Quality Language",
           "@language": "en"
+        },
+        {
+          "@value": "Clinical Quality Language",
+          "@language": "ar"
+        },
+        {
+          "@value": "Clinical Quality Language",
+          "@language": "es"
+        },
+        {
+          "@value": "Clinical Quality Language",
+          "@language": "fr"
+        },
+        {
+          "@value": "Clinical Quality Language",
+          "@language": "ru"
+        },
+        {
+          "@value": "Clinical Quality Language",
+          "@language": "zh"
         }
       ],
       "skos:altLabel": [
@@ -277,6 +1157,23 @@
           "@language": "en"
         }
       ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-ar"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-es"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-fr"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-ru"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-zh"
+        }
+      ],
       "skos:notation": "CQL",
       "skos:scopeNote": "'HL7 Clinical Quality Language (CQL), a human-readable query language to encode calculations for computing indicators and clinical logic to drive decision support.' Defined by HL7, so link to the HL7 specification rather than defining it here.",
       "rdfs:isDefinedBy": {
@@ -284,6 +1181,51 @@
       },
       "dcterms:source": "library/mehl-2023-full-stac-oqad018/sections/sec-000-a-full-stac-remedy-for-global-digital-health-tra.md",
       "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clinical Quality Language",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clinical Quality Language",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clinical Quality Language",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clinical Quality Language",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Clinical Quality Language",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
     }
   ]
 }
