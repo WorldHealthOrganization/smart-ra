@@ -9,17 +9,17 @@
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": "Acronyms used in the DPI-H reference architecture",
       "skos:definition": "The RA's acronyms list, read verbatim from its acronyms table: one SKOS concept per acronym, the acronym as its notation and the expansion as printed as its prefLabel. The acronyms table is drawn from this file (Tool glossary-table, litlfred/smart-ra#206). Every term is a candidate: only a person adopts a definition, and the definitions of the concepts that have one are in dpi-h-ra.glossary.json.",
       "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -49,19 +49,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh"
         }
       ],
       "skos:notation": "AI",
@@ -69,7 +69,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "الذكاء الاصطناعي",
@@ -78,7 +78,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Inteligencia artificial",
@@ -87,7 +87,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Intelligence artificielle",
@@ -96,7 +96,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Искусственный интеллект",
@@ -105,7 +105,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ai#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "人工智能",
@@ -114,10 +114,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -147,19 +147,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh"
         }
       ],
       "skos:notation": "DIIG",
@@ -167,7 +167,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "دليل الاستثمار في التنفيذ الرقمي",
@@ -176,7 +176,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Guía de inversión en la implementación digital",
@@ -185,7 +185,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Guide d'investissement pour la mise en œuvre du numérique",
@@ -194,7 +194,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Руководство по инвестициям во внедрение цифровых технологий",
@@ -203,7 +203,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/diig#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "数字实施投资指南",
@@ -212,10 +212,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -245,19 +245,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh"
         }
       ],
       "skos:notation": "DPI",
@@ -265,7 +265,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "البنية التحتية الرقمية العامة",
@@ -274,7 +274,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infraestructura pública digital",
@@ -283,7 +283,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infrastructure publique numérique",
@@ -292,7 +292,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Цифровая общественная инфраструктура",
@@ -301,7 +301,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "数字公共基础设施",
@@ -310,10 +310,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -343,19 +343,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh"
         }
       ],
       "skos:notation": "DPI-F",
@@ -363,7 +363,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "البنية التحتية الرقمية العامة التأسيسية",
@@ -372,7 +372,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infraestructura pública digital fundacional",
@@ -381,7 +381,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infrastructure publique numérique fondamentale",
@@ -390,7 +390,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Базовая цифровая общественная инфраструктура",
@@ -399,7 +399,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-f#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "基础性数字公共基础设施",
@@ -408,10 +408,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -441,19 +441,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh"
         }
       ],
       "skos:notation": "DPI-H",
@@ -461,7 +461,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "البنية التحتية الرقمية العامة للصحة",
@@ -470,7 +470,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infraestructura pública digital para la salud",
@@ -479,7 +479,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infrastructure publique numérique pour la santé",
@@ -488,7 +488,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Цифровая общественная инфраструктура здравоохранения",
@@ -497,7 +497,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/dpi-h#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "卫生数字公共基础设施",
@@ -506,10 +506,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -539,19 +539,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh"
         }
       ],
       "skos:notation": "HL7 FHIR®",
@@ -559,7 +559,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
@@ -568,7 +568,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
@@ -577,7 +577,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
@@ -586,7 +586,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
@@ -595,7 +595,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/hl7-fhir#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Health Level Seven Fast Healthcare Interoperability Resources",
@@ -604,10 +604,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -637,19 +637,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh"
         }
       ],
       "skos:notation": "ICD-11",
@@ -657,7 +657,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "المراجعة الحادية عشرة للتصنيف الدولي للأمراض",
@@ -666,7 +666,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Clasificación Internacional de Enfermedades, 11.ª revisión",
@@ -675,7 +675,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Classification internationale des maladies, 11e révision",
@@ -684,7 +684,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Международная классификация болезней 11-го пересмотра",
@@ -693,7 +693,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icd-11#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "国际疾病分类第十一次修订本",
@@ -702,10 +702,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -735,19 +735,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh"
         }
       ],
       "skos:notation": "ICVP",
@@ -755,7 +755,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "الشهادة الدولية للتطعيم أو الاتقاء",
@@ -764,7 +764,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Certificado Internacional de Vacunación o Profilaxis",
@@ -773,7 +773,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Certificat international de vaccination ou de prophylaxie",
@@ -782,7 +782,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Международное свидетельство о вакцинации или профилактике",
@@ -791,7 +791,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/icvp#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "国际预防接种或预防措施证书",
@@ -800,10 +800,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -833,19 +833,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh"
         }
       ],
       "skos:notation": "IPS",
@@ -853,7 +853,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "International Patient Summary",
@@ -862,7 +862,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Resumen internacional del paciente",
@@ -871,7 +871,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Résumé international du patient",
@@ -880,7 +880,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "International Patient Summary",
@@ -889,7 +889,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/ips#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "国际患者摘要",
@@ -898,10 +898,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -931,19 +931,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh"
         }
       ],
       "skos:notation": "LMIC",
@@ -951,7 +951,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "بلد منخفض الدخل ومتوسط الدخل",
@@ -960,7 +960,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "País de ingresos bajos y medianos",
@@ -969,7 +969,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Pays à revenu faible ou intermédiaire",
@@ -978,7 +978,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Страна с низким и средним уровнем дохода",
@@ -987,7 +987,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/lmic#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "低收入和中等收入国家",
@@ -996,10 +996,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1029,19 +1029,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh"
         }
       ],
       "skos:notation": "LOINC",
@@ -1049,7 +1049,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Logical Observation Identifiers Names and Codes",
@@ -1058,7 +1058,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Logical Observation Identifiers Names and Codes",
@@ -1067,7 +1067,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Logical Observation Identifiers Names and Codes",
@@ -1076,7 +1076,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Logical Observation Identifiers Names and Codes",
@@ -1085,7 +1085,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/loinc#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Logical Observation Identifiers Names and Codes",
@@ -1094,10 +1094,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1127,19 +1127,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh"
         }
       ],
       "skos:notation": "OpenHIE",
@@ -1147,7 +1147,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Open Health Information Exchange",
@@ -1156,7 +1156,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Open Health Information Exchange",
@@ -1165,7 +1165,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Open Health Information Exchange",
@@ -1174,7 +1174,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Open Health Information Exchange",
@@ -1183,7 +1183,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/openhie#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Open Health Information Exchange",
@@ -1192,10 +1192,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1225,19 +1225,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh"
         }
       ],
       "skos:notation": "REDDHI",
@@ -1245,7 +1245,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "البنية التحتية الأساسية القادرة على الصمود للبيانات والصحة الرقمية",
@@ -1254,7 +1254,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infraestructura resiliente de datos esenciales y de salud digital",
@@ -1263,7 +1263,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Infrastructure résiliente de données essentielles et de santé numérique",
@@ -1272,7 +1272,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Устойчивая базовая инфраструктура данных и цифрового здравоохранения",
@@ -1281,7 +1281,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/reddhi#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "韧性基本数据和数字卫生基础设施",
@@ -1290,10 +1290,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1323,19 +1323,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh"
         }
       ],
       "skos:notation": "SDG",
@@ -1343,7 +1343,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "هدف التنمية المستدامة",
@@ -1352,7 +1352,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Objetivo de Desarrollo Sostenible",
@@ -1361,7 +1361,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Objectif de développement durable",
@@ -1370,7 +1370,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Цель в области устойчивого развития",
@@ -1379,7 +1379,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/sdg#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "可持续发展目标",
@@ -1388,10 +1388,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1421,19 +1421,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh"
         }
       ],
       "skos:notation": "SMART Guidelines",
@@ -1441,7 +1441,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
@@ -1450,7 +1450,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
@@ -1459,7 +1459,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
@@ -1468,7 +1468,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
@@ -1477,7 +1477,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/smart-guidelines#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines",
@@ -1486,10 +1486,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1519,19 +1519,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh"
         }
       ],
       "skos:notation": "SNOMED CT",
@@ -1539,7 +1539,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
@@ -1548,7 +1548,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
@@ -1557,7 +1557,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
@@ -1566,7 +1566,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
@@ -1575,7 +1575,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-ct#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine - Clinical Terms",
@@ -1584,10 +1584,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1617,19 +1617,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh"
         }
       ],
       "skos:notation": "SNOMED GPS",
@@ -1637,7 +1637,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
@@ -1646,7 +1646,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
@@ -1655,7 +1655,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
@@ -1664,7 +1664,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
@@ -1673,7 +1673,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/snomed-gps#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "Systematized Nomenclature of Medicine – Global Patient Set",
@@ -1682,10 +1682,10 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms"
       },
       "skos:prefLabel": [
         {
@@ -1715,19 +1715,19 @@
       ],
       "skosxl:prefLabel": [
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru"
         },
         {
-          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh"
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh"
         }
       ],
       "skos:notation": "TOGAF",
@@ -1735,7 +1735,7 @@
       "skos:note": "candidate"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ar",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "The Open Group Architecture Framework",
@@ -1744,7 +1744,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-es",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "The Open Group Architecture Framework",
@@ -1753,7 +1753,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-fr",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "The Open Group Architecture Framework",
@@ -1762,7 +1762,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-ru",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "The Open Group Architecture Framework",
@@ -1771,7 +1771,7 @@
       "fa:translationStatus": "unofficial"
     },
     {
-      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh",
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra-acronyms/togaf#label-zh",
       "@type": "skosxl:Label",
       "skosxl:literalForm": {
         "@value": "The Open Group Architecture Framework",
