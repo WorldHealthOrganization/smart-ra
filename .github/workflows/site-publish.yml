@@ -21,6 +21,9 @@ name: Site publish
 
 on:
   push:
+    # main only: the owner ruled "never use master" (2026-11-15). The canonical
+    # caller still lists master until cat-harness-tools#2339 lands, so
+    # check:site-publish-caller reports this one line until then.
     branches: [main]
   workflow_dispatch:
     inputs:
@@ -39,6 +42,6 @@ permissions:
 
 jobs:
   publish:
-    uses: litlfred/cat-harness-tools/.github/workflows/folio-site-publish.yml@418672b09492c6c742a4f9bd09038288a29edfab # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/folio-site-publish.yml@36a4d9c11ca45d8f3e416f04db13584c206c852e # index.lock.json
     with:
       plan: ${{ inputs.plan == true }}

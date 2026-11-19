@@ -3,6 +3,12 @@
   "title": "Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector",
   "version": "0.1.0",
   "iriBase": "https://worldhealthorganization.github.io/smart-ra/",
+  "avatar": {
+    "glyph": "M4 18V6h4.5a3 3 0 010 6H4m4.5 0l3.5 6M13 18l4-12 4 12M14.4 14h5.2",
+    "tone": 198,
+    "reads": "the letters RA in WHO blue: the Reference Architecture's short name"
+  },
+  "_avatar_comment": "A simple avatar, the owner's fallback (2026-11-17: \"Use the front page of the handbook. If not possible then just a simple Avatar.\"). The reference architecture has no published cover yet, so there is no front page to crop. When one exists, it can replace this as `images` and `icon`.",
   "assets": [
     {
       "id": "agent-instructions",
@@ -158,6 +164,14 @@
       "description": "dpi-h-ra's bibliography: one folio-reference/v1 CSL-JSON entry per cited work, `<key>.json`. The paper cites them by key (`\\cite{key}` in a block's text, and `cites` on its manifest), each citation links to its entry on the KG Bibliography page (`en/folio-assistant-core/bibliography/#ref-<key>`), and the References chapter's list is generated from them by `references:render`. Footnotes are kept only for notes that explain rather than cite.",
       "graphTypologies": [
         "references"
+      ]
+    },
+    {
+      "id": "dpi-h-ra-translations",
+      "path": "translations/",
+      "description": "The gettext side of the DPI-H RA, one directory per target locale (ar, es, fr, ru, zh): a .pot template per document chapter, extracted once from folio/dpi-h-ra/ with the platform's extractor (pot-extract.ts), and the locale's .po drafts beside them. Every catalogue is UNOFFICIAL (agent drafts, no human sign-off; owner, 2026-11-18, option A). The glossary's translations are language-tagged labels in glossary/*.glossary.json instead (owner, 2026-11-18, card Q1 option 1), because the platform's glossary extractor takes authored terms only and every dpi-h-ra term is a candidate.",
+      "graphTypologies": [
+        "translation-sources"
       ]
     }
   ],
