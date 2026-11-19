@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Actor (Conformance Model)</title>
+<link rel="canonical" href="https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model">
+<script type="application/ld+json">
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "fa": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+  },
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Actor (Conformance Model)",
+          "@language": "en"
+        },
+        {
+          "@value": "الفاعل (نموذج المطابقة)",
+          "@language": "ar"
+        },
+        {
+          "@value": "Actor (modelo de conformidad)",
+          "@language": "es"
+        },
+        {
+          "@value": "Acteur (modèle de conformité)",
+          "@language": "fr"
+        },
+        {
+          "@value": "Актор (модель соответствия)",
+          "@language": "ru"
+        },
+        {
+          "@value": "参与者（一致性模型）",
+          "@language": "zh"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "Actor",
+          "@language": "en"
+        },
+        {
+          "@value": "actor (conformance model)",
+          "@language": "en"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "An Actor is an abstract, well-bounded role in the health information ecosystem that is defined entirely by the information-processing responsibilities it assumes and the interactions it participates in. An Actor is neither a software product nor an organisational unit.",
+          "@language": "en"
+        },
+        {
+          "@value": "الفاعل دور مجرد ومحدد الحدود بوضوح في منظومة المعلومات الصحية، يُعرَّف كليًا بمسؤوليات معالجة المعلومات التي يضطلع بها والتفاعلات التي يشارك فيها. والفاعل ليس منتجًا برمجيًا ولا وحدة تنظيمية.",
+          "@language": "ar"
+        },
+        {
+          "@value": "Un actor es una función abstracta y bien delimitada en el ecosistema de información de salud, que se define enteramente por las responsabilidades de procesamiento de información que asume y las interacciones en las que participa. Un actor no es ni un producto de software ni una unidad organizativa.",
+          "@language": "es"
+        },
+        {
+          "@value": "Un acteur est un rôle abstrait et bien délimité au sein de l'écosystème d'information sanitaire, défini entièrement par les responsabilités de traitement de l'information qu'il assume et par les interactions auxquelles il participe. Un acteur n'est ni un produit logiciel ni une unité organisationnelle.",
+          "@language": "fr"
+        },
+        {
+          "@value": "Актор — это абстрактная, четко ограниченная роль в экосистеме медицинской информации, полностью определяемая обязанностями по обработке информации, которые она берет на себя, и взаимодействиями, в которых она участвует. Актор не является ни программным продуктом, ни организационным подразделением.",
+          "@language": "ru"
+        },
+        {
+          "@value": "参与者是卫生信息生态系统中一个抽象的、边界明确的角色，完全由其承担的信息处理职责及其参与的交互来定义。参与者既不是软件产品，也不是组织单位。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ar"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-es"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-fr"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ru"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-zh"
+        }
+      ],
+      "skos:scopeNote": "Defined in RA §3.7.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md, p. 111–116). Substantive distinction from the platform's `actor` concept in folio-assistant-core/glossary/cat-harness.glossary.json (\"A concrete participant, human, agentic or mechanical, that persists across every process and takes on roles\"): the RA's conformance-model Actor is an abstract information-processing role realised by concrete systems, closer to IHE's Actor or the platform's Role (smart-ra#133 S1).",
+      "dcterms:source": "library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "الفاعل (نموذج المطابقة)",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Actor (modelo de conformidad)",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Acteur (modèle de conformité)",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Актор (модель соответствия)",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "参与者（一致性模型）",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="../../../../../assets/css/navbar.css"><script src="../../../../../assets/navbar/rail-1nr7jo2rxsc.js" defer></script><script src="../../../../../assets/js/navbar.js" defer></script><script src="../../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css"><script src="../../../../../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../../../../../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../../assets/draft-banner-noscript.css"></noscript><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../../.."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="../../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../../..">{"data":"rail-1nr7jo2rxsc","here":"/v0/ns/glossary/dpi-h-ra/actor-conformance-model/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../../../../../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1>Actor (Conformance Model)</h1>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model</code></p>
+<p class="links"><a href="../../../../../en/folio-assistant-core/glossary/instance/dpi-h-ra/dpi-h-ra/actor-conformance-model/">Term page</a> · <a href="../../../../../en/folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--actor-conformance-model">Glossary entry</a> · <a href="../../../../../assets/glossary/dpi-h-ra--dpi-h-ra.skos.jsonld">SKOS</a></p>
+<p class="type"><code>skos:Concept</code></p>
+<dl>
+<dt>In scheme</dt><dd><a href="../../../../../v0/ns/glossary/dpi-h-ra"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra</code></a></dd>
+<dt>Label</dt><dd><ul><li><span lang="en">Actor (Conformance Model)</span> <small>(en)</small></li><li><span lang="ar">الفاعل (نموذج المطابقة)</span> <small>(ar)</small></li><li><span lang="es">Actor (modelo de conformidad)</span> <small>(es)</small></li><li><span lang="fr">Acteur (modèle de conformité)</span> <small>(fr)</small></li><li><span lang="ru">Актор (модель соответствия)</span> <small>(ru)</small></li><li><span lang="zh">参与者（一致性模型）</span> <small>(zh)</small></li></ul></dd>
+<dt>Also called</dt><dd><ul><li><span lang="en">Actor</span> <small>(en)</small></li><li><span lang="en">actor (conformance model)</span> <small>(en)</small></li></ul></dd>
+<dt>Definition</dt><dd><ul><li><span lang="en">An Actor is an abstract, well-bounded role in the health information ecosystem that is defined entirely by the information-processing responsibilities it assumes and the interactions it participates in. An Actor is neither a software product nor an organisational unit.</span> <small>(en)</small></li><li><span lang="ar">الفاعل دور مجرد ومحدد الحدود بوضوح في منظومة المعلومات الصحية، يُعرَّف كليًا بمسؤوليات معالجة المعلومات التي يضطلع بها والتفاعلات التي يشارك فيها. والفاعل ليس منتجًا برمجيًا ولا وحدة تنظيمية.</span> <small>(ar)</small></li><li><span lang="es">Un actor es una función abstracta y bien delimitada en el ecosistema de información de salud, que se define enteramente por las responsabilidades de procesamiento de información que asume y las interacciones en las que participa. Un actor no es ni un producto de software ni una unidad organizativa.</span> <small>(es)</small></li><li><span lang="fr">Un acteur est un rôle abstrait et bien délimité au sein de l'écosystème d'information sanitaire, défini entièrement par les responsabilités de traitement de l'information qu'il assume et par les interactions auxquelles il participe. Un acteur n'est ni un produit logiciel ni une unité organisationnelle.</span> <small>(fr)</small></li><li><span lang="ru">Актор — это абстрактная, четко ограниченная роль в экосистеме медицинской информации, полностью определяемая обязанностями по обработке информации, которые она берет на себя, и взаимодействиями, в которых она участвует. Актор не является ни программным продуктом, ни организационным подразделением.</span> <small>(ru)</small></li><li><span lang="zh">参与者是卫生信息生态系统中一个抽象的、边界明确的角色，完全由其承担的信息处理职责及其参与的交互来定义。参与者既不是软件产品，也不是组织单位。</span> <small>(zh)</small></li></ul></dd>
+<dt>Label resources</dt><dd><ul><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ar"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ar</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-es"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-es</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-fr"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-fr</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ru"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ru</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-zh"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-zh</code></a></li></ul></dd>
+<dt>Scope note</dt><dd>Defined in RA §3.7.2 (library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md, p. 111–116). Substantive distinction from the platform's `actor` concept in folio-assistant-core/glossary/cat-harness.glossary.json (&quot;A concrete participant, human, agentic or mechanical, that persists across every process and takes on roles&quot;): the RA's conformance-model Actor is an abstract information-processing role realised by concrete systems, closer to IHE's Actor or the platform's Role (smart-ra#133 S1).</dd>
+<dt>Source</dt><dd>library/who-dpi-h-reference-architecture-draft-v1/sections/sec-050-372-the-model.md</dd>
+<dt>Note</dt><dd>candidate</dd>
+</dl>
+<section id="label-ar">
+<h2>الفاعل (نموذج المطابقة)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ar</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="ar">الفاعل (نموذج المطابقة)</span> <small>(ar)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-es">
+<h2>Actor (modelo de conformidad)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-es</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="es">Actor (modelo de conformidad)</span> <small>(es)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-fr">
+<h2>Acteur (modèle de conformité)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-fr</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="fr">Acteur (modèle de conformité)</span> <small>(fr)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-ru">
+<h2>Актор (модель соответствия)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-ru</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="ru">Актор (модель соответствия)</span> <small>(ru)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-zh">
+<h2>参与者（一致性模型）</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/actor-conformance-model#label-zh</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="zh">参与者（一致性模型）</span> <small>(zh)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+</body>
+</html>

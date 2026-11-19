@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Story (Requirements)</title>
+<link rel="canonical" href="https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story">
+<script type="application/ld+json">
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "fa": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+  },
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "User Story (Requirements)",
+          "@language": "en"
+        },
+        {
+          "@value": "قصة المستخدم (المتطلبات)",
+          "@language": "ar"
+        },
+        {
+          "@value": "Historia de usuario (requisitos)",
+          "@language": "es"
+        },
+        {
+          "@value": "Récit utilisateur (exigences)",
+          "@language": "fr"
+        },
+        {
+          "@value": "Пользовательская история (требования)",
+          "@language": "ru"
+        },
+        {
+          "@value": "用户故事（需求）",
+          "@language": "zh"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "User Story",
+          "@language": "en"
+        },
+        {
+          "@value": "user story",
+          "@language": "en"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+          "@language": "en"
+        },
+        {
+          "@value": "تلتقط قائمة طويلة من الخصائص من منظور المستخدم النهائي. وتصف هوية المستخدم النهائي، والخصائص التي يريدها أو يحتاج إليها، وسبب تلك الرغبة أو الحاجة (انظر القسم 3.2.3).",
+          "@language": "ar"
+        },
+        {
+          "@value": "Recoge una lista extensa de características desde la perspectiva de un usuario final. Describe quién es el usuario final, cuáles son las características que desea o necesita y el motivo de ese deseo o necesidad (véase la sección 3.2.3).",
+          "@language": "es"
+        },
+        {
+          "@value": "Recense une longue liste de fonctionnalités du point de vue de l'utilisateur final. Il décrit qui est l'utilisateur final, les fonctionnalités qu'il souhaite ou dont il a besoin, et la raison de ce souhait ou de ce besoin (voir la section 3.2.3).",
+          "@language": "fr"
+        },
+        {
+          "@value": "Фиксирует подробный перечень свойств с точки зрения конечного пользователя. Описывает, кем является конечный пользователь, какие свойства ему желательны или необходимы, и причину этого желания или потребности (см. раздел 3.2.3).",
+          "@language": "ru"
+        },
+        {
+          "@value": "从最终用户的角度记录一长串特性。它描述最终用户是谁、其对特性的需要或需求，以及该需要或需求的原因（见第3.2.3节）。",
+          "@language": "zh"
+        }
+      ],
+      "skosxl:prefLabel": [
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ar"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-es"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-fr"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ru"
+        },
+        {
+          "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-zh"
+        }
+      ],
+      "skos:scopeNote": "PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Internal and platform alternatives (smart-ra#133 S1): (1) PHC handbook §3.2.3 body (who-iris/library/9789240093362-eng/sections/sec-013-32-get-to-know-the-users.md, pp. 33-35): \"User stories are the start of generating a long list of requirements, in non-technical terms, that will help the technical team to determine the more specific functional requirements of the system.\" and the template \"“As a… [user persona], I want to… [do what I want to be able to do differently using an electronic system], so that… [reason for wanting that functionality].”\" (2) Platform glossary `user-story` (folio-assistant-core/glossary/cat-harness.glossary.json), which binds the story to a Role rather than a user persona: \"What a reader acting in a Role is trying to do, told as that role: as a <role>, I want <want>, so that <so that>.\" Also used as the functional requirements template (\"As a … / I want … / So that ...\") in SFP handbook §4.5 Table 12 (who-iris/library/9789240120747-eng/sections/sec-026-45-gather-requirements.md, page-043.md, p. 31).",
+      "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ar",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "قصة المستخدم (المتطلبات)",
+        "@language": "ar"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-es",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Historia de usuario (requisitos)",
+        "@language": "es"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-fr",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Récit utilisateur (exigences)",
+        "@language": "fr"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ru",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "Пользовательская история (требования)",
+        "@language": "ru"
+      },
+      "fa:translationStatus": "unofficial"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-zh",
+      "@type": "skosxl:Label",
+      "skosxl:literalForm": {
+        "@value": "用户故事（需求）",
+        "@language": "zh"
+      },
+      "fa:translationStatus": "unofficial"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="../../../../../assets/css/navbar.css"><script src="../../../../../assets/navbar/rail-1nr7jo2rxsc.js" defer></script><script src="../../../../../assets/js/navbar.js" defer></script><script src="../../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css"><script src="../../../../../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../../../../../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../../assets/draft-banner-noscript.css"></noscript><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../../.."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="../../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../../..">{"data":"rail-1nr7jo2rxsc","here":"/v0/ns/glossary/dpi-h-ra/user-story/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../../../../../">Reference Architecture and Guidance for Digital Public Infrastructure for the Health Sector</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1>User Story (Requirements)</h1>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story</code></p>
+<p class="links"><a href="../../../../../en/folio-assistant-core/glossary/instance/dpi-h-ra/dpi-h-ra/user-story/">Term page</a> · <a href="../../../../../en/folio-assistant-core/glossary/instance/dpi-h-ra/#dpi-h-ra--dpi-h-ra--user-story">Glossary entry</a> · <a href="../../../../../assets/glossary/dpi-h-ra--dpi-h-ra.skos.jsonld">SKOS</a></p>
+<p class="type"><code>skos:Concept</code></p>
+<dl>
+<dt>In scheme</dt><dd><a href="../../../../../v0/ns/glossary/dpi-h-ra"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra</code></a></dd>
+<dt>Label</dt><dd><ul><li><span lang="en">User Story (Requirements)</span> <small>(en)</small></li><li><span lang="ar">قصة المستخدم (المتطلبات)</span> <small>(ar)</small></li><li><span lang="es">Historia de usuario (requisitos)</span> <small>(es)</small></li><li><span lang="fr">Récit utilisateur (exigences)</span> <small>(fr)</small></li><li><span lang="ru">Пользовательская история (требования)</span> <small>(ru)</small></li><li><span lang="zh">用户故事（需求）</span> <small>(zh)</small></li></ul></dd>
+<dt>Also called</dt><dd><ul><li><span lang="en">User Story</span> <small>(en)</small></li><li><span lang="en">user story</span> <small>(en)</small></li></ul></dd>
+<dt>Definition</dt><dd><ul><li><span lang="en">Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).</span> <small>(en)</small></li><li><span lang="ar">تلتقط قائمة طويلة من الخصائص من منظور المستخدم النهائي. وتصف هوية المستخدم النهائي، والخصائص التي يريدها أو يحتاج إليها، وسبب تلك الرغبة أو الحاجة (انظر القسم 3.2.3).</span> <small>(ar)</small></li><li><span lang="es">Recoge una lista extensa de características desde la perspectiva de un usuario final. Describe quién es el usuario final, cuáles son las características que desea o necesita y el motivo de ese deseo o necesidad (véase la sección 3.2.3).</span> <small>(es)</small></li><li><span lang="fr">Recense une longue liste de fonctionnalités du point de vue de l'utilisateur final. Il décrit qui est l'utilisateur final, les fonctionnalités qu'il souhaite ou dont il a besoin, et la raison de ce souhait ou de ce besoin (voir la section 3.2.3).</span> <small>(fr)</small></li><li><span lang="ru">Фиксирует подробный перечень свойств с точки зрения конечного пользователя. Описывает, кем является конечный пользователь, какие свойства ему желательны или необходимы, и причину этого желания или потребности (см. раздел 3.2.3).</span> <small>(ru)</small></li><li><span lang="zh">从最终用户的角度记录一长串特性。它描述最终用户是谁、其对特性的需要或需求，以及该需要或需求的原因（见第3.2.3节）。</span> <small>(zh)</small></li></ul></dd>
+<dt>Label resources</dt><dd><ul><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/user-story#label-ar"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ar</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/user-story#label-es"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-es</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/user-story#label-fr"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-fr</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/user-story#label-ru"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ru</code></a></li><li><a href="../../../../../v0/ns/glossary/dpi-h-ra/user-story#label-zh"><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-zh</code></a></li></ul></dd>
+<dt>Scope note</dt><dd>PHC handbook glossary wording, verbatim (who-iris/library/9789240093362-eng/sections/sec-002-glossary.md, p. 11). Internal and platform alternatives (smart-ra#133 S1): (1) PHC handbook §3.2.3 body (who-iris/library/9789240093362-eng/sections/sec-013-32-get-to-know-the-users.md, pp. 33-35): &quot;User stories are the start of generating a long list of requirements, in non-technical terms, that will help the technical team to determine the more specific functional requirements of the system.&quot; and the template &quot;“As a… [user persona], I want to… [do what I want to be able to do differently using an electronic system], so that… [reason for wanting that functionality].”&quot; (2) Platform glossary `user-story` (folio-assistant-core/glossary/cat-harness.glossary.json), which binds the story to a Role rather than a user persona: &quot;What a reader acting in a Role is trying to do, told as that role: as a &lt;role&gt;, I want &lt;want&gt;, so that &lt;so that&gt;.&quot; Also used as the functional requirements template (&quot;As a … / I want … / So that ...&quot;) in SFP handbook §4.5 Table 12 (who-iris/library/9789240120747-eng/sections/sec-026-45-gather-requirements.md, page-043.md, p. 31).</dd>
+<dt>Source</dt><dd>who-iris/library/9789240093362-eng/sections/sec-002-glossary.md</dd>
+<dt>Note</dt><dd>candidate</dd>
+</dl>
+<section id="label-ar">
+<h2>قصة المستخدم (المتطلبات)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ar</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="ar">قصة المستخدم (المتطلبات)</span> <small>(ar)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-es">
+<h2>Historia de usuario (requisitos)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-es</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="es">Historia de usuario (requisitos)</span> <small>(es)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-fr">
+<h2>Récit utilisateur (exigences)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-fr</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="fr">Récit utilisateur (exigences)</span> <small>(fr)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-ru">
+<h2>Пользовательская история (требования)</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-ru</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="ru">Пользовательская история (требования)</span> <small>(ru)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+<section id="label-zh">
+<h2>用户故事（需求）</h2>
+<p><code>https://worldhealthorganization.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/user-story#label-zh</code></p>
+<p class="type"><code>skosxl:Label</code></p>
+<dl>
+<dt>Label</dt><dd><span lang="zh">用户故事（需求）</span> <small>(zh)</small></dd>
+<dt>Translation status</dt><dd>unofficial</dd>
+</dl>
+</section>
+</body>
+</html>
