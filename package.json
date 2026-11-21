@@ -6,20 +6,14 @@
     "cat": "bun .github/cat.ts",
     "site:document": "bun run folio-assistant-core/scripts/build-document-site.ts --landing-layout default --document-layout default --link-terms --bibliography-url ../folio-assistant-core/bibliography/references/ --out",
     "site:public-comment": "bun run folio-assistant-core/scripts/public-comment-site.ts --out",
-    "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --layout default --out",
-    "site:context": "bun run cat-harness-tools/scripts/publish-instance-context.ts build --root . --instance dpi-h-ra --site",
-    "site:review-sheet": "bun run folio-assistant-core/scripts/review-sheet-site.ts --out",
     "kg:blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dpi-h-ra",
     "kg:library": "bun run cat-harness-tools/pipeline/gen-library-jsonld.ts",
     "check:kg-blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dpi-h-ra --check",
     "check:library-kg": "bun run cat-harness-tools/pipeline/gen-library-jsonld.ts --check",
     "site:node-kinds": "bun run cat-harness-tools/scripts/gen-node-kind-pages.ts --root . --out",
     "check:archimate": "bun run cat-harness-tools/archimate/scripts/check-archimate.ts --instance .",
-    "site:archimate": "bun run cat-harness-tools/archimate/scripts/gen-archimate-pages.ts --instance . --out",
     "site:mapper": "bash tools/ra-mapper/build-site.sh",
-    "site:redirects": "bash tools/site-redirects.sh",
-    "site:glossary": "bun run folio-assistant-core/scripts/glossary-page.ts --instance dpi-h-ra --site",
-    "site:bibliography": "bun run folio-assistant-core/scripts/bibliography-page.ts --site"
+    "site:redirects": "bash tools/site-redirects.sh"
   },
   "_workspaces_comment": "The mounted code layers, as workspaces, as folio-assistant's root package.json lists them: they import each other by package name (@litlfred/cat-harness, ...), and nothing publishes those packages, so a bare `bun install` in a mount fails with a 404. Owner, 2026-10-14: \"Repo declares workspaces\". The mounts are laid down from index.lock.json and gitignored; smart-base and bootstrap declare no dependencies, so they are not listed; smart-base's scripts still import packages (zod, @litlfred/bootstrap-tools), which reach it through the ONE root node_modules that bunfig.toml's hoisted linker lays out, as in folio-assistant.",
   "workspaces": [
