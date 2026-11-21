@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "8075551c0541bc5ecb5bcb7d579fe1a889641e00",
+          "ref": "c58d29582aa06ffcebf19b6eda9a2778ceaaa088",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -179,9 +179,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-19",
-              "ref": "8075551c0541bc5ecb5bcb7d579fe1a889641e00",
-              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
+              "on": "2026-11-21",
+              "ref": "c58d29582aa06ffcebf19b6eda9a2778ceaaa088",
+              "evidence": "litlfred 2026-11-21 17:48:37Z in session session_01Qmmkt8uBwv6vsMUHNmy7AQ, thread 'Stop content sites missing pages' (decision cmsg_017WNUkNK8kdDziPK58Pv6G9JpZ1T7DgP986NtMcW8jkYL, 'A. Re-pin all layers (rec.)' on 'Re-pin the five site PRs to current main?'): re-pin every layer to current main so the site picks up cat-harness-tools#2483 and folio-assistant-core#857 and passes links: refuse (cat-harness-tools#2345)"
             },
             "standing": {
               "follows": "main",
@@ -199,7 +199,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "97b3461c369edb0877d9be4ed8fdb63e0e8a3c2b",
+          "ref": "d0e98403408161df09a90d2b8bcf6e67a5b7623f",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -214,9 +214,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-19",
-              "ref": "97b3461c369edb0877d9be4ed8fdb63e0e8a3c2b",
-              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
+              "on": "2026-11-21",
+              "ref": "d0e98403408161df09a90d2b8bcf6e67a5b7623f",
+              "evidence": "litlfred 2026-11-21 17:48:37Z in session session_01Qmmkt8uBwv6vsMUHNmy7AQ, thread 'Stop content sites missing pages' (decision cmsg_017WNUkNK8kdDziPK58Pv6G9JpZ1T7DgP986NtMcW8jkYL, 'A. Re-pin all layers (rec.)' on 'Re-pin the five site PRs to current main?'): re-pin every layer to current main so the site picks up cat-harness-tools#2483 and folio-assistant-core#857 and passes links: refuse (cat-harness-tools#2345)"
             },
             "standing": {
               "follows": "main",
@@ -269,7 +269,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "15fc205d356eda5aeb95af379216076606c23904",
+          "ref": "85c74e0c27b7f5a049922ffc20063df0a463806e",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -281,9 +281,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-19",
-              "ref": "15fc205d356eda5aeb95af379216076606c23904",
-              "evidence": "litlfred 2026-11-19 ~19:30Z in session session_01EucfRqnsRBvxPizqbdEXk1, card 'Re-pin?': 'Re-pin all (Recommended)'; re-pin every layer to its current main for litlfred/smart-ra#273 (sync to WHO), whose full tier is red only on check:declared-paths, fixed upstream in cat-harness-tools (declared-path-literal marker on scripts/tests/check-site-iris.test.ts:60)"
+              "on": "2026-11-21",
+              "ref": "85c74e0c27b7f5a049922ffc20063df0a463806e",
+              "evidence": "litlfred 2026-11-21 17:48:37Z in session session_01Qmmkt8uBwv6vsMUHNmy7AQ, thread 'Stop content sites missing pages' (decision cmsg_017WNUkNK8kdDziPK58Pv6G9JpZ1T7DgP986NtMcW8jkYL, 'A. Re-pin all layers (rec.)' on 'Re-pin the five site PRs to current main?'): re-pin every layer to current main so the site picks up cat-harness-tools#2483 and folio-assistant-core#857 and passes links: refuse (cat-harness-tools#2345)"
             },
             "standing": {
               "follows": "main",
