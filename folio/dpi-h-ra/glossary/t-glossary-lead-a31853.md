@@ -16,6 +16,7 @@
 | Digital Public Infrastructure (DPI) | A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP) |
 | Enterprise Architecture (EA, enterprise architecture) | The organising logic for business processes and IT infrastructure reflecting the integration and<br>standardisation requirements of the organisation's operating model. [Under review] |
 | Fast Healthcare Interoperability Resources (FHIR, HL7 FHIR, HL7 FHIR®, FHIR®) | FHIR is a standard for healthcare data exchange, published by HL7® |
+| Foundation component | The multidimensional concept base underlying ICD-11, in which entities have persistent identifiers and may have more than one parent. A Foundation entity identifier and an MMS category code identify different representations and must not be treated as interchangeable identifiers. |
 | Foundational Digital Public Infrastructure (DPI-F) | Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it. |
 | Functional Application (Functional application) | Functional applications are application components that deliver a specific operational function within a defined domain. They are context-specific, reflecting the operational requirements of a programme, scheme, or institution that procures them. |
 | Goal | A high-level statement of intent, direction, or desired state for an organisation and its stakeholders. |
@@ -93,7 +94,7 @@
 | Public Health Surveillance Platform (PHSP) | The Public Health Surveillance Platform is a governed, shared application component for the systematic, ongoing collection, analysis, interpretation, and dissemination of health data to detect, monitor, and respond to public health threats and events. |
 | Artificial Intelligence (AI) |   |
 | Digital Implementation Investment Guide (DIIG) |   |
-| International Classification of Diseases 11th Revision (ICD-11, ICD, International Classification of Diseases) |   |
+| International Classification of Diseases 11th Revision (ICD-11, ICD, International Classification of Diseases) | WHO's international standard combining a classification for mortality and morbidity statistics with a terminology and digital infrastructure for recording and exchanging clinical information. Its Foundation supplies identified health concepts and their relationships; its Mortality and Morbidity Statistics (MMS) linearization supplies the statistical classification. ICD-11 supports clinical detail through its terminology and permitted combinations of stem and extension codes. Clinical use and statistical use apply their respective rules and retain the identifiers and release information needed to interpret the data. |
 | International Certificate of Vaccination or Prophylaxis (ICVP) |   |
 | International Patient Summary (IPS) |   |
 | Low-and-Middle-Income Country (LMIC, Low- and Middle-Income Country) |   |
@@ -112,7 +113,7 @@
 | International Classification of Health Interventions (ICHI) |   |
 | International Classification of Functioning, Disability and Health (ICF) |   |
 | International Classification of Primary Care (ICPC) |   |
-| WHO Family of International Classifications (WHO-FIC) |   |
+| WHO Family of International Classifications (WHO-FIC) | WHO's suite of integrated international health classifications and terminologies maintained as global public goods over a shared Foundation component, comprising three reference classifications — the International Classification of Diseases (ICD-11), the International Classification of Health Interventions (ICHI), and the International Classification of Functioning, Disability and Health (ICF) — together with derived and related classifications (such as ICD-O and ATC/DDD). |
 | Health Unique Identifier (HUID) |   |
 | Common Geo-Registry (CGR, Common Geo Registry) |   |
 | Master Facility List (MFL) |   |

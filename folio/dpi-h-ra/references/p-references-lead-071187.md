@@ -73,19 +73,23 @@
 73. OpenELIS Global. (https://openelis-global.org/).
 74. Centers for Disease Control and Prevention. Epi Info. (https://www.cdc.gov/epiinfo/).
 75. World Health Organization. WHO data platforms. (https://www.who.int/data/platforms).
-76. SNOMED International. Snowstorm. (https://github.com/IHTSDO/snowstorm).
-77. CSIRO. Ontoserver. (https://ontoserver.csiro.au/).
-78. HL7 International. tx.fhir.org. (https://tx.fhir.org/).
-79. openEHR Foundation. openEHR Clinical Knowledge Manager. (https://ckm.openehr.org/ckm/).
-80. Australian Digital Health Agency. My Health Record. (https://www.myhealthrecord.gov.au/).
-81. TEHIK — Health and Welfare Information Systems Centre. (https://www.tehik.ee/).
-82. National Health Authority, India. Ayushman Bharat Digital Mission. (https://abdm.gov.in/).
-83. Integrated Health Information Platform. (https://ihip.nhp.gov.in/).
-84. Rwanda Health Information Exchange. (https://www.rhie.rw/).
-85. Government of Spain, Ministerio de Sanidad. Ministerio de Sanidad. (https://www.sanidad.gob.es/).
-86. SOMSNS. (https://www.somsns.es/som/).
-87. Journal of Medical Internet Research. 2024:e58933. (https://www.jmir.org/2024/1/e58933).
-88. Generalitat de Catalunya. Salut Pública. (https://salutpublica.gencat.cat/).
-89. Centers for Disease Control and Prevention. Clinical Decision Support for Immunization (CDSi). (https://www.cdc.gov/vaccines/programs/iis/cdsi.html).
-90. Centers for Disease Control and Prevention. National Syndromic Surveillance Program (NSSP). (https://www.cdc.gov/nssp/).
-91. European Centre for Disease Prevention and Control. (https://www.ecdc.europa.eu/).
+76. World Health Organization. ICD API documentation, version 2. (https://icd.who.int/docs/icd-api/APIDoc-Version2/).
+77. World Health Organization. ICD API local deployment. (https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/).
+78. World Health Organization. ICD API FHIR support. (https://icd.who.int/docs/icd-api/ICDAPI-FHIR-Support/).
+79. World Health Organization. ICD-11 Embedded Coding Tool. (https://icd.who.int/docs/icd-api/icd11ect-1.8/EmbeddedCodingTool/).
+80. SNOMED International. Snowstorm. (https://github.com/IHTSDO/snowstorm).
+81. CSIRO. Ontoserver. (https://ontoserver.csiro.au/).
+82. HL7 International. tx.fhir.org. (https://tx.fhir.org/).
+83. openEHR Foundation. openEHR Clinical Knowledge Manager. (https://ckm.openehr.org/ckm/).
+84. Australian Digital Health Agency. My Health Record. (https://www.myhealthrecord.gov.au/).
+85. TEHIK — Health and Welfare Information Systems Centre. (https://www.tehik.ee/).
+86. National Health Authority, India. Ayushman Bharat Digital Mission. (https://abdm.gov.in/).
+87. Integrated Health Information Platform. (https://ihip.nhp.gov.in/).
+88. Rwanda Health Information Exchange. (https://www.rhie.rw/).
+89. Government of Spain, Ministerio de Sanidad. Ministerio de Sanidad. (https://www.sanidad.gob.es/).
+90. SOMSNS. (https://www.somsns.es/som/).
+91. Journal of Medical Internet Research. 2024:e58933. (https://www.jmir.org/2024/1/e58933).
+92. Generalitat de Catalunya. Salut Pública. (https://salutpublica.gencat.cat/).
+93. Centers for Disease Control and Prevention. Clinical Decision Support for Immunization (CDSi). (https://www.cdc.gov/vaccines/programs/iis/cdsi.html).
+94. Centers for Disease Control and Prevention. National Syndromic Surveillance Program (NSSP). (https://www.cdc.gov/nssp/).
+95. European Centre for Disease Prevention and Control. (https://www.ecdc.europa.eu/).
